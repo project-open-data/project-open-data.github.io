@@ -21,6 +21,10 @@ We want to make government more efficient; essentially do more with less.  Gover
 
 APIs have been around since the 1980s, when they were used in hardware and software development.  However, the history of the modern Web API is fairly short -- just a little over ten years.  There are several pioneers of Web APIs, and while they didn't necessarily invent any of the technologies at play here, they did popularize their usage and establish some of the common practices.
 
+### How government agencies are using APIs
+
+DigitalGov University has recorded a [variety of courses](http://www.howto.gov/training/classes#apis-and-data) on how APIs can be used by government organizations and made them available online.
+
 
 ### First Mover
 
