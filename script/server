@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+#kill _site folder
+echo "cleaning up..."
+rm -Rf _site
+
+#server
+echo "Spinnin' up the server..."
+bundle exec "jekyll serve -w -c _config.yml,_config_local.yml"

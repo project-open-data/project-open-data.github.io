@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>{{ site.title }}</title>
+        
+        <meta name="description" content="{{ site.description }}">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="{{ site.root_url }}/assets/css/style.css">
+
+        <script src="{{ site.root_url }}/assets/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+{% capture edit_url %}{{ site.prose_url }}#{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
+    </head>
+    <body class="{{ page.id }}">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+ <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="{{ site.root_url }}/">Project Open Data</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="{{ edit_url }}">Help Improve this Content</a></li>
+              <li><a href="http://github.com/{{ site.org_name }}/{{ site.repo_name }}/commits/{{ site.branch }}">View Revision History</a></li>
+              <li><a href="{{ site.url }}/faq">FAQ</a></li>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+        <div class="container">
+        
+        

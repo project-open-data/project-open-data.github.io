@@ -1,0 +1,48 @@
+[
+    {
+        "title": "Data Catalog",
+        "description": "Version 1.0", 
+        "keyword": "catalog", 
+        "modified": "2013-05-09 06:00:00",
+        "publisher": "US Department of X",
+        "person": "Contact Person",
+        "mbox": "contact.person@agency.gov",
+        "identifier": "1",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "http://agency.gov/data.json",
+                "format": "json"
+            }
+        ]  
+    },
+    {
+        "title": "Public Elementary/Secondary Listing",
+        "description": "The purpose of the CCD nonfiscal surveys is to provide a listing of all schools and agencies providing free public elementary and secondary education, along with basic descriptive statistical information on each school and agency listed. Penalties apply for misuse, seehttp://nces.ed.gov/ncesglobal/data_usage_agreement.aspfor more details.", 
+        "keyword": "education, schools", 
+        "modified": "2011-11-19 00:00:00",
+        "publisher": "US Department of Education",
+        "person": "Open Data Initiative",
+        "mbox": "opendata@ed.gov",
+        "identifier": "ykv5-fn9t",
+        "accessLevel": "public",
+        "dataDictionary": "http://nces.ed.gov/ccd/pdf/INsc09101a.pdf",
+        "distribution": [
+            {
+                "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
+                "format": "csv"
+            }, 
+            {
+                "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.json?accessType=DOWNLOAD", 
+                "format": "json"
+            }, 
+            {
+                "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.xml?accessType=DOWNLOAD", 
+                "format": "xml"
+            }
+        ],
+        "webService": "http://explore.data.gov/api/views/ykv5-fn9t/rows.json", 
+        "license": "Public Domain", 
+        "spatial": "US", 
+        "temporal": "2009-09-01 00:00:00,2010-05-31 00:00:00"    
+    }]

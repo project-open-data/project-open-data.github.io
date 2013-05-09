@@ -1,0 +1,173 @@
+<datasets>
+  <dataset id="1">
+    
+      <attribute rel="dct:title">Office Locations</attribute>
+      
+      <attribute rel="dct:description">A list of the agency's office locations and contact information.</attribute>
+      
+      <attribute rel="dcat:dataDictionary">http://www.agency.gov/data/information/locations</attribute>
+      
+      <attribute rel="dcat:download">http://www.agency.gov/data/raw/locations.zip</attribute>
+      
+      <attribute rel="dcterms:format">csv</attribute>
+      
+      <attribute rel="dcat:keyword">keyword1</attribute>
+      
+      <attribute rel="dcterms:modified">1/1/2013</attribute>
+      
+      <attribute rel="foaf:Organization">Agency</attribute>
+      
+      <attribute rel="foaf:Person">John, Smith</attribute>
+      
+      <attribute rel="foaf:mbox">john.smith@agency.gov</attribute>
+      
+      <attribute rel="dcterms:identifier">1</attribute>
+      
+      <attribute rel="xsd:boolean">true</attribute>
+      
+      <attribute rel="dcat:webService">http://www.agency.gov/data/raw/locations.json</attribute>
+      
+      <attribute rel="dcterms:license">public domain</attribute>
+      
+      <attribute rel="dcterms:spatial">United States</attribute>
+      
+      <attribute rel="dcterms:temporal">today</attribute>
+      
+      <attribute rel="dct:issued">7/9/2012</attribute>
+      
+      <attribute rel="dct:accrualPeriodocity">6 months</attribute>
+      
+      <attribute rel="dcat:language">English</attribute>
+      
+      <attribute rel="dcat:granularity">Address</attribute>
+      
+      <attribute rel="dcat:theme">Energy</attribute>
+      
+      <attribute rel="dcat:distribution">http://www.agency.gov/data/information/locations/document.doc</attribute>
+      
+      <attribute rel="dcat:distribution"></attribute>
+      
+      <attribute rel="dcat:size">44KB</attribute>
+      
+      <attribute rel="foaf:homepage"></attribute>
+      
+      <attribute rel="dcat:feed"></attribute>
+      
+      <attribute rel="dcat:dataQuality">True</attribute>
+      
+  </dataset>
+  <dataset id="2">
+    
+      <attribute rel="dct:title">Database Export</attribute>
+      
+      <attribute rel="dct:description">A full export of the agency's database.</attribute>
+      
+      <attribute rel="dcat:dataDictionary">http://www.agency.gov/data/information/database</attribute>
+      
+      <attribute rel="dcat:download">http://www.agency.gov/data/raw/database.csv</attribute>
+      
+      <attribute rel="dcterms:format">xml</attribute>
+      
+      <attribute rel="dcat:keyword">keyword2</attribute>
+      
+      <attribute rel="dcterms:modified">2/1/2013</attribute>
+      
+      <attribute rel="foaf:Organization">Agency</attribute>
+      
+      <attribute rel="foaf:Person">Jane, Smith</attribute>
+      
+      <attribute rel="foaf:mbox">jane.smith@agency.gov</attribute>
+      
+      <attribute rel="dcterms:identifier">2</attribute>
+      
+      <attribute rel="xsd:boolean">true</attribute>
+      
+      <attribute rel="dcat:webService"></attribute>
+      
+      <attribute rel="dcterms:license">public domain</attribute>
+      
+      <attribute rel="dcterms:spatial">United States</attribute>
+      
+      <attribute rel="dcterms:temporal">2001-current</attribute>
+      
+      <attribute rel="dct:issued">3/1/2012</attribute>
+      
+      <attribute rel="dct:accrualPeriodocity">yearly</attribute>
+      
+      <attribute rel="dcat:language">English</attribute>
+      
+      <attribute rel="dcat:granularity">Station</attribute>
+      
+      <attribute rel="dcat:theme">Education</attribute>
+      
+      <attribute rel="dcat:distribution">http://www.agency.gov/bureau1/document3.doc, http://www.agency.gov/bureau1/document5.txt</attribute>
+      
+      <attribute rel="dcat:distribution"></attribute>
+      
+      <attribute rel="dcat:size">5MB</attribute>
+      
+      <attribute rel="foaf:homepage">http://www.agency.gov/data/information/database</attribute>
+      
+      <attribute rel="dcat:feed">http://www.agency.gov/data/raw/database.rss</attribute>
+      
+      <attribute rel="dcat:dataQuality">True</attribute>
+      
+  </dataset>
+  <dataset id="3">
+    
+      <attribute rel="dct:title">System Data API</attribute>
+      
+      <attribute rel="dct:description">A restful web service for a system's data set from 2012.</attribute>
+      
+      <attribute rel="dcat:dataDictionary">http://www.agency.gov/data/information/system_api</attribute>
+      
+      <attribute rel="dcat:download">http://www.agency.gov/data/raw/system_2012.csv</attribute>
+      
+      <attribute rel="dcterms:format">csv, json</attribute>
+      
+      <attribute rel="dcat:keyword">keyword1, keyword2</attribute>
+      
+      <attribute rel="dcterms:modified">12/15/2012</attribute>
+      
+      <attribute rel="foaf:Organization">Agency</attribute>
+      
+      <attribute rel="foaf:Person">Bill, Smith</attribute>
+      
+      <attribute rel="foaf:mbox">bill.smith@agency.gov</attribute>
+      
+      <attribute rel="dcterms:identifier">3</attribute>
+      
+      <attribute rel="xsd:boolean">true</attribute>
+      
+      <attribute rel="dcat:webService">http://www.agency.gov/data/raw/data_api.json</attribute>
+      
+      <attribute rel="dcterms:license">creative commons Cco</attribute>
+      
+      <attribute rel="dcterms:spatial">United States</attribute>
+      
+      <attribute rel="dcterms:temporal">2012</attribute>
+      
+      <attribute rel="dct:issued">2/15/2013</attribute>
+      
+      <attribute rel="dct:accrualPeriodocity">weekly</attribute>
+      
+      <attribute rel="dcat:language">English</attribute>
+      
+      <attribute rel="dcat:granularity">Individual</attribute>
+      
+      <attribute rel="dcat:theme">Health, Education</attribute>
+      
+      <attribute rel="dcat:distribution">http://www.agency.gov/bureau1/document3.pdf</attribute>
+      
+      <attribute rel="dcat:distribution"></attribute>
+      
+      <attribute rel="dcat:size">300MB</attribute>
+      
+      <attribute rel="foaf:homepage"></attribute>
+      
+      <attribute rel="dcat:feed"></attribute>
+      
+      <attribute rel="dcat:dataQuality">True</attribute>
+      
+  </dataset>
+</datasets>

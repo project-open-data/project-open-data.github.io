@@ -1,0 +1,75 @@
+[
+    {
+        "title": "Data Catalog",
+        "description": "Version 1.0", 
+        "keyword": "catalog", 
+        "modified": "",
+        "publisher": "",
+        "person": "",
+        "mbox": "",
+        "identifier": "",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "",
+                "format": "json"
+            }
+        ]  
+    },
+    {
+        "title": "",
+        "description": "", 
+        "keyword": "", 
+        "modified": "",
+        "publisher": "",
+        "person": "",
+        "mbox": "",
+        "identifier": "",
+        "accessLevel": "",
+        "dataDictionary": "",
+        "distribution": [
+            {
+                "accessURL": "", 
+                "format": "",
+                "size": ""
+            }
+        ],
+        "webService": "", 
+        "license": "", 
+        "spatial": "", 
+        "temporal": ""   
+    },
+    {
+        "title": "",
+        "description": "", 
+        "keyword": "", 
+        "modified": "",
+        "publisher": "",
+        "person": "",
+        "mbox": "",
+        "identifier": "",
+        "accessLevel": "",
+        "dataDictionary": "",
+        "distribution": [
+            {
+                "accessURL": "", 
+                "format": "",
+                "size": ""
+            },
+            {
+                "accessURL": "", 
+                "format": "",
+                "size": ""
+            },
+            {
+                "accessURL": "", 
+                "format": "",
+                "size": ""
+            }
+        ],
+        "webService": "", 
+        "license": "", 
+        "spatial": "", 
+        "temporal": ""    
+    }
+]
