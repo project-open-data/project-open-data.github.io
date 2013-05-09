@@ -23,7 +23,7 @@ This listing can be maintained in a Data Management System (DMS) such as the ope
 * Develop and communicate a clear path for listing newly created or acquired datasets into the enterprise data inventory.
 * The more employees who can contribute to the enterprise data inventory, whether by submitting feedback or by actually being able to log in and update listings in the agency DMS, the more accurate and complete your metadata will be.
 * While it may initially seem that maintaining your agency data inventory in a single spreadsheet is the simplest solution, this is often not the case. A central spreadsheet is difficult for more than one person to maintain, easily leading to errors and omissions.
-* In addition to the required [common core metadata](schema/), work with your agency and topical experts to develop an expanded set of metadata fields that make sense for your vertical. Many already exist; explore [Schema.org](http://www.schema.org) as a starting point.
+* In addition to the required [common core metadata](/schema), work with your agency and topical experts to develop an expanded set of metadata fields that make sense for your vertical. Many already exist; explore [Schema.org](http://www.schema.org) as a starting point.
 * Your agency can and should use this central inventory listing as an internal search tool to increase awareness of data collections already in existence and to prevent duplicative research efforts. For example, a search of this inventory may reveal that the combination of two existing datasets could produce the results sought by a proposed new collection.
 
   
