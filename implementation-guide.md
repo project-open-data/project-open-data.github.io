@@ -59,7 +59,7 @@ While you could manually create this file in a text editor, it is recommended th
 
 ### D) Resources
 
-* [Common Core Metadata](schema/)
+* [Common Core Metadata](/schema)
 
   
 ## 3) Engage with customers to help facilitate and prioritize data release
