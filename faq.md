@@ -30,7 +30,7 @@ This project constitutes a collaborative work ("open source"). Federal employees
 1. Click the "Improve this content" button in the top right corner of any page.
 2. Make changes as you would normally.
 3. Click "Submit."
-4. You change should appear, once approved.
+4. Your change should appear, once approved.
 
 *Note: You will need to [create a free GitHub account](https://github.com/signup/free) if you do not already have one.*
 
@@ -41,7 +41,7 @@ This project constitutes a collaborative work ("open source"). Federal employees
 3. Make changes as you would normally using the tools installed in step #1.
 4. Push the changes back to your fork.
 5. Submit a pull request to this repository.
-6. You change should appear once it's approved.
+6. Your change should appear once it's approved.
 
 *Note: All contributors retain the original copyright to their contribution, but by contributing to this project, you grant a world-wide, royalty-free, perpetual, irrevocable, non-exclusive, transferable license to all users under the terms of the license(s) under which this project is distributed.*
 
