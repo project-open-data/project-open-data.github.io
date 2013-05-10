@@ -1,7 +1,17 @@
 {% include header.html %}            
 
-<h1>{{ page.title }}</h1>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span12">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
 
-{{ content }}
-      
-{% include footer.html %}
+  <div class="row-fluid">
+    <div class="span12">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}  

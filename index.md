@@ -4,9 +4,8 @@ layout: hero
 filename: index.md
 title: Project Open Data
 ---
+##1. Background
 
-#1. Background
--------------
 Data is a valuable national resource and a strategic asset to the U.S. Government, its partners, and the public.  Managing this data as an asset and making it available, discoverable, and usable – [in a word, open](principles/) – not only strengthens our democracy and promotes efficiency and effectiveness in government, but also has the potential to create economic opportunity and improve citizens’ quality of life. 
 
 For example, when the U.S. Government released weather and GPS data to the public, it fueled an industry that today is valued at over $90 billion. Now, weather and mapping tools are ubiquitous and help everyday Americans [navigate their lives](business-case/). 
@@ -16,8 +15,8 @@ The ultimate value of data can often not be predicted. That’s why the U.S. Gov
 The White House developed Project Open Data – this collection of code, tools, and case studies – to help agencies adopt the Open Data Policy and unlock the potential of government data. Project Open Data will evolve over time as a community resource to facilitate broader adoption of open data practices in government. Anyone – government employees, contractors, developers, the general public – can view and contribute. So dive right in and [help to build a better world through the power of open data](governance/). 
 
 
-#2. Definitions
---------------
+##2. Definitions
+
 This section is a list of definitions and principles used to guide the project.
 
 2-1 [Open Data Principles](principles/) - The set of open data principles.
@@ -31,8 +30,8 @@ This section is a list of definitions and principles used to guide the project.
 2-5 [Common Core Metadata](schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.  
 
 
-#3. Implementation Guidance
-----------------
+##3. Implementation Guidance
+
 Implementation guidance for open data practices.  
 
 3-1 [U.S. Government Policy on Open Data](policy-memo/) - Full text of the memorandum.  
@@ -44,8 +43,8 @@ Implementation guidance for open data practices.
 3-4 [Frequently Asked Questions](faq) - A growing list of common questions and answers to facilitate adoption of open data projects.  
 
 
-#4. Tools 
--------------
+##4. Tools 
+
 This section is a list of ready-to-use solutions or tools that will help agencies jump-start their open efforts.  These are real, implementable, coded solutions that were developed to significantly reduce the barrier to implementing open data at your agency.  Many of these tools are hosted at [Labs.Data.gov](http://labs.data.gov) and developers are encouraged to contribute improvements to them.  
 
 4-1 [Database to API](https://github.com/project-open-data/db-to-api) - Dynamically generate RESTful APIs from the contents of a database table. Provides JSON, XML, and HTML. Supports most popular databases. -&nbsp;*[Hosted](http://labs.data.gov/db-to-api/readme.md)*
@@ -65,8 +64,8 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.  
 
 
-#5. Resources
-----------------------
+##5. Resources
+
 This section contains programatic tools, resources, and/or checklists to help programs determine open data requirements.
 
 5-1 [Metadata Resources](metadata-resources/) - 
@@ -84,12 +83,12 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-7 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
 
-5-8 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.  
+5-8 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
 
-
-
-#6. Case Studies
 ----------------
+
+##6. Case Studies
+
 Case studies of novel or best practices from agencies who are leading in open data help others understand the challenges and opportunities for success.
 
 6-1 [Department of Labor API Program](labor-case-study/) - A department perspective on developing APIs for general use and, in particular, building the case for an ecosystem of users by developing SDKs.
