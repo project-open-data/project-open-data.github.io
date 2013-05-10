@@ -14,6 +14,7 @@ The ultimate value of data can often not be predicted. That’s why the U.S. Gov
 
 The White House developed Project Open Data – this collection of code, tools, and case studies – to help agencies adopt the Open Data Policy and unlock the potential of government data. Project Open Data will evolve over time as a community resource to facilitate broader adoption of open data practices in government. Anyone – government employees, contractors, developers, the general public – can view and contribute. So dive right in and [help to build a better world through the power of open data](governance/). 
 
+----------------
 
 ##2. Definitions
 
@@ -29,6 +30,7 @@ This section is a list of definitions and principles used to guide the project.
 
 2-5 [Common Core Metadata](schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.  
 
+----------------
 
 ##3. Implementation Guidance
 
@@ -42,6 +44,7 @@ Implementation guidance for open data practices.
 
 3-4 [Frequently Asked Questions](faq) - A growing list of common questions and answers to facilitate adoption of open data projects.  
 
+----------------
 
 ##4. Tools 
 
@@ -63,6 +66,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.  
 
+----------------
 
 ##5. Resources
 
