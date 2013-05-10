@@ -48,7 +48,7 @@ Implementation guidance for open data practices.
 
 ##4. Tools 
 
-This section is a list of ready-to-use solutions or tools that will help agencies jump-start their open efforts.  These are real, implementable, coded solutions that were developed to significantly reduce the barrier to implementing open data at your agency.  Many of these tools are hosted at [Labs.Data.gov](http://labs.data.gov) and developers are encouraged to contribute improvements to them.  
+This section is a list of ready-to-use solutions or tools that will help agencies jump-start their open efforts.  These are real, implementable, coded solutions that were developed to significantly reduce the barrier to implementing open data at your agency.  Many of these tools are hosted at [Labs.Data.gov](http://labs.data.gov) and developers are encouraged to contribute improvements to them and contribute other tools which help us implement the spirit of Project Open Data.
 
 4-1 [Database to API](https://github.com/project-open-data/db-to-api) - Dynamically generate RESTful APIs from the contents of a database table. Provides JSON, XML, and HTML. Supports most popular databases. -&nbsp;*[Hosted](http://labs.data.gov/db-to-api/readme.md)*
  
