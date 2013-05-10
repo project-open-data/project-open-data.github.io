@@ -156,7 +156,6 @@ Collect or create information (data) in a way that supports downstream informati
 * [NIST FIPS Publication 199](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf)
 * [Controlled Unclassified Information requirements](http://www.archives.gov/cui/)
 * [Mosaic Effect](http://www.computerworld.com/s/article/91109/Sidebar_The_Mosaic_Effect)
-* [W3C Cookbook for Open Government Linked Data](http://www.w3.org/2011/gld/wiki/Linked_Data_Cookbook)
 
   
 ## 7) Release an Existing Data Collection as Open Data
