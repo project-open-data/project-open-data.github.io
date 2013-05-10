@@ -6,7 +6,7 @@ repo_name: project-open-data.github.io
 branch: master
 
 #global settings, no need to change these
-root_url: 
+root_url: http://project-open-data.github.io
 org_name: project-open-data
 prose_url: http://project-open-data.github.io/contribute/
 
