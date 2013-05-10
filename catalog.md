@@ -7,7 +7,7 @@ filename: catalog.md
 
 This section provides further guidance and explanation for implementing the agency data catalog.    
 
-Data Requirements
+/Data Requirements
 ------------------
 
 The Open Data Policy requires agencies to list and describe all agency data that *can* be made publicly available (i.e. there are no valid restrictions to release) in a publicly available open data catalog with [common core metadata](http://project-open-data.github.io/schema/).  It further requires the catalog to be human-readable and machine-readable.  This guidance describes to agencies steps for implementing this portion of the policy. 
