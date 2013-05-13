@@ -66,6 +66,8 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.  
 
+4-9[ESRI2Open]()http://project-open-data.github.com/esri2open) - A tool which converts spatial and non-spatial data form ESRI only formats to Open Data formats, CSV, Json, and GeoJSOn, making them more a part of the www ecology.
+
 ----------------
 
 ##5. Resources
