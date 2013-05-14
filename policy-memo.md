@@ -6,8 +6,8 @@ filename: policy-memo.md
 id: policy-memo
 ---
 
-# &nbsp; {.hide}
-## &nsp; {.hide}
+# &nbsp; {.hidden}
+## &nbsp; {.hidden}
 
 **From:**
 

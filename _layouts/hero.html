@@ -1,10 +1,22 @@
 {% include header.html %}            
 
-<div class="hero-unit">
-    <h1>{{ page.title }} </h1>
-    <p>{{ page.description }}</p>
+<div class="hero-unit home">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <h1>{{ site.title }}</h1>
+        <h2>{{ site.desc }}</h2>
+      </div>
+    </div>
+  </div>
 </div>
 
-{{ content }}
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span12">
+      {{ content }}
+    </div>
+  </div>
+</div>
       
 {% include footer.html %}

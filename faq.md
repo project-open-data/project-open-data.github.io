@@ -4,7 +4,6 @@ title: Frequently Asked Questions
 permalink: /faq/
 filename: faq.md
 ---
-
 This section is a growing list of common questions and answers to support agencies when implementing the Open Data Policy.  
 
 ## Project Open Data
