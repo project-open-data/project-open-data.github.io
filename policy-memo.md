@@ -6,8 +6,8 @@ filename: policy-memo.md
 id: policy-memo
 ---
 
-# &nbsp; {.hidden}
-## &nbsp; {.hidden}
+# &nbsp; {.hide}
+## &nsp; {.hide}
 
 **From:**
 
@@ -22,17 +22,17 @@ id: policy-memo
 * Table of Contents
 {:toc}
 
-Information is a valuable national resource and a strategic asset to the Federal Government, its partners, and the public. In order to ensure that the Federal Government is taking full advantage of its information resources, executive departments and agencies (hereafter referred to as "agencies") must manage information as an asset throughout its life cycle to promote openness and interoperability, and properly safeguard systems and information. Managing government information as an asset will increase operational efficiencies, reduce costs, improve services, support mission needs, safeguard personal information, and increase public access to valuable government information. 
+Information is a valuable national resource and a strategic asset to the federal government, its partners, and the public. In order to ensure that the federal government is taking full advantage of its information resources, executive departments and agencies (hereafter referred to as "agencies") must manage information as an asset throughout its life cycle to promote openness and interoperability, and properly safeguard systems and information. Managing government information as an asset will increase operational efficiencies, reduce costs, improve services, support mission needs, safeguard personal information, and increase public access to valuable government information. 
 
-Making information resources accessible, discoverable, and usable by the public can help fuel entrepreneurship, innovation, and scientific discovery &#8211; all of which improve Americans' lives and contribute significantly to job creation. For example, decades ago, the Federal Government made both weather data and the Global Positioning System (GPS) freely available to anyone. Since then, American entrepreneurs and innovators have used these resources to create navigation systems, weather newscasts and warning systems, location-based applications, precision farming tools, and much more.
+Making information resources accessible, discoverable, and usable by the public can help fuel entrepreneurship, innovation, and scientific discovery &#8211; all of which improve Americans' lives and contribute significantly to job creation. For example, decades ago, the federal government made both weather data and the Global Positioning System (GPS) freely available to anyone. Since then, American entrepreneurs and innovators have used these resources to create navigation systems, weather newscasts and warning systems, location-based applications, precision farming tools, and much more.
 
 Pursuant to the Executive Order of May 9, 2013, *Making Open and Machine Readable the New Default for Government Information*, this Memorandum establishes a framework to help institutionalize the principles of effective information management at each stage of the information's life cycle to promote interoperability and openness. Whether or not particular information can be made public, agencies can apply this framework to all information resources to promote efficiency and produce value. 
 
 Specifically, this Memorandum requires agencies to collect or create information in a way that supports downstream information processing and dissemination activities. This includes using machine-readable and open formats, data standards, and [common core and extensible metadata](schema.md) for all new information creation and collection efforts. It also includes agencies ensuring information stewardship through the use of open licenses and review of information for privacy, confidentiality, security, or other restrictions to release. Additionally, it involves agencies building or modernizing information systems in a way that maximizes interoperability and information accessibility, maintains internal and external data asset inventories, enhances information safeguards, and clarifies information management responsibilities. 
 
-The Federal Government has already made significant progress in improving its management of information resources to increase interoperability and openness. The President's Memorandum on *Transparency and Open Government*[^1] instructed agencies to take specific actions to implement the principles of transparency, participation, and collaboration, and the Office of Management and Budget's (OMB) *Open Government Directive*[^2] required agencies to expand access to information by making it available online in open formats. OMB has also developed policies to help agencies incorporate sound information practices, including OMB Circular A-130[^3] and OMB Memorandum M-06-02.[^4] In addition, the Federal Government launched [Data.gov](http://www.data.gov), an online platform designed to increase access to Federal datasets. The publication of thousands of data assets through [Data.gov](http://www.data.gov) has enabled the development of numerous products and services that benefit the public. 
+The federal government has already made significant progress in improving its management of information resources to increase interoperability and openness. The President's Memorandum on *Transparency and Open Government*[^1] instructed agencies to take specific actions to implement the principles of transparency, participation, and collaboration, and the Office of Management and Budget's (OMB) *Open Government Directive*[^2] required agencies to expand access to information by making it available online in open formats. OMB has also developed policies to help agencies incorporate sound information practices, including OMB Circular A-130[^3] and OMB Memorandum M-06-02.[^4] In addition, the Federal Government launched [Data.gov](http://www.data.gov), an online platform designed to increase access to Federal datasets. The publication of thousands of data assets through [Data.gov](http://www.data.gov) has enabled the development of numerous products and services that benefit the public. 
 
-To help build on these efforts, the President issued a Memorandum on May 23, 2012 entitled *Building a 21st Century Digital Government*[^5] that charged the Federal Chief Information Officer (CIO) with developing and implementing a comprehensive government-wide strategy to deliver better digital services to the American people. The resulting *Digital Government Strategy*[^6] outlined an information-centric approach to transform how the Federal Government builds and delivers digital services, and required OMB to develop guidance to increase the interoperability and openness of government information.
+To help build on these efforts, the President issued a Memorandum on May 23, 2012 entitled *Building a 21st Century Digital Government*[^5] that charged the Federal Chief Information Officer (CIO) with developing and implementing a comprehensive government-wide strategy to deliver better digital services to the American people. The resulting *Digital Government Strategy*[^6] outlined an information-centric approach to transform how the federal government builds and delivers digital services, and required OMB to develop guidance to increase the interoperability and openness of government information.
 
 This Memorandum is designed to be consistent with existing requirements in the Paperwork Reduction Act,[^7] the E-Government Act of 2002,[^8] the Privacy Act of 1974,[^9] the Federal Information Security Management Act of 2002 (FISMA),[^10] the Confidential Information Protection and Statistical Efficiency Act of 2002 (CIPSEA),[^11] the Freedom of Information Act,[^12] the Information Quality Act,[^13] the Federal Records Act,[^14] and existing OMB and Office of Science and Technology Policy (OSTP) guidance. 
 
@@ -50,7 +50,7 @@ This attachment provides definitions and implementation guidance for M-13-13, *O
 
 **Fair Information Practice Principles**: The term "Fair Information Practice Principles" refers to the eight widely accepted principles for identifying and mitigating privacy impacts in information systems, programs and processes, delineated in the National Strategy for Trusted Identities in Cyberspace.[^16]
 
-**Government information:** As defined in OMB Circular A-130, "government information" means information created, collected, processed, disseminated, or disposed of, by or for the Federal Government.
+**Government information:** As defined in OMB Circular A-130, "government information" means information created, collected, processed, disseminated, or disposed of, by or for the federal government.
 
 **Information:** As defined in OMB Circular A-130, the term "information" means any communication or representation of knowledge such as facts, data, or opinions in any medium or form, including textual, numerical, graphic, cartographic, narrative, or audiovisual forms. 
 
@@ -76,7 +76,7 @@ This attachment provides definitions and implementation guidance for M-13-13, *O
 
 * *Managed Post-Release.* A point of contact must be designated to assist with data use and to respond to complaints about adherence to these open data requirements. 
 
-* *Project Open Data:* "Project Open Data," a new OMB and OSTP resource, is an online repository of tools, best practices, and schema to help agencies adopt the framework presented in this guidance. Project Open Data can be accessed at [project-open-data.github.io](http://project-open-data.github.io).[^18] Project Open Data will evolve over time as a community resource to facilitate adoption of open data practices. The repository includes definitions, code, checklists, case studies, and more, and enables collaboration across the Federal Government, in partnership with public developers, as applicable. Agencies can visit Project Open Data for a more comprehensive glossary of terms related to open data.
+* *Project Open Data:* "Project Open Data," a new OMB and OSTP resource, is an online repository of tools, best practices, and schema to help agencies adopt the framework presented in this guidance. Project Open Data can be accessed at [project-open-data.github.io](http://project-open-data.github.io).[^18] Project Open Data will evolve over time as a community resource to facilitate adoption of open data practices. The repository includes definitions, code, checklists, case studies, and more, and enables collaboration across the federal government, in partnership with public developers, as applicable. Agencies can visit Project Open Data for a more comprehensive glossary of terms related to open data.
 
 ### II. Scope
 
@@ -84,7 +84,7 @@ The requirements in part III, sections 1 and 2 of this Memorandum apply to all n
 
 ### III. Policy Requirements
 
-Agencies management of information resources must begin at the earliest stages of the planning process, well before information is collected or created. Early strategic planning will allow the Federal Government to design systems and develop processes that unlock the full value of the information, and provide a foundation from which agencies can continue to manage information throughout its life cycle.
+Agencies management of information resources must begin at the earliest stages of the planning process, well before information is collected or created. Early strategic planning will allow the federal government to design systems and develop processes that unlock the full value of the information, and provide a foundation from which agencies can continue to manage information throughout its life cycle.
 
 Agencies shall take the following actions to improve the management of information resources throughout the information's life cycle and reinforce the government's presumption in favor of openness:
 
@@ -279,4 +279,4 @@ Nothing in this Memorandum shall be construed to affect existing requirements fo
 
 [^40]: 18 USC § 1905. 
 
-[^41]: *See* 13 U.S.C. §§ 8, 9 and 301(g) and 22 U.S.C. § 3104. 
+[^41]: *See* 13 U.S.C. §§ 8, 9 and 301(g) and 22 U.S.C. § 3104.
