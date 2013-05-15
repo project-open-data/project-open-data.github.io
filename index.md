@@ -48,7 +48,7 @@ Implementation guidance for open data practices.
 
 ##4. Tools 
 
-This section is a list of ready-to-use solutions or tools that will help agencies jump-start their open efforts.  These are real, implementable, coded solutions that were developed to significantly reduce the barrier to implementing open data at your agency.  Many of these tools are hosted at [Labs.Data.gov](http://labs.data.gov) and developers are encouraged to contribute improvements to them.  
+This section is a list of ready-to-use solutions or tools that will help agencies jump-start their open efforts.  These are real, implementable, coded solutions that were developed to significantly reduce the barrier to implementing open data at your agency.  Many of these tools are hosted at [Labs.Data.gov](http://labs.data.gov) and developers are encouraged to contribute improvements to them and contribute other tools which help us implement the spirit of Project Open Data.
 
 4-1 [Database to API](https://github.com/project-open-data/db-to-api) - Dynamically generate RESTful APIs from the contents of a database table. Provides JSON, XML, and HTML. Supports most popular databases. -&nbsp;*[Hosted](http://labs.data.gov/db-to-api/readme.md)*
  
@@ -65,6 +65,8 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 4-7 [JSON Validator](https://github.com/project-open-data/json-validator) - Validation tool to confirm the formatting of agency.gov/data catalog files. -&nbsp;*[Hosted](http://project-open-data.github.com/json-validator/)*
 
 4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.  
+
+4-9 [ESRI2Open](http://github.com/project-open-data/esri2open) - A tool which converts spatial and non-spatial data form ESRI only formats to the Open Data formats, CSV, Json, or GeoJSOn, making them more a part of the www ecology.
 
 ----------------
 
