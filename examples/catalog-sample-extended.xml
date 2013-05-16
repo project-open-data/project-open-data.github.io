@@ -17,7 +17,7 @@
       
       <attribute rel="foaf:Organization">Agency</attribute>
       
-      <attribute rel="foaf:Person">John, Smith</attribute>
+      <attribute rel="dcat:contactPoint">John, Smith</attribute>
       
       <attribute rel="foaf:mbox">john.smith@agency.gov</attribute>
       
@@ -74,7 +74,7 @@
       
       <attribute rel="foaf:Organization">Agency</attribute>
       
-      <attribute rel="foaf:Person">Jane, Smith</attribute>
+      <attribute rel="dcat:contactPoint">Jane, Smith</attribute>
       
       <attribute rel="foaf:mbox">jane.smith@agency.gov</attribute>
       
@@ -131,7 +131,7 @@
       
       <attribute rel="foaf:Organization">Agency</attribute>
       
-      <attribute rel="foaf:Person">Bill, Smith</attribute>
+      <attribute rel="dcat:contactPoint">Bill, Smith</attribute>
       
       <attribute rel="foaf:mbox">bill.smith@agency.gov</attribute>
       

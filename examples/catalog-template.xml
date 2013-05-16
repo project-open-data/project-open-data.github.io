@@ -17,7 +17,7 @@
       
       <attribute rel="foaf:Organization"></attribute>
       
-      <attribute rel="foaf:Person"></attribute>
+      <attribute rel="dcat:contactPoint"></attribute>
       
       <attribute rel="foaf:mbox"></attribute>
       
@@ -44,7 +44,7 @@
       
       <attribute rel="foaf:Organization"></attribute>
       
-      <attribute rel="foaf:Person"></attribute>
+      <attribute rel="dcat:contactPoint"></attribute>
       
       <attribute rel="foaf:mbox"></attribute>
       
