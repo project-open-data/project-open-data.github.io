@@ -2,7 +2,7 @@
 
 ## How to Contribute
 
-This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing. For more information, please see [the faq](faq.md)
+This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing. For more information, please see [the faq](/faq/)
 
 Contributions can be made, primarily in two ways:
 

@@ -23,7 +23,7 @@ This listing can be maintained in a Data Management System (DMS) such as the ope
 * Develop and communicate a clear path for listing newly created or acquired datasets into the enterprise data inventory.
 * The more employees who can contribute to the enterprise data inventory, whether by submitting feedback or by actually being able to log in and update listings in the agency DMS, the more accurate and complete your metadata will be.
 * While it may initially seem that maintaining your agency data inventory in a single spreadsheet is the simplest solution, this is often not the case. A central spreadsheet is difficult for more than one person to maintain, easily leading to errors and omissions.
-* In addition to the required [common core metadata](/schema), work with your agency and topical experts to develop an expanded set of metadata fields that make sense for your vertical. Many already exist; explore [Schema.org](http://www.schema.org) as a starting point.
+* In addition to the required [common core metadata](/schema/), work with your agency and topical experts to develop an expanded set of metadata fields that make sense for your vertical. Many already exist; explore [Schema.org](http://www.schema.org) as a starting point.
 * Your agency can and should use this central inventory listing as an internal search tool to increase awareness of data collections already in existence and to prevent duplicative research efforts. For example, a search of this inventory may reveal that the combination of two existing datasets could produce the results sought by a proposed new collection.
 
   
@@ -51,7 +51,7 @@ While you could manually create this file in a text editor, it is recommended th
 
 ### C) Best Practices and Examples
 
-* Using the [common core metadata](http://project-open-data.github.io/schema) to describe your enterprise data inventory makes it very simple to use that inventory for your public inventory.
+* Using the [common core metadata](http://project-open-data.github.io/schema/) to describe your enterprise data inventory makes it very simple to use that inventory for your public inventory.
 * A detailed and descriptive title, description, and set of keywords for each dataset is the difference between customers finding your data and no one finding your data. Since agency data catalogs are harvested and searchable on Data.gov, accurate and thorough metadata is the best way to connect customers with your data.
 * Consider including restricted and non-public datasets in your public data inventory listing. Remember that this file contains metadata about the data and not the data themselves.
 * When you include restricted datasets in your public data inventory, include specific information on how customers can request and qualify for access to those data.
@@ -59,7 +59,7 @@ While you could manually create this file in a text editor, it is recommended th
 
 ### D) Resources
 
-* [Common Core Metadata](/schema)
+* [Common Core Metadata](/schema/)
 
   
 ## 3) Engage with customers to help facilitate and prioritize data release
@@ -132,7 +132,7 @@ Collect or create information (data) in a way that supports downstream informati
 
 * Collect data electronically whenever possible.
 * Choose or build data collections tool that:  
-    - Export data in machine-readable formats. Consult [this list](faq.md) for suggested machine-readable formats.  
+    - Export data in machine-readable formats. Consult [this list](/faq/) for suggested machine-readable formats.  
     - Use existing open data standards, if available.  
 * Apply an open license, in consultation with best practices, to information as it is collected or created so that if data are made public there are no restrictions on the use or re-use of these data.
 * Collect the minimum amount of data needed to achieve your stated goals, in order to avoid having to remove additional personally-identifiable information later in the collection or release process.
@@ -163,7 +163,7 @@ Collect or create information (data) in a way that supports downstream informati
 ### A) Minimum Required for Compliance
 
 * Review information for privacy, confidentiality pledge, security, and other restrictions to release.
-* Make the data available in a machine-readable format. See [this list](http://project-open-data.github.io/faq.md) of commonly accepted machine-readable formats. Where appropriate, provide access to the data via an API.
+* Make the data available in a machine-readable format. See [this list](/faq/) of commonly accepted machine-readable formats. Where appropriate, provide access to the data via an API.
 * Post the data files in an Internet-accessible location, listing this location the dataset’s entry in your agency inventory listing.
 
 ### B) Tools
