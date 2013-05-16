@@ -74,26 +74,26 @@ REST with JSON has become the favorite of developers and API owners, because it 
 
 ### When Things Go Wrong — Error Handling
 
-One of the most important issues to remember in API strategy is, developers need to handle what happens when an error occurs; otherwise, access to data fails and subsequently so does the application.  For the purposes of the service framework, an error is defined as an unexpected behavior that occurred during the process of a request. It's important to note that what might be considered an "error" can often be an expected behavior. 
+One of the most important issues to remember in API strategy is, developers need to handle what happens when an error occurs; otherwise, access to data fails and subsequently so does the application.  For the purposes of the service framework, an error is defined as an unexpected behavior that occurred during the process of a request. It’s important to note that what might be considered an "error" can often be an expected behavior. 
 For instance, a search operation returning no results (a blank object) and an HTTP status 200 OK code might be construed as an error, but in reality this is not outside the realm of expected normal operation.
 
 So really when we say errors we mean bad things happen like a database server goes down or a required parameter wasn't passed to a URI. Ultimately it is the responsibility of your code to anticipate and appropriately handle errors. 
 
 ### Developing an API Ecosystem
  
-An API starts with the desire to share data or resources that a company offers.  It's built with technologies like REST, XML, and JSON, and supported through documentation, along with a handful of code samples to show how to use it.
+An API starts with the desire to share data or resources that a company offers.  It’s built with technologies like REST, XML, and JSON, and supported through documentation, along with a handful of code samples to show how to use it.
 
-An API and its supporting developer area are created.  And then, what's next?  How does a simple API area build community?  How does it evolve into a thriving ecosystem like Facebook’s of Foursquare's?
+An API and its supporting developer area are created.  And then, what’s next?  How does a simple API area build community?  How does it evolve into a thriving ecosystem like Facebook’s or Foursquare’s?
 
 It all starts with developers.  Giving developers a self-service, resource-rich environment where they have the spotlight and a voice that will encourage them in turn to contribute to the API community.
 
-An API owner has to support its API's community, be proactive about reaching out to its community and know what it needs.  
+An API owner has to support its API’s community, be proactive about reaching out to its community and know what it needs.  
 
 Resources for developers need to be abundant and well organized.  Common resources like blogs, forum, and FAQs are necessary.   Tutorials, case studies and "How To’s" can take things even further.  
 
 Support and resources can create a positive feedback loop among developers and encourage activity that will ideally spread to other users.
 
-Developers can’t be expected to visit an API area regularly, so an API community needs to extend its reach to existing social network and developer communities including Twitter, LinkedIn, Github, and Stack Exchange.
+Developers can’t be expected to visit an API area regularly, so an API community needs to extend its reach to existing social network and developer communities including Twitter, LinkedIn, GitHub, and Stack Exchange.
 
 Even more than just a presence on these social networks, an API needs to have an offline presence too -- something that can be accomplished by attending conferences, meet-ups, and hackathons, for example.   These activities will only serve to strengthen the API community.
 

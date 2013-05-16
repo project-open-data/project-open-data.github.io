@@ -86,7 +86,7 @@ Create a process to solicit feedback from customers about existing and potential
 
 ### A) Minimum Required for Compliance
 
-Ensure your agency CIO is positioned and authorized to implement the requirements of this Memorandum, as per the Clinger-Cohen Act of 1996, in coordination with the agency's Chief Acquisition Officer, Chief Financial Officer, Chief Technology Officer, Senior Agency Official for Geospatial Information, Senior Agency Official for Privacy (SAOP), Chief Information Security Officer (CISO), Senior Agency Official for Records Management, and Chief Freedom of Information Act (FOIA) Officer.
+Ensure your agency CIO is positioned and authorized to implement the requirements of this Memorandum, as per the Clinger-Cohen Act of 1996, in coordination with the agency’s Chief Acquisition Officer, Chief Financial Officer, Chief Technology Officer, Senior Agency Official for Geospatial Information, Senior Agency Official for Privacy (SAOP), Chief Information Security Officer (CISO), Senior Agency Official for Records Management, and Chief Freedom of Information Act (FOIA) Officer.
 
 Ensure there is also someone in your agency who is, more specifically, responsible for the promotion of efficient and effective data release practices across the agency. 
 

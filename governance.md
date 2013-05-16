@@ -39,7 +39,7 @@ Ultimately? You. While the White House founded and continues to oversee the proj
 
 At the onset, the General Services Administration is here to provide daily oversight and support, but over time, it is our vision that contributors both inside and outside of government can be empowered to take on additional leadership roles.  
 
-**Can I use the project's content or source code elsewhere?**  
+**Can I use the project’s content or source code elsewhere?**  
 The project [as originally published](http://project-open-data.github.io/) constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 USC § 105. Subsequent contributions by members of the public, however, retain their original copyright.
 In order to better facilitate collaboration, the content of this project is licensed under the [Creative Commons 3.0 License](http://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT License](http://opensource.org/licenses/mit-license.php).
 

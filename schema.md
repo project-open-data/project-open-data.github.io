@@ -20,12 +20,12 @@ What to Document -- Datasets and APIs
 
 APIs allow developers (both internal to the agency and the public) to dynamically query a dataset. For example, a dataset [of farmers markets](https://explore.data.gov/Agriculture/Farmers-Markets-Geographic-Data/wfna-38ey) may be made available for download as a single file (e.g., a CSV), or may be made available to developers as an API, such that a developer could provide the agency with a ZIP Code, and retrieve a list of farmers markets in that area.
 
-The catalog file should list all of an agency's datasets that can be made public, regardless of form -- this includes raw datasets and APIs.  Use **Endpoint** to indicate which datasets offer dynamic APIs (see below for more information on Common Core and Extensional metadata elements).
+The catalog file should list all of an agency’s datasets that can be made public, regardless of form -- this includes raw datasets and APIs.  Use **Endpoint** to indicate which datasets offer dynamic APIs (see below for more information on Common Core and Extensional metadata elements).
 
 
 Metadata File Format --  JSON
 ---------------------------------------
-The [Implemention Guidance](http://project-open-data.github.io/implementation-guide/) available as a part of Project Open Data describes Agency requirements for the development of metadata as per the Open Data Policy.  A quick primer on the file format involved:
+The [Implementation Guidance](http://project-open-data.github.io/implementation-guide/) available as a part of Project Open Data describes Agency requirements for the development of metadata as per the Open Data Policy.  A quick primer on the file format involved:
 
 [JSON](http://www.json.org) is a lightweight data-exchange format that is very easy to read, parse and generate.  Based on a subset of the JavaScript programming language, JSON is a text format that is optimized for data interchange.  JSON is built on two structures: (1) a collection of name/value pairs; and (2) an ordered list of values.  
 
@@ -46,8 +46,8 @@ Description         | Human-readable description (e.g., an abstract) with suffic
 Tags                | Tags (or keywords) help users discover your dataset, please include terms that would be used by technical and non-technical users.             | keyword        
 Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        | modified        
 Publisher           | The publishing agency.                                                                                                                         | publisher    
-Contact Name        | Contact person's name for the asset.                                                                                                           | person         
-Contact Email        | Contact person's email address. 			           	                                                                                             | mbox	       
+Contact Name        | Contact person’s name for the asset.                                                                                                           | person         
+Contact Email        | Contact person’s email address. 			           	                                                                                             | mbox	       
 Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 | identifier            
 Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: Public (is or *could be* made publicly available), Restricted (available under certain conditions), or Private (never able to be made publicly available)  | accessLevel          
 
@@ -81,7 +81,7 @@ Release Date        | Date of formal issuance.                                  
 Frequency           | Frequency with which dataset is published.                                                                                                    | accrualPeriodicity    
 Language            | The language of the dataset.                                                                                                                  | language              
 Granularity         | Level of granularity of the dataset.                                                                                                          | granularity           
-Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             | dataQuality          
+Data Quality        | Whether the dataset meets the agency’s Information Quality Guidelines (true/false).                                                                                                             | dataQuality          
 Category            | Main thematic category of the dataset.                                                                                                        | theme                 
 Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references            
 Size                | The size of the downloadable dataset.                                                                                                         | size                  
@@ -189,7 +189,7 @@ Field       | title
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String
-**Usage Notes** | This field allows third parties to maintain a consistent record for datasets even if title or URLs are updated. Agencies may integrate an existing system for maintaining unique identifiers or enter arbitrary characters for this field. However, each identifier **must** be unique across the agency's catalog and remain fixed. Characters should be alphanumeric.
+**Usage Notes** | This field allows third parties to maintain a consistent record for datasets even if title or URLs are updated. Agencies may integrate an existing system for maintaining unique identifiers or enter arbitrary characters for this field. However, each identifier **must** be unique across the agency’s catalog and remain fixed. Characters should be alphanumeric.
 **Example** |  `{"identifier":"1344"}`
 
 {.table .table-striped}
@@ -327,7 +327,7 @@ Field       | title
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | URL
-**Usage Notes** | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users should be directed to for all resources tied to the dataset.  This allows agencies to better specify what a visitor receives after selecting one of the agency's datasets on Data.gov or in third-party mashups.
+**Usage Notes** | This field is not intended for an agency’s homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users should be directed to for all resources tied to the dataset.  This allows agencies to better specify what a visitor receives after selecting one of the agency’s datasets on Data.gov or in third-party mashups.
 **Example** |  `{"landingPage":"http://www.agency.gov/vegetables"}`
 
 {.table .table-striped}
@@ -348,7 +348,7 @@ To that end, our JSON key names are directly drawn from [DCAT](http://www.w3.org
 
 We added the new **accessLevel** field to help easily sort datasets into our three existing categories: public, restricted, and private. This field means an agency can run a basic filter against its enterprise data catalog to generate a public-facing list of datasets that are, or *could one day be*, made publicly available (or, in the case of restricted data, available under certain conditions). This field also makes it easy for anyone to generate a list of datasets that *could* be made available but have not yet been released by filtering **accessLevel** to *public* and **accessURL** to *blank*.
 
-With respect to [dcat:dataQuality](http://www.w3.org/TR/vocab-dcat/#property--data-quality), we intentionally did **not** use this field and instead chose a boolean. At the time of this memo's release, DCAT had no specific guidance on the use of this field, and we actually do: whether or not the data meets an agency’s Information Quality Guidelines.
+With respect to [dcat:dataQuality](http://www.w3.org/TR/vocab-dcat/#property--data-quality), we intentionally did **not** use this field and instead chose a boolean. At the time of this memo’s release, DCAT had no specific guidance on the use of this field, and we actually do: whether or not the data meets an agency’s Information Quality Guidelines.
 
 Additional Information
 ----------------------

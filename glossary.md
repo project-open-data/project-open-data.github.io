@@ -57,7 +57,7 @@ A hub for data discovery which provides a common location that lists and links t
 
 ### Dataset
 
-A dataset is an organized collection of data. The most basic representation of a dataset is data elements presented in tabular form. Each column represents a particular variable. Each row corresponds to a given value of that column's variable. A dataset may also present information in a variety of non-tabular formats, such as an extensible mark-up language (XML) file, a geospatial data file, or an image file, etc.  —*[source](http://www.data.gov/glossary)*
+A dataset is an organized collection of data. The most basic representation of a dataset is data elements presented in tabular form. Each column represents a particular variable. Each row corresponds to a given value of that column’s variable. A dataset may also present information in a variety of non-tabular formats, such as an extensible mark-up language (XML) file, a geospatial data file, or an image file, etc.  —*[source](http://www.data.gov/glossary)*
 
 ### /Developer page
 
@@ -137,7 +137,7 @@ A special kind of variable, used in a subroutine to refer to one of the pieces o
 
 ### RDF
 
-Resource Description Framework - A family of specifications for a metadata model.  The RDF family of specifications is maintained by the World Wide Web Consortium (W3C).  The RDF metadata model is based upon the idea of making statements about resources in the form of a subject-predicate-object expression...and is a major component in what is proposed by the W3C’s Semantic Web activitiy: an evolutionary stage of the World Wide Web in which automated software can store, exchange, and utilize metadata about the vast resources of the Web, in turn enabling users to deal with those resources with greater efficiency and certainty.  RDF’s simple data model and ability to model disparate, abstract concepts has also led to its increasing use in knowledge management applications unrelated to Semantic Web activity. —*[source](http://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/DRM_2_0_Final.pdf)*
+Resource Description Framework - A family of specifications for a metadata model.  The RDF family of specifications is maintained by the World Wide Web Consortium (W3C).  The RDF metadata model is based upon the idea of making statements about resources in the form of a subject-predicate-object expression...and is a major component in what is proposed by the W3C’s Semantic Web activity: an evolutionary stage of the World Wide Web in which automated software can store, exchange, and utilize metadata about the vast resources of the Web, in turn enabling users to deal with those resources with greater efficiency and certainty.  RDF’s simple data model and ability to model disparate, abstract concepts has also led to its increasing use in knowledge management applications unrelated to Semantic Web activity. —*[source](http://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/DRM_2_0_Final.pdf)*
 
 ### REST 
 
@@ -171,7 +171,7 @@ A specification and complete framework implementation for describing, producing,
 
 ### Terms of Service 
 
-Terms of Service provide a legal framework for developers to operate within. They set the stage for the business development relationships that will occur within an API ecosystem. Terms of Service should protect the API owner's company, assets and brand, but should also provide assurances for developers who are building businesses on top of an API. —*[source](http://apievangelist.com/buildingblocks/terms_of_use__conditions.php)*
+Terms of Service provide a legal framework for developers to operate within. They set the stage for the business development relationships that will occur within an API ecosystem. Terms of Service should protect the API owner’s company, assets and brand, but should also provide assurances for developers who are building businesses on top of an API. —*[source](http://apievangelist.com/buildingblocks/terms_of_use__conditions.php)*
 
 ### TSV 
 
@@ -179,7 +179,7 @@ A simple text format for a database table. Each record in the table is one line 
 
 ### Unstructured Data 
 
-Data that is more free-form, such as multimedia files, images, sound files, or unstructured text. Unstructured data does not necessarily follow any format or hierarchal sequence, nor does it follow any relational rules.  Unstructured data refers to masses of (usually) computerized information which do not have a data structure which is easily readable by a machine. Examples of unstructured data may include audio, video and unstructured text such as the body of an email or word processor document. Data mining techniques are used to find patterns in, or otherwise interpret, this information. Merrill Lynch estimates that more than 85 percent of all business information exists as unstructured data – commonly appearing in e-mails, memos, notes fromcall centers and support operations, news, user groups, chats, reports, letters, surveys, white papers, marketing material, research, presentations, and Web pages (“The Problem with Unstructured Data.”) —*[source](http://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/DRM_2_0_Final.pdf)*
+Data that is more free-form, such as multimedia files, images, sound files, or unstructured text. Unstructured data does not necessarily follow any format or hierarchical sequence, nor does it follow any relational rules.  Unstructured data refers to masses of (usually) computerized information which do not have a data structure which is easily readable by a machine. Examples of unstructured data may include audio, video and unstructured text such as the body of an email or word processor document. Data mining techniques are used to find patterns in, or otherwise interpret, this information. Merrill Lynch estimates that more than 85 percent of all business information exists as unstructured data – commonly appearing in e-mails, memos, notes from call centers and support operations, news, user groups, chats, reports, letters, surveys, white papers, marketing material, research, presentations, and Web pages (“The Problem with Unstructured Data.”) —*[source](http://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/DRM_2_0_Final.pdf)*
 
 ### Web Service
 
