@@ -283,13 +283,13 @@ Field       | title
 **Example** |  `{"dataQuality":"true"}`
 
 {.table .table-striped}
-**Field** | **category**
+**Field** | **theme**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
 **Accepted Values** | String
 **Usage Notes** | Separate multiple categories with a comma. Could include [ISO Topic Categories](http://www.isotopicmaps.org/).  
-**Example** |  `{"category":"vegetables"}`
+**Example** |  `{"theme":"vegetables"}`
 
 {.table .table-striped}
 **Field** | **references**
