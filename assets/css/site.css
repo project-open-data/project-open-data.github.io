@@ -16,6 +16,7 @@ h6 {
 h1 {
   border-bottom: none;
   line-height: 30px;
+  font-size: 28px;
 }
 h2 {
   font-size: 20px;
@@ -41,6 +42,7 @@ ol, ul {
 .container-fluid {
   margin: 0 auto;
   max-width: 720px;
+  padding: 0 10px;
 }
 #header {
   background-color: #002a5b;
@@ -49,7 +51,11 @@ ol, ul {
   background-color: none;
   border-bottom: 1px solid #BC9E5F;
   margin-bottom: 0;
+  padding: 10px;
   text-align: center;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 .hero-unit.home h1 {
   font-size: 40px;
@@ -62,6 +68,7 @@ ol, ul {
 }
 .navbar {
   background-color: #002a5b;
+  margin-bottom: 0;
   padding: 0;
 }
 .navbar .btn, .navbar .btn-group {
