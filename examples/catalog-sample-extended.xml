@@ -5,15 +5,15 @@
       
       <attribute rel="dct:description">A list of the agency's office locations and contact information.</attribute>
       
-      <attribute rel="dcat:dataDictionary">http://www.agency.gov/data/information/locations</attribute>
+      <attribute rel="ex:dataDictionary">http://www.agency.gov/data/information/locations</attribute>
       
-      <attribute rel="dcat:download">http://www.agency.gov/data/raw/locations.zip</attribute>
+      <attribute rel="dcat:accessURL">http://www.agency.gov/data/raw/locations.zip</attribute>
       
-      <attribute rel="dcterms:format">csv</attribute>
+      <attribute rel="dct:format">csv</attribute>
       
       <attribute rel="dcat:keyword">keyword1</attribute>
       
-      <attribute rel="dcterms:modified">1/1/2013</attribute>
+      <attribute rel="dct:modified">1/1/2013</attribute>
       
       <attribute rel="foaf:Organization">Agency</attribute>
       
@@ -21,25 +21,25 @@
       
       <attribute rel="foaf:mbox">john.smith@agency.gov</attribute>
       
-      <attribute rel="dcterms:identifier">1</attribute>
+      <attribute rel="dct:identifier">1</attribute>
       
-      <attribute rel="xsd:boolean">true</attribute>
+      <attribute rel="ex:dataQuality">true</attribute>
       
-      <attribute rel="dcat:webService">http://www.agency.gov/data/raw/locations.json</attribute>
+      <attribute rel="ex:webService">http://www.agency.gov/data/raw/locations.json</attribute>
       
-      <attribute rel="dcterms:license">public domain</attribute>
+      <attribute rel="dct:license">public domain</attribute>
       
-      <attribute rel="dcterms:spatial">United States</attribute>
+      <attribute rel="dct:spatial">United States</attribute>
       
-      <attribute rel="dcterms:temporal">today</attribute>
+      <attribute rel="dct:temporal">today</attribute>
       
       <attribute rel="dct:issued">7/9/2012</attribute>
       
       <attribute rel="dct:accrualPeriodocity">6 months</attribute>
       
-      <attribute rel="dcat:language">English</attribute>
+      <attribute rel="dct:language">English</attribute>
       
-      <attribute rel="dcat:granularity">Address</attribute>
+      <attribute rel="ex:granularity">Address</attribute>
       
       <attribute rel="dcat:theme">Energy</attribute>
       
@@ -51,9 +51,9 @@
       
       <attribute rel="foaf:homepage"></attribute>
       
-      <attribute rel="dcat:feed"></attribute>
+      <attribute rel="ex:feed"></attribute>
       
-      <attribute rel="dcat:dataQuality">True</attribute>
+      <attribute rel="ex:dataQuality">True</attribute>
       
   </dataset>
   <dataset id="2">
@@ -62,15 +62,15 @@
       
       <attribute rel="dct:description">A full export of the agency's database.</attribute>
       
-      <attribute rel="dcat:dataDictionary">http://www.agency.gov/data/information/database</attribute>
+      <attribute rel="ex:dataDictionary">http://www.agency.gov/data/information/database</attribute>
       
-      <attribute rel="dcat:download">http://www.agency.gov/data/raw/database.csv</attribute>
+      <attribute rel="dcat:accessURL">http://www.agency.gov/data/raw/database.csv</attribute>
       
-      <attribute rel="dcterms:format">xml</attribute>
+      <attribute rel="dct:format">xml</attribute>
       
       <attribute rel="dcat:keyword">keyword2</attribute>
       
-      <attribute rel="dcterms:modified">2/1/2013</attribute>
+      <attribute rel="dct:modified">2/1/2013</attribute>
       
       <attribute rel="foaf:Organization">Agency</attribute>
       
@@ -78,25 +78,25 @@
       
       <attribute rel="foaf:mbox">jane.smith@agency.gov</attribute>
       
-      <attribute rel="dcterms:identifier">2</attribute>
+      <attribute rel="dct:identifier">2</attribute>
       
-      <attribute rel="xsd:boolean">true</attribute>
+      <attribute rel="ex:dataQuality">true</attribute>
       
-      <attribute rel="dcat:webService"></attribute>
+      <attribute rel="ex:webService"></attribute>
       
-      <attribute rel="dcterms:license">public domain</attribute>
+      <attribute rel="dct:license">public domain</attribute>
       
-      <attribute rel="dcterms:spatial">United States</attribute>
+      <attribute rel="dct:spatial">United States</attribute>
       
-      <attribute rel="dcterms:temporal">2001-current</attribute>
+      <attribute rel="dct:temporal">2001-current</attribute>
       
       <attribute rel="dct:issued">3/1/2012</attribute>
       
       <attribute rel="dct:accrualPeriodocity">yearly</attribute>
       
-      <attribute rel="dcat:language">English</attribute>
+      <attribute rel="dct:language">English</attribute>
       
-      <attribute rel="dcat:granularity">Station</attribute>
+      <attribute rel="ex:granularity">Station</attribute>
       
       <attribute rel="dcat:theme">Education</attribute>
       
@@ -108,9 +108,9 @@
       
       <attribute rel="foaf:homepage">http://www.agency.gov/data/information/database</attribute>
       
-      <attribute rel="dcat:feed">http://www.agency.gov/data/raw/database.rss</attribute>
+      <attribute rel="ex:feed">http://www.agency.gov/data/raw/database.rss</attribute>
       
-      <attribute rel="dcat:dataQuality">True</attribute>
+      <attribute rel="ex:dataQuality">True</attribute>
       
   </dataset>
   <dataset id="3">
@@ -119,15 +119,15 @@
       
       <attribute rel="dct:description">A restful web service for a system's data set from 2012.</attribute>
       
-      <attribute rel="dcat:dataDictionary">http://www.agency.gov/data/information/system_api</attribute>
+      <attribute rel="ex:dataDictionary">http://www.agency.gov/data/information/system_api</attribute>
       
-      <attribute rel="dcat:download">http://www.agency.gov/data/raw/system_2012.csv</attribute>
+      <attribute rel="dcat:accessURL">http://www.agency.gov/data/raw/system_2012.csv</attribute>
       
-      <attribute rel="dcterms:format">csv, json</attribute>
+      <attribute rel="dct:format">csv, json</attribute>
       
       <attribute rel="dcat:keyword">keyword1, keyword2</attribute>
       
-      <attribute rel="dcterms:modified">12/15/2012</attribute>
+      <attribute rel="dct:modified">12/15/2012</attribute>
       
       <attribute rel="foaf:Organization">Agency</attribute>
       
@@ -135,25 +135,25 @@
       
       <attribute rel="foaf:mbox">bill.smith@agency.gov</attribute>
       
-      <attribute rel="dcterms:identifier">3</attribute>
+      <attribute rel="dct:identifier">3</attribute>
       
-      <attribute rel="xsd:boolean">true</attribute>
+      <attribute rel="ex:dataQuality">true</attribute>
       
-      <attribute rel="dcat:webService">http://www.agency.gov/data/raw/data_api.json</attribute>
+      <attribute rel="ex:webService">http://www.agency.gov/data/raw/data_api.json</attribute>
       
-      <attribute rel="dcterms:license">creative commons Cco</attribute>
+      <attribute rel="dct:license">creative commons Cco</attribute>
       
-      <attribute rel="dcterms:spatial">United States</attribute>
+      <attribute rel="dct:spatial">United States</attribute>
       
-      <attribute rel="dcterms:temporal">2012</attribute>
+      <attribute rel="dct:temporal">2012</attribute>
       
       <attribute rel="dct:issued">2/15/2013</attribute>
       
       <attribute rel="dct:accrualPeriodocity">weekly</attribute>
       
-      <attribute rel="dcat:language">English</attribute>
+      <attribute rel="dct:language">English</attribute>
       
-      <attribute rel="dcat:granularity">Individual</attribute>
+      <attribute rel="ex:granularity">Individual</attribute>
       
       <attribute rel="dcat:theme">Health, Education</attribute>
       
@@ -165,9 +165,9 @@
       
       <attribute rel="foaf:homepage"></attribute>
       
-      <attribute rel="dcat:feed"></attribute>
+      <attribute rel="ex:feed"></attribute>
       
-      <attribute rel="dcat:dataQuality">True</attribute>
+      <attribute rel="ex:dataQuality">True</attribute>
       
   </dataset>
 </datasets>

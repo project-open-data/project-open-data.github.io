@@ -5,9 +5,9 @@
       
       <attribute rel="dct:description"></attribute>
       
-      <attribute rel="dcat:dataDictionary"></attribute>
+      <attribute rel="ex:dataDictionary"></attribute>
       
-      <attribute rel="dcat:download"></attribute>
+      <attribute rel="dcat:accessURL"></attribute>
       
       <attribute rel="dcterms:format"></attribute>
       
@@ -23,7 +23,7 @@
       
       <attribute rel="dcterms:identifier"></attribute>
       
-      <attribute rel="xsd:boolean"></attribute>
+      <attribute rel="ex:dataQuality"></attribute>
       
   </dataset>
   <dataset id="">
@@ -32,9 +32,9 @@
       
       <attribute rel="dct:description"></attribute>
       
-      <attribute rel="dcat:dataDictionary"></attribute>
+      <attribute rel="ex:dataDictionary"></attribute>
       
-      <attribute rel="dcat:download"></attribute>
+      <attribute rel="dcat:accessURL"></attribute>
       
       <attribute rel="dcterms:format"></attribute>
       
@@ -50,7 +50,7 @@
       
       <attribute rel="dcterms:identifier"></attribute>
       
-      <attribute rel="xsd:boolean"></attribute>
+      <attribute rel="ex:dataQuality"></attribute>
       
   </dataset>
 </datasets>

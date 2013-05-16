@@ -5,9 +5,9 @@
       
       <attribute rel="dct:description">A list of the agency's office locations and contact information.</attribute>
       
-      <attribute rel="dcat:dataDictionary">http://www.agency.gov/data/information/locations</attribute>
+      <attribute rel="ex:dataDictionary">http://www.agency.gov/data/information/locations</attribute>
       
-      <attribute rel="dcat:download">http://www.agency.gov/data/raw/locations.zip</attribute>
+      <attribute rel="dcat:accessURL">http://www.agency.gov/data/raw/locations.zip</attribute>
       
       <attribute rel="dcterms:format">csv</attribute>
       
@@ -23,9 +23,9 @@
       
       <attribute rel="dcterms:identifier">1</attribute>
       
-      <attribute rel="xsd:boolean">true</attribute>
+      <attribute rel="ex:dataQuality">true</attribute>
       
-      <attribute rel="dcat:webService">http://www.agency.gov/data/raw/locations.json</attribute>
+      <attribute rel="ex:webService">http://www.agency.gov/data/raw/locations.json</attribute>
       
       <attribute rel="dcterms:license">public domain</attribute>
       
@@ -40,9 +40,9 @@
       
       <attribute rel="dct:description">A full export of the agency's database.</attribute>
       
-      <attribute rel="dcat:dataDictionary">http://www.agency.gov/data/information/database</attribute>
+      <attribute rel="ex:dataDictionary">http://www.agency.gov/data/information/database</attribute>
       
-      <attribute rel="dcat:download">http://www.agency.gov/data/raw/database.csv</attribute>
+      <attribute rel="dcat:accessURL">http://www.agency.gov/data/raw/database.csv</attribute>
       
       <attribute rel="dcterms:format">xml</attribute>
       
@@ -58,9 +58,9 @@
       
       <attribute rel="dcterms:identifier">2</attribute>
       
-      <attribute rel="xsd:boolean">true</attribute>
+      <attribute rel="ex:dataQuality">true</attribute>
       
-      <attribute rel="dcat:webService"></attribute>
+      <attribute rel="ex:webService"></attribute>
       
       <attribute rel="dcterms:license">public domain</attribute>
       
@@ -75,9 +75,9 @@
       
       <attribute rel="dct:description">A restful web service for a system's data set from 2012.</attribute>
       
-      <attribute rel="dcat:dataDictionary">http://www.agency.gov/data/information/system_api</attribute>
+      <attribute rel="ex:dataDictionary">http://www.agency.gov/data/information/system_api</attribute>
       
-      <attribute rel="dcat:download">http://www.agency.gov/data/raw/system_2012.csv</attribute>
+      <attribute rel="dcat:accessURL">http://www.agency.gov/data/raw/system_2012.csv</attribute>
       
       <attribute rel="dcterms:format">csv, json</attribute>
       
@@ -93,9 +93,9 @@
       
       <attribute rel="dcterms:identifier">3</attribute>
       
-      <attribute rel="xsd:boolean">true</attribute>
+      <attribute rel="ex:dataQuality">true</attribute>
       
-      <attribute rel="dcat:webService">http://www.agency.gov/data/raw/data_api.json</attribute>
+      <attribute rel="ex:webService">http://www.agency.gov/data/raw/data_api.json</attribute>
       
       <attribute rel="dcterms:license">creative commons Cco</attribute>
       
