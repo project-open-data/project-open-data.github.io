@@ -7,7 +7,7 @@ filename: implementation-guide.md
 
   
 ## 1) Create and maintain an enterprise data inventory
-*[Due by 11/9/13]*
+*\[Due by 11/9/13\]*
 
 Maintain a complete listing of all datasets owned, managed, collected, and/or created by your agency, described in a common format.
 
@@ -28,7 +28,7 @@ This listing can be maintained in a Data Management System (DMS) such as the ope
 
   
 ## 2) Create and maintain a public data inventory
-*[Due by 11/9/13]*
+*\[Due by 11/9/13\]*
 
 Maintain a publicly accessible listing of all datasets maintained by your agency for harvesting by a central Data.gov search engine and the public at large.
 
@@ -38,7 +38,7 @@ While agencies are only required to list datasets with an "Access Level" value o
 
 Document any datasets or metadata in your enterprise data inventory that your agency does not believe can be made publicly available, in consultation with your Office of General Counsel or its equivalent.
 
-Publish your agency’s enterprise data inventory, with the aforementioned information removed, to a file located at [agency].gov/data.json and described using (at minimum) the [common core metadata](http://project-open-data.github.io/schema/). This file itself must be listed as a dataset within itself (see [an example of format](http://project-open-data.github.io/examples/catalog-sample-extended.json) ); if you have multiple data.json files across your agency, include all of them in the top-level data.json at agency.gov/data.json.
+Publish your agency’s enterprise data inventory, with the aforementioned information removed, to a file located at \[agency\].gov/data.json and described using (at minimum) the [common core metadata](http://project-open-data.github.io/schema/). This file itself must be listed as a dataset within itself (see [an example of format](http://project-open-data.github.io/examples/catalog-sample-extended.json) ); if you have multiple data.json files across your agency, include all of them in the top-level data.json at agency.gov/data.json.
 
 While you could manually create this file in a text editor, it is recommended that you use one of the tools provided to generate this file automatically from your existing DMS or enterprise inventory file.
 
@@ -63,7 +63,7 @@ While you could manually create this file in a text editor, it is recommended th
 
   
 ## 3) Engage with customers to help facilitate and prioritize data release
-*[Due by 11/9/13]*
+*\[Due by 11/9/13\]*
 
 ### Minimum Required for Compliance
 
@@ -82,7 +82,7 @@ Create a process to solicit feedback from customers about existing and potential
 
   
 ## 4) Clarify Roles and Responsibilities
-*[Due by 11/9/13]*
+*\[Due by 11/9/13\]*
 
 ### A) Minimum Required for Compliance
 
@@ -119,7 +119,7 @@ Additionally, you should include information on:
 
 * [44 USC 3506 (b)(2)](http://www.gpo.gov/fdsys/granule/USCODE-2011-title44/USCODE-2011-title44-chap35-subchapI-sec3506/content-detail.html)
 * [OMB Circular A-11](http://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc)
-* [OMB FY 13 PortfolioStat Guidance] (http://www.whitehouse.gov/blog/2013/03/27/portfoliostat-20-driving-better-management-and-efficiency-federal-it)
+* [OMB FY 13 PortfolioStat Guidance](http://www.whitehouse.gov/blog/2013/03/27/portfoliostat-20-driving-better-management-and-efficiency-federal-it)
 
 <center><h2><u>Ongoing</u></h2></center>  
 
