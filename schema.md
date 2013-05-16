@@ -283,13 +283,13 @@ Field       | title
 **Example** |  `{"dataQuality":"true"}`
 
 {.table .table-striped}
-**Field** | **category**
+**Field** | **theme**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
 **Accepted Values** | String
 **Usage Notes** | Separate multiple categories with a comma. Could include [ISO Topic Categories](http://www.isotopicmaps.org/).  
-**Example** |  `{"category":"vegetables"}`
+**Example** |  `{"theme":"vegetables"}`
 
 {.table .table-striped}
 **Field** | **references**
@@ -306,9 +306,23 @@ Field       | title
 **Cardinality** | (0,n)
 **Required** | No
 **Accepted Values** | See Usage Notes
-**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: download url, format, endpoint, language, size.  An example of this this model is:  
+**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: Download URL, Format, Size.  If an entry has only one dataset, enter details for that one; if it has multiple datasets (such as a bulk download and an API), separate entry with a comma, as seen below:  
   
-    "distribution": [`{"accessURL": "http://data.mcc.gov/example_resource/data.json", "format":"JSON", "size":"22mb"}`,`{"accessURL":"http://data.mcc.gov/example_/data.xml", "format":"XML", "size":"24mb"}`]  
+    "distribution": [
+            {
+                "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
+                "format": "csv",
+                "size": "200MB"
+            }, 
+            {
+                "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.json?accessType=DOWNLOAD", 
+                "format": "json"
+            }, 
+            {
+                "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.xml?accessType=DOWNLOAD", 
+                "format": "xml"
+            }
+        ] 
 
 **Example** | -
 
