@@ -56,7 +56,7 @@ Anyone – Federal employees, contractors, developers, the general public – ca
 
 ### Are my interactions to this project subject to any special privacy considerations?
 
-Comments, pull requests, and any other messages received through this repository may be subject to the [Presidential Records Act](http://www.archives.gov/about/laws/presidential-records.html), and may be archived. Learn more at [http://WhiteHouse.gov/privacy].
+Comments, pull requests, and any other messages received through this repository may be subject to the [Presidential Records Act](http://www.archives.gov/about/laws/presidential-records.html), and may be archived. Learn more at [http://whitehouse.gov/privacy](http://whitehouse.gov/privacy).
 
 ### Who is in charge of Project Open Data?  
 
