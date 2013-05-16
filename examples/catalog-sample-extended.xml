@@ -47,7 +47,7 @@
       
       <attribute rel="dcat:distribution"></attribute>
       
-      <attribute rel="dcat:size">44KB</attribute>
+      <attribute rel="dcat:size">44000</attribute>
       
       <attribute rel="foaf:homepage"></attribute>
       
@@ -104,7 +104,7 @@
       
       <attribute rel="dcat:distribution"></attribute>
       
-      <attribute rel="dcat:size">5MB</attribute>
+      <attribute rel="dcat:size">5000000</attribute>
       
       <attribute rel="foaf:homepage">http://www.agency.gov/data/information/database</attribute>
       
@@ -161,7 +161,7 @@
       
       <attribute rel="dcat:distribution"></attribute>
       
-      <attribute rel="dcat:size">300MB</attribute>
+      <attribute rel="dcat:size">300000000</attribute>
       
       <attribute rel="foaf:homepage"></attribute>
       

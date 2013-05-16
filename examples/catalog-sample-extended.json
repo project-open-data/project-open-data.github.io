@@ -31,7 +31,7 @@
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
                 "format": "csv",
-                "size": "200mb"
+                "size": "200000000"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.json?accessType=DOWNLOAD", 
