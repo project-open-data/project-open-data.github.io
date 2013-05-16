@@ -278,9 +278,9 @@ Field       | title
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | Must be one of the following: true, false
+**Accepted Values** | Must be a boolean value of `true` or `false`
 **Usage Notes** | Indicates whether a dataset
-**Example** |  `{"dataQuality":"true"}`
+**Example** |  `{"dataQuality":true}`
 
 {.table .table-striped}
 **Field** | **category**
