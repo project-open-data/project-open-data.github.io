@@ -47,7 +47,7 @@
         "spatial": "US", 
         "temporal": "2009-09-01 00:00:00,2010-05-31 00:00:00", 
         "issued": "",
-        "frequency": "one-time",
+        "accrualPeriodicity": "one-time",
         "language": "English", 
         "granularity": "",
         "dataQuality": "true",
