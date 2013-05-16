@@ -10,7 +10,7 @@ This section provides further guidance and explanation for implementing the agen
 /Data Requirements
 ------------------
 
-The Open Data Policy requires agencies to list and describe all agency data that *can* be made publicly available (i.e. there are no valid restrictions to release) in a publicly available open data catalog with [common core metadata](http://project-open-data.github.io/schema/).  It further requires the catalog to be human-readable and machine-readable.  This guidance describes to agencies steps for implementing this portion of the policy. 
+The Open Data Policy requires agencies to list and describe all agency data that *can* be made publicly available (i.e. there are no valid restrictions to release) in a publicly available open data catalog with [common core metadata](/schema/).  It further requires the catalog to be human-readable and machine-readable.  This guidance describes to agencies steps for implementing this portion of the policy. 
 
 Why this effort
 ---------------
@@ -26,12 +26,12 @@ Each agency will describe their existing datasets as they see fit using the belo
 Machine-Readable Format
 -----------------------
 
-All information deemed "machine-readable" required in this policy must be described in the JSON file format, with the option of RDFa Lite and XML as well.  See [this specification](http://project-open-data.github.io/schema/) for the required schema.  Agencies must post their files at agency.gov/data.json (and optionally at /data.html or data.xml as well).  Additionally, the web page which reads and formats these files must be posted at /data/index.html (or data.html).  The files should be updated a minimum of monthly.  It is our intent that future publications of Data.gov will simply crawl for all agency.gov/data.json to populate Data.gov.
+All information deemed "machine-readable" required in this policy must be described in the JSON file format, with the option of RDFa Lite and XML as well.  See [this specification](/schema/) for the required schema.  Agencies must post their files at agency.gov/data.json (and optionally at /data.html or data.xml as well).  Additionally, the web page which reads and formats these files must be posted at /data/index.html (or data.html).  The files should be updated a minimum of monthly.  It is our intent that future publications of Data.gov will simply crawl for all agency.gov/data.json to populate Data.gov.
 
 Implementing
 ------------
 
-To fulfill the requirements of this memorandum, agencies should begin to describe datasets as a catalog using the vocabulary of the [common core metadata](http://project-open-data.github.io/schema/). This catalog is to be published in two places. First, as a standalone JSON file at `agency.gov/data.json` and second with RDFa Lite, either embedded within a HTML page which include human readable markups (e.g., `agency.gov/data.html`) or as an XML file (e.g., `agency.gov/data.xml`). 
+To fulfill the requirements of this memorandum, agencies should begin to describe datasets as a catalog using the vocabulary of the [common core metadata](/schema/). This catalog is to be published in two places. First, as a standalone JSON file at `agency.gov/data.json` and second with RDFa Lite, either embedded within a HTML page which include human readable markups (e.g., `agency.gov/data.html`) or as an XML file (e.g., `agency.gov/data.xml`). 
 
 ### JSON
 
@@ -47,7 +47,7 @@ The JSON representation of the catalog should track directly to the RDFa version
 Generating Machine-Readable Reporting Files
 -------------------------------------------
 
-Agencies must follow the provided [specification](http://project-open-data.github.io/schema/).  We have built a [catalog generator](http://project-open-data.github.com/catalog-generator/) to assist you in building your catalog and generating JSON, XML, or RDFa Lite files.  
+Agencies must follow the provided [specification](/schema/).  We have built a [catalog generator](http://project-open-data.github.com/catalog-generator/) to assist you in building your catalog and generating JSON, XML, or RDFa Lite files.  
 
 Presentation
 ------------
@@ -58,7 +58,7 @@ Agencies must have present a table/list of each dataset in the /data page.  The 
 * Dataset description
 * URL to the dataset (endpoint)
 
-The page must be populated from the machine-readable catalog file (e.g. data.xml or data.json) following the [specification](http://project-open-data.github.io/schema/) described above.  Agencies are encouraged to add functionality to assist end-user discoverability.  Additional functions might be sorting, filtering or paging to help make a more digestible list.  Agencies are also encouraged to add more to the standard schema which might further assist end-user discoverability and usability (e.g. thumbnails).
+The page must be populated from the machine-readable catalog file (e.g. data.xml or data.json) following the [specification](/schema/) described above.  Agencies are encouraged to add functionality to assist end-user discoverability.  Additional functions might be sorting, filtering or paging to help make a more digestible list.  Agencies are also encouraged to add more to the standard schema which might further assist end-user discoverability and usability (e.g. thumbnails).
 
 Supplemental Information
 ------------------------

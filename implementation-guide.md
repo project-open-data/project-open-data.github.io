@@ -13,7 +13,7 @@ Maintain a complete listing of all datasets owned, managed, collected, and/or cr
 
 ### A) Minimum Required for Compliance
 
-Produce a single catalog or list of data managed in a single table, workspace, or other relevant location. Describe each dataset according to the [common core metadata](http://project-open-data.github.io/schema/).
+Produce a single catalog or list of data managed in a single table, workspace, or other relevant location. Describe each dataset according to the [common core metadata](/schema/).
 
 This listing can be maintained in a Data Management System (DMS) such as the open-source [CKAN](http://www.ckan.org) platform; a single spreadsheet, with each metadata field as its own column; or a DMS of your choosing.
 
@@ -38,7 +38,7 @@ While agencies are only required to list datasets with an "Access Level" value o
 
 Document any datasets or metadata in your enterprise data inventory that your agency does not believe can be made publicly available, in consultation with your Office of General Counsel or its equivalent.
 
-Publish your agency’s enterprise data inventory, with the aforementioned information removed, to a file located at [agency].gov/data.json and described using (at minimum) the [common core metadata](http://project-open-data.github.io/schema/). This file itself must be listed as a dataset within itself (see [an example of format](http://project-open-data.github.io/examples/catalog-sample-extended.json) ); if you have multiple data.json files across your agency, include all of them in the top-level data.json at agency.gov/data.json.
+Publish your agency’s enterprise data inventory, with the aforementioned information removed, to a file located at [agency].gov/data.json and described using (at minimum) the [common core metadata](/schema/). This file itself must be listed as a dataset within itself (see [an example of format](/examples/catalog-sample-extended.json) ); if you have multiple data.json files across your agency, include all of them in the top-level data.json at agency.gov/data.json.
 
 While you could manually create this file in a text editor, it is recommended that you use one of the tools provided to generate this file automatically from your existing DMS or enterprise inventory file.
 
@@ -51,7 +51,7 @@ While you could manually create this file in a text editor, it is recommended th
 
 ### C) Best Practices and Examples
 
-* Using the [common core metadata](http://project-open-data.github.io/schema) to describe your enterprise data inventory makes it very simple to use that inventory for your public inventory.
+* Using the [common core metadata](/schema) to describe your enterprise data inventory makes it very simple to use that inventory for your public inventory.
 * A detailed and descriptive title, description, and set of keywords for each dataset is the difference between customers finding your data and no one finding your data. Since agency data catalogs are harvested and searchable on Data.gov, accurate and thorough metadata is the best way to connect customers with your data.
 * Consider including restricted and non-public datasets in your public data inventory listing. Remember that this file contains metadata about the data and not the data themselves.
 * When you include restricted datasets in your public data inventory, include specific information on how customers can request and qualify for access to those data.
@@ -77,7 +77,7 @@ Create a process to solicit feedback from customers about existing and potential
 
 ### B) Best Practices and Examples
 
-* The required set of [common core metadata](http://project-open-data.github.io/schema/) includes fields for a contact name (“person”) and an email address (“mbox”). Listing specific, accurate information in these fields for each dataset ensures that customers can give direct feedback on a dataset to the person who is most likely to be able to act on that feedback.
+* The required set of [common core metadata](/schema/) includes fields for a contact name (“person”) and an email address (“mbox”). Listing specific, accurate information in these fields for each dataset ensures that customers can give direct feedback on a dataset to the person who is most likely to be able to act on that feedback.
 * If you enable customers to leave comments on datasets, ensure someone at your agency monitors these comments and responds in a timely manner. When new visitors see outdated, unanswered comments, they are less likely to provide feedback.
 
   
@@ -163,7 +163,7 @@ Collect or create information (data) in a way that supports downstream informati
 ### A) Minimum Required for Compliance
 
 * Review information for privacy, confidentiality pledge, security, and other restrictions to release.
-* Make the data available in a machine-readable format. See [this list](http://project-open-data.github.io/faq.md) of commonly accepted machine-readable formats. Where appropriate, provide access to the data via an API.
+* Make the data available in a machine-readable format. See [this list](/faq.md) of commonly accepted machine-readable formats. Where appropriate, provide access to the data via an API.
 * Post the data files in an Internet-accessible location, listing this location the dataset’s entry in your agency inventory listing.
 
 ### B) Tools
@@ -185,7 +185,7 @@ New, or significantly modified, information systems need to support interoperabi
 
 * Ensure the system can export data in a machine-readable format.
 * Ensure data is separated from the application layer of the system to maximize future export and/or reuse of the data.
-* Store and export data using open data standards whenever possible, including the [common core metadata](http://project-open-data.github.io/schema/) required by this Memorandum.
+* Store and export data using open data standards whenever possible, including the [common core metadata](/schema/) required by this Memorandum.
 * Document all data schemas and dictionaries used by the system.
 
 ### B) Best Practices and Examples
