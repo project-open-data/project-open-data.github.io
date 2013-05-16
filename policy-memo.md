@@ -36,7 +36,7 @@ To help build on these efforts, the President issued a Memorandum on May 23, 201
 
 This Memorandum is designed to be consistent with existing requirements in the Paperwork Reduction Act,[^7] the E-Government Act of 2002,[^8] the Privacy Act of 1974,[^9] the Federal Information Security Management Act of 2002 (FISMA),[^10] the Confidential Information Protection and Statistical Efficiency Act of 2002 (CIPSEA),[^11] the Freedom of Information Act,[^12] the Information Quality Act,[^13] the Federal Records Act,[^14] and existing OMB and Office of Science and Technology Policy (OSTP) guidance. 
 
-If agencies have any questions regarding this Memorandum, please direct them to OMB at [datause@omb.eop.gov](datause@omb.eop.gov).
+If agencies have any questions regarding this Memorandum, please direct them to OMB at [datause@omb.eop.gov](mailto:datause@omb.eop.gov).
 
 ---
 

@@ -36,13 +36,13 @@ This section is a list of definitions and principles used to guide the project.
 
 Implementation guidance for open data practices.  
 
-3-1 [U.S. Government Policy on Open Data](policy-memo/) - Full text of the memorandum.  
+3-1 [U.S. Government Policy on Open Data](/policy-memo/) - Full text of the memorandum.  
 
-3-2 [Implementation Guide](implementation-guide/) - Detailed descriptions and guidance for each step of implementing the policy. 
+3-2 [Implementation Guide](/implementation-guide/) - Detailed descriptions and guidance for each step of implementing the policy. 
 
-3-3 [Public Data Listing](catalog) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.  
+3-3 [Public Data Listing](/catalog/) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.  
 
-3-4 [Frequently Asked Questions](faq) - A growing list of common questions and answers to facilitate adoption of open data projects.  
+3-4 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.  
 
 ----------------
 
