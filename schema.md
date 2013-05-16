@@ -6,13 +6,13 @@ filename: schema.md
 id: schema
 ---
 
-This section contains guidance to support the use of the [common core metadata](http://project-open-data.github.io/schema/) to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.  
+This section contains guidance to support the use of the [common core metadata](/schema/) to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.  
 
 Standard Metadata Vocabulary
 ----------------------------
 Metadata are selected fields or elements which describe data. The challenge is to define the standard metadata fields and the names of those fields so that the consumer of the data has sufficient information to process and understand the data. The more information that can be conveyed in a standardized regular format, the more valuable data becomes. Metadata can range from basic to advanced, from allowing one to discover the mere fact that a certain data asset exists and is about a general subject all the way to providing detailed semantic information that enables a high degree of machine readability. Making the metadata machine readable greatly increases its openness and utility.
 
-Establishing a common vocabulary is the key to any communication, including communication between machines.  [DCAT](http://www.w3.org/TR/vocab-dcat/) is a hierarchical vocabulary specific to datasets that serves as the basis for the **[common core metadata](http://project-open-data.github.io/schema/)** required in this memorandum. The standard consists of a number of schemas (hierarchical vocabulary terms) that represent things that are most often looked for on the web, with [mappings](http://project-open-data.github.io/metadata-resources#common_core_required_fields_equivalents) to their equivalents in other standards.  
+Establishing a common vocabulary is the key to any communication, including communication between machines.  [DCAT](http://www.w3.org/TR/vocab-dcat/) is a hierarchical vocabulary specific to datasets that serves as the basis for the **[common core metadata](/schema/)** required in this memorandum. The standard consists of a number of schemas (hierarchical vocabulary terms) that represent things that are most often looked for on the web, with [mappings](/metadata-resources#common_core_required_fields_equivalents) to their equivalents in other standards.  
 
 
 What to Document -- Datasets and APIs
@@ -25,18 +25,18 @@ The catalog file should list all of an agency's datasets that can be made public
 
 Metadata File Format --  JSON
 ---------------------------------------
-The [Implemention Guidance](http://project-open-data.github.io/implementation-guide/) available as a part of Project Open Data describes Agency requirements for the development of metadata as per the Open Data Policy.  A quick primer on the file format involved:
+The [Implemention Guidance](/implementation-guide/) available as a part of Project Open Data describes Agency requirements for the development of metadata as per the Open Data Policy.  A quick primer on the file format involved:
 
 [JSON](http://www.json.org) is a lightweight data-exchange format that is very easy to read, parse and generate.  Based on a subset of the JavaScript programming language, JSON is a text format that is optimized for data interchange.  JSON is built on two structures: (1) a collection of name/value pairs; and (2) an ordered list of values.  
 
-Links to downloadable examples of metadata files developed in this and other formats in [the metadata resources](http://project-open-data.github.io/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
+Links to downloadable examples of metadata files developed in this and other formats in [the metadata resources](/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
 
 
 "Common Core" Required Fields
 -----------------------------
 The following "common core" fields are required, to be used to describe each entry:
 
-*(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](http://project-open-data.github.io/metadata-resources/#common_core_required_fields_equivalents) to find the equivalent Data.gov, RDFa Lite, and CKAN fields.)*
+*(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources/#common_core_required_fields_equivalents) to find the equivalent Data.gov, RDFa Lite, and CKAN fields.)*
 
 {.table .table-striped}
 Field               | Definition                                                                                                                                     |JSON            
@@ -62,7 +62,7 @@ Data Dictionary     | URL to the data dictionary for the dataset or API.  Note t
 Download URL        | URL providing direct access to the downloadable distribution of a dataset.                                                                     | accessURL              
 Endpoint            | Endpoint of web service to access dataset.                                                                                                     | webService            
 Format              | The file format or API type of the distribution.                                                                                               | format          
-License             | The license dataset or API is published with.  See [Open Licenses](http://project-open-data.github.io/open-licenses/) for more information.   | license         
+License             | The license dataset or API is published with.  See [Open Licenses](/open-licenses/) for more information.   | license         
 Spatial  	          | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         | spatial 	       
 Temporal	          | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   | temporal	       
 
@@ -359,6 +359,6 @@ Additional Information
 
 Examples
 --------
-* [JSON](http://project-open-data.github.io/metadata-resources/)
-* [RDFa Lite](http://project-open-data.github.io/metadata-resources/)
-* [XML](http://project-open-data.github.io/metadata-resources/)
+* [JSON](/metadata-resources/)
+* [RDFa Lite](/metadata-resources/)
+* [XML](/metadata-resources/)
