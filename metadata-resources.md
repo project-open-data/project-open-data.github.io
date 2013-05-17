@@ -5,7 +5,7 @@ permalink: /metadata-resources/
 filename: metadata-resources.md
 ---
 
-This section provides further background and resources to assist agencies in implementing the [common core metadata schema](schema/).  
+This section provides further background and resources to assist agencies in implementing the [common core metadata schema](/schema/).
 
 ### Template Data Files
 

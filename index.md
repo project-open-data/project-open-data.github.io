@@ -36,13 +36,13 @@ This section is a list of definitions and principles used to guide the project.
 
 Implementation guidance for open data practices.  
 
-3-1 [U.S. Government Policy on Open Data](policy-memo/) - Full text of the memorandum.  
+3-1 [U.S. Government Policy on Open Data](/policy-memo/) - Full text of the memorandum.  
 
-3-2 [Implementation Guide](implementation-guide/) - Detailed descriptions and guidance for each step of implementing the policy. 
+3-2 [Implementation Guide](/implementation-guide/) - Detailed descriptions and guidance for each step of implementing the policy. 
 
-3-3 [Public Data Listing](catalog) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.  
+3-3 [Public Data Listing](/catalog/) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.  
 
-3-4 [Frequently Asked Questions](faq) - A growing list of common questions and answers to facilitate adoption of open data projects.  
+3-4 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.  
 
 ----------------
 
@@ -111,7 +111,7 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 6-7 [National Renewable Energy Laboratory API program](http://developer.nrel.gov/api-case-study/) - An agency perspective on developing APIs for general use and in particular building the case for the internal re-use of the resources.
 
-6-8 [USAID Crowdsourcing to Open Data] (http://transition.usaid.gov/our_work/economic_growth_and_trade/development_credit/pdfs/2012/USAIDCrowdsourcingCaseStudy.pdf) - A case study that shows how USAID invited the "crowd" to clean and geocode a USAID dataset in order to open and map the data.
+6-8 [USAID Crowdsourcing to Open Data](http://transition.usaid.gov/our_work/economic_growth_and_trade/development_credit/pdfs/2012/USAIDCrowdsourcingCaseStudy.pdf) - A case study that shows how USAID invited the "crowd" to clean and geocode a USAID dataset in order to open and map the data.
 
 
 **For Developers: [View all appendices](http://github.com/project-open-data/) (and source)**

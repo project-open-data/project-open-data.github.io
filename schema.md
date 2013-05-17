@@ -12,7 +12,7 @@ Standard Metadata Vocabulary
 ----------------------------
 Metadata are selected fields or elements which describe data. The challenge is to define the standard metadata fields and the names of those fields so that the consumer of the data has sufficient information to process and understand the data. The more information that can be conveyed in a standardized regular format, the more valuable data becomes. Metadata can range from basic to advanced, from allowing one to discover the mere fact that a certain data asset exists and is about a general subject all the way to providing detailed semantic information that enables a high degree of machine readability. Making the metadata machine readable greatly increases its openness and utility.
 
-Establishing a common vocabulary is the key to any communication, including communication between machines.  [DCAT](http://www.w3.org/TR/vocab-dcat/) is a hierarchical vocabulary specific to datasets that serves as the basis for the **[common core metadata](http://project-open-data.github.io/schema/)** required in this memorandum. The standard consists of a number of schemas (hierarchical vocabulary terms) that represent things that are most often looked for on the web, with [mappings](http://project-open-data.github.io/metadata-resources#common_core_required_fields_equivalents) to their equivalents in other standards.  
+Establishing a common vocabulary is the key to any communication, including communication between machines.  [DCAT](http://www.w3.org/TR/vocab-dcat/) is a hierarchical vocabulary specific to datasets that serves as the basis for the **[common core metadata](http://project-open-data.github.io/schema/)** required in this memorandum. The standard consists of a number of schemas (hierarchical vocabulary terms) that represent things that are most often looked for on the web, with [mappings](http://project-open-data.github.io/metadata-resources/#common_core_required_fields_equivalents) to their equivalents in other standards.  
 
 
 What to Document -- Datasets and APIs
@@ -225,7 +225,7 @@ Field       | title
 **Cardinality** | (0,1)
 **Required** | Yes, if the dataset is spatial
 **Accepted Values** | See Usage Notes
-**Usage Notes** | This field should contain one of the following types of content: (1) a bounding coordinate box for the dataset represented in latitude / longitude pairs where the coordinates are specified in decimal degrees and in the order of: minimum longitude, minimum latitude, maximum longitude, maximum latitude; (2) a latitude / longitude pair (in decimal degrees) representing a point where the dataset is relevant; (3) a geographic feature expressed in [Geography Markup Language using the Simple Features Profile](http://www.ogcnetwork.net/gml-sf); or (4) a geographic feature from the [GeoNames database](www.geonames.org).
+**Usage Notes** | This field should contain one of the following types of content: (1) a bounding coordinate box for the dataset represented in latitude / longitude pairs where the coordinates are specified in decimal degrees and in the order of: minimum longitude, minimum latitude, maximum longitude, maximum latitude; (2) a latitude / longitude pair (in decimal degrees) representing a point where the dataset is relevant; (3) a geographic feature expressed in [Geography Markup Language using the Simple Features Profile](http://www.ogcnetwork.net/gml-sf); or (4) a geographic feature from the [GeoNames database](http://www.geonames.org).
 **Example** |  `{"spatial":"Lincoln, Nebraska"}`
 
 {.table .table-striped}
