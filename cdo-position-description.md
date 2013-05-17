@@ -99,7 +99,7 @@ The CDO is responsible for data reform and modernization--how the agency collect
 
 ### What the CDO Is Not
 
-The CDO is the Agency’s Chief Privacy Officer. That responsibility is held by the CIO. 
+The CDO is not the Agency’s Chief Privacy Officer. That responsibility is held by the CIO. 
 
 The  CDO is not responsible for the security of information. That responsibility is held by the CISO.
 
