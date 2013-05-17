@@ -5,7 +5,6 @@ permalink: /implementation-guide/
 filename: implementation-guide.md
 ---
 
-  
 ## 1) Create and maintain an enterprise data inventory
 *[Due by 11/9/13]*
 
@@ -13,9 +12,12 @@ Maintain a complete listing of all datasets owned, managed, collected, and/or cr
 
 ### A) Minimum Required for Compliance
 
-Produce a single catalog or list of data managed in a single table, workspace, or other relevant location. Describe each dataset according to the [common core metadata](http://project-open-data.github.io/schema/).
+Produce a single catalog or list of data managed in a single table, workspace, or other relevant location. Describe each dataset or existing metadata catalog according to the [common core metadata](http://project-open-data.github.io/schema/).
 
-This listing can be maintained in a Data Management System (DMS) such as the open-source [CKAN](http://www.ckan.org) platform; a single spreadsheet, with each metadata field as its own column; or a DMS of your choosing.
+This listing can be maintained in a Data Management System (DMS) such as the open-source [CKAN](http://www.ckan.org) platform; a single spreadsheet, with each metadata field as its own column; or a DMS of your choosing. A description of a standard metadata catalog, such as CKAN, can be placed in the agency json file in lieu of individual entries. This entry will describe the resource type of "catalog" and the access URL to be used in harvest by data.gov.
+
+Metadata for geographic or geospatial information is often collected using the FGDC Content Standard for Digital Geospatial Metadata or ISO 19115/19139 and represented as XML, providing content that maps to common core metadata. These collections can be exposed using the Open Geospatial Consortium Catalog Service for the Web interface (CSW 2.0.2) or as a read-enabled HTTP directory known as a Web Accessible Folder (WAF). In lieu of posting individual entries for each geospatial dataset in the json file, a single json entry should be prepared for each geospatial metadata collection (WAF) or service (CSW) as a "Harvest Source" enabling harvest of the collections by data.gov. Individual geospatial metadata entries for datasets, applications, or services should not be duplicated in the agency json feed.
+
 
 ### B) Best Practices and Examples
 
@@ -38,9 +40,9 @@ While agencies are only required to list datasets with an "Access Level" value o
 
 Document any datasets or metadata in your enterprise data inventory that your agency does not believe can be made publicly available, in consultation with your Office of General Counsel or its equivalent.
 
-Publish your agency’s enterprise data inventory, with the aforementioned information removed, to a file located at [agency].gov/data.json and described using (at minimum) the [common core metadata](http://project-open-data.github.io/schema/). This file itself must be listed as a dataset within itself (see [an example of format](http://project-open-data.github.io/examples/catalog-sample-extended.json) ); if you have multiple data.json files across your agency, include all of them in the top-level data.json at agency.gov/data.json.
+Publish your agency’s enterprise data inventory, with the aforementioned information removed, to a file located at [agency].gov/data.json and described using (at minimum) the [common core metadata](http://project-open-data.github.io/schema/). This file itself must be listed as a dataset within itself (see [an example of format](http://project-open-data.github.io/examples/catalog-sample-extended.json) ); if you have multiple data.json files across your agency, include all of them in the top-level data.json at agency.gov/data.json. If you manage a compatible external metadata directory (e.g. CSW, WAF, CKAN), then the json file would contain an entry for this collection to promote harvest.
 
-While you could manually create this file in a text editor, it is recommended that you use one of the tools provided to generate this file automatically from your existing DMS or enterprise inventory file.
+While you could manually create this json file in a text editor, it is recommended that you use one of the tools provided to generate this file automatically from your existing DMS or enterprise inventory file.
 
 ### B) Tools
 
@@ -48,6 +50,7 @@ While you could manually create this file in a text editor, it is recommended th
 * **Is your data inventory stored in a CSV (Excel file)?** Use the [CSV-to-API generator](http://labs.data.gov/csv-to-api/) to automatically convert it into a compliant data.json file.
 * **Is your data inventory stored in CKAN?** Use the Data.gov extension (coming soon).
 * **Not sure if your data.json file meets the requirements?** Paste your file into the [JSON Validator](https://github.com/project-open-data/json-validator) to receive real-time feedback.
+* **Managing a geospatial metadata catalog already?** Register your standard API as an entry in the agency json file.
 
 ### C) Best Practices and Examples
 
