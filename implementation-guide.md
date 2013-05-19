@@ -190,7 +190,11 @@ New, or significantly modified, information systems need to support interoperabi
 
 ### B) Best Practices and Examples
 
-* Brainstorm both the known and potential future uses of the data when designing an information system.
+* Consider downstream and secondary uses of the data as referenced in [M-13-13 — Memorandum for the Heads of Executive Departments and Agencies](http://project-open-data.github.io/policy-memo/) and brainstorm both the known and potential future uses of the data when designing an information system.
+* Consider the use of applicable data standards and codesets that exist for common data elements, such as ANSI/INCITS, ISO and others.
+* Consider implementing a front-end automated data QA system that can provide lookup services and/or validate many core data elements a.) on data entry, for example by API call which prepopulates picklists and autocomplete values to simplify and streamline data entry while also ensuring consistent entry of data.  Another example would be use of a geocoding service to validate street addresses and provide lat/long values and map previews for visual feedback of entered information.
+* Consider implementing a back-end data QA framework that can automate many data QA functions, along with providing a data stewardship tool
+* Consider developing a robust data stewardship community and governance structure for curating and maintaining high-quality data.
 * The more open and flexible a system is now, the less likely it is that it will need to be replaced or significantly modified in the future. Your agency should weigh upfront system design costs with the long-term potential cost savings and benefits.
 
 ### C) Resources
