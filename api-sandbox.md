@@ -1,9 +1,20 @@
 ---
+published: true
 layout: default
 title: API Sandbox
-permalink: /api-sandbox/
-filename: api-sandbox.md
+permalink: "/api-sandbox/"
+filename: "api-sandbox.md"
+
 ---
+
+---
+layout: default
+title: API Sandbox
+permalink: "/api-sandbox/"
+filename: "api-sandbox.md"
+published: true
+
+--- 
 
 By providing rich and interactive documentation, API producers strongly enhance functionality and ease-of-use for potential developers. This speeds early adoption and rewards users with a more fluid experience.Greater adoption then results in a higher return on investment, a more vibrant developer community and greater momentum for the API program.
 
