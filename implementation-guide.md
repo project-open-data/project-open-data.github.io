@@ -56,6 +56,8 @@ While you could manually create this file in a text editor, it is recommended th
 * Consider including restricted and non-public datasets in your public data inventory listing. Remember that this file contains metadata about the data and not the data themselves.
 * When you include restricted datasets in your public data inventory, include specific information on how customers can request and qualify for access to those data.
 * Integrate your public data inventory with a tool for soliciting feedback from customers to avoid duplicative effort. For example, the [Kickstart WordPress plugin](https://github.com/project-open-data/kickstart) can automatically generate a voting and commenting mechanism from your data.json file.
+* Data consumers should not need to know an Agency's org chart in order to find data.  While it is helpful to include metadata about which part of the organization is providing the data, consider that secondary users will likely be searching for data using topical and thematic keywords as opposed to agency structure.
+* In describing data, avoid use of agency acronyms wherever possible.
 
 ### D) Resources
 
@@ -79,8 +81,9 @@ Create a process to solicit feedback from customers about existing and potential
 
 * The required set of [common core metadata](http://project-open-data.github.io/schema/) includes fields for a contact name (“person”) and an email address (“mbox”). Listing specific, accurate information in these fields for each dataset ensures that customers can give direct feedback on a dataset to the person who is most likely to be able to act on that feedback.
 * If you enable customers to leave comments on datasets, ensure someone at your agency monitors these comments and responds in a timely manner. When new visitors see outdated, unanswered comments, they are less likely to provide feedback.
+* Consider a feedback mechanism and structure whereby data quality issues identified by data consumers can be submitted and vetted and integrated back into source data systems.
+* Consider use cases for how data is likely to be accessed by API, whether by specific queries and subsets, or by entire tables, and consider building API infrastructure that is optimized to meet those needs.
 
-  
 ## 4) Clarify Roles and Responsibilities
 *\[Due by 11/9/13\]*
 
@@ -150,6 +153,7 @@ Collect or create information (data) in a way that supports downstream informati
 
 * Make sure your machine-readable data is also human-readable. This may mean providing two separate files, but more likely means including a human-readable key and a detailed description.
 * It is much easier to collect data in the way you will eventually distribute and publish it, rather than having to manipulate the data midway through to comply with later requirements.
+
 
 ### D) Resources
 * [Open Government Directive](http://www.whitehouse.gov/sites/default/files/omb/assets/memoranda_2010/m10-06.pdf)
