@@ -1,9 +1,12 @@
 ---
+published: true
 layout: default
 title: Frequently Asked Questions
 permalink: /faq/
 filename: faq.md
+
 ---
+
 This section is a growing list of common questions and answers to support agencies when implementing the Open Data Policy.  
 
 ## Project Open Data
@@ -35,7 +38,7 @@ This project constitutes a collaborative work ("open source"). Federal employees
 
 #### Advanced
 
-1. Configure Git by using this [basic tutorial](https://help.github.com/articles/set-up-git) or by downloading the [GitHub for Mac](http://mac.github.com/)/[GitHub for Windows](http://windows.github.com/) and optionally [Mou](http://mouapp.com/).
+1. Configure Git by using this [basic tutorial](https://help.github.com/articles/set-up-git) or by downloading the [GitHub for Mac](http://mac.github.com/)/[GitHub for Windows](http://windows.github.com/) and optionally, a [Markdown](http://daringfireball.net/projects/markdown/) editor like [Markdownpad](http://markdownpad.com) (for Windows) or [Mou](http://mouapp.com/) (for Mac).
 2. [Fork](https://help.github.com/articles/fork-a-repo) the project.
 3. Make changes as you would normally using the tools installed in step #1.
 4. Push the changes back to your fork.
