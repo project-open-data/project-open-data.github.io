@@ -1,9 +1,12 @@
 ---
+published: true
 permalink: /
 layout: hero
 filename: index.md
 title: Project Open Data
+
 ---
+
 ##1. Background
 
 Data is a valuable national resource and a strategic asset to the U.S. Government, its partners, and the public.  Managing this data as an asset and making it available, discoverable, and usable – [in a word, open](principles/) – not only strengthens our democracy and promotes efficiency and effectiveness in government, but also has the potential to create economic opportunity and improve citizens’ quality of life. 
@@ -107,7 +110,7 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 6-5 [FederalRegister.gov API](https://www.federalregister.gov/uploads/2012/11/FR2-API-Case-Study1.pdf) - A core government program update that has grown into an important public service.
 
-6-6 [National Broadband Map](http://www.wilsoncenter.org/sites/default/files/National%20Broadband%20Map%20Wilson%20Center%20Case%20Study.pdf) - The National Broadband Map, a case study on open innovation for national policy.  Produced by the [Wilson Center](http://www.wilsoncenter.org/).
+6-6 [National Broadband Map](http://www.scribd.com/doc/109998799/The-National-Broadband-Map-A-Case-Study-on-Open-Innovation-for-National-Policy) - The National Broadband Map, a case study on open innovation for national policy.  Produced by the [Wilson Center](http://www.wilsoncenter.org/).
 
 6-7 [National Renewable Energy Laboratory API program](http://developer.nrel.gov/api-case-study/) - An agency perspective on developing APIs for general use and in particular building the case for the internal re-use of the resources.
 
