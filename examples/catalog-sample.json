@@ -3,12 +3,12 @@
         "title": "Data Catalog",
         "description": "Version 1.0", 
         "keyword": "catalog", 
-        "modified": "2013-05-09 06:00:00",
+        "modified": "2013-05-09",
         "publisher": "US Department of X",
         "person": "Contact Person",
         "mbox": "contact.person@agency.gov",
         "identifier": "1",
-        "accessLevel": "public",
+        "accessLevel": "Public",
         "distribution": [
             {
                 "accessURL": "http://agency.gov/data.json",
@@ -20,12 +20,12 @@
         "title": "Public Elementary/Secondary Listing",
         "description": "The purpose of the CCD nonfiscal surveys is to provide a listing of all schools and agencies providing free public elementary and secondary education, along with basic descriptive statistical information on each school and agency listed. Penalties apply for misuse, seehttp://nces.ed.gov/ncesglobal/data_usage_agreement.aspfor more details.", 
         "keyword": "education, schools", 
-        "modified": "2011-11-19 00:00:00",
+        "modified": "2011-11-19",
         "publisher": "US Department of Education",
         "person": "Open Data Initiative",
         "mbox": "opendata@ed.gov",
         "identifier": "ykv5-fn9t",
-        "accessLevel": "public",
+        "accessLevel": "Public",
         "dataDictionary": "http://nces.ed.gov/ccd/pdf/INsc09101a.pdf",
         "distribution": [
             {
