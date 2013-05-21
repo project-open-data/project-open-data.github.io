@@ -1,8 +1,10 @@
 ---
+published: true
 layout: default
 title: Implementation Guide
-permalink: /implementation-guide/
-filename: implementation-guide.md
+permalink: "/implementation-guide/"
+filename: "implementation-guide.md"
+
 ---
 
 ## 1) Create and maintain an enterprise data inventory
@@ -73,7 +75,8 @@ Create a process to solicit feedback from customers about existing and potential
 ### A) Tools
 
 * **Have WordPress?** Use the [Data Kickstart plugin](https://github.com/project-open-data/kickstart) to provide an instant voting interface based on your existing data.json file, allowing customers to vote up or down datasets and to leave comments on specific datasets.
-* **Using Socrata?** Ask to have the "Suggest a Dataset" feature turned on, and the opend data portal will allow the public to make dataset suggestions.
+* **Using Socrata?** Ask to have the "Suggest a Dataset" feature turned on, and the opened data portal will allow the public to make dataset suggestions.
+* **Using CKAN?** Ask to have the DISQUS plugin installed and integrated into appropriate section templates.
 
 ### B) Best Practices and Examples
 
