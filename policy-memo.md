@@ -167,7 +167,7 @@ As OMB has noted, "The individual's right to privacy must be protected in Federa
 
 5. Take into account other publicly available information when determining whether particular information should be considered PII (as defined in part I of this Memorandum).
 
-##### 5. Incorporate new interoperability and openness requirements into core agency processes
+#### 5. Incorporate new interoperability and openness requirements into core agency processes
 
 Consistent with 44 U.S.C. 3506 (b)(2), agencies must develop and maintain an Information Resource Management (IRM) Strategic Plan. IRM Strategic Plans should align with the agency's Strategic Plan (as required by OMB Circular A-11),[^36] support the attainment of agency priority goals as mandated by the Government Performance and Results Modernization Act of 2010,[^37] provide a description of how IRM activities help accomplish agency missions, and ensure that IRM decisions are integrated with organizational planning, budget, procurement, financial management, human resources management, and program decisions. As part of the annual PortfolioStat process,[^38] agencies must update their IRM Strategic Plans to describe how they are meeting new and existing information life cycle management requirements. Specifically, agencies must describe how they have institutionalized and operationalized the interoperability and openness requirements in this Memorandum into their core processes across all applicable agency programs and stakeholders. 
 
