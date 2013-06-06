@@ -1,9 +1,11 @@
 ---
+published: "true"
 layout: default
 title: Common Core Metadata Schema
 permalink: /schema/
 filename: schema.md
 id: schema
+
 ---
 
 This section contains guidance to support the use of the [common core metadata](http://project-open-data.github.io/schema/) to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.  
@@ -279,7 +281,7 @@ Field       | title
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | Must be one of the following: true, false
-**Usage Notes** | Indicates whether a dataset
+**Usage Notes** | Indicates whether a dataset conforms to the agency's information quality guidelines.
 **Example** |  `{"dataQuality":"true"}`
 
 {.table .table-striped}
