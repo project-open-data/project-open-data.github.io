@@ -134,7 +134,8 @@ The mapping is from the DCAT field to the XPATH(s) in the common metadata schema
 |Public Access Level | /metadata/idinfo/accconst |
 |Data Dictionary     | /metadata/idinfo/keywords/theme/themekt |
 |Download URL        | /metadata/idinfo/citation/citeinfo/onlink |
-|Endpoint            | |
+|Endpoint            | One of a number of places in FGDC may contain the endpoint to a web service. Catalogs typically parse these elements to find a web service endpoint: <br/> /metadata/dataqual/lineage/srcinfo/srccite/citeinfo/onlink <br/> /metadata/idinfo/crossref/citeinfo/onlink <br/> /metadata/idinfo/citation/citeinfo/onlink <br/> /metadata/metainfo/metextns/onlink <br/> /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/
+networka/networkr|
 |Format              | /metadata/spdoinfo/direct |
 |License             | /metadata/distinfo/distliab |
 |Spatial             | /metadata/idinfo/spdom/bounding |
