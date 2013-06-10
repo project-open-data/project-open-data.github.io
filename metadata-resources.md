@@ -65,23 +65,23 @@ In order to generate appropriately formatted XML or RDFa Lite files, simply impo
 "Common Core" Required Fields Equivalents
 -----------------------------
 
-{.table .table-striped}
-Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1*  | *Schema.org*
--------             | -------                 | -------           | ------- | ------- 
-Title               | *Title*                 | *title*           | [dcterms:title](http://www.w3.org/TR/vocab-dcat/#property--title-1)    | *sdo:name*
-Description         | *Description*           | *notes*                | [dcterms:description](http://www.w3.org/TR/vocab-dcat/#property--description-1) | *sdo:description*
-Tags                | *Keywords*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#property--keyword-tag)    | *sdo:keywords*
-Last Update         | *Date updated*          | *revision_timestamp*                | [dcterms:modified](http://www.w3.org/TR/vocab-dcat/#property--update-modification-date-1) | *sdo:dateModified* 
-Publisher           | *Agency Name*           | *owner_org*                | [dcat:publisher](http://www.w3.org/TR/vocab-dcat/#property--publisher-1) | *sdo:publisher*
-Contact Name        | *Contact Name*          | *maintainer*                | [foaf:Person](http://www.w3.org/TR/vocab-dcat/#class--organization-person) | *sdo:Person*
-Contact Email       | *Contact Email Address* | *maintainer_email*                | [foaf:mbox](http://xmlns.com/foaf/spec/#term_mbox) | *n/a*
-Unique Identifier   | *User Generated ID*     | *id*                | [dcterms:identifier](http://www.w3.org/TR/vocab-dcat/#property--identifier) | *n/a*
-Public Access Level | *n/a*                   | *n/a*             | *n/a* | *n/a*
+
+|Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1*  | *Schema.org*|
+|-------             | -------                 | -------           | ------- | ------- |
+|Title               | *Title*                 | *title*           | [dcterms:title](http://www.w3.org/TR/vocab-dcat/#property--title-1)    | *sdo:name*|
+|Description         | *Description*           | *notes*                | [dcterms:description](http://www.w3.org/TR/vocab-dcat/#property--description-1) | *sdo:description*|
+|Tags                | *Keywords*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#property--keyword-tag)    | *sdo:keywords*|
+|Last Update         | *Date updated*          | *revision_timestamp*                | [dcterms:modified](http://www.w3.org/TR/vocab-dcat/#property--update-modification-date-1) | *sdo:dateModified* |
+|Publisher           | *Agency Name*           | *owner_org*                | [dcat:publisher](http://www.w3.org/TR/vocab-dcat/#property--publisher-1) | *sdo:publisher*|
+|Contact Name        | *Contact Name*          | *maintainer*                | [foaf:Person](http://www.w3.org/TR/vocab-dcat/#class--organization-person) | *sdo:Person*|
+|Contact Email       | *Contact Email Address* | *maintainer_email*                | [foaf:mbox](http://xmlns.com/foaf/spec/#term_mbox) | *n/a*|
+|Unique Identifier   | *User Generated ID*     | *id*                | [dcterms:identifier](http://www.w3.org/TR/vocab-dcat/#property--identifier) | *n/a*|
+|Public Access Level | *n/a*                   | *n/a*             | *n/a* | *n/a*|
 
 "Common Core" Required if Applicable Fields
 -------------------------------------------
 
-{.table .table-striped}
+
 Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1* | *Schema.org*
 -------             | -------                 | -------           | -------  | ------- 
 Data Dictionary     | *Data Dictionary*       | *data_dict*                | [dcat:dataDictionary](http://www.w3.org/TR/vocab-dcat/#property--data-dictionary) | *n/a*
@@ -95,7 +95,7 @@ Temporal            | *Period of Coverage*    | *n/a*                | [dcterms:
 Expanded Fields
 ---------------
 
-{.table .table-striped}
+
 Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1* | *Schema.org*
 -------             | -------                 | -------           | -------  | ------- 
 Release Date        | *Date Released*         | *n/a*                | [dcterms:issued](http://www.w3.org/TR/vocab-dcat/#property--release-date) | *sdo:datePublished*
@@ -111,3 +111,37 @@ RSS Feed            | *Access Point*          | *n/a*                | [dcat:fee
 System of Records   | *n/a*                  | *n/a*                | *n/a*  | *n/a*
 
 \*When combined with _accessURL_, _format_, and _size_.
+
+
+Mapping DCAT to Other Metadata Specifications
+---------------------------------------------
+
+Below is a set of mappings that will help users of other common metadata schemas map their content to the defined DCAT fields.
+The mapping is from the DCAT field to the XPATH(s) in the common metadata schema where the corresponding information may be found.
+
+###FGDC CSDGM
+
+| DCAT Field         | *FGDC CSDGM*|
+|-------             | ------- |
+|Title               | /metadata/idinfo/citation/citeinfo/title |
+|Description         | /metadata/idinfo/descript/abstract |
+|Tags                | /metadata/idinfo/keywords/theme/themekey <br/> /metadata/idinfo/keywords/place/placekey <br/> /metadata/idinfo/keywords/temporal/tempkey |
+|Last Update         | /metadata/idinfo/citation/citeinfo/pubdate |
+|Publisher           | /metadata/idinfo/ptcontac/cntinfo/cntorgp/cntorg |
+|Contact Name        | /metadata/idinfo/ptcontac/cntinfo/cntorgp/cntper |
+|Contact Email       | /metadata/idinfo/ptcontac/cntinfo/cntemail |
+|Unique Identifier   | CSDGM does not include a unique identifier in the metadata itself. Common practice is to use a URL to the metadata document as unique identifier. |
+|Public Access Level | /metadata/idinfo/accconst |
+|Data Dictionary     | /metadata/idinfo/keywords/theme/themekt |
+|Download URL        | /metadata/idinfo/citation/citeinfo/onlink |
+|Endpoint            | |
+|Format              | /metadata/spdoinfo/direct |
+|License             | /metadata/distinfo/distliab |
+|Spatial             | /metadata/idinfo/spdom/bounding |
+|Temporal            | /metadata/idinfo/timeperd/timeinfo (might be one date or range. If range, separate start/end with comma) |
+
+
+
+
+
+
