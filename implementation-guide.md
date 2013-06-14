@@ -28,7 +28,7 @@ This listing can be maintained in a Data Management System (DMS) such as the ope
 * Your agency can and should use this central inventory listing as an internal search tool to increase awareness of data collections already in existence and to prevent duplicative research efforts. For example, a search of this inventory may reveal that the combination of two existing datasets could produce the results sought by a proposed new collection.
 
   
-## 2) Create and maintain a public data inventory
+## 2) Create and maintain a public data catalogue
 *\[Due by 11/9/13\]*
 
 Maintain a publicly accessible listing of all datasets maintained by your agency for harvesting by a central Data.gov search engine and the public at large.
