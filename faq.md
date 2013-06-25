@@ -47,7 +47,7 @@ This project constitutes a collaborative work ("open source"). Federal employees
 
 *Note: All contributors retain the original copyright to their contribution, but by contributing to this project, you grant a world-wide, royalty-free, perpetual, irrevocable, non-exclusive, transferable license to all users under the terms of the license(s) under which this project is distributed.*
 
-### Can I use the project’s content or source code elsewhere?
+### Can I use the project's content or source code elsewhere?
 
 The project [as originally published](http://www.github.com/project-open-data) constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 USC § 105. Subsequent contributions by members of the public, however, retain their original copyright.
 
@@ -116,7 +116,7 @@ Yes, if your data management process includes rich metadata specific to the miss
 
 ## Security, Privacy and Data Quality
 
-### Who is responsible for ensuring that datasets published in the agency.gov/data page (and subsequently Data.gov) meet each agency’s requirements for security and privacy and quality?
+### Who is responsible for ensuring that datasets published in the agency.gov/data page (and subsequently Data.gov) meet each agency's requirements for security and privacy and quality?
 
 Each agency is responsible for *all* data made public.
  
@@ -166,7 +166,7 @@ There are several syntaxes that may be used when publishing the data file. The s
 
 ### What are some of the ways that agencies can become more involved with Open Data?
 
-Having a contact point at the agency who can answer questions and receive comments about published data is extremely important to making your data more open and valuable to the public. This contact point can be centralized at the agency level, but it’s extremely value to have someone close to the source of the data who understands it well enough to help the public take full advantage of it..
+Having a contact point at the agency who can answer questions and receive comments about published data is extremely important to making your data more open and valuable to the public. This contact point can be centralized at the agency level, but it's extremely value to have someone close to the source of the data who understands it well enough to help the public take full advantage of it..
 
 ## Scope 
 
@@ -188,7 +188,7 @@ Agencies are required to implement the Open Data Policy within six months.
 
 ### What is the relationship between NIEM and the efforts underway for the Digital Government Strategy, The Open Data Policy, and Data.gov?
 
-Each of these initiatives has a discreet, targeted focus, but all are aimed at increasing access and use of government data.  Data.gov has provided a central place to find data and applications for publicly releasable information.   New applications and services to better serve citizens have been produced as a result in the increase of information made available through Data.gov.  The DGS/ODP policy establishes a framework to help institutionalize the principles of effective information management at each stage of the information’s life cycle.  The framework can help agencies build information systems and processes in a way that increases information and system interoperability, openness, and safeguarding – mutually reinforcing activities that help to promote data discoverability and usability.  NIEM, as a government-wide program provides tools to enhance the way many communities build standardized exchanges to increase mission performance.  NIEM fully aligns to the DGS/ODP policy and can be seen one of the tools for implementation.
+Each of these initiatives has a discreet, targeted focus, but all are aimed at increasing access and use of government data.  Data.gov has provided a central place to find data and applications for publicly releasable information.   New applications and services to better serve citizens have been produced as a result in the increase of information made available through Data.gov.  The DGS/ODP policy establishes a framework to help institutionalize the principles of effective information management at each stage of the information's life cycle.  The framework can help agencies build information systems and processes in a way that increases information and system interoperability, openness, and safeguarding – mutually reinforcing activities that help to promote data discoverability and usability.  NIEM, as a government-wide program provides tools to enhance the way many communities build standardized exchanges to increase mission performance.  NIEM fully aligns to the DGS/ODP policy and can be seen one of the tools for implementation.
 
 ### What is NIEM?
 

@@ -103,11 +103,11 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 6-1 [Department of Labor API Program](labor-case-study/) - A department perspective on developing APIs for general use and, in particular, building the case for an ecosystem of users by developing SDKs.
 
-6-2 [Department of Transportation Enterprise Data Inventory](transportation-case-study/) - A review of DOT’s strategy and policy when creating a robust data inventory program.  
+6-2 [Department of Transportation Enterprise Data Inventory](transportation-case-study/) - A review of DOT's strategy and policy when creating a robust data inventory program.  
 
 6-3 [Disaster Assistance Program Coordination](fema-case-study/) - The coordinated campaign led by FEMA has integrated a successful data exchange among 16 agencies to coordinate an important public service.  
 
-6-4 [Environmental Protection Agency Central Data Exchange](epa-case-study/) - The agency’s data exchange provides a model for programs that seek to coordinate the flow of data among industry, state, local, and tribal entities.  
+6-4 [Environmental Protection Agency Central Data Exchange](epa-case-study/) - The agency's data exchange provides a model for programs that seek to coordinate the flow of data among industry, state, local, and tribal entities.  
 
 6-5 [FederalRegister.gov API](https://www.federalregister.gov/uploads/2012/11/FR2-API-Case-Study1.pdf) - A core government program update that has grown into an important public service.
 
