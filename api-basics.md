@@ -64,8 +64,10 @@ APIs are driven by a set of specific technologies, making them easily understood
 
 Since REST takes advantage of the same Internet mechanisms that are used to view regular web pages it has many advantages, resulting in faster implementations and easier for developers to understand.  REST APIs allow you to take data and functionality available on your website and make these resources available through a Web API.  Then, instead of returning HTML to represent these resources, the API returns data in one of two possible formats:
 
-*	[Extensible Markup Language (XML)](http://apievangelist.com/buildingblocks/extensible_markup_language_(xml)
-*	[JavaScript Object Notation (JSON)](http://apievangelist.com/buildingblocks/javascript_object_notation_(json)
+<ul>
+  <li><a href="http://apievangelist.com/buildingblocks/extensible_markup_language_(xml).php">Extensible Markup Language (XML)</a></li>
+  <li><a href="http://apievangelist.com/buildingblocks/javascript_object_notation_(json).php">JavaScript Object Notation (JSON)</a></li>
+</ul>
 
 Developers can then take this data and use in web and mobile applications.  However XML and JSON are easily consumed by spreadsheets and other tools non-developers can use as well, making APIs accessible by anyone.  
 
