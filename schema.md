@@ -280,9 +280,9 @@ Field       | title
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | Must be one of the following: true, false
+**Accepted Values** | Must be a boolean value of `true` or `false` (not contained within quote marks)
 **Usage Notes** | Indicates whether a dataset conforms to the agency's information quality guidelines.
-**Example** |  `{"dataQuality":"true"}`
+**Example** |  `{"dataQuality":true}`
 
 {.table .table-striped}
 **Field** | **category**

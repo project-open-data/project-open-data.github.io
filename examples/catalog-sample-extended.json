@@ -50,7 +50,7 @@
         "accrualPeriodicity": "one-time",
         "language": "English", 
         "granularity": "",
-        "dataQuality": "true",
+        "dataQuality": true,
         "theme": "education", 
         "references": "http://nces.ed.gov/ccd/data/txt/psu091alay.txt", 
         "landingPage": "http://ed.gov/developer",
