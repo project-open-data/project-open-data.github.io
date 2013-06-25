@@ -85,7 +85,7 @@ So really when we say errors we mean bad things happen like a database server go
  
 An API starts with the desire to share data or resources that a company offers.  It's built with technologies like REST, XML, and JSON, and supported through documentation, along with a handful of code samples to show how to use it.
 
-An API and its supporting developer area are created.  And then, what's next?  How does a simple API area build community?  How does it evolve into a thriving ecosystem like Facebook's or Foursquare's?
+An API and its supporting developer area are created.  And then, what's next?  How does a simple API area build community?  How does it evolve into a thriving ecosystem like Facebook’s or Foursquare's?
 
 It all starts with developers.  Giving developers a self-service, resource-rich environment where they have the spotlight and a voice that will encourage them in turn to contribute to the API community.
 
