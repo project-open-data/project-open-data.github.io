@@ -1,8 +1,9 @@
 ---
+published: true
 layout: default
 title: Metadata Resources
-permalink: /metadata-resources/
-filename: metadata-resources.md
+permalink: "/metadata-resources/"
+filename: "metadata-resources.md"
 ---
 
 This section provides further background and resources to assist agencies in implementing the [common core metadata schema](/schema/).
@@ -50,7 +51,7 @@ If your agency has a JSON catalog with a different metadata schema and need to c
 
 C) Utilizing CKAN 
 
-[CKAN](http://www.CKAN.org) is a popular, open-source data catalog.  Even if an agency hasn't begun a data catalog, adopting CKAN can provide a robust and feature-rich solution with which to begin maintaining an internal or external catalog.  In addition to providing an effective means of organizing the agency's data catalog, CKAN provides several opportunities for generating the needed data.json file.  CKAN provides a convenient CSV export that can then be imported into the [Catalog Generator](http://project-open-data.github.com/catalog-generator/) for conversion into an appropriately formatted JSON file.  Alternatively, CKAN provides a JSON API of the data catalog which can then be altered to provide an automatic update for the appropriately formatted JSON file.  
+[CKAN](http://www.CKAN.org) is a popular, open-source data catalog that can be installed independently or run as a service.  Even if an agency hasn't begun a data catalog, adopting CKAN can provide a robust and feature-rich solution with which to begin maintaining an internal or external catalog.  In addition to providing an effective means of organizing the agency's data catalog, CKAN provides several opportunities for generating the needed data.json file.  CKAN provides a convenient CSV export that can then be imported into the [Catalog Generator](http://project-open-data.github.com/catalog-generator/) for conversion into an appropriately formatted JSON file.  Alternatively, CKAN provides a JSON API of the data catalog which can then be altered to provide an automatic update for the appropriately formatted JSON file.  
 
 D) Manual translating a data file from another system
 
