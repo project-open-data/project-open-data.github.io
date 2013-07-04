@@ -64,6 +64,9 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.  
 
+4-9 [Geoportal Server](https://github.com/Esri/geoportal-server) - Geoportal Server is a standards-based, open source product that enables discovery and use of geospatial resources including datasets and web services. Latest release adds configurable support of DCAT in addition to already supported OGC CSW and OpenSearch interfaces and various metadata specifications.
+
+
 
 #5. Resources
 ----------------------
