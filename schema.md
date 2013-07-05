@@ -253,9 +253,9 @@ Field       | title
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | Must be one of the following: hourly, daily, weekly, yearly, other
+**Accepted Values** | Must be one of the following: Annual, Bimonthly, Semiweekly, Daily, Biweekly, Semiannual, Biennial, Triennial, Three times a week, Three times a month, Continuously updated, Monthly, Quarterly, Semimonthly, Three times a year, Weekly, Completely irregular
 **Usage Notes** | -
-**Example** |  `{"accrualPeriodicity":"yearly"}`
+**Example** |  `{"accrualPeriodicity":"annual"}`
 
 {.table .table-striped}
 **Field** | **language**
