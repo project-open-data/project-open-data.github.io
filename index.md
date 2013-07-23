@@ -54,7 +54,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-1 [Database to API](https://github.com/project-open-data/db-to-api) - Dynamically generate RESTful APIs from the contents of a database table. Provides JSON, XML, and HTML. Supports most popular databases. -&nbsp;*[Hosted](http://labs.data.gov/db-to-api/readme.md)*
  
-4-2 [CSV to API](https://github.com/project-open-data/csv-to-api) - Dynamically generate RESTful APIs from static CSVs. Provides JSON, XML, and HTML. -&nbsp;*[Hosted](http://labs.data.gov/csv-to-api/)*
+4-2 [CSV to API](https://github.com/project-open-data/csv-to-api), [LIBRE](https://github.com/commonwealth-of-puerto-rico/libre) - Dynamically generate RESTful APIs from static CSVs. Provides JSON, XML, and HTML. -&nbsp;*[Hosted](http://labs.data.gov/csv-to-api/)*
 
 4-3 [Spatial Search](https://github.com/project-open-data/SpatialSearch) - A RESTful API that allows the user to query geographic entities by latitude and longitude, and extract data.
 
@@ -68,7 +68,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.  
 
-4-9 [ESRI2Open](http://github.com/project-open-data/esri2open) - A tool which converts spatial and non-spatial data form ESRI only formats to the Open Data formats, CSV, Json, or GeoJSOn, making them more a part of the www ecology.
+4-9 [ESRI2Open](http://github.com/project-open-data/esri2open), [LIBRE](https://github.com/commonwealth-of-puerto-rico/libre) - A tool which converts spatial and non-spatial data form ESRI only formats to the Open Data formats, CSV, Json, or GeoJSOn, making them more a part of the www ecology.
 
 4-10 [ckanext-datajson](https://github.com/HHS/ckanext-datajson) - A CKAN extension to generate agency.gov/data.json catalog files.
 
