@@ -161,11 +161,11 @@ Field       | title
 {.table .table-striped}
 **Field** | **publisher**
 ----- | -----
-**Cardinality** | (1,1)
+**Cardinality** | (1,n)
 **Required** | Yes, always
 **Accepted Values** | String
-**Usage Notes** | Departments and multi-unit agencies may use this field to describe which subordinate agency published this dataset.
-**Example** |  `{"publisher":"U.S. Department of Education"}`
+**Usage Notes** | Departments and multi-unit agencies may use this field to describe which subordinate agency published this dataset. If multiple agencies contributed, or if subordinate agencies need to be includes, a comma separated list may be used. 
+**Example** |  `{"publisher":"U.S. Department of Education"}` `{"publisher":"Department of Health and Human Services,Food and Drug Administration,Department of Agriculture"}`
 
 {.table .table-striped}
 **Field** | **person**
