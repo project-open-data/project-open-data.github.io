@@ -263,8 +263,8 @@ Field       | title
 **Cardinality** | (0,n)
 **Required** | No
 **Accepted Values** | String
-**Usage Notes** | -
-**Example** |  `{"language":"English"}`
+**Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard.
+**Example** |  `{"language":"en-US"}`
 
 {.table .table-striped}
 **Field** | **granularity**
