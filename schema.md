@@ -217,9 +217,9 @@ Field       | title
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | -
-**Usage Notes** | See list of licenses.
-**Example** |  `{"license":""}`
+**Accepted Values** | URL
+**Usage Notes** | See list of licenses. This field should contain a URL to the  license document. 
+**Example** |  `{"license":"http://opendatacommons.org/licenses/pddl/1.0/"}`
 
 {.table .table-striped}
 **Field** | **spatial**
