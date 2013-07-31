@@ -37,7 +37,7 @@ While agencies are only required to list datasets with an "Access Level" value o
 
 ### A) Minimum Required for Compliance
 
-Document any datasets or metadata in your enterprise data inventory that your agency does not believe can be made publicly available, in consultation with your Office of General Counsel or its equivalent.
+Document any datasets or metadata in your enterprise data inventory that your agency does not believe can be made publicly available, in consultation with your Office of General Counsel or its equivalent, and/or your Chief FOIA Officer.
 
 Publish your agency’s enterprise data inventory, with the aforementioned information removed, to a file located at \[agency\].gov/data.json and described using (at minimum) the [common core metadata](http://project-open-data.github.io/schema/). This file itself must be listed as a dataset within itself (see [an example of format](http://project-open-data.github.io/examples/catalog-sample-extended.json) ); if you have multiple data.json files across your agency, include all of them in the top-level data.json at agency.gov/data.json.
 
