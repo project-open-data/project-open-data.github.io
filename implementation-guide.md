@@ -73,6 +73,7 @@ While you could manually create this file in a text editor, it is recommended th
 Create a process to solicit feedback from customers about existing and potential future dataset releases, including (but not limited to):
 * Suggestions about additional formats in which to release a particular dataset, such as via an API
 * Suggestions as to which datasets to release next  
+* Making suggestions publicly available on your data catalog website
 
 ### A) Tools
 
