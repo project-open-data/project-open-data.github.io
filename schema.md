@@ -263,8 +263,8 @@ Field       | title
 **Cardinality** | (0,n)
 **Required** | No
 **Accepted Values** | String
-**Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard.
-**Example** |  `{"language":"en-US"}`
+**Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard. http://rishida.net/utils/subtags/ provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag for another one (such as American vs. British English).
+**Example** |  `{"language":"en-US"}` `{"language":"en-GB"}` `{"language":"jp"}` `{"language":"es-MX, wo, nv, en-US"}` 
 
 {.table .table-striped}
 **Field** | **granularity**
