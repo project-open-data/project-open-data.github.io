@@ -5,6 +5,7 @@ title: Common Core Metadata Schema
 permalink: /schema/
 filename: schema.md
 id: schema
+
 ---
 
 This section contains guidance to support the use of the common core metadata to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.  
@@ -88,7 +89,7 @@ Related Documents   | Related documents such as technical information about a da
 Size                | The size of the downloadable dataset.                                                                                                         | size                  
 Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface. | landingPage	            
 RSS Feed            | URL for an RSS feed that provides access to the dataset.                                                                                      | feed            
-System of Records   | URL to the System of Records related to this dataset. | systemOfRecords
+System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
 
 
 Further Metadata Field Guidance
