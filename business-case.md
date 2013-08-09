@@ -1,10 +1,10 @@
 ---
+published: true
 layout: default
 title: Business Case for Open Data
-permalink: /business-case/
-filename: business-case.md
+permalink: "/business-case/"
+filename: "business-case.md"
 ---
-
 
 Making data open and accessible in a standard, machine-readable format by default can have significant productivity and cost savings for agencies. When conducting a cost-benefit analysis to determine whether and to what extent to modify existing datasets and systems in accordance with the recommendations of this memo, consider the following potential benefits.
 
@@ -18,4 +18,4 @@ Making data open and accessible in a standard, machine-readable format by defaul
 
 **Positive attention from the public, media, and other agencies.** In recent years, [entire events](http://energy.gov/articles/energy-datapalooza-unleashing-power-open-data-advance-our-energy-future) [celebrating](http://www.ed.gov/blog/2013/01/education-datapalooza-unleashing-the-power-of-open-data-to-help-students-parents-and-teachers/) the release and use of open government data -- many hosted by the White House -- have taken place, with corresponding media coverage and international attention. The more data your agency makes available in easy-to-consume formats, the more opportunities for positive coverage of the availability and impact of those data and your agency's efforts.
 
-**Generate revenue and create new jobs in the private sector.** McKinsey estimates that open health data alone adds over $300 billion to the economy each year. Entrepreneurs and non-profits integrate existing open government datasets in ways ranging from iPhone apps that connect you with the nearest hospital in case of an emergency, with [information](http://www.healthdata.gov/question/what-types-applications-have-been-developed-using-healthdatagov-data) from Health and Human Services, to matching prospective college students with the most appropriate schools, based on [IPEDS](http://nces.ed.gov/ipeds/) data maintained by the Department of Education. Making more of your agency data publicly available in standards-compliant, machine-readable formats makes it easier for private sector companies and entrepreneurs to create new innovations fueled by your agency's data.
+**Generate revenue and create new jobs in the private sector.** McKinsey estimates that open health data alone adds over $300 billion to the economy each year. Entrepreneurs and non-profits integrate existing open government datasets in ways ranging from web apps that connect you with the nearest hospital in case of an emergency, with [information](http://www.healthdata.gov/question/what-types-applications-have-been-developed-using-healthdatagov-data) from Health and Human Services, to matching prospective college students with the most appropriate schools, based on [IPEDS](http://nces.ed.gov/ipeds/) data maintained by the Department of Education. Making more of your agency data publicly available in standards-compliant, machine-readable formats makes it easier for private sector companies and entrepreneurs to create new innovations fueled by your agency's data.
