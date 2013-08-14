@@ -6,7 +6,7 @@ filename: governance.md
 ---
 
 ### Background
-[Project Open Data](http://project-open-data.github.com), a new White House resource, is an online collection of code, best practices, and case studies developed to help agencies adopt the framework presented in the memorandum on “Managing Government Information as an Asset to Promote Interoperability and Openness.” Project Open Data will evolve over time as a community resource to facilitate adoption of open data practices. To facilitate collaboration across the Federal Government and in partnership with public developers, the Project is published on the developer social network GitHub. 
+[Project Open Data](/), a new White House resource, is an online collection of code, best practices, and case studies developed to help agencies adopt the framework presented in the memorandum on “Managing Government Information as an Asset to Promote Interoperability and Openness.” Project Open Data will evolve over time as a community resource to facilitate adoption of open data practices. To facilitate collaboration across the Federal Government and in partnership with public developers, the Project is published on the developer social network GitHub. 
 
 As the Project founder, the White House is dedicated to maximizing openness, participation, and collaboration while ensuring the integrity of the resources hosted within the Project. This page provides information on ways to participate in the Project and how the White House will govern it. 
 
@@ -43,7 +43,7 @@ Ultimately? You. While the White House founded and continues to oversee the proj
 At the onset, the General Services Administration is here to provide daily oversight and support, but over time, it is our vision that contributors both inside and outside of government can be empowered to take on additional leadership roles.  
 
 **Can I use the project's content or source code elsewhere?**  
-The project [as originally published](http://project-open-data.github.io/) constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 USC § 105. Subsequent contributions by members of the public, however, retain their original copyright.
+The project [as originally published](/) constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 USC § 105. Subsequent contributions by members of the public, however, retain their original copyright.
 In order to better facilitate collaboration, the content of this project is licensed under the [Creative Commons 3.0 License](http://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT License](http://opensource.org/licenses/mit-license.php).
 
 **How can I contribute?**  
