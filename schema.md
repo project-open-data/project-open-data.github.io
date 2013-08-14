@@ -237,6 +237,12 @@ Field       | title
 **Required** | Yes, if applicable
 **Accepted Values** | See Usage Notes
 **Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start date, end date} in the format YYYY-MM-DD hh:mm:ss using 24 hour clock time notation (e.g., 2011-02-14 12:00:00,  2013-02-14 12:00:00). 
+
+A temporal range can be considered open-ended if it starts or ends with a comma.  For example:
+"2000-01-15 00:45:00," would include everything after January 15th, 2000 at 00:45:00.
+
+This can be useful for datasets that are updated often (multiple times per day).
+
 **Example** |  `{"temporal":"2000-01-15 00:45:00,2010-01-15 00:06:00"}`
 
 {.table .table-striped}
