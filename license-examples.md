@@ -1,25 +1,20 @@
 ---
+published: true
 layout: default
 title: Open License Examples
-permalink: /license-examples/
-filename: license-examples.md
+permalink: "/license-examples/"
+filename: "license-examples.md"
+
 ---
 
-This section offers usable examples of open licenses for potential use by agencies.  
+This section offers usable examples of open licenses for potential use by agencies.
 
-## Generally
+Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection under 17 U.S.C. § 105. When purchasing data or content from third-party vendors, however care must be taken to ensure the information is not hindered by a restrictive, non-open license.
 
-Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection under 17 U.S.C. § 105. When purchasing data or content from third-party vendors, however care must be taken to ensure the information is not hindered by a restrictive, non-open license. In general, such licenses should comply with [the open knowledge definition](http://opendefinition.org/okd/) of an open license. Several examples of common open licenses are listed below:
+The open data memorandum says that "[o]pen data are made available under an open license that places no restrictions on their use." Most open licenses place restrictions on use (such as attribution) and so would not be compliant with the memorandum's definition of open data. (See sections I, III-1-a, and III-1-c.)
 
-## Content Licenses
-* [Creative Commons BY, BY-SA, or CC0](http://creativecommons.org/choose/)
-* [GNU Free Documentation License](http://www.gnu.org/licenses/fdl-1.3.en.html)
+The only open "licenses" that we know of that place "no restrictions" on data use are public domain dedications, such as one of the following:
 
-## Data Licenses
 * [Open Data Commons Public Domain Dedication and Licence (PDDL)](http://opendefinition.org/licenses/odc-pddl)
-* [Open Data Commons Attribution License](http://opendatacommons.org/licenses/by/)
-* [Open Data Commons Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/)
-* [Creative Commons CC0](http://creativecommons.org/choose/)
-
-## More Information
-*[Extended list of comformant licenses](http://opendefinition.org/licenses/)*
+* [Creative Commons CC0 Public Domain Dedication (CC0)](http://creativecommons.org/publicdomain/zero/1.0/)
+es](http://opendefinition.org/licenses/)*
