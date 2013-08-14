@@ -87,7 +87,7 @@ So really when we say errors we mean bad things happen (a database server goes d
  
 An API starts with the desire to share data or resources that a company offers. It's built with technologies like REST, XML, and JSON, and supported through documentation, along with a handful of code samples to show how to use it.
 
-An API and its supporting developer area are created. And then, what's next? How does a simple API area build community? How does it evolve into a thriving ecosystem like Facebook’s of Foursquare's?
+An API and its supporting developer area are created. And then, what's next? How does a simple API area build community?  How does it evolve into a thriving ecosystem like Facebook’s or Foursquare's?
 
 It all starts with developers. Giving developers a self-service, resource-rich environment where they have the spotlight and a voice that will encourage them in turn to contribute to the API community.
 
@@ -97,7 +97,7 @@ Resources for developers need to be abundant and well organized. Common resource
 
 Support and resources can create a positive feedback loop among developers and encourage activity that will ideally spread to other users.
 
-Developers can’t be expected to visit an API area regularly, so an API community needs to extend its reach to existing social network and developer communities including Twitter, LinkedIn, Github, and Stack Exchange.
+Developers can’t be expected to visit an API area regularly, so an API community needs to extend its reach to existing social network and developer communities including Twitter, LinkedIn, GitHub, and Stack Exchange.
 
 Even more than just a presence on these social networks, an API needs to have an offline presence too -- something that can be accomplished by attending conferences, meet-ups, and hackathons, for example. These activities will only serve to strengthen the API community.
 

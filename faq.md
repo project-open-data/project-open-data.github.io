@@ -146,7 +146,7 @@ No, the files should be located at agency.gov/data web space.  Each agency shoul
 
 1. For websites that are composed of static HTML, simply host the data.json file at the designated location.  
 2. If needed, one may also host the file by using /data.json/index.html to provide the same functionality.  
-3. Sites that utilize WordPress may modify and employ the open-sourced [Datafiles Wordpress Plugin](https://github.com/GSA/datafiles-wordpress-plugin).  
+3. Sites that utilize WordPress may modify and employ the open-sourced [Datafiles WordPress Plugin](https://github.com/GSA/datafiles-wordpress-plugin).  
 4. Sites that utilize Drupal may modify and employ the open-sourced [Digital Strategy Drupal Module](https://github.com/FCC/digital_strategy).  
 
  
@@ -188,7 +188,7 @@ Agencies are required to implement the Open Data Policy within six months.
 
 ### What is the relationship between NIEM and the efforts underway for the Digital Government Strategy, The Open Data Policy, and Data.gov?
 
-Each of these initiatives has a discreet, targeted focus, but all are aimed at increasing access and use of government data.  Data.gov has provided a central place to find data and applications for publically releasable information.   New applications and services to better serve citizens have been produced as a result in the increase of information made available through Data.gov.  The DGS/ODP policy establishes a framework to help institutionalize the principles of effective information management at each stage of the information’s life cycle.  The framework can help agencies build information systems and processes in a way that increases information and system interoperability, openness, and safeguarding – mutually reinforcing activities that help to promote data discoverability and usability.  NIEM, as a government-wide program provides tools to enhance the way many communities build standardized exchanges to increase mission performance.  NIEM fully aligns to the DGS/ODP policy and can be seen one of the tools for implementation.
+Each of these initiatives has a discreet, targeted focus, but all are aimed at increasing access and use of government data.  Data.gov has provided a central place to find data and applications for publicly releasable information.   New applications and services to better serve citizens have been produced as a result in the increase of information made available through Data.gov.  The DGS/ODP policy establishes a framework to help institutionalize the principles of effective information management at each stage of the information's life cycle.  The framework can help agencies build information systems and processes in a way that increases information and system interoperability, openness, and safeguarding – mutually reinforcing activities that help to promote data discoverability and usability.  NIEM, as a government-wide program provides tools to enhance the way many communities build standardized exchanges to increase mission performance.  NIEM fully aligns to the DGS/ODP policy and can be seen one of the tools for implementation.
 
 ### What is NIEM?
 

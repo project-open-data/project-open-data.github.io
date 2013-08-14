@@ -27,7 +27,7 @@ The catalog file should list all of an agency's datasets that can be made public
 
 Metadata File Format --  JSON
 ---------------------------------------
-The [Implemention Guidance](http://project-open-data.github.io/implementation-guide/) available as a part of Project Open Data describes Agency requirements for the development of metadata as per the Open Data Policy.  A quick primer on the file format involved:
+The [Implementation Guidance](http://project-open-data.github.io/implementation-guide/) available as a part of Project Open Data describes Agency requirements for the development of metadata as per the Open Data Policy.  A quick primer on the file format involved:
 
 [JSON](http://www.json.org) is a lightweight data-exchange format that is very easy to read, parse and generate.  Based on a subset of the JavaScript programming language, JSON is a text format that is optimized for data interchange.  JSON is built on two structures: (1) a collection of name/value pairs; and (2) an ordered list of values.  
 
