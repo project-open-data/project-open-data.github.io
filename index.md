@@ -76,6 +76,8 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-10 [ckanext-datajson](https://github.com/HHS/ckanext-datajson) - A CKAN extension to generate agency.gov/data.json catalog files.
 
+4-10 [DKAN](http://drupal.org/project/dkan) - An open data portal modeled on [CKAN](http://ckan.org/). DKAN is a stand alone Drupal distribution that allows anyone to spin up an open data portal in minutes as well as two modules, [DKAN Dataset](http://drupal.org/project/dkan_dataset) and [DKAN Datastore](http://drupal.org/project/dkan_datastore), that can be added to existing Drupal sites to add data portal functionality to an exist Drupal site.
+
 ----------------
 
 ##5. Resources
