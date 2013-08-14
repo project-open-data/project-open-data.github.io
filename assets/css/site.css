@@ -5,6 +5,13 @@ body {
   font-size: 14px;
   margin: 0;
 }
+ul a[rel="footnote"] {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  top: -0.5em;
+  vertical-align: baseline;
+}
 h1,
 h2,
 h3,
