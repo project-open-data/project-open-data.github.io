@@ -4,7 +4,6 @@ layout: default
 title: Implementation Guide
 permalink: "/implementation-guide/"
 filename: "implementation-guide.md"
-
 ---
 
 ## 1) Create and maintain an enterprise data inventory
@@ -16,7 +15,7 @@ Maintain a complete listing of all datasets owned, managed, collected, and/or cr
 
 Produce a single catalog or list of data managed in a single table, workspace, or other relevant location. Describe each dataset according to the [common core metadata](/schema/).
 
-This listing can be maintained in a Data Management System (DMS) such as the open-source [CKAN](http://www.ckan.org) platform; a single spreadsheet, with each metadata field as its own column; or a DMS of your choosing.
+This listing can be maintained in Data Management Systems (DMS) such as the open-source [CKAN](http://www.ckan.org) platform or Software as a Service offerings like [Socrata](http://www.socrata.com/open-data-portal); a single spreadsheet, with each metadata field as its own column; or a DMS of your choosing.
 
 ### B) Best Practices and Examples
 
@@ -47,6 +46,7 @@ While you could manually create this file in a text editor, it is recommended th
 
 * **Don’t have a DMS?** Use the hosted Catalog Generator to create your data.json file via basic data entry.
 * **Is your data inventory stored in a CSV (Excel file)?** Use the [CSV-to-API generator](http://labs.data.gov/csv-to-api/) to automatically convert it into a compliant data.json file.
+* **Is your data inventory stored in Socrata?** Socrata has native support for data.json, so any datasets stored are automatically exposed appropriately.  In addition, any of the extended properties specified in the [common core metadata](http://project-open-data.github.io/schema/) can be set on a per-dataset basis using the built-in metadata facilities.
 * **Is your data inventory stored in CKAN?** Use the Data.gov extension (coming soon).
 * **Not sure if your data.json file meets the requirements?** Paste your file into the [JSON Validator](https://github.com/project-open-data/json-validator) to receive real-time feedback.
 
