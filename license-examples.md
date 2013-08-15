@@ -12,6 +12,7 @@ This section offers usable examples of open licenses for potential use by agenci
 Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection under 17 U.S.C. § 105. When purchasing data or content from third-party vendors, however care must be taken to ensure the information is not hindered by a restrictive, non-open license. In general, such licenses should comply with [the open knowledge definition](http://opendefinition.org/okd/) of an open license. Several examples of common open licenses are listed below:
 
 ## Content Licenses
+* [Public Domain Mark](http://creativecommons.org/about/pdm)
 * [Creative Commons BY, BY-SA, or CC0](http://creativecommons.org/choose/)
 * [GNU Free Documentation License](http://www.gnu.org/licenses/fdl-1.3.en.html)
 
