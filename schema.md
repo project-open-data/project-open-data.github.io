@@ -141,13 +141,13 @@ Field       | title
 **Example** | `{"format":"csv"}`
 
 {.table .table-striped}
-**Field** | **keyword**
+**Field** | **keywords**
 ----- | -----
 **Cardinality** | (1,n)
 **Required** | Yes, always
 **Accepted Values** | String
 **Usage Notes** | Separate keywords with commas.
-**Example** | `{"keyword":"squash,vegetables,veggies,greens,leafy,spinach,kale,nutrition,tomatoes,tomatos"}`
+**Example** | `{"keywords":"squash,vegetables,veggies,greens,leafy,spinach,kale,nutrition,tomatoes,tomatos"}`
 
 {.table .table-striped}
 **Field** | **modified**
