@@ -5,7 +5,6 @@ title: Common Core Metadata Changelog
 permalink: /metadata-changelog/
 filename: metadata-changelog.md
 ---
-
 This page lists changes to the common core metadata schema by version. Latest changes at the top. Consult repository history for explanations.
 
 ## Changelog
