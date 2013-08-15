@@ -82,7 +82,6 @@ Field               | Definition                                                
 Release Date        | Date of formal issuance.                                                                                                                      | issued         
 Frequency           | Frequency with which dataset is published.                                                                                                    | accrualPeriodicity    
 Language            | The language of the dataset.                                                                                                                  | language              
-Granularity         | Level of granularity of the dataset.                                                                                                          | granularity           
 Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             | dataQuality          
 Category            | Main thematic category of the dataset.                                                                                                        | theme                 
 Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references            
@@ -265,15 +264,6 @@ Field       | title
 **Accepted Values** | String
 **Usage Notes** | -
 **Example** |  `{"language":"English"}`
-
-{.table .table-striped}
-**Field** | **granularity**
------ | -----
-**Cardinality** | (0,1)
-**Required** | No
-**Accepted Values** | String
-**Usage Notes** | Typically geographical or temporal.
-**Example** |  `{"granularity":"vegetables"}`
 
 {.table .table-striped}
 **Field** | **dataQuality**
