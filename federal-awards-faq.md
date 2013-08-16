@@ -1,3 +1,12 @@
+---
+published: true
+layout: default
+title: Applying the Open Data Policy to Federal Awards
+permalink: /federal-awards-faq/
+filename: federal-awards-faq.md
+
+---
+
 # Applying the Open Data Policy to Federal Awards
 
 ##Frequently Asked Questions
