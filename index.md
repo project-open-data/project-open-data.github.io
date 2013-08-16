@@ -14,7 +14,7 @@ For example, when the U.S. Government released weather and GPS data to the publi
 
 The ultimate value of data can often not be predicted. That’s why the U.S. Government released a [policy](policy-memo/) that instructs agencies to manage their data, and information more generally, as an asset from the start and, wherever possible, release it to the public in a way that makes it open, discoverable, and usable. 
 
-The White House developed Project Open Data – this collection of code, tools, and case studies – to help agencies adopt the Open Data Policy and unlock the potential of government data. Project Open Data will evolve over time as a community resource to facilitate broader adoption of open data practices in government. Anyone – government employees, contractors, developers, the general public – can view and contribute. So dive right in and [help to build a better world through the power of open data](governance/). 
+The White House developed Project Open Data – this collection of code, tools, and case studies – to help agencies adopt the Open Data Policy and unlock the potential of government data. Project Open Data will evolve over time as a community resource to facilitate broader adoption of open data practices in government. Anyone – government employees, contractors, developers, the general public – can view and contribute. Learn more about [Project Open Data Governance](governance/) and dive right in and help to build a better world through the power of open data. 
 
 ----------------
 
@@ -40,11 +40,13 @@ Implementation guidance for open data practices.
 
 3-1 [U.S. Government Policy on Open Data](/policy-memo/) - Full text of the memorandum.  
 
-3-2 [Implementation Guide](/implementation-guide/) - Detailed descriptions and guidance for each step of implementing the policy. 
+3-2 [Implementation Guide](/implementation-guide/) - Official OMB implementation guidance for each step of implementing the policy. 
 
 3-3 [Public Data Listing](/catalog/) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.  
 
 3-4 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.  
+
+3-5 [Open Data Cross Priority (CAP) Goal](http://goals.performance.gov/opendata) - Information on the development of the Open Data CAP goal as required in the [Open Data Execuitve Order](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government). 
 
 ----------------
 
@@ -100,6 +102,8 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 5-7 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
 
 5-8 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
+
+5-9 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards. 
 
 ----------------
 
