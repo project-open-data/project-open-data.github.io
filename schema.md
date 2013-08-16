@@ -236,7 +236,7 @@ Field       | title
 **Cardinality** | (0,1)
 **Required** | Yes, if applicable
 **Accepted Values** | See Usage Notes
-**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start datetime/end datetime} in the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format. ISO 8601 specifies datetimes to be formatted as YYY-MM-DDT12:46:14Z, where the T specifies a seperator between the date and time and time is expressed in 24 hour notation in the UTC (Zulu) time zone. (e.g., 2011-02-14T12:00:00Z/2013-07-04T19:34:00Z). 
+**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start datetime/end datetime} in the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format. ISO 8601 specifies that datetimes can be formatted in a number of ways, including a simple four-digit year (eg. 2013) to a much more specific YYYY-MM-DDTHH:MM:SSZ, where the T specifies a seperator between the date and time and time is expressed in 24 hour notation in the UTC (Zulu) time zone. (e.g., 2011-02-14T12:00:00Z/2013-07-04T19:34:00Z). 
 **Example** |  `{"temporal":"2000-01-15T00:45:00Z/2010-01-15T00:06:00Z"}`
 
 {.table .table-striped}
