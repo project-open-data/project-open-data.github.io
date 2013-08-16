@@ -40,33 +40,33 @@ The following "common core" fields are required, to be used to describe each ent
 
 *(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources/#common_core_required_fields_equivalents) to find the equivalent Data.gov, RDFa Lite, and CKAN fields.)*
 
-{.table .table-striped}
-Field               | Definition                                                                                                                                     |JSON            
+{: .table .table-striped}
+Field               | Definition                                                                                                                                     |JSON
 -------             | ---------------                                                                                                                                | --------------  
-Title               | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery.                | title           
-Description         | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | description     
-Tags                | Tags (or keywords) help users discover your dataset, please include terms that would be used by technical and non-technical users.             | keyword        
-Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        | modified        
-Publisher           | The publishing agency.                                                                                                                         | publisher    
-Contact Name        | Contact person's name for the asset.                                                                                                           | person         
-Contact Email        | Contact person's email address. 			           	                                                                                             | mbox	       
-Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 | identifier            
-Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: Public (is or *could be* made publicly available), Restricted (available under certain conditions), or Private (never able to be made publicly available)  | accessLevel          
+Title               | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery.                | title
+Description         | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | description
+Tags                | Tags (or keywords) help users discover your dataset, please include terms that would be used by technical and non-technical users.             | keyword
+Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        | modified
+Publisher           | The publishing agency.                                                                                                                         | publisher
+Contact Name        | Contact person's name for the asset.                                                                                                           | person
+Contact Email        | Contact person's email address. 			           	                                                                                             | mbox
+Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 | identifier
+Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: Public (is or *could be* made publicly available), Restricted (available under certain conditions), or Private (never able to be made publicly available)  | accessLevel
 
 "Common Core" Required-if-Applicable Fields
 -------------------------------------------
 The following fields must be used to describe each dataset if they are applicable:
 
-{.table .table-striped}
-Field               | Definition                                                                                                                                     |JSON            
+{: .table .table-striped}
+Field               | Definition                                                                                                                                     |JSON
 -------             | ---------------                                                                                                                                | --------------  
 Data Dictionary     | URL to the data dictionary for the dataset or API.  Note that documentation other than a Data Dictionary can be referenced using Related Documents as shown in the expanded fields.              | dataDictionary  
-Download URL        | URL providing direct access to the downloadable distribution of a dataset.                                                                     | accessURL              
-Endpoint            | Endpoint of web service to access dataset.                                                                                                     | webService            
-Format              | The file format or API type of the distribution.                                                                                               | format          
-License             | The license dataset or API is published with.  See [Open Licenses](/open-licenses/) for more information.   | license         
-Spatial  	          | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         | spatial 	       
-Temporal	          | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   | temporal	       
+Download URL        | URL providing direct access to the downloadable distribution of a dataset.                                                                     | accessURL
+Endpoint            | Endpoint of web service to access dataset.                                                                                                     | webService
+Format              | The file format or API type of the distribution.                                                                                               | format
+License             | The license dataset or API is published with.  See [Open Licenses](/open-licenses/) for more information.   | license
+Spatial  	          | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         | spatial
+Temporal	          | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   | temporal
 
 Beyond Common Core -- Extending the Schema
 ------------------------------------------
@@ -76,6 +76,21 @@ Expanded Fields
 ---------------
 Agencies are encouraged to use the following expanded fields when appropriate. Agencies may freely augment these fields with their own.
 
+<<<<<<< HEAD
+{: .table .table-striped}
+Field               | Definition                                                                                                                                    | JSON
+------              | ------                                                                                                                                        | ----
+Release Date        | Date of formal issuance.                                                                                                                      | issued
+Frequency           | Frequency with which dataset is published.                                                                                                    | accrualPeriodicity
+Language            | The language of the dataset.                                                                                                                  | language
+Granularity         | Level of granularity of the dataset.                                                                                                          | granularity
+Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             | dataQuality
+Category            | Main thematic category of the dataset.                                                                                                        | theme
+Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references
+Size                | The size of the downloadable dataset.                                                                                                         | size
+Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface. | landingPage
+RSS Feed            | URL for an RSS feed that provides access to the dataset.                                                                                      | feed
+=======
 {.table .table-striped}
 Field               | Definition                                                                                                                                    | JSON                 
 ------              | ------                                                                                                                                        | ----                  
@@ -87,13 +102,14 @@ Category            | Main thematic category of the dataset.                    
 Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references            
 Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface. | landingPage	            
 RSS Feed            | URL for an RSS feed that provides access to the dataset.                                                                                      | feed            
+>>>>>>> master
 System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
 
 
 Further Metadata Field Guidance
 -------------------------------
 
-{.table .table-striped}
+{: .table .table-striped}
 Field       | title
 -----           | -----
 **Cardinality** | (1,1)
@@ -102,7 +118,7 @@ Field       | title
 **Usage Notes** | Acronyms should be avoided.
 **Example**     | `{"title":"Types of Vegetables"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **description**
 ----- | -----
 **Cardinality** | (1,1)
@@ -111,7 +127,7 @@ Field       | title
 **Usage Notes** | This should be human-readable and understandable to an average person.
 **Example** | `{"description":"This dataset contains a list of vegetables, including nutrition information and seasonality. Includes details on tomatoes, which are really fruit but considered a vegetable in this dataset."}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **dataDictionary**
 ----- | -----
 **Cardinality** | (1,1)
@@ -120,7 +136,7 @@ Field       | title
 **Usage Notes** | -
 **Example** |  `{"dataDictionary":"http://www.agency.gov/vegetables/dictionary.html"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **accessURL**
 ----- | -----
 **Cardinality** | (1,n)
@@ -129,7 +145,7 @@ Field       | title
 **Usage Notes** | This must be the **direct** download URL. Use **homepage** for landing or disambiguation pages, or **dataDictionary** for documentation pages.
 **Example** |  `{"accessURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **format**
 ----- | -----
 **Cardinality** | (1,n)
@@ -138,7 +154,7 @@ Field       | title
 **Usage Notes** | This must describe the exact file available at **accessURL** using file extensions (e.g., CSV, XLS, XSLX, TSV, JSON, XML). For example, if the download file is a ZIP containing a CSV, the entry here is "ZIP".
 **Example** | `{"format":"csv"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **keywords**
 ----- | -----
 **Cardinality** | (1,n)
@@ -147,7 +163,7 @@ Field       | title
 **Usage Notes** | Separate keywords with commas.
 **Example** | `{"keywords":"squash,vegetables,veggies,greens,leafy,spinach,kale,nutrition,tomatoes,tomatos"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **modified**
 ----- | -----
 **Cardinality** | (1,1)
@@ -156,7 +172,7 @@ Field       | title
 **Usage Notes** | Dates should be formatted as YYYY-MM-DD. Specify "01" as the day if unknown. If this file is brand-new, enter the **issued** date here as well.
 **Example** |  `{"modified":"2012-01-15"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **publisher**
 ----- | -----
 **Cardinality** | (1,1)
@@ -165,7 +181,7 @@ Field       | title
 **Usage Notes** | Departments and multi-unit agencies may use this field to describe which subordinate agency published this dataset.
 **Example** |  `{"publisher":"U.S. Department of Education"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **person**
 ----- | -----
 **Cardinality** | (1,1)
@@ -174,7 +190,7 @@ Field       | title
 **Usage Notes** | Name should be formatted as Last, First
 **Example** |  `{"person":"Brown, John"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **mbox**
 ----- | -----
 **Cardinality** | (1,1)
@@ -183,7 +199,7 @@ Field       | title
 **Usage Notes** | -
 **Example** |  `{"mbox":"joe@agency.gov"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **identifier**
 ----- | -----
 **Cardinality** | (1,1)
@@ -192,7 +208,7 @@ Field       | title
 **Usage Notes** | This field allows third parties to maintain a consistent record for datasets even if title or URLs are updated. Agencies may integrate an existing system for maintaining unique identifiers or enter arbitrary characters for this field. However, each identifier **must** be unique across the agency's catalog and remain fixed. Characters should be alphanumeric.
 **Example** |  `{"identifier":"1344"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **accessLevel**
 ----- | -----
 **Cardinality** | (1,1)
@@ -201,7 +217,7 @@ Field       | title
 **Usage Notes** | This field refers to degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A private dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
 **Example** | `{"accessLevel":"public"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **webService**
 ----- | -----
 **Cardinality** | (0,1)
@@ -210,7 +226,7 @@ Field       | title
 **Usage Notes** | This field will serve to delineate the web services offered by an agency and will be used to aggregate cross-government API catalogs.
 **Example** | `{"webService":"http://www.agency.gov/vegetables/vegetables.json"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **license**
 ----- | -----
 **Cardinality** | (0,1)
@@ -219,7 +235,7 @@ Field       | title
 **Usage Notes** | See list of licenses.
 **Example** |  `{"license":""}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **spatial**
 ----- | -----
 **Cardinality** | (0,1)
@@ -228,16 +244,16 @@ Field       | title
 **Usage Notes** | This field should contain one of the following types of content: (1) a bounding coordinate box for the dataset represented in latitude / longitude pairs where the coordinates are specified in decimal degrees and in the order of: minimum longitude, minimum latitude, maximum longitude, maximum latitude; (2) a latitude / longitude pair (in decimal degrees) representing a point where the dataset is relevant; (3) a geographic feature expressed in [Geography Markup Language using the Simple Features Profile](http://www.ogcnetwork.net/gml-sf); or (4) a geographic feature from the [GeoNames database](http://www.geonames.org).
 **Example** |  `{"spatial":"Lincoln, Nebraska"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **temporal**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if applicable
 **Accepted Values** | See Usage Notes
-**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start date, end date} in the format YYYY-MM-DD hh:mm:ss using 24 hour clock time notation (e.g., 2011-02-14 12:00:00,  2013-02-14 12:00:00). 
+**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start date, end date} in the format YYYY-MM-DD hh:mm:ss using 24 hour clock time notation (e.g., 2011-02-14 12:00:00,  2013-02-14 12:00:00).
 **Example** |  `{"temporal":"2000-01-15 00:45:00,2010-01-15 00:06:00"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **issued**
 ----- | -----
 **Cardinality** | (0,1)
@@ -246,7 +262,7 @@ Field       | title
 **Usage Notes** | -
 **Example** |  `{"issued":"2001-01-15"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **accrualPeriodicity**
 ----- | -----
 **Cardinality** | (0,1)
@@ -255,7 +271,7 @@ Field       | title
 **Usage Notes** | -
 **Example** |  `{"accrualPeriodicity":"yearly"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **language**
 ----- | -----
 **Cardinality** | (0,n)
@@ -264,7 +280,7 @@ Field       | title
 **Usage Notes** | -
 **Example** |  `{"language":"English"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **dataQuality**
 ----- | -----
 **Cardinality** | (0,1)
@@ -273,7 +289,7 @@ Field       | title
 **Usage Notes** | Indicates whether a dataset conforms to the agency's information quality guidelines.
 **Example** |  `{"dataQuality":true}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **category**
 ----- | -----
 **Cardinality** | (0,n)
@@ -282,7 +298,7 @@ Field       | title
 **Usage Notes** | Separate multiple categories with a comma. Could include [ISO Topic Categories](http://www.isotopicmaps.org/).  
 **Example** |  `{"category":"vegetables"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **references**
 ----- | -----
 **Cardinality** | (0,n)
@@ -291,7 +307,7 @@ Field       | title
 **Usage Notes** | Separate multiple URLs with a comma.
 **Example** |  `{"references":"http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/legumes/legumes.csv"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **distribution**
 ----- | -----
 **Cardinality** | (0,n)
@@ -300,7 +316,20 @@ Field       | title
 **Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: download url, format, endpoint, language, size.
 **Example** | `"distribution": [{"accessURL": "http://data.mcc.gov/example_resource/data.json", "format":"JSON", "size":"22mb"},{"accessURL":"http://data.mcc.gov/example_/data.xml", "format":"XML", "size":"24mb"}]`
 
+<<<<<<< HEAD
+{: .table .table-striped}
+**Field** | **size**
+----- | -----
+**Cardinality** | (0,n)
+**Required** | No
+**Accepted Values** | See Usage Notes
+**Usage Notes** | Sizes should be formatted as (e.g.), 52kB, 140MB, 2GB.
+**Example** |  `{"size":"3MB"}`
+
+{: .table .table-striped}
+=======
 {.table .table-striped}
+>>>>>>> master
 **Field** | **landingPage**
 ----- | -----
 **Cardinality** | (0,1)
@@ -309,7 +338,7 @@ Field       | title
 **Usage Notes** | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users should be directed to for all resources tied to the dataset.  This allows agencies to better specify what a visitor receives after selecting one of the agency's datasets on Data.gov or in third-party mashups.
 **Example** |  `{"landingPage":"http://www.agency.gov/vegetables"}`
 
-{.table .table-striped}
+{: .table .table-striped}
 **Field** | **feed**
 ----- | -----
 **Cardinality** | (0,n)
@@ -323,7 +352,7 @@ Rationale for Metadata Nomenclature
 ----------------------
 We sought to be platform-independent and to align as much as possible with existing open standards.
 
-To that end, our JSON key names are directly drawn from [DCAT](http://www.w3.org/TR/vocab-dcat/), with two exceptions. 
+To that end, our JSON key names are directly drawn from [DCAT](http://www.w3.org/TR/vocab-dcat/), with two exceptions.
 
 We added the new **accessLevel** field to help easily sort datasets into our three existing categories: public, restricted, and private. This field means an agency can run a basic filter against its enterprise data catalog to generate a public-facing list of datasets that are, or *could one day be*, made publicly available (or, in the case of restricted data, available under certain conditions). This field also makes it easy for anyone to generate a list of datasets that *could* be made available but have not yet been released by filtering **accessLevel** to *public* and **accessURL** to *blank*.
 

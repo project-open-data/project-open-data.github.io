@@ -49,7 +49,7 @@ B) Translating a data file from another schema
 
 If your agency has a JSON catalog with a different metadata schema and need to convert it to the prescribed schema needed for the data.json file, one can import the file into [Catalog Generator](http://project-open-data.github.com/catalog-generator/), adjust the metadata as needed and export the results again as the appropriately formatted JSON file.
 
-C) Utilizing CKAN 
+C) Utilizing CKAN
 
 [CKAN](http://www.CKAN.org) is a popular, open-source data catalog that can be installed independently or run as a service.  Even if an agency hasn't begun a data catalog, adopting CKAN can provide a robust and feature-rich solution with which to begin maintaining an internal or external catalog.  In addition to providing an effective means of organizing the agency's data catalog, CKAN provides several opportunities for generating the needed data.json file.  CKAN provides a convenient CSV export that can then be imported into the [Catalog Generator](http://project-open-data.github.com/catalog-generator/) for conversion into an appropriately formatted JSON file.  Alternatively, CKAN provides a JSON API of the data catalog which can then be altered to provide an automatic update for the appropriately formatted JSON file.  
 
@@ -70,13 +70,13 @@ In order to generate appropriately formatted XML or RDFa Lite files, simply impo
 "Common Core" Required Fields Equivalents
 -----------------------------
 
-{.table .table-striped}
+{: .table .table-striped}
 Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1*  | *Schema.org*
--------             | -------                 | -------           | ------- | ------- 
+-------             | -------                 | -------           | ------- | -------
 Title               | *Title*                 | *title*           | [dcterms:title](http://www.w3.org/TR/vocab-dcat/#property--title-1)    | *sdo:name*
 Description         | *Description*           | *notes*                | [dcterms:description](http://www.w3.org/TR/vocab-dcat/#property--description-1) | *sdo:description*
 Tags                | *Keywords*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#property--keyword-tag)    | *sdo:keywords*
-Last Update         | *Date updated*          | *revision_timestamp*                | [dcterms:modified](http://www.w3.org/TR/vocab-dcat/#property--update-modification-date-1) | *sdo:dateModified* 
+Last Update         | *Date updated*          | *revision_timestamp*                | [dcterms:modified](http://www.w3.org/TR/vocab-dcat/#property--update-modification-date-1) | *sdo:dateModified*
 Publisher           | *Agency Name*           | *owner_org*                | [dcat:publisher](http://www.w3.org/TR/vocab-dcat/#property--publisher-1) | *sdo:publisher*
 Contact Name        | *Contact Name*          | *maintainer*                | [foaf:Person](http://www.w3.org/TR/vocab-dcat/#class--organization-person) | *sdo:Person*
 Contact Email       | *Contact Email Address* | *maintainer_email*                | [foaf:mbox](http://xmlns.com/foaf/spec/#term_mbox) | *n/a*
@@ -86,9 +86,9 @@ Public Access Level | *n/a*                   | *n/a*             | *n/a* | *n/a
 "Common Core" Required if Applicable Fields
 -------------------------------------------
 
-{.table .table-striped}
+{: .table .table-striped}
 Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1* | *Schema.org*
--------             | -------                 | -------           | -------  | ------- 
+-------             | -------                 | -------           | -------  | -------
 Data Dictionary     | *Data Dictionary*       | *data_dict*                | [dcat:dataDictionary](http://www.w3.org/TR/vocab-dcat/#property--data-dictionary) | *n/a*
 Download URL        | *Access Point*          | *res_url*                | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#property--access-download) | *sdo:contentUrl*
 Endpoint            | *Access Point*          | *res_url*                | [dcat:webService](http://www.w3.org/TR/vocab-dcat/#class--webservice) \*  | *n/a*
@@ -100,9 +100,9 @@ Temporal            | *Period of Coverage*    | *n/a*                | [dcterms:
 Expanded Fields
 ---------------
 
-{.table .table-striped}
+{: .table .table-striped}
 Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1* | *Schema.org*
--------             | -------                 | -------           | -------  | ------- 
+-------             | -------                 | -------           | -------  | -------
 Release Date        | *Date Released*         | *n/a*                | [dcterms:issued](http://www.w3.org/TR/vocab-dcat/#property--release-date) | *sdo:datePublished*
 Frequency           | *Frequency*             | *n/a*                | [dcterms:accrualPeriodicity](http://www.w3.org/TR/vocab-dcat/#property--frequency)    | *n/a*
 Language            | *n/a*                   | *n/a*                | [dcat:language](http://www.w3.org/TR/vocab-dcat/#property--language-1)     | *sdo:inLanguage*
