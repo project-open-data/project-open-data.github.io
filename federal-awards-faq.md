@@ -4,26 +4,29 @@
 
 ###General Questions:
 * Q1: What sort of data is covered by the open data policy?
-* Q2: What does “open data” mean?
-* Q3: What does “platform independent” mean?
-* Q4: What does “machine readable” mean?
-* Q5: Are all agencies approaching this data in the same way? What if my agency has a grant or contract with recipient A and we translate the data but another agency has a similar contract with recipient A and requires the recipient to provide the data in a platform-independent, machine-readable format? How does this help with consistency across the government? 
-* Q6: Must all agency data be posted publicly? What sorts of considerations guide whether data should be posted publicly?
-* Q7: Who decides whether data should be posted publicly?
+* Q2: Who within my agency is responsible for Open Data Policy decision-making?
+* Q3: What does “open data” mean?
+* Q4: What does “platform independent” mean?
+* Q5: What does “machine readable” mean?
+* Q6: Are all agencies approaching this data in the same way? What if my agency has a grant or contract with recipient A and we translate the data but another agency has a similar contract with recipient A and requires the recipient to provide the data in a platform-independent, machine-readable format? How does this help with consistency across the government? 
+* Q7: Must all agency data be posted publicly? What sorts of considerations guide whether data should be posted publicly?
 * Q8: Some of the data I collect cannot be shared publicly. How is this data affected by the open data policy?
-* Q9: Once the decision to post data publicly is made, who is responsible for doing so?
-* Q10: Do I need to change the way Federal award data are reported, for example, does my agency contract or grant writing system or interface with the Federal Procurement Data System, USAspending.gov, or agency financial system need to change?  
+* Q9: Who decides whether data should be posted publicly?
+* Q10: Once the decision to post data publicly is made, who is responsible for doing so?
+* Q11: Do I need to change the way Federal award data are reported, for example, does my agency contract or grant writing system or interface with the Federal Procurement Data System, USAspending.gov, or agency financial system need to change?  
 
 ###Questions Applicable to Contracts:
-* Q11: Do I need to initiate modifications on my existing contracts to address the open data policy?
-* Q12: For new contracts, what changes must I make to my deliverables or terms and conditions to address the open data policy? 
-* Q13: How difficult is it for agency personnel to transform machine-readable data into a platform-independent format? Is requiring data in a platform-independent format likely to drive up deliverable cost? Who can provide guidance on making the decision regarding who should convert the data?
-* Q14: Are there any Federal Acquisition Regulation (FAR) provisions that might affect an agency’s  authority to publish data provided as a contract deliverable?
+* Q12: Do I need to initiate modifications on my existing contracts to address the open data policy?
+* Q13: For new contracts, what changes must I make to my deliverables or terms and conditions to address the open data policy? 
+* Q14: How difficult is it for agency personnel to transform machine-readable data into a platform-independent format? Is requiring data in a platform-independent format likely to drive up deliverable cost? Who can provide guidance on making the decision regarding who should convert the data?
+* Q15: Are there any Federal Acquisition Regulation (FAR) provisions that might affect an agency’s authority to publish data provided as a contract deliverable?
 
 ###Questions Applicable to Grants and Other Financial Assistance:
-* Q15: For new financial assistance awards, what changes must I make to terms and conditions to address the open data policy?
-* Q16:  Is there any OMB guidance that might affect an agency’s  authority to post data generated with Federal financial assistance?
-* Q17: Do I need to modify existing grants or financial assistance awards to address the open data policy? 
+* Q16: Do I need to modify existing grants or financial assistance awards to address the open data policy?  
+* Q17: For new financial assistance awards, what changes must I make to terms and conditions to address the open data policy?
+* Q18: What are the implications of the policy for new investigator-initiated scientific research grants?  
+* Q19: How difficult is it for agency personnel to transform machine-readable data into a platform-independent format? Is requiring data in a platform-independent format likely to drive up costs for recipients? Who can provide guidance on making the decision regarding who should convert the data?
+* Q20: Is there OMB guidance that might affect an agency’s authority to post data generated with Federal financial assistance?
 
 ## Responses
 
@@ -35,7 +38,7 @@ A: The purpose of the Open Data Policy is to make open and machine readable the 
 A: The senior accountable official in your agency for making those decisions is the CIO, in partnership with the data owners in your agency.
 
 ####Q3: What does “open data” mean?
-A: Open data is data that is publicly available data and structured in a way that enables these data to be fully discoverable and useable by end users inside and outside of government. In general, open data is consistent with the following principles: public, accessible, described, reusable, complete, timely, and managed post-release (attributes defined in Open Data Policy: Office of Management and Budget (OMB) [Memorandum M-13-13 Open Data Policy – Managing Information as an Asset](http://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf). 
+A: Open data is data that is publicly available data and structured in a way that enables these data to be fully discoverable and useable by end users inside and outside of government. In general, open data is consistent with the following principles: public, accessible, described, reusable, complete, timely, and managed post-release (attributes defined in the Office of Management and Budget (OMB) [Memorandum M-13-13 *Open Data Policy – Managing Information as an Asset*](http://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf). 
 
 ####Q4: What does “platform independent” mean?
 A: Platform independent data do not require a specific program to open (e.g., a comma-separated value (.csv) spreadsheet). They are in a format that can be read and processed by a variety of software tools – including free tools.
@@ -54,10 +57,10 @@ A: OMB is working collaboratively across the Executive Office of the President t
 A: No. Neither the E.O. nor policy change Agency obligations under any law. Specifically, nothing in the EO or policy compels or authorizes the disclosure of privileged information, law enforcement information, national security information, personal information, or information the disclosure of which is prohibited by law. For example, for contracts, information subject to the Trade Secrets Act regarding proprietary company information would be an example of data that should not be made publicly available, as would detailed vendor pricing information in many cases.  Note that when datasets are designated as inappropriate for public release due to, for instance, issues associated with personally identifiable information, agencies should consider whether the value of the data can be increased by either (1) making the data available to a set of qualified parties (e.g. researchers) with strong legal and privacy protections, or (2) providing access to other Executive branch agencies though through inter-agency data sharing agreements. However, M-13-13 still requires that these types of information be inventoried in an Enterprise Data Inventory regardless of whether they are considered “open data,” which may lead to valuable internal use. Your agency CIO as the responsible official for implementation of the policy will have more information about any agency or program specific considerations that should be applied to data in your agency.
 
 ####Q8: Some of the data I collect cannot be shared publicly. How is this data affected by the open data policy?
-A: The open data policy is about more than just making data publicly available; it is also about managing information as a strategic asset within the enterprise. Even data that cannot be shared publicly should be received and stored in platform-independent, machine-readable formats whenever possible. In many cases, there are significant benefits to be derived from sharing data across the government, even when the data will not be publicly posted [^1] . As an example, detailed contract price data that can be shaerd within the government can provide a valuable touch-point as other agencies plan their procurements, but in some cases that data cannot be publicly shared.  Similarly, data collected in conjunction with administering public benefits can be valuable to statistical agencies.  
+A: The open data policy is about more than just making data publicly available; it is also about managing information as a strategic asset within the enterprise. Even data that cannot be shared publicly should be received and stored in platform-independent, machine-readable formats whenever possible. In many cases, there are significant benefits to be derived from sharing data across the government, even when the data will not be publicly posted (See, for instance, [OMB Memorandum M-11-02: Sharing Data While Protecting Privacy]( http://www.whitehouse.gov/sites/default/files/omb/memoranda/2011/m11-02.pdf)). As an example, detailed contract price data that can be shared within the government can provide a valuable touch-point as other agencies plan their procurements, but in some cases that data cannot be publicly shared.  Similarly, data collected in conjunction with administering public benefits can be valuable to statistical agencies.  
 
 ####Q9: Who decides whether data should be posted publicly?
-A: Program office personnel will largely be responsible for recommending whether a given data set should be made publicly available. As the data owners, such personnel are in the best position to determine whether privacy, national security, or other concerns would preclude public posting. While agency general counsel, contracting officers, and security and privacy personnel, among others, may all be involved in reviewing whether or not a given dataset can be made public, the agency CIO is the responsible official in each agency for leading the open data effort, providing leadership and guidance on implementation.
+A: Program office personnel and grant officers will largely be responsible for recommending whether a given data set should be made publicly available. As the data owners, such personnel and officers are in the best position to determine whether privacy, national security, or other concerns would preclude public posting. While agency general counsel,grant and contracting officers, and security and privacy personnel, among others, may all be involved in reviewing whether or not a given dataset can be made public, the agency CIO is the responsible official in each agency for leading the open data effort, providing leadership and guidance on implementation.
 
 ####Q10: Once the decision to post data publicly is made, who is responsible for doing so?
 A: The agency CIO has the primary responsibility for managing and creating an inventory of all agency datasets as part of an enterprise-wide data inventory.  The agency CIO is also responsible for creating a public data listing, as a subset of the full inventory.  The public data listing does not include the underlying databases, but is simply a list of all datasets (e.g. title, description, point of contact, etc.) in the agency that are public or could be made public.  Public data listings, under M-13-13, are required to be posted at agency.gov/data pages.  
@@ -118,8 +121,3 @@ Your agency CIO is responsible for leading the open data initiative in your agen
 ####Q20: Is there OMB guidance that might affect an agency’s authority to post data generated with Federal financial assistance?
 A: For Federal financial assistance to state, local, and tribal governments please see the guidance from A-102 .  For Federal financial assistance to nonprofit organizations including institutions of higher education, please see the guidance in [OMB Circular A-110](http://www.whitehouse.gov/omb/circulars_a102).  
 While this guidance address the rights obtained by an agency, decisions regarding whether data will be published will be made in accordance with Q9 above, generally involving, as appropriate, consultation among the agency CIO, general counsel, contracting personnel, security personnel and privacy personnel. 
-
-### Footnotes
-[^1] See, for instance, OMB Memorandum M-11-02: Sharing Data While Protecting Privacy http://www.whitehouse.gov/sites/default/files/omb/memoranda/2011/m11-02.pdf
-
-
