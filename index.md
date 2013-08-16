@@ -40,12 +40,13 @@ Implementation guidance for open data practices.
 
 3-1 [U.S. Government Policy on Open Data](/policy-memo/) - Full text of the memorandum.  
 
-3-2 [Implementation Guide](/implementation-guide/) - Detailed descriptions and guidance for each step of implementing the policy. 
+3-2 [Implementation Guide](/implementation-guide/) - Official OMB implementation guidance for each step of implementing the policy. 
 
 3-3 [Public Data Listing](/catalog/) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.  
 
 3-4 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.  
 
+3-5 [Open Data Cross Priority (CAP) Goal](XXXXXXXXXXXX) - Information on the development of the Open Data CAP goal as required in the Open Data Execuitve Order. 
 ----------------
 
 ##4. Tools 
@@ -100,6 +101,8 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 5-7 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
 
 5-8 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
+
+5-9 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards. 
 
 ----------------
 
