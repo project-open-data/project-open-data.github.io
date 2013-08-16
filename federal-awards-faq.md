@@ -2,7 +2,7 @@
 
 ##Frequently Asked Questions
 
-###General Questions:
+###[General Questions:](#general)
 * Q1: What sort of data is covered by the open data policy?
 * Q2: Who within my agency is responsible for Open Data Policy decision-making?
 * Q3: What does “open data” mean?
@@ -15,13 +15,13 @@
 * Q10: Once the decision to post data publicly is made, who is responsible for doing so?
 * Q11: Do I need to change the way Federal award data are reported, for example, does my agency contract or grant writing system or interface with the Federal Procurement Data System, USAspending.gov, or agency financial system need to change?  
 
-###Questions Applicable to Contracts:
+###[Questions Applicable to Contracts:](#contracts)
 * Q12: Do I need to initiate modifications on my existing contracts to address the open data policy?
 * Q13: For new contracts, what changes must I make to my deliverables or terms and conditions to address the open data policy? 
 * Q14: How difficult is it for agency personnel to transform machine-readable data into a platform-independent format? Is requiring data in a platform-independent format likely to drive up deliverable cost? Who can provide guidance on making the decision regarding who should convert the data?
 * Q15: Are there any Federal Acquisition Regulation (FAR) provisions that might affect an agency’s authority to publish data provided as a contract deliverable?
 
-###Questions Applicable to Grants and Other Financial Assistance:
+###[Questions Applicable to Grants and Other Financial Assistance:](#financial)
 * Q16: Do I need to modify existing grants or financial assistance awards to address the open data policy?  
 * Q17: For new financial assistance awards, what changes must I make to terms and conditions to address the open data policy?
 * Q18: What are the implications of the policy for new investigator-initiated scientific research grants?  
@@ -30,7 +30,7 @@
 
 ## Responses
 
-###A.	 General Questions
+###<a name="general"></a>General Questions
 ####Q1: What sort of data is covered by the open data policy?
 A: The purpose of the Open Data Policy is to make open and machine readable the new default for government data collection and dissemination in order to enhance availability, access and interoperability, per May 9, 2013 Executive Order released by the White House.  This includes all information generated and stored by the Federal Government or for data purchased or created through Federal funding such as data collected in conjunction with program administration, scientific research, public health surveillance.  There is an expectation that agencies will work to prioritize ensuring that data is open when it would be likely to fuel entrepreneurship, innovation, accountability, and scientific discovery, and improve the lives of Americans in tangible ways.  
 
@@ -68,7 +68,7 @@ A: The agency CIO has the primary responsibility for managing and creating an in
 #### Q11: Do I need to change the way Federal award data are reported, for example, does my agency contract or grant writing system or interface with the Federal Procurement Data System – Next Generation (FPDS-NG), USAspending.gov, or agency financial system need to change?  
 A: No, FPDS-NG and USAspending already provide public data access to their contents in open formats.  Some system changes may need to be considered for other Federal agency platforms that house public data, and enable public data to be accessed or downloaded.
  
-###B. Questions Applicable to Contracts
+###<a name="contracts"></a>Questions Applicable to Contracts
 
 ####Q12: Do I need to initiate modifications on my existing contracts to address the open data policy?
 A: No. The open data policy is prospective. For new awards, Federal contracts must ensure that the Government treats data as a valuable national asset, and structures any data-related deliverables to collect such data in formats that can be shared, regardless of whether a determination has been made as to whether the data should be made available to the public. There is no requirement to modify existing procurement agreements.  
@@ -97,7 +97,7 @@ The procedures contained in both the FAR and the DFARS are designed to implement
 
 While these clauses address the data rights obtained by an agency, decisions regarding whether data will be published will be made in accordance with Q9 above, involving, as appropriate, consultation among the agency CIO, general counsel, contracting personnel, security personnel and privacy personnel. 
  
-### C.	 Questions Applicable to Grants and Other Financial Assistance
+### <a name="financial"></a>Questions Applicable to Grants and Other Financial Assistance
 ####Q16: Do I need to modify existing grants or financial assistance awards to address the open data policy? 
 A: No. The open data policy is prospective and looks at grants made after the publication of the Executive Order. For these new awards, Federal financial assistance and grant agreements must ensure that the Government treats data as a valuable national asset, and structures any data-related deliverables to collect such data in formats that can be appropriately shared. There is no requirement to modify existing agreements.
 
@@ -109,7 +109,6 @@ A1: If data are included or expected to be provided to the Federal government as
 A2: If data are expected to be provided to the Federal government but are not in the correct format, the agency must make a determination about whether to require the recipient to report the information in the new format (which may require a change to the terms and conditions), or whether to make the change to the new format themselves (which would not).
 Your agency CIO is responsible for leading the open data initiative in your agency as well as working with the interagency working group on this effort.  Your agency may determine that having the agency translate the delivered data is most cost effective so we encourage you to work with your CIO on this effort. 
 A3: If data are generated with Federal funding, but providing data to the Federal government would not otherwise be an expected outcome of the Federal award this policy does not include any new requirement to collect it.  
-
 
 ####Q18: What are the implications of the policy for new investigator-initiated scientific research grants?  
 A: Although most investigator-initiated research grants are expected to generate data, those that do not include a specific provision requiring that the resulting data be provided to the government are not subject to the requirements of this policy.  However, to increase the value of the agency’s investment, some grants already require that data be provided to the agency.  Furthermore, it is likely that some agencies will begin providing additional guidance with respect to managing digital scientific data created under investigator-initiated grants as part of their response to the Office of Science and Technology’s [Memorandum on Increasing Public Access to the Results of Federally Funded Research](http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf).  Agencies, in conjunction with their CIOs, may determine that some requirements of the M-13-13 policy are appropriate for inclusion in future funding announcements (e.g., machine readable, platform independent).  
