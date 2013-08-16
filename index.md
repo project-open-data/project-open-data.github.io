@@ -103,7 +103,7 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-8 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
 
-5-9 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards. 
+5-9 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards. 
 
 ----------------
 
