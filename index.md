@@ -80,6 +80,8 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-13 [DKAN](http://drupal.org/project/dkan) - An open data portal modeled on [CKAN](http://ckan.org/). DKAN is a stand alone Drupal distribution that allows anyone to spin up an open data portal in minutes as well as two modules, [DKAN Dataset](http://drupal.org/project/dkan_dataset) and [DKAN Datastore](http://drupal.org/project/dkan_datastore), that can be added to existing Drupal sites to add data portal functionality to an exist Drupal site.
 
+4-14 [DataVizWiz](https://drupal.org/project/datavizwiz) - A [Drupal](http://drupal.org) module that provides a fast way to get data vizualizations online.
+
 ----------------
 
 ##5. Resources
