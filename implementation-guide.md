@@ -10,7 +10,7 @@ filename: "implementation-guide.md"
 
 ## I. Introduction
 
-The purpose of this guidance is to provide additional clarification and detailed requirements to assist agencies in carrying out the objectives of [Executive Order 13642] (http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government) of May 9, 2013, *Making Open and Machine Readable the New Default for Government Information* and [OMB Memorandum M-13-13](/policy-memo.md) *Open Data Policy-Managing Information as an Asset*.  Specifically, this document focuses on near-term efforts agencies must take to meet the following five initial requirements of M-13-13, which are due November 1, 2013 (six months from publication of M-13-13):
+The purpose of this guidance is to provide additional clarification and detailed requirements to assist agencies in carrying out the objectives of [Executive Order 13642] (http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government) of May 9, 2013, *Making Open and Machine Readable the New Default for Government Information* and [OMB Memorandum M-13-13](/policy-memo) *Open Data Policy-Managing Information as an Asset*.  Specifically, this document focuses on near-term efforts agencies must take to meet the following five initial requirements of M-13-13, which are due November 1, 2013 (six months from publication of M-13-13):
 
 1.	Create and maintain an Enterprise Data Inventory (Inventory)
 2.	Create and maintain a Public Data Listing
@@ -18,7 +18,7 @@ The purpose of this guidance is to provide additional clarification and detailed
 4.	Document if data cannot be released
 5.	Clarify roles and responsibilities for promoting efficient and effective data release
 
-Agencies will establish an open data infrastructure by implementing this guidance and Memorandum [M-13-13](/policy-memo.md)and taking advantage of the resources provided on [Project Open Data](http://project-open-data.github.io).    Once established, agencies will continue to evolve the infrastructure by identifying and adding new data assets [^1],  enriching the description of those data assets through improved metadata, and increasing the amount of data shared with other agencies and the public.  
+Agencies will establish an open data infrastructure by implementing this guidance and Memorandum [M-13-13](/policy-memo)and taking advantage of the resources provided on [Project Open Data](http://project-open-data.github.io).    Once established, agencies will continue to evolve the infrastructure by identifying and adding new data assets [^1],  enriching the description of those data assets through improved metadata, and increasing the amount of data shared with other agencies and the public.  
 
 At a minimum, a successful open data infrastructure must:
 * Provide a robust and usable Enterprise Data Inventory of an agency’s data assets, so that an agency can manage its data as strategic assets,
@@ -27,7 +27,7 @@ At a minimum, a successful open data infrastructure must:
 
 The “access level” categories described in this document are intended to be used for organizational purposes within agencies and to reflect decisions already made in agencies about whether data assets can be made public; simply marking data assets “public” cannot substitute for the analysis necessary to ensure the data can be made public. Agencies are reminded that this underlying data from the inventory may only be released to the public after a full analysis of privacy, confidentiality, security, and other valid restrictions pertinent to law and policy.
 
-This guidance seeks to balance the need to establish clear and meaningful expectations for agencies to meet, while allowing sufficient flexibility on the approach each agency may take to address their own unique needs.  This guidance also includes references to other OMB memoranda that relate to the management of information.  Agencies should refer to the definitions included in the attachment in [OMB Memorandum M-13-13](/policy-memo.md) *Open Data Policy-Managing Information as an Asset*.  
+This guidance seeks to balance the need to establish clear and meaningful expectations for agencies to meet, while allowing sufficient flexibility on the approach each agency may take to address their own unique needs.  This guidance also includes references to other OMB memoranda that relate to the management of information.  Agencies should refer to the definitions included in the attachment in [OMB Memorandum M-13-13](/policy-memo) *Open Data Policy-Managing Information as an Asset*.  
 
 This guidance introduces an Enterprise Data Inventory framework to provide agencies with improved clarity on specific actions to be taken and minimum requirements to be met.  It also provides OMB with a rubric by which to evaluate compliance and progress toward the objectives laid out in the Open Data Policy.  Following the November 1, 2013 deadline, agencies shall report progress on a quarterly basis, and performance will be tracked through the Open Data Cross-Agency Priority (CAP) Goal. Meeting the requirements of this guidance will ensure agencies are putting in place a basic infrastructure for inventorying, managing, and opening up data to unlock the value created by opening up information resources.
 
@@ -36,13 +36,13 @@ This guidance introduces an Enterprise Data Inventory framework to provide agenc
 ### A. Create and Maintain an Enterprise Data Inventory
 
 #### Purpose
-To develop a clear and comprehensive understanding of what data assets they possess, Federal Agencies are required to create an Enterprise Data Inventory (Inventory) that accounts for all data assets created or collected by the agency.  This includes, but is not limited to, data assets used in the agency’s information systems. The Inventory must be enterprise-wide, accounting for data assets across programs [^2]  and bureaus [^3],  and must use the required [common core metadata](/schema.md) available on Project Open Data.   After creating the Inventory, agencies should continually improve the usefulness of the Inventory by expanding, enriching, and opening the Inventory (concepts described in the framework below).
+To develop a clear and comprehensive understanding of what data assets they possess, Federal Agencies are required to create an Enterprise Data Inventory (Inventory) that accounts for all data assets created or collected by the agency.  This includes, but is not limited to, data assets used in the agency’s information systems. The Inventory must be enterprise-wide, accounting for data assets across programs [^2]  and bureaus [^3],  and must use the required [common core metadata](/schema) available on Project Open Data.   After creating the Inventory, agencies should continually improve the usefulness of the Inventory by expanding, enriching, and opening the Inventory (concepts described in the framework below).
 
 The objectives of this activity are to:
 * Build an internal inventory that accounts for data assets used in the agency' s information systems
 * Include data assets produced through agency contracts and cooperative agreements, and in some cases agency-funded grants; include data assets associated with, but not limited to, research, program administration, statistical, and financial activities
 * Indicate if the data may be made publicly available and if currently available
-* Describe the data with [common core metadata](/schema.md) available on Project Open Data.
+* Describe the data with [common core metadata](/schema) available on Project Open Data.
 
 #### Framework to Create and Maintain the Enterprise Data Inventory: Expand, Enrich, Open
 Since agencies have varying levels of visibility into their data assets, the size and maturity of agencies’ Enterprise Data Inventories will differ across agencies. OMB will assess agency progress toward overall maturity of the Enterprise Data Inventory through the maturity areas of “Expand,” “Enrich,” and “Open.”
@@ -73,7 +73,7 @@ Project Open Data provides metadata requirements, additional optional metadata f
 
 **Open**: Agencies should implement tools and processes that will accelerate the opening of additional valuable data assets by making them public and machine-readable, while ensuring adequate policy, process, and technical safeguards are in place to prevent against the release of sensitive data.  Agencies are required to increase the number of public data assets included in the Public Data Listing (described in the next section) over time. Agencies should work toward increasing the ratio of data that are public and machine-readable to data that can be made public as measured in the Inventory.
 
-> Example ways to evaluate “Open” maturity: How many releasable data assets have been released in the Public Data Listing? How have more data assets been released in accordance with the [“open data” principles](/principles.md) over time?\*
+> Example ways to evaluate “Open” maturity: How many releasable data assets have been released in the Public Data Listing? How have more data assets been released in accordance with the [“open data” principles](/principles) over time?\*
 
 ### Minimum Requirements to Create and Maintain an Enterprise Data Inventory
 
@@ -161,7 +161,7 @@ The objectives of this activity are to:
 * Consult with agency’s Senior Agency Official for Privacy and general counsel regarding the barriers identified
 * Encourage dialogue regarding resources necessary to make more data assets public
 
-As part of an agency’s analysis to assign a general access level to each data asset [^19],  agencies should consult section ##III.4 of the [OMB Memorandum M-13-13](/policy-memo.md),  and Executive Order 13556.  Specifically, agencies are required to incorporate the National Institute of Standards and Technology (NIST) Federal Information Processing Standard (FIPS) Publication 199 "[Standards for Security Categorization of Federal Information and Information Systems](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf),"  which includes guidance and definitions for confidentiality, integrity, and availability. Agencies should also consult with the [Controlled Unclassified Information  (CUI)](http://www.whitehouse.gov/sites/default/files/docs/2012sharingstrategy_1.pdf) program to ensure compliance with CUI requirements, the National Strategy for Information Sharing and Safeguarding36 and the best practices found in Project Open Data.  In addition to complying with the Privacy Act of 1974, the Paperwork Reduction Act, the E-Government Act of 2002, the Federal Information Security Management Act (FISMA), and the Confidential Information Protection and Statistical Efficiency Act (CIPSEA), and other applicable laws, agencies should implement information policies based upon Fair Information Practice Principles, OMB guidance, and NIST guidance on Security and Privacy Controls for Federal Information Systems and Organizations.38
+As part of an agency’s analysis to assign a general access level to each data asset [^19],  agencies should consult section ##III.4 of the [OMB Memorandum M-13-13](/policy-memo),  and Executive Order 13556.  Specifically, agencies are required to incorporate the National Institute of Standards and Technology (NIST) Federal Information Processing Standard (FIPS) Publication 199 "[Standards for Security Categorization of Federal Information and Information Systems](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf),"  which includes guidance and definitions for confidentiality, integrity, and availability. Agencies should also consult with the [Controlled Unclassified Information  (CUI)](http://www.whitehouse.gov/sites/default/files/docs/2012sharingstrategy_1.pdf) program to ensure compliance with CUI requirements, the National Strategy for Information Sharing and Safeguarding36 and the best practices found in Project Open Data.  In addition to complying with the Privacy Act of 1974, the Paperwork Reduction Act, the E-Government Act of 2002, the Federal Information Security Management Act (FISMA), and the Confidential Information Protection and Statistical Efficiency Act (CIPSEA), and other applicable laws, agencies should implement information policies based upon Fair Information Practice Principles, OMB guidance, and NIST guidance on Security and Privacy Controls for Federal Information Systems and Organizations.38
 
 * **Public**: Data asset is or could be made publicly available to all without restrictions.
 *The accesLevelComment field may be used to provide information on technical or resource barriers to increasing access to that data asset.*
@@ -241,7 +241,7 @@ This section includes a high-level summary of agency actions and reporting requi
 |**Cross-Inventory Identifier Mapping**|	These fields describe related entries in other “Inventory” lists. *Some examples include: Program (from OPPM’s Program Inventory), Related IT investment from FY2015 Exhibit 53 (UII), Related OIRA Information Collection Request, Related Performance.gov Agency Strategic Objective, Related Federal Data Center Consolidation Initiative data center ID* |
 |**Information Quality**|	These fields describe any aspects of data quality evaluated by the agency, consistent with OMB’s Government-Wide Information Quality Guidelines (for example, the type of pre-dissemination review, use of existing standards, documents characterizing missing data in time, or spatial series). |
 |**Data Value**|	These fields describe internal and external use, reuse, and demand by customers and users.|
-|**Openness**|	These fields describe to what extent each data asset achieves the criteria for “open data” in [M-13-13](/policy-memo.md). |
+|**Openness**|	These fields describe to what extent each data asset achieves the criteria for “open data” in [M-13-13](/policy-memo). |
 
 ##Footnotes
 
