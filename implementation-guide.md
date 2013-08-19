@@ -10,7 +10,7 @@ filename: "implementation-guide.md"
 
 ## I. Introduction
 
-The purpose of this guidance is to provide additional clarification and detailed requirements to assist agencies in carrying out the objectives of [Executive Order 13642] (http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government) of May 9, 2013, *Making Open and Machine Readable the New Default for Government Information* and [OMB Memorandum M-13-13](/policy-memo) *Open Data Policy-Managing Information as an Asset*.  Specifically, this document focuses on near-term efforts agencies must take to meet the following five initial requirements of M-13-13, which are due November 1, 2013 (six months from publication of M-13-13):
+The purpose of this guidance is to provide additional clarification and detailed requirements to assist agencies in carrying out the objectives of [Executive Order 13642](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government) of May 9, 2013, *Making Open and Machine Readable the New Default for Government Information* and [OMB Memorandum M-13-13](/policy-memo) *Open Data Policy-Managing Information as an Asset*.  Specifically, this document focuses on near-term efforts agencies must take to meet the following five initial requirements of M-13-13, which are due November 1, 2013 (six months from publication of M-13-13):
 
 1.	Create and maintain an Enterprise Data Inventory (Inventory)
 2.	Create and maintain a Public Data Listing
