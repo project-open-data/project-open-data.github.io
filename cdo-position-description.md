@@ -14,6 +14,7 @@ The Administration has a clear a vision of data managed as and asset and data-dr
 The Chief Data officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. 
 
 The Chief Data Officer role shall seek to:
+
 *	Manage open government data effort including coordinating how we offer APIs and create public data products
 *	Decrease the cost of managing data and increasing the value of the data we have
 *	Improve how the agency collects, uses, manages, and publishes data. 
