@@ -161,7 +161,7 @@ The objectives of this activity are to:
 * Consult with agency’s Senior Agency Official for Privacy and general counsel regarding the barriers identified
 * Encourage dialogue regarding resources necessary to make more data assets public
 
-As part of an agency’s analysis to assign a general access level to each data asset [^19],  agencies should consult section ##III.4 of the [OMB Memorandum M-13-13](/policy-memo),  and Executive Order 13556.  Specifically, agencies are required to incorporate the National Institute of Standards and Technology (NIST) Federal Information Processing Standard (FIPS) Publication 199 "[Standards for Security Categorization of Federal Information and Information Systems](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf),"  which includes guidance and definitions for confidentiality, integrity, and availability. Agencies should also consult with the [Controlled Unclassified Information  (CUI)](http://www.whitehouse.gov/sites/default/files/docs/2012sharingstrategy_1.pdf) program to ensure compliance with CUI requirements, the National Strategy for Information Sharing and Safeguarding36 and the best practices found in Project Open Data.  In addition to complying with the Privacy Act of 1974, the Paperwork Reduction Act, the E-Government Act of 2002, the Federal Information Security Management Act (FISMA), and the Confidential Information Protection and Statistical Efficiency Act (CIPSEA), and other applicable laws, agencies should implement information policies based upon Fair Information Practice Principles, OMB guidance, and NIST guidance on Security and Privacy Controls for Federal Information Systems and Organizations.38
+As part of an agency’s analysis to assign a general access level to each data asset [^19],  agencies should consult section ##III.4 of the [OMB Memorandum M-13-13](/policy-memo),  and Executive Order 13556.  Specifically, agencies are required to incorporate the National Institute of Standards and Technology (NIST) Federal Information Processing Standard (FIPS) Publication 199 "[Standards for Security Categorization of Federal Information and Information Systems](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf),"  which includes guidance and definitions for confidentiality, integrity, and availability. Agencies should also consult with the [Controlled Unclassified Information  (CUI)](http://www.whitehouse.gov/sites/default/files/docs/2012sharingstrategy_1.pdf) program to ensure compliance with CUI requirements, the National Strategy for Information Sharing and Safeguarding and the best practices found in Project Open Data.  In addition to complying with the Privacy Act of 1974, the Paperwork Reduction Act, the E-Government Act of 2002, the Federal Information Security Management Act (FISMA), and the Confidential Information Protection and Statistical Efficiency Act (CIPSEA), and other applicable laws, agencies should implement information policies based upon Fair Information Practice Principles, OMB guidance, and NIST guidance on Security and Privacy Controls for Federal Information Systems and Organizations.
 
 * **Public**: Data asset is or could be made publicly available to all without restrictions.
 *The accesLevelComment field may be used to provide information on technical or resource barriers to increasing access to that data asset.*
@@ -183,7 +183,7 @@ As part of an agency’s analysis to assign a general access level to each data 
 #### Purpose
 Agencies should identify points of contact for the following roles and responsibilities related to managing information as an asset:
 * Communicating the strategic value of open data to internal stakeholders and the public;
-* Ensuring that data released to the public are open,39 as appropriate, and a point of contact is designated to assist open data use and to respond to complaints about adherence to open data requirements;
+* Ensuring that data released to the public are open, as appropriate, and a point of contact is designated to assist open data use and to respond to complaints about adherence to open data requirements;
 * Engaging entrepreneurs and innovators in the private and nonprofit sectors to encourage and facilitate the use of agency data to build applications and services;
 * Working with agency components to scale best practices from bureaus and offices that excel in open data practices across the enterprise;
 * Working with the agency's Senior Agency Official for Privacy (SAOP) or other relevant officials to ensure that privacy and confidentiality are fully protected; and
@@ -191,7 +191,7 @@ Agencies should identify points of contact for the following roles and responsib
 
 #### Minimum Requirements to Clarify Roles and Responsibilities for Promoting Efficient and Effective Data Release
 
-**Report the point of contact for each of these roles and responsibilities via the E-Gov IDC [^20]  (by November 1, 2013)**
+**Report the point of contact for each of these roles and responsibilities via the E-Gov IDC [^20] by November 1, 2013**
 
 #### Tools and Resources on Project Open Data
 * Sample Chief Data Officer Job Descriptions
