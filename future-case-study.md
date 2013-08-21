@@ -21,14 +21,14 @@ Under a presidentially mandated deadline, Agency was tasked with providing the c
 ## Approach
 The Project Open Data toolkit provided a pair of turnkey tools that made it trivial to accomplish the goals of the project. The “CSV to API” tool, available both for download and as a GSA-hosted web service, acted as a proxy through which any of the CSV files could be requested and automatically converted into JSON, XML, or HTML. By choosing the GSA-hosted version, no installation or configuration was required. The link to each CSV file was duplicated and prepended with the request to the GSA’s server, and the resulting URL advertised as the API endpoint.
 
-Providing API-based access to the databases was a likewise straightforward process. The toolkit’s “DB to API” program was copied onto the web server (consisting of just a few files), and the configuration file was edited to be given access to each of the three databases. Because two of the databases contained columns that contained personally identifiable information (PII), the configuration file was instructed to prohibit access to those columns. Each database’s resulting API endpoint was listed on the website, with query parameters providing the data as JSON, XML, and HTML, depending on the requestor’s preference.
+Providing API-based access to the databases was a likewise straightforward process. The toolkit’s “DB to API” program was copied onto the web server (consisting of just a few files), and the configuration file was edited to be given access to each of the three databases. Because two of the databases contained columns that contained personally identifiable information (PII), the configuration file was instructed to prohibit access to those columns. Each database’s resulting API endpoint was listed on the website, with query parameters providing the data as JSON, XML, and HTML, depending on the requester’s preference.
 
 ## Results
 Providing their data as an API allowed it to be shared in new and interesting ways that Agency had not foreseen. Developers within Agency found that the data could be useful elsewhere on their website and within their internal workflow, and are using it experimentally for those purposes. Two other agencies are making calls from their websites to four of the CSV-based APIs and one of the database APIs, in order to provide an improved experience for their customers. One of the database APIs is being used by a private developer, who has created an iPhone app to make Agency’s data available to mobile users, prompting the agency to evaluate which other datasets might have commercial value.
 
 ## Lessons Learned
 * Providing an API for existing bulk download data and databases no longer presents a technical challenge.
-* Interagency collaboration is facilitated by adherence to common data exchange formats, and JSON and XML fill that role nicely.
+* Inter-agency collaboration is facilitated by adherence to common data exchange formats, and JSON and XML fill that role nicely.
 * The provision of an API allowed Agency to have improved access to their own data, enhancing internal data sharing practices and their overall workflow.
 * The private sector can meet demand that agencies cannot when given access to agencies’ APIs.
 

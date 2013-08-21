@@ -30,8 +30,7 @@
         "distribution": [
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             }
         ],
         "webService": "", 
@@ -39,9 +38,8 @@
         "spatial": "", 
         "temporal": "", 
         "issued": "",
-        "frequency": "",
+        "accrualPeriodicity": "",
         "language": "", 
-        "granularity": "",
         "dataQuality": "",
         "theme": "", 
         "references": "", 
@@ -63,18 +61,15 @@
         "distribution": [
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             },
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             },
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             }
         ],
         "webService": "", 
@@ -82,9 +77,8 @@
         "spatial": "", 
         "temporal": "", 
         "issued": "",
-        "frequency": "",
+        "accrualPeriodicity": "",
         "language": "", 
-        "granularity": "",
         "dataQuality": "",
         "theme": "", 
         "references": "", 

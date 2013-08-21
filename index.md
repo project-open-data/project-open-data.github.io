@@ -1,18 +1,20 @@
 ---
+published: true
 permalink: /
 layout: hero
 filename: index.md
 title: Project Open Data
 ---
+
 ##1. Background
 
 Data is a valuable national resource and a strategic asset to the U.S. Government, its partners, and the public.  Managing this data as an asset and making it available, discoverable, and usable – [in a word, open](principles/) – not only strengthens our democracy and promotes efficiency and effectiveness in government, but also has the potential to create economic opportunity and improve citizens’ quality of life. 
 
-For example, when the U.S. Government released weather and GPS data to the public, it fueled an industry that today is valued at over $90 billion. Now, weather and mapping tools are ubiquitous and help everyday Americans [navigate their lives](business-case/). 
+For example, when the U.S. Government released weather and GPS data to the public, it fueled an industry that today is valued at tens of billions of dollars per year. Now, weather and mapping tools are ubiquitous and help everyday Americans [navigate their lives](business-case/). 
 
 The ultimate value of data can often not be predicted. That’s why the U.S. Government released a [policy](policy-memo/) that instructs agencies to manage their data, and information more generally, as an asset from the start and, wherever possible, release it to the public in a way that makes it open, discoverable, and usable. 
 
-The White House developed Project Open Data – this collection of code, tools, and case studies – to help agencies adopt the Open Data Policy and unlock the potential of government data. Project Open Data will evolve over time as a community resource to facilitate broader adoption of open data practices in government. Anyone – government employees, contractors, developers, the general public – can view and contribute. So dive right in and [help to build a better world through the power of open data](governance/). 
+The White House developed Project Open Data – this collection of code, tools, and case studies – to help agencies adopt the Open Data Policy and unlock the potential of government data. Project Open Data will evolve over time as a community resource to facilitate broader adoption of open data practices in government. Anyone – government employees, contractors, developers, the general public – can view and contribute. Learn more about [Project Open Data Governance](governance/) and dive right in and help to build a better world through the power of open data. 
 
 ----------------
 
@@ -36,13 +38,15 @@ This section is a list of definitions and principles used to guide the project.
 
 Implementation guidance for open data practices.  
 
-3-1 [U.S. Government Policy on Open Data](policy-memo/) - Full text of the memorandum.  
+3-1 [U.S. Government Policy on Open Data](/policy-memo/) - Full text of the memorandum.  
 
-3-2 [Implementation Guide](implementation-guide/) - Detailed descriptions and guidance for each step of implementing the policy. 
+3-2 [Implementation Guide](/implementation-guide/) - Official OMB implementation guidance for each step of implementing the policy. 
 
-3-3 [Public Data Listing](catalog) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.  
+3-3 [Public Data Listing](/catalog/) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.  
 
-3-4 [Frequently Asked Questions](faq) - A growing list of common questions and answers to facilitate adoption of open data projects.  
+3-4 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.  
+
+3-5 [Open Data Cross Priority (CAP) Goal](http://goals.performance.gov/opendata) - Information on the development of the Open Data CAP goal as required in the [Open Data Execuitve Order](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government). 
 
 ----------------
 
@@ -64,15 +68,25 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-7 [JSON Validator](https://github.com/project-open-data/json-validator) - Validation tool to confirm the formatting of agency.gov/data catalog files. -&nbsp;*[Hosted](http://project-open-data.github.com/json-validator/)*
 
-4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.  
+4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.
 
-4-9 [ESRI2Open](http://github.com/project-open-data/esri2open) - A tool which converts spatial and non-spatial data form ESRI only formats to the Open Data formats, CSV, Json, or GeoJSOn, making them more a part of the www ecology.
+4-9 [CFPB Project Qu](https://github.com/cfpb/qu) - The CFPB's in-progress data publishing platform, created to serve public data sets.
+
+4-10 [HMDA Tools](http://https://github.com/cfpb/hmda-tools) - Lightweight tools to make importing and analyzing [Home Mortgage Disclosure Act](http://en.wikipedia.org/wiki/Home_Mortgage_Disclosure_Act) data easier.
+
+4-11 [ESRI2Open](http://github.com/project-open-data/esri2open) - A tool which converts spatial and non-spatial data form ESRI only formats to the Open Data formats, CSV, JSON, or GeoJSON, making them more a part of the WWW ecology.
+
+4-12 [ckanext-datajson](https://github.com/HHS/ckanext-datajson) - A CKAN extension to generate agency.gov/data.json catalog files.
+
+4-13 [DKAN](http://drupal.org/project/dkan) - An open data portal modeled on [CKAN](http://ckan.org/). DKAN is a stand alone Drupal distribution that allows anyone to spin up an open data portal in minutes as well as two modules, [DKAN Dataset](http://drupal.org/project/dkan_dataset) and [DKAN Datastore](http://drupal.org/project/dkan_datastore), that can be added to existing Drupal sites to add data portal functionality to an exist Drupal site.
+
+4-14 [DataVizWiz](https://drupal.org/project/datavizwiz) - A [Drupal](http://drupal.org) module that provides a fast way to get data vizualizations online.
 
 ----------------
 
 ##5. Resources
 
-This section contains programatic tools, resources, and/or checklists to help programs determine open data requirements.
+This section contains programmatic tools, resources, and/or checklists to help programs determine open data requirements.
 
 5-1 [Metadata Resources](metadata-resources/) - 
 Resources to provide guidance and assistance for each aspect of creating and maintaining agency.gov/data catalog files.  
@@ -91,6 +105,8 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-8 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
 
+5-9 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards. 
+
 ----------------
 
 ##6. Case Studies
@@ -107,11 +123,11 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 6-5 [FederalRegister.gov API](https://www.federalregister.gov/uploads/2012/11/FR2-API-Case-Study1.pdf) - A core government program update that has grown into an important public service.
 
-6-6 [National Broadband Map](http://www.wilsoncenter.org/sites/default/files/National%20Broadband%20Map%20Wilson%20Center%20Case%20Study.pdf) - The National Broadband Map, a case study on open innovation for national policy.  Produced by the [Wilson Center](http://www.wilsoncenter.org/).
+6-6 [National Broadband Map](http://www.scribd.com/doc/109998799/The-National-Broadband-Map-A-Case-Study-on-Open-Innovation-for-National-Policy) - The National Broadband Map, a case study on open innovation for national policy.  Produced by the [Wilson Center](http://www.wilsoncenter.org/).
 
 6-7 [National Renewable Energy Laboratory API program](http://developer.nrel.gov/api-case-study/) - An agency perspective on developing APIs for general use and in particular building the case for the internal re-use of the resources.
 
-6-8 [USAID Crowdsourcing to Open Data] (http://transition.usaid.gov/our_work/economic_growth_and_trade/development_credit/pdfs/2012/USAIDCrowdsourcingCaseStudy.pdf) - A case study that shows how USAID invited the "crowd" to clean and geocode a USAID dataset in order to open and map the data.
+6-8 [USAID Crowdsourcing to Open Data](http://transition.usaid.gov/our_work/economic_growth_and_trade/development_credit/pdfs/2012/USAIDCrowdsourcingCaseStudy.pdf) - A case study that shows how USAID invited the "crowd" to clean and geocode a USAID dataset in order to open and map the data.
 
 
 **For Developers: [View all appendices](http://github.com/project-open-data/) (and source)**

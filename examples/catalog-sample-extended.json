@@ -30,8 +30,7 @@
         "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-                "format": "csv",
-                "size": "200mb"
+                "format": "csv"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.json?accessType=DOWNLOAD", 
@@ -47,10 +46,9 @@
         "spatial": "US", 
         "temporal": "2009-09-01 00:00:00,2010-05-31 00:00:00", 
         "issued": "",
-        "frequency": "one-time",
+        "accrualPeriodicity": "one-time",
         "language": "English", 
-        "granularity": "",
-        "dataQuality": "true",
+        "dataQuality": true,
         "theme": "education", 
         "references": "http://nces.ed.gov/ccd/data/txt/psu091alay.txt", 
         "landingPage": "http://ed.gov/developer",
