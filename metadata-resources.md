@@ -116,3 +116,102 @@ RSS Feed            | *Access Point*          | *n/a*                | [dcat:fee
 System of Records   | *n/a*                  | *n/a*                | *n/a*  | *n/a*
 
 \*When combined with _accessURL_, _format_, and _size_.
+
+
+Mapping DCAT to Other Metadata Specifications
+---------------------------------------------
+
+Below is a set of mappings that will help users of other common metadata schemas map their content to the defined DCAT fields.
+The mapping is from the DCAT field to the XPATH(s) in the common metadata schema where the corresponding information may be found.
+
+###FGDC CSDGM
+
+Established by Office of Management and Budget Circular A-16, the Federal Geographic Data Committee ([FGDC](ttp://www.fgdc.gov)) promotes the coordinated development, use, sharing, and dissemination of geographic data. 
+The [Content Standard for Digital Geospatial Metadata](http://www.fgdc.gov/metadata/csdgm) aims to provide a common set of terminology and definitions for the documentation of digital geospatial data.
+
+{: .table .table-striped}
+| DCAT Field         | *FGDC CSDGM*|
+|-------             | ------- |
+|Title               | /metadata/idinfo/citation/citeinfo/title |
+|Description         | /metadata/idinfo/descript/abstract |
+|Tags                | /metadata/idinfo/keywords/theme/themekey <br/> /metadata/idinfo/keywords/place/placekey <br/> /metadata/idinfo/keywords/temporal/tempkey |
+|Last Update         | /metadata/idinfo/citation/citeinfo/pubdate |
+|Publisher           | /metadata/idinfo/citation/citeinfo/pubinfo/publish <br/> /metadata/distinfo/distrib/cntinfo/cntperp/cntper <br/> /metadata/distinfo/distrib/cntinfo/cntorgp/cntorg |
+|Contact Name        | /metadata/idinfo/ptcontac/cntinfo/cntorgp/cntper |
+|Contact Email       | /metadata/idinfo/ptcontac/cntinfo/cntemail |
+|Unique Identifier   | CSDGM does not include a unique identifier in the metadata itself. Common practice is to use a URL to the metadata document as unique identifier. |
+|Public Access Level | /metadata/idinfo/accconst <br/> /metadata/idinfo/useconst <br/> /metadata/distinfo/distliab |
+|Data Dictionary     | /metadata/idinfo/keywords/theme/themekt <br/> /metadata/eainfo/overview/eadetcit |
+|Download URL        | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr |
+|Endpoint            | /metadata/idinfo/citation/citeinfo/onlink <br/> /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr |
+|Format              | /metadata/distinfo/storder/digform/digtinfo/fname |
+|License             | /metadata/distinfo/distliab |
+|Spatial             | /metadata/idinfo/spdom/bounding |
+|Temporal            | /metadata/idinfo/timeperd/timeinfo (might be one date or range. If range, separate start/end with comma) |
+
+
+###ISO 19115:2003
+
+[ISO 19115:2003](http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020) defines the schema required for describing geographic information and services. It provides information about the identification, the extent, the quality, the spatial and temporal schema, spatial reference, and distribution of digital geographic data.
+
+{: .table .table-striped}
+| DCAT Field         | *ISO 19115:2003* |
+|-------             | ------- |
+|Title               | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString |
+|Description         | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString |
+|Tags                | //gmd:topicCategory/gmd:MD_TopicCategoryCode <br/> //gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString |
+|Last Update         | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
+|Publisher           | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorContact/gmd:CI_ResponsibleParty/gmd:organisationName |
+|Contact Name        | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString |
+|Contact Email       | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
+|Unique Identifier   | //gmd:fileIdentifier/gco:CharacterString |
+|Public Access Level | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
+|Data Dictionary     | //gmd:contentInfo/gmd:MD_FeatureCatalogueDescription/gmd:featureCatalogueCitation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage |
+|Download URL        | //gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[../../gmd:function/gmd:CI_OnLineFunctionCode/@codeListValue='download'] |
+|Format              | //gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:name/gco:CharacterString |
+|License             |  |
+|Spatial             | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox |
+|Temporal            | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:begin/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:begin/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:beginPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:beginPosition <br/><br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:end/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:end/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:endPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:endPosition |
+
+
+### ISO 19119:2005
+
+[ISO 19119:2005](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=39890) identifies and defines the architecture patterns for service interfaces used for geographic information, defines its relationship to the Open Systems Environment model, presents a geographic services taxonomy and a list of example geographic services placed in the services taxonomy. It also prescribes how to create a platform-neutral service specification, how to derive conformant platform-specific service specifications, and provides guidelines for the selection and specification of geographic services from both platform-neutral and platform-specific perspectives.
+
+{: .table .table-striped}
+| DCAT Field         | *ISO 19119:2005* |
+|-------             | ------- |
+|Title               | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString |
+|Description         | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:abstract/gco:CharacterString |
+|Tags                | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString |
+|Last Update         | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
+|Publisher           | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString |
+|Contact Name        | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString |
+|Contact Email       | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
+|Unique Identifier   | /gmd:MD_Metadata/gmd:fileIdentifier/gco:CharacterString |
+|Public Access Level | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
+|Data Dictionary     |  |
+|Endpoint            | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL |
+|Format              | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName |
+|License             |  |
+|Spatial             | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox |
+|Temporal            | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:begin/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:begin/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:beginPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:beginPosition <br/><br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:end/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:end/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:endPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:endPosition" |
+
+
+### Namespaces
+
+The above XPATHs assume the following namespaces:
+
+{: .table .table-striped}
+| Prefix | *URI*       |
+|------- | ------- |
+| gmd      | http://www.isotc211.org/2005/gmd |
+| gco      | http://www.isotc211.org/2005/gco |
+| gml      | http://www.opengis.net/gml |
+| gml32    | http://www.opengis.net/gml/3.2 |
+| srv      | http://www.isotc211.org/2005/srv |
+
+
+
+
+
