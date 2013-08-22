@@ -151,8 +151,8 @@ Field       | title
 **Cardinality** | (1,n)
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String
-**Usage Notes** | This must describe the exact file available at **accessURL** using file extensions (e.g., CSV, XLS, XSLX, TSV, JSON, XML). For example, if the download file is a ZIP containing a CSV, the entry here is "ZIP".
-**Example** | `{"format":"csv"}`
+**Usage Notes** | This must describe the exact files available at **accessURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type), represented as a list.  
+**Example** | `{"format": ['application/json'] }` `{"format": ['application/json', 'application/pdf', application/zip']
 
 {: .table .table-striped}
 **Field** | **keywords**
