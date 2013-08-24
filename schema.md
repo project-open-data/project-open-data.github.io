@@ -297,7 +297,7 @@ Field       | title
 {: .table .table-striped}
 **Field** | **distribution**
 ----- | -----
-**Cardinality** | (0,n)
+**Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | See Usage Notes
 **Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **Download URL** and **Format**.  If an entry has only one dataset, enter details for that one; if it has multiple datasets (such as a bulk download and an API), separate entry with a comma, as seen below:  
