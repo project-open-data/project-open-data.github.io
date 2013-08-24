@@ -55,6 +55,7 @@ Contact Email        | Contact person's email address. 			           	          
 Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 | identifier
 Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (is or *could be* made publicly available), restricted public (available under certain conditions), or non-public (never able to be made publicly available)  | accessLevel
 
+
 "Common Core" Required-if-Applicable Fields
 -------------------------------------------
 The following fields must be used to describe each dataset if they are applicable:
@@ -137,7 +138,7 @@ Field       | title
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String
-**Usage Notes** | This must describe the exact file available at **accessURL** using file extensions (e.g., CSV, XLS, XSLX, TSV, JSON, XML). For example, if the download file is a ZIP containing a CSV, the entry here is "ZIP".
+**Usage Notes** | This must adhere to [MIME format types](http://www.iana.org/assignments/media-types) where possible. Describe the exact file available at **accessURL** using file extensions (e.g., CSV, XLS, XSLX, TSV, JSON, XML). For example, if the download file is a ZIP containing a CSV, the entry here is "ZIP".
 **Example** | `{"format":"csv"}`
 
 {: .table .table-striped}
