@@ -329,11 +329,20 @@ Rationale for Metadata Nomenclature
 ----------------------
 We sought to be platform-independent and to align as much as possible with existing open standards.
 
-To that end, our JSON key names are directly drawn from [DCAT](http://www.w3.org/TR/vocab-dcat/), with two exceptions.
+To that end, our JSON key names are directly drawn from [DCAT](http://www.w3.org/TR/vocab-dcat/), with a few exceptions.
 
-We added the new **accessLevel** field to help easily sort datasets into our three existing categories: public, restricted, and private. This field means an agency can run a basic filter against its enterprise data catalog to generate a public-facing list of datasets that are, or *could one day be*, made publicly available (or, in the case of restricted data, available under certain conditions). This field also makes it easy for anyone to generate a list of datasets that *could* be made available but have not yet been released by filtering **accessLevel** to *public* and **accessURL** to *blank*.
+We added the new **accessLevel** field to help easily sort datasets into our three existing categories: public, restricted public, and non-public. This field means an agency can run a basic filter against its enterprise data catalog to generate a public-facing list of datasets that are, or *could one day be*, made publicly available (or, in the case of restricted data, available under certain conditions). This field also makes it easy for anyone to generate a list of datasets that *could* be made available but have not yet been released by filtering **accessLevel** to *public* and **accessURL** to *blank*.
+
+We added the new **accessLevelComment** field for data stewards to explain how to access restricted public datasets, and for agencies to have a place to record (even if only internally) the reason for not releasing a non-public dataset.
+
+We added the new **systemOfRecords** field for data stewards to optionally link to a relevant System of Records Notice URL. A System of Records is a group of any records under the control of any agency from which information is retrieved by the name of the individual or by some identifying number, symbol, or other identifier assigned to the individual.
+
+We added the new **bureauCode** field to ensure every dataset is connected in a standard way with an agency bureau.
+
+We added the new **programOffice** field to ensure that when applicable, every dataset is connected in a standard way with an agency program office.
 
 With respect to [dcat:dataQuality](http://www.w3.org/TR/vocab-dcat/#property--data-quality), we intentionally did **not** use this field and instead chose a boolean. At the time of this memo's release, DCAT had no specific guidance on the use of this field, and we actually do: whether or not the data meets an agency’s Information Quality Guidelines.
+
 
 Additional Information
 ----------------------
