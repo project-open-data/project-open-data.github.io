@@ -10,7 +10,7 @@ id: schema
 
 This section contains guidance to support the use of the common core metadata to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.
 
-Updates to the metadata schema can be found in the [changelog](/metadata-changelog). Current metadata version: 1.0 FINAL as of 8/25/13.
+Updates to the metadata schema can be found in the [changelog](/metadata-changelog). Current metadata version: 1.0 FINAL as of 8/26/13.
 
 Standard Metadata Vocabulary
 ----------------------------
@@ -200,7 +200,7 @@ Field       | title
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
-**Accepted Values** | Must be one of the following: public, restricted public, private
+**Accepted Values** | Must be one of the following: public, restricted public, non-public
 **Usage Notes** | This field refers to degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
 **Example** | `{"accessLevel":"public"}`
 
@@ -237,16 +237,16 @@ Field       | title
 **Cardinality** | (0,1)
 **Required** | Yes, if applicable
 **Accepted Values** | See Usage Notes
-**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start date, end date} in the format YYYY-MM-DD hh:mm:ss using 24 hour clock time notation (e.g., 2011-02-14 12:00:00,  2013-02-14 12:00:00).
-**Example** |  `{"temporal":"2000-01-15 00:45:00,2010-01-15 00:06:00"}`
+**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. Use a solidus (/) to separate times.
+**Example** |  `{"temporal":"2000-01-15T00:45:00/2010-01-15T00:06:00"}`
 
 {: .table .table-striped}
 **Field** | **issued**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | Date (YYYY-MM-DD)
-**Usage Notes** | -
+**Accepted Values** | See Usage Notes
+**Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. 
 **Example** |  `{"issued":"2001-01-15"}`
 
 {: .table .table-striped}
