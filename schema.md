@@ -237,7 +237,7 @@ Field       | title
 **Cardinality** | (0,1)
 **Required** | Yes, if applicable
 **Accepted Values** | See Usage Notes
-**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. Use a solidus (/) to separate times.
+**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. Use a solidus (/) to separate start and end.
 **Example** |  `{"temporal":"2000-01-15T00:45:00/2010-01-15T00:06:00"}`
 
 {: .table .table-striped}
