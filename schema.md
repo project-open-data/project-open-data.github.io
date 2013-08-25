@@ -121,7 +121,7 @@ Field       | title
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No (Documentation that is not specifically a data dictionary belongs in "references")
-**Accepted Values** | URL
+**Accepted Values** | String (URL)
 **Usage Notes** | -
 **Example** |  `{"dataDictionary":"http://www.agency.gov/vegetables/dictionary.html"}`
 
@@ -130,7 +130,7 @@ Field       | title
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
-**Accepted Values** | URL
+**Accepted Values** | String (URL)
 **Usage Notes** | This must be the **direct** download URL. Use **homepage** for landing or disambiguation pages, or **references** for documentation pages. For multiple downloads, use **distribution** to include as many **accessURL** entries as you need.
 **Example** |  `{"accessURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
 
@@ -202,7 +202,7 @@ Field       | title
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
-**Accepted Values** | Must be one of the following: public, restricted public, non-public
+**Accepted Values** | Must be one of the following: "public", "restricted public", "non-public"
 **Usage Notes** | This field refers to degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
 **Example** | `{"accessLevel":"public"}`
 
@@ -211,7 +211,7 @@ Field       | title
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if the dataset has an API
-**Accepted Values** | URL
+**Accepted Values** | String (URL)
 **Usage Notes** | This field will serve to delineate the web services offered by an agency and will be used to aggregate cross-government API catalogs.
 **Example** | `{"webService":"http://www.agency.gov/vegetables/vegetables.json"}`
 
@@ -302,7 +302,7 @@ Field       | title
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | See Usage Notes
-**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **Download URL** and **Format**.  If an entry has only one dataset, enter details for that one; if it has multiple datasets (such as a bulk download and an API), separate entry with a comma, as seen below:  
+**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **accessURL** and **format**.  If an entry has only one dataset, enter details for that one; if it has multiple datasets (such as a bulk download and an API), separate entries with a comma, as seen below:  
   
     "distribution": [
             {
@@ -319,11 +319,12 @@ Field       | title
             }
         ]
 
+{: .table .table-striped}
 **Field** | **landingPage**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | URL
+**Accepted Values** | String (URL)
 **Usage Notes** | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users should be directed to for all resources tied to the dataset.  This allows agencies to better specify what a visitor receives after selecting one of the agency's datasets on Data.gov or in third-party mashups.
 **Example** |  `{"landingPage":"http://www.agency.gov/vegetables"}`
 
