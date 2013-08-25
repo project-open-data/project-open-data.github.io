@@ -258,7 +258,7 @@ Field       | title
 **Required** | No
 **Accepted Values** | Must be a value from [DCCDAccrualPeriodicity](http://www.ukoln.ac.uk/metadata/dcmi/collection-DCCDAccrualPeriodicity/): "Annual","Bimonthly","Semiweekly","Daily","Biweekly","Semiannual","Biennial","Triennial","Three times a week","Three times a month","Continuously updated","Monthly","Quarterly","Semimonthly","Three times a year","Weekly","Completely irregular"
 **Usage Notes** | -
-**Example** |  `{"accrualPeriodicity":"yearly"}`
+**Example** |  `{"accrualPeriodicity":"annual"}`
 
 {: .table .table-striped}
 **Field** | **language**
