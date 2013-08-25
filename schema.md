@@ -69,6 +69,7 @@ Download URL        | URL providing direct access to the downloadable distributi
 Endpoint            | Endpoint of web service to access dataset.                                                                                                     | webService
 Format              | The file format or API type of the distribution.                                                                                               | format
 License             | The license dataset or API is published with.  See [Open Licenses](/open-licenses/) for more information.   | license
+Program Office      | The program office responsible for the dataset | programOffice
 Spatial  	          | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         | spatial
 Temporal	          | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   | temporal
 
@@ -287,6 +288,15 @@ Further Metadata Field Guidance
 **Example** |  `{"PrimaryITInvestmentUII":"123456"}`
 
 {: .table .table-striped}
+**Field** | **programOffice**
+----- | -----
+**Cardinality** | (0,n)
+**Required** | Yes, if a program office owns or co-owns this dataset.
+**Accepted Values** | Array of strings
+**Usage Notes** | Enter the name of the program office responsible for the dataset, as found in the [Federal Program Inventory](http://goals.performance.gov/federalprograminventory).
+**Example** |  `{"programOffice":["2.31. Survivors’ and Dependents’ Educational Assistance"]}`
+
+{: .table .table-striped}
 **Field** | **publisher**
 ----- | -----is
 **Cardinality** | (1,1)
@@ -333,7 +343,7 @@ Further Metadata Field Guidance
 **Example** |  `{"theme":["vegetables","produce"]}`
 
 {: .table .table-striped}
-Field       | title
+**Field**       | **title**
 -----           | -----
 **Cardinality** | (1,1)
 **Required**    | Yes, always
