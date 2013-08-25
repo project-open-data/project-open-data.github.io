@@ -51,7 +51,7 @@ Tags                | Tags (or keywords) help users discover your dataset, pleas
 Bureau Code         | Combined agency and bureau code from [OMB A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) | bureauCode
 Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        | modified
 Publisher           | The publishing agency.                                                                                                                         | publisher
-Contact Name        | Contact person's name for the asset.                                                                                                           | person
+Contact Name        | Contact person's name for the asset.                                                                                                           | contactPoint
 Contact Email        | Contact person's email address. 			           	                                                                                             | mbox
 Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 | identifier
 Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (is or *could be* made publicly available), restricted public (available under certain conditions), or non-public (never able to be made publicly available)  | accessLevel
@@ -137,6 +137,14 @@ Further Metadata Field Guidance
 **Usage Notes** | Represent each bureau responsible for the dataset according to the codes found in [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf). Start with the agency code, then a colon, then the bureau code.
 **Example** | The Office of the Solicitor (86) at the Department of the Interior (010) would be: `{"bureauCode":["010:86"]}`
 
+{: .table .table-striped}
+**Field** | **contactPoint**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String
+**Usage Notes** | Name should be formatted as Last, First
+**Example** |  `{"contactPoint":"Brown, John"}`
 
 {: .table .table-striped}
 **Field** | **dataDictionary**
@@ -268,15 +276,6 @@ Further Metadata Field Guidance
 **Accepted Values** | ISO 8601 Date
 **Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the **issued** date here as well.
 **Example** |  `{"modified":"2012-01-15"}`
-
-{: .table .table-striped}
-**Field** | **person**
------ | -----
-**Cardinality** | (1,1)
-**Required** | Yes, always
-**Accepted Values** | String
-**Usage Notes** | Name should be formatted as Last, First
-**Example** |  `{"person":"Brown, John"}`
 
 {: .table .table-striped}
 **Field** | **PrimaryITInvestmentUII**
