@@ -93,6 +93,7 @@ Language            | The language of the dataset.                              
 Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references
 Release Date        | Date of formal issuance.                                                                                                                      | issued
 System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
+Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) | PrimaryITInvestmentUII
 
 
 Further Metadata Field Guidance
@@ -327,6 +328,15 @@ Field       | title
 **Accepted Values** | String (URL)
 **Usage Notes** | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users should be directed to for all resources tied to the dataset.  This allows agencies to better specify what a visitor receives after selecting one of the agency's datasets on Data.gov or in third-party mashups.
 **Example** |  `{"landingPage":"http://www.agency.gov/vegetables"}`
+
+{: .table .table-striped}
+**Field** | **PrimaryITInvestmentUII**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String
+**Usage Notes** | Use to link a given dataset with its related IT Unique Investment Identifier.
+**Example** |  `{"PrimaryITInvestmentUII":"123456"}`
 
 
 Rationale for Metadata Nomenclature
