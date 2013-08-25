@@ -48,6 +48,7 @@ Field               | Definition                                                
 Title               | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery.                | title
 Description         | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | description
 Tags                | Tags (or keywords) help users discover your dataset, please include terms that would be used by technical and non-technical users.             | keywords
+Bureau Code         | Combined agency and bureau code from [OMB A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) | bureauCode
 Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        | modified
 Publisher           | The publishing agency.                                                                                                                         | publisher
 Contact Name        | Contact person's name for the asset.                                                                                                           | person
@@ -122,9 +123,19 @@ Further Metadata Field Guidance
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | Must be a value from [DCCDAccrualPeriodicity](http://www.ukoln.ac.uk/metadata/dcmi/collection-DCCDAccrualPeriodicity/): "Annual","Bimonthly","Semiweekly","Daily","Biweekly","Semiannual","Biennial","Triennial","Three times a week","Three times a month","Continuously updated","Monthly","Quarterly","Semimonthly","Three times a year","Weekly","Completely irregular"
-**Usage Notes** | -
+**Accepted Values** | See usage notes
+**Usage Notes** | Must be a value from [DCCDAccrualPeriodicity](http://www.ukoln.ac.uk/metadata/dcmi/collection-DCCDAccrualPeriodicity/): "Annual","Bimonthly","Semiweekly","Daily","Biweekly","Semiannual","Biennial","Triennial","Three times a week","Three times a month","Continuously updated","Monthly","Quarterly","Semimonthly","Three times a year","Weekly","Completely irregular"
 **Example** |  `{"accrualPeriodicity":"annual"}`
+
+{: .table .table-striped}
+**Field** | **bureauCode**
+----- | -----
+**Cardinality** | (1,n)
+**Required** | Yes, always
+**Accepted Values** | Array of strings
+**Usage Notes** | Represent each bureau responsible for the dataset according to the codes found in [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf). Start with the agency code, then a colon, then the bureau code.
+**Example** | The Office of the Solicitor (86) at the Department of the Interior (010) would be: `{"bureauCode":["010:86"]}`
+
 
 {: .table .table-striped}
 **Field** | **dataDictionary**
