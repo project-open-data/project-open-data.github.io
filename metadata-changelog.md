@@ -7,6 +7,8 @@ filename: metadata-changelog.md
 ---
 This page lists changes to the common core metadata schema by version. Latest changes at the top. Consult repository history for explanations.
 
+This document is currently a DRAFT.
+
 ## Changelog
 
 ### Version 1.0 FINAL - 8/15/13
@@ -14,6 +16,7 @@ This page lists changes to the common core metadata schema by version. Latest ch
 Updates to original draft metadata:
 
 * Renames "keyword" field to "keywords"
+* Renames "person" field to "contactPoint" to better align with DCAT
 * Aligns "modified", "temporal", and "issued" fields to ISO 8601 of least resolution
 * Aligns "format" field to MIME types
 * Aligns "accrualPeriodicity" field to DCCDAccrualPeriodicity
