@@ -158,13 +158,13 @@ Field       | title
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
-**Accepted Values** | Date (YYYY-MM-DD)
+**Accepted Values** | ISO 8601 Date
 **Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the **issued** date here as well.
 **Example** |  `{"modified":"2012-01-15"}`
 
 {: .table .table-striped}
 **Field** | **publisher**
------ | -----
+----- | -----is
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String
@@ -248,7 +248,7 @@ Field       | title
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | See Usage Notes
+**Accepted Values** | ISO 8601 Date
 **Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. 
 **Example** |  `{"issued":"2001-01-15"}`
 
