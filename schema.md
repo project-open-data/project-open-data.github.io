@@ -90,113 +90,14 @@ Distribution        | Holds multiple download URLs for datasets composed of mult
 Frequency           | Frequency with which dataset is published.                                                                                                    | accrualPeriodicity
 Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface. | landingPage
 Language            | The language of the dataset.                                                                                                                  | language
+Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) | PrimaryITInvestmentUII
 Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references
 Release Date        | Date of formal issuance.                                                                                                                      | issued
 System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
-Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) | PrimaryITInvestmentUII
 
 
 Further Metadata Field Guidance
 -------------------------------
-
-{: .table .table-striped}
-Field       | title
------           | -----
-**Cardinality** | (1,1)
-**Required**    | Yes, always
-**Accepted Values** | String
-**Usage Notes** | Acronyms should be avoided.
-**Example**     | `{"title":"Types of Vegetables"}`
-
-{: .table .table-striped}
-**Field** | **description**
------ | -----
-**Cardinality** | (1,1)
-**Required** | Yes, always
-**Accepted Values** | String
-**Usage Notes** | This should be human-readable and understandable to an average person.
-**Example** | `{"description":"This dataset contains a list of vegetables, including nutrition information and seasonality. Includes details on tomatoes, which are really fruit but considered a vegetable in this dataset."}`
-
-{: .table .table-striped}
-**Field** | **dataDictionary**
------ | -----
-**Cardinality** | (0,1)
-**Required** | No (Documentation that is not specifically a data dictionary belongs in "references")
-**Accepted Values** | String (URL)
-**Usage Notes** | -
-**Example** |  `{"dataDictionary":"http://www.agency.gov/vegetables/dictionary.html"}`
-
-{: .table .table-striped}
-**Field** | **accessURL**
------ | -----
-**Cardinality** | (0,1)
-**Required** | Yes, if the file is available for public download.
-**Accepted Values** | String (URL)
-**Usage Notes** | This must be the **direct** download URL. Use **homepage** for landing or disambiguation pages, or **references** for documentation pages. For multiple downloads, use **distribution** to include as many **accessURL** entries as you need.
-**Example** |  `{"accessURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
-
-{: .table .table-striped}
-**Field** | **format**
------ | -----
-**Cardinality** | (0,1)
-**Required** | Yes, if the file is available for public download.
-**Accepted Values** | String
-**Usage Notes** | This must describe the exact files available at **accessURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type), represented as a list.  
-**Example** | `{"format": ['application/json'] }` `{"format": ['application/json', 'application/pdf', application/zip']
-
-{: .table .table-striped}
-**Field** | **keywords**
------ | -----
-**Cardinality** | (1,n)
-**Required** | Yes, always
-**Accepted Values** | Array of strings
-**Usage Notes** | Surround each keyword with quotes. Separate keywords with commas.
-**Example** | `{"keywords": ["squash","vegetables","veggies","greens","leafy","spinach","kale","nutrition","tomatoes","tomatos"]}`
-
-{: .table .table-striped}
-**Field** | **modified**
------ | -----
-**Cardinality** | (1,1)
-**Required** | Yes, always
-**Accepted Values** | ISO 8601 Date
-**Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the **issued** date here as well.
-**Example** |  `{"modified":"2012-01-15"}`
-
-{: .table .table-striped}
-**Field** | **publisher**
------ | -----is
-**Cardinality** | (1,1)
-**Required** | Yes, always
-**Accepted Values** | String
-**Usage Notes** | Departments and multi-unit agencies may use this field to describe which subordinate agency published this dataset.
-**Example** |  `{"publisher":"U.S. Department of Education"}`
-
-{: .table .table-striped}
-**Field** | **person**
------ | -----
-**Cardinality** | (1,1)
-**Required** | Yes, always
-**Accepted Values** | String
-**Usage Notes** | Name should be formatted as Last, First
-**Example** |  `{"person":"Brown, John"}`
-
-{: .table .table-striped}
-**Field** | **mbox**
------ | -----
-**Cardinality** | (1,1)
-**Required** | Yes, always
-**Accepted Values** | Email address
-**Usage Notes** | -
-**Example** |  `{"mbox":"joe@agency.gov"}`
-
-{: .table .table-striped}
-**Field** | **identifier**
------ | -----
-**Cardinality** | (1,1)
-**Required** | Yes, always
-**Accepted Values** | String
-**Usage Notes** | This field allows third parties to maintain a consistent record for datasets even if title or URLs are updated. Agencies may integrate an existing system for maintaining unique identifiers or enter arbitrary characters for this field. However, each identifier **must** be unique across the agency's catalog and remain fixed. Characters should be alphanumeric.
-**Example** |  `{"identifier":"1344"}`
 
 {: .table .table-striped}
 **Field** | **accessLevel**
@@ -208,49 +109,13 @@ Field       | title
 **Example** | `{"accessLevel":"public"}`
 
 {: .table .table-striped}
-**Field** | **webService**
+**Field** | **accessURL**
 ----- | -----
 **Cardinality** | (0,1)
-**Required** | Yes, if the dataset has an API
+**Required** | Yes, if the file is available for public download.
 **Accepted Values** | String (URL)
-**Usage Notes** | This field will serve to delineate the web services offered by an agency and will be used to aggregate cross-government API catalogs.
-**Example** | `{"webService":"http://www.agency.gov/vegetables/vegetables.json"}`
-
-{: .table .table-striped}
-**Field** | **license**
------ | -----
-**Cardinality** | (0,1)
-**Required** | No
-**Accepted Values** | -
-**Usage Notes** | See list of licenses.
-**Example** |  `{"license":""}`
-
-{: .table .table-striped}
-**Field** | **spatial**
------ | -----
-**Cardinality** | (0,1)
-**Required** | Yes, if the dataset is spatial
-**Accepted Values** | See Usage Notes
-**Usage Notes** | This field should contain one of the following types of content: (1) a bounding coordinate box for the dataset represented in latitude / longitude pairs where the coordinates are specified in decimal degrees and in the order of: minimum longitude, minimum latitude, maximum longitude, maximum latitude; (2) a latitude / longitude pair (in decimal degrees) representing a point where the dataset is relevant; (3) a geographic feature expressed in [Geography Markup Language using the Simple Features Profile](http://www.ogcnetwork.net/gml-sf); or (4) a geographic feature from the [GeoNames database](http://www.geonames.org).
-**Example** |  `{"spatial":"Lincoln, Nebraska"}`
-
-{: .table .table-striped}
-**Field** | **temporal**
------ | -----
-**Cardinality** | (0,1)
-**Required** | Yes, if applicable
-**Accepted Values** | See Usage Notes
-**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start datetime/end datetime} in the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format. ISO 8601 specifies that datetimes can be formatted in a number of ways, including a simple four-digit year (eg. 2013) to a much more specific YYYY-MM-DDTHH:MM:SSZ, where the T specifies a seperator between the date and time and time is expressed in 24 hour notation in the UTC (Zulu) time zone. (e.g., 2011-02-14T12:00:00Z/2013-07-04T19:34:00Z). Use a solidus ("/") to separate start and end times.
-**Example** |  `{"temporal":"2000-01-15T00:45:00Z/2010-01-15T00:06:00Z"}`
-
-{: .table .table-striped}
-**Field** | **issued**
------ | -----
-**Cardinality** | (0,1)
-**Required** | No
-**Accepted Values** | ISO 8601 Date
-**Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. 
-**Example** |  `{"issued":"2001-01-15"}`
+**Usage Notes** | This must be the **direct** download URL. Use **homepage** for landing or disambiguation pages, or **references** for documentation pages. For multiple downloads, use **distribution** to include as many **accessURL** entries as you need.
+**Example** |  `{"accessURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
 
 {: .table .table-striped}
 **Field** | **accrualPeriodicity**
@@ -262,13 +127,13 @@ Field       | title
 **Example** |  `{"accrualPeriodicity":"annual"}`
 
 {: .table .table-striped}
-**Field** | **language**
+**Field** | **dataDictionary**
 ----- | -----
-**Cardinality** | (0,n)
-**Required** | No
-**Accepted Values** | Array of strings
-**Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard. http://rishida.net/utils/subtags/ provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English).
-**Examples** |  `{"language":"en-US"}` `{"language":"en-GB"}` `{"language":"jp"}` `{"language":"es-MX, wo, nv, en-US"}` 
+**Cardinality** | (0,1)
+**Required** | No (Documentation that is not specifically a data dictionary belongs in "references")
+**Accepted Values** | String (URL)
+**Usage Notes** | -
+**Example** |  `{"dataDictionary":"http://www.agency.gov/vegetables/dictionary.html"}`
 
 {: .table .table-striped}
 **Field** | **dataQuality**
@@ -280,22 +145,13 @@ Field       | title
 **Example** |  `{"dataQuality":true}`
 
 {: .table .table-striped}
-**Field** | **theme**
+**Field** | **description**
 ----- | -----
-**Cardinality** | (0,n)
-**Required** | No
-**Accepted Values** | Array of strings
-**Usage Notes** | Separate multiple categories with a comma. Could include [ISO Topic Categories](http://www.isotopicmaps.org/).  
-**Example** |  `{"theme":["vegetables","produce"]}`
-
-{: .table .table-striped}
-**Field** | **references**
------ | -----
-**Cardinality** | (0,n)
-**Required** | No
-**Accepted Values** | Array of strings (URLs)
-**Usage Notes** | Enclose each URL within strings. Separate multiple URLs with a comma.
-**Example** |  `{"references":["http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/legumes/legumes_directions.html",""http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/fruits/fruits_directions.html""]}`
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String
+**Usage Notes** | This should be human-readable and understandable to an average person.
+**Example** | `{"description":"This dataset contains a list of vegetables, including nutrition information and seasonality. Includes details on tomatoes, which are really fruit but considered a vegetable in this dataset."}`
 
 {: .table .table-striped}
 **Field** | **distribution**
@@ -319,6 +175,42 @@ Field       | title
                 "format": "xml"
             }
         ]
+        
+{: .table .table-striped}
+**Field** | **format**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if the file is available for public download.
+**Accepted Values** | String
+**Usage Notes** | This must describe the exact files available at **accessURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type), represented as a list.  
+**Example** | `{"format": ['application/json'] }` `{"format": ['application/json', 'application/pdf', application/zip']}
+
+{: .table .table-striped}
+**Field** | **identifier**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String
+**Usage Notes** | This field allows third parties to maintain a consistent record for datasets even if title or URLs are updated. Agencies may integrate an existing system for maintaining unique identifiers or enter arbitrary characters for this field. However, each identifier **must** be unique across the agency's catalog and remain fixed. Characters should be alphanumeric.
+**Example** |  `{"identifier":"1344"}`
+
+{: .table .table-striped}
+**Field** | **issued**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | ISO 8601 Date
+**Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. 
+**Example** |  `{"issued":"2001-01-15"}`
+
+{: .table .table-striped}
+**Field** | **keywords**
+----- | -----
+**Cardinality** | (1,n)
+**Required** | Yes, always
+**Accepted Values** | Array of strings
+**Usage Notes** | Surround each keyword with quotes. Separate keywords with commas.
+**Example** | `{"keywords": ["squash","vegetables","veggies","greens","leafy","spinach","kale","nutrition","tomatoes","tomatos"]}`
 
 {: .table .table-striped}
 **Field** | **landingPage**
@@ -330,6 +222,51 @@ Field       | title
 **Example** |  `{"landingPage":"http://www.agency.gov/vegetables"}`
 
 {: .table .table-striped}
+**Field** | **language**
+----- | -----
+**Cardinality** | (0,n)
+**Required** | No
+**Accepted Values** | Array of strings
+**Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard. http://rishida.net/utils/subtags/ provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English).
+**Examples** |  `{"language":"en-US"}` `{"language":"en-GB"}` `{"language":"jp"}` `{"language":"es-MX, wo, nv, en-US"}` 
+
+{: .table .table-striped}
+**Field** | **license**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | -
+**Usage Notes** | See list of licenses.
+**Example** |  `{"license":""}`
+
+{: .table .table-striped}
+**Field** | **mbox**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | Email address
+**Usage Notes** | -
+**Example** |  `{"mbox":"joe@agency.gov"}`
+
+{: .table .table-striped}
+**Field** | **modified**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | ISO 8601 Date
+**Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the **issued** date here as well.
+**Example** |  `{"modified":"2012-01-15"}`
+
+{: .table .table-striped}
+**Field** | **person**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String
+**Usage Notes** | Name should be formatted as Last, First
+**Example** |  `{"person":"Brown, John"}`
+
+{: .table .table-striped}
 **Field** | **PrimaryITInvestmentUII**
 ----- | -----
 **Cardinality** | (0,1)
@@ -337,6 +274,70 @@ Field       | title
 **Accepted Values** | String
 **Usage Notes** | Use to link a given dataset with its related IT Unique Investment Identifier.
 **Example** |  `{"PrimaryITInvestmentUII":"123456"}`
+
+{: .table .table-striped}
+**Field** | **publisher**
+----- | -----is
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String
+**Usage Notes** | Departments and multi-unit agencies may use this field to describe which subordinate agency published this dataset.
+**Example** |  `{"publisher":"U.S. Department of Education"}`
+
+{: .table .table-striped}
+**Field** | **references**
+----- | -----
+**Cardinality** | (0,n)
+**Required** | No
+**Accepted Values** | Array of strings (URLs)
+**Usage Notes** | Enclose each URL within strings. Separate multiple URLs with a comma.
+**Example** |  `{"references":["http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/legumes/legumes_directions.html",""http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/fruits/fruits_directions.html""]}`
+
+
+{: .table .table-striped}
+**Field** | **spatial**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if the dataset is spatial
+**Accepted Values** | See Usage Notes
+**Usage Notes** | This field should contain one of the following types of content: (1) a bounding coordinate box for the dataset represented in latitude / longitude pairs where the coordinates are specified in decimal degrees and in the order of: minimum longitude, minimum latitude, maximum longitude, maximum latitude; (2) a latitude / longitude pair (in decimal degrees) representing a point where the dataset is relevant; (3) a geographic feature expressed in [Geography Markup Language using the Simple Features Profile](http://www.ogcnetwork.net/gml-sf); or (4) a geographic feature from the [GeoNames database](http://www.geonames.org).
+**Example** |  `{"spatial":"Lincoln, Nebraska"}`
+
+{: .table .table-striped}
+**Field** | **temporal**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if applicable
+**Accepted Values** | See Usage Notes
+**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start datetime/end datetime} in the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format. ISO 8601 specifies that datetimes can be formatted in a number of ways, including a simple four-digit year (eg. 2013) to a much more specific YYYY-MM-DDTHH:MM:SSZ, where the T specifies a seperator between the date and time and time is expressed in 24 hour notation in the UTC (Zulu) time zone. (e.g., 2011-02-14T12:00:00Z/2013-07-04T19:34:00Z). Use a solidus ("/") to separate start and end times.
+**Example** |  `{"temporal":"2000-01-15T00:45:00Z/2010-01-15T00:06:00Z"}`
+
+{: .table .table-striped}
+**Field** | **theme**
+----- | -----
+**Cardinality** | (0,n)
+**Required** | No
+**Accepted Values** | Array of strings
+**Usage Notes** | Separate multiple categories with a comma. Could include [ISO Topic Categories](http://www.isotopicmaps.org/).  
+**Example** |  `{"theme":["vegetables","produce"]}`
+
+{: .table .table-striped}
+Field       | title
+-----           | -----
+**Cardinality** | (1,1)
+**Required**    | Yes, always
+**Accepted Values** | String
+**Usage Notes** | Acronyms should be avoided.
+**Example**     | `{"title":"Types of Vegetables"}`
+
+{: .table .table-striped}
+**Field** | **webService**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if the dataset has an API
+**Accepted Values** | String (URL)
+**Usage Notes** | This field will serve to delineate the web services offered by an agency and will be used to aggregate cross-government API catalogs.
+**Example** | `{"webService":"http://www.agency.gov/vegetables/vegetables.json"}`
 
 
 Rationale for Metadata Nomenclature
