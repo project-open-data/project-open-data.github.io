@@ -82,12 +82,14 @@ Agencies are encouraged to use the following expanded fields when appropriate. A
 {: .table .table-striped}
 Field               | Definition                                                                                                                                    | JSON
 ------              | ------                                                                                                                                        | ----
+
 Category            | Main thematic category of the dataset.                                                                                                        | theme
 Data Dictionary     | URL to the data dictionary for the dataset or API.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              | dataDictionary
 Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             | dataQuality
+Distribution        | Holds multiple download URLs for datasets composed of multiple files and/or file types | distribution
 Frequency           | Frequency with which dataset is published.                                                                                                    | accrualPeriodicity
-Language            | The language of the dataset.                                                                                                                  | language
 Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface. | landingPage
+Language            | The language of the dataset.                                                                                                                  | language
 Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references
 Release Date        | Date of formal issuance.                                                                                                                      | issued
 System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
