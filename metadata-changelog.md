@@ -15,7 +15,6 @@ This document is currently a DRAFT.
 
 Updates to original draft metadata:
 
-* Renames "keyword" field to "keywords"
 * Renames "person" field to "contactPoint" to better align with DCAT
 * Aligns "modified", "temporal", and "issued" fields to ISO 8601 of least resolution
 * Aligns "format" field to MIME types
