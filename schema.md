@@ -47,7 +47,7 @@ Field               | Definition                                                
 -------             | ---------------                                                                                                                                | --------------  
 Title               | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery.                | title
 Description         | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | description
-Tags                | Tags (or keywords) help users discover your dataset, please include terms that would be used by technical and non-technical users.             | keywords
+Tags                | Tags (or keywords) help users discover your dataset, please include terms that would be used by technical and non-technical users.             | keyword
 Bureau Code         | Combined agency and bureau code from [OMB A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) | bureauCode
 Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        | modified
 Publisher           | The publishing agency.                                                                                                                         | publisher
@@ -224,13 +224,13 @@ Further Metadata Field Guidance
 **Example** |  `{"issued":"2001-01-15"}`
 
 {: .table .table-striped}
-**Field** | **keywords**
+**Field** | **keyword**
 ----- | -----
 **Cardinality** | (1,n)
 **Required** | Yes, always
 **Accepted Values** | Array of strings
 **Usage Notes** | Surround each keyword with quotes. Separate keywords with commas.
-**Example** | `{"keywords": ["squash","vegetables","veggies","greens","leafy","spinach","kale","nutrition","tomatoes","tomatos"]}`
+**Example** | `{"keyword": ["squash","vegetables","veggies","greens","leafy","spinach","kale","nutrition","tomatoes","tomatos"]}`
 
 {: .table .table-striped}
 **Field** | **landingPage**
