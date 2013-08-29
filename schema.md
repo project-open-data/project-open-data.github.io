@@ -302,7 +302,6 @@ Field       | title
 **Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: download url, format, endpoint, language, size.
 **Example** | `"distribution": [{"accessURL": "http://data.mcc.gov/example_resource/data.json", "format":"JSON", "size":"22mb"},{"accessURL":"http://data.mcc.gov/example_/data.xml", "format":"XML", "size":"24mb"}]`
 
-<<<<<<< HEAD
 {: .table .table-striped}
 **Field** | **size**
 ----- | -----
@@ -313,9 +312,6 @@ Field       | title
 **Example** |  `{"size":"3MB"}`
 
 {: .table .table-striped}
-=======
-{.table .table-striped}
->>>>>>> master
 **Field** | **landingPage**
 ----- | -----
 **Cardinality** | (0,1)
