@@ -47,14 +47,15 @@ Field               | Definition                                                
 -------             | ---------------                                                                                                                                | --------------  
 Title               | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery.                | title
 Description         | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | description
-Tags                | Tags (or keywords) help users discover your dataset, please include terms that would be used by technical and non-technical users.             | keyword
-Bureau Code         | Combined agency and bureau code from [OMB A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) | bureauCode
+Tags                | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users.             | keyword
+Bureau Code         | Combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of “015:010”. | bureauCode
 Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        | modified
 Publisher           | The publishing agency.                                                                                                                         | publisher
 Contact Name        | Contact person's name for the asset.                                                                                                           | contactPoint
 Contact Email        | Contact person's email address. 			           	                                                                                             | mbox
 Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 | identifier
-Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (is or *could be* made publicly available), restricted public (available under certain conditions), or non-public (never able to be made publicly available)  | accessLevel
+Program Office      | Primary program related to this data asset, from the Federal Program Inventory on Performance.gov. | programOffice
+Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)  | accessLevel
 
 
 "Common Core" Required-if-Applicable Fields
@@ -64,12 +65,11 @@ The following fields must be used to describe each dataset if they are applicabl
 {: .table .table-striped}
 Field               | Definition                                                                                                                                     |JSON
 -------             | ---------------                                                                                                                                | --------------  
-Access Level Comment | Explanation of how to access a restricted public dataset, or why a private dataset cannot be released. | accessLevelComment
+Access Level Comment | An explanation for the selected **accessLevel** including instructions forof how to access a restricted file, if applicable, or explanation for  why “non-public” or “restricted public” data assets is not “public,” if applicable.  | accessLevelComment
 Download URL        | URL providing direct access to the downloadable distribution of a dataset.                                                                     | accessURL
 Endpoint            | Endpoint of web service to access dataset.                                                                                                     | webService
 Format              | The file format or API type of the distribution.                                                                                               | format
 License             | The license dataset or API is published with.  See [Open Licenses](/open-licenses/) for more information.   | license
-Program Office      | The program office responsible for the dataset | programOffice
 Spatial  	          | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         | spatial
 Temporal	          | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   | temporal
 
@@ -109,6 +109,15 @@ Further Metadata Field Guidance
 **Accepted Values** | Must be one of the following: "public", "restricted public", "non-public"
 **Usage Notes** | This field refers to degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
 **Example** | `{"accessLevel":"public"}`
+
+{: .table .table-striped}
+**Field** | **accessLevelComment**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if accessLevel is "restricted public" or "non-public"
+**Accepted Values** | String
+**Usage Notes** | An explanation for the selected “accessLevel” including instructions forof how to access a restricted file, if applicable, or explanation for  why “non-public” or “restricted public” data assets is not “public,” if applicable. 
+**Example** | `{"accessLevelComment":"This dataset contains Personally Identifiable Information and could not be released for public access. A statistical analysis of the data contained herein, stripped of all personal identifiers, is available at http://another.website.gov/dataset."}`
 
 {: .table .table-striped}
 **Field** | **accessURL**
@@ -197,6 +206,7 @@ Further Metadata Field Guidance
         ]
         
 {: .table .table-striped}
+
 **Field** | **format**
 ----- | -----
 **Cardinality** | (0,1)
@@ -290,9 +300,9 @@ Further Metadata Field Guidance
 **Field** | **programOffice**
 ----- | -----
 **Cardinality** | (0,n)
-**Required** | Yes, if a program office owns or co-owns this dataset.
+**Required** | Yes, always
 **Accepted Values** | Array of strings
-**Usage Notes** | Enter the name of the program office responsible for the dataset, as found in the [Federal Program Inventory](http://goals.performance.gov/federalprograminventory).
+**Usage Notes** | Enter the name of the program office responsible for the dataset, as found in the [Federal Program Inventory](http://goals.performance.gov/federalprograminventory). Enter "None" if not assigned to a program office.
 **Example** |  `{"programOffice":["2.31. Survivors’ and Dependents’ Educational Assistance"]}`
 
 {: .table .table-striped}
