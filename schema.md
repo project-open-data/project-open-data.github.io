@@ -152,8 +152,8 @@ Further Metadata Field Guidance
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String
-**Usage Notes** | Name should be formatted as Last, First
-**Example** |  `{"contactPoint":"Brown, John"}`
+**Usage Notes** | 
+**Example** |  `{"contactPoint":"John Brown"}`
 
 {: .table .table-striped}
 **Field** | **dataDictionary**
