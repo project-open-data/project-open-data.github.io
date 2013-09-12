@@ -267,7 +267,7 @@ Field       | title
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | Must be one of the following: hourly, daily, weekly, yearly, other
+**Accepted Values** | Must be one of the following: hourly, daily, weekly, monthly, quarterly, yearly, other
 **Usage Notes** | -
 **Example** |  `{"accrualPeriodicity":"yearly"}`
 
