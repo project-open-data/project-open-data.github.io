@@ -97,6 +97,7 @@ Project Open Data provides metadata requirements, additional optional metadata f
 
 #### Tools and Resources on Project Open Data
 * Out-of-the-box Inventory Tool: OMB and GSA have provided a data inventory tool (CKAN) that is customized to be compliant with the Open Data Policy out of the box. Customization includes the ability to generate the compliant Public Data Listing directly from the Inventory, as well as integration of the required common core metadata schema. Agencies may choose to install CKAN on their servers or use the centrally hosted tool.
+* Alternate out-of-the-box Inventory Tools: Agencies may also use the Open Data Portal from [Socrata](http://www.socrata.com/open-data-portal) and other entrepreneurial solution providers to create a compliant data inventory.
 * Definitions and schema of “common core metadata fields” and selected “extensible metadata fields”
 * The JSON schema for each Inventory’s “JSON Snapshot” as well as a schema generator and validator tools to facilitate agency efforts to create metadata
 * Additional best practices, case studies, and tools
@@ -129,6 +130,7 @@ The objectives of this activity are to:
 
 * Schema Generator
 * CKAN
+* Turnkey solution providers like [Socrata](http://www.socrata.com)
 * JSON Validator
 
 ### C. Create a Process to Engage With Customers to Help Facilitate and Prioritize Data Release
