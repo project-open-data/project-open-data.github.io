@@ -99,15 +99,13 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-4 [Open License Examples](license-examples/) - Potential licenses for data and content.  
 
-5-5 [Chief Data Officer Material](cdo/) - Sample language for a Chief Data Officer position description.
+5-5 [API Basics](api-basics/) - Introductory resources for understanding application programming interfaces (APIs).
 
-5-6 [API Basics](api-basics/) - Introductory resources for understanding application programming interfaces (APIs).
+5-6 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
 
-5-7 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
+5-7 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
 
-5-8 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
-
-5-9 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards. 
+5-8 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards. 
 
 ----------------
 
