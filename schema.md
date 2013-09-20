@@ -133,7 +133,7 @@ Further Metadata Field Guidance
 **Required** | No
 **Accepted Values** | See usage notes
 **Usage Notes** | Must be a value from [DCCDAccrualPeriodicity](http://www.ukoln.ac.uk/metadata/dcmi/collection-DCCDAccrualPeriodicity/): "Annual","Bimonthly","Semiweekly","Daily","Biweekly","Semiannual","Biennial","Triennial","Three times a week","Three times a month","Continuously updated","Monthly","Quarterly","Semimonthly","Three times a year","Weekly","Completely irregular"
-**Example** |  `{"accrualPeriodicity":"annual"}`
+**Example** |  `{"accrualPeriodicity":"Annual"}`
 
 {: .table .table-striped}
 **Field** | **bureauCode**
@@ -255,7 +255,7 @@ Further Metadata Field Guidance
 **Required** | No
 **Accepted Values** | Array of strings
 **Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard. http://rishida.net/utils/subtags/ provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English).
-**Examples** |  `{"language":"en-US"}` `{"language":"en-GB"}` `{"language":"jp"}` `{"language":"es-MX, wo, nv, en-US"}` 
+**Examples** |  `{"language":["en-US"]}` `{"language":["en-GB"]}` `{"language":["jp"]}` `{"language":["es-MX"], ["wo"], ["nv"], ["en-US"]}` 
 
 {: .table .table-striped}
 **Field** | **license**
@@ -309,7 +309,7 @@ Further Metadata Field Guidance
 **Required** | Yes, for United States Federal Government Agencies
 **Accepted Values** | Array of strings
 **Usage Notes** | Provide an array of programs related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls).
-**Example** |  {"programcode":["015:001”, “015:002”]}
+**Example** |  {"programCode":["015:001”, “015:002”]}
 
 {: .table .table-striped}
 **Field** | **references**
@@ -318,7 +318,7 @@ Further Metadata Field Guidance
 **Required** | No
 **Accepted Values** | Array of strings (URLs)
 **Usage Notes** | Enclose each URL within strings. Separate multiple URLs with a comma.
-**Example** |  `{"references":["http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/legumes/legumes_directions.html",""http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/fruits/fruits_directions.html""]}`
+**Example** |  `{"references":["http://www.agency.gov/fruits/fruits.csv", "http://www.agency.gov/legumes/legumes_directions.html", "http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/fruits/fruits_directions.html"]}`
 
 {: .table .table-striped}
 **Field** | **spatial**
