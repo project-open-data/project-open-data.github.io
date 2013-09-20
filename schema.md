@@ -57,7 +57,7 @@ Public Access Level | The degree to which this dataset **could** be made publicl
 
 "Common Core" Required-if-Applicable Fields
 -------------------------------------------
-The following fields must be used to describe each dataset if they are applicable:
+The following fields must be used to describe each dataset if they are applicable. U.S. Federal agencies must fill out BureauCode and ProgramCode.
 
 {: .table .table-striped}
 Field               | Definition                                                                                                                                     |JSON
@@ -83,7 +83,6 @@ Agencies are encouraged to use the following expanded fields when appropriate. A
 {: .table .table-striped}
 Field               | Definition                                                                                                                                    | JSON
 ------              | ------                                                                                                                                        | ----
-
 Category            | Main thematic category of the dataset.                                                                                                        | theme
 Data Dictionary     | URL to the data dictionary for the dataset or API.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              | dataDictionary
 Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             | dataQuality
