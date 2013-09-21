@@ -62,8 +62,8 @@ The following fields must be used to describe each dataset if they are applicabl
 {: .table .table-striped}
 Field               | Definition                                                                                                                                     |JSON
 -------             | ---------------                                                                                                                                | --------------  
-Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of “015:010”.  | bureauCode
-Program Code		| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of “015:001""  | programCode
+Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:010`.  | bureauCode
+Program Code		| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  | programCode
 Access Level Comment | An explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data assetis not “public,” if applicable. Text, 255 characters.  | accessLevelComment
 Download URL        | URL providing direct access to the downloadable distribution of a dataset.                                                                     | accessURL
 Endpoint            | Endpoint of web service to access dataset.                                                                                                     | webService
@@ -150,8 +150,8 @@ Further Metadata Field Guidance
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String
-**Usage Notes** | 
-**Example** |  `{"contactPoint":"John Brown"}`
+**Usage Notes** | -
+**Example** | `{"contactPoint":"John Brown"}`
 
 {: .table .table-striped}
 **Field** | **dataDictionary**
@@ -209,8 +209,8 @@ Further Metadata Field Guidance
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String
-**Usage Notes** | This must describe the exact files available at **accessURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type), represented as a list.  
-**Example** | `{"format": ['application/json'] }` `{"format": ['application/json', 'application/pdf', application/zip']}
+**Usage Notes** | This must describe the exact files available at **accessURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type).  
+**Example** | `{"format": "application/json"}`
 
 {: .table .table-striped}
 **Field** | **identifier**
@@ -255,7 +255,7 @@ Further Metadata Field Guidance
 **Required** | No
 **Accepted Values** | Array of strings
 **Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard. http://rishida.net/utils/subtags/ provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English).
-**Examples** |  `{"language":["en-US"]}` `{"language":["en-GB"]}` `{"language":["jp"]}` `{"language":["es-MX"], ["wo"], ["nv"], ["en-US"]}` 
+**Examples** |  `{"language":["es-MX"], ["wo"], ["nv"], ["en-US"]}` 
 
 {: .table .table-striped}
 **Field** | **license**
@@ -309,7 +309,7 @@ Further Metadata Field Guidance
 **Required** | Yes, for United States Federal Government Agencies
 **Accepted Values** | Array of strings
 **Usage Notes** | Provide an array of programs related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls).
-**Example** |  {"programCode":["015:001”, “015:002”]}
+**Example** |  `{"programCode":["015:001”, “015:002”]}`
 
 {: .table .table-striped}
 **Field** | **references**
