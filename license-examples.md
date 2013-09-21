@@ -22,4 +22,4 @@ Data and content created by government employees within the scope of their emplo
 * [Creative Commons CC0](http://creativecommons.org/choose/)
 
 ## More Information
-*[Extended list of comformant licenses](http://opendefinition.org/licenses/)*
+*[Extended list of conformant licenses](http://opendefinition.org/licenses/)*

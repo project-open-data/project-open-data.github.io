@@ -14,7 +14,7 @@ For example, when the U.S. Government released weather and GPS data to the publi
 
 The ultimate value of data can often not be predicted. That’s why the U.S. Government released a [policy](policy-memo/) that instructs agencies to manage their data, and information more generally, as an asset from the start and, wherever possible, release it to the public in a way that makes it open, discoverable, and usable. 
 
-The White House developed Project Open Data – this collection of code, tools, and case studies – to help agencies adopt the Open Data Policy and unlock the potential of government data. Project Open Data will evolve over time as a community resource to facilitate broader adoption of open data practices in government. Anyone – government employees, contractors, developers, the general public – can view and contribute. So dive right in and [help to build a better world through the power of open data](governance/). 
+The White House developed Project Open Data – this collection of code, tools, and case studies – to help agencies adopt the Open Data Policy and unlock the potential of government data. Project Open Data will evolve over time as a community resource to facilitate broader adoption of open data practices in government. Anyone – government employees, contractors, developers, the general public – can view and contribute. Learn more about [Project Open Data Governance](governance/) and dive right in and help to build a better world through the power of open data. 
 
 ----------------
 
@@ -40,11 +40,13 @@ Implementation guidance for open data practices.
 
 3-1 [U.S. Government Policy on Open Data](/policy-memo/) - Full text of the memorandum.  
 
-3-2 [Implementation Guide](/implementation-guide/) - Detailed descriptions and guidance for each step of implementing the policy. 
+3-2 [Implementation Guide](/implementation-guide/) - Official OMB implementation guidance for each step of implementing the policy. 
 
 3-3 [Public Data Listing](/catalog/) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.  
 
 3-4 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.  
+
+3-5 [Open Data Cross Priority (CAP) Goal](http://goals.performance.gov/opendata) - Information on the development of the Open Data CAP goal as required in the [Open Data Execuitve Order](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government). 
 
 ----------------
 
@@ -66,17 +68,27 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-7 [JSON Validator](https://github.com/project-open-data/json-validator) - Validation tool to confirm the formatting of agency.gov/data catalog files. -&nbsp;*[Hosted](http://project-open-data.github.com/json-validator/)*
 
-4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.  
+4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.
 
-4-9 [ESRI2Open](http://github.com/project-open-data/esri2open) - A tool which converts spatial and non-spatial data form ESRI only formats to the Open Data formats, CSV, Json, or GeoJSOn, making them more a part of the www ecology.
+4-9 [CFPB Project Qu](https://github.com/cfpb/qu) - The CFPB's in-progress data publishing platform, created to serve public data sets.
 
-4-10 [ckanext-datajson](https://github.com/HHS/ckanext-datajson) - A CKAN extension to generate agency.gov/data.json catalog files.
+4-10 [HMDA Tools](http://https://github.com/cfpb/hmda-tools) - Lightweight tools to make importing and analyzing [Home Mortgage Disclosure Act](http://en.wikipedia.org/wiki/Home_Mortgage_Disclosure_Act) data easier.
+
+4-11 [ESRI2Open](http://github.com/project-open-data/esri2open) - A tool which converts spatial and non-spatial data form ESRI only formats to the Open Data formats, CSV, JSON, or GeoJSON, making them more a part of the WWW ecology.
+
+4-12 [ckanext-datajson](https://github.com/HHS/ckanext-datajson) - A CKAN extension to generate agency.gov/data.json catalog files.
+
+4-13 [DKAN](http://drupal.org/project/dkan) - An open data portal modeled on [CKAN](http://ckan.org/). DKAN is a stand alone Drupal distribution that allows anyone to spin up an open data portal in minutes as well as two modules, [DKAN Dataset](http://drupal.org/project/dkan_dataset) and [DKAN Datastore](http://drupal.org/project/dkan_datastore), that can be added to existing Drupal sites to add data portal functionality to an exist Drupal site.
+
+4-14 [DataVizWiz](https://drupal.org/project/datavizwiz) - A [Drupal](http://drupal.org) module that provides a fast way to get data vizualizations online.
+
+4-15 [Esri Geoportal Server](https://github.com/Esri/geoportal-server/) - Open source catalog supporting ISO/FGDC/DC/... metadata with mapping to DCAT to support agency.gov/data.json listings in addition to providing [OGC CSW](http://www.opengeospatial.org/standards/cat), [OAI-PMH](http://www.openarchives.org/pmh/) and [OpenSearch](http://www.opensearch.org). Supports automated harvesting from other open catalog sources.
 
 ----------------
 
 ##5. Resources
 
-This section contains programatic tools, resources, and/or checklists to help programs determine open data requirements.
+This section contains programmatic tools, resources, and/or checklists to help programs determine open data requirements.
 
 5-1 [Metadata Resources](metadata-resources/) - 
 Resources to provide guidance and assistance for each aspect of creating and maintaining agency.gov/data catalog files.  
@@ -87,13 +99,13 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-4 [Open License Examples](license-examples/) - Potential licenses for data and content.  
 
-5-5 [Chief Data Officer Material](cdo/) - Sample language for a Chief Data Officer position description.
+5-5 [API Basics](api-basics/) - Introductory resources for understanding application programming interfaces (APIs).
 
-5-6 [API Basics](api-basics/) - Introductory resources for understanding application programming interfaces (APIs).
+5-6 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
 
-5-7 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
+5-7 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
 
-5-8 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
+5-8 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards. 
 
 ----------------
 

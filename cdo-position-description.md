@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CDO Position Descripton
+title: CDO Position Description
 permalink: /cdo/
 filename: cdo-position-description.md
 ---
@@ -14,6 +14,7 @@ The Administration has a clear a vision of data managed as and asset and data-dr
 The Chief Data officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. 
 
 The Chief Data Officer role shall seek to:
+
 *	Manage open government data effort including coordinating how we offer APIs and create public data products
 *	Decrease the cost of managing data and increasing the value of the data we have
 *	Improve how the agency collects, uses, manages, and publishes data. 
@@ -108,9 +109,9 @@ The  CDO is not responsible for the security of information. That responsibility
 Success for the CDO is developing culture of data sharing within the organization and planning to make data available to share as part of Agency process, rule makings and IT system design. Data management, well-led by the CDO, should be a profit center for the enterprise, or in the case of a Federal agency, a means to avoiding costs and increasing productivity. Success looks like:
 
 *	Measurably improved data quality and data management practices to track, protect, and publish data
-*	Publishing all publically available data electronically is structured, machine-readable formats packaged in a variety of formats and syndicated to a variety ways to support a variety to meet the needs of a variety of customers
+*	Publishing all publicly available data electronically is structured, machine-readable formats packaged in a variety of formats and syndicated to a variety ways to support a variety to meet the needs of a variety of customers
 *	Identity of regulated entities, products and services offered as a service to IT systems. Real-time company files and other profiles such as “market fast facts” that can be looked up by unique, commonly known identifiers such as call signs
-*	Data increasingly syndicated to other parties and publically available information services from third parties based on real-time, machine accessed services. 
+*	Data increasingly syndicated to other parties and publicly available information services from third parties based on real-time, machine accessed services. 
 *	Exposing Agency tools and data in manner that helps speeds products and innovation to markets
 *	Validating data collections will support planned policy making prior to NPRMs. Data collection NPRMs that include prototypes of data collections
 *	Being able to rapidly develop data services and offerings based on requests from academics, policy makers, industry, advocates, and public

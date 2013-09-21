@@ -95,7 +95,7 @@ While ISO 32000 is an open standard, the Portable Document Format (PDF) does not
 
 ### What is the relationship of the metadata standard (specifically) to NIEM, ISE, FGDC, and other existing (especially official) government data standards?
 
-The [common core metadata schema](http://project-open-data.github.io/schema/) is based on existing vocabularies and easily mapped to NIEM, Information Sharing Environment, and FGDC.
+The [common core metadata schema](/schema/) is based on existing vocabularies and easily mapped to NIEM, Information Sharing Environment, and FGDC.
 
 ### What is a "persistent identifier"?
 
@@ -107,9 +107,9 @@ The core metadata schema was the result of recommendations from a government-wid
  
 ### How can I recommend changes and improvements to the metadata schema?
 
-Submit a pull request for the [metadata schema](http://project-open-data.github.io/schema/). 
+Submit a pull request for the [metadata schema](/schema/). 
 
-### Can I extend the metadata schema beyond the terms specified in the [common core metadata schema](http://project-open-data.github.io/schema/)?
+### Can I extend the metadata schema beyond the terms specified in the [common core metadata schema](/schema/)?
 
 Yes, if your data management process includes rich metadata specific to the mission of your agency or the Line of Business your agency participates, publishing additional metadata that makes your data more useful to the public is welcomed and encouraged.  Note that Data.gov will be harvesting only the metadata in this published schema unless specific arrangements are in place (e.g. geospatial FGDC/ISO).
  
@@ -146,7 +146,7 @@ No, the files should be located at agency.gov/data web space.  Each agency shoul
 
 1. For websites that are composed of static HTML, simply host the data.json file at the designated location.  
 2. If needed, one may also host the file by using /data.json/index.html to provide the same functionality.  
-3. Sites that utilize WordPress may modify and employ the open-sourced [Datafiles Wordpress Plugin](https://github.com/GSA/datafiles-wordpress-plugin).  
+3. Sites that utilize WordPress may modify and employ the open-sourced [Datafiles WordPress Plugin](https://github.com/GSA/datafiles-wordpress-plugin).  
 4. Sites that utilize Drupal may modify and employ the open-sourced [Digital Strategy Drupal Module](https://github.com/FCC/digital_strategy).  
 
  
@@ -160,7 +160,7 @@ A wide variety of tools are available to manage a data catalog, whether public-f
  
 ### What formats are required/recommended for the agency.gov/data file?
 
-There are several syntaxes that may be used when publishing the data file. The syntax that is required to make the data readily available to developers is JSON (JavaScript Object Notation). It is recommended that agencies also create a data.html file and use RDFa Lite (Resource Description Framework) to mark-up the metadata using the [common core metadata schema](http://project-open-data.github.io/schema/). The RDFa Lite file can be easily consumed by major search engines and applications and make you data easier to find by the public. A third alternative for populating your metadata file is XML (eXtensible Markup Language). Agencies are encouraged to maintain all three version of the metadata file. [Tools](http://labs.data.gov) are available to transform any instance of the file into the alternative formats.
+There are several syntaxes that may be used when publishing the data file. The syntax that is required to make the data readily available to developers is JSON (JavaScript Object Notation). It is recommended that agencies also create a data.html file and use RDFa Lite (Resource Description Framework) to mark-up the metadata using the [common core metadata schema](/schema/). The RDFa Lite file can be easily consumed by major search engines and applications and make you data easier to find by the public. A third alternative for populating your metadata file is XML (eXtensible Markup Language). Agencies are encouraged to maintain all three version of the metadata file. [Tools](http://labs.data.gov) are available to transform any instance of the file into the alternative formats.
 
 ## Agency participation with Open Data
 
@@ -188,7 +188,7 @@ Agencies are required to implement the Open Data Policy within six months.
 
 ### What is the relationship between NIEM and the efforts underway for the Digital Government Strategy, The Open Data Policy, and Data.gov?
 
-Each of these initiatives has a discreet, targeted focus, but all are aimed at increasing access and use of government data.  Data.gov has provided a central place to find data and applications for publically releasable information.   New applications and services to better serve citizens have been produced as a result in the increase of information made available through Data.gov.  The DGS/ODP policy establishes a framework to help institutionalize the principles of effective information management at each stage of the information’s life cycle.  The framework can help agencies build information systems and processes in a way that increases information and system interoperability, openness, and safeguarding – mutually reinforcing activities that help to promote data discoverability and usability.  NIEM, as a government-wide program provides tools to enhance the way many communities build standardized exchanges to increase mission performance.  NIEM fully aligns to the DGS/ODP policy and can be seen one of the tools for implementation.
+Each of these initiatives has a discreet, targeted focus, but all are aimed at increasing access and use of government data.  Data.gov has provided a central place to find data and applications for publicly releasable information.   New applications and services to better serve citizens have been produced as a result in the increase of information made available through Data.gov.  The DGS/ODP policy establishes a framework to help institutionalize the principles of effective information management at each stage of the information's life cycle.  The framework can help agencies build information systems and processes in a way that increases information and system interoperability, openness, and safeguarding – mutually reinforcing activities that help to promote data discoverability and usability.  NIEM, as a government-wide program provides tools to enhance the way many communities build standardized exchanges to increase mission performance.  NIEM fully aligns to the DGS/ODP policy and can be seen one of the tools for implementation.
 
 ### What is NIEM?
 

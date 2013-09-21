@@ -1,56 +1,56 @@
 <datasets>
   <dataset id="">
     
-      <attribute rel="dct:title"></attribute>
+      <attribute property="dct:title"></attribute>
       
-      <attribute rel="dct:description"></attribute>
+      <attribute property="dct:description"></attribute>
       
-      <attribute rel="dcat:dataDictionary"></attribute>
+      <attribute property="dcat:dataDictionary"></attribute>
       
-      <attribute rel="dcat:download"></attribute>
+      <attribute property="dcat:download"></attribute>
       
-      <attribute rel="dcterms:format"></attribute>
+      <attribute property="dcterms:format"></attribute>
       
-      <attribute rel="dcat:keyword"></attribute>
+      <attribute property="dcat:keyword"></attribute>
       
-      <attribute rel="dcterms:modified"></attribute>
+      <attribute property="dcterms:modified"></attribute>
       
-      <attribute rel="foaf:Organization"></attribute>
+      <attribute property="foaf:Organization"></attribute>
       
-      <attribute rel="foaf:Person"></attribute>
+      <attribute property="foaf:Person"></attribute>
       
-      <attribute rel="foaf:mbox"></attribute>
+      <attribute property="foaf:mbox"></attribute>
       
-      <attribute rel="dcterms:identifier"></attribute>
+      <attribute property="dcterms:identifier"></attribute>
       
-      <attribute rel="xsd:boolean"></attribute>
+      <attribute property="xsd:boolean"></attribute>
       
   </dataset>
   <dataset id="">
     
-      <attribute rel="dct:title"></attribute>
+      <attribute property="dct:title"></attribute>
       
-      <attribute rel="dct:description"></attribute>
+      <attribute property="dct:description"></attribute>
       
-      <attribute rel="dcat:dataDictionary"></attribute>
+      <attribute property="dcat:dataDictionary"></attribute>
       
-      <attribute rel="dcat:download"></attribute>
+      <attribute property="dcat:download"></attribute>
       
-      <attribute rel="dcterms:format"></attribute>
+      <attribute property="dcterms:format"></attribute>
       
-      <attribute rel="dcat:keyword"></attribute>
+      <attribute property="dcat:keyword"></attribute>
       
-      <attribute rel="dcterms:modified"></attribute>
+      <attribute property="dcterms:modified"></attribute>
       
-      <attribute rel="foaf:Organization"></attribute>
+      <attribute property="foaf:Organization"></attribute>
       
-      <attribute rel="foaf:Person"></attribute>
+      <attribute property="foaf:Person"></attribute>
       
-      <attribute rel="foaf:mbox"></attribute>
+      <attribute property="foaf:mbox"></attribute>
       
-      <attribute rel="dcterms:identifier"></attribute>
+      <attribute property="dcterms:identifier"></attribute>
       
-      <attribute rel="xsd:boolean"></attribute>
+      <attribute property="xsd:boolean"></attribute>
       
   </dataset>
 </datasets>
