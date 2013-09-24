@@ -89,6 +89,9 @@ Public Access Level | *n/a*                   | *n/a*             | *n/a* | *n/a
 {: .table .table-striped}
 Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1* | *Schema.org*
 -------             | -------                 | -------           | -------  | -------
+Bureau Code			| *n/a*                   | *n/a*             | *n/a* | *n/a*
+Program Code 		| *n/a*                   | *n/a*             | *n/a* | *n/a*
+Access Level Comment| *n/a*                   | *n/a*             | *n/a* | *n/a*
 Data Dictionary     | *Data Dictionary*       | *data_dict*                | [dcat:dataDictionary](http://www.w3.org/TR/vocab-dcat/#property--data-dictionary) | *n/a*
 Download URL        | *Access Point*          | *res_url*                | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#property--access-download) | *sdo:contentUrl*
 Endpoint            | *Access Point*          | *res_url*                | [dcat:webService](http://www.w3.org/TR/vocab-dcat/#class--webservice) \*  | *n/a*
