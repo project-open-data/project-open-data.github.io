@@ -11,7 +11,7 @@ This document is currently a DRAFT.
 
 ## Changelog
 
-### Version 1.0 FINAL - 8/15/13
+### Version 1.0 FINAL - 9/20/2013
 
 Updates to original draft metadata:
 
