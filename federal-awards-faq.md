@@ -40,6 +40,7 @@ filename: federal-awards-faq.md
 ## Responses
 
 ###<a name="general"></a>General Questions
+
 ####Q1: What sort of data is covered by the open data policy?
 A: The purpose of the Open Data Policy is to make open and machine readable the new default for government data collection and dissemination in order to enhance availability, access and interoperability, per May 9, 2013 Executive Order released by the White House.  This includes all information generated and stored by the Federal Government or for data purchased or created through Federal funding such as data collected in conjunction with program administration, scientific research, public health surveillance.  There is an expectation that agencies will work to prioritize ensuring that data is open when it would be likely to fuel entrepreneurship, innovation, accountability, and scientific discovery, and improve the lives of Americans in tangible ways.  
 
@@ -76,7 +77,7 @@ A: The agency CIO has the primary responsibility for managing and creating an in
 
 #### Q11: Do I need to change the way Federal award data are reported, for example, does my agency contract or grant writing system or interface with the Federal Procurement Data System – Next Generation (FPDS-NG), USAspending.gov, or agency financial system need to change?  
 A: No, FPDS-NG and USAspending already provide public data access to their contents in open formats.  Some system changes may need to be considered for other Federal agency platforms that house public data, and enable public data to be accessed or downloaded.
- 
+
 ###<a name="contracts"></a>Questions Applicable to Contracts
 
 ####Q12: Do I need to initiate modifications on my existing contracts to address the open data policy?
@@ -105,8 +106,9 @@ The procedures contained in both the FAR and the DFARS are designed to implement
 (b) Contractors may have proprietary interests in data. In order to prevent the compromise of these interests, agencies shall protect proprietary data from unauthorized use and disclosure. The protection of such data is also necessary to encourage qualified contractors to participate in and apply innovative concepts to Government programs. In light of these considerations, agencies shall balance the Government’s needs and the contractor’s legitimate proprietary interests.
 
 While these clauses address the data rights obtained by an agency, decisions regarding whether data will be published will be made in accordance with Q9 above, involving, as appropriate, consultation among the agency CIO, general counsel, contracting personnel, security personnel and privacy personnel. 
- 
+
 ### <a name="financial"></a>Questions Applicable to Grants and Other Financial Assistance
+
 ####Q16: Do I need to modify existing grants or financial assistance awards to address the open data policy? 
 A: No. The open data policy is prospective and looks at grants made after the publication of the Executive Order. For these new awards, Federal financial assistance and grant agreements must ensure that the Government treats data as a valuable national asset, and structures any data-related deliverables to collect such data in formats that can be appropriately shared. There is no requirement to modify existing agreements.
 
@@ -128,4 +130,5 @@ Your agency CIO is responsible for leading the open data initiative in your agen
 
 ####Q20: Is there OMB guidance that might affect an agency’s authority to post data generated with Federal financial assistance?
 A: For Federal financial assistance to state, local, and tribal governments please see the guidance from A-102 .  For Federal financial assistance to nonprofit organizations including institutions of higher education, please see the guidance in [OMB Circular A-110](http://www.whitehouse.gov/omb/circulars_a102).  
+
 While this guidance address the rights obtained by an agency, decisions regarding whether data will be published will be made in accordance with Q9 above, generally involving, as appropriate, consultation among the agency CIO, general counsel, contracting personnel, security personnel and privacy personnel. 
