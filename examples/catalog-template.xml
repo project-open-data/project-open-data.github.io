@@ -1,9 +1,9 @@
 <datasets>
   <dataset id="">
     
-      <attribute property="dct:title"></attribute>
+      <attribute property="dcterms:title"></attribute>
       
-      <attribute property="dct:description"></attribute>
+      <attribute property="dcterms:description"></attribute>
       
       <attribute property="dcat:dataDictionary"></attribute>
       
@@ -28,9 +28,9 @@
   </dataset>
   <dataset id="">
     
-      <attribute property="dct:title"></attribute>
+      <attribute property="dcterms:title"></attribute>
       
-      <attribute property="dct:description"></attribute>
+      <attribute property="dcterms:description"></attribute>
       
       <attribute property="dcat:dataDictionary"></attribute>
       
