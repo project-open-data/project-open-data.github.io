@@ -12,7 +12,7 @@ This Appendix is meant to be a living document so that collaboration in the open
 
 ## Where You Come In
 
-Help the United States Government make its Open Data policy better by collaborating.  Please suggest enhancements by editing the content here.   
+Help the United States Government make its Open Data policy better by collaborating.  Please suggest enhancements by editing the content here.
 
 ## How to Contribute
 
@@ -22,9 +22,9 @@ For information on how to contribute, please see the [how to contribute](CONTRIB
 
 ## License
 
-The project [as originally published](#) constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 USC § 105. Subsequent contributions by members of the public, however, retain their original copyright.
+The project is a public domain work and is not subject to domestic or international copyright protection. See [the license file](LICENSE) for additional information.
 
-In order to better facilitate collaboration, the content of this project is licensed under the [Creative Commons 3.0 license](http://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php). 
+Members of the public and US government employees who wish to contribute are encourage to do so, but by contributing, dedicate their work to the public domain and waive all rights to their contribution under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/).
 
 ## Privacy
 
