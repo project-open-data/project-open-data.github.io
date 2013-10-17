@@ -6,10 +6,6 @@ filename: index.md
 title: Project Open Data
 ---
 
-
-_**NOTICE: Due to Congress’s failure to pass legislation to fund the government, we are unable to maintain this site and keep it up to date. Issues and pull requests submitted through GitHub will not be processed until the government re-opens.**_
-
-
 ##1. Background
 
 Data is a valuable national resource and a strategic asset to the U.S. Government, its partners, and the public.  Managing this data as an asset and making it available, discoverable, and usable – [in a word, open](principles/) – not only strengthens our democracy and promotes efficiency and effectiveness in government, but also has the potential to create economic opportunity and improve citizens’ quality of life. 
