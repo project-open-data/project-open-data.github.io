@@ -1,5 +1,7 @@
 # Contributing to Project Open Data
 
+*By contributing to this project, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). See the [license file](LICENSE) for additional information.*
+
 ## How to Contribute
 
 This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing. For more information, please see [the FAQ](/faq/)
@@ -38,10 +40,6 @@ Project Open Data runs on GitHub pages and automatically regenerates as a static
 
 *Note:* You'll need [Ruby](http://www.ruby-lang.org/) and the [Bundler package manager](http://gembundler.com/).
 
-## Licensing
-
-By contributing to this project, you grant a world-wide, royalty-free, perpetual, irrevocable, non-exclusive, transferable license to all users under [the same terms under which the project is licensed](README.md#licensing).
-
 ## Privacy
 
-All comments, messages, pull requests, and other submissions received through official White House pages including this GitHub page may be subject to archiving requirements. See the [readme](README.md#privacy) for more information. 
+All comments, messages, pull requests, and other submissions received through official White House pages including this GitHub page may be subject to archiving requirements. See the [readme](README.md#privacy) for more information.
