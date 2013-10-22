@@ -7,10 +7,11 @@ filename: "implementation-guide.md"
 ---
 
 #Supplemental Guidance on the Implementation of M-13-13 "Open Data Policy – Managing Information as an Asset”
+***NOTE: Due to the government shutdown, OMB has extended the previous Nov 1,2013 deadlines in this document to Nov 30, 2013***
 
 ## I. Introduction
 
-The purpose of this guidance is to provide additional clarification and detailed requirements to assist agencies in carrying out the objectives of [Executive Order 13642](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government) of May 9, 2013, *Making Open and Machine Readable the New Default for Government Information* and [OMB Memorandum M-13-13](/policy-memo) *Open Data Policy-Managing Information as an Asset*.  Specifically, this document focuses on near-term efforts agencies must take to meet the following five initial requirements of M-13-13, which are due November 1, 2013 (six months from publication of M-13-13):
+The purpose of this guidance is to provide additional clarification and detailed requirements to assist agencies in carrying out the objectives of [Executive Order 13642](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government) of May 9, 2013, *Making Open and Machine Readable the New Default for Government Information* and [OMB Memorandum M-13-13](/policy-memo) *Open Data Policy-Managing Information as an Asset*.  Specifically, this document focuses on near-term efforts agencies must take to meet the following five initial requirements of M-13-13, which are due November 30, 2013 (six months from publication of M-13-13):
 
 1. Create and maintain an Enterprise Data Inventory (Inventory)
 2. Create and maintain a Public Data Listing
@@ -30,7 +31,7 @@ The “access level” categories described in this document are intended to be 
 
 This guidance seeks to balance the need to establish clear and meaningful expectations for agencies to meet, while allowing sufficient flexibility on the approach each agency may take to address their own unique needs.  This guidance also includes references to other OMB memoranda that relate to the management of information.  Agencies should refer to the definitions included in the attachment in [OMB Memorandum M-13-13](/policy-memo) *Open Data Policy-Managing Information as an Asset*.  
 
-This guidance introduces an Enterprise Data Inventory framework to provide agencies with improved clarity on specific actions to be taken and minimum requirements to be met.  It also provides OMB with a rubric by which to evaluate compliance and progress toward the objectives laid out in the Open Data Policy.  Following the November 1, 2013 deadline, agencies shall report progress on a quarterly basis, and performance will be tracked through the Open Data Cross-Agency Priority (CAP) Goal. Meeting the requirements of this guidance will ensure agencies are putting in place a basic infrastructure for inventorying, managing, and opening up data to unlock the value created by opening up information resources.
+This guidance introduces an Enterprise Data Inventory framework to provide agencies with improved clarity on specific actions to be taken and minimum requirements to be met.  It also provides OMB with a rubric by which to evaluate compliance and progress toward the objectives laid out in the Open Data Policy.  Following the November 30, 2013 deadline, agencies shall report progress on a quarterly basis, and performance will be tracked through the Open Data Cross-Agency Priority (CAP) Goal. Meeting the requirements of this guidance will ensure agencies are putting in place a basic infrastructure for inventorying, managing, and opening up data to unlock the value created by opening up information resources.
 
 ## II. Policy Requirements
 
@@ -80,20 +81,20 @@ Project Open Data provides metadata requirements, additional optional metadata f
 
 ### Minimum Requirements to Create and Maintain an Enterprise Data Inventory
 
-#### Develop and Submit to OMB an Inventory Schedule (by November 1, 2013)
+#### Develop and Submit to OMB an Inventory Schedule (by November 30, 2013)
 * Describe how the agency will ensure that all data assets from each bureau and program in the agency have been identified and accounted for in the Inventory, to the extent practicable, no later than November 1, 2014.  
 * Describe how the agency plans to expand, enrich, and open their Inventory each quarter through November 1, 2014 at a minimum; include a summary and milestones in the schedule.<sup>[10](#footnote-10)</sup>
-* Publish Inventory Schedule on the www.\[agency\].gov/digitalstrategy page by November 1, 2013.<sup>[11](#footnote-11)</sup>
+* Publish Inventory Schedule on the www.\[agency\].gov/digitalstrategy page by November 30, 2013.<sup>[11](#footnote-11)</sup>
 
-#### Create an Enterprise Data Inventory (by November 1, 2013)
+#### Create an Enterprise Data Inventory (by November 30, 2013)
 * Include, at a minimum, all data assets which were posted on Data.gov before August 1, 2013 and additional representative data assets from programs and bureaus.
 * Ensure the Inventory contains one metadata record for each data asset. A data asset can describe a collection of datasets (such as a CSV file for each state).
 * Use common core “required” fields and “required-if-applicable” fields on Project Open Data (includes indicating whether data can be made publicly available).
 * Submit to OMB via MAX Community<sup>[12](#footnote-12)</sup>  the inventory as a single JSON file using the defined schema from Project Open Data. OMB invites agency input on the option of replacing future submission with an API via a discussion on Project Open Data.
 
-#### Maintain the Enterprise Data Inventory (ongoing after November 1, 2013)
+#### Maintain the Enterprise Data Inventory (ongoing after November 30, 2013)
 * Continue to expand, enrich, and open the Inventory on an on-going basis.
-* Update the Inventory Schedule submitted on November 1, 2013 on a quarterly basis on the www.\[agency].gov/digitalstrategy page.<sup>[13](#footnote-13)</sup>
+* Update the Inventory Schedule submitted on November 30, 2013 on a quarterly basis on the www.\[agency].gov/digitalstrategy page.<sup>[13](#footnote-13)</sup>
 
 #### Tools and Resources on Project Open Data
 * Out-of-the-box Inventory Tool: OMB and GSA have provided a data inventory tool (CKAN) that is customized to be compliant with the Open Data Policy out of the box. Customization includes the ability to generate the compliant Public Data Listing directly from the Inventory, as well as integration of the required common core metadata schema. Agencies may choose to install CKAN on their servers or use the centrally hosted tool.
@@ -118,7 +119,7 @@ The objectives of this activity are to:
 
 #### Minimum Requirements to Create and Maintain a Public Data Listing
 
-**Publish a Public Data Listing (by November 1, 2013)**
+**Publish a Public Data Listing (by November 30, 2013)**
 
 * Include, at a minimum, all data assets where ‘accessLevel’ = ‘public’<sup>[14](#footnote-14)</sup>  in the Inventory. By design, an agency should be able to filter the Inventory to all entries where ‘accessLevel’ = ‘public’ to easily generate the Public Data Listing.
 * Publish the Public Data Listing at www.\[agency].gov/data.json.
@@ -144,15 +145,15 @@ The objectives of this activity are to:
 
 #### Minimum Requirements to Create a Process to Engage With Customers to Help Facilitate and Prioritize Data Release
 
-**Establish Customer Feedback Mechanism (by November 1, 2013)**
+**Establish Customer Feedback Mechanism (by November 30, 2013)**
 
 * Through the common core metadata requirements, agencies are already required to include a point of contact within each data asset’s metadata listed.
 * Agencies should create a process to engage with customers on the www.\[agency].gov/data page or other appropriate mechanism. If the feedback tool is in an external location, it must be linked to the www.\[agency].gov/data page.
 * Agencies should consider utilizing tools available on Project Open Data, such as the “Kickstart”
  plug-in, to organize feedback around individual data assets.
-**Describe Customer Feedback Processes (by November 1, 2013)**
+**Describe Customer Feedback Processes (by November 30, 2013)**
 * Update www.\[agency].gov/digitalstrategy<sup>[18](#footnote-18)</sup>  page to describe the agency’s process to engage with customers.
-* Moving forward, agencies should consider updating their customer feedback strategy and reflecting changes on www.\[agency].gov/digitalstrategy beyond November 1, 2013.
+* Moving forward, agencies should consider updating their customer feedback strategy and reflecting changes on www.\[agency].gov/digitalstrategy beyond November 30, 2013.
 
 **Tools and Resources on Project Open Data**
 
@@ -184,7 +185,7 @@ As part of an agency’s analysis to assign a general access level to each data 
 
 #### Minimum Requirements to Document if Data Cannot be Released
 
-**Describe Data Publication Process (by November 1, 2013)**
+**Describe Data Publication Process (by November 30, 2013)**
 
 * Agencies must develop a new process, in consultation with their General Counsel or equivalent, to determine whether data assets have a valid restriction to release.
 * Agencies must publish a general overview of this process on the www.\[agency].gov/digitalstrategy page. Overviews should include information on the actual process by which data is determined to have a valid restriction to release and examples of what kinds of characteristics a data asset has that leads to a determination to not release.
@@ -203,7 +204,7 @@ Agencies should identify points of contact for the following roles and responsib
 
 #### Minimum Requirements to Clarify Roles and Responsibilities for Promoting Efficient and Effective Data Release
 
-**Report the point of contact for each of these roles and responsibilities via the E-Gov IDC<sup>[20](#footnote-20)</sup> by November 1, 2013**
+**Report the point of contact for each of these roles and responsibilities via the E-Gov IDC<sup>[20](#footnote-20)</sup> by November 30, 2013**
 
 #### Tools and Resources on Project Open Data
 
@@ -219,7 +220,7 @@ This section includes a high-level summary of agency actions and reporting requi
 * Agency www.\[agency].gov/digitalstrategy pages<sup>[23](#footnote-23)</sup>
 
 
-| **Agency Actions and Reporting Requirements** | By Nov 1, 2013 | After Nov 1, 2013 | Page |
+| **Agency Actions and Reporting Requirements** | By Nov 30, 2013 | After Nov 30, 2013 | Page |
 | :---------------------------------------- |:--------------:| :----------------:| ----:|
 |**A. Create and maintain an Enterprise Data Inventory (Inventory)**| |||
 |Develop an Inventory Schedule |	• | |	5 |
