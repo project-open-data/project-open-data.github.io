@@ -1,9 +1,9 @@
 <datasets>
   <dataset id="1">
     
-      <attribute property="dct:title">Office Locations</attribute>
+      <attribute property="dcterms:title">Office Locations</attribute>
       
-      <attribute property="dct:description">A list of the agency's office locations and contact information.</attribute>
+      <attribute property="dcterms:description">A list of the agency's office locations and contact information.</attribute>
       
       <attribute property="dcat:dataDictionary">http://www.agency.gov/data/information/locations</attribute>
       
@@ -36,9 +36,9 @@
   </dataset>
   <dataset id="2">
     
-      <attribute property="dct:title">Database Export</attribute>
+      <attribute property="dcterms:title">Database Export</attribute>
       
-      <attribute property="dct:description">A full export of the agency's database.</attribute>
+      <attribute property="dcterms:description">A full export of the agency's database.</attribute>
       
       <attribute property="dcat:dataDictionary">http://www.agency.gov/data/information/database</attribute>
       
@@ -71,9 +71,9 @@
   </dataset>
   <dataset id="3">
     
-      <attribute property="dct:title">System Data API</attribute>
+      <attribute property="dcterms:title">System Data API</attribute>
       
-      <attribute property="dct:description">A restful web service for a system's data set from 2012.</attribute>
+      <attribute property="dcterms:description">A restful web service for a system's data set from 2012.</attribute>
       
       <attribute property="dcat:dataDictionary">http://www.agency.gov/data/information/system_api</attribute>
       

@@ -1,9 +1,9 @@
 <datasets>
   <dataset id="1">
     
-      <attribute property="dct:title">Office Locations</attribute>
+      <attribute property="dcterms:title">Office Locations</attribute>
       
-      <attribute property="dct:description">A list of the agency's office locations and contact information.</attribute>
+      <attribute property="dcterms:description">A list of the agency's office locations and contact information.</attribute>
       
       <attribute property="dcat:dataDictionary">http://www.agency.gov/data/information/locations</attribute>
       
@@ -33,9 +33,9 @@
       
       <attribute property="dcterms:temporal">today</attribute>
       
-      <attribute property="dct:issued">7/9/2012</attribute>
+      <attribute property="dcterms:issued">7/9/2012</attribute>
       
-      <attribute property="dct:accrualPeriodocity">6 months</attribute>
+      <attribute property="dcterms:accrualPeriodocity">6 months</attribute>
       
       <attribute property="dcat:language">English</attribute>
       
@@ -58,9 +58,9 @@
   </dataset>
   <dataset id="2">
     
-      <attribute property="dct:title">Database Export</attribute>
+      <attribute property="dcterms:title">Database Export</attribute>
       
-      <attribute property="dct:description">A full export of the agency's database.</attribute>
+      <attribute property="dcterms:description">A full export of the agency's database.</attribute>
       
       <attribute property="dcat:dataDictionary">http://www.agency.gov/data/information/database</attribute>
       
@@ -90,9 +90,9 @@
       
       <attribute property="dcterms:temporal">2001-current</attribute>
       
-      <attribute property="dct:issued">3/1/2012</attribute>
+      <attribute property="dcterms:issued">3/1/2012</attribute>
       
-      <attribute property="dct:accrualPeriodocity">yearly</attribute>
+      <attribute property="dcterms:accrualPeriodocity">yearly</attribute>
       
       <attribute property="dcat:language">English</attribute>
       
@@ -115,9 +115,9 @@
   </dataset>
   <dataset id="3">
     
-      <attribute property="dct:title">System Data API</attribute>
+      <attribute property="dcterms:title">System Data API</attribute>
       
-      <attribute property="dct:description">A restful web service for a system's data set from 2012.</attribute>
+      <attribute property="dcterms:description">A restful web service for a system's data set from 2012.</attribute>
       
       <attribute property="dcat:dataDictionary">http://www.agency.gov/data/information/system_api</attribute>
       
@@ -147,9 +147,9 @@
       
       <attribute property="dcterms:temporal">2012</attribute>
       
-      <attribute property="dct:issued">2/15/2013</attribute>
+      <attribute property="dcterms:issued">2/15/2013</attribute>
       
-      <attribute property="dct:accrualPeriodocity">weekly</attribute>
+      <attribute property="dcterms:accrualPeriodocity">weekly</attribute>
       
       <attribute property="dcat:language">English</attribute>
       
