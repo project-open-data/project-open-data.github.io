@@ -95,6 +95,8 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-8 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
 
+5-9 [Example Policy Documents](policy-docs) - Collection of memos, guidance and policy documents about open data for reference.
+
 ----------------
 
 ##6. Case Studies
