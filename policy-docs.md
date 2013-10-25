@@ -9,7 +9,6 @@ This section offers examples of policy documents (memos, guidance, manuals, etc)
 
 ## Memos
 
-* Department of the Interior.
+* Department of the Interior ["Memo Re: Implementation of DOI Open Data Policy"](/assets/docs/MEMO_RE_IMPLEMENTATION_OF_DOI_OPEN_DATA_POLICY.pdf/).
 
 ## Guidance
-* [Creative Commons BY, BY-SA, or CC0](http://creativecommons.org/choose/)
