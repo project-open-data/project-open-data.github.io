@@ -107,6 +107,8 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-8 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards. 
 
+5-9 [Example Policy Documents](policy-docs) - Collection of memos, guidance and policy documents about open data for reference.
+
 ----------------
 
 ##6. Case Studies
