@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Policy Document Examples
-permalink: /poloicy-docs/
+permalink: /policy-docs/
 filename: policy-docs.md
 ---
 
