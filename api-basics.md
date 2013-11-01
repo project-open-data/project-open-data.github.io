@@ -73,7 +73,8 @@ Easy access to all this data and resources is great, but sometimes we need to co
 
 REST with JSON has become the favorite of developers and API owners, because it is easier to both deploy and consume than other implementations. Even though REST + JSON is not a standard, it is seeing wide acceptance across the industry.
 
-The technology that are commonly found in APIs was not designated by a single standards body or by a single company, it is based upon emulating the best practices of existing, successful providers over the last 13 years.
+The technology that are commonly found in APIs was not designated by a single standards body or by a single company, it is based upon emulating the best practices of existing, successful providers over the last 13 years.  
+
 ### When Things Go Wrong — Error Handling
 
 One of the most important issues to remember in API strategy is that developers need to handle what happens when an error occurs otherwise access to data fails and subsequently so does the application. For the purposes of the service framework, an error is defined as an unexpected behavior that occurred during the process of a request. It's important to note that what might be considered an "error" can often be an expected behavior.
