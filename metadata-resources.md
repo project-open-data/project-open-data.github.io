@@ -20,12 +20,10 @@ In addition to template and sample files we also produce Common Core Metadata sc
 <table width="60%">
 <b><tr><td><ul>
 <li><a href="/examples/catalog-template.json">JSON</a></li>
-<li><a href="/examples/catalog-template.html">RDFa Lite</a></li>
 <li><a href="/examples/catalog-template.csv">CSV</a></li>
 </ul></td>
 <td><ul>
 <li><a href="/examples/catalog-template-extended.json">JSON (Extended)</a></li>
-<li><a href="/examples/catalog-template-extended.html">RDFa Lite (Extended)</a></li>
 <li><a href="/examples/catalog-template-extended.csv">CSV (Extended)</a></li>
 </ul></td></tr></b>
 </table>
@@ -35,12 +33,10 @@ In addition to template and sample files we also produce Common Core Metadata sc
 <table width="60%">
 <b><tr><td><ul>
 <li><a href="/examples/catalog-sample.json">JSON</a></li>
-<li><a href="/examples/catalog-sample.html">RDFa Lite</a></li>
 <li><a href="/examples/catalog-sample.csv">CSV</a></li>
 </ul></td>
 <td><ul>
 <li><a href="/examples/catalog-sample-extended.json">JSON (Extended)</a></li>
-<li><a href="/examples/catalog-sample-extended.html">RDFa Lite (Extended)</a></li>
 <li><a href="/examples/catalog-sample-extended.csv">CSV (Extended)</a></li>
 </ul></td></tr></b>
 </table>
