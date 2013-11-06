@@ -26,18 +26,18 @@ Each agency will describe their existing datasets as they see fit using the belo
 Machine-Readable Format
 -----------------------
 
-All information deemed "machine-readable" required in this policy must be described in the JSON file format, with the option of RDFa Lite and XML as well.  See [this specification](/schema/) for the required schema.  Agencies must post their files at agency.gov/data.json (and optionally at /data.html or data.xml as well).  Additionally, the web page which reads and formats these files must be posted at /data/index.html (or data.html).  The files should be updated a minimum of monthly.  It is our intent that future publications of Data.gov will simply crawl for all agency.gov/data.json to populate Data.gov.
+All information deemed "machine-readable" required in this policy must be described in the JSON file format, with the option of RDFa Lite and XML as well.  See [this specification](/schema/) for the required schema.  Agencies must post their files at agency.gov/data.json (and optionally at /data.html or data.xml as well).  Additionally, the web page which reads and formats these files must be posted at /data/index.html (or /data.html).  The files should be updated a minimum of monthly.  It is our intent that future publications of Data.gov will simply crawl for all agency.gov/data.json to populate Data.gov.
 
 Implementing
 ------------
 
-To fulfill the requirements of this memorandum, agencies should begin to describe datasets as a catalog using the vocabulary of the [common core metadata](/schema/). This catalog is to be published in two places. First, as a standalone JSON file at `agency.gov/data.json` and second with RDFa Lite, either embedded within a HTML page which include human readable markups (e.g., `agency.gov/data.html`) or as an XML file (e.g., `agency.gov/data.xml`). 
+To fulfill the requirements of this memorandum, agencies should begin to describe datasets as a catalog using the vocabulary of the [common core metadata](/schema/). This catalog is to be published as a standalone JSON file at `agency.gov/data.json`.  Agencies may optionally also publish it with RDFa Lite, either embedded within a HTML page which include human readable markups (e.g., `agency.gov/data.html`) or as an XML file (e.g., `agency.gov/data.xml`). 
 
 ### JSON
 
 JSON is a lightweight and simple way to represent machine-readable data. It is quickly becoming the *de facto* standard for shuttling data across the internet, fueled primarily by the rise of mobile and APIs. Modern programming languages can interpret and produce JSON out of the box. 
 
-The JSON representation of the catalog should track directly to the RDFa version, with the exception that JSON keys should not contain the domain prefix (e.g., `dcterms:title` becomes `title` and `dcterms:description` becomes simply `description`). Catalogs should be composed of an array of JSON objects, and all fields other than keywords should be a string (where keywords is an array of strings).
+The JSON representation of the catalog should track directly with any other optional formats, with the exception that JSON keys should not contain the domain prefix (e.g., `dcterms:title` becomes `title` and `dcterms:description` becomes simply `description`). Catalogs should be composed of an array of JSON objects, and all fields other than keywords should be a string (where keywords is an array of strings).
 
 ### RDFa Lite
 
