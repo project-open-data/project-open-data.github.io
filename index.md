@@ -67,6 +67,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 4-6 [Catalog Generator](https://github.com/project-open-data/catalog-generator) - Multi-format tool to generate and maintain agency.gov/data catalog files. -&nbsp;*[Hosted](http://project-open-data.github.com/catalog-generator/)*
 
 4-7 [JSON Validator](https://github.com/project-open-data/json-validator) - Validation tool to confirm the formatting of agency.gov/data catalog files. -&nbsp;*[Hosted](http://project-open-data.github.com/json-validator/)*
+  * [Alternate JSON Validator](http://dwcaraway.github.io/podschema/validate.html)
 
 4-8 [API Sandbox](http://project-open-data.github.com/api-sandbox) - Interactive API documentation systems.
 
