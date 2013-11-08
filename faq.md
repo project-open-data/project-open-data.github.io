@@ -140,7 +140,7 @@ In the near term, Data.gov will continue its current dataset publishing process.
 
 ### Are redirects allowed for /data pages?
 
-No, the files should be located at agency.gov/data web space.  Each agency should populate files named agency.gov/data.json, agency.gov/data.html and agency.gov/data.xml.
+No, the file should be located at the agency.gov/data web space.  Each agency should publish their Public Data Listing at agency.gov/data.json.
  
 ### What options exist for hosting the /data.json file specifically at agency.gov/data.json?  
 
@@ -158,9 +158,9 @@ Data.gov will (when possible) help agencies get started by creating a /data file
 
 A wide variety of tools are available to manage a data catalog, whether public-facing or for internal data managements. The records of metadata in the file can be managed by databases, spreadsheets, or even text editors. Data management systems should be able to export the metadata either in the desired format or in one which may be simply mapped with [tools](http://labs.data.gov).
  
-### What formats are required/recommended for the agency.gov/data file?
+### What formats are required/optional for the agency.gov/data file?
 
-There are several syntaxes that may be used when publishing the data file. The syntax that is required to make the data readily available to developers is JSON (JavaScript Object Notation). It is recommended that agencies also create a data.html file and use RDFa Lite (Resource Description Framework) to mark-up the metadata using the [common core metadata schema](/schema/). The RDFa Lite file can be easily consumed by major search engines and applications and make you data easier to find by the public. A third alternative for populating your metadata file is XML (eXtensible Markup Language). Agencies are encouraged to maintain all three version of the metadata file. [Tools](http://labs.data.gov) are available to transform any instance of the file into the alternative formats.
+JSON is required though there are several optional syntaxes that can also be used when publishing the data file. The syntax that is required to make the data readily available to developers is JSON (JavaScript Object Notation). Agencies should also create a data.html file for the human-browsable data homepage and may use RDFa Lite (Resource Description Framework) to mark-up each dataset's metadata using the [common core metadata schema](/schema/). Agencies may also choose to populate a metadata file using XML (eXtensible Markup Language). These alternate metadata files are optional but agencies must maintain the JSON version at agency.gov/data.json. [Tools](http://labs.data.gov) are available to transform any instance of the file into the alternative formats.
 
 ## Agency participation with Open Data
 
