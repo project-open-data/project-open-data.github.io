@@ -649,7 +649,7 @@ table {
 }
 @media (min-width: 980px) {
   body {
-    background: url("../img/seal.jpg") no-repeat fixed 80% 90% transparent;
     padding: 0;
   }
 }
+
