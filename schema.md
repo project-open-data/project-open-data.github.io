@@ -183,23 +183,23 @@ Further Metadata Field Guidance
 {: .table .table-striped}
 **Field** | **distribution**
 ----- | -----
-**Cardinality** | (0,1)
+**Cardinality** | (0,n)
 **Required** | No
 **Accepted Values** | See Usage Notes
-**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **accessURL** and **format**.  If an entry has only one dataset, enter details for that one; if it has multiple datasets (such as a bulk download and an API), separate entries with a comma, as seen below:  
+**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **accessURL** and **format**.  If an entry has only one dataset, enter details for that one; if it has multiple datasets (such as a bulk download and an API), separate entries as seen below:  
   
     "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-                "format": "csv"
+                "format": "text/csv"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.json?accessType=DOWNLOAD", 
-                "format": "json"
+                "format": "application/json"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.xml?accessType=DOWNLOAD", 
-                "format": "xml"
+                "format": "text/xml"
             }
         ]
         
