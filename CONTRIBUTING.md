@@ -26,8 +26,6 @@ Contributions can be made, primarily in two ways:
 5. Submitting a pull request to this repository
 6. You change should appear once approved.
 
-*Note: All contributors retain the original copyright to their contribution, but by contributing to this project, you grant a world-wide, royalty-free, perpetual, irrevocable, non-exclusive, transferable license to all users under the terms of the license(s) under which this project is distributed.*
-
 ## Running Locally
 
 Project Open Data runs on GitHub pages and automatically regenerates as a static site after every change. To duplicate this process and preview changes locally:
