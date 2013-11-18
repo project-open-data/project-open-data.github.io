@@ -68,7 +68,7 @@ Access Level Comment | An explanation for the selected “accessLevel” includi
 Download URL        | URL providing direct access to the downloadable distribution of a dataset.                                                                     | accessURL
 Endpoint            | Endpoint of web service to access dataset.                                                                                                     | webService
 Format              | The file format or API type of the distribution.                                                                                               | format
-License             | The license dataset or API is published with.  See [Open Licenses](/open-licenses/) for more information.   | license
+License             | The license with which the dataset or API is published.  See [Open Licenses](/open-licenses/) for more information.   | license
 Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         | spatial
 Temporal			| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   | temporal
 
