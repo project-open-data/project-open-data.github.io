@@ -96,7 +96,7 @@ Release Date        | Date of formal issuance.                                  
 System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
 
 
-Further Metadata Field Guidance
+Further Metadata Field Guidance (alphabetical by JSON field)
 -------------------------------
 
 {: .table .table-striped}
