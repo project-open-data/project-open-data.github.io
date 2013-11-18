@@ -139,7 +139,7 @@ Further Metadata Field Guidance
 **Field** | **bureauCode**
 ----- | -----
 **Cardinality** | (0,n)
-**Required** | Only for United States Federal Government agencies.
+**Required** | Yes, for United States Federal Government agencies
 **Accepted Values** | Array of Strings
 **Usage Notes** | Represent each bureau responsible for the dataset according to the codes found in [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf). Start with the agency code, then a colon, then the bureau code.
 **Example** |  The Office of the Solicitor (86) at the Department of the Interior (010) would be: {"bureauCode":["010:86"]}
