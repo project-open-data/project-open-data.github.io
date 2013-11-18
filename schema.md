@@ -114,7 +114,7 @@ Further Metadata Field Guidance
 **Cardinality** | (0,1)
 **Required** | Yes, if accessLevel is "restricted public" or "non-public"
 **Accepted Values** | String
-**Usage Notes** | An explanation for the selected “accessLevel” including instructions forof how to access a restricted file, if applicable, or explanation for  why “non-public” or “restricted public” data assets is not “public,” if applicable. 
+**Usage Notes** | An explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. 
 **Example** | `{"accessLevelComment":"This dataset contains Personally Identifiable Information and could not be released for public access. A statistical analysis of the data contained herein, stripped of all personal identifiers, is available at http://another.website.gov/dataset."}`
 
 {: .table .table-striped}
