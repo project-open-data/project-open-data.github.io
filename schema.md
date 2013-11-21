@@ -382,7 +382,7 @@ We added the new **bureauCode** field to ensure every dataset is connected in a 
 
 We added the new **programCode** field to ensure that when applicable, every dataset is connected in a standard way with an agency program office.
 
-With respect to [dcat:dataQuality](http://www.w3.org/TR/vocab-dcat/#property--data-quality), we intentionally did **not** use this field and instead chose a boolean. At the time of this memo's release, DCAT had no specific guidance on the use of this field, and we actually do: whether or not the data meets an agency’s Information Quality Guidelines.
+We added the new **dataQuality** to indicate whether or not the data meets an agency’s Information Quality Guidelines.
 
 
 Additional Information
