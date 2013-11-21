@@ -5,9 +5,9 @@
       
       <attribute property="dcterms:description"></attribute>
       
-      <attribute property="dcat:dataDictionary"></attribute>
+      <attribute property="pod:dataDictionary"></attribute>
       
-      <attribute property="dcat:download"></attribute>
+      <attribute property="dcat:accessURL"></attribute>
       
       <attribute property="dcterms:format"></attribute>
       
@@ -15,15 +15,15 @@
       
       <attribute property="dcterms:modified"></attribute>
       
-      <attribute property="foaf:Organization"></attribute>
+      <attribute property="dcterms:publisher"></attribute>
       
-      <attribute property="foaf:Person"></attribute>
+      <attribute property="dcat:contactPoint"></attribute>
       
       <attribute property="foaf:mbox"></attribute>
       
       <attribute property="dcterms:identifier"></attribute>
       
-      <attribute property="xsd:boolean"></attribute>
+      <attribute property="pod:dataQuality"></attribute>
       
   </dataset>
   <dataset id="">
@@ -32,9 +32,9 @@
       
       <attribute property="dcterms:description"></attribute>
       
-      <attribute property="dcat:dataDictionary"></attribute>
+      <attribute property="pod:dataDictionary"></attribute>
       
-      <attribute property="dcat:download"></attribute>
+      <attribute property="dcat:accessURL"></attribute>
       
       <attribute property="dcterms:format"></attribute>
       
@@ -42,15 +42,15 @@
       
       <attribute property="dcterms:modified"></attribute>
       
-      <attribute property="foaf:Organization"></attribute>
+      <attribute property="dcterms:publisher"></attribute>
       
-      <attribute property="foaf:Person"></attribute>
+      <attribute property="dcat:contactPoint"></attribute>
       
       <attribute property="foaf:mbox"></attribute>
       
       <attribute property="dcterms:identifier"></attribute>
       
-      <attribute property="xsd:boolean"></attribute>
+      <attribute property="pod:dataQuality"></attribute>
       
   </dataset>
 </datasets>
