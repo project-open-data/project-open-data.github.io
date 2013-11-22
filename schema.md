@@ -318,7 +318,7 @@ Further Metadata Field Guidance
 **Required** | No
 **Accepted Values** | Array of strings (URLs)
 **Usage Notes** | Enclose each URL within strings. Separate multiple URLs with a comma.
-**Example** |  `{"references":["http://www.agency.gov/fruits/fruits.csv", "http://www.agency.gov/legumes/legumes_directions.html", "http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/fruits/fruits_directions.html"]}`
+**Example** |  `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html", "http://www.agency.gov/fruits/fruit_data_documentation.html"]}`
 
 {: .table .table-striped}
 **Field** | **spatial**
