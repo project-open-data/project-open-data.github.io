@@ -294,15 +294,6 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Example** |  `{"PrimaryITInvestmentUII":"123456"}`
 
 {: .table .table-striped}
-**Field** | **publisher**
------ | -----
-**Cardinality** | (1,1)
-**Required** | Yes, always
-**Accepted Values** | String
-**Usage Notes** | The plaintext name of the entity publishing this dataset.
-**Example** |  `{"publisher":"U.S. Department of Education"}`
-
-{: .table .table-striped}
 **Field** | **programCode**
 ----- | -----
 **Cardinality** | (0,n)
@@ -310,6 +301,15 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Accepted Values** | Array of strings
 **Usage Notes** | Provide an array of programs related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls).
 **Example** |  `{"programCode":["015:001”, “015:002”]}`
+
+{: .table .table-striped}
+**Field** | **publisher**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String
+**Usage Notes** | The plaintext name of the entity publishing this dataset.
+**Example** |  `{"publisher":"U.S. Department of Education"}`
 
 {: .table .table-striped}
 **Field** | **references**
