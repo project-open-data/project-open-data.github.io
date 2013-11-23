@@ -111,7 +111,7 @@ Submit a pull request for the [metadata schema](/schema/).
 
 ### Can I extend the metadata schema beyond the terms specified in the [common core metadata schema](/schema/)?
 
-Yes, if your data management process includes rich metadata specific to the mission of your agency or the Line of Business your agency participates, publishing additional metadata that makes your data more useful to the public is welcomed and encouraged.  Note that Data.gov will be harvesting only the metadata in this published schema unless specific arrangements are in place (e.g. geospatial FGDC/ISO).
+Yes, if your data management process includes rich metadata specific to the mission of your agency or the Line of Business in which your agency participates, publishing additional metadata that makes your data more useful to the public is welcomed and encouraged.  Note that Data.gov will be harvesting only the metadata in this published schema unless specific arrangements are in place (e.g. geospatial FGDC/ISO).
  
 
 ## Security, Privacy and Data Quality
@@ -132,11 +132,11 @@ Having the metadata available at the agency level provides agencies with a self-
 
 ### How will agency.gov/open, /developer, and /data pages work together?
 
-The agency.gov/open page contains informational regards an agencies contributions to Open Government, while the /developer and /data pages pertain to APIs and Open Data. All three pages contribute to an open and transparent government in the United States.
+The agency.gov/open page contains information regarding an agency's contributions to Open Government, while the /developer and /data pages pertain to APIs and Open Data, respectively. All three pages contribute to an open and transparent government in the United States.
 
 ### What is the relationship of the /data page and public data listing to Data.gov, and how will this impact current Data.gov processes?
 
-In the near term, Data.gov will continue its current dataset publishing process.  As agencies deploy agency.gov/data pages, the publishing process will become a harvesting of metadata from the agencies web site.
+In the near term, Data.gov will continue its current dataset publishing process.  As agencies deploy agency.gov/data pages, the publishing process will become a harvesting of metadata from these agency data hubs.
 
 ### Are redirects allowed for /data pages?
 
@@ -150,11 +150,11 @@ No, the file should be located at the agency.gov/data web space.  Each agency sh
 4. Sites that utilize Drupal may modify and employ the open-sourced [Digital Strategy Drupal Module](https://github.com/FCC/digital_strategy).  
 
  
-### How do I get started building this /data file?
+### How do I get started building this data.json file?
 
-Data.gov will (when possible) help agencies get started by creating a /data file for each agency containing the metadata in the correct syntax.  The agency will then begin to manage that file for future publishing of datasets.
+Data.gov will (when possible) help agencies get started by creating a data.json file for each agency containing the metadata in the correct syntax.  The agency will then begin to manage that file for future publishing of datasets.
   
-### How should I manage this /data file?
+### How should I manage this data.json file?
 
 A wide variety of tools are available to manage a data catalog, whether public-facing or for internal data managements. The records of metadata in the file can be managed by databases, spreadsheets, or even text editors. Data management systems should be able to export the metadata either in the desired format or in one which may be simply mapped with [tools](http://labs.data.gov).
  

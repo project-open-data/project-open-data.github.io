@@ -40,7 +40,7 @@ Links to downloadable examples of metadata files developed in this and other for
 -----------------------------
 The following "common core" fields are required, to be used to describe each entry:
 
-*(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources/#common_core_required_fields_equivalents) to find the equivalent Data.gov, RDFa Lite, and CKAN fields.)*
+*(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources#common-core-required-fields-equivalents) to find the equivalent Data.gov, RDFa Lite, and CKAN fields.)*
 
 {: .table .table-striped}
 Field               | Definition                                                                                                                                     |JSON
@@ -62,19 +62,19 @@ The following fields must be used to describe each dataset if they are applicabl
 {: .table .table-striped}
 Field               | Definition                                                                                                                                     |JSON
 -------             | ---------------                                                                                                                                | --------------  
-Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:010`.  | bureauCode
+Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  | bureauCode
 Program Code		| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  | programCode
-Access Level Comment | An explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data assetis not “public,” if applicable. Text, 255 characters.  | accessLevelComment
+Access Level Comment | An explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  | accessLevelComment
 Download URL        | URL providing direct access to the downloadable distribution of a dataset.                                                                     | accessURL
 Endpoint            | Endpoint of web service to access dataset.                                                                                                     | webService
 Format              | The file format or API type of the distribution.                                                                                               | format
-License             | The license dataset or API is published with.  See [Open Licenses](/open-licenses/) for more information.   | license
+License             | The license with which the dataset or API is published.  See [Open Licenses](/open-licenses/) for more information.   | license
 Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         | spatial
 Temporal			| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   | temporal
 
 Beyond Common Core -- Extending the Schema
 ------------------------------------------
-"Extensional" and/or domain specific metadata can easily be added using other vocabularies to embedded HTML or XML markup even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, FGDC, ISO 19115, NIEM, and a growing number of vocabularies published at [Vocab.Data.gov](http://vocab.data.gov)) as long as they are properly assigned.
+"Extensional" and/or domain specific metadata can easily be added using other vocabularies even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, FGDC, ISO 19115, NIEM, and a growing number of vocabularies published at [Vocab.Data.gov](http://vocab.data.gov)) as long as they are properly assigned.
 
 Expanded Fields
 ---------------
@@ -96,7 +96,7 @@ Release Date        | Date of formal issuance.                                  
 System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
 
 
-Further Metadata Field Guidance
+Further Metadata Field Guidance (alphabetical by JSON field)
 -------------------------------
 
 {: .table .table-striped}
@@ -114,7 +114,7 @@ Further Metadata Field Guidance
 **Cardinality** | (0,1)
 **Required** | Yes, if accessLevel is "restricted public" or "non-public"
 **Accepted Values** | String
-**Usage Notes** | An explanation for the selected “accessLevel” including instructions forof how to access a restricted file, if applicable, or explanation for  why “non-public” or “restricted public” data assets is not “public,” if applicable. 
+**Usage Notes** | An explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. 
 **Example** | `{"accessLevelComment":"This dataset contains Personally Identifiable Information and could not be released for public access. A statistical analysis of the data contained herein, stripped of all personal identifiers, is available at http://another.website.gov/dataset."}`
 
 {: .table .table-striped}
@@ -139,7 +139,7 @@ Further Metadata Field Guidance
 **Field** | **bureauCode**
 ----- | -----
 **Cardinality** | (0,n)
-**Required** | Only for United States Federal Government agencies.
+**Required** | Yes, for United States Federal Government agencies
 **Accepted Values** | Array of Strings
 **Usage Notes** | Represent each bureau responsible for the dataset according to the codes found in [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf). Start with the agency code, then a colon, then the bureau code.
 **Example** |  The Office of the Solicitor (86) at the Department of the Interior (010) would be: {"bureauCode":["010:86"]}
