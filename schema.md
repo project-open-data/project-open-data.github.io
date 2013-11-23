@@ -290,7 +290,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | String
-**Usage Notes** | Use to link a given dataset with its related IT Unique Investment Identifier.
+**Usage Notes** | Use to link a given dataset with its related IT Unique Investment Identifier, which can often be found in Exhibit 300 documents.
 **Example** |  `{"PrimaryITInvestmentUII":"123456"}`
 
 {: .table .table-striped}
