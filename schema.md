@@ -237,7 +237,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Required** | Yes, always
 **Accepted Values** | Array of strings
 **Usage Notes** | Surround each keyword with quotes. Separate keywords with commas.
-**Example** | `{"keyword": ["squash","vegetables","veggies","greens","leafy","spinach","kale","nutrition","tomatoes","tomatos"]}`
+**Example** | `{"keyword": ["vegetables","veggies","greens","leafy","spinach","kale","nutrition"]}`
 
 {: .table .table-striped}
 **Field** | **landingPage**
