@@ -191,15 +191,15 @@ Further Metadata Field Guidance (alphabetical by JSON field)
     "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-                "format": "csv"
+                "format": "text/csv"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.json?accessType=DOWNLOAD", 
-                "format": "json"
+                "format": "application/json"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.xml?accessType=DOWNLOAD", 
-                "format": "xml"
+                "format": "application/xml"
             }
         ]
         
