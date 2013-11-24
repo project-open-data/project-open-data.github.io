@@ -394,6 +394,5 @@ Additional Information
 
 Examples
 --------
-* [CSV](/metadata-resources/)
-* [JSON](/metadata-resources/)
+CSV and JSON template and example files can be found on the [Metadata Resources page](/metadata-resources/).
 
