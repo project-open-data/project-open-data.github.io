@@ -8,26 +8,52 @@
         "contactPoint": "",
         "mbox": "",
         "identifier": "",
-        "accessLevel": "public",
-        "distribution": [
-            {
-                "accessURL": "",
-                "format": "json"
-            }
-        ]  
+        "accessLevel": "",
+		"accessURL": "",
+		"format": "json"
     },
     {
         "title": "",
         "description": "", 
-        "keyword": "", 
+        "keyword": ["",""], 
         "modified": "",
         "publisher": "",
         "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "dataDictionary": "",
+        "bureauCode": "",
+        "programCode": "",
+        "accessLevelComment": "",
+		"accessURL": "", 
+		"format": ""
+        "webService": "", 
+        "license": "", 
+        "spatial": "", 
+        "temporal": "",   
+    },
+    {
+        "title": "",
+        "description": "", 
+        "keyword": ["",""], 
+        "modified": "",
+        "publisher": "",
+        "contactPoint": "",
+        "mbox": "",
+        "identifier": "",
+        "accessLevel": "",
+        "bureauCode": "",
+        "programCode": "",
+        "accessLevelComment": "",
         "distribution": [
+            {
+                "accessURL": "", 
+                "format": ""
+            }, 
+            {
+                "accessURL": "", 
+                "format": ""
+            }, 
             {
                 "accessURL": "", 
                 "format": ""
@@ -36,36 +62,5 @@
         "webService": "", 
         "license": "", 
         "spatial": "", 
-        "temporal": ""   
-    },
-    {
-        "title": "",
-        "description": "", 
-        "keyword": "", 
-        "modified": "",
-        "publisher": "",
-        "contactPoint": "",
-        "mbox": "",
-        "identifier": "",
-        "accessLevel": "",
-        "dataDictionary": "",
-        "distribution": [
-            {
-                "accessURL": "", 
-                "format": ""
-            },
-            {
-                "accessURL": "", 
-                "format": ""
-            },
-            {
-                "accessURL": "", 
-                "format": ""
-            }
-        ],
-        "webService": "", 
-        "license": "", 
-        "spatial": "", 
-        "temporal": ""    
-    }
-]
+        "temporal": "",    
+    }]
