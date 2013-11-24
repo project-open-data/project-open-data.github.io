@@ -394,6 +394,6 @@ Additional Information
 
 Examples
 --------
+* [CSV](/metadata-resources/)
 * [JSON](/metadata-resources/)
-* [RDFa Lite](/metadata-resources/)
-* [XML](/metadata-resources/)
+
