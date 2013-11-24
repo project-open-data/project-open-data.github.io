@@ -12,60 +12,52 @@
         "distribution": [
             {
                 "accessURL": "",
-                "format": "json"
+                "format": json
             }
         ]  
     },
     {
         "title": "",
         "description": "", 
-        "keyword": "", 
+        "keyword": ["",""], 
         "modified": "",
         "publisher": "",
         "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "dataDictionary": "",
-        "distribution": [
-            {
-                "accessURL": "", 
-                "format": ""
-            }
-        ],
+        "bureauCode": "",
+        "programCode": "",
+        "accessLevelComment": "",
+		"accessURL": "", 
+		"format": ""
         "webService": "", 
         "license": "", 
         "spatial": "", 
-        "temporal": "", 
-        "issued": "",
-        "accrualPeriodicity": "",
-        "language": "", 
-        "dataQuality": "",
-        "theme": "", 
-        "references": "", 
-        "landingPage": "",
-        "systemOfRecords": ""     
+        "temporal": "",   
     },
     {
         "title": "",
         "description": "", 
-        "keyword": "", 
+        "keyword": ["",""], 
         "modified": "",
         "publisher": "",
         "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "dataDictionary": "",
+        "bureauCode": "",
+        "programCode": "",
+        "accessLevelComment": "",
         "distribution": [
             {
                 "accessURL": "", 
                 "format": ""
-            },
+            }, 
             {
                 "accessURL": "", 
                 "format": ""
-            },
+            }, 
             {
                 "accessURL": "", 
                 "format": ""
@@ -74,14 +66,5 @@
         "webService": "", 
         "license": "", 
         "spatial": "", 
-        "temporal": "", 
-        "issued": "",
-        "accrualPeriodicity": "",
-        "language": "", 
-        "dataQuality": "",
-        "theme": "", 
-        "references": "", 
-        "landingPage": "",
-        "systemOfRecords": ""     
-    }
-]
+        "temporal": "",    
+    }]
