@@ -183,23 +183,23 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 {: .table .table-striped}
 **Field** | **distribution**
 ----- | -----
-**Cardinality** | (0,1)
+**Cardinality** | (0,n)
 **Required** | No
 **Accepted Values** | See Usage Notes
-**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **accessURL** and **format**.  If an entry has only one dataset, enter details for that one; if it has multiple datasets (such as a bulk download and an API), separate entries with a comma, as seen below:  
+**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **accessURL** and **format**.  If an entry has only one dataset, enter details for that one; if it has multiple datasets (such as a bulk download and an API), separate entries as seen below:  
   
     "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-                "format": "csv"
+                "format": "text/csv"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.json?accessType=DOWNLOAD", 
-                "format": "json"
+                "format": "application/json"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.xml?accessType=DOWNLOAD", 
-                "format": "xml"
+                "format": "text/xml"
             }
         ]
         
@@ -255,7 +255,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Required** | No
 **Accepted Values** | Array of strings
 **Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard. http://rishida.net/utils/subtags/ provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English).
-**Examples** |  `{"language":["es-MX"], ["wo"], ["nv"], ["en-US"]}` 
+**Examples** |  `{"language":["es-MX", "wo", "nv", "en-US"]}` 
 
 {: .table .table-striped}
 **Field** | **license**
@@ -318,7 +318,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Required** | No
 **Accepted Values** | Array of strings (URLs)
 **Usage Notes** | Enclose each URL within strings. Separate multiple URLs with a comma.
-**Example** |  `{"references":["http://www.agency.gov/fruits/fruits.csv", "http://www.agency.gov/legumes/legumes_directions.html", "http://www.agency.gov/fruits/fruits.csv,http://www.agency.gov/fruits/fruits_directions.html"]}`
+**Example** |  `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html", "http://www.agency.gov/fruits/fruit_data_documentation.html"]}`
 
 {: .table .table-striped}
 **Field** | **spatial**
