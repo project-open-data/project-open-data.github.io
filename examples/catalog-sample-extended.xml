@@ -5,9 +5,9 @@
       
       <attribute property="dcterms:description">A list of the agency's office locations and contact information.</attribute>
       
-      <attribute property="dcat:dataDictionary">http://www.agency.gov/data/information/locations</attribute>
+      <attribute property="pod:dataDictionary">http://www.agency.gov/data/information/locations</attribute>
       
-      <attribute property="dcat:download">http://www.agency.gov/data/raw/locations.zip</attribute>
+      <attribute property="dcat:accessURL">http://www.agency.gov/data/raw/locations.zip</attribute>
       
       <attribute property="dcterms:format">csv</attribute>
       
@@ -15,17 +15,17 @@
       
       <attribute property="dcterms:modified">1/1/2013</attribute>
       
-      <attribute property="foaf:Organization">Agency</attribute>
+      <attribute property="dcterms:publisher">Agency</attribute>
       
-      <attribute property="foaf:Person">John, Smith</attribute>
+      <attribute property="dcat:contactPoint">John, Smith</attribute>
       
       <attribute property="foaf:mbox">john.smith@agency.gov</attribute>
       
       <attribute property="dcterms:identifier">1</attribute>
       
-      <attribute property="xsd:boolean">true</attribute>
+      <attribute property="pod:dataQuality">true</attribute>
       
-      <attribute property="dcat:webService">http://www.agency.gov/data/raw/locations.json</attribute>
+      <attribute property="pod:webService">http://www.agency.gov/data/raw/locations.json</attribute>
       
       <attribute property="dcterms:license">public domain</attribute>
       
@@ -37,9 +37,7 @@
       
       <attribute property="dcterms:accrualPeriodocity">6 months</attribute>
       
-      <attribute property="dcat:language">English</attribute>
-      
-      <attribute property="dcat:granularity">Address</attribute>
+      <attribute property="dcterms:language">English</attribute>
       
       <attribute property="dcat:theme">Energy</attribute>
       
@@ -47,13 +45,9 @@
       
       <attribute property="dcat:distribution"></attribute>
       
-      <attribute property="dcat:size">44KB</attribute>
-      
       <attribute property="foaf:homepage"></attribute>
       
-      <attribute property="dcat:feed"></attribute>
-      
-      <attribute property="dcat:dataQuality">True</attribute>
+      <attribute property="pod:dataQuality">True</attribute>
       
   </dataset>
   <dataset id="2">
@@ -62,9 +56,9 @@
       
       <attribute property="dcterms:description">A full export of the agency's database.</attribute>
       
-      <attribute property="dcat:dataDictionary">http://www.agency.gov/data/information/database</attribute>
+      <attribute property="pod:dataDictionary">http://www.agency.gov/data/information/database</attribute>
       
-      <attribute property="dcat:download">http://www.agency.gov/data/raw/database.csv</attribute>
+      <attribute property="dcat:accessURL">http://www.agency.gov/data/raw/database.csv</attribute>
       
       <attribute property="dcterms:format">xml</attribute>
       
@@ -72,17 +66,17 @@
       
       <attribute property="dcterms:modified">2/1/2013</attribute>
       
-      <attribute property="foaf:Organization">Agency</attribute>
+      <attribute property="dcterms:publisher">Agency</attribute>
       
-      <attribute property="foaf:Person">Jane, Smith</attribute>
+      <attribute property="dcat:contactPoint">Jane, Smith</attribute>
       
       <attribute property="foaf:mbox">jane.smith@agency.gov</attribute>
       
       <attribute property="dcterms:identifier">2</attribute>
       
-      <attribute property="xsd:boolean">true</attribute>
+      <attribute property="pod:dataQuality">true</attribute>
       
-      <attribute property="dcat:webService"></attribute>
+      <attribute property="pod:webService"></attribute>
       
       <attribute property="dcterms:license">public domain</attribute>
       
@@ -94,9 +88,7 @@
       
       <attribute property="dcterms:accrualPeriodocity">yearly</attribute>
       
-      <attribute property="dcat:language">English</attribute>
-      
-      <attribute property="dcat:granularity">Station</attribute>
+      <attribute property="dcterms:language">English</attribute>
       
       <attribute property="dcat:theme">Education</attribute>
       
@@ -104,13 +96,9 @@
       
       <attribute property="dcat:distribution"></attribute>
       
-      <attribute property="dcat:size">5MB</attribute>
-      
       <attribute property="foaf:homepage">http://www.agency.gov/data/information/database</attribute>
       
-      <attribute property="dcat:feed">http://www.agency.gov/data/raw/database.rss</attribute>
-      
-      <attribute property="dcat:dataQuality">True</attribute>
+      <attribute property="pod:dataQuality">True</attribute>
       
   </dataset>
   <dataset id="3">
@@ -119,9 +107,9 @@
       
       <attribute property="dcterms:description">A restful web service for a system's data set from 2012.</attribute>
       
-      <attribute property="dcat:dataDictionary">http://www.agency.gov/data/information/system_api</attribute>
+      <attribute property="pod:dataDictionary">http://www.agency.gov/data/information/system_api</attribute>
       
-      <attribute property="dcat:download">http://www.agency.gov/data/raw/system_2012.csv</attribute>
+      <attribute property="dcat:accessURL">http://www.agency.gov/data/raw/system_2012.csv</attribute>
       
       <attribute property="dcterms:format">csv, json</attribute>
       
@@ -129,17 +117,17 @@
       
       <attribute property="dcterms:modified">12/15/2012</attribute>
       
-      <attribute property="foaf:Organization">Agency</attribute>
+      <attribute property="dcterms:publisher">Agency</attribute>
       
-      <attribute property="foaf:Person">Bill, Smith</attribute>
+      <attribute property="dcat:contactPoint">Bill, Smith</attribute>
       
       <attribute property="foaf:mbox">bill.smith@agency.gov</attribute>
       
       <attribute property="dcterms:identifier">3</attribute>
       
-      <attribute property="xsd:boolean">true</attribute>
+      <attribute property="pod:dataQuality">true</attribute>
       
-      <attribute property="dcat:webService">http://www.agency.gov/data/raw/data_api.json</attribute>
+      <attribute property="pod:webService">http://www.agency.gov/data/raw/data_api.json</attribute>
       
       <attribute property="dcterms:license">creative commons Cco</attribute>
       
@@ -151,9 +139,7 @@
       
       <attribute property="dcterms:accrualPeriodocity">weekly</attribute>
       
-      <attribute property="dcat:language">English</attribute>
-      
-      <attribute property="dcat:granularity">Individual</attribute>
+      <attribute property="dcterms:language">English</attribute>
       
       <attribute property="dcat:theme">Health, Education</attribute>
       
@@ -161,13 +147,9 @@
       
       <attribute property="dcat:distribution"></attribute>
       
-      <attribute property="dcat:size">300MB</attribute>
-      
       <attribute property="foaf:homepage"></attribute>
       
-      <attribute property="dcat:feed"></attribute>
-      
-      <attribute property="dcat:dataQuality">True</attribute>
+      <attribute property="pod:dataQuality">True</attribute>
       
   </dataset>
 </datasets>

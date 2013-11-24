@@ -5,7 +5,7 @@
         "keyword": "catalog", 
         "modified": "",
         "publisher": "",
-        "person": "",
+        "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "public",
@@ -22,7 +22,7 @@
         "keyword": "", 
         "modified": "",
         "publisher": "",
-        "person": "",
+        "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
@@ -30,8 +30,7 @@
         "distribution": [
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             }
         ],
         "webService": "", 
@@ -41,12 +40,10 @@
         "issued": "",
         "accrualPeriodicity": "",
         "language": "", 
-        "granularity": "",
         "dataQuality": "",
         "theme": "", 
         "references": "", 
         "landingPage": "",
-        "feed": "",
         "systemOfRecords": ""     
     },
     {
@@ -55,7 +52,7 @@
         "keyword": "", 
         "modified": "",
         "publisher": "",
-        "person": "",
+        "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
@@ -63,18 +60,15 @@
         "distribution": [
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             },
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             },
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             }
         ],
         "webService": "", 
@@ -84,12 +78,10 @@
         "issued": "",
         "accrualPeriodicity": "",
         "language": "", 
-        "granularity": "",
         "dataQuality": "",
         "theme": "", 
         "references": "", 
         "landingPage": "",
-        "feed": "",
         "systemOfRecords": ""     
     }
 ]
