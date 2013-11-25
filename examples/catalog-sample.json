@@ -26,11 +26,11 @@
         "programCode": "018:001",
         "accessLevelComment": "",
 		"accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-		"format": "csv"
+		"format": "csv",
         "webService": "http://explore.data.gov/api/views/ykv5-fn9t/rows.json", 
         "license": "Public Domain", 
         "spatial": "United States", 
-        "temporal": "2009-09-01T12:00:00Z/2010-05-31T12:00:00Z",   
+        "temporal": "2009-09-01T12:00:00Z/2010-05-31T12:00:00Z"   
     },
     {
         "title": "Public Elementary/Secondary Other Listing",
@@ -62,5 +62,5 @@
         "webService": "http://explore.data.gov/api/views/ykv5-fn9s/rows.json", 
         "license": "Public Domain", 
         "spatial": "United States", 
-        "temporal": "2008-09-01T12:00:00Z/2009-05-31T12:00:00Z",    
+        "temporal": "2008-09-01T12:00:00Z/2009-05-31T12:00:00Z" 
     }]
