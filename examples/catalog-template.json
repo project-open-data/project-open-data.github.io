@@ -26,11 +26,11 @@
         "programCode": "",
         "accessLevelComment": "",
 		"accessURL": "", 
-		"format": ""
+		"format": "",
         "webService": "", 
         "license": "", 
         "spatial": "", 
-        "temporal": "",   
+        "temporal": ""   
     },
     {
         "title": "",
@@ -62,5 +62,5 @@
         "webService": "", 
         "license": "", 
         "spatial": "", 
-        "temporal": "",    
+        "temporal": ""    
     }]
