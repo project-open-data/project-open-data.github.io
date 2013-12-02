@@ -5,7 +5,7 @@
         "keyword": "catalog", 
         "modified": "",
         "publisher": "",
-        "person": "",
+        "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "public",
@@ -19,77 +19,76 @@
     {
         "title": "",
         "description": "", 
-        "keyword": "", 
+        "keyword": ["",""], 
         "modified": "",
         "publisher": "",
-        "person": "",
+        "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "dataDictionary": "",
+        "bureauCode": "",
+        "programCode": "",
+        "accessLevelComment": "",
         "distribution": [
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             }
         ],
         "webService": "", 
         "license": "", 
         "spatial": "", 
         "temporal": "", 
+        "theme": "", 
+        "dataDictionary": "",
+        "dataQuality": ,
         "issued": "",
         "accrualPeriodicity": "",
         "language": "", 
-        "granularity": "",
-        "dataQuality": "",
-        "theme": "", 
-        "references": "", 
+        "primaryITInvestmentUII": "", 
+        "references": ["",""], 
         "landingPage": "",
-        "feed": "",
         "systemOfRecords": ""     
     },
     {
         "title": "",
         "description": "", 
-        "keyword": "", 
+        "keyword": ["",""], 
         "modified": "",
         "publisher": "",
-        "person": "",
+        "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "dataDictionary": "",
+        "bureauCode": "",
+        "programCode": "",
+        "accessLevelComment": "",
         "distribution": [
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
-            },
+                "format": ""
+            }, 
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
-            },
+                "format": ""
+            }, 
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             }
         ],
         "webService": "", 
         "license": "", 
         "spatial": "", 
         "temporal": "", 
+        "theme": "", 
+        "dataDictionary": "",
+        "dataQuality": ,
         "issued": "",
         "accrualPeriodicity": "",
         "language": "", 
-        "granularity": "",
-        "dataQuality": "",
-        "theme": "", 
+        "primaryITInvestmentUII": "", 
         "references": "", 
         "landingPage": "",
-        "feed": "",
         "systemOfRecords": ""     
-    }
-]
+    }]

@@ -5,35 +5,28 @@
         "keyword": "catalog", 
         "modified": "",
         "publisher": "",
-        "person": "",
+        "contactPoint": "",
         "mbox": "",
         "identifier": "",
-        "accessLevel": "public",
-        "distribution": [
-            {
-                "accessURL": "",
-                "format": "json"
-            }
-        ]  
+        "accessLevel": "",
+		"accessURL": "",
+		"format": "json"
     },
     {
         "title": "",
         "description": "", 
-        "keyword": "", 
+        "keyword": ["",""], 
         "modified": "",
         "publisher": "",
-        "person": "",
+        "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "dataDictionary": "",
-        "distribution": [
-            {
-                "accessURL": "", 
-                "format": "",
-                "size": ""
-            }
-        ],
+        "bureauCode": "",
+        "programCode": "",
+        "accessLevelComment": "",
+		"accessURL": "", 
+		"format": "",
         "webService": "", 
         "license": "", 
         "spatial": "", 
@@ -42,34 +35,32 @@
     {
         "title": "",
         "description": "", 
-        "keyword": "", 
+        "keyword": ["",""], 
         "modified": "",
         "publisher": "",
-        "person": "",
+        "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "dataDictionary": "",
+        "bureauCode": "",
+        "programCode": "",
+        "accessLevelComment": "",
         "distribution": [
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
-            },
+                "format": ""
+            }, 
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
-            },
+                "format": ""
+            }, 
             {
                 "accessURL": "", 
-                "format": "",
-                "size": ""
+                "format": ""
             }
         ],
         "webService": "", 
         "license": "", 
         "spatial": "", 
         "temporal": ""    
-    }
-]
+    }]

@@ -49,14 +49,20 @@ Generating Machine-Readable Reporting Files
 
 Agencies must follow the provided [specification](/schema/).  We have built a [catalog generator](http://project-open-data.github.com/catalog-generator/) to assist you in building your catalog and generating JSON, XML, or RDFa Lite files.  
 
+
+Inclusion of the Public Data Listing as a Record
+------------------------------------------------
+
+Each 'data.json' catalog file should include a record for the data asset that is the data catalog itself.  Contact Name and Contact Email can be used to provide a PoC for the 'data.json' efforts;  Description can be used to clarify which version of the common core metadata schema the agency is currently using; and Last Update can be used to indicate the date when the Public Data Listing was last modified.  
+
 Presentation
 ------------
 
-Agencies must have present a table/list of each dataset in the /data page.  The /data pages will serve as the authoritative source of publicly available agency data. The page there must be populated with the a list of datasets.  The presentation of this page must contain a table/list of the data in the agencies catalog with at least the following attributes:
+Agencies must have present a table/list of each dataset in the /data page.  The /data pages will serve as the authoritative source of publicly available agency data. The page must be populated with the list of datasets.  The presentation of this page must contain a table/list of the data in the agencies catalog with at least the following attributes:
 
-* Dataset name
-* Dataset description
-* URL to the dataset (endpoint)
+* Dataset name (title)
+* Dataset description (description)
+* URL to the dataset (accessURL or webService)
 
 The page must be populated from the machine-readable catalog file (e.g. data.xml or data.json) following the [specification](/schema/) described above.  Agencies are encouraged to add functionality to assist end-user discoverability.  Additional functions might be sorting, filtering or paging to help make a more digestible list.  Agencies are also encouraged to add more to the standard schema which might further assist end-user discoverability and usability (e.g. thumbnails).
 
