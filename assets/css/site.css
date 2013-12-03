@@ -618,7 +618,7 @@ table {
     float: none;
     margin-left: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
   }
   .nav-collapse .nav > li > a,
   .nav-collapse .dropdown-menu a {
@@ -631,14 +631,13 @@ table {
   }
   .navbar .nav > li > a:focus,
   .navbar .nav > li > a:hover {
-    background-color: #E74338;
-    border-bottom: none;
-    color: #ffffff;
     text-decoration: none;
   }
   a.btn-primary {
     font-size: 11px;
   }
+
+  .sidebar { display: none !important; }
 }
 @media (max-width: 767px) {
   body {
@@ -651,6 +650,8 @@ table {
   body {
     padding: 0;
   }
+
+  #sections { display: none; }
 }
 
 /* SIDEBAR */

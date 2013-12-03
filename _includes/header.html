@@ -33,12 +33,20 @@
         <div class="span12">
           <div class="navbar navbar-inverse">
             <div class="navbar-inner">
-              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </a>
-              <div class="nav-collapse collapse">
+              {% if page.sections %}
+              <a class="btn btn-navbar" data-toggle="collapse" data-target="#sections">Secciones</a>
+              {% endif %}
+              <a class="btn btn-navbar" data-toggle="collapse" data-target="#actions">Acciones</a>
+
+              <div class="nav-collapse collapse" id="sections">
+                <ul class="nav pull-right">
+                  {% for section in page.sections %}
+                  <li><a href="{{ section.path }}">{{ section.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+
+              <div class="nav-collapse collapse" id="actions">
                 <ul class="nav pull-right">
                   <li><a href="{{ site.url }}">Acerca</a></li>
                   <li><a href="{{ site.url }}/pnda">Política</a></li>
@@ -47,6 +55,7 @@
                   <li><a href="https://github.com/{{site.org_name}}/{{site.repo_name}}/issues">Discusión</a></li>
                 </ul>
               </div><!--/.nav-collapse -->
+
             </div>
           </div>
         </div>
