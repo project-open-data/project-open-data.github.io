@@ -15,24 +15,24 @@ Por lo anterior, y partiendo del principio constitucional de máxima publicidad,
 
 Que para ser considerados Datos Abiertos, los datos y bases de datos de las entidades de la APF deberán contar con las siguientes características:
 
-+Completos: que reflejen la totalidad del tema y descritos con detalle.
+ + Completos: que reflejen la totalidad del tema y descritos con detalle. 
 
-+Públicos: de interés general y carácter público, protegiendo la privacidad de los ciudadanos.
+ + Públicos: de interés general y carácter público, protegiendo la privacidad de los ciudadanos. 
 
-+Primarios: que provienen de la fuente original y tienen el máximo nivel de desagregación posible.
+ + Primarios: que provienen de la fuente original y tienen el máximo nivel de desagregación posible. 
 
-+En tiempo: siendo oportunos y actualizados tan pronto sea posible.
+ + En tiempo: siendo oportunos y actualizados tan pronto sea posible. 
 
-+De libre acceso: disponibles de manera conveniente, sin restricciones de acceso ni discriminación.
+ + De libre acceso: disponibles de manera conveniente, sin restricciones de acceso ni discriminación. 
 
-+Procesable por máquina: estructurados de tal forma que permita el procesamiento automático.
+ + Procesable por máquina: estructurados de tal forma que permita el procesamiento automático. 
 
-+En formatos abiertos: que utilicen estándares abiertos, procesables por máquinas y pueden ser descargables y operados con los requerimientos tecnológicos mínimos.
+ + En formatos abiertos: que utilicen estándares abiertos, procesables por máquinas y pueden ser descargables y operados con los requerimientos tecnológicos mínimos. 
 
-+Con licencia de libre uso: que define claramente la libertad y certeza de ser utilizados como insumo para cualquier fin, requiriendo a lo mucho, atribución.
+ + Con licencia de libre uso: que define claramente la libertad y certeza de ser utilizados como insumo para cualquier fin, requiriendo a lo mucho, atribución. 
 
-+Permanentes: para habilitar la capacidad de encontrar la información publicada a perpetuidad; y para que toda información hecha pública, permanezcan así, siempre con identificadores adecuados respecto a versiones y archivado en el tiempo.
+ + Permanentes: para habilitar la capacidad de encontrar la información publicada a perpetuidad; y para que toda información hecha pública, permanezcan así, siempre con identificadores adecuados respecto a versiones y archivado en el tiempo. 
 
-+Costos de utilización: que deberán ser justos -preferentemente nulos-, para evitar barreras al uso por parte de la población.
+ + Costos de utilización: que deberán ser justos -preferentemente nulos-, para evitar barreras al uso por parte de la población. 
 
 
