@@ -1,9 +1,9 @@
 ---
 published: true
 permalink: /
-layout: hero
+layout: default
 filename: index.md
-title: Project Open Data
+title: Datos Abiertos MX
 ---
 
 ##1. Introducción
