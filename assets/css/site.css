@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Noto+Sans:400,700);
 
 body {
+  background-color: #F0F0F0;
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   margin: 0;
@@ -18,8 +19,9 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-   font-weight: normal;
+  color: #32f0E6;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
 }
 h1 {
   border-bottom: none;
@@ -35,7 +37,7 @@ h3 { margin-top: 30px; }
 h5 { font-size: 14px; }
 hr {
   border: none;
-  border-bottom: 1px solid #BC9E5F;
+  border-bottom: 1px solid #303030;
   margin-top: 40px;
 }
 ol, ul {
@@ -47,8 +49,11 @@ ol, ul {
   padding: 0 10px;
 }
 
+#topbar { background-color: black; }
+
 #header {
-  background-color: #002a5b;
+  background-color: #303030;
+  height: 100px;
 }
 
 .navbar {
@@ -59,7 +64,7 @@ ol, ul {
   padding-right: 0;
 }
 .brand {
-  color: black;
+  color: white;
   font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 32px;
   font-weight: bold;
@@ -75,10 +80,9 @@ ol, ul {
   text-transform: uppercase;
 }
 .navbar .btn-navbar {
-  margin-top: 7px;
-}
-.navbar .btn-navbar {
-  margin-right: 0;
+  color: #F0F0F0;
+  font-style: italic;
+  margin: 7px 0 0 0;
 }
 .navbar .btn {
   background-color: transparent;
@@ -627,14 +631,16 @@ table {
   .nav-collapse .nav > li > a,
   .nav-collapse .dropdown-menu a {
     padding: 9px 0;
-    font-weight: bold;
-    color: #ffffff;
+    font-weight: normal;
+    color: #32f0E6;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
   }
   .navbar .nav > li > a:focus,
   .navbar .nav > li > a:hover {
+    border-bottom: 0;
+    color: #32f0E6;
     text-decoration: none;
   }
   a.btn-primary {
