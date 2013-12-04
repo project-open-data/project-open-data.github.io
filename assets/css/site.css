@@ -38,14 +38,9 @@ hr {
   border-bottom: 1px solid #BC9E5F;
   margin-top: 40px;
 }
-a:link { transition: all 0.75s ease 0s; }
-a:hover {
-  color: #E74338;
-  text-decoration: underline;
-}
 ol, ul {
   margin:0;
-  padding: 0 0 0 20px;
+  padding: 0 20px 0 0;
 }
 .container-fluid {
   margin: 0 auto;
@@ -658,5 +653,31 @@ table {
 
 .sidebar {
   padding-top: 90px;
+}
+
+.sidenav a {
+  color: white;
+  background-color: black;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: right;
+  text-decoration: none;
+  -moz-box-shadow: 4px 4px #303030;
+  -webkit-box-shadow: 4px 4px #303030;
+  box-shadow: 4px 4px #303030;
+}
+
+.sidenav > li > a:hover,
+.sidenav > li > a:focus {
+  text-decoration: none;
+  background-color: black;
+  margin-right: -20px;
+}
+
+.sidenav > li > a:active {
+  background-color: #32f0E6;
+  -moz-box-shadow: 4px 4px #00CCCC;
+  -webkit-box-shadow: 4px 4px #00CCCC;
+  box-shadow: 4px 4px #00CCCC;
 }
 
