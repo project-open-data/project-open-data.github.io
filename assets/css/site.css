@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Noto+Sans:400,700);
 
 body {
-  font-family: "Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   margin: 0;
 }
@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: "Roboto Slab", Georgia, serif;
+   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
    font-weight: normal;
 }
 h1 {
@@ -58,12 +58,21 @@ ol, ul {
   padding-left: 0;
   padding-right: 0;
 }
-.navbar .brand {
-  color: #ffffff;
-  font-family: "Roboto Slab", Georgia, serif;
-  font-size: 16px;
+.brand {
+  color: black;
+  font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-weight: bold;
   padding: 10px 0;
   margin-left: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.title {
+  color: black;
+  font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
 }
 .navbar .btn-navbar {
   margin-top: 7px;
