@@ -161,7 +161,10 @@ table {
 .table-striped tbody tr:nth-child(2n+1) td,
 .table-striped tbody tr:nth-child(2n+1) th { background-color: #F9F9F9; }
 
-#footer { padding: 40px 10px; }
+#footer {
+  background-color: #726C6C;
+  padding: 40px 10px;
+}
 
 /* icons */
 [class^="icon-"],
