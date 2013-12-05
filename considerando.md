@@ -1,9 +1,9 @@
 ---
 published: true
 layout: navegable
-permalink: "/considerando/"
-filename: "considerando.md"
-sections:
+permalink: /considerando/
+filename: considerando.md
+sections: 
   - name: Considerando
     path: /considerando
   - name: Objetivo de la Política
@@ -52,7 +52,7 @@ Que la propia Carta Magna señala en su artículo décimo cuarto, Transitorio (1
 
 Que aunado a lo anterior, la Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental tiene como objeto garantizar el acceso de toda persona a la información en posesión de los Poderes de la Unión, los órganos constitucionales autónomos o con autonomía legal, y cualquier otra entidad federal; y establece las responsabilidades y procedimientos que los sujetos obligados deberán tener con relación al derecho de acceso a la información, la privacidad y protección de datos personales, transparencia, rendición de cuentas y clasificación de información. Al mismo tiempo, establece como excepciones al acceso a la información, a la publicidad y transparencia, la seguridad nacional, el respeto a la vida privada y datos personales de las personas, y demás circunstancias que la ley señale.
 
-Que el Acuerdo por el que se establece el Esquema de Interoperabilidad y de Datos Abiertos (EIDA) de la Administración Pública Federal (APF), (DOF 6/09/2011), señala que las dependencias y entidades “*llevarán a cabo acciones tendientes a propiciar que en la prestación de servicios digitales, los particulares puedan tener acceso a datos abiertos*”.
+Que el Acuerdo por el que se establece el Esquema de Interoperabilidad y de Datos Abiertos (EIDA) de la Administración Pública Federal (APF), ([DOF 6/09/2011](http://dof.gob.mx/nota_detalle.php?codigo=5208001&fecha=06/09/2011)), señala que las dependencias y entidades “*llevarán a cabo acciones tendientes a propiciar que en la prestación de servicios digitales, los particulares puedan tener acceso a datos abiertos*”.
 
 Que en este mismo Acuerdo (EIDA) se establece que los “*Datos Abiertos son los datos digitales de carácter público que administra la Administración Pública Federal y que en términos de las disposiciones aplicables, no tienen naturaleza reservada o confidencial y son accesibles de modo que los particulares pueden reutilizarlos, según convenga a sus intereses*”.
 
