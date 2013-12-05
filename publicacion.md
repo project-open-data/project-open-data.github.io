@@ -35,7 +35,7 @@ sections:
 
 ## 6.1  Administración
 
-Todas las entidades de la APF deberán revisar su reglamento interior y modificarlo de según las directivas de esta política y tomando en cuenta las recomendaciones de lenguaje propuestas en esta Política (anexo I).
+Todas las entidades de la APF deberán revisar su reglamento interior y modificarlo de según las directivas de esta política y tomando en cuenta las recomendaciones de lenguaje propuestas en esta Política ([anexo I](/anexos/#anexo1)).
 
 Todas las entidades de la APF estarán obligadas a modificar o modernizar sus procedimientos de generación de datos, de manera que apoyen el procesamiento y diseminación adecuada de los mismos como Datos Abiertos.
 
@@ -78,16 +78,23 @@ Este Catálogo deberá ser actualizado de acuerdo el proceso de priorización y 
 
 Con el objetivo de fomentar el uso, mediante la publicación de datos con alta demanda, las entidades deberán dar prioridad de publicación a las bases de datos con las siguientes características.
 
-*Están ligadas a la obtención de las metas y objetivos del Plan Nacional de Desarrollo vigente;
-*Incrementan la efectividad en la cooperación entre entidades del gobierno;
-*Crean oportunidades económicas e innovación para la ciudadanía;
-*Incrementan la capacidad de respuesta y rendición de cuentas de la entidad;
-*Incrementan el conocimiento público de la entidad y sus operaciones;
-*Responden a las necesidades de demanda identificadas y pedidas por los ciudadanos;
-*Datos que ya son compartidos para la utilización por terceros fuera de la entidad; y,
-*Ayudan a la misión de la entidad.
+ * Están ligadas a la obtención de las metas y objetivos del Plan Nacional de Desarrollo vigente;
 
-Además de la priorización de datos mediante el proceso de identificación individual, todas las entidades de la APF deberán privilegiar la publicación de los datos incluidos en el anexo II de esta Política ‘Infraestructura crítica de datos’.
+ * Incrementan la efectividad en la cooperación entre entidades del gobierno;
+
+ * Crean oportunidades económicas e innovación para la ciudadanía;
+
+ * Incrementan la capacidad de respuesta y rendición de cuentas de la entidad;
+
+ * Incrementan el conocimiento público de la entidad y sus operaciones;
+
+ * Responden a las necesidades de demanda identificadas y pedidas por los ciudadanos;
+
+ * Datos que ya son compartidos para la utilización por terceros fuera de la entidad; y,
+
+ * Ayudan a la misión de la entidad.
+
+Además de la priorización de datos mediante el proceso de identificación individual, todas las entidades de la APF deberán privilegiar la publicación de los datos incluidos en el [anexo II](/anexos/#anexo2) de esta Política ‘Infraestructura crítica de datos’.
 
 Los procesos de priorización anteriores de ninguna manera deberá impedir la publicación de otras bases de datos. En concordancia con el cronograma de publicación, las entidades de la APF deberán hacer públicas y como Datos Abiertos, todas las bases de datos en su responsabilidad con carácter público.
 

@@ -31,12 +31,16 @@ sections:
 ---
 
 # Anexo I
+{:#anexo1}
+
 **Propuesta de lenguaje para el cambio de reglamentos internos en las entidades de la AF**
 
 (Propuesta de lenguaje)
 
 
 # Anexo II
+{:#anexo2}
+
 **Lista de datos considerados como infraestructura de datos crítica**
 
 <table border="1">
@@ -131,10 +135,14 @@ sections:
 
 
 # Anexo III
+{:#anexo3}
+
 Licencia de Datos Abiertos de México
 (Documento de Licencia)
 
 # Anexo IV
+{:#anexo4}
+
 Cronograma de implementación por parte de las dependencias
 
 <table border="1">
