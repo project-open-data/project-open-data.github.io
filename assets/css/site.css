@@ -69,8 +69,10 @@ ol, ul {
   color: white;
   font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 32px;
+  line-height: 24px;
   text-decoration: none;
   text-transform: uppercase;
+  vertical-align: top;
 }
 .title {
   color: black;
@@ -667,6 +669,8 @@ img.logo {
 
 .row-fluid .brand-wrapper {
   margin-left: 0;
+  height: 119px;
+  padding-top: 11px;
 }
 
 
