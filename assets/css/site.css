@@ -13,6 +13,12 @@ ul a[rel="footnote"] {
   top: -0.5em;
   vertical-align: baseline;
 }
+
+li { 
+  margin-left: 2em; 
+  padding-left: 0; 
+}
+
 h1,
 h2,
 h3,
@@ -45,7 +51,7 @@ ol, ul {
   padding: 0 20px 0 0;
 }
 .container-fluid {
-  margin: 0 auto;
+  margin: 0 auto 0px;
   padding: 0 10px;
 }
 
@@ -166,6 +172,7 @@ table {
 #footer {
   background-color: #726C6C;
   padding: 40px 10px;
+  height: -10px;
 }
 
 /* icons */

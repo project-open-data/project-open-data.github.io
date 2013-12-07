@@ -4,6 +4,7 @@ layout: navegable
 title: Objetivo de la Política
 permalink: "/objetivo/"
 filename: "objetivo.md"
+title: Política Nacional de Datos Abiertos
 sections:
   - name: Considerando
     path: /considerando

@@ -3,6 +3,7 @@ published: true
 layout: navegable
 permalink: /considerando/
 filename: considerando.md
+title: Política Nacional de Datos Abiertos
 sections: 
   - name: Considerando
     path: /considerando

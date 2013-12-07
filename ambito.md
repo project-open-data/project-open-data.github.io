@@ -3,6 +3,7 @@ published: true
 layout: navegable
 permalink: "/ambito/"
 filename: "ambito.md"
+title: Política Nacional de Datos Abiertos
 sections:
   - name: Considerando
     path: /considerando
