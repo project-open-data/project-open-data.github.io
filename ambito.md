@@ -32,7 +32,7 @@ sections:
 ---
 
 
-## 3 Ámbito de aplicación
+# 3 Ámbito de aplicación
 
 Lo establecido en esta Política será aplicable para todos los procesos de generación, colección, conversión, publicación y administración de datos y bases de datos en todas las entidades de la APF.
 

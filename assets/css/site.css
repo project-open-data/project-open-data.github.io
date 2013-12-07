@@ -172,7 +172,7 @@ table {
 #footer {
   background-color: #726C6C;
   padding: 40px 10px;
-  height: -10px;
+  height: auto;
 }
 
 /* icons */

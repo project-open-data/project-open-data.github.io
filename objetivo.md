@@ -32,7 +32,7 @@ sections:
     path: /anexos
 ---
 
-## 2 Objetivo de la Política
+# 2 Objetivo de la Política
 
 Definir la política, bases, lineamientos, plazos y responsabilidades generales para la implementación y desarrollo de la Política Nacional de Datos Abiertos en la Administración Pública Federal (APF).
 

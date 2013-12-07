@@ -1,6 +1,6 @@
 ---
-published: true
-permalink: /
+published: false
+permalink: /indice
 layout: default
 filename: index.md
 title: Datos Abiertos MX
