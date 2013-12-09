@@ -5,7 +5,6 @@ title: Common Core Metadata Schema
 permalink: /schema/
 filename: schema.md
 id: schema
-
 ---
 
 This section contains guidance to support the use of the common core metadata to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.
@@ -53,7 +52,7 @@ Publisher           | The publishing entity.                                    
 Contact Name        | Contact person's name for the asset.                                                                                                           | contactPoint
 Contact Email        | Contact person's email address. 			           	                                                                                             | mbox
 Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 | identifier
-Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)  | accessLevel
+Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available to certain audiences), or non-public (Data asset is not available to members of the public)  | accessLevel
 
 "Common Core" Required-if-Applicable Fields
 -------------------------------------------
@@ -93,7 +92,7 @@ Language            | The language of the dataset.                              
 Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) | PrimaryITInvestmentUII
 Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references
 Release Date        | Date of formal issuance.                                                                                                                      | issued
-System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
+System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the identifier or title of and the URL to the System of Records Notice related to this dataset. | systemOfRecords
 
 
 Further Metadata Field Guidance (alphabetical by JSON field)
