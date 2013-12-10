@@ -44,13 +44,16 @@ sections:
 
 **Lista de datos considerados como infraestructura de datos crítica**
 
-<table border="1">
+<table id="infraestructura"  style="border:1px solid #666666;">
   <tr>
     <th>PND Componentes</th>
     <th>Grupos de Datos</th>
   </tr>
-  <tr>
-    <td>Transformaci&oacute;n Gubernamental</td>
+  <tr id="sub">
+    <td>
+        <p><strong>Transformaci&oacute;n Gubernamental</strong></p>
+    </td>
+    <td></td>
   </tr>
   <tr>
     <td><strong>Gesti&oacute;n digital del territorio nacional</strong></td>
@@ -67,8 +70,11 @@ sections:
         </ul>
     </td>
   </tr>
-  <tr>
-    <td>Salud universal</td>
+  <tr id="sub">
+    <td>
+        <p><strong>Salud universal</strong></p>
+    </td>
+    <td></td>
   </tr>
   <tr>
     <td><strong>Prevenci&oacute;n</strong></td>
@@ -89,8 +95,11 @@ sections:
       </ul>
     </td>
   </tr>
-  <tr>
-    <td>Educaci&oacute;n de Calidad</td>
+  <tr id="sub">
+    <td>
+        <p><strong>Educaci&oacute;n de Calidad</strong></p>
+    </td>
+    <td></td>
   </tr>
   <tr>
     <td>Educaci&oacute;n de Calidad</td>
@@ -104,8 +113,11 @@ sections:
       </ul>
     </td>
   </tr>
-  <tr>
-    <td>Econom&iacute;a digital</td>
+  <tr id="sub">
+    <td id="sub">
+        <p><strong>Econom&iacute;a digital</strong></p>
+    </td>
+    <td></td>
   </tr>
   <tr>
     <td><strong>Democratización de la Productividad</strong></td>
@@ -121,8 +133,14 @@ sections:
       </ul>
     </td>
   </tr>
+  <tr id="sub">
+    <td>
+        <p><strong>Seguridad Ciudadana</strong></p>
+    </td>
+    <td></td>
+  </tr>
   <tr>
-    <td>Seguridad Civil</td>
+    <td></td>
     <td> 
       <ul>
       <li>Heridos, accidentados, v&iacute;ctimas de agresiones (SALUD) </li>
@@ -146,13 +164,13 @@ Licencia de Datos Abiertos de México
 
 Cronograma de implementación por parte de las dependencias
 
-<table border="1">
+<table id="cronograma" border="1">
 <tr>
-   <td>Requerimiento</td>
-   <td>30 d&iacute;as</td>
-   <td>60 d&iacute;as</td>
-   <td>90 d&iacute;as</td>
-   <td>Fecha</td>
+   <th>Requerimiento</th>
+   <th>30 d&iacute;as</th>
+   <th>60 d&iacute;as</th>
+   <th>90 d&iacute;as</th>
+   <th>Fecha</th>
 </tr>
 <tr>
    <td>Designaci&oacute;n de Coordinador Institucional de Datos Abiertos</td>

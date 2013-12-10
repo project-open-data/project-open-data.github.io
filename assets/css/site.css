@@ -169,6 +169,24 @@ table {
 .table-striped tbody tr:nth-child(2n+1) td,
 .table-striped tbody tr:nth-child(2n+1) th { background-color: #F9F9F9; }
 
+
+table#infraestructura th {
+  color: #000000;
+  background-color: #32F0DC;
+}
+
+table#infraestructura tr#sub {
+  color: #FFFFFF;
+  background-color: #666666;
+}
+
+
+table#cronograma th {
+  color: #FFFFFF;
+  background-color: #666666;
+}
+
+
 #footer {
   background-color: #726C6C;
   padding: 40px 10px;
