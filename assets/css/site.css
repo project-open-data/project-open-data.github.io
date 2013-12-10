@@ -187,6 +187,17 @@ table#cronograma th {
 }
 
 
+/* images */
+.intextimage {
+  display: block;
+  max-width:700px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #footer {
   background-color: #726C6C;
   padding: 40px 10px;
