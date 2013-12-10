@@ -700,7 +700,8 @@ img.logo {
 }
 
 .content {
-  margin-top: 40px;
+  /*margin-top: 40px;*/
+  margin: 0 auto 40px;
 }
 
 .row-fluid .brand-wrapper {
