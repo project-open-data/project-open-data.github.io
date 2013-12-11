@@ -34,7 +34,7 @@ filename: data-hubs.md
 * [Administration on Aging](http://www.data.aoa.gov/)
 * [Centers for Disease Control and Prevention](https://data.cdc.gov) [(2)](http://www.cdc.gov/datastatistics/)
 * [Centers for Medicare and Medicaid Services](http://data.cms.gov)
-* [Health Resources and Services Administration](http://www.hrsa.gov/data-statistics/index.html)
+* [Health Resources and Services Administration](http://www.hrsa.gov/data-statistics) ([2](http://datawarehouse.hrsa.gov/))
 * [National Database for Autism Research](http://ndar.nih.gov/data_from_labs.html)
 * [Office of Childcare](https://childcare.gov/data-and-technology)
 * [Organ Procurement and Transplantation Network](http://optn.transplant.hrsa.gov/data/)
@@ -106,6 +106,7 @@ filename: data-hubs.md
 * [Joint Ecosystem Modeling](http://www.jem.gov/Data)
 * [National Broadband Map](http://www.broadbandmap.gov/data-download)
 * [Networking and Information Technology Research and Development](http://www.nitrd.gov/data/)
-* [USASpending](http://www.usaspending.gov/data)
+* [USASpending.gov](http://www.usaspending.gov/data)
+* [VolunteeringInAmerica.gov](http://www.volunteeringinamerica.gov/data.cfm)
 
 
