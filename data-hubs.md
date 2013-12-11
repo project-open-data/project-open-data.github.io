@@ -5,7 +5,7 @@ permalink: /data-hubs/
 filename: data-hubs.md
 ---
 
-### [Department of Agriculture](http://www.usda.gov/data/) ([2](http://www.usda.gov/wps/portal/usda/usdahome?navid=DATA_STATISTICS)))
+### [Department of Agriculture](http://www.usda.gov/data/) ([2](http://www.usda.gov/wps/portal/usda/usdahome?navid=DATA_STATISTICS))
 * [Economic Research Service](http://www.ers.usda.gov/data-products.aspx)
 * [Food and Nutrition Service](http://www.fns.usda.gov/data-and-statistics)
 * [Foreign Agricultural Service](http://www.fas.usda.gov/data.asp)
@@ -20,11 +20,11 @@ filename: data-hubs.md
 * [Federal Student Aid Data Center](http://studentaid.ed.gov/data-center)
 
 ### [Department of Energy](http://www.energy.gov/data)
-* [Atmospheric Radiation Measurement - Climate Research Facility](http://www.arm.gov/data 
-* [Lawrence Berkeley National Laboratory - Institutes Office](http://institutes.lanl.gov/data/
-* [Lawrence Berkeley National Laboratory - Standby Data](http://standby.lbl.gov/data.html
-* [Oak Ridge National Laboratory - Computer Science and Mathematics Division](http://www.csm.ornl.gov/data/
-* [Office of Scientific and Technical Information](http://www.osti.gov/data/
+* [Atmospheric Radiation Measurement - Climate Research Facility](http://www.arm.gov/data)
+* [Lawrence Berkeley National Laboratory - Institutes Office](http://institutes.lanl.gov/data/)
+* [Lawrence Berkeley National Laboratory - Standby Data](http://standby.lbl.gov/data.html)
+* [Oak Ridge National Laboratory - Computer Science and Mathematics Division](http://www.csm.ornl.gov/data/)
+* [Office of Scientific and Technical Information](http://www.osti.gov/data/)
 
 ### [Department of Homeland Security](http://www.dhs.gov/data)
 
