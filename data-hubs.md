@@ -29,7 +29,7 @@ filename: data-hubs.md
 ### [Department of Homeland Security](http://www.dhs.gov/data)
 
 ### [Department of Health and Human Services](http://www.healthdata.gov)
-* [Centers for Disease Control and Prevention](https://data.cdc.gov) ([(2)](http://www.cdc.gov/datastatistics/)
+* [Centers for Disease Control and Prevention](https://data.cdc.gov) [(2)](http://www.cdc.gov/datastatistics/)
 * [Centers for Medicare and Medicaid Services](http://data.cms.gov)
 * [Health Resources and Services Administration](http://www.hrsa.gov/data-statistics/index.html)
 * [National Database for Autism Research](http://ndar.nih.gov/data_from_labs.html)
