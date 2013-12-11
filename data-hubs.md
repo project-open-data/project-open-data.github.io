@@ -92,7 +92,7 @@ filename: data-hubs.md
 * [National Transportation Safety Board](http://www.ntsb.gov/data)
 * [Social Security Advisory Board](http://www.ssab.gov/DATA.aspx)
 
-### Other programs  
+### Other Programs  
 * [Advanced Manufacturing Portal](http://www.manufacturing.gov/data.html)
 * [Appalachian Regional Commission](http://www.arc.gov/data)
 * [Freedom of Information Act](http://www.foia.gov/data.html)
