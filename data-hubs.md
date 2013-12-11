@@ -15,6 +15,7 @@ filename: data-hubs.md
 * [International Trade Administration](http://trade.gov/data.asp) 
 * [Coral Health and Monitoring Program - NOAA](http://www.coral.noaa.gov/data.html)
 * [Integrated Ocean Observing System - NOAA](http://www.ioos.noaa.gov/data/)
+* [Marine Cadastre - NOAA](http://marinecadastre.gov/DATA)
 
 ### [Department of Education](http://www.edu.gov/data)
 * [Federal Student Aid Data Center](http://studentaid.ed.gov/data-center)
@@ -30,6 +31,7 @@ filename: data-hubs.md
 ### [Department of Homeland Security](http://www.dhs.gov/data)
 
 ### [Department of Health and Human Services](http://www.healthdata.gov)
+* [Administration on Aging](http://www.data.aoa.gov/)
 * [Centers for Disease Control and Prevention](https://data.cdc.gov) [(2)](http://www.cdc.gov/datastatistics/)
 * [Centers for Medicare and Medicaid Services](http://data.cms.gov)
 * [Health Resources and Services Administration](http://www.hrsa.gov/data-statistics/index.html)
@@ -51,6 +53,8 @@ filename: data-hubs.md
 * [ScienceBase](http://www.sciencebase.gov/catalog/)
 
 ### [Department of Justice](http://www.justice.gov/data)
+* [Bureau of Justice Statistics](http://www.bjs.gov/index.cfm?ty=dca)
+* [Uniform Crime Reporting - FBI](http://www.ucrdatatool.gov/)
 
 ### [Department of Labor](http://www.dol.gov/data)
 * [Bureau of Labor Statistics](http://www.bls.gov/data/)
@@ -60,6 +64,7 @@ filename: data-hubs.md
 ### [Department of Transportation](http://www.dot.gov/data)
 * [Federal Railroad Administration - Office of Safety Analysis](http://safetydata.fra.dot.gov/)
 * [National Highway Traffic Safety Administration](http://www.nhtsa.gov/Data)
+* [Bureau of Transportation Statistics](http://www.transtats.bts.gov/)
 
 ### [Department of the Treasury](http://www.treasury.gov/data)
 
