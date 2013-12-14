@@ -19,6 +19,11 @@ li {
   padding-left: 0; 
 }
 
+ul.nav li{
+  margin:0;
+  padding: 0 0px 0 0;
+}
+
 h1,
 h2,
 h3,
