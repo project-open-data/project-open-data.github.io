@@ -680,6 +680,18 @@ table#cronograma th {
   box-shadow: 4px 4px #303030;
 }
 
+.sidenav a.active {
+  color: white;
+  background-color: black;
+  margin-right: -20px;
+  padding: 10px;
+  text-align: right;
+  text-decoration: none;
+  -moz-box-shadow: 4px 4px #303030;
+  -webkit-box-shadow: 4px 4px #303030;
+  box-shadow: 4px 4px #303030;
+}
+
 .sidenav > li > a:hover,
 .sidenav > li > a:focus {
   text-decoration: none;
@@ -693,6 +705,7 @@ table#cronograma th {
   -webkit-box-shadow: 4px 4px #00CCCC;
   box-shadow: 4px 4px #00CCCC;
 }
+
 
 img.logo {
   height: 75px;
