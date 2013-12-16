@@ -116,6 +116,13 @@ ol, ul {
   text-decoration: none;
 }
 
+.navbar .nav > li > a.visited{
+  background-color: transparent;
+  border-top: 6px solid #F0F0F0;
+  color: #DBDBDB;
+  text-decoration: none;
+}
+
 .hero-unit.home {
   background-color: none;
   border-bottom: 1px solid #BC9E5F;
@@ -687,7 +694,7 @@ table#cronograma th {
 
 .sidenav a.active {
   color: white;
-  background-color: black;
+  background-color: #32f0E6;
   margin-right: -20px;
   padding: 10px;
   text-align: right;
