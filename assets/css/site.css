@@ -701,7 +701,7 @@ table#cronograma th {
   text-decoration: none;
   -moz-box-shadow: 4px 4px #303030;
   -webkit-box-shadow: 4px 4px #303030;
-  box-shadow: 4px 4px #303030;
+  box-shadow: 4px 4px #00CCCC;
 }
 
 .sidenav > li > a:hover,
