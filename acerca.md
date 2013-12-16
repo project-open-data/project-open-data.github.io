@@ -3,7 +3,7 @@ published: true
 permalink: /
 layout: default
 filename: acerca.md
-title: Datos Abiertos MX
+title: Iniciativa de Datos Abiertos
 ---
 
 El Gobierno de la República tiene como objetivo que todos los datos públicos que genera y
