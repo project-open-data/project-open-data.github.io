@@ -680,7 +680,9 @@ table#cronograma th {
   padding-top: 18px;
 }
 
-.sidenav a {
+.sidenav a,
+.sidenav > li > a:hover,
+.sidenav > li > a:focus {
   color: white;
   background-color: black;
   margin-bottom: 10px;
@@ -706,8 +708,6 @@ table#cronograma th {
 
 .sidenav > li > a:hover,
 .sidenav > li > a:focus {
-  text-decoration: none;
-  background-color: black;
   margin-right: -20px;
 }
 
