@@ -699,8 +699,8 @@ table#cronograma th {
   padding: 10px;
   text-align: right;
   text-decoration: none;
-  -moz-box-shadow: 4px 4px #303030;
-  -webkit-box-shadow: 4px 4px #303030;
+  -moz-box-shadow: 4px 4px #00CCCC;
+  -webkit-box-shadow: 4px 4px #00CCCC;
   box-shadow: 4px 4px #00CCCC;
 }
 
