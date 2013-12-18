@@ -113,6 +113,8 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-9 [Example Policy Documents](policy-docs/) - Collection of memos, guidance and policy documents about open data for reference.
 
+5-10 [Example Data Hubs](/data-hubs) - Collection of department, agency, and program data sites across the federal government.
+
 ----------------
 
 ##6. Case Studies
