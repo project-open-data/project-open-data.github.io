@@ -1,10 +1,8 @@
 # Iniciativa de Datos Abiertos
 
-[![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.png?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
-
 ## ¿Qué es esto?
 
-Un borrador público para la "Política Nacional de Datos Abiertos" de México.
+Un borrador público de la "Iniciativa de Datos Abiertos" de México.
 
 ## ¿Por qué publican un borrador?
 
