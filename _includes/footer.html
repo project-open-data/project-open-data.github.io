@@ -1,12 +1,11 @@
-  <hr>
   <div class="container-fluid" id="footer">
     <div class="row-fluid">
       <div class="span12">
-        <a class="btn btn-primary" href="{{ edit_url }}">Help Improve this Content</a>
+        <img src="../assets/img/mx_a-logo.png">
         <div class="pull-right">
-          <iframe src="http://ghbtns.com/github-btn.html?user={{ site.org_name }}&repo={{ site.repo_name }}&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
         </div>
-      </div>  
+      </div>
     </div>
   </div><!-- /container -->
 
@@ -14,6 +13,24 @@
   <script>window.jQuery || document.write('<script src="{{ site.root_url }}/assets/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
   <script src="{{ site.root_url }}/assets/js/bootstrap.min.js"></script>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script>window.jQuery || document.write('<script src="{{ site.root_url }}/assets/js/vendor/jquery-ui-1.10.3/ui/minified/jquery-ui.min.js"><\/script>')</script>
+  <script type="text/javascript" src="{{ site.root_url }}/assets/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="{{ site.root_url }}/assets/js/main.js"></script>
+
+  <script>
+    var style = {
+      'background-color':'#32F0DC',
+      'color':'transparent'
+    };
+    $("#cronograma td:contains('*')").css(style);
+  </script>
+
+  <script>
+    $('a[href="{{ page.url }}"]').addClass('active');
+  </script>
+
 </body>
 </html>
 <!-- Generated {{ site.time }} -->
+

@@ -1,2 +1,17 @@
+# configuración del documento
+title: Iniciativa de Datos Abiertos
+desc: "Iniciativa de Datos Abiertos"
 url: http://localhost:4000
+repo_name: iniciativa-datos-abiertos.github.io
+branch: master
+
+# configuración global, no moverle
 root_url: http://localhost:4000
+org_name: iniciativa-datos-abiertos
+prose_url: http://prose.io
+
+# configuración local, no es necesario editar
+pymgemnts: true
+exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
+markdown: kramdown
+

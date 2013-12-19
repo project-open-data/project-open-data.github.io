@@ -1,16 +1,17 @@
-#document settings
-title: Project Open Data
-desc: "Open Data Policy — Managing Information as an Asset"
-url: http://project-open-data.github.io/
-repo_name: project-open-data.github.io
+# configuración del documento
+title: Iniciativa de Datos Abiertos
+desc: "Iniciativa de Datos Abiertos"
+url: http://iniciativa-datos-abiertos.github.io/
+repo_name: iniciativa-datos-abiertos.github.io
 branch: master
 
-#global settings, no need to change these
-root_url: http://project-open-data.github.io
-org_name: project-open-data
+# configuración global, no moverle
+root_url: http://iniciativa-datos-abiertos.github.io
+org_name: iniciativa-datos-abiertos
 prose_url: http://prose.io
 
-# default build settings for running locally, no need to edit
+# configuración local, no es necesario editar
 pymgemnts: true
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
 markdown: kramdown
+

@@ -1,31 +1,25 @@
-# Project Open Data
+# Iniciativa de Datos Abiertos
 
 [![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.png?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
 
-## Problem this Solves
+## ¿Qué es esto?
 
-Technology moves much faster than policy ever could.  Often when writing policy for technology, agencies are stuck w/ outdated methods as soon as they publish new policies.
+Un borrador público para la "Política Nacional de Datos Abiertos" de México.
 
-## How this Project Solves this Problem
+## ¿Por qué publican un borrador?
 
-This Appendix is meant to be a living document so that collaboration in the open data ecosystem is fostered and the continual update of technology pieces that affect update can happen on a more rapid pace.
+Anteriormente los documentos de gobierno se trabajaban internamente. Ahora siguiendo la filosofía de co-creación decidimos abrir el proceso para recibir sugerencias, cambios y comentarios de la comunidad interesada en el tema.
 
-## Where You Come In
+## ¿Cómo contribuyo?
 
-Help the United States Government make its Open Data policy better by collaborating.  Please suggest enhancements by editing the content here.
+Este proyecto es de código abierto y representa un trabajo colaborativo. El público en general está invitado a mejorar este proyecto con sus contribuciones. Sigue estos pasos:
 
-## How to Contribute
+1. Haz click en "Ayúdanos a mejorar el contenido" en la parte superior de cualquier página.
+2. Realiza cambios en el editor de texto.
+3. Haz click en "Enviar".
 
-This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing.
+Tus cambios deberán aparecer una vez que sean aprobados.
 
-For information on how to contribute, please see the [how to contribute](CONTRIBUTING.md)
+## Licencia
 
-## License
-
-The project is a public domain work and is not subject to domestic or international copyright protection. See [the license file](LICENSE) for additional information.
-
-Members of the public and US government employees who wish to contribute are encourage to do so, but by contributing, dedicate their work to the public domain and waive all rights to their contribution under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/).
-
-## Privacy
-
-Comments, pull requests and any other messages received through this repository may be subject to the [Presidential Records Act](http://www.archives.gov/about/laws/presidential-records.html) and may be archived. Learn more at http://WhiteHouse.gov/privacy
+Por el momento, se mantendrá la licencia de dominio público del [proyecto del que parte](https://github.com/project-open-data/project-open-data.github.io).
