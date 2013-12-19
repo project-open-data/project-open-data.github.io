@@ -1,13 +1,13 @@
 # configuración del documento
 title: Iniciativa de Datos Abiertos
-desc: "Política Nacional de Datos Abiertos"
-url: http://datos-abiertos-mx.github.io/
-repo_name: datos-abiertos-mx.github.io
+desc: "Iniciativa de Datos Abiertos"
+url: http://iniciativa-datos-abiertos.github.io/
+repo_name: iniciativa-datos-abiertos.github.io
 branch: master
 
 # configuración global, no moverle
-root_url: http://datos-abiertos-mx.github.io
-org_name: datos-abiertos-mx
+root_url: http://iniciativa-datos-abiertos.github.io
+org_name: iniciativa-datos-abiertos
 prose_url: http://prose.io
 
 # configuración local, no es necesario editar
