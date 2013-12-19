@@ -17,6 +17,8 @@ filename: data-hubs.md
 * [Integrated Ocean Observing System - NOAA](http://www.ioos.noaa.gov/data/)
 * [Marine Cadastre - NOAA](http://marinecadastre.gov/DATA)
 
+### [Department of Defense](http://www.defense.gov/data)
+
 ### [Department of Education](http://www.edu.gov/data)
 * [Federal Student Aid Data Center](http://studentaid.ed.gov/data-center)
 * [Office of Civil Rghts](http://ocrdata.ed.gov/)
@@ -71,6 +73,8 @@ filename: data-hubs.md
 ### [Department of Veterans Affairs](http://www.va.gov/data/)
 
 ### [Environmental Protection Agency](http://www.epa.gov/data)
+
+### [General Services Administration](http://www.gsa.gov/data)
 
 ### [National Archives and Records Administration](http://www.archives.gov/data)
 
