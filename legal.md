@@ -1,9 +1,9 @@
 ---
 published: true
 layout: navegable
-title: Requerimientos legales
 permalink: "/legal/"
 filename: "legal.md"
+title: Política Nacional de Datos Abiertos
 sections:
   - name: Considerando
     path: /considerando

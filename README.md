@@ -1,4 +1,4 @@
-# Datos Abiertos MX
+# Iniciativa de Datos Abiertos
 
 [![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.png?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
 

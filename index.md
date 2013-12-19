@@ -1,9 +1,9 @@
 ---
-published: true
-permalink: /
+published: false
+permalink: /indice
 layout: default
 filename: index.md
-title: Datos Abiertos MX
+title: Iniciativa de Datos Abiertos
 ---
 
 ##1. Introducción

@@ -3,6 +3,7 @@ published: true
 layout: navegable
 permalink: "/datos/"
 filename: "datos.md"
+title: Política Nacional de Datos Abiertos
 sections:
   - name: Considerando
     path: /considerando

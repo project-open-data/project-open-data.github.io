@@ -13,6 +13,17 @@ ul a[rel="footnote"] {
   top: -0.5em;
   vertical-align: baseline;
 }
+
+li { 
+  margin-left: 2em; 
+  padding-left: 0; 
+}
+
+ul.nav li{
+  margin:0;
+  padding: 0 0px 0 0;
+}
+
 h1,
 h2,
 h3,
@@ -45,8 +56,8 @@ ol, ul {
   padding: 0 20px 0 0;
 }
 .container-fluid {
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: 0 auto 0px;
+  padding: 0 20px;
 }
 
 #topbar {
@@ -99,6 +110,13 @@ ol, ul {
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
+  background-color: transparent;
+  border-top: 6px solid #F0F0F0;
+  color: #DBDBDB;
+  text-decoration: none;
+}
+
+.navbar .nav > li > a.visited{
   background-color: transparent;
   border-top: 6px solid #F0F0F0;
   color: #DBDBDB;
@@ -163,9 +181,39 @@ table {
 .table-striped tbody tr:nth-child(2n+1) td,
 .table-striped tbody tr:nth-child(2n+1) th { background-color: #F9F9F9; }
 
+
+table#infraestructura th {
+  color: #000000;
+  background-color: #32F0DC;
+}
+
+table#infraestructura tr#sub {
+  color: #FFFFFF;
+  background-color: #666666;
+}
+
+
+table#cronograma th {
+  color: #FFFFFF;
+  background-color: #666666;
+}
+
+
+/* images */
+.intextimage {
+  display: block;
+  max-width:700px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #footer {
   background-color: #726C6C;
   padding: 40px 10px;
+  height: auto;
 }
 
 /* icons */
@@ -632,7 +680,9 @@ table {
   padding-top: 18px;
 }
 
-.sidenav a {
+.sidenav a,
+.sidenav > li > a:hover,
+.sidenav > li > a:focus {
   color: white;
   background-color: black;
   margin-bottom: 10px;
@@ -644,10 +694,20 @@ table {
   box-shadow: 4px 4px #303030;
 }
 
+.sidenav a.active {
+  color: white;
+  background-color: #32f0E6;
+  margin-right: -20px;
+  padding: 10px;
+  text-align: right;
+  text-decoration: none;
+  -moz-box-shadow: 4px 4px #00CCCC;
+  -webkit-box-shadow: 4px 4px #00CCCC;
+  box-shadow: 4px 4px #00CCCC;
+}
+
 .sidenav > li > a:hover,
 .sidenav > li > a:focus {
-  text-decoration: none;
-  background-color: black;
   margin-right: -20px;
 }
 
@@ -658,13 +718,14 @@ table {
   box-shadow: 4px 4px #00CCCC;
 }
 
+
 img.logo {
   height: 75px;
   margin: 0 20px 30px 0;
 }
 
 .content {
-  margin-top: 40px;
+  margin: 60px auto;
 }
 
 .row-fluid .brand-wrapper {

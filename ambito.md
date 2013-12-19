@@ -3,6 +3,7 @@ published: true
 layout: navegable
 permalink: "/ambito/"
 filename: "ambito.md"
+title: Política Nacional de Datos Abiertos
 sections:
   - name: Considerando
     path: /considerando
@@ -31,7 +32,7 @@ sections:
 ---
 
 
-## 3 Ámbito de aplicación
+# 3 Ámbito de aplicación
 
 Lo establecido en esta Política será aplicable para todos los procesos de generación, colección, conversión, publicación y administración de datos y bases de datos en todas las entidades de la APF.
 

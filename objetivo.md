@@ -4,6 +4,7 @@ layout: navegable
 title: Objetivo de la Política
 permalink: "/objetivo/"
 filename: "objetivo.md"
+title: Política Nacional de Datos Abiertos
 sections:
   - name: Considerando
     path: /considerando
@@ -31,7 +32,7 @@ sections:
     path: /anexos
 ---
 
-## 2 Objetivo de la Política
+# 2 Objetivo de la Política
 
 Definir la política, bases, lineamientos, plazos y responsabilidades generales para la implementación y desarrollo de la Política Nacional de Datos Abiertos en la Administración Pública Federal (APF).
 

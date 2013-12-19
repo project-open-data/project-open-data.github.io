@@ -1,13 +1,13 @@
-{% include header.html %}            
+{% include header.html %}
 
 <div class="container-fluid content">
   <div class="row-fluid">
     <div class="span3 sidebar">
-      <ul class="nav sidenav">
+      <ul class="nav nav-tabs sidenav">
         {% for section in page.sections %}
-          <li>
-            <a href="{{ section.path }}">{{ section.name }}</a>
-          </li>
+        <li>
+          <a href="{{ section.path }}/">{{ section.name }}</a>
+        </li>
         {% endfor %}
       </ul>
     </div>
@@ -17,5 +17,6 @@
     </div>
   </div>
 </div>
-      
+
 {% include footer.html %}
+
