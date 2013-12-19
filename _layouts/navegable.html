@@ -6,7 +6,7 @@
       <ul class="nav nav-tabs sidenav">
         {% for section in page.sections %}
         <li>
-          <a href="{{ section.path }}/">{{ section.name }}</a>
+          <a href="{{ site.url }}/{{ section.path }}">{{ section.name }}</a>
         </li>
         {% endfor %}
       </ul>

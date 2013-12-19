@@ -45,7 +45,7 @@
           <div class="nav-collapse collapse" id="sections">
             <ul class="nav pull-right">
               {% for section in page.sections %}
-              <li><a href="{{ section.path }}">{{ section.name }}</a></li>
+              <li><a href="{{ site.url }}/{{ section.path }}">{{ section.name }}</a></li>
               {% endfor %}
             </ul>
           </div>
