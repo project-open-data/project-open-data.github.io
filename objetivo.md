@@ -34,5 +34,6 @@ sections:
 
 # 2 Objetivo de la Política
 
-Definir la política, bases, lineamientos, plazos y responsabilidades generales para la implementación y desarrollo de la Política Nacional de Datos Abiertos en la Administración Pública Federal (APF).
+Definir las bases, lineamientos, plazos y responsabilidades generales para la implementación y desarrollo de la Política Nacional de Datos
+Abiertos en la Administración Pública Federal (APF).
 

@@ -1,9 +1,9 @@
 jQuery(document).ready(function(){
-	var date = new Date();
-	date.setTime(date.getTime() + (5 * 1000));
+	//var date = new Date();
+	//date.setTime(date.getTime() + (5 * 1000));
 
 	var cookieName = 'visited';
-	var cookieOptions = {expires: date, path: '/'};
+	var cookieOptions = {expires: 1, path: '/'};
 	
 	$("#verbose").val("");
 	$("#" + $.cookie(cookieName)).addClass("visited");

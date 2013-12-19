@@ -26,9 +26,13 @@ Las entidades de la APF están obligadas a crear y mantener un inventario que in
 Los objetivos de este proceso son:
 
  * Construir un inventario de todas las bases de datos utilizadas en los sistemas de información que tienen en su responsabilidad. 
+ 
  * Incluir (de manera no limitativa) todas aquellas bases de datos generadas o recolectadas en actividades financieras, estadísticas, administrativas y de investigación, sin dejar fuera aquellas producidas a través de contratos y acuerdos de cooperación o bajo algún financiamiento. 
+ 
  * Indicar si las bases de datos pueden ser publicadas y si ya están disponibles. 
+ 
  * Describir las bases de datos con los metadatos mínimos requeridos en esta guía. 
+ 
  * Hacer público el plan de acción de apertura de datos dentro de la entidad. 
 
 Requerimientos mínimos para crear y mantener un inventario de datos:
