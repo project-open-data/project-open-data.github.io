@@ -19,7 +19,7 @@ filename: data-hubs.md
 
 ### [Department of Defense](http://www.defense.gov/data)
 
-### [Department of Education](http://www.edu.gov/data)
+### [Department of Education](http://www.ed.gov/data)
 * [Federal Student Aid Data Center](http://studentaid.ed.gov/data-center)
 * [Office of Civil Rghts](http://ocrdata.ed.gov/)
 
