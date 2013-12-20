@@ -730,21 +730,33 @@ img.logo {
   margin: 0 20px 30px 0;
 }
 
-.content {
-  margin: 60px auto;
-}
-
 .row-fluid .brand-wrapper {
   margin-left: 0;
   height: 119px;
   padding-top: 11px;
 }
 
+.centered-content, .lefty-content {
+  margin: 60px auto;
+  max-width: 750px;
+}
 
 /* RESPONSIVE */
 
+@media (min-width: 979px) {
+  .lefty-content {
+    padding-left: 0;
+    margin: 60px 0;
+    max-width: 960px;
+  }
+}
 
 @media (max-width: 979px) {
+  .row-fluid .span-content {
+    width: 100%;
+    margin: 0;
+  }
+
   #topbar { height: 0 }
 
   .navbar .nav-collapse .nav.pull-right {
