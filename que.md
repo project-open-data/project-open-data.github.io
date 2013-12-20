@@ -43,7 +43,7 @@ Los objetivos de este proceso son:
 
 A 120 días después de la publicación oficial de la PNDA:
 
- 1. Crear la primera versión del inventario de datos de la entidad:
+1. Crear la primera versión del inventario de datos de la entidad:
  
    * Asegurar que el inventario registra al menos el 10% de las bases de datos de la entidad.
    
@@ -51,8 +51,7 @@ A 120 días después de la publicación oficial de la PNDA:
    
    * Generar y poblar el inventario dentro del sistema ADELA.
    
-   
- 2. Publicar el “Plan de acción de datos abiertos” de la entidad a través del sistema ADELA, el cual quedará en una ruta única de
+2. Publicar el “Plan de acción de datos abiertos” de la entidad a través del sistema ADELA, el cual quedará en una ruta única de
     ADELA por cada entidad, p. ej. www.datos.gob.mx/[ADELA]/[entidad]/plan. En dicho sistema se requiere completar los formularios
     y cronogramas del plan de acción de la entidad, donde entre otros puntos, se describe la estrategia para la creación y mantenimiento
     del inventario de datos cumpliendo con los siguientes puntos:
@@ -61,11 +60,11 @@ A 120 días después de la publicación oficial de la PNDA:
      a un año de la publicación oficial de la PNDA.
      
    * Describir como la entidad planea expandir y enriquecer su inventario cada 6 meses, incluyendo hitos y fechas clave en la sección
-     del “Cronograma de implementación”.
-     
-De manera contínua a partir de los primeros 120 días después de la publicación de la PNDA:
- 
- 3. Mantener, actualizar, y expandir el inventario de datos, conforme a lo definido en el “Plan de acción de datos abiertos” de la
+     del “Cronograma de implementación”.  
+
+De manera contínua a partir de los primeros 120 días después de la publicación de la PNDA:  
+
+3. Mantener, actualizar, y expandir el inventario de datos, conforme a lo definido en el “Plan de acción de datos abiertos” de la
     entidad.
     
 
@@ -186,15 +185,15 @@ de privacidad, confidencialidad y seguridad definidas en este documento y en la 
 
 
 
- * Público: los datos pueden hacerse públicos a toda la población sin ninguna restricción.
+ * __Público__: los datos pueden hacerse públicos a toda la población sin ninguna restricción.
  
- * Restringido: los datos son disponibles bajo ciertas restricciones. Un ejemplo podría ser el caso en que la base de datos sólo pueden
+ * __Restringido__: los datos son disponibles bajo ciertas restricciones. Un ejemplo podría ser el caso en que la base de datos sólo pueden
    entregarse a centros de investigación bajo términos de cuidado de la información, ya que los datos podrían contener suficiente
    granularidad para re-identificar individuos; a pesar de que no cuenten con información personal. Otro caso podrían ser datos
    que contienen información personal y son compartidos entre entidades de gobierno para fines internos. El campo “Comentarios sobre
    el nivel de acceso” deberá contener una explicación de este caso, y los detalles para solicitar acceso.
 
- * Privado: los datos no están disponibles al público. Esta categoría incluye datos protegidos por la
+ * __Privado__: los datos no están disponibles al público. Esta categoría incluye datos protegidos por la
    [“Ley Federal de Transparencia y Acceso a la Información Pública”], como aquellos de seguridad nacional o que contienen información
    personal. El campo “Comentarios sobre el nivel de acceso” deberá contener una explicación de la razón por la cual no se hizo pública
    esta base de datos.

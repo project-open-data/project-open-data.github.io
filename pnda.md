@@ -25,8 +25,6 @@ sections:
     path: /proteccion
   - name: Recursos
     path: /recursos
-  - name: Responsabilidades inmediatas
-    path: /responsabilidades
   - name: Anexos
     path: /anexos
 ---

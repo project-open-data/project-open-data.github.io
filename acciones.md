@@ -2,7 +2,7 @@
 published: true
 layout: navegable
 permalink: "/acciones/"
-filename: "recursos.md"
+filename: "acciones.md"
 title: Política Nacional de Datos Abiertos
 sections:
   - name: Considerando
@@ -25,8 +25,6 @@ sections:
     path: /proteccion
   - name: Acciones inmediatas
     path: /acciones
-  - name: Responsabilidades inmediatas
-    path: /responsabilidades
   - name: Anexos
     path: /anexos
 ---
