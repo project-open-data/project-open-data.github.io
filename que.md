@@ -43,7 +43,7 @@ Los objetivos de este proceso son:
 
 A 120 días después de la publicación oficial de la PNDA:
 
- 1. Crear la primera versión del inventario de datos de la entidad:
+1. Crear la primera versión del inventario de datos de la entidad:
  
    * Asegurar que el inventario registra al menos el 10% de las bases de datos de la entidad.
    
@@ -51,8 +51,7 @@ A 120 días después de la publicación oficial de la PNDA:
    
    * Generar y poblar el inventario dentro del sistema ADELA.
    
-   
- 2. Publicar el “Plan de acción de datos abiertos” de la entidad a través del sistema ADELA, el cual quedará en una ruta única de
+2. Publicar el “Plan de acción de datos abiertos” de la entidad a través del sistema ADELA, el cual quedará en una ruta única de
     ADELA por cada entidad, p. ej. www.datos.gob.mx/[ADELA]/[entidad]/plan. En dicho sistema se requiere completar los formularios
     y cronogramas del plan de acción de la entidad, donde entre otros puntos, se describe la estrategia para la creación y mantenimiento
     del inventario de datos cumpliendo con los siguientes puntos:
@@ -61,11 +60,11 @@ A 120 días después de la publicación oficial de la PNDA:
      a un año de la publicación oficial de la PNDA.
      
    * Describir como la entidad planea expandir y enriquecer su inventario cada 6 meses, incluyendo hitos y fechas clave en la sección
-     del “Cronograma de implementación”.
-     
-De manera contínua a partir de los primeros 120 días después de la publicación de la PNDA:
- 
- 3. Mantener, actualizar, y expandir el inventario de datos, conforme a lo definido en el “Plan de acción de datos abiertos” de la
+     del “Cronograma de implementación”.  
+
+De manera contínua a partir de los primeros 120 días después de la publicación de la PNDA:  
+
+3. Mantener, actualizar, y expandir el inventario de datos, conforme a lo definido en el “Plan de acción de datos abiertos” de la
     entidad.
     
 
