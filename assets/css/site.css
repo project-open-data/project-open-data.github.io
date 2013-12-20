@@ -3,7 +3,8 @@
 body {
   background-color: #F0F0F0;
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 28px;
   margin: 0;
 }
 ul a[rel="footnote"] {
@@ -88,9 +89,14 @@ ol, ul {
 .title {
   color: black;
   font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 64px;
+  font-size: 54px;
+  line-height: 54px;
   text-transform: uppercase;
 }
+.nav > li > a {
+  font-size: 14px;
+}
+
 .navbar .btn-navbar {
   color: #F0F0F0;
   font-style: italic;
