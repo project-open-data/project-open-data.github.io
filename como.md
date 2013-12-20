@@ -24,28 +24,28 @@ sections:
 Como lo define la “Política Nacional de Datos Abiertos” en su sección 5.1, para ser considerados datos abiertos, las bases de datos de
 las entidades de la APF deberán cumplir con las siguientes características:
 
- * Completos: que reflejen la totalidad del tema y descritos con detalle.
+ * __Completos__: que reflejen la totalidad del tema y descritos con detalle.
  
- * Públicos: de interés general y carácter público, protegiendo la privacidad.
+ * __Públicos__: de interés general y carácter público, protegiendo la privacidad.
  
- * Primarios: que provienen de la fuente original y tienen el máximo nivel de desagregación posible.
+ * __Primarios__: que provienen de la fuente original y tienen el máximo nivel de desagregación posible.
  
- * En tiempo: siendo oportunos y actualizados tan pronto sea posible.
+ * __En tiempo__: siendo oportunos y actualizados tan pronto sea posible.
  
- * De libre acceso: disponibles de manera conveniente, sin restricciones de acceso ni discriminación.
+ * __De libre acceso__: disponibles de manera conveniente, sin restricciones de acceso ni discriminación.
  
- * Procesable por máquina: estructurados de tal forma que permita el procesamiento automático.
+ * __Procesable por máquina__: estructurados de tal forma que permita el procesamiento automático.
  
- * En formatos abiertos: que utilicen estándares abiertos, procesables por máquinas y pueden ser descargables y operados con los
+ * __En formatos abiertos__: que utilicen estándares abiertos, procesables por máquinas y pueden ser descargables y operados con los
    requerimientos tecnológicos mínimos.
    
- * Con licencia de libre uso: que define claramente la libertad y certeza de ser utilizados como insumo para cualquier fin, requiriendo
+ * __Con licencia de libre uso__: que define claramente la libertad y certeza de ser utilizados como insumo para cualquier fin, requiriendo
    a lo mucho, atribución.
    
- * Permanentes: para habilitar la capacidad de encontrar la información publicada a perpetuidad; y para que toda información hecha
+ * __Permanentes__: para habilitar la capacidad de encontrar la información publicada a perpetuidad; y para que toda información hecha
    pública, permanezcan así, siempre con identificadores adecuados respecto a versiones y archivado en el tiempo.
    
- * Costos de utilización: que deberán ser justos -preferentemente nulos-, para evitar barreras al uso por parte de los ciudadanos.
+ * __Costos de utilización__: que deberán ser justos -preferentemente nulos-, para evitar barreras al uso por parte de los ciudadanos.
  
  
  

@@ -185,15 +185,15 @@ de privacidad, confidencialidad y seguridad definidas en este documento y en la 
 
 
 
- * Público: los datos pueden hacerse públicos a toda la población sin ninguna restricción.
+ * __Público__: los datos pueden hacerse públicos a toda la población sin ninguna restricción.
  
- * Restringido: los datos son disponibles bajo ciertas restricciones. Un ejemplo podría ser el caso en que la base de datos sólo pueden
+ * __Restringido__: los datos son disponibles bajo ciertas restricciones. Un ejemplo podría ser el caso en que la base de datos sólo pueden
    entregarse a centros de investigación bajo términos de cuidado de la información, ya que los datos podrían contener suficiente
    granularidad para re-identificar individuos; a pesar de que no cuenten con información personal. Otro caso podrían ser datos
    que contienen información personal y son compartidos entre entidades de gobierno para fines internos. El campo “Comentarios sobre
    el nivel de acceso” deberá contener una explicación de este caso, y los detalles para solicitar acceso.
 
- * Privado: los datos no están disponibles al público. Esta categoría incluye datos protegidos por la
+ * __Privado__: los datos no están disponibles al público. Esta categoría incluye datos protegidos por la
    [“Ley Federal de Transparencia y Acceso a la Información Pública”], como aquellos de seguridad nacional o que contienen información
    personal. El campo “Comentarios sobre el nivel de acceso” deberá contener una explicación de la razón por la cual no se hizo pública
    esta base de datos.
