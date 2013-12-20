@@ -1,7 +1,7 @@
 ---
 published: true
 layout: navegable
-permalink: "/recursos/"
+permalink: "/acciones/"
 filename: "recursos.md"
 title: Política Nacional de Datos Abiertos
 sections:
@@ -23,8 +23,8 @@ sections:
     path: /vinculacion
   - name: Protección de datos
     path: /proteccion
-  - name: Recursos
-    path: /recursos
+  - name: Acciones inmediatas
+    path: /acciones
   - name: Responsabilidades inmediatas
     path: /responsabilidades
   - name: Anexos
