@@ -3,7 +3,8 @@
 body {
   background-color: #F0F0F0;
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 28px;
   margin: 0;
 }
 ul a[rel="footnote"] {
@@ -88,9 +89,14 @@ ol, ul {
 .title {
   color: black;
   font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 64px;
+  font-size: 54px;
+  line-height: 54px;
   text-transform: uppercase;
 }
+.nav > li > a {
+  font-size: 14px;
+}
+
 .navbar .btn-navbar {
   color: #F0F0F0;
   font-style: italic;
@@ -724,21 +730,33 @@ img.logo {
   margin: 0 20px 30px 0;
 }
 
-.content {
-  margin: 60px auto;
-}
-
 .row-fluid .brand-wrapper {
   margin-left: 0;
   height: 119px;
   padding-top: 11px;
 }
 
+.centered-content, .lefty-content {
+  margin: 60px auto;
+  max-width: 750px;
+}
 
 /* RESPONSIVE */
 
+@media (min-width: 979px) {
+  .lefty-content {
+    padding-left: 0;
+    margin: 60px 0;
+    max-width: 960px;
+  }
+}
 
 @media (max-width: 979px) {
+  .row-fluid .span-content {
+    width: 100%;
+    margin: 0;
+  }
+
   #topbar { height: 0 }
 
   .navbar .nav-collapse .nav.pull-right {
