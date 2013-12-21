@@ -19,7 +19,7 @@ sections:
     path: /addendum
 ---
 
-## Introducción
+# Introducción
 
 La Coordinación de Estrategia Digital Nacional (CEDN) publica esta guía con el propósito de definir los lineamientos para que las
 entidades de la Administración Pública Federal (APF) cumplan con los objetivos de la “Política Nacional de Datos Abiertos” (PNDA),

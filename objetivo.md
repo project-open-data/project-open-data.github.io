@@ -6,6 +6,8 @@ permalink: "/objetivo/"
 filename: "objetivo.md"
 title: Política Nacional de Datos Abiertos
 sections:
+  - name: Introducción
+    path: /pnda
   - name: Considerando
     path: /considerando
   - name: Objetivo de la Política

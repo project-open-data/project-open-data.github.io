@@ -19,7 +19,7 @@ sections:
     path: /addendum
 ---
 
-## 3 ¿Cuál es el plan para abrir los datos?
+# 3 ¿Cuál es el plan para abrir los datos?
 
 
 Las entidades de la APF establecerán una estructura y cultura organizacional de datos abiertos. Con el diseño de nuevos procesos
