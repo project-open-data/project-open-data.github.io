@@ -1,9 +1,10 @@
 ---
 layout: default
-title: M-13-13 — Memorandum for the Heads of Executive Departments and Agencies
-permalink: /policy-memo/
-filename: policy-memo.md
-id: policy-memo
+title: "M-13-13 — Memorandum for the Heads of Executive Departments and Agencies"
+permalink: "/policy-memo/"
+filename: "policy-memo.md"
+id: "policy-memo"
+published: true
 ---
 
 **From:**
