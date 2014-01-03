@@ -14,7 +14,7 @@
         "distribution": [
             {
                 "accessURL": "",
-                "format": "json"
+                "format": "application/json"
             }
         ]  
     },
