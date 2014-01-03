@@ -3,6 +3,7 @@ layout: default
 title: Governance
 permalink: /governance/
 filename: governance.md
+published: true
 ---
 
 # Project Open Data Governance
@@ -19,7 +20,7 @@ However, there are many ways to participate:
 * _Clone_. Copy code/content to your local machine. There is no official record in Project Open Data, and others cannot see what you do with the code/content.
 * _Fork_. Copy code/content to your own repo in GitHub, and make modifications there. Record of the fork is seen in Project Open Data, and others can see the code/content, but it now resides outsides the Project.
 * _Comment_. Comment on the code/content in Project Open Data using the issue tracker function. Others can see your suggested changes in a public log on Project Open Data. A moderator must accept, modify, or reject the comment in that public log.
-Contribute. Suggest changes to the code/content in Project Open Data by making a pull request. Others can see your suggested changes in a public log on Project Open Data. A moderator must accept, modify, or reject the suggested change in that public log before it becomes a part of the official code/content.
+* _Contribute_. Suggest changes to the code/content in Project Open Data by making a pull request. Others can see your suggested changes in a public log on Project Open Data. A moderator must accept, modify, or reject the suggested change in that public log before it becomes a part of the official code/content.
 
 ## Owners
 Project Open Data is managed by the Office of Management and Budget (OMB) and Office of Science and Technology Policy (OSTP), both components of the Executive Office of the President. The Federal CIO and CTO will both be actively involved, along with members of their teams.
