@@ -2,7 +2,7 @@
     {
         "title": "Data Catalog",
         "description": "Version 1.0", 
-        "keyword": "catalog", 
+        "keyword": ["catalog"], 
         "modified": "2013-05-09",
         "publisher": "US Department of X",
         "contactPoint": "John Doe",
@@ -12,7 +12,7 @@
         "distribution": [
             {
                 "accessURL": "http://agency.gov/data.json",
-                "format": "json"
+                "format": "application/json"
             }
         ]  
     },
@@ -26,13 +26,13 @@
         "mbox": "Jane.doe@ed.gov",
         "identifier": "gov-doe-nces-1121",
         "accessLevel": "public",
-        "bureauCode": "018:10",
-        "programCode": "018:001",
+        "bureauCode": ["018:10"],
+        "programCode": ["018:001"],
         "accessLevelComment": "",
         "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-                "format": "csv"
+                "format": "text/csv"
             }
         ],
         "webService": "http://explore.data.gov/api/views/ykv5-fn9t/rows.json", 
@@ -44,7 +44,7 @@
         "dataQuality": true,
         "issued": "2011-11-22",
         "accrualPeriodicity": "annual",
-        "language": "en-US", 
+        "language": ["en-US"], 
         "primaryITInvestmentUII": "021-006227212", 
         "references": ["http://nces.ed.gov/ccd/data/txt/psu091alay.html","http://nces.ed.gov/ccd/data/txt/psu091s23ay.doc"], 
         "landingPage": "http://ed.gov/developer",
@@ -60,35 +60,35 @@
         "mbox": "Jane.doe@ed.gov",
         "identifier": "gov-doe-nces-1120",
         "accessLevel": "public",
-        "bureauCode": "018:10",
-        "programCode": "018:001",
+        "bureauCode": ["018:10"],
+        "programCode": ["018:001"],
         "accessLevelComment": "",
         "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.csv?accessType=DOWNLOAD", 
-                "format": "csv"
+                "format": "text/csv"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.json?accessType=DOWNLOAD", 
-                "format": "json"
+                "format": "application/json"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.xml?accessType=DOWNLOAD", 
-                "format": "xml"
+                "format": "application/xml"
             }
         ],
         "webService": "http://explore.data.gov/api/views/ykv5-fn9s/rows.json", 
         "license": "Public Domain", 
         "spatial": "United States", 
         "temporal": "2008-09-01T12:00:00Z/2009-05-31T12:00:00Z", 
-        "theme": "education", 
+        "theme": ["education"], 
         "dataDictionary": "http://nces.ed.gov/ccd/pdf/INsc09101a.pdf",
         "dataQuality": true,
         "issued": "2010-11-22",
         "accrualPeriodicity": "annual",
-        "language": "en-US", 
+        "language": ["en-US"], 
         "primaryITInvestmentUII": "021-006227212", 
-        "references": "http://nces.ed.gov/ccd/data/txt/psu091alay.txt", 
+        "references": ["http://nces.ed.gov/ccd/data/txt/psu091alay.txt"], 
         "landingPage": "http://ed.gov/developer",
         "systemOfRecords": "http://nces.ed.gov/ccd/"     
     }]
