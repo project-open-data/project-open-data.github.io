@@ -390,10 +390,5 @@ Additional Information
 * [Schema.org](http://schema.org)
 * [DCAT](http://www.w3.org/TR/vocab-dcat/)
 * [Vocab.Data.gov](http://vocab.data.gov)
+* [Template and Sample Files (CSV and JSON format)](/metadata-resources/)
 
-
-Examples
---------
-* [JSON](/metadata-resources/)
-* [RDFa Lite](/metadata-resources/)
-* [XML](/metadata-resources/)
