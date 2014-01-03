@@ -10,7 +10,7 @@
         "identifier": "",
         "accessLevel": "",
 	"accessURL": "",
-	"format": "json"
+	"format": "application/json"
         "bureauCode": [""],
         "programCode": [""],
     },
