@@ -9,10 +9,10 @@
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-	"accessURL": "",
-	"format": "application/json"
         "bureauCode": [""],
         "programCode": [""],
+	"accessURL": "",
+	"format": "application/json"
     },
     {
         "title": "",
