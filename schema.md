@@ -142,7 +142,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Required** | Yes, for United States Federal Government agencies
 **Accepted Values** | Array of Strings
 **Usage Notes** | Represent each bureau responsible for the dataset according to the codes found in [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf). Start with the agency code, then a colon, then the bureau code.
-**Example** |  The Office of the Solicitor (86) at the Department of the Interior (010) would be: {"bureauCode":["010:86"]}
+**Example** |  The Office of the Solicitor (86) at the Department of the Interior (010) would be: `{"bureauCode":["010:86"]}`.  If a second bureau was also responsible, the format like this: `{"bureauCode":["010:86","010:04"]}`.
 
 {: .table .table-striped}
 **Field** | **contactPoint**
@@ -255,7 +255,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Required** | No
 **Accepted Values** | Array of strings
 **Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard. This [language subtag lookup](http://rishida.net/utils/subtags/) provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English).
-**Examples** |  `{"language":["es-MX","wo","nv","en-US"]}` 
+**Example** |  `{"language":["en-US"]}` or if multiple languages, `{"language":["es-MX","wo","nv","en-US"]}` 
 
 {: .table .table-striped}
 **Field** | **license**
@@ -300,7 +300,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Required** | Yes, for United States Federal Government Agencies
 **Accepted Values** | Array of strings
 **Usage Notes** | Provide an array of programs related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls).
-**Example** |  `{"programCode":["015:001","015:002"]}`
+**Example** |  `{"programCode":["015:001"]}` or if multiple programs, `{"programCode":["015:001","015:002"]}`
 
 {: .table .table-striped}
 **Field** | **publisher**
@@ -318,7 +318,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Required** | No
 **Accepted Values** | Array of strings (URLs)
 **Usage Notes** | Enclose each URL within strings. Separate multiple URLs with a comma.
-**Example** |  `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html","http://www.agency.gov/fruits/fruit_data_documentation.html"]}`
+**Example** |  `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html"]}` or if multiple URLs, `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html","http://www.agency.gov/fruits/fruit_data_documentation.html"]}`
 
 {: .table .table-striped}
 **Field** | **spatial**
@@ -345,7 +345,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Required** | No
 **Accepted Values** | Array of strings
 **Usage Notes** | Separate multiple categories with a comma. Could include [ISO Topic Categories](http://www.isotopicmaps.org/).  
-**Example** |  `{"theme":["vegetables","produce"]}`
+**Example** |  `{"theme":["vegetables"]}` or if muplitle categories, `{"theme":["vegetables","produce"]}`
 
 {: .table .table-striped}
 **Field**       | **title**
