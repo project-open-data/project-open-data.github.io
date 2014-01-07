@@ -19,7 +19,7 @@ Contributions can be made, primarily in two ways:
 
 ### Advanced
 
-1. Configure git by using this [basic tutorial](https://help.github.com/articles/set-up-git) or by downloading the [GitHub for Mac](http://mac.github.com/) (or [GitHub for Windows](http://windows.github.com/)) and optionally [Mou](http://mouapp.com/)1
+1. Configure git by using this [basic tutorial](https://help.github.com/articles/set-up-git) or by downloading the [GitHub for Mac](http://mac.github.com/) (or [GitHub for Windows](http://windows.github.com/)) and optionally [Mou](http://mouapp.com/).
 2. [Fork](https://help.github.com/articles/fork-a-repo) the project
 3. Make changes as you would normally using the tools installed in step #1.
 4. Push the changes back to your fork
