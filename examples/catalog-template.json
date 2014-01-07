@@ -2,15 +2,17 @@
     {
         "title": "Data Catalog",
         "description": "Version 1.0", 
-        "keyword": "catalog", 
+        "keyword": ["catalog"], 
         "modified": "",
         "publisher": "",
         "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-		"accessURL": "",
-		"format": "json"
+        "bureauCode": [""],
+        "programCode": [""],
+	"accessURL": "",
+	"format": "application/json"
     },
     {
         "title": "",
@@ -22,11 +24,11 @@
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "bureauCode": "",
-        "programCode": "",
+        "bureauCode": [""],
+        "programCode": [""],
         "accessLevelComment": "",
-		"accessURL": "", 
-		"format": "",
+	"accessURL": "", 
+	"format": "",
         "webService": "", 
         "license": "", 
         "spatial": "", 
@@ -42,8 +44,8 @@
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "bureauCode": "",
-        "programCode": "",
+        "bureauCode": [""],
+        "programCode": [""],
         "accessLevelComment": "",
         "distribution": [
             {

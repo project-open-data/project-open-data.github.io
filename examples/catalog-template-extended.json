@@ -2,17 +2,19 @@
     {
         "title": "Data Catalog",
         "description": "Version 1.0", 
-        "keyword": "catalog", 
+        "keyword": ["catalog"], 
         "modified": "",
         "publisher": "",
         "contactPoint": "",
         "mbox": "",
         "identifier": "",
         "accessLevel": "public",
+        "bureauCode": [""],
+        "programCode": [""],    
         "distribution": [
             {
                 "accessURL": "",
-                "format": "json"
+                "format": "application/json"
             }
         ]  
     },
@@ -26,8 +28,8 @@
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "bureauCode": "",
-        "programCode": "",
+        "bureauCode": [""],
+        "programCode": [""],
         "accessLevelComment": "",
         "distribution": [
             {
@@ -39,12 +41,12 @@
         "license": "", 
         "spatial": "", 
         "temporal": "", 
-        "theme": "", 
+        "theme": [""], 
         "dataDictionary": "",
         "dataQuality": ,
         "issued": "",
         "accrualPeriodicity": "",
-        "language": "", 
+        "language": [""], 
         "primaryITInvestmentUII": "", 
         "references": ["",""], 
         "landingPage": "",
@@ -60,8 +62,8 @@
         "mbox": "",
         "identifier": "",
         "accessLevel": "",
-        "bureauCode": "",
-        "programCode": "",
+        "bureauCode": [""],
+        "programCode": [""],
         "accessLevelComment": "",
         "distribution": [
             {
@@ -81,14 +83,14 @@
         "license": "", 
         "spatial": "", 
         "temporal": "", 
-        "theme": "", 
+        "theme": [""], 
         "dataDictionary": "",
         "dataQuality": ,
         "issued": "",
         "accrualPeriodicity": "",
-        "language": "", 
+        "language": [""], 
         "primaryITInvestmentUII": "", 
-        "references": "", 
+        "references": [""], 
         "landingPage": "",
         "systemOfRecords": ""     
     }]

@@ -2,15 +2,18 @@
     {
         "title": "Data Catalog",
         "description": "Version 1.0", 
-        "keyword": "catalog", 
+        "keyword": ["catalog"], 
         "modified": "2013-05-09",
         "publisher": "US Department of X",
         "contactPoint": "John Doe",
         "mbox": "john.doe@agency.gov",
         "identifier": "1",
         "accessLevel": "public",
-		"accessURL": "http://agency.gov/data.json",
-		"format": "json"
+        "bureauCode": ["018:10"],
+        "programCode": ["018:001"],
+	"accessURL": "http://agency.gov/data.json",
+	"format": "application/json"
+	
     },
     {
         "title": "Public Elementary/Secondary Listing",
@@ -25,8 +28,8 @@
         "bureauCode": "018:10",
         "programCode": "018:001",
         "accessLevelComment": "",
-		"accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-		"format": "csv",
+	"accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
+	"format": "text/csv",
         "webService": "http://explore.data.gov/api/views/ykv5-fn9t/rows.json", 
         "license": "Public Domain", 
         "spatial": "United States", 
@@ -42,21 +45,21 @@
         "mbox": "Jane.doe@ed.gov",
         "identifier": "gov-doe-nces-1120",
         "accessLevel": "public",
-        "bureauCode": "018:10",
-        "programCode": "018:001",
+        "bureauCode": ["018:10"],
+        "programCode": ["018:001"],
         "accessLevelComment": "",
         "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.csv?accessType=DOWNLOAD", 
-                "format": "csv"
+                "format": "text/csv"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.json?accessType=DOWNLOAD", 
-                "format": "json"
+                "format": "application/json"
             }, 
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.xml?accessType=DOWNLOAD", 
-                "format": "xml"
+                "format": "application/xml"
             }
         ],
         "webService": "http://explore.data.gov/api/views/ykv5-fn9s/rows.json", 
