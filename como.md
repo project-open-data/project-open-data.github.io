@@ -19,7 +19,7 @@ sections:
     path: /addendum
 ---
 
-## 4 ¿Cómo abrir los datos?
+# 4 ¿Cómo abrir los datos?
 
 Como lo define la “Política Nacional de Datos Abiertos” en su sección 5.1, para ser considerados datos abiertos, las bases de datos de
 las entidades de la APF deberán cumplir con las siguientes características:
