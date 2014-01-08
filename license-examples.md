@@ -19,7 +19,7 @@ Data and content created by government employees within the scope of their emplo
 * [Open Data Commons Public Domain Dedication and Licence (PDDL)](http://opendefinition.org/licenses/odc-pddl)
 * [Open Data Commons Attribution License](http://opendatacommons.org/licenses/by/)
 * [Open Data Commons Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/)
-* [Creative Commons CC0](http://creativecommons.org/choose/)
+* [Creative Commons CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## More Information
 *[Extended list of conformant licenses](http://opendefinition.org/licenses/)*
