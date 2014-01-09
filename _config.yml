@@ -3,7 +3,7 @@ title: Iniciativa de Datos Abiertos
 desc: "Iniciativa de Datos Abiertos"
 url: http://mexico-abierto.github.io/iniciativa-datos-abiertos
 repo_name: iniciativa-datos-abiertos
-branch: colaborativo
+branch: gh-pages
 
 # configuración global, no moverle
 root_url: http://mexico-abierto.github.io/iniciativa-datos-abiertos
