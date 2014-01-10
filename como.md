@@ -192,7 +192,7 @@ A continuación categorizamos los formatos sugeridos por tipo de dato.
 
 **Formatos recomendados para datos genéricos**
 
-<table border="1">
+<table border="1" class="green">
    <tr>
       <th>Formato</th>
       <th>Descripci&oacute;n</th>
@@ -234,7 +234,7 @@ A continuación categorizamos los formatos sugeridos por tipo de dato.
 **Formatos recomendados para datos geográficos** 
 
 
-<table border="1">
+<table border="1" class="green">
    <tr>
       <th>Formato</th>
       <th>Descripci&oacute;n</th>

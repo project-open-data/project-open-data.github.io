@@ -108,7 +108,7 @@ de uso, la interfaz del sistema ADELA tiene la capacidad de mostrar los campos a
 ## Metadatos mínimos requeridos
 
 
-<table border="1"> 
+<table border="1" class="green">
    <tr>
       <th>Llave</th>
       <th>Formato</th>
@@ -204,7 +204,7 @@ de privacidad, confidencialidad y seguridad definidas en este documento y en la 
 ### Metadatos requeridos en los casos que aplique
 {:#metadatos-requeridos}
 
- <table border="1">
+ <table border="1" class="green">
    <tr>
       <th>Llave</th>
       <th>Formato</th>
@@ -257,7 +257,7 @@ Se invita a las entidades de la APF a extender las descripciones de sus metadato
 cualquier otro vocabulario reconocido por la comunidad internacional (p. ej. Dublin Core):
 
 
-<table border="1">
+<table border="1" class="green">
    <tr>
       <th>Llave</th>
       <th>Formato</th>
