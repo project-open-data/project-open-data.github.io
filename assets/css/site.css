@@ -167,6 +167,7 @@ a.btn-primary {
 .footnotes ol li p { margin-bottom: 10px;}
 
 /* tables */
+
 table {
   background-color: transparent;
   border-collapse: collapse;
@@ -187,6 +188,7 @@ table {
 .table-striped tbody tr:nth-child(2n+1) td,
 .table-striped tbody tr:nth-child(2n+1) th { background-color: #F9F9F9; }
 
+th, td { padding: 6px }
 
 table#infraestructura th {
   color: #000000;
@@ -202,6 +204,14 @@ table#infraestructura tr#sub {
 table th {
   color: #FFFFFF;
   background-color: #666666;
+}
+
+table.green {
+  text-align: left;
+}
+
+table.green th {
+  background-color: #A2CF83;
 }
 
 
