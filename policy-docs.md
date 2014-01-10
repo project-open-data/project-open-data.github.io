@@ -21,5 +21,5 @@ This section offers examples of policy documents (memos, guidance, manuals, etc)
 
 ## Guidance
 
-* [Sample Procedure for an agency-wide data call](http://project-open-data.github.io/assets/docs/sample_data_call_procedure).  
+* [Sample Procedure for an agency-wide data call](/assets/docs/sample_data_call_procedure/).
 
