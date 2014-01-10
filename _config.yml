@@ -9,6 +9,8 @@ branch: gh-pages
 root_url: http://mexico-abierto.github.io/iniciativa-datos-abiertos
 org_name: mexico-abierto
 prose_url: http://prose.io
+ga_code: UA-44411606-2
+ga_site: mexico-abierto.github.io
 
 # configuración local, no es necesario editar
 pymgemnts: true
