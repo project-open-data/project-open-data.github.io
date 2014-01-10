@@ -167,6 +167,7 @@ a.btn-primary {
 .footnotes ol li p { margin-bottom: 10px;}
 
 /* tables */
+
 table {
   background-color: transparent;
   border-collapse: collapse;
@@ -187,6 +188,7 @@ table {
 .table-striped tbody tr:nth-child(2n+1) td,
 .table-striped tbody tr:nth-child(2n+1) th { background-color: #F9F9F9; }
 
+th, td { padding: 6px }
 
 table#infraestructura th {
   color: #000000;
