@@ -25,8 +25,6 @@ sections:
     path: /vinculacion
   - name: Protección de datos
     path: /proteccion
-  - name: Recursos
-    path: /recursos
   - name: Anexos
     path: /anexos
 ---
