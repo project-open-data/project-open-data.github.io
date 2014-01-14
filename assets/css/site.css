@@ -751,7 +751,40 @@ img.logo {
   max-width: 750px;
 }
 
+.table-footer {
+  font-size: 12px;
+}
+
+/* PAGE STYLES */
+
+
+.odra tr.subheader {
+  background-color: #6558FB;
+  color: #FFFFFF;
+}
+
+.odra strong,
+.odra h1,
+.odra h2,
+.odra h3,
+.odra h4,
+.odra h5,
+.odra h6 {
+  color: #6558FB;
+}
+
+.odra .sidenav > li > a:hover,
+.odra .sidenav > li > a:focus,
+.odra .sidenav > li > a:active {
+  background-color: #6558FB;
+  -moz-box-shadow: 4px 4px #170F85;
+  -webkit-box-shadow: 4px 4px #170F85;
+  box-shadow: 4px 4px #170F85;
+}
+
+
 /* RESPONSIVE */
+
 
 @media (min-width: 979px) {
   .lefty-content {
