@@ -4,6 +4,7 @@ permalink: /addendum/
 layout: navegable
 filename: addendum.md
 title: Guía para la Publicación de Datos Abiertos
+doc-name: guia
 sections:
   - name: Introducción
     path: /intro

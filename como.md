@@ -4,6 +4,7 @@ permalink: /como/
 layout: navegable
 filename: como.md
 title: Guía para la Publicación de Datos Abiertos
+doc-name: guia
 sections:
   - name: Introducción
     path: /intro
@@ -192,7 +193,7 @@ A continuación categorizamos los formatos sugeridos por tipo de dato.
 
 **Formatos recomendados para datos genéricos**
 
-<table border="1" class="green">
+<table border="1">
    <tr>
       <th>Formato</th>
       <th>Descripci&oacute;n</th>
@@ -234,7 +235,7 @@ A continuación categorizamos los formatos sugeridos por tipo de dato.
 **Formatos recomendados para datos geográficos** 
 
 
-<table border="1" class="green">
+<table border="1">
    <tr>
       <th>Formato</th>
       <th>Descripci&oacute;n</th>
