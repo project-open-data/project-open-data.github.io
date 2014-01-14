@@ -693,7 +693,7 @@ table th {
 
 .sidenav a.active {
   color: white;
-  background-color: #32f0E6;
+  background-color: #32F0E6;
   margin-right: -20px;
   padding: 10px;
   text-align: right;
@@ -709,7 +709,7 @@ table th {
 }
 
 .sidenav > li > a:active {
-  background-color: #32f0E6;
+  background-color: #32F0E6;
   -moz-box-shadow: 4px 4px #00CCCC;
   -webkit-box-shadow: 4px 4px #00CCCC;
   box-shadow: 4px 4px #00CCCC;
@@ -737,6 +737,26 @@ img.logo {
 }
 
 /* PAGE STYLES */
+
+
+.pnda strong,
+.pnda h1,
+.pnda h2,
+.pnda h3,
+.pnda h4,
+.pnda h5,
+.pnda h6 {
+  color: #32F0E6;
+}
+
+.pnda .sidenav > li > a:hover,
+.pnda .sidenav > li > a:focus,
+.pnda .sidenav > li > a:active {
+  background-color: #32F0E6;
+  -moz-box-shadow: 4px 4px #00CCCC;
+  -webkit-box-shadow: 4px 4px #00CCCC;
+  box-shadow: 4px 4px #00CCCC;
+}
 
 
 .guia th {
@@ -819,7 +839,7 @@ img.logo {
     border-top: 0;
     font-weight: normal;
     font-style: normal;
-    color: #32f0E6;
+    color: #32F0E6;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -827,7 +847,7 @@ img.logo {
   .navbar .nav > li > a:focus,
   .navbar .nav > li > a:hover {
     border-top: 0;
-    color: #32f0E6;
+    color: #32F0E6;
     text-decoration: none;
   }
   a.btn-primary {
