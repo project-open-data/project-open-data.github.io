@@ -190,17 +190,6 @@ table {
 
 th, td { padding: 6px }
 
-table#infraestructura th {
-  color: #000000;
-  background-color: #32F0DC;
-}
-
-table#infraestructura tr#sub {
-  color: #FFFFFF;
-  background-color: #666666;
-}
-
-
 table th {
   color: #FFFFFF;
   background-color: #666666;
