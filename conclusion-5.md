@@ -129,9 +129,63 @@ entidades de gobierno que tienen en su responsabilidad partes
 importantes de estos datos.</p>
 
 Este Estudio de Preparación para la Apertura de Datos está orientado a producir una evaluación del grado de preparación de un Gobierno para poner en marcha y mantener una iniciativa de Datos Abiertos. Se basa en 8 dimensiones, cada una de las cuales tiene diferentes pesos relativos respecto de su importancia.
+
 De manera general, esta es la evaluación:
 
-<table>
+<table border="1">
+  <tr>
+  <th>Áreas de evaluación</th>
+  <th>Importancia</th>
+  <th>Evaluación</th>
+  </tr>
+
+  <tr>
+  <td>1. Liderazgo</td>
+  <td>Muy alta</td>
+  <td class="yellow"></td>
+  </tr>
+
+  <tr>
+  <td>2. Legislación / políticas</td>
+  <td>Alta</td>
+  <td class="yellow"></td>
+  </tr>
+
+  <tr>
+  <td>3. Organización</td>
+  <td>Medio-alta</td>
+  <td class="yellow"></td>
+  </tr>
+
+  <tr>
+  <td>4. Datos públicos</td>
+  <td>Alta</td>
+  <td class="yellow"></td>
+  </tr>
+
+  <tr>
+  <td>5. Demanda</td>
+  <td>Alta</td>
+  <td class="yellow"></td>
+  </tr>
+
+  <tr>
+  <td>6. Reutilización y comunidades</td>
+  <td>Medio-alta</td>
+  <td class="green"></td>
+  </tr>
+
+  <tr>
+  <td>7. Financiamiento</td>
+  <td>Alta</td>
+  <td class="green"></td>
+  </tr>
+
+  <tr>
+  <td>8. Tecnología</td>
+  <td>Alta</td>
+  <td class="yellow"></td>
+  </tr>
 
 </table>
 
