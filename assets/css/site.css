@@ -784,6 +784,19 @@ img.logo {
 }
 
 
+.odra table {
+  text-align: left;
+  width: 100%;
+}
+
+.odra td.yellow {
+  background-color: #DFBF59;
+}
+
+.odra td.green {
+  background-color: #00AB65;
+}
+
 .odra tr.subheader {
   background-color: #6558FB;
   color: #FFFFFF;
