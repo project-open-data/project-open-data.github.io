@@ -4,6 +4,7 @@ permalink: /odra/
 layout: navegable
 filename: odra.md
 title: Estudio de Preparación para la Apertura de Datos
+doc-name: odra
 sections:
   - name: Resumen
     path: odra

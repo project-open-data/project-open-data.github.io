@@ -4,6 +4,7 @@ permalink: /pnda/
 layout: navegable
 filename: pnda.md
 title: Política Nacional de Datos Abiertos
+doc-name: pnda
 sections:
   - name: Introducción
     path: /pnda
@@ -25,8 +26,6 @@ sections:
     path: /vinculacion
   - name: Protección de datos
     path: /proteccion
-  - name: Recursos
-    path: /recursos
   - name: Anexos
     path: /anexos
 ---

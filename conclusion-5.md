@@ -4,6 +4,7 @@ permalink: /conclusion-5/
 layout: navegable
 filename: conclusion-5.md
 title: Estudio de Preparación para la Apertura de Datos
+doc-name: odra
 sections:
   - name: Resumen
     path: odra
@@ -24,7 +25,7 @@ sections:
 **Tabla 1: Datos abiertos relacionados con el Plan Nacional de
 Desarrollo**
 
-<table border="1" class="green">
+<table border="1">
   <tr>
   <th>Componentes de la <a href="http://www.presidencia.gob.mx/edn"
 target="_blank">EDN</a> que apoyan al PND</th>
@@ -32,7 +33,7 @@ target="_blank">EDN</a> que apoyan al PND</th>
   <th>Dependencias en posesión de estos datos</th>
   </tr>
 
-  <tr><td>Transformación gubernamental</td><td></td><td></td></tr>
+  <tr class="subheader"><td>Transformación gubernamental</td><td></td><td></td></tr>
   <tr>
   <td>Gestión digital del territorio nacional</td>
   <td>Apertura de datos geoespaciales:
@@ -42,14 +43,14 @@ target="_blank">EDN</a> que apoyan al PND</th>
       <li>Cartografía topográfica (incluyendo altura)</li>
       <li>Nombres geográficos</li>
       <li>Calles y direcciones</li>
-      <li>Hidrología/ Hidrografía</li>
+      <li>Hidrología/Hidrografía</li>
       <li>Límites estadísticos</li>
     </ul>
   </td>
-  <td>SEDATU, INEGI, CONAGUA</td>
+  <td>SEDATU<br />INEGI<br />CONAGUA</td>
   </tr>
 
-  <tr><td>Salud universal</td><td></td><td></td></tr>
+  <tr class="subheader"><td>Salud universal</td><td></td><td></td></tr>
   <tr>
   <td>Prevención</td>
   <td>
@@ -57,7 +58,7 @@ target="_blank">EDN</a> que apoyan al PND</th>
       <li>Casos de enfermedades graves (por ejemplo, cáncer)</li>
     </ul>
   </td>
-  <td>Salud, IMSS, ISSSTE, PEMEX</td>
+  <td>Salud<br />IMSS<br />ISSSTE<br />PEMEX</td>
   </tr>
   <tr>
   <td>Servicios de Salud de Calidad</td>
@@ -70,10 +71,10 @@ target="_blank">EDN</a> que apoyan al PND</th>
       <li>Número de pacientes por centro sanitario</li>
     </ul>
   </td>
-  <td>Salud, IMSS, ISSSTE, PEMEX, SEDENA</td>
+  <td>Salud<br />IMSS<br />ISSSTE<br />PEMEX<br />SEDENA</td>
   </tr>
 
-  <tr><td>Educación de Calidad</td><td></td><td></td></tr>
+  <tr class="subheader"><td>Educación de calidad</td><td></td><td></td></tr>
   <tr>
   <td></td>
   <td>
@@ -85,10 +86,10 @@ target="_blank">EDN</a> que apoyan al PND</th>
     <li>Gastos de las escuelas (por centro)</li>
     </ul>
   </td>
-  <td>SEP, INEE, CONAPO, CONACYT, FIDERH</td>
+  <td>SEP<br />INEE<br />CONAPO<br />CONACYT<br />FIDERH</td>
   </tr>
 
-  <tr><td>Economía digital</td><td></td><td></td></tr>
+  <tr class="subheader"><td>Economía digital</td><td></td><td></td></tr>
   <tr>
   <td>Democratización de la Productividad</td>
   <td>
@@ -103,10 +104,10 @@ target="_blank">EDN</a> que apoyan al PND</th>
     <li>Datos Meteorológicos</li>
     </ul>
   </td>
-  <td>SHCP, CNBV, SAT, SE, BANXICO, INEGI, STPS, SFP, SCT, CONAGUA</td>
+  <td>SHCP<br />CNBV<br />SAT<br />SE<br />BANXICO<br />INEGI<br />STPS<br />SFP<br />SCT<br />CONAGUA</td>
   </tr>
 
-  <tr><td>Seguridad civil</td><td></td><td></td></tr>
+  <tr class="subheader"><td>Seguridad civil</td><td></td><td></td></tr>
   <tr>
   <td></td>
   <td>
@@ -116,7 +117,7 @@ target="_blank">EDN</a> que apoyan al PND</th>
     <li>Crímenes y delincuencia (desagregados e individualizados pero desanonimizados)</li>
     </ul>
   </td>
-  <td>Salud, SEGOB, SEDENA (DN3), CNS, PGR</td>
+  <td>Salud<br />SEGOB<br />SEDENA (DN3)<br />CNS<br />PGR</td>
   </tr>
 
 </table>

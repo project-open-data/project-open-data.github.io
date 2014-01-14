@@ -4,6 +4,7 @@ permalink: /que/
 layout: navegable
 filename: que.md
 title: Guía para la Publicación de Datos Abiertos
+doc-name: guia
 sections:
   - name: Introducción
     path: /intro
@@ -108,7 +109,7 @@ de uso, la interfaz del sistema ADELA tiene la capacidad de mostrar los campos a
 ## Metadatos mínimos requeridos
 
 
-<table border="1" class="green">
+<table border="1">
    <tr>
       <th>Llave</th>
       <th>Formato</th>
@@ -204,7 +205,7 @@ de privacidad, confidencialidad y seguridad definidas en este documento y en la 
 ### Metadatos requeridos en los casos que aplique
 {:#metadatos-requeridos}
 
- <table border="1" class="green">
+ <table border="1">
    <tr>
       <th>Llave</th>
       <th>Formato</th>
@@ -257,7 +258,7 @@ Se invita a las entidades de la APF a extender las descripciones de sus metadato
 cualquier otro vocabulario reconocido por la comunidad internacional (p. ej. Dublin Core):
 
 
-<table border="1" class="green">
+<table border="1">
    <tr>
       <th>Llave</th>
       <th>Formato</th>

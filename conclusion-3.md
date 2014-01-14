@@ -4,6 +4,7 @@ permalink: /conclusion-3/
 layout: navegable
 filename: conclusion-3.md
 title: Estudio de Preparación para la Apertura de Datos
+doc-name: odra
 sections:
   - name: Resumen
     path: odra
