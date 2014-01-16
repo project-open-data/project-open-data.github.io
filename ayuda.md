@@ -6,6 +6,13 @@ filename: ayuda.md
 title: Ayuda
 ---
 
+### ¿Qué son los datos abiertos?
+
+Los Datos Abiertos permiten maximizar el valor de la información pública. El Gobierno de la República reconoce esto y está promoviendo una Iniciativa de Datos Abiertos. Esto significa que las bases de datos que se generan y administran desde el propio gobierno podrán ser publicadas con ciertas características, para que los datos sean utilizados, reutilizados y redistribuidos, y así crear valor. Esto beneficia a todos los sectores de la sociedad, desde el mismo gobierno, hasta la iniciativa privada, periodistas, academia y sociedad civil.
+
+<a href="http://datos.gob.mx" target="_blank">Conoce más acerca del tema
+y la iniciativa</a>
+
 ### ¿Cómo comentar?
 
 La liga "Comenta" en la navegación superior enlaza a un documento en línea de la Política Nacional de Datos Abiertos y su Guía de Implementación. En dicho documento cualquier usuario podrá dejar comentarios sobre su contenido.
