@@ -7,23 +7,6 @@ body {
   line-height: 28px;
   margin: 0;
 }
-ul a[rel="footnote"] {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  top: -0.5em;
-  vertical-align: baseline;
-}
-
-li { 
-  margin-left: 2em; 
-  padding-left: 0; 
-}
-
-ul.nav li{
-  margin:0;
-  padding: 0 0px 0 0;
-}
 
 h1,
 h2,
@@ -52,10 +35,35 @@ hr {
   border-bottom: 1px solid #303030;
   margin-top: 40px;
 }
+
+
+/****** Lists ******/
+
+
+ul a[rel="footnote"] {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  top: -0.5em;
+  vertical-align: baseline;
+}
+
+li { 
+  margin-left: 2em; 
+  padding-left: 0; 
+}
+
+ul.nav li{
+  margin:0;
+  padding: 0 0px 0 0;
+}
+
 ol, ul {
   margin:0;
   padding: 0 20px 0 0;
 }
+
+
 .container-fluid {
   margin: 0 auto 0px;
   padding: 0 20px;
@@ -151,22 +159,25 @@ a.btn-primary {
   text-decoration: none;
 }
 
-/* policy-memo */
-.policy-memo #from {
-  list-style: none outside none;
-  margin-bottom: 25px;
-  margin-left: 100px;
-  margin-top: -33px;
+.intextimage {
+  display: block;
+  max-width:700px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-.policy-memo .from { margin-right: 4.3em; }
-.footnotes a[rev=footnote] {
-  float: right;
-  margin-top: -40px;
-}
-.footnotes { font-size: 0.8em;}
-.footnotes ol li p { margin-bottom: 10px;}
 
-/* tables */
+#footer {
+  background-color: #726C6C;
+  padding: 40px 10px;
+  height: auto;
+}
+
+
+/****** tables ******/
+
 
 table {
   background-color: transparent;
@@ -196,24 +207,8 @@ table th {
 }
 
 
-/* images */
-.intextimage {
-  display: block;
-  max-width:700px;
-  max-height:400px;
-  width: auto;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
+/****** SIDEBAR ******/
 
-#footer {
-  background-color: #726C6C;
-  padding: 40px 10px;
-  height: auto;
-}
-
-/* SIDEBAR */
 
 .sidebar {
   padding-top: 18px;
@@ -257,7 +252,6 @@ table th {
   box-shadow: 4px 4px #00CCCC;
 }
 
-
 img.logo {
   height: 75px;
   margin: 0 20px 30px 0;
@@ -278,7 +272,8 @@ img.logo {
   font-size: 12px;
 }
 
-/* PAGE STYLES */
+
+/****** PAGE STYLES ******/
 
 
 .pnda strong,
@@ -364,7 +359,7 @@ img.logo {
 }
 
 
-/* RESPONSIVE */
+/****** RESPONSIVE ******/
 
 
 @media (min-width: 979px) {
