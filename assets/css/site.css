@@ -176,6 +176,52 @@ a.btn-primary {
 }
 
 
+/****** botones ******/
+
+
+.cta-wrapper {
+  display: inline-block;
+  width: 48%;
+}
+
+.cta-wrapper .right { float: right; }
+
+.cta-button:active {
+  top: 9px;
+}
+
+.cta-button {
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+  font-size: 46px;
+  font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 120px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all .08s linear;
+  height: 120px;
+  width: 100%;
+}
+
+.cta-button:link,
+.cta-button:visited,
+.cta-button:hover,
+.cta-button:active {
+  color: white;
+  text-decoration: none;
+}
+
+.cta-button.green {
+  background-color: #22D4A7;
+}
+
+.cta-button.purple {
+  background-color: #6558FB;
+}
+
+
 /****** tables ******/
 
 
@@ -264,9 +310,21 @@ img.logo {
 }
 
 .centered-content, .lefty-content {
-  margin: 60px auto;
+  margin: 0 auto;
   max-width: 750px;
 }
+
+.centered-content .row-fluid,
+.call-to-action .row-fluid {
+  margin: 70px auto;
+}
+
+.call-to-action {
+  background-color: #999;
+  color: white;
+}
+
+.call-to-action .pitch { font-size: 28px; line-height: 40px; }
 
 .table-footer {
   font-size: 12px;
@@ -419,5 +477,14 @@ img.logo {
   }
 
   #sections { display: none; }
+}
+@media (max-width: 480px) {
+  .cta-button {
+    font-size: 21px;
+  }
+  .call-to-action .pitch {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
 

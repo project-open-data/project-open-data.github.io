@@ -1,0 +1,40 @@
+{% include header.html %}
+
+<div class="container-fluid centered-content">
+  <div class="row-fluid">
+    <div class="span12">
+      <span class="title">{{ page.title }}</span>
+    </div>
+  </div>
+</div>
+
+<div class="row-fluid call-to-action">
+  <div class="container-fluid centered-content">
+
+    <p class="row-fluid pitch">
+    Te presentamos el primer borrador público,
+    participa en su construcción.
+    </p>
+
+    <div class="row-fluid">
+      <div class="cta-wrapper">
+        <a href="https://docs.google.com/document/d/1fw42eyG3aFwEcGR7qsnfR7Q3dyrLLz46NaJu3sB1stk/edit?usp=sharing" class="cta-button green">Comenta</a>
+      </div>
+      <div class="cta-wrapper right">
+        <a href="http://prose.io/#mexico-abierto/iniciativa-datos-abiertos/edit/gh-pages/pnda.md" class="cta-button purple" target="_blank">Edita</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container-fluid centered-content">
+  <div class="row-fluid">
+    <div class="span12">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
+
