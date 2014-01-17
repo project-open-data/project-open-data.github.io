@@ -26,7 +26,7 @@ Realizamos un diagnóstico con especialistas a nivel internacional para determin
 
 "El Gobierno Federal de México tiene una oportunidad única para aprovechar los Datos Abiertos como motor de la transformación interna del gobierno y la economía del país."
 
-![odraph](http://datos.gob.mx/img/grafica_ODRA-01.svg)
+![odraph](/assets/img/grafica_ODRAdoc-01.svg)
 
 Utiliza el menú para revisar las principales conclusiones y recomendaciones de la Evaluación para la preparación de Datos Abiertos.
 
