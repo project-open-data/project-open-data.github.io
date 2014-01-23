@@ -7,6 +7,7 @@ published: true
 ---
 
 # Project Open Data Governance
+
 ## Background
 Project Open Data is an online collection of code, best practices, and case studies developed to help agencies adopt the framework presented in the OMB memorandum M-13-13 “[Open Data Policy-Managing Information as an Asset](/policy-memo).” Project Open Data will evolve over time as a community resource to facilitate adoption of open data practices. To facilitate collaboration across the Federal Government and in partnership with public developers, the Project is published on the developer social network GitHub.
 
