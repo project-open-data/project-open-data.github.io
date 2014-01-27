@@ -15,7 +15,7 @@ Data and content created by government employees within the scope of their emplo
 
 When acquiring data or content from third-parties, however, care must be taken to ensure use of the work by the public is possible and not restricted by a non-open copyright license. While an [open license](/licenses/), as defined by [M-13-13](/policy-memo/), is now a minimum requirement, agencies should strongly consider making this data "license-free," i.e. in the public domain, along with the works created by the agency itself.
 
-A worldwide public domain dedication such as [CC0](http://creativecommons.org/publicdomain/zero/1.0/) is recommended by a coalition of non-governmental organizations in this [guidance on making government data license-free](http://theunitedstates.io/licensing/), which includes best practices language, examples, and rationale.
+A worldwide public domain dedication such as [CC0](http://creativecommons.org/publicdomain/zero/1.0/) is recommended by a coalition of non-governmental organizations in this [guidance on making government data license-free](http://theunitedstates.io/licensing/), which includes best practices language, real world government examples, and rationale.
 
 When using a license instead, in general such licenses should comply with [the Open Knowledge definition](http://opendefinition.org/okd/) of an open license.
 
