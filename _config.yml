@@ -14,3 +14,4 @@ prose_url: http://prose.io
 pymgemnts: true
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
 markdown: kramdown
+relative_permalinks: false

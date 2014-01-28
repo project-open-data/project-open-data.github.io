@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sample Procedure for a data call
-permalink: /assets/docs/sample_data_call_procedure
+permalink: /assets/docs/sample_data_call_procedure/
 filename: sample_data_call_procedure.md
 ---
 
