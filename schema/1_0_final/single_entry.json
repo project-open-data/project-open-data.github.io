@@ -72,7 +72,7 @@
                     "format": {
                         "title":"Format",
                         "description":"The file format or API type of the distribution.",
-                        "pattern": "^[-\\w]+/[-\\w]+([+][-\\w]+)?$",
+                        "pattern": "^[-\\w]+/[-\\w]+(\\.[-\\w]+)*([+][-\\w]+)?$",
                         "type": "string"
                     }
                 }
