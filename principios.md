@@ -8,15 +8,15 @@ doc-name: principios
 sections:
   - name: Introducción
     path: principios
-  - name: Objetivos de la Política Nacional de Datos Abiertos
+  - name: Objetivos
     path: principio-1
-  - name: Definición de Datos Abiertos
+  - name: Datos Abiertos
     path: principio-2
   - name: Arquitectura institucional
     path: principio-3
-  - name: Proceso de publicación y protección a los datos personales
+  - name: Publicación y privacidad
     path: principio-4
-  - name: Mecanismos de fomento al uso, reuso y redistribución
+  - name: Fomento al uso
     path: principio-5
 ---
 
