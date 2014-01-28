@@ -1,35 +1,34 @@
 ---
 published: true
+permalink: /proteccion/
 layout: navegable
-permalink: "/proteccion/"
-filename: "proteccion.md"
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:
   - name: Introducción
-    path: /pnda
+    path: documentos/politica/pnda
   - name: Considerando
-    path: /considerando
+    path: documentos/politica/considerando
   - name: Objetivo de la Política
-    path: /objetivo
+    path: documentos/politica/objetivo
   - name: Ámbito de aplicación
-    path: /ambito
+    path: documentos/politica/ambito
   - name: Estructura institucional
-    path: /estructura
+    path: documentos/politica/estructura
   - name: Datos Abiertos
-    path: /datos
+    path: documentos/politica/datos
   - name: Publicación
-    path: /publicacion
+    path: documentos/politica/publicacion
   - name: Requerimientos Legales
-    path: /legal
+    path: documentos/politica/legal
   - name: Vinculación ciudadana
-    path: /vinculacion
+    path: documentos/politica/vinculacion
   - name: Protección de datos
-    path: /proteccion
+    path: documentos/politica/proteccion
   - name: Acciones inmediatas
-    path: /acciones
+    path: documentos/politica/acciones
   - name: Anexos
-    path: /anexos
+    path: documentos/politica/anexos
 ---
 
 # 9 Protección de datos
