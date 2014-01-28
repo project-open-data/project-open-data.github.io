@@ -1,8 +1,7 @@
 ---
 published: true
+permalink: /legal/
 layout: navegable
-permalink: "/legal/"
-filename: "legal.md"
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:

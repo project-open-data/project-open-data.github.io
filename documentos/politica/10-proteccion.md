@@ -1,8 +1,7 @@
 ---
 published: true
+permalink: /proteccion/
 layout: navegable
-permalink: "/proteccion/"
-filename: "proteccion.md"
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:

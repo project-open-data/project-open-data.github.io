@@ -1,8 +1,7 @@
 ---
 published: true
+permalink: /publicacion/
 layout: navegable
-permalink: "/publicacion/"
-filename: "publicacion.md"
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:

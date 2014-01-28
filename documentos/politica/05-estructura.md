@@ -1,8 +1,7 @@
 ---
 published: true
+permalink: /estructura/
 layout: navegable
-permalink: "/estructura/"
-filename: "estructura.md"
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:

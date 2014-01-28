@@ -1,9 +1,7 @@
 ---
 published: true
+permalink: /objetivo/
 layout: navegable
-title: Objetivo de la Política
-permalink: "/objetivo/"
-filename: "objetivo.md"
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:

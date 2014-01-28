@@ -1,8 +1,7 @@
 ---
 published: true
+permalink: /anexos/
 layout: navegable
-permalink: "/anexos/"
-filename: "anexos.md"
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:

@@ -2,7 +2,6 @@
 published: true
 permalink: /pnda/
 layout: navegable
-filename: pnda.md
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:
@@ -26,6 +25,8 @@ sections:
     path: documentos/politica/vinculacion
   - name: Protección de datos
     path: documentos/politica/proteccion
+  - name: Acciones inmediatas
+    path: documentos/politica/acciones
   - name: Anexos
     path: documentos/politica/anexos
 ---

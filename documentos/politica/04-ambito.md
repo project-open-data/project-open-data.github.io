@@ -1,8 +1,7 @@
 ---
 published: true
+permalink: /ambito/
 layout: navegable
-permalink: "/ambito/"
-filename: "ambito.md"
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:

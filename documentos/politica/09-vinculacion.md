@@ -1,8 +1,7 @@
 ---
 published: true
+permalink: /vinculacion/
 layout: navegable
-permalink: "/vinculacion/"
-filename: "vinculacion.md"
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:

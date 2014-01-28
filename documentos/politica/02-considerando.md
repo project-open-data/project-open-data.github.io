@@ -1,8 +1,7 @@
 ---
 published: true
-layout: navegable
 permalink: /considerando/
-filename: considerando.md
+layout: navegable
 title: Política Nacional de Datos Abiertos
 doc-name: pnda
 sections:
