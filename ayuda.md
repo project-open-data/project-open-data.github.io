@@ -13,12 +13,6 @@ Los Datos Abiertos permiten maximizar el valor de la información pública. El G
 <a href="http://datos.gob.mx" target="_blank">Conoce más acerca del tema
 y la iniciativa</a>
 
-### ¿Cómo comentar?
-
-La liga "Comenta" en la navegación superior enlaza a un documento en línea de la Política Nacional de Datos Abiertos y su Guía de Implementación. En dicho documento cualquier usuario podrá dejar comentarios sobre su contenido.
-
-<a href="https://github.com/mexico-abierto/iniciativa-datos-abiertos/wiki/%C2%BFC%C3%B3mo-comentar-sobre-el-contenido%3F" target="_blank">Guía rápida para comentar sobre el contenido</a>
-
 ### ¿Cómo editar?
 
 Si quieres proponer nuevo contenido o modificar el existente, dirígete a
