@@ -7,17 +7,17 @@ title: Guía para la Publicación de Datos Abiertos
 doc-name: guia
 sections:
   - name: Introducción
-    path: /intro
+    path: documentos/guia/intro
   - name: ¿Quién se hace cargo?
-    path: /quien
+    path: documentos/guia/quien
   - name: ¿Qué datos tenemos?
-    path: /que
+    path: documentos/guia/que
   - name: ¿Cuál es el plan para abrir los datos?
-    path: /cuando
+    path: documentos/guia/cuando
   - name: ¿Cómo abrir los datos?
-    path: /como
+    path: documentos/guia/como
   - name: Anexos
-    path: /addendum
+    path: documentos/guia/addendum
 ---
 
 # 4 ¿Cómo abrir los datos?
