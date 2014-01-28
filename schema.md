@@ -361,7 +361,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 {: .table .table-striped}
 **Field** | **webService**
 ----- | -----
-**Cardinality** | (0,1)
+**Cardinality** | (0,n)
 **Required** | Yes, if the dataset has an API
 **Accepted Values** | String (URL)
 **Usage Notes** | This field will serve to delineate the web services offered by an agency and will be used to aggregate cross-government API catalogs.
