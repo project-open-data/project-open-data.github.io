@@ -39,6 +39,8 @@ JSON is a lightweight and simple way to represent machine-readable data. It is q
 
 The JSON representation of the catalog should track directly with any other optional formats, with the exception that JSON keys should not contain the domain prefix (e.g., `dcterms:title` becomes `title` and `dcterms:description` becomes simply `description`). Catalogs should be composed of an array of JSON objects, and all fields other than keywords should be a string (where keywords is an array of strings).
 
+Where optional fields are included in a catalog file but are unpopulated, they may be represented by a `null` value.  They should not be represented by an empty string (`""`).  
+
 ### RDFa Lite
 
 [RDFa Lite](http://www.w3.org/TR/rdfa-lite/) is a subset of RDFa (Resource Description Framework in Attribute) that provides a common syntax for expressing metadata on websites in a way that computers can understand and begin to formulate knowledge about those data about your organization. RDFa Lite embeds itself in existing, standard HTML pages. For example, if previously a dataset was described as `<h2>Name of Dataset</h2>`, RDFa would extend that markup as  `<h2 property="dcterms:title">Name of Dataset</h2>` (notice the additional of the property field). This additional metadata is not visible when the page is rendered, and does not affect the page layout or content. It simply provides an additional level of description for search engines, crawlers, and other programmatic consumers of your site's content.  It is acceptable for the RDFa Lite file to contain only the machine-readable metadata, but agencies may wish to add human readable content to display the metadata to the public if they so desire.
