@@ -1,2 +1,2 @@
 language: ruby
-script: "bundle exec jekyll build"
+script: "./script/cibuild"
