@@ -26,6 +26,8 @@ Se han establecido funcionarios responsables de implementar los Datos Abiertos e
 
 Del mismo modo, existen mecanismos de cooperación y coordinación interinstitucional dentro del gobierno y con diferentes sectores de la sociedad, con el objetivo de trabajar de manera conjunta, co-participativa y co-responsable en la elaboración, implementación y evaluación de la Política de Datos Abiertos.
 
+![Imagen estructura institucional ]({{ site.url }}/assets/img/mecanismos2.png){: .intextimage}
+
 
 
 <div id="disqus_thread"></div>

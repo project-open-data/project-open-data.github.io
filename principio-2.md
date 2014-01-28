@@ -26,11 +26,8 @@ Con la publicación de esta Política, los Datos Abiertos serán el estándar pa
 
 Para ser considerados Datos Abiertos, las bases de datos deberán contar con las siguientes características mínimas:
 
-* Información pública de manera gratuita
-* Accesible de manera ubicua (en línea)
-* En formatos libres y legibles por máquinas
-* Con licencias claras que permitan cualquier uso, por cualquier persona mientras lo permita la ley
-* Primarios y oportunos
+
+![Informacion pública y gratuita, Accesible de manera ubicua, En formatos libres y legibles por máquinas, Con licencias claras que permitan cualquier uso, Primario y oportuno]({{ site.url }}/assets/img/diagramaPNDA.png){: .intextimage}
 
 
 <div id="disqus_thread"></div>
