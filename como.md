@@ -318,7 +318,7 @@ en los recursos y los expone o representa a través de URLs que permiten acceder
 Como ejemplo podemos ver el siguiente servicio SOAP, el cual requiere que se envíe un documento XML con la descripción del recurso que
 se quiere revisar para lograr accesar los datos del servicio:
 
-![SOAP]( /assets/img/soap.png ){: .intextimage}
+![SOAP]({{ site.url }}/assets/img/soap.png){: .intextimage}
 
 Ahora, como comparación, para accesar un recurso a través de una API con arquitectura REST basta con entrar a una liga como
 [http://datos.gob.mx/votes.json.](http://datos.gob.mx/votes.json)

@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="{{ site.root_url }}/assets/css/bootstrap.css">
   <link rel="stylesheet" href="{{ site.root_url }}/assets/css/site.css">
 
-  {% capture comment_url %}https://docs.google.com/document/d/1fw42eyG3aFwEcGR7qsnfR7Q3dyrLLz46NaJu3sB1stk/edit?usp=sharing{% endcapture %}
   {% capture edit_url %}{{ site.prose_url }}#{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
 </head>
 <body class="{{ page.id }}">
@@ -56,7 +55,6 @@
               <li><a href="{{ site.url }}" id="acerca">Acerca</a></li>
               <li><a href="{{ site.url }}/pnda" id="politica">Política</a></li>
               <li><a href="{{ site.url }}/intro" id="guia">Guía</a></li>
-              <li><a href="{{ comment_url }}" target="_blank">Comenta</a></li>
               <li><a href="{{ edit_url }}" target="_blank">Edita</a></li>
               <li><a href="https://github.com/{{site.org_name}}/{{site.repo_name}}/issues" target="_blank">Propuestas</a></li>
               <li><a href="{{ site.url }}/ayuda" id="ayuda">Ayuda</a></li>

@@ -417,6 +417,26 @@ img.logo {
 }
 
 
+.principios strong,
+.principios h1,
+.principios h2,
+.principios h3,
+.principios h4,
+.principios h5,
+.principios h6 {
+  color: #32F0E6;
+}
+
+.principios .sidenav > li > a:hover,
+.principios .sidenav > li > a:focus,
+.principios .sidenav > li > a:active {
+  background-color: #32F0E6;
+  -moz-box-shadow: 4px 4px #00CCCC;
+  -webkit-box-shadow: 4px 4px #00CCCC;
+  box-shadow: 4px 4px #00CCCC;
+}
+
+
 /****** RESPONSIVE ******/
 
 
