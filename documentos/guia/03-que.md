@@ -2,7 +2,6 @@
 published: true
 permalink: /que/
 layout: navegable
-filename: que.md
 title: Guía para la Publicación de Datos Abiertos
 doc-name: guia
 sections:

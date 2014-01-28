@@ -2,7 +2,6 @@
 published: true
 permalink: /como/
 layout: navegable
-filename: como.md
 title: Guía para la Publicación de Datos Abiertos
 doc-name: guia
 sections:

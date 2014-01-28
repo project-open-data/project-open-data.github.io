@@ -2,7 +2,6 @@
 published: true
 permalink: /intro/
 layout: navegable
-filename: intro.md
 title: Guía para la Publicación de Datos Abiertos
 doc-name: guia
 sections:

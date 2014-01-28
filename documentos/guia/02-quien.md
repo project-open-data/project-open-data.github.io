@@ -2,7 +2,6 @@
 published: true
 permalink: /quien/
 layout: navegable
-filename: quien.md
 title: Guía para la Publicación de Datos Abiertos
 doc-name: guia
 sections:

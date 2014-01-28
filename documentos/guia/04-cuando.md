@@ -2,7 +2,6 @@
 published: true
 permalink: /cuando/
 layout: navegable
-filename: cuando.md
 title: Guía para la Publicación de Datos Abiertos
 doc-name: guia
 sections:
