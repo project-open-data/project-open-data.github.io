@@ -28,7 +28,7 @@ sections:
   - name: Acciones inmediatas
     path: documentos/politica/acciones
   - name: Anexos
-    path: documentos/politica/anexos
+    path: documentos/politica/anexos    
 ---
 
 # Introducción
