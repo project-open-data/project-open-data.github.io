@@ -6,13 +6,7 @@
     <div class="span3 sidebar">
       <ul class="nav nav-tabs sidenav">
         {% for section in page.sections %}
-          {% capture section_url %}{{ site.url }}/{{ section.path }}/{% endcapture %}
-          {% capture section_path %}/{{ section.path }}/{% endcapture %}
-          {% if page.url == section_path %}
-            <li class="active"><a href="{{ section_url }}" class="active">{{ section.name }}</a></li>
-          {% else %}
-            <li><a href="{{ section_url }}">{{ section.name }}</a></li>
-          {% endif %}
+          <li><a href="{{ site.url }}/{{ section.path }}/">{{ section.name }}</a></li>
         {% endfor %}
       </ul>
     </div>

@@ -26,8 +26,10 @@
   </script>
 
   <script>
-    // Pinta la sección actual en la nav superior
+    // Pinta el doc actual en la nav superior
     $("#actions li a#{{ page.doc-name }}").addClass("visited");
+    // Pinta la sección actual del doc en el sidenav
+    $(".sidenav li a[href$='{{ page.url }}']").addClass("active");
   </script>
 
   <script>
