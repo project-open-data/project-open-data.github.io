@@ -34,24 +34,13 @@ sections:
 # Anexo I
 {:#anexo1}
 
-**Propuesta de lenguaje para el cambio de reglamentos internos en las entidades de la AF**
-
-(Propuesta de lenguaje)
-
+**Licencia de Datos Abiertos de México**  
+[Link a Licencia, en proceso]
 
 # Anexo II
 {:#anexo2}
 
-Licencia de Datos Abiertos de México
-
-[link a licencia]
-
-
-
-# Anexo III
-{:#anexo3}
-
-Cronograma de implementación por parte de las dependencias
+**Cronograma de implementación por parte de las dependencias**  
 
 <table id="cronograma" border="1">
 <tr>
