@@ -51,10 +51,29 @@
 
           <div class="nav-collapse collapse" id="actions">
             <ul class="nav pull-right">
-              <li><a href="{{ site.url }}/principios" id="acerca">Principios</a></li>
-              <li><a href="{{ site.url }}/documentos/politica/pnda" id="politica">Política</a></li>
-              <li><a href="{{ site.url }}/documentos/guia/intro" id="guia">Guía</a></li>
-              <li><a href="{{ site.url }}/ayuda" id="ayuda">Edita</a></li>
+              {% if page.active == "principios" %}
+                <li class="active"><a href="{{ site.url }}/principios">Principios</a></li>
+              {% else %}
+                <li><a href="{{ site.url }}/principios">Principios</a></li>
+              {% endif %}
+
+              {% if page.active == "politica" %}
+                <li class="active"><a href="{{ site.url }}/documentos/politica/pnda">Política</a></li>
+              {% else %}
+                <li><a href="{{ site.url }}/documentos/politica/pnda">Política</a></li>
+              {% endif %}
+
+              {% if page.active == "guia" %}
+                <li class="active"><a href="{{ site.url }}/documentos/guia/intro">Guía</a></li>
+              {% else %}
+                <li><a href="{{ site.url }}/documentos/guia/intro">Guía</a></li>
+              {% endif %}
+
+              {% if page.active == "ayuda" %}
+                <li class="active"><a href="{{ site.url }}/ayuda">Edita</a></li>
+              {% else %}
+                <li><a href="{{ site.url }}/ayuda">Edita</a></li>
+              {% endif %}
             </ul>
           </div><!--/.nav-collapse -->
 
