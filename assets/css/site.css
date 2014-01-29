@@ -69,17 +69,14 @@ ol, ul {
   padding: 0 20px;
 }
 
-#topbar {
-  background-color: black;
-  height: 30px;
-}
-
 #header {
-  background-color: #303030;
+  background-color: #000;
 }
 
 .navbar {
+  background-color: #333;
   margin-bottom: 0;
+  padding-bottom: 10px;
 }
 .navbar-inner {
   padding-left: 0;
@@ -88,8 +85,7 @@ ol, ul {
 .brand {
   color: white;
   font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 32px;
-  line-height: 24px;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   vertical-align: top;
@@ -299,24 +295,24 @@ table th {
 }
 
 img.logo {
-  height: 75px;
   margin: 0 20px 30px 0;
+  position: absolute;
+  left: 0;
+  width: 60px;
 }
 
-.row-fluid .brand-wrapper {
-  margin-left: 0;
-  height: 119px;
-  padding-top: 11px;
+.brand-wrapper {
+  color: white;
+  padding: 50px 20px 50px 80px;
+}
+
+.brand-text-wrapper {
+  font-size: 12px;
 }
 
 .centered-content, .lefty-content {
-  margin: 0 auto;
+  margin: 50px auto;
   max-width: 750px;
-}
-
-.centered-content .row-fluid,
-.call-to-action .row-fluid {
-  margin: 70px auto;
 }
 
 .call-to-action {
@@ -443,7 +439,7 @@ img.logo {
 @media (min-width: 979px) {
   .lefty-content {
     padding-left: 0;
-    margin: 60px 0;
+    margin-left: 0;
     max-width: 960px;
   }
 }
@@ -453,8 +449,6 @@ img.logo {
     width: 100%;
     margin: 0;
   }
-
-  #topbar { height: 0 }
 
   .navbar .nav-collapse .nav.pull-right {
     float: none;
