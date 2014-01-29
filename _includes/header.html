@@ -51,29 +51,11 @@
 
           <div class="nav-collapse collapse" id="actions">
             <ul class="nav pull-right">
-              {% if page.doc-name == "principios" %}
-                <li class="visited"><a href="{{ site.url }}/principios" class="visited">Principios</a></li>
-              {% else %}
-                <li><a href="{{ site.url }}/principios">Principios</a></li>
-              {% endif %}
 
-              {% if page.doc-name == "pnda" %}
-                <li class="visited"><a href="{{ site.url }}/documentos/politica/pnda" class="visited">Política</a></li>
-              {% else %}
-                <li><a href="{{ site.url }}/documentos/politica/pnda">Política</a></li>
-              {% endif %}
-
-              {% if page.doc-name == "guia" %}
-                <li class="visited"><a href="{{ site.url }}/documentos/guia/intro" class="visited">Guía</a></li>
-              {% else %}
-                <li><a href="{{ site.url }}/documentos/guia/intro">Guía</a></li>
-              {% endif %}
-
-              {% if page.doc-name == "ayuda" %}
-                <li class="visited"><a href="{{ site.url }}/ayuda" class="visited">Edita</a></li>
-              {% else %}
-                <li><a href="{{ site.url }}/ayuda">Edita</a></li>
-              {% endif %}
+              <li><a href="{{ site.url }}/principios" id="principios">Principios</a></li>
+              <li><a href="{{ site.url }}/documentos/politica/pnda" id="pnda">Política</a></li>
+              <li><a href="{{ site.url }}/documentos/guia/intro" id="guia">Guía</a></li>
+              <li><a href="{{ site.url }}/ayuda" id="ayuda">Edita</a></li>
 
             </ul>
           </div><!--/.nav-collapse -->

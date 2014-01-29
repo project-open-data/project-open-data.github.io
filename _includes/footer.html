@@ -26,7 +26,8 @@
   </script>
 
   <script>
-    $('a[href="{{ page.url }}"]').addClass('active');
+    // Pinta la sección actual en la nav superior
+    $("#actions li a#{{ page.doc-name }}").addClass("visited");
   </script>
 
   <script>
