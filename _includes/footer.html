@@ -29,7 +29,9 @@
     // Pinta el doc actual en la nav superior
     $("#actions li a#{{ page.doc-name }}").addClass("visited");
     // Pinta la sección actual del doc en el sidenav
-    $(".sidenav li a[href$='{{ page.url }}']").addClass("active");
+    // excepto en el root, por que en ese caso todos se pintarían
+    if ('{{ page.url }}' !== '/')
+      $(".sidenav li a[href$='{{ page.url }}']").addClass("active");
   </script>
 
   <script>
