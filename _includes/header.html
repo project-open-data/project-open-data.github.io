@@ -19,6 +19,7 @@
 
   {% capture edit_url %}{{ site.prose_url }}#{{ site.org_name }}/{{ site.repo_name }}/tree/{{ site.branch }}/documentos{% endcapture %}
 </head>
+
 <body class="{{ page.id }}">
   <!--[if lt IE 7]>
   <div class="container-fluid">
@@ -29,8 +30,6 @@
     </div>
   </div>
   <![endif]-->
-
-  <div id="topbar"></div>
 
   <div class="row-fluid" id="header">
 
@@ -61,17 +60,19 @@
             </ul>
           </div><!--/.nav-collapse -->
 
-        </div>
-      </div>
+        </div><!--/.navbar-inner -->
+      </div><!--/.navbar-inverse -->
     </div>
-
 
     <div class="span12 brand-wrapper">
       <a href="{{ site.root_url }}/">
         <img class="logo" src="{{ site.url }}/assets/img/logo.svg" />
       </a>
-      <a class="brand" href="http://datos.gob.mx">DATOS.GOB.MX</a>
+      <div class="container brand-text-wrapper">
+        <a class="brand" href="http://datos.gob.mx">DATOS.GOB.MX</a>
+        <p>Ponemos a tu disposición el borrador de la Política Nacional de Datos Abiertos. Participa, tu opinión es importante.</p>
+      </div>
     </div>
 
-  </div>
+  </div><!--/.header -->
 
