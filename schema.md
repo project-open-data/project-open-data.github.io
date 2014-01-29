@@ -229,7 +229,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | ISO 8601 Date
-**Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. 
+**Usage Notes** | Dates should be [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. 
 **Example** |  `{"issued":"2001-01-15"}`
 
 {: .table .table-striped}
@@ -283,7 +283,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | ISO 8601 Date
-**Usage Notes** | Dates should be [ISO 8601](http://www.w3.org/TR/NOTE-datetime) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the **issued** date here as well.
+**Usage Notes** | Dates should be [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the **issued** date here as well.
 **Example** |  `{"modified":"2012-01-15"}`
 
 {: .table .table-striped}
@@ -337,7 +337,7 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Cardinality** | (0,1)
 **Required** | Yes, if applicable
 **Accepted Values** | ISO 8601 Date
-**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start datetime/end datetime} in the [ISO 8601](http://www.w3.org/TR/NOTE-datetime) format. ISO 8601 specifies that datetimes can be formatted in a number of ways, including a simple four-digit year (eg. 2013) to a much more specific YYYY-MM-DDTHH:MM:SSZ, where the T specifies a seperator between the date and time and time is expressed in 24 hour notation in the UTC (Zulu) time zone. (e.g., 2011-02-14T12:00:00Z/2013-07-04T19:34:00Z). Use a solidus ("/") to separate start and end times.
+**Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start datetime/end datetime} in the [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) format. ISO 8601 specifies that datetimes can be formatted in a number of ways, including a simple four-digit year (eg. 2013) to a much more specific YYYY-MM-DDTHH:MM:SSZ, where the T specifies a seperator between the date and time and time is expressed in 24 hour notation in the UTC (Zulu) time zone. (e.g., 2011-02-14T12:00:00Z/2013-07-04T19:34:00Z). Use a solidus ("/") to separate start and end times.
 **Example** |  `{"temporal":"2000-01-15T00:45:00Z/2010-01-15T00:06:00Z"}`
 
 {: .table .table-striped}
