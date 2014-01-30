@@ -270,28 +270,10 @@ table th {
   box-shadow: 4px 4px #303030;
 }
 
-.sidenav a.active {
-  color: white;
-  background-color: #32F0E6;
-  margin-right: -20px;
-  padding: 10px;
-  text-align: right;
-  text-decoration: none;
-  -moz-box-shadow: 4px 4px #00CCCC;
-  -webkit-box-shadow: 4px 4px #00CCCC;
-  box-shadow: 4px 4px #00CCCC;
-}
-
 .sidenav > li > a:hover,
-.sidenav > li > a:focus {
+.sidenav > li > a:focus,
+.sidenav > li > a.active {
   margin-right: -20px;
-}
-
-.sidenav > li > a:active {
-  background-color: #32F0E6;
-  -moz-box-shadow: 4px 4px #00CCCC;
-  -webkit-box-shadow: 4px 4px #00CCCC;
-  box-shadow: 4px 4px #00CCCC;
 }
 
 img.logo {
@@ -342,7 +324,7 @@ img.logo {
 
 .pnda .sidenav > li > a:hover,
 .pnda .sidenav > li > a:focus,
-.pnda .sidenav > li > a:active {
+.pnda .sidenav > li > a.active {
   background-color: #32F0E6;
   -moz-box-shadow: 4px 4px #00CCCC;
   -webkit-box-shadow: 4px 4px #00CCCC;
@@ -367,7 +349,7 @@ img.logo {
 
 .guia .sidenav > li > a:hover,
 .guia .sidenav > li > a:focus,
-.guia .sidenav > li > a:active {
+.guia .sidenav > li > a.active {
   background-color: #22D4A7;
   -moz-box-shadow: 4px 4px #15986E;
   -webkit-box-shadow: 4px 4px #15986E;
@@ -405,7 +387,7 @@ img.logo {
 
 .odra .sidenav > li > a:hover,
 .odra .sidenav > li > a:focus,
-.odra .sidenav > li > a:active {
+.odra .sidenav > li > a.active {
   background-color: #6558FB;
   -moz-box-shadow: 4px 4px #170F85;
   -webkit-box-shadow: 4px 4px #170F85;
@@ -425,7 +407,7 @@ img.logo {
 
 .principios .sidenav > li > a:hover,
 .principios .sidenav > li > a:focus,
-.principios .sidenav > li > a:active {
+.principios .sidenav > li > a.active {
   background-color: #32F0E6;
   -moz-box-shadow: 4px 4px #00CCCC;
   -webkit-box-shadow: 4px 4px #00CCCC;

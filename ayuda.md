@@ -4,6 +4,7 @@ permalink: /ayuda/
 layout: default
 filename: ayuda.md
 title: Ayuda
+doc-name: ayuda
 ---
 
 ### ¿Cómo editar?
