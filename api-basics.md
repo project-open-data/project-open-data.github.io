@@ -29,31 +29,31 @@ DigitalGov University has recorded a [variety of courses](http://www.howto.gov/t
 
 ### First Mover
 
-*	[Salesforce](http://www.apievangelist.com/2011/01/28/history-of-apis-salesforce-com/)
+*	[Salesforce](http://apievangelist.com/2011/01/28/history-of-apis--salesforcecom/)
 
 ### E-Commerce
 
-*	[eBay](http://www.apievangelist.com/2011/01/26/history-of-apis-ebay/)
-*	[Amazon](http://www.apievangelist.com/2011/01/28/history-of-apis-amazon-e-commerce/)
+*	[eBay](http://apievangelist.com/2011/01/26/history-of-apis--ebay/)
+*	[Amazon](http://apievangelist.com/2011/01/28/history-of-apis--amazon-ecommerce/)
 
 ### Social
 
-*	[Facebook](http://www.apievangelist.com/2011/01/28/history-of-apis-facebook-development-platform/)
-*	[Twitter](http://www.apievangelist.com/2011/01/26/history-of-apis-twitter/)
+*	[Facebook](http://apievangelist.com/2011/01/28/history-of-apis--facebook-development-platform/)
+*	[Twitter](http://apievangelist.com/2011/01/26/history-of-apis--twitter/)
 
 ### Cloud Computing
 
-*	[Amazon S3](http://www.apievangelist.com/2011/03/12/history-of-apis-amazon-s3/)
-*	[Amazon EC2](http://www.apievangelist.com/2011/03/12/history-of-apis-amazon-ec2/)
+*	[Amazon S3](http://apievangelist.com/2011/03/12/history-of-apis--amazon-s3/)
+*	[Amazon EC2](http://apievangelist.com/2011/03/12/history-of-apis--amazon-ec2/)
 
 ### Maps
 
-*	[Google Maps](http://www.apievangelist.com/2011/01/30/history-of-apis-google-maps-api/)
+*	[Google Maps](http://apievangelist.com/2011/01/30/history-of-apis--google-maps-api/)
 
 ### Mobile
 
-*	[Foursquare](http://www.apievangelist.com/2011/03/11/history-of-apis-foursquare-api/)
-*	[Instagram](http://www.apievangelist.com/2011/03/11/history-of-apis-instagram-api/)
+*	[Foursquare](http://apievangelist.com/2011/03/11/history-of-apis--foursquare-api/)
+*	[Instagram](http://apievangelist.com/2011/03/11/history-of-apis--instagram-api/)
 
 Many of these pioneers have shaped the way in which we develop, deploy, consume, and support APIs, sparking a lot of innovation within the API space in the last decade.  
 
