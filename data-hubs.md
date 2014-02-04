@@ -8,7 +8,7 @@ filename: data-hubs.md
 ### [Department of Agriculture](http://www.usda.gov/data/) ([2](http://www.usda.gov/wps/portal/usda/usdahome?navid=DATA_STATISTICS))
 * [Economic Research Service](http://www.ers.usda.gov/data-products.aspx)
 * [Food and Nutrition Service](http://www.fns.usda.gov/data-and-statistics)
-* [Foreign Agricultural Service](http://www.fas.usda.gov/data.asp)
+* [Foreign Agricultural Service](http://www.fas.usda.gov/data)
 * [National Agricultural Statistics Service](http://www.nass.usda.gov/Data_and_Statistics/)
 
 ### [Department of Commerce](http://www.commerce.gov/data)
