@@ -329,6 +329,15 @@ Further Metadata Field Guidance (alphabetical by JSON field)
 **Example** |  `{"spatial":"Lincoln, Nebraska"}`
 
 {: .table .table-striped}
+**Field** | **systemOfRecords**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if a part of a system of records, as defined under the Privacy Act of 1974
+**Accepted Values** | See Usage Notes
+**Usage Notes** | This field should contain the identifier or title of and a URL to the System of Records Notice (SORN) that relates to the dataset.
+**Example** |  `{"DOL/GOVT–1 - http://www.gpo.gov/fdsys/pkg/FR-2002-04-08/pdf/02-7376.pdf"}`
+
+{: .table .table-striped}
 **Field** | **temporal**
 ----- | -----
 **Cardinality** | (0,1)
