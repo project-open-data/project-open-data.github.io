@@ -56,7 +56,7 @@ Publisher           | The publishing entity.                                    
 Contact Name        | Contact person's name for the asset.                                                                                                           | contactPoint
 Contact Email        | Contact person's email address. 			           	                                                                                             | mbox
 Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 | identifier
-Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)  | accessLevel
+Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available to certain audiences), or non-public (Data asset is not available to members of the public)  | accessLevel
 
 "Common Core" Required-if-Applicable Fields
 -------------------------------------------
@@ -96,7 +96,7 @@ Language            | The language of the dataset.                              
 Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) | PrimaryITInvestmentUII
 Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references
 Release Date        | Date of formal issuance.                                                                                                                      | issued
-System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
+System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the identifier or title of and the URL to the System of Records Notice related to this dataset. | systemOfRecords
 
 
 Further Metadata Field Guidance (alphabetical by JSON field)
@@ -333,6 +333,15 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Accepted Values** | See Usage Notes
 **Usage Notes** | This field should contain one of the following types of content: (1) a bounding coordinate box for the dataset represented in latitude / longitude pairs where the coordinates are specified in decimal degrees and in the order of: minimum longitude, minimum latitude, maximum longitude, maximum latitude; (2) a latitude / longitude pair (in decimal degrees) representing a point where the dataset is relevant; (3) a geographic feature expressed in [Geography Markup Language using the Simple Features Profile](http://www.ogcnetwork.net/gml-sf); or (4) a geographic feature from the [GeoNames database](http://www.geonames.org).
 **Example** |  `{"spatial":"Lincoln, Nebraska"}`
+
+{: .table .table-striped}
+**Field** | **systemOfRecords**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if a part of a system of records, as defined under the Privacy Act of 1974
+**Accepted Values** | See Usage Notes
+**Usage Notes** | This field should contain the identifier or title of and a URL to the System of Records Notice (SORN) that relates to the dataset.
+**Example** |  `{"DOL/GOVT–1 - http://www.gpo.gov/fdsys/pkg/FR-2002-04-08/pdf/02-7376.pdf"}`
 
 {: .table .table-striped}
 **Field** | **temporal**
