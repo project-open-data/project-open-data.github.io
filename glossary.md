@@ -13,23 +13,23 @@ An application programming interface, which is a set of definitions of the ways 
 
 ### API Analytics
 
-Rate limiting will be part of any API platform, without some sort of usage log and analytics showing developers where they stand, the rate limits will cause nothing but frustration.  Clearly show developers where they are at with daily, weekly or monthly API usage and provide proper relief valves allowing them to scale their usage properly.  —*[source](http://apievangelist.com/buildingblocks/usage_logs_analytics.php)*
+Rate limiting will be part of any API platform, without some sort of usage log and analytics showing developers where they stand, the rate limits will cause nothing but frustration.  Clearly show developers where they are at with daily, weekly or monthly API usage and provide proper relief valves allowing them to scale their usage properly.  —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### API Documentation
 
 Quality API documentation is the gateway to a successful API. API documentation needs to be complete, yet simple--a very difficult balance to achieve. This balance takes work and will take the work of more than one individual on an API development team to make happen.
 
-API documentation can be written by developers of the API, but additional edits should be made by developers who were not responsible for deploying the API. As a developer, it’s easy to overlook parameters and other details that developers have made assumptions about.  —*[source](http://apievangelist.com/buildingblocks/documentaton.php)*
+API documentation can be written by developers of the API, but additional edits should be made by developers who were not responsible for deploying the API. As a developer, it’s easy to overlook parameters and other details that developers have made assumptions about.  —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### Application Library 
 
-Complete, functioning applications built on an API is the end goal of any API owner. Make sure and showcase all applications that are built on an API using an application showcase or directory. App showcases are a great way to showcase not just applications built by the API owner, but also showcase the successful integrations of ecosystem partners and individual developers.   —*[source](http://apievangelist.com/buildingblocks/application_gallery.php)*
+Complete, functioning applications built on an API is the end goal of any API owner. Make sure and showcase all applications that are built on an API using an application showcase or directory. App showcases are a great way to showcase not just applications built by the API owner, but also showcase the successful integrations of ecosystem partners and individual developers.   —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### Basic Auth 
 
 Basic Auth is a way for a web browser or application to provide credentials in the form of a username and password. Because Basic Auth is integrated into HTTP protocol it is the easiest way for users to authenticate with a RESTful API.
 
-Basic Auth is easily integrated, however if SSL is not used, the username and password are passed in plain text and can be easily intercepted on the open Internet.  —*[source](http://apievangelist.com/buildingblocks/basic_auth.php)*
+Basic Auth is easily integrated, however if SSL is not used, the username and password are passed in plain text and can be easily intercepted on the open Internet.  —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### Catalog 
 
@@ -37,7 +37,7 @@ A catalog is a collection of datasets or web services.  —*[source](http://www.
 
 ### Code Library 
 
-Working code samples in all the top programming languages are common place in the most successful APIs. Documentation will describe in a general way, how to use an API, but code samples will speak in the specific language of developers.  —*[source](http://apievangelist.com/buildingblocks/code_libraries.php)*
+Working code samples in all the top programming languages are common place in the most successful APIs. Documentation will describe in a general way, how to use an API, but code samples will speak in the specific language of developers.  —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### Content API 
 
@@ -53,7 +53,7 @@ A value or set of values representing a specific concept or concepts. Data becom
 
 ### /Data page
 
-A hub for data discovery which provides a common location that lists and links to an organization’s datasets.  Such a hub is often located at www.example.com/data.  —*[source](policy-memo/)*
+A hub for data discovery which provides a common location that lists and links to an organization’s datasets.  Such a hub is often located at www.example.com/data.  —*[source](http://project-open-data.github.io/policy-memo/)*
 
 ### Dataset
 
@@ -75,11 +75,11 @@ An association between a binding and a network address, specified by a URI, that
 
 Errors are an inevitable part of API integration, and providing not only a robust set of clear and meaningful API error response codes, but a clear listing of these codes for developers to follow and learn from is essential.
 
-API errors are directly related to frustration during developer integration, the more friendlier and meaningful they are, the greater the chance a developer will move forward after encountering an error. Put a lot of consideration into your error responses and the documentation that educates developers.  —*[source](http://apievangelist.com/buildingblocks/error_response_codes.php)*
+API errors are directly related to frustration during developer integration, the more friendlier and meaningful they are, the greater the chance a developer will move forward after encountering an error. Put a lot of consideration into your error responses and the documentation that educates developers.  —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### GitHub 
 
-GitHub is a social coding platform allowing developers to publicly or privately build code repositories and interact with other developers around these repositories--providing the ability to download or fork a repository, as well as contribute back, resulting in a collaborative environment for software development.  —*[source](http://apievangelist.com/buildingblocks/github.php)*
+GitHub is a social coding platform allowing developers to publicly or privately build code repositories and interact with other developers around these repositories--providing the ability to download or fork a repository, as well as contribute back, resulting in a collaborative environment for software development.  —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### Hackathon 
 
@@ -119,7 +119,7 @@ To facilitate common understanding, a number of characteristics, or attributes, 
 
 ### OAuth 
 
-An open standard for authorization. It allows users to share their private resources stored on one site with another site without having to hand out their credentials, typically username and password. —*[source](http://apievangelist.com/buildingblocks/oauth.php)*
+An open standard for authorization. It allows users to share their private resources stored on one site with another site without having to hand out their credentials, typically username and password. —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### Open Source Software 
 
@@ -155,7 +155,7 @@ An XML schema defines the structure of an XML document. An XML schema defines th
 
 Software Development Kits (SDK) are the next step in providing code for developers, after basic code samples. SDKs are more complete code libraries that usually include authentication and production ready objects, that developers can use after they are more familiar with an API and are ready for integration.
 
-Just like with code samples, SDKs should be provided in as many common programming languages as possible. Code samples will help developers understand an API, while SDKs will actually facilitate their integration of an API into their application. When providing SDKs, consider a software licensing that gives your developers as much flexibility as possible in their commercial products. —*[source](http://apievangelist.com/buildingblocks/software_development_kits.php)*
+Just like with code samples, SDKs should be provided in as many common programming languages as possible. Code samples will help developers understand an API, while SDKs will actually facilitate their integration of an API into their application. When providing SDKs, consider a software licensing that gives your developers as much flexibility as possible in their commercial products. —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### Service-Oriented-Architecture 
 
@@ -171,7 +171,7 @@ A specification and complete framework implementation for describing, producing,
 
 ### Terms of Service 
 
-Terms of Service provide a legal framework for developers to operate within. They set the stage for the business development relationships that will occur within an API ecosystem. Terms of Service should protect the API owner's company, assets and brand, but should also provide assurances for developers who are building businesses on top of an API. —*[source](http://apievangelist.com/buildingblocks/terms_of_use__conditions.php)*
+Terms of Service provide a legal framework for developers to operate within. They set the stage for the business development relationships that will occur within an API ecosystem. Terms of Service should protect the API owner's company, assets and brand, but should also provide assurances for developers who are building businesses on top of an API. —*[source](http://management.apievangelist.com/building-blocks.html)*
 
 ### TSV 
 
