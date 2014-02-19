@@ -86,8 +86,8 @@ Label               | *POD*   | *CKAN* | *DCAT*  | *Schema.org*
 Title               | *title*                 | *title*           | [dcterms:title](http://www.w3.org/TR/vocab-dcat/#Property:distribution_title)    | [schema:name](http://schema.org/name)
 Description         | *description*           | *notes*                | [dcterms:description](http://www.w3.org/TR/vocab-dcat/#Property:distribution_description) | [schema:description](http://schema.org/description)
 Tags                | *keyword*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword)    | [schema:keywords](http://schema.org/keywords)
-Last Update         | *modified*          | *revision_timestamp*                | [dcterms:modified](http://www.w3.org/TR/vocab-dcat/#Property:distribution_update_date) | [schema:dateModified](http://schema.org/dateModified)
-Publisher           | *publisher*           | *owner_org*                | [dcterms:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [schema:publisher](http://schema.org/publisher)
+Last Update         | *modified*          | *n/a*                 | [dcterms:modified](http://www.w3.org/TR/vocab-dcat/#Property:distribution_update_date) | [schema:dateModified](http://schema.org/dateModified)
+Publisher           | *publisher*           | *organization* &rarr; *title*              | [dcterms:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [schema:publisher](http://schema.org/publisher)
 Contact Name        | *contactPoint*          | *maintainer*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | *n/a*
 Contact Email       | *mbox* | *maintainer_email*                | [foaf:mbox](http://xmlns.com/foaf/spec/#term_mbox) | *n/a*
 Unique Identifier   | *identifier*     | *id*                | [dcterms:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
@@ -102,12 +102,12 @@ Label               | *POD*   | *CKAN* | *DCAT* | *Schema.org*
 Bureau Code			| *bureauCode*                   | *n/a*             | *n/a* | *n/a*
 Program Code 		| *programCode*                   | *n/a*             | *n/a* | *n/a*
 Access Level Comment| *accessLevelComment*                   | *n/a*             | *n/a* | *n/a*
-Data Dictionary     | *dataDictionary*       | *data_dict*                | *n/a* | *n/a*
-Download URL        | *accessURL*          | *res_url*                | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | [schema:contentUrl](http://schema.org/contentUrl)
-Endpoint            | *webService*          | *res_url*                | *n/a* | *n/a*
-Format              | *format*          | *res_format*                | [dcterms:format](http://www.w3.org/TR/vocab-dcat/#Property:distribution_format)      | [schema:encodingFormat](http://schema.org/encodingFormat)
-License             | *license* | *license_id*        | [dcterms:license](http://www.w3.org/TR/vocab-dcat/#Property:catalog_license) | *n/a*
-Spatial             | *spatial*      | *spatial*                | [dcterms:spatial](http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial) | [schema:spatial](http://schema.org/spatial)
+Data Dictionary     | *dataDictionary*       | *n/a*                | *n/a* | *n/a*
+Download URL        | *accessURL*          | *resources*  &rarr; *url*                | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | [schema:contentUrl](http://schema.org/contentUrl)
+Endpoint            | *webService*          | *resources*  &rarr; *url*             | *n/a* | *n/a*
+Format              | *format*          | *resources*  &rarr; *mimetype*                | [dcterms:format](http://www.w3.org/TR/vocab-dcat/#Property:distribution_format)      | [schema:encodingFormat](http://schema.org/encodingFormat)
+License             | *license* | *license_title*        | [dcterms:license](http://www.w3.org/TR/vocab-dcat/#Property:catalog_license) | *n/a*
+Spatial             | *spatial*      | *n/a*                | [dcterms:spatial](http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial) | [schema:spatial](http://schema.org/spatial)
 Temporal            | *temporal*    | *n/a*                | [dcterms:temporal](http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal) | [schema:temporal](http://schema.org/temporal)
 
 Expanded Fields
