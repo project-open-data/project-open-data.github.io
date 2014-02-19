@@ -43,7 +43,7 @@ Links to downloadable examples of metadata files developed in this and other for
 -----------------------------
 The following "common core" fields are required, to be used to describe each entry:
 
-*(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources#common-core-required-fields-equivalents) to find the equivalent Data.gov, RDFa Lite, and CKAN fields.)*
+*(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources#common-core-required-fields-equivalents) to find the equivalent DCAT, Schema.org, and CKAN fields.)*
 
 {: .table .table-striped}
 Field                   | Label               | Definition
@@ -99,7 +99,7 @@ issued					| Release Date        | Date of formal issuance.
 systemOfRecords			| System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
 
 
-Further Metadata Field Guidance (alphabetical by POD field)
+Further Metadata Field Guidance (alphabetical by field)
 -------------------------------
 
 {: .table .table-striped}

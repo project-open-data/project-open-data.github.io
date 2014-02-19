@@ -10,6 +10,13 @@ This section provides further background and resources to assist agencies in imp
 
 In addition to template and sample files we also produce Common Core Metadata schema in JSON schema format. [JSON schema](http://json-schema.org/) describes a JSON data format. It can be used to automatically validate Data.json files and to generate forms for creating JSON.
 
+### Terms and Abbreviations ###
+* **POD** - [Project Open Data](/schema)
+* **JSON** - [JavaScript Object Notation](http://json.org/)
+* **DCAT** - [Data Catalog Vocabulary](http://www.w3.org/TR/vocab-dcat/)
+* **CKAN** - [CKAN software](http://ckan.org/)
+* **Schema.org** - [schema.org](http://schema.org/)
+
 ### JSON Schema Files ###
 
 * 1.0 Final Schema: [Single Entry](/schema/1_0_final/single_entry.json) and [Catalog](/schema/1_0_final/catalog.json)
