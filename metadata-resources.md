@@ -164,7 +164,7 @@ The [Content Standard for Digital Geospatial Metadata](http://www.fgdc.gov/metad
 |Publisher           | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorContact/gmd:CI_ResponsibleParty/gmd:organisationName |
 |Contact Name        | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString |
 |Contact Email       | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
-|Unique Identifier   | //gmd:fileIdentifier/gco:CharacterString |
+|Unique Identifier   | //gmd:dataSetURI/gco:CharacterString |
 |Public Access Level | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
 |Data Dictionary     | //gmd:contentInfo/gmd:MD_FeatureCatalogueDescription/gmd:featureCatalogueCitation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage |
 |Download URL        | //gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[../../gmd:function/gmd:CI_OnLineFunctionCode/@codeListValue='download'] |
@@ -210,8 +210,3 @@ The above XPATHs assume the following namespaces:
 | gml      | http://www.opengis.net/gml |
 | gml32    | http://www.opengis.net/gml/3.2 |
 | srv      | http://www.isotc211.org/2005/srv |
-
-
-
-
-
