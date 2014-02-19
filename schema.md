@@ -46,34 +46,34 @@ The following "common core" fields are required, to be used to describe each ent
 *(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources#common-core-required-fields-equivalents) to find the equivalent Data.gov, RDFa Lite, and CKAN fields.)*
 
 {: .table .table-striped}
-Field               | Definition                                                                                                                                     |JSON
--------             | ---------------                                                                                                                                | --------------  
-Title               | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery.                | title
-Description         | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | description
-Tags                | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users.             | keyword
-Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        | modified
-Publisher           | The publishing entity.                                                                                                                         | publisher
-Contact Name        | Contact person's name for the asset.                                                                                                           | contactPoint
-Contact Email        | Contact person's email address. 			           	                                                                                             | mbox
-Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 | identifier
-Public Access Level | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)  | accessLevel
+Field                   | Label               | Definition
+--------------          | --------------      | --------------
+title			        | Title               | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery.                
+description		        | Description         | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. 
+keyword			        | Tags                | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users.             
+modified		        | Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        
+publisher		        | Publisher           | The publishing entity.                                                                                                                         
+contactPoint	        | Contact Name        | Contact person's name for the asset.                                                                                                           
+mbox			        | Contact Email       | Contact person's email address. 			           	                                                                                       
+identifier		        | Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 
+accessLevelComment | Public Access Level      | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)
 
 "Common Core" Required-if-Applicable Fields
 -------------------------------------------
 The following fields must be used to describe each dataset if they are applicable. U.S. Federal agencies must fill out BureauCode and ProgramCode.
 
 {: .table .table-striped}
-Field               | Definition                                                                                                                                     |JSON
--------             | ---------------                                                                                                                                | --------------  
-Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  | bureauCode
-Program Code		| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  | programCode
-Access Level Comment | An explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  | accessLevelComment
-Download URL        | URL providing direct access to the downloadable distribution of a dataset.                                                                     | accessURL
-Endpoint            | Endpoint of web service to access dataset.                                                                                                     | webService
-Format              | The file format or API type of the distribution.                                                                                               | format
-License             | The license with which the dataset or API is published.  See [Open Licenses](/open-licenses/) for more information.   | license
-Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         | spatial
-Temporal			| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   | temporal
+Field                   | Label                 | Definition
+--------------          | --------------        | --------------                                                                                                                       
+bureauCode				| Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
+programCode				| Program Code			| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
+accessLevelComment		| Access Level Comment 	| An explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
+accessURL				| Download URL        	| URL providing direct access to the downloadable distribution of a dataset.                                                                     
+webService				| Endpoint            	| Endpoint of web service to access dataset.                                                                                                     
+format					| Format              	| The file format or API type of the distribution.                                                                                               
+license					| License             	| The license with which the dataset or API is published.  See [Open Licenses](/open-licenses/) for more information. 
+spatial					| Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         
+temporal				| Temporal				| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   
 
 Beyond Common Core -- Extending the Schema
 ------------------------------------------
@@ -84,22 +84,22 @@ Expanded Fields
 Agencies are encouraged to use the following expanded fields when appropriate. Agencies may freely augment these fields with their own.
 
 {: .table .table-striped}
-Field               | Definition                                                                                                                                    | JSON
-------              | ------                                                                                                                                        | ----
-Category            | Main thematic category of the dataset.                                                                                                        | theme
-Data Dictionary     | URL to the data dictionary for the dataset or API.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              | dataDictionary
-Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             | dataQuality
-Distribution        | Holds multiple download URLs for datasets composed of multiple files and/or file types | distribution
-Frequency           | Frequency with which dataset is published.                                                                                                    | accrualPeriodicity
-Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface. | landingPage
-Language            | The language of the dataset.                                                                                                                  | language
-Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) | PrimaryITInvestmentUII
-Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            | references
-Release Date        | Date of formal issuance.                                                                                                                      | issued
-System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | systemOfRecords
+Field                   | Label               | Definition
+--------------          | --------------      | --------------                                                                                                                                       
+theme					| Category            | Main thematic category of the dataset.                                                                                                        
+dataDictionary			| Data Dictionary     | URL to the data dictionary for the dataset or API.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              
+dataQuality				| Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             
+distribution			| Distribution        | Holds multiple download URLs for datasets composed of multiple files and/or file types 
+accrualPeriodicity		| Frequency           | Frequency with which dataset is published.                                                                                                    
+landingPage				| Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
+language				| Language            | The language of the dataset.                                                                                                                  
+PrimaryITInvestmentUII	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
+references				| Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
+issued					| Release Date        | Date of formal issuance.                                                                                                                      
+systemOfRecords			| System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
 
 
-Further Metadata Field Guidance (alphabetical by JSON field)
+Further Metadata Field Guidance (alphabetical by POD field)
 -------------------------------
 
 {: .table .table-striped}

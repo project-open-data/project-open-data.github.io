@@ -74,55 +74,55 @@ In order to generate appropriately formatted JSON, simply import an appropriatel
 -----------------------------
 
 {: .table .table-striped}
-Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1*  | *Schema.org*
+Label               | *POD*   | *CKAN* | *DCAT*  | *Schema.org*
 -------             | -------                 | -------           | ------- | -------
-Title               | *Title*                 | *title*           | [dcterms:title](http://www.w3.org/TR/vocab-dcat/#Property:distribution_title)    | [schema:name](http://schema.org/name)
-Description         | *Description*           | *notes*                | [dcterms:description](http://www.w3.org/TR/vocab-dcat/#Property:distribution_description) | [schema:description](http://schema.org/description)
-Tags                | *Keywords*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword)    | [schema:keywords](http://schema.org/keywords)
-Last Update         | *Date updated*          | *revision_timestamp*                | [dcterms:modified](http://www.w3.org/TR/vocab-dcat/#Property:distribution_update_date) | [schema:dateModified](http://schema.org/dateModified)
-Publisher           | *Agency Name*           | *owner_org*                | [dcterms:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [schema:publisher](http://schema.org/publisher)
-Contact Name        | *Contact Name*          | *maintainer*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | *n/a*
-Contact Email       | *Contact Email Address* | *maintainer_email*                | [foaf:mbox](http://xmlns.com/foaf/spec/#term_mbox) | *n/a*
-Unique Identifier   | *User Generated ID*     | *id*                | [dcterms:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
-Public Access Level | *n/a*                   | *n/a*             | *n/a* | *n/a*
+Title               | *title*                 | *title*           | [dcterms:title](http://www.w3.org/TR/vocab-dcat/#Property:distribution_title)    | [schema:name](http://schema.org/name)
+Description         | *description*           | *notes*                | [dcterms:description](http://www.w3.org/TR/vocab-dcat/#Property:distribution_description) | [schema:description](http://schema.org/description)
+Tags                | *keyword*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword)    | [schema:keywords](http://schema.org/keywords)
+Last Update         | *modified*          | *revision_timestamp*                | [dcterms:modified](http://www.w3.org/TR/vocab-dcat/#Property:distribution_update_date) | [schema:dateModified](http://schema.org/dateModified)
+Publisher           | *publisher*           | *owner_org*                | [dcterms:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [schema:publisher](http://schema.org/publisher)
+Contact Name        | *contactPoint*          | *maintainer*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | *n/a*
+Contact Email       | *mbox* | *maintainer_email*                | [foaf:mbox](http://xmlns.com/foaf/spec/#term_mbox) | *n/a*
+Unique Identifier   | *identifier*     | *id*                | [dcterms:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
+Public Access Level | *accessLevel*                   | *n/a*             | *n/a* | *n/a*
 
 "Common Core" Required if Applicable Fields
 -------------------------------------------
 
 {: .table .table-striped}
-Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1* | *Schema.org*
+Label               | *POD*   | *CKAN* | *DCAT* | *Schema.org*
 -------             | -------                 | -------           | -------  | -------
-Bureau Code			| *n/a*                   | *n/a*             | *n/a* | *n/a*
-Program Code 		| *n/a*                   | *n/a*             | *n/a* | *n/a*
-Access Level Comment| *n/a*                   | *n/a*             | *n/a* | *n/a*
-Data Dictionary     | *Data Dictionary*       | *data_dict*                | *n/a* | *n/a*
-Download URL        | *Access Point*          | *res_url*                | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | [schema:contentUrl](http://schema.org/contentUrl)
-Endpoint            | *Access Point*          | *res_url*                | *n/a* | *n/a*
-Format              | *Media Format*          | *res_format*                | [dcterms:format](http://www.w3.org/TR/vocab-dcat/#Property:distribution_format)      | [schema:encodingFormat](http://schema.org/encodingFormat)
-License             | *Dataset license agreement URL* | *license_id*        | [dcterms:license](http://www.w3.org/TR/vocab-dcat/#Property:catalog_license) | *n/a*
-Spatial             | *Geographic scope*      | *spatial*                | [dcterms:spatial](http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial) | [schema:spatial](http://schema.org/spatial)
-Temporal            | *Period of Coverage*    | *n/a*                | [dcterms:temporal](http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal) | [schema:temporal](http://schema.org/temporal)
+Bureau Code			| *bureauCode*                   | *n/a*             | *n/a* | *n/a*
+Program Code 		| *programCode*                   | *n/a*             | *n/a* | *n/a*
+Access Level Comment| *accessLevelComment*                   | *n/a*             | *n/a* | *n/a*
+Data Dictionary     | *dataDictionary*       | *data_dict*                | *n/a* | *n/a*
+Download URL        | *accessURL*          | *res_url*                | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | [schema:contentUrl](http://schema.org/contentUrl)
+Endpoint            | *webService*          | *res_url*                | *n/a* | *n/a*
+Format              | *format*          | *res_format*                | [dcterms:format](http://www.w3.org/TR/vocab-dcat/#Property:distribution_format)      | [schema:encodingFormat](http://schema.org/encodingFormat)
+License             | *license* | *license_id*        | [dcterms:license](http://www.w3.org/TR/vocab-dcat/#Property:catalog_license) | *n/a*
+Spatial             | *spatial*      | *spatial*                | [dcterms:spatial](http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial) | [schema:spatial](http://schema.org/spatial)
+Temporal            | *temporal*    | *n/a*                | [dcterms:temporal](http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal) | [schema:temporal](http://schema.org/temporal)
 
 Expanded Fields
 ---------------
 
 {: .table .table-striped}
-Field               | *Data.gov*   | *CKAN* | *RDFa Lite 1.1* | *Schema.org*
+Label               | *POD*   | *CKAN* | *DCAT* | *Schema.org*
 -------             | -------                 | -------           | -------  | -------
-Release Date        | *Date Released*         | *n/a*                | [dcterms:issued](http://www.w3.org/TR/vocab-dcat/#Property:distribution_release_date) | [schema:datePublished](http://schema.org/datePublished)
-Frequency           | *Frequency*             | *n/a*                | [dcterms:accrualPeriodicity](http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency)    | *n/a*
-Language            | *n/a*                   | *n/a*                | [dcterms:language](http://www.w3.org/TR/vocab-dcat/#Property:catalog_language)     | [schema:inLanguage](http://schema.org/inLanguage)
-Data Quality        | *Data Quality*          | *n/a*                | *n/a*  | *n/a*
-Category            | *Subject Area*          | *groups*                | [dcat:theme](http://www.w3.org/TR/vocab-dcat/#Property:dataset_theme)   | [schema:about](http://schema.org/about)
-Related Documents   | *Reference for Technical Documentation* | *n/a*                | [dcterms:references](http://dublincore.org/documents/dcmi-terms/#terms-references) | *n/a*
-Homepage URL        | *n/a*                  | *url*                | [dcat:landingPage](http://www.w3.org/ns/dcat#Property:dataset_landingpage)  | [schema:url](http://schema.org/url)
-System of Records   | *n/a*                  | *n/a*                | *n/a*  | *n/a*
+Release Date        | *issued*         | *n/a*                | [dcterms:issued](http://www.w3.org/TR/vocab-dcat/#Property:distribution_release_date) | [schema:datePublished](http://schema.org/datePublished)
+Frequency           | *accrualPeriodicity*             | *n/a*                | [dcterms:accrualPeriodicity](http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency)    | *n/a*
+Language            | *language*                   | *n/a*                | [dcterms:language](http://www.w3.org/TR/vocab-dcat/#Property:catalog_language)     | [schema:inLanguage](http://schema.org/inLanguage)
+Data Quality        | *dataQuality*          | *n/a*                | *n/a*  | *n/a*
+Category            | *theme*          | *groups*                | [dcat:theme](http://www.w3.org/TR/vocab-dcat/#Property:dataset_theme)   | [schema:about](http://schema.org/about)
+Related Documents   | *references* | *n/a*                | [dcterms:references](http://dublincore.org/documents/dcmi-terms/#terms-references) | *n/a*
+Homepage URL        | *landingPage*                  | *url*                | [dcat:landingPage](http://www.w3.org/ns/dcat#Property:dataset_landingpage)  | [schema:url](http://schema.org/url)
+System of Records   | *systemOfRecords*                  | *n/a*                | *n/a*  | *n/a*
 
-Mapping DCAT to Other Metadata Specifications
+Mapping POD to Other Metadata Specifications
 ---------------------------------------------
 
-Below is a set of mappings that will help users of other common metadata schemas map their content to the defined DCAT fields.
-The mapping is from the DCAT field to the XPATH(s) in the common metadata schema where the corresponding information may be found.
+Below is a set of mappings that will help users of other common metadata schemas map their content to the defined POD fields.
+The mapping is from the POD field to the XPATH(s) in the common metadata schema where the corresponding information may be found.
 
 ###FGDC CSDGM
 
@@ -130,24 +130,24 @@ Established by Office of Management and Budget Circular A-16, the Federal Geogra
 The [Content Standard for Digital Geospatial Metadata](http://www.fgdc.gov/metadata/csdgm) aims to provide a common set of terminology and definitions for the documentation of digital geospatial data.
 
 {: .table .table-striped}
-| DCAT Field         | *FGDC CSDGM*|
+| POD Field          | *FGDC CSDGM*|
 |-------             | ------- |
-|Title               | /metadata/idinfo/citation/citeinfo/title |
-|Description         | /metadata/idinfo/descript/abstract |
-|Tags                | /metadata/idinfo/keywords/theme/themekey <br/> /metadata/idinfo/keywords/place/placekey <br/> /metadata/idinfo/keywords/temporal/tempkey |
-|Last Update         | /metadata/idinfo/citation/citeinfo/pubdate |
-|Publisher           | /metadata/idinfo/citation/citeinfo/pubinfo/publish <br/> /metadata/distinfo/distrib/cntinfo/cntperp/cntper <br/> /metadata/distinfo/distrib/cntinfo/cntorgp/cntorg |
-|Contact Name        | /metadata/idinfo/ptcontac/cntinfo/cntorgp/cntper |
-|Contact Email       | /metadata/idinfo/ptcontac/cntinfo/cntemail |
-|Unique Identifier   | CSDGM does not include a unique identifier in the metadata itself. Common practice is to use a URL to the metadata document as unique identifier. |
-|Public Access Level | /metadata/idinfo/accconst <br/> /metadata/idinfo/useconst <br/> /metadata/distinfo/distliab |
-|Data Dictionary     | /metadata/idinfo/keywords/theme/themekt <br/> /metadata/eainfo/overview/eadetcit |
-|Download URL        | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr |
-|Endpoint            | /metadata/idinfo/citation/citeinfo/onlink <br/> /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr |
-|Format              | /metadata/distinfo/storder/digform/digtinfo/fname |
-|License             | /metadata/distinfo/distliab |
-|Spatial             | /metadata/idinfo/spdom/bounding |
-|Temporal            | /metadata/idinfo/timeperd/timeinfo (might be one date or range. If range, separate start/end with comma) |
+|title               | /metadata/idinfo/citation/citeinfo/title |
+|description         | /metadata/idinfo/descript/abstract |
+|keyword             | /metadata/idinfo/keywords/theme/themekey <br/> /metadata/idinfo/keywords/place/placekey <br/> /metadata/idinfo/keywords/temporal/tempkey |
+|modified          	 | /metadata/idinfo/citation/citeinfo/pubdate |
+|publisher           | /metadata/idinfo/citation/citeinfo/pubinfo/publish <br/> /metadata/distinfo/distrib/cntinfo/cntperp/cntper <br/> /metadata/distinfo/distrib/cntinfo/cntorgp/cntorg |
+|contactPoint        | /metadata/idinfo/ptcontac/cntinfo/cntorgp/cntper |
+|mbox       		 | /metadata/idinfo/ptcontac/cntinfo/cntemail |
+|identifier    	 	 | CSDGM does not include a unique identifier in the metadata itself. Common practice is to use a URL to the metadata document as unique identifier. |
+|accessLevel 	  	 | /metadata/idinfo/accconst <br/> /metadata/idinfo/useconst <br/> /metadata/distinfo/distliab |
+|dataDictionary      | /metadata/idinfo/keywords/theme/themekt <br/> /metadata/eainfo/overview/eadetcit |
+|accessURL           | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr |
+|webService          | /metadata/idinfo/citation/citeinfo/onlink <br/> /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr |
+|format              | /metadata/distinfo/storder/digform/digtinfo/fname |
+|license             | /metadata/distinfo/distliab |
+|spatial             | /metadata/idinfo/spdom/bounding |
+|temporal            | /metadata/idinfo/timeperd/timeinfo (might be one date or range. If range, separate start/end with comma) |
 
 
 ###ISO 19115:2003
@@ -155,23 +155,24 @@ The [Content Standard for Digital Geospatial Metadata](http://www.fgdc.gov/metad
 [ISO 19115:2003](http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020) defines the schema required for describing geographic information and services. It provides information about the identification, the extent, the quality, the spatial and temporal schema, spatial reference, and distribution of digital geographic data.
 
 {: .table .table-striped}
-| DCAT Field         | *ISO 19115:2003* |
+| POD Field          | *ISO 19115:2003* |
 |-------             | ------- |
-|Title               | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString |
-|Description         | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString |
-|Tags                | //gmd:topicCategory/gmd:MD_TopicCategoryCode <br/> //gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString |
-|Last Update         | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
-|Publisher           | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorContact/gmd:CI_ResponsibleParty/gmd:organisationName |
-|Contact Name        | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString |
-|Contact Email       | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
-|Unique Identifier   | //gmd:fileIdentifier/gco:CharacterString |
-|Public Access Level | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
-|Data Dictionary     | //gmd:contentInfo/gmd:MD_FeatureCatalogueDescription/gmd:featureCatalogueCitation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage |
-|Download URL        | //gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[../../gmd:function/gmd:CI_OnLineFunctionCode/@codeListValue='download'] |
-|Format              | //gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:name/gco:CharacterString |
-|License             |  |
-|Spatial             | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox |
-|Temporal            | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:begin/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:begin/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:beginPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:beginPosition <br/><br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:end/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:end/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:endPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:endPosition |
+|title               | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString |
+|description         | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString |
+|keyword             | //gmd:topicCategory/gmd:MD_TopicCategoryCode <br/> //gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString |
+|modified          	 | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
+|publisher           | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorContact/gmd:CI_ResponsibleParty/gmd:organisationName |
+|contactPoint        | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString |
+|mbox       		 | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
+|identifier    	 	 | //gmd:fileIdentifier/gco:CharacterString |
+|accessLevel 	  	 | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
+|dataDictionary      | //gmd:contentInfo/gmd:MD_FeatureCatalogueDescription/gmd:featureCatalogueCitation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage |
+|accessURL           | //gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[../../gmd:function/gmd:CI_OnLineFunctionCode/@codeListValue='download'] |
+|webService			 |	|
+|format              | //gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:name/gco:CharacterString |
+|license             |  |
+|spatial             | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox |
+|temporal            | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:begin/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:begin/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:beginPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:beginPosition <br/><br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:end/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:end/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:endPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:endPosition |
 
 
 ### ISO 19119:2005
@@ -179,23 +180,24 @@ The [Content Standard for Digital Geospatial Metadata](http://www.fgdc.gov/metad
 [ISO 19119:2005](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=39890) identifies and defines the architecture patterns for service interfaces used for geographic information, defines its relationship to the Open Systems Environment model, presents a geographic services taxonomy and a list of example geographic services placed in the services taxonomy. It also prescribes how to create a platform-neutral service specification, how to derive conformant platform-specific service specifications, and provides guidelines for the selection and specification of geographic services from both platform-neutral and platform-specific perspectives.
 
 {: .table .table-striped}
-| DCAT Field         | *ISO 19119:2005* |
+| POD Field          | *ISO 19119:2005* |
 |-------             | ------- |
-|Title               | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString |
-|Description         | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:abstract/gco:CharacterString |
-|Tags                | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString |
-|Last Update         | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
-|Publisher           | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString |
-|Contact Name        | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString |
-|Contact Email       | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
-|Unique Identifier   | /gmd:MD_Metadata/gmd:fileIdentifier/gco:CharacterString |
-|Public Access Level | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
-|Data Dictionary     |  |
-|Endpoint            | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL |
-|Format              | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName |
-|License             |  |
-|Spatial             | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox |
-|Temporal            | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:begin/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:begin/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:beginPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:beginPosition <br/><br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:end/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:end/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:endPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:endPosition" |
+|title               | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString |
+|description         | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:abstract/gco:CharacterString |
+|keyword             | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString |
+|modified          	 | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
+|publisher           | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString |
+|contactPoint        | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString |
+|mbox       		 | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
+|identifier    	 	 | /gmd:MD_Metadata/gmd:fileIdentifier/gco:CharacterString |
+|accessLevel 	  	 | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
+|dataDictionary	 	 |  |
+|accessURL			 |	|
+|webService          | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL |
+|format              | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName |
+|license             |  |
+|spatial             | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox |
+|temporal            | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:begin/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:begin/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:beginPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:beginPosition <br/><br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:end/gml:TimeInstant/gml:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:end/gml32:TimeInstant/gml32:timePosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:endPosition <br/> /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml32:TimePeriod/gml32:endPosition" |
 
 
 ### Namespaces
