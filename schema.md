@@ -56,7 +56,7 @@ publisher		        | Publisher           | The publishing entity.
 contactPoint	        | Contact Name        | Contact person's name for the asset.                                                                                                           
 mbox			        | Contact Email       | Contact person's email address. 			           	                                                                                       
 identifier		        | Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 
-accessLevelComment | Public Access Level      | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)
+accessLevel | Public Access Level      | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)
 
 "Common Core" Required-if-Applicable Fields
 -------------------------------------------
