@@ -83,14 +83,14 @@ In order to generate appropriately formatted JSON, simply import an appropriatel
 {: .table .table-striped}
 Label               | *POD*   | *CKAN* | *DCAT*  | *Schema.org*
 -------             | -------                 | -------           | ------- | -------
-Title               | *title*                 | *title*           | [dcterms:title](http://www.w3.org/TR/vocab-dcat/#Property:distribution_title)    | [schema:name](http://schema.org/name)
-Description         | *description*           | *notes*                | [dcterms:description](http://www.w3.org/TR/vocab-dcat/#Property:distribution_description) | [schema:description](http://schema.org/description)
+Title               | *title*                 | *title*           | [dct:title](http://www.w3.org/TR/vocab-dcat/#Property:distribution_title)    | [schema:name](http://schema.org/name)
+Description         | *description*           | *notes*                | [dct:description](http://www.w3.org/TR/vocab-dcat/#Property:dataset_description) | [schema:description](http://schema.org/description)
 Tags                | *keyword*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword)    | [schema:keywords](http://schema.org/keywords)
-Last Update         | *modified*          | *revision_timestamp*                | [dcterms:modified](http://www.w3.org/TR/vocab-dcat/#Property:distribution_update_date) | [schema:dateModified](http://schema.org/dateModified)
-Publisher           | *publisher*           | *owner_org*                | [dcterms:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [schema:publisher](http://schema.org/publisher)
+Last Update         | *modified*          | *n/a*                 | [dct:modified](http://www.w3.org/TR/vocab-dcat/#Property:dataset_update_date) | [schema:dateModified](http://schema.org/dateModified)
+Publisher           | *publisher*           | *organization* &rarr; *title*              | [dct:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [schema:publisher](http://schema.org/publisher)
 Contact Name        | *contactPoint*          | *maintainer*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | *n/a*
 Contact Email       | *mbox* | *maintainer_email*                | [foaf:mbox](http://xmlns.com/foaf/spec/#term_mbox) | *n/a*
-Unique Identifier   | *identifier*     | *id*                | [dcterms:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
+Unique Identifier   | *identifier*     | *id*                | [dct:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
 Public Access Level | *accessLevel*                   | *n/a*             | *n/a* | *n/a*
 
 "Common Core" Required if Applicable Fields
@@ -102,13 +102,13 @@ Label               | *POD*   | *CKAN* | *DCAT* | *Schema.org*
 Bureau Code			| *bureauCode*                   | *n/a*             | *n/a* | *n/a*
 Program Code 		| *programCode*                   | *n/a*             | *n/a* | *n/a*
 Access Level Comment| *accessLevelComment*                   | *n/a*             | *n/a* | *n/a*
-Data Dictionary     | *dataDictionary*       | *data_dict*                | *n/a* | *n/a*
-Download URL        | *accessURL*          | *res_url*                | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | [schema:contentUrl](http://schema.org/contentUrl)
-Endpoint            | *webService*          | *res_url*                | *n/a* | *n/a*
-Format              | *format*          | *res_format*                | [dcterms:format](http://www.w3.org/TR/vocab-dcat/#Property:distribution_format)      | [schema:encodingFormat](http://schema.org/encodingFormat)
-License             | *license* | *license_id*        | [dcterms:license](http://www.w3.org/TR/vocab-dcat/#Property:catalog_license) | *n/a*
-Spatial             | *spatial*      | *spatial*                | [dcterms:spatial](http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial) | [schema:spatial](http://schema.org/spatial)
-Temporal            | *temporal*    | *n/a*                | [dcterms:temporal](http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal) | [schema:temporal](http://schema.org/temporal)
+Data Dictionary     | *dataDictionary*       | *n/a*                | *n/a* | *n/a*
+Download URL        | *accessURL*          | *resources*  &rarr; *url*                | [dcat:downloadURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_downloadurl) (recommended) or [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) (deprecated) | [schema:contentUrl](http://schema.org/contentUrl)
+Endpoint            | *webService*          | *resources*  &rarr; *url*             | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | *n/a*
+Format              | *format*          | *resources*  &rarr; *mimetype*                | [dcat:mediaType](http://www.w3.org/TR/vocab-dcat/#Property:distribution_media_type) (recommended) or [dct:format](http://www.w3.org/TR/vocab-dcat/#Property:distribution_format) (deprecated)      | [schema:encodingFormat](http://schema.org/encodingFormat)
+License             | *license* | *license_title*        | [dct:license](http://www.w3.org/TR/vocab-dcat/#Property:distribution_license) | *n/a*
+Spatial             | *spatial*      | *n/a*                | [dct:spatial](http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial) | [schema:spatial](http://schema.org/spatial)
+Temporal            | *temporal*    | *n/a*                | [dct:temporal](http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal) | [schema:temporal](http://schema.org/temporal)
 
 Expanded Fields
 ---------------
@@ -116,13 +116,13 @@ Expanded Fields
 {: .table .table-striped}
 Label               | *POD*   | *CKAN* | *DCAT* | *Schema.org*
 -------             | -------                 | -------           | -------  | -------
-Release Date        | *issued*         | *n/a*                | [dcterms:issued](http://www.w3.org/TR/vocab-dcat/#Property:distribution_release_date) | [schema:datePublished](http://schema.org/datePublished)
-Frequency           | *accrualPeriodicity*             | *n/a*                | [dcterms:accrualPeriodicity](http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency)    | *n/a*
-Language            | *language*                   | *n/a*                | [dcterms:language](http://www.w3.org/TR/vocab-dcat/#Property:catalog_language)     | [schema:inLanguage](http://schema.org/inLanguage)
+Release Date        | *issued*         | *n/a*                | [dct:issued](http://www.w3.org/TR/vocab-dcat/#Property:dataset_release_date) | [schema:datePublished](http://schema.org/datePublished)
+Frequency           | *accrualPeriodicity*             | *n/a*                | [dct:accrualPeriodicity](http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency)    | *n/a*
+Language            | *language*                   | *n/a*                | [dct:language](http://www.w3.org/TR/vocab-dcat/#Property:dataset_language)     | [schema:inLanguage](http://schema.org/inLanguage)
 Data Quality        | *dataQuality*          | *n/a*                | *n/a*  | *n/a*
 Category            | *theme*          | *groups*                | [dcat:theme](http://www.w3.org/TR/vocab-dcat/#Property:dataset_theme)   | [schema:about](http://schema.org/about)
-Related Documents   | *references* | *n/a*                | [dcterms:references](http://dublincore.org/documents/dcmi-terms/#terms-references) | *n/a*
-Homepage URL        | *landingPage*                  | *url*                | [dcat:landingPage](http://www.w3.org/ns/dcat#Property:dataset_landingpage)  | [schema:url](http://schema.org/url)
+Related Documents   | *references* | *n/a*                | [dct:references](http://dublincore.org/documents/dcmi-terms/#terms-references) | *n/a*
+Homepage URL        | *landingPage*                  | *n/a*                | [dcat:landingPage](http://www.w3.org/ns/dcat#Property:dataset_landingpage)  | [schema:url](http://schema.org/url)
 System of Records   | *systemOfRecords*                  | *n/a*                | *n/a*  | *n/a*
 
 Mapping POD to Other Metadata Specifications
