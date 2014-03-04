@@ -296,7 +296,7 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Required** | No
 **Accepted Values** | String
 **Usage Notes** | Use to link a given dataset with its related IT Unique Investment Identifier, which can often be found in Exhibit 53 documents.
-**Example** |  `{"PrimaryITInvestmentUII":"123456"}`
+**Example** |  `{"PrimaryITInvestmentUII":"023-000000001"}`
 
 {: .table .table-striped}
 **Field** | **programCode**
