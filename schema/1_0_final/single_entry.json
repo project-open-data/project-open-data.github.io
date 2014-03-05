@@ -165,19 +165,12 @@
         "keyword": {
             "title": "Tags",
             "description": "Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users.",
-            "anyOf": [
-                {
-                   "type": "array",
-                   "items": {
-                       "type": "string"
-                   },
-                   "minItems": 1,
-                   "uniqueItems": true
-                },
-                {
-                    "type": "null"                    
-                }
-              ]
+            "type": "array",
+             "items": {
+                 "type": "string"
+             },
+             "minItems": 1,
+             "uniqueItems": true
         },
         "landingPage": {
             "title":"Homepage URL",
