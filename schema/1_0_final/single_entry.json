@@ -97,9 +97,10 @@
             "description":"Holds multiple download URLs for datasets composed of multiple files and/or file types",
             "anyOf": [
                 {
-                    "type": "array",
+                    "type": "array",                    
                     "items": {
                         "type": "object",
+                        "required": ["accessURL", "format"],
                         "properties": {
                             "accessURL": {
                                 "title":"Download URL",
@@ -167,7 +168,8 @@
             "description": "Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users.",
             "type": "array",
              "items": {
-                 "type": "string"
+                 "type": "string", 
+                 "minLength": 1
              },
              "minItems": 1,
              "uniqueItems": true
@@ -256,7 +258,7 @@
             "anyOf": [
                 {
                    "type": "string",
-                   "minLength": 1
+                   "pattern": "[0-9]{3}-[0-9]{9}"
                 },
                 {
                     "type": "null"                    
