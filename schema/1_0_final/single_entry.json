@@ -25,6 +25,12 @@
                 }
               ]            
         },
+        "accessURL": {
+            "title":"Download URL",
+            "description":"URL providing direct access to the downloadable distribution of a dataset.",
+            "type": "string",
+            "format": "uri"
+        },       
         "accrualPeriodicity": {
             "title":"Frequency",
             "description":"Frequency with which dataset is published.",
@@ -124,6 +130,12 @@
                 }
               ]       
         },
+        "format": {
+            "title":"Format",
+            "description":"The file format or API type of the distribution.",
+            "pattern": "^[-\\w]+/[-\\w]+(\\.[-\\w]+)*([+][-\\w]+)?$",
+            "type": "string"
+        },         
         "identifier": {
             "title":"Unique Identifier",
             "description":"A unique identifier for the dataset or API as maintained within an Agency catalog or database.",
