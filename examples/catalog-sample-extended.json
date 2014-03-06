@@ -28,7 +28,7 @@
         "accessLevel": "public",
         "bureauCode": ["018:10"],
         "programCode": ["018:001"],
-        "accessLevelComment": "",
+        "accessLevelComment": null,
         "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
@@ -62,7 +62,7 @@
         "accessLevel": "public",
         "bureauCode": ["018:10"],
         "programCode": ["018:001"],
-        "accessLevelComment": "",
+        "accessLevelComment": null,
         "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.csv?accessType=DOWNLOAD", 
