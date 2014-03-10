@@ -28,7 +28,7 @@
         "accessLevel": "public",
         "bureauCode": ["018:10"],
         "programCode": ["018:001"],
-        "accessLevelComment": "",
+        "accessLevelComment": null,
         "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
@@ -39,11 +39,11 @@
         "license": "Public Domain", 
         "spatial": "United States", 
         "temporal": "2009-09-01T12:00:00Z/2010-05-31T12:00:00Z", 
-        "theme": "education", 
+        "theme": ["education"], 
         "dataDictionary": "http://nces.ed.gov/ccd/pdf/INsc09101a.pdf",
         "dataQuality": true,
         "issued": "2011-11-22",
-        "accrualPeriodicity": "annual",
+        "accrualPeriodicity": "Annual",
         "language": ["en-US"], 
         "primaryITInvestmentUII": "021-006227212", 
         "references": ["http://nces.ed.gov/ccd/data/txt/psu091alay.html","http://nces.ed.gov/ccd/data/txt/psu091s23ay.doc"], 
@@ -62,7 +62,7 @@
         "accessLevel": "public",
         "bureauCode": ["018:10"],
         "programCode": ["018:001"],
-        "accessLevelComment": "",
+        "accessLevelComment": null,
         "distribution": [
             {
                 "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.csv?accessType=DOWNLOAD", 
@@ -85,7 +85,7 @@
         "dataDictionary": "http://nces.ed.gov/ccd/pdf/INsc09101a.pdf",
         "dataQuality": true,
         "issued": "2010-11-22",
-        "accrualPeriodicity": "annual",
+        "accrualPeriodicity": "Annual",
         "language": ["en-US"], 
         "primaryITInvestmentUII": "021-006227212", 
         "references": ["http://nces.ed.gov/ccd/data/txt/psu091alay.txt"], 
