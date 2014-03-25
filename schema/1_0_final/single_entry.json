@@ -28,8 +28,15 @@
         "accessURL": {
             "title":"Download URL",
             "description":"URL providing direct access to the downloadable distribution of a dataset.",
-            "type": "string",
-            "format": "uri"
+            "anyOf": [
+                {
+                   "type": "string",
+                   "format": "uri"
+                },
+                {
+                    "type": "null"                    
+                }
+              ]            
         },       
         "accrualPeriodicity": {
             "title":"Frequency",
@@ -133,8 +140,15 @@
         "format": {
             "title":"Format",
             "description":"The file format or API type of the distribution.",
-            "pattern": "^[-\\w]+/[-\\w]+(\\.[-\\w]+)*([+][-\\w]+)?$",
-            "type": "string"
+            "anyOf": [
+                {
+                    "pattern": "^[-\\w]+/[-\\w]+(\\.[-\\w]+)*([+][-\\w]+)?$",
+                    "type": "string"
+                },
+                {
+                    "type": "null"                    
+                }
+              ]             
         },         
         "identifier": {
             "title":"Unique Identifier",
