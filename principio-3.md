@@ -36,7 +36,7 @@ Del mismo modo, existen mecanismos de cooperación y coordinación interinstituc
 var disqus_shortname = 'mexicoabierto'; // required: replace example with your forum shortname
 var disqus_identifier = 'principio-3';
 var disqus_title = 'Arquitectura';
-var disqus_url = 'http://mexico-abierto.github.io/iniciativa-datos-abiertos/principio-3';
+var disqus_url = 'http://mxabierto.github.io/iniciativa-datos-abiertos/principio-3';
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function() {
 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -7,7 +7,7 @@ branch: gh-pages
 
 # configuración global, no moverle
 root_url: http://localhost:4000
-org_name: mexico-abierto
+org_name: mxabierto
 prose_url: http://prose.io
 
 # configuración local, no es necesario editar

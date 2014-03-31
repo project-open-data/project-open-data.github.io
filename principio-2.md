@@ -36,7 +36,7 @@ Para ser considerados Datos Abiertos, las bases de datos deberán contar con las
 var disqus_shortname = 'mexicoabierto'; // required: replace example with your forum shortname
 var disqus_identifier = 'principio-2';
 var disqus_title = 'Definición';
-var disqus_url = 'http://mexico-abierto.github.io/iniciativa-datos-abiertos/principio-2';
+var disqus_url = 'http://mxabierto.github.io/iniciativa-datos-abiertos/principio-2';
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function() {
 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

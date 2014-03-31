@@ -36,7 +36,7 @@ Este proceso será completado por foros de consulta ciudadana que se llevarán a
 var disqus_shortname = 'mexicoabierto'; // required: replace example with your forum shortname
 var disqus_identifier = 'principios';
 var disqus_title = 'Introducción';
-var disqus_url = 'http://mexico-abierto.github.io/iniciativa-datos-abiertos/principios';
+var disqus_url = 'http://mxabierto.github.io/iniciativa-datos-abiertos/principios';
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function() {
 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -33,7 +33,7 @@ El objetivo de la Política Nacional de Datos Abiertos es convertirse en una her
 var disqus_shortname = 'mexicoabierto'; // required: replace example with your forum shortname
 var disqus_identifier = 'principio-1';
 var disqus_title = 'Objetivos';
-var disqus_url = 'http://mexico-abierto.github.io/iniciativa-datos-abiertos/principio-1';
+var disqus_url = 'http://mxabierto.github.io/iniciativa-datos-abiertos/principio-1';
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function() {
 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

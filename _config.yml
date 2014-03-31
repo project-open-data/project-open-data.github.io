@@ -1,16 +1,16 @@
 # configuración del documento
 title: Iniciativa de Datos Abiertos
 desc: "Iniciativa de Datos Abiertos"
-url: http://mexico-abierto.github.io/iniciativa-datos-abiertos
+url: http://mxabierto.github.io/iniciativa-datos-abiertos
 repo_name: iniciativa-datos-abiertos
 branch: gh-pages
 
 # configuración global, no moverle
-root_url: http://mexico-abierto.github.io/iniciativa-datos-abiertos
-org_name: mexico-abierto
+root_url: http://mxabierto.github.io/iniciativa-datos-abiertos
+org_name: mxabierto
 prose_url: http://prose.io
 ga_code: UA-44411606-2
-ga_site: mexico-abierto.github.io
+ga_site: mxabierto.github.io
 
 # configuración local, no es necesario editar
 pymgemnts: true

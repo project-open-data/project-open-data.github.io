@@ -39,7 +39,7 @@ Durante todo el proceso de preparación y publicación de Datos Abiertos, se imp
 var disqus_shortname = 'mexicoabierto'; // required: replace example with your forum shortname
 var disqus_identifier = 'principio-4';
 var disqus_title = 'Proceso';
-var disqus_url = 'http://mexico-abierto.github.io/iniciativa-datos-abiertos/principio-4';
+var disqus_url = 'http://mxabierto.github.io/iniciativa-datos-abiertos/principio-4';
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function() {
 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
