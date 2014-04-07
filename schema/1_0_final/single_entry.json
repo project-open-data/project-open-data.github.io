@@ -25,6 +25,19 @@
                 }
               ]            
         },
+        "accessURL": {
+            "title":"Download URL",
+            "description":"URL providing direct access to the downloadable distribution of a dataset.",
+            "anyOf": [
+                {
+                   "type": "string",
+                   "format": "uri"
+                },
+                {
+                    "type": "null"                    
+                }
+              ]            
+        },       
         "accrualPeriodicity": {
             "title":"Frequency",
             "description":"Frequency with which dataset is published.",
@@ -48,14 +61,14 @@
                    "items": {
                         "type": "string",
                         "pattern": "[0-9]{3}:[0-9]{2}"
-                    }
+                    }, 
+                   "minItems": 1,
+                   "uniqueItems": true
                 },
                 {
                     "type": "null"                    
                 }
-              ],
-            "minItems": 1,
-            "uniqueItems": true
+              ]
         },
         "contactPoint": {
             "title":"Contact Name",
@@ -97,9 +110,10 @@
             "description":"Holds multiple download URLs for datasets composed of multiple files and/or file types",
             "anyOf": [
                 {
-                    "type": "array",
+                    "type": "array",                    
                     "items": {
                         "type": "object",
+                        "required": ["accessURL", "format"],
                         "properties": {
                             "accessURL": {
                                 "title":"Download URL",
@@ -123,6 +137,19 @@
                 }
               ]       
         },
+        "format": {
+            "title":"Format",
+            "description":"The file format or API type of the distribution.",
+            "anyOf": [
+                {
+                    "pattern": "^[-\\w]+/[-\\w]+(\\.[-\\w]+)*([+][-\\w]+)?$",
+                    "type": "string"
+                },
+                {
+                    "type": "null"                    
+                }
+              ]             
+        },         
         "identifier": {
             "title":"Unique Identifier",
             "description":"A unique identifier for the dataset or API as maintained within an Agency catalog or database.",
@@ -165,19 +192,12 @@
         "keyword": {
             "title": "Tags",
             "description": "Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users.",
-            "anyOf": [
-                {
-                   "type": "array",
-                   "items": {
-                       "type": "string"
-                   },
-                   "minItems": 1,
-                   "uniqueItems": true
-                },
-                {
-                    "type": "null"                    
-                }
-              ]
+            "type": "array",
+             "items": {
+                 "type": "string", 
+                 "minLength": 1
+             },
+             "minItems": 1
         },
         "landingPage": {
             "title":"Homepage URL",
@@ -263,7 +283,7 @@
             "anyOf": [
                 {
                    "type": "string",
-                   "minLength": 1
+                   "pattern": "[0-9]{3}-[0-9]{9}"
                 },
                 {
                     "type": "null"                    
@@ -377,7 +397,8 @@
                 {
                    "type": "array",
                    "items": {
-                       "type": "string"
+                       "type": "string",
+                       "minLength": 1
                    },
                    "minItems": 1,
                    "uniqueItems": true
