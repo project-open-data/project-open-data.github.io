@@ -1,12 +1,12 @@
 #document settings
 title: Project Open Data
 desc: "Open Data Policy — Managing Information as an Asset"
-url: http://project-open-data.github.io/
+url: //project-open-data.github.io/
 repo_name: project-open-data.github.io
 branch: master
 
 #global settings, no need to change these
-root_url: http://project-open-data.github.io
+root_url: //project-open-data.github.io
 org_name: project-open-data
 prose_url: http://prose.io
 
