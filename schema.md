@@ -239,7 +239,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Cardinality** | (1,n)
 **Required** | Yes, always
 **Accepted Values** | Array of strings
-**Usage Notes** | Surround each keyword with quotes. Separate keywords with commas.
+**Usage Notes** | Surround each keyword with quotes. Separate keywords with commas.  Avoid duplicate keywords in the same record.  
 **Example** | `{"keyword":["vegetables","veggies","greens","leafy","spinach","kale","nutrition"]}`
 
 {: .table .table-striped}
