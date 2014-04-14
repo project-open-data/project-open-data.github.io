@@ -55,6 +55,10 @@ A value or set of values representing a specific concept or concepts. Data becom
 
 A hub for data discovery which provides a common location that lists and links to an organization’s datasets.  Such a hub is often located at www.example.com/data.  —*[source](http://project-open-data.github.io/policy-memo/)*
 
+### Data Asset   
+  
+A collection of data elements or datasets that make sense to group together. Each community of interest identifies the Data Assets specific to supporting the needs of their respective mission or business functions. Notably, a Data Asset is a deliberately abstract concept. A given Data Asset may represent an entire database consisting of multiple distinct entity classes, or may represent a single entity class.  -*[source](http://project-open-data.github.io/implementation-guide/#footnote-1)*
+
 ### Dataset
 
 A dataset is an organized collection of data. The most basic representation of a dataset is data elements presented in tabular form. Each column represents a particular variable. Each row corresponds to a given value of that column's variable. A dataset may also present information in a variety of non-tabular formats, such as an extensible mark-up language (XML) file, a geospatial data file, or an image file, etc.  —*[source](http://www.data.gov/glossary)*
