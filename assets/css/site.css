@@ -174,7 +174,19 @@ background-color : #e3e3e3;
 }
 
 
+.schema table th a,
+.schema table th a:hover {
+  text-decoration : none;
+  color : #000;
+}
 
+.schema table th a.permalink {
+  color : #BFBFBF;
+}
+
+.schema table th a.permalink:hover {
+  color : #E74338;
+}
 
 
 #footer { padding: 40px 10px; }
