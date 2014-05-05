@@ -36,6 +36,13 @@ The [Implementation Guidance](/implementation-guide/) available as a part of Pro
 
 Where optional fields are included in a catalog file but are unpopulated, they may be represented by a `null` value.  They should not be represented by an empty string (`""`).  
 
+The Project Open Data schema is case sensitive. The schema uses a camel case convention where the first letter of some words within a field are capitalized (usually all words but the first one). While it may seem subtle which characters are uppercase and lowercase, it is necessary to follow the exact same casing as defined in the schema documented here.  For example: 
+
+> Correct: `contactPoint`  
+> Incorrect: `ContactPoint`  
+> Incorrect: `contactpoint`  
+> incorrect: `CONTACTPOINT`  
+
 Links to downloadable examples of metadata files developed in this and other formats in [the metadata resources](/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
 
 
