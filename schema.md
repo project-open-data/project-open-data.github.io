@@ -103,7 +103,7 @@ Further Metadata Field Guidance (alphabetical by field)
 -------------------------------
 
 {: .table .table-striped}
-**Field** | **accessLevel**
+**Field <a class="permalink" href="#accessLevel">#</a>** | **<a name="accessLevel">accessLevel</a>**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -112,7 +112,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** | `{"accessLevel":"public"}`
 
 {: .table .table-striped}
-**Field** | **accessLevelComment**
+**Field <a class="permalink" href="#accessLevelComment">#</a>** | **<a name="accessLevelComment">accessLevelComment</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if accessLevel is "restricted public" or "non-public"
@@ -121,7 +121,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** | `{"accessLevelComment":"This dataset contains Personally Identifiable Information and could not be released for public access. A statistical analysis of the data contained herein, stripped of all personal identifiers, is available at http://another.website.gov/dataset."}`
 
 {: .table .table-striped}
-**Field** | **accessURL**
+**Field <a class="permalink" href="#accessURL">#</a>** | **<a name="accessURL">accessURL</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
@@ -130,7 +130,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"accessURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
 
 {: .table .table-striped}
-**Field** | **accrualPeriodicity**
+**Field <a class="permalink" href="#accrualPeriodicity">#</a>** | **<a name="accrualPeriodicity">accrualPeriodicity</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -139,7 +139,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"accrualPeriodicity":"Annual"}`
 
 {: .table .table-striped}
-**Field** | **bureauCode**
+**Field <a class="permalink" href="#bureauCode">#</a>** | **<a name="bureauCode">bureauCode</a>**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | Yes, for United States Federal Government agencies
@@ -148,7 +148,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  The Office of the Solicitor (86) at the Department of the Interior (010) would be: `{"bureauCode":["010:86"]}`.  If a second bureau was also responsible, the format like this: `{"bureauCode":["010:86","010:04"]}`.
 
 {: .table .table-striped}
-**Field** | **contactPoint**
+**Field <a class="permalink" href="#contactPoint">#</a>** | **<a name="contactPoint">contactPoint</a>**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -157,7 +157,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** | `{"contactPoint":"John Brown"}`
 
 {: .table .table-striped}
-**Field** | **dataDictionary**
+**Field <a class="permalink" href="#dataDictionary">#</a>** | **<a name="dataDictionary">dataDictionary</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No (Documentation that is not specifically a data dictionary belongs in "references")
@@ -166,7 +166,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"dataDictionary":"http://www.agency.gov/vegetables/dictionary.html"}`
 
 {: .table .table-striped}
-**Field** | **dataQuality**
+**Field <a class="permalink" href="#dataQuality">#</a>** | **<a name="dataQuality">dataQuality</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -175,7 +175,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"dataQuality":true}`
 
 {: .table .table-striped}
-**Field** | **description**
+**Field <a class="permalink" href="#description">#</a>** | **<a name="description">description</a>**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -184,7 +184,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** | `{"description":"This dataset contains a list of vegetables, including nutrition information and seasonality. Includes details on tomatoes, which are really fruit but considered a vegetable in this dataset."}`
 
 {: .table .table-striped}
-**Field** | **distribution**
+**Field <a class="permalink" href="#distribution">#</a>** | **<a name="distribution">distribution</a>**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
@@ -207,7 +207,7 @@ Further Metadata Field Guidance (alphabetical by field)
         ]
         
 {: .table .table-striped}
-**Field** | **format**
+**Field <a class="permalink" href="#format">#</a>** | **<a name="format">format</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
@@ -216,7 +216,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** | `{"format":"application/json"}`
 
 {: .table .table-striped}
-**Field** | **identifier**
+**Field <a class="permalink" href="#identifier">#</a>** | **<a name="identifier">identifier</a>**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -225,7 +225,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"identifier":"1344"}`
 
 {: .table .table-striped}
-**Field** | **issued**
+**Field <a class="permalink" href="#issued">#</a>** | **<a name="issued">issued</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -234,7 +234,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"issued":"2001-01-15"}`
 
 {: .table .table-striped}
-**Field** | **keyword**
+**Field <a class="permalink" href="#keyword">#</a>** | **<a name="keyword">keyword</a>**
 ----- | -----
 **Cardinality** | (1,n)
 **Required** | Yes, always
@@ -243,7 +243,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** | `{"keyword":["vegetables","veggies","greens","leafy","spinach","kale","nutrition"]}`
 
 {: .table .table-striped}
-**Field** | **landingPage**
+**Field <a class="permalink" href="#landingPage">#</a>** | **<a name="landingPage">landingPage</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -252,7 +252,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"landingPage":"http://www.agency.gov/vegetables"}`
 
 {: .table .table-striped}
-**Field** | **language**
+**Field <a class="permalink" href="#language">#</a>** | **<a name="language">language</a>**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
@@ -261,7 +261,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"language":["en-US"]}` or if multiple languages, `{"language":["es-MX","wo","nv","en-US"]}` 
 
 {: .table .table-striped}
-**Field** | **license**
+**Field <a class="permalink" href="#license">#</a>** | **<a name="license">license</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -270,7 +270,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"license":""}`
 
 {: .table .table-striped}
-**Field** | **mbox**
+**Field <a class="permalink" href="#mbox">#</a>** | **<a name="mbox">mbox</a>**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -279,7 +279,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Example** |  `{"mbox":"joe@agency.gov"}`
 
 {: .table .table-striped}
-**Field** | **modified**
+**Field <a class="permalink" href="#modified">#</a>** | **<a name="modified">modified</a>**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -290,7 +290,7 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Example** |  `{"modified":"2012-01-15"}` or `{"modified":"P1D"}`
 
 {: .table .table-striped}
-**Field** | **PrimaryITInvestmentUII**
+**Field <a class="permalink" href="#PrimaryITInvestmentUII">#</a>** | **<a name="PrimaryITInvestmentUII">PrimaryITInvestmentUII</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -299,7 +299,7 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Example** |  `{"PrimaryITInvestmentUII":"023-000000001"}`
 
 {: .table .table-striped}
-**Field** | **programCode**
+**Field <a class="permalink" href="#programCode">#</a>** | **<a name="programCode">programCode</a>**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | Yes, for United States Federal Government Agencies
@@ -308,7 +308,7 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Example** |  `{"programCode":["015:001"]}` or if multiple programs, `{"programCode":["015:001","015:002"]}`
 
 {: .table .table-striped}
-**Field** | **publisher**
+**Field <a class="permalink" href="#publisher">#</a>** | **<a name="publisher">publisher</a>**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -317,7 +317,7 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Example** |  `{"publisher":"U.S. Department of Education"}`
 
 {: .table .table-striped}
-**Field** | **references**
+**Field <a class="permalink" href="#references">#</a>** | **<a name="references">references</a>**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
@@ -326,7 +326,7 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Example** |  `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html"]}` or if multiple URLs, `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html","http://www.agency.gov/fruits/fruit_data_documentation.html"]}`
 
 {: .table .table-striped}
-**Field** | **spatial**
+**Field <a class="permalink" href="#spatial">#</a>** | **<a name="spatial">spatial</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if the dataset is spatial
@@ -335,7 +335,7 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Example** |  `{"spatial":"Lincoln, Nebraska"}`
 
 {: .table .table-striped}
-**Field** | **temporal**
+**Field <a class="permalink" href="#temporal">#</a>** | **<a name="temporal">temporal</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if applicable
@@ -348,7 +348,7 @@ Updated every 5 minutes beginning on February 15, 2010 would be represented as: 
 **Example** |  `{"temporal":"2000-01-15T00:45:00Z/2010-01-15T00:06:00Z"}`  or `{"temporal":"R/2000-01-15T00:45:00Z/P1W"}`  
 
 {: .table .table-striped}
-**Field** | **theme**
+**Field <a class="permalink" href="#theme">#</a>** | **<a name="theme">theme</a>**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
@@ -357,7 +357,7 @@ Updated every 5 minutes beginning on February 15, 2010 would be represented as: 
 **Examples** |  `{"theme":["vegetables"]}` or if multiple categories, `{"theme":["vegetables","produce"]}`
 
 {: .table .table-striped}
-**Field**       | **title**
+**Field <a class="permalink" href="#title">#</a>**       | **<a name="title">title</a>**
 -----           | -----
 **Cardinality** | (1,1)
 **Required**    | Yes, always
@@ -366,7 +366,7 @@ Updated every 5 minutes beginning on February 15, 2010 would be represented as: 
 **Example**     | `{"title":"Types of Vegetables"}`
 
 {: .table .table-striped}
-**Field** | **webService**
+**Field <a class="permalink" href="#webService">#</a>** | **<a name="webService">webService</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if the dataset has an API
