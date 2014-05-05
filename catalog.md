@@ -41,7 +41,7 @@ The JSON representation of the catalog should track directly with any other opti
 
 Where optional fields are included in a catalog file but are unpopulated, they may be represented by a `null` value.  They should not be represented by an empty string (`""`).  
 
-The json catalog files should only use UTF-8 character encoding.  
+The JSON catalog files should only use UTF-8 character encoding.  
 
 ### RDFa Lite
 
