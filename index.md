@@ -119,6 +119,8 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-10 [Example Data Hubs](/data-hubs) - Collection of department, agency, and program data sites across the federal government.
 
+5-11 [Licensing policies, principles, and resources](/licensing-resources.md) - Some examples of how government has addressed open licensing questions.
+
 ----------------
 
 ##6. Case Studies
