@@ -14,6 +14,12 @@ This is a policy requiring a grant’s recipients to license to the public all n
 
 The policy also requires that the grantees release all software code created with the funds under a license that allows others to use and build upon them and that all grantees must release all new source code developed or created with the grant funds under an open license acceptable to either the Free Software Foundation and/or the Open Source Initiative.
 
+###[Grant Solicitation Language with Open Licensing Requirement](https://www.federalregister.gov/articles/2014/05/16/2014-11463/applications-for-new-awards-first-in-the-world-program-development-grants)   
+*Department of Education*
+
+Federal Register notice inviting applications and putting applicants on notice that a term and condition of grant awards that contemplate creation or modification of curricular or educational materials will require grantees to grant an open license to the public that enables free use and reuse of all materials with attribution, in order “to ensure that the Federal investment of these funds has as broad an impact as possible.” Source code excepted.
+
+
 ###[Best Practices Language for Making Data “License Free”](http://theunitedstates.io/licensing/)
 *Civil Society*
 
@@ -42,6 +48,22 @@ The guidance provides a framework for the decision of the government to release 
 *Consumer Finance Protection Bureau*
 
 Policy that references legal and practical considerations in researching and procuring software, keeping in mind open source options.
+
+###[Source Code Policy – Community involvement](https://github.com/18F/source-code-policy)
+*18F (GSA)*
+
+This Source Code Policy, forked from the DoD/CFPB policy, includes a new "Community Involvement." From the policy:
+
+> **Community involvement**   
+> 18F staff and contractors are encouraged to be active contributors to FOSS projects that 18F or its clients utilize, even if they are not wholly maintained or operated by 18F. 
+
+> 18F encourages gratuitous contributions to its open-source projects, whether it be code, commentary, bug reports, feature requests, or overall strategic direction. 
+
+> Because all of 18F’s work is to be released into the public domain, forks or clones of our code repositories are free to be re-distributed into more restrictive licenses, even those that are not considered to be open-source licenses. 
+
+> The public can use our code as the basis of wholly proprietary and commercial systems. 18F would appreciate that users of our code disclose its lineage, but 18F maintains no legal right to require disclosure. Notifications that our work is being used in a new system are always greatly appreciated.
+
+
 
 ###[Open Source Software FAQs](http://dodcio.defense.gov/OpenSourceSoftwareFAQ.aspx)
 *Department of Defense*
