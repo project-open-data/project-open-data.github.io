@@ -8,7 +8,6 @@ branch: master
 #global settings, no need to change these
 root_url: //project-open-data.github.io
 org_name: project-open-data
-prose_url: http://prose.io
 
 # default build settings for running locally, no need to edit
 pymgemnts: true
