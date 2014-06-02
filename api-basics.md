@@ -101,4 +101,4 @@ Developers can’t be expected to visit an API area regularly, so an API communi
 
 Even more than just a presence on these social networks, an API needs to have an offline presence too -- something that can be accomplished by attending conferences, meet-ups, and hackathons, for example. These activities will only serve to strengthen the API community.
 
-*Re-used from [apievangilist.com](http://www.apievangelist.com) under a [Creative Commons](http://creativecommons.org/licenses/by-sa/3.0/) license and the [Federal Aviation Administration](http://services.faa.gov/).*
+*Re-used from [apievangelist.com](http://www.apievangelist.com) under a [Creative Commons](http://creativecommons.org/licenses/by-sa/3.0/) license and the [Federal Aviation Administration](http://services.faa.gov/).*
