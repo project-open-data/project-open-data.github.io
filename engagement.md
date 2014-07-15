@@ -6,11 +6,9 @@ filename: templates.md
 id: Engagement
 ---
 
-# Templates
-
 These templates are based on documents that have been used by agencies from the White House to the Department of Education. Feel free to modify and use these templates for your agency-organized data jam, datapalooza, or hackathon or to develop your own.
 
-- [Invitation list](invitation-list)
+- [Invitation list](#invitation-list)
 - [Invitation](#invitation)
   - [Data Jam](#data-jam)
   - [Datapalooza](#datapalooza)
