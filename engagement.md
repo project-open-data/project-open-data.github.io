@@ -1,30 +1,182 @@
 ---
 layout: default
 title: Templates for open data community events
-permalink: /engagement/
-filename: engagement.md
-id: engagement
+permalink: /event-templates/
+filename: templates.md
+id: event-templates
 ---
 
-# Open Data Engagement
+# Templates
 
-So you’re opening up government data and making it easier to find and use – to inspire new ideas, spur economic growth, and ultimately make your agency more effective in achieving its mission. But you realize that your agency can’t just supply data – it’s also about getting and acting upon feedback, and catalyzing use of the data from a wide variety of stakeholders.  A community event is a great way to hear ideas and feedback from passionate people, offer your expertise to people with thoughtful questions and evangelize your data assets. This document gives an overview of the main types of open data community events the U.S. Government holds.
+These templates are based on documents that have been used by agencies from the White House to the Department of Education. Feel free to modify and use these templates for your agency-organized data jam, datapalooza, or hackathon or to develop your own.
 
-## Data Jam
+- [Invitation list](engagement.md#invitation-list)
+- [Invitation](engagement.md#invitation)
+  - [Data Jam](engagement.md#data-jam)
+  - [Datapalooza](engagement.md#datapalooza)
+  - [Hackathon](engagement.md#hackathon)
+- [Data brief](engagement.md#data-brief)
+- [Agenda](engagement.md#agendas)
+  - [Data Jam](engagement.md#data-jam-1)
+  - [Datapalooza](engagement.md#datapalooza-1)
+  - [Hackathon](engagement.md#hackathon-1)
+- [Feedback mechanism](templates.md#feedback)
 
-A closed-press, day-long ideation event with developers, designers, and subject matter experts focused on one topic and top related open data sets. Several are held in succession, leading up to a datapalooza three months later. *Ex: Health Data jam (HHS), 21st Century Jobs Jam (OVP, Commerce, OSTP), Mitigating Campus Sexual Assault (Department of Education, Department of Justice)*
+## Invitation List
 
-**Goal:** To connect tech and policy communities and get commitments to make things with open data, in support of agency mission and priorities.
+**For data jams:** Aim for 100 RSVPs, assume 50 will attend. Include approximately 20 policy or subject matter experts, 40 developers and 40 designers.
 
-## Datapalooza
-An open press celebration, demo day, and platform to announce government open data releases or improvements. *Ex: Safety Datapalooza (DOT, CPSC, FDA.)*
+**For Datapaloozas:** Depending on space, aim high. A recent education datapalooza held more than 600 attendees. In addition to the attendees of any of the data jams, invite other potentially interested administration partners, companies, and press.
 
-**Goal:** To celebrate open data tools, companies and commitments and build momentum for projects.
+**For Hackathons:** Primarily invite designers, developers and other technologists. Decide on capacity based on event space and support staff available.
 
-## Hackathon
-An event where developers, designers, and strategists work in teams to solve problems with software and/or hardware and demo the resulting work at the end of the day.
-*Ex: White House “We The People” API Hackathon, The American Art API Hackathon*
 
-**Goal:** To build relationships with the tech community and to see immediate tools and prototypes.
+|First | Last | Email | Affiliation | Type | RSVP?|
+-------|-------|----|----|---|---|
+| John	| Doe	| John.Doe@email.edu | Univiersity X | SME – Education Innovation Professor | Y |
+| Jane | Smith | Jane.Smith@email.org | Civil Society Y | Designer – UX Lead | Y|
+| Sally | Developer | Sally@developer.com | Start-up Z | Developer | N |
 
-[Templates and instructions](engagement.md)
+			 
+## Invitation
+
+### Data Jam:
+
+**To:** Invitees
+
+**Subject:** Invitation: Join us for a [topic] data jam on [date]
+ 
+Good [Morning/afternoon],
+
+On behalf of [host], and in collaboration with [co-hosts], I would like to invite you to a Data Jam. Please save the date for [date] in [location].
+
+This Data Jam will bring entrepreneurs, technology leaders, and policy experts together to explore and discuss new ideas for private-sector tools, services, and apps designed to improve value, affordability, and outcomes in postsecondary education.
+
+[Host] will be sending further information in the coming days, but if you are interested in participating, please RSVP or send questions to [Email address for logistics]. This invitation is non-transferrable.
+
+Sincerely,
+
+[Sender]
+
+### Datapalooza:
+
+**To:** Invitees
+
+**Subject:** [Date] [Host] [Topic] Datapalooza
+
+[Logos of hosts and co-hosts]
+
+[Hosts and co-hosts] cordially invite you to join us for a “[Topic] Datapalooza,” highlighting innovators from the private, nonprofit, and academic sectors who have used freely available government data to build products, services, and apps that advance [topic area] in creative and powerful ways.
+
+Please join us on [date] at [time] in [city].
+
+RSVP to [email address] by 5 p.m. ET on [date] if you would like to attend. After you RSVP, we will provide additional event details and logistical information. Please note that this invitation is non-transferable.
+
+Sincerely,
+
+[Sender]
+
+### Hackathon:
+
+**To:** Invitees
+
+**Subject:** You're invited: [Subject area] Hackathon, [dates]
+
+[Logos of hosts and co-hosts]
+ 
+[Hosts and co-hosts] cordially invite you to join us for a [Subject area] Hackathon, designed to [goal of the hackathon] using freely available government data.
+ 
+Please join us on [date] at [time] in [city].
+ 
+RSVP to [email address] by 5 p.m. ET on [date] if you would like to attend. After you RSVP, we will provide additional event details and logistical information.
+
+Sincerely,
+
+[Sender]
+
+
+## Data brief
+
+This is the document you send in advance of a Data Jam or hackathon to help attendees familiarize themselves with the highlighted data sets and/or APIs. Distribute the doc at the event as well. The brief should contain the following about each highlighted data set or API:
+
+**Title of data set**
+www.URLofDataSet.gov
+Plain-language, succinct description of what’s in the data set, what’s interesting about the data set, and any special pitfalls to look out for. Also should include an example of how it’s currently being used or could be used.
+
+
+## Agendas
+
+### Data Jam:
+
+Data jams should be fast-paced, with the majority of time devoted to collaborative ideation.
+
+|Time | Subject | Speaker |
+-------|-------|----|
+| 9 a.m. | Opening Remarks | Person to set the energy of the day |
+| 9:15 a.m. | Structure of the Day | Emcee |
+| 9:20 a.m. | Data Brief 1 | Subject matter expert |
+| 9:25 a.m. | Data Brief 2 | Subject matter expert |
+| 9:30 a.m. | Brainstorming session | Moderators lead this conversation at each table |
+| 10:30 a.m. | Pitch | A captain from each table |
+| 10:45 a.m. | Vote | Emcee |
+| 11:00 a.m. | Coffee break | |
+| 11:15 a.m. | Brainstorming session | Moderators lead this conversation at each table |
+| 12:15 p.m. | Lunch | |
+| 1:15 p.m. | Pitch | A captain from each table |
+| 1:45 p.m. | Commitments | Emcee |
+| 2:15 p.m. | Closing remarks | Person to emphasize the impact of this work |
+
+
+### Datapalooza:
+
+Datapaloozas are celebrations of what's possible with open data, and should be primarily devoted to external innovators demonstrating products and followed by significant administration announcements.
+
+|Time | Subject | Speaker |
+-------|-------|----|
+| 9 a.m. | Welcome | Person to set the energy of the day |
+| 9:05 a.m. | Issue overview | Expert on a challenge area |
+| 9:15 a.m. | Demo | Open Data Innovator |
+| 9:20 a.m. | Demo | Open Data Innovator |
+| 9:25 a.m. | Demo | Open Data Innovator |
+| 9:30 a.m. | Issue overview | Expert on another challenge area |
+| 9:40 a.m. | Demo | Open Data Innovator |
+| 9:45 a.m. | Demo | Open Data Innovator |
+| 9:50 a.m. | Demo | Open Data Innovator |
+| 9:55 a.m. | Issue overview | Expert on a third challenge area |
+| 10:05 a.m. | Demo | Open Data Innovator |
+| 10:10 a.m. | Demo | Open Data Innovator |
+| 10:15 a.m. | Demo | Open Data Innovator |
+| 10:20 a.m. | Administration Announcements | Senior Administration Official |
+| 10:30 a.m. | Administration Announcements | Senior Administration Official |
+| 11:40 a.m. | Closing | Senior Administration Official |
+| 12 p.m. | Innovation Showcase | |
+
+
+### Hackathon
+
+There are infinite ways to host a hackathon -- this is just one sample of an agenda based on what the Smithsonian and the Department of Energy have used before.
+
+|Time | Agenda |
+-------|-------|
+|**Day one** |     |
+| 9 a.m. | Welcome |
+| 9:15 a.m. | Challenge overview |
+| 9:25 a.m. | Structure of the Day | 
+| 9:30 a.m. | Pitch and Form Teams |
+| 10 a.m. | Hacking time |
+| 12 p.m. | Lunch |
+| 1 p.m. | Hacking time |
+| 3 p.m. | Breakout groups | 
+| 5:00 p.m. | Evening wrap | 
+| **Day two**     | |
+| 9 a.m. | Welcome back |
+| 9:15 a.m. | Hacking time |
+| 12 p.m. | Lunch |
+| 1 p.m. | Hacking time |
+| 3 p.m. | Demos start |
+| 4 p.m. | Winners announced |
+| 4:30 p.m. | Wrap |
+
+## Feedback Mechanism
+
+At any of these events, you'll be lucky enough to have technical people thinking about the interesting problems in your subject matter area. Post butcher paper or a white board at the event and ask attendees to add any feedback that comes up during the event. This is specifically designed to capture ideas they have about improving the data sets you're using or data they wish was available -- ask them to add their email address if they’re willing to give more detail in a follow-up. This is great source of ideas for projects that could become datapalooza announcements.
