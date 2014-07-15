@@ -30,7 +30,7 @@ These templates are based on documents that have been used by agencies from the 
 
 
 |First | Last | Email | Affiliation | Type | RSVP?|
--------|-------|----|----|---|---|
+|-------|-------|----|----|---|---|
 | John	| Doe	| John.Doe@email.edu | Univiersity X | SME – Education Innovation Professor | Y |
 | Jane | Smith | Jane.Smith@email.org | Civil Society Y | Designer – UX Lead | Y|
 | Sally | Developer | Sally@developer.com | Start-up Z | Developer | N |
@@ -109,7 +109,7 @@ Plain-language, succinct description of what’s in the data set, what’s inter
 Data jams should be fast-paced, with the majority of time devoted to collaborative ideation.
 
 |Time | Subject | Speaker |
--------|-------|----|
+|-------|-------|----|
 | 9 a.m. | Opening Remarks | Person to set the energy of the day |
 | 9:15 a.m. | Structure of the Day | Emcee |
 | 9:20 a.m. | Data Brief 1 | Subject matter expert |
@@ -130,7 +130,7 @@ Data jams should be fast-paced, with the majority of time devoted to collaborati
 Datapaloozas are celebrations of what's possible with open data, and should be primarily devoted to external innovators demonstrating products and followed by significant administration announcements.
 
 |Time | Subject | Speaker |
--------|-------|----|
+|-------|-------|----|
 | 9 a.m. | Welcome | Person to set the energy of the day |
 | 9:05 a.m. | Issue overview | Expert on a challenge area |
 | 9:15 a.m. | Demo | Open Data Innovator |
@@ -155,7 +155,7 @@ Datapaloozas are celebrations of what's possible with open data, and should be p
 There are infinite ways to host a hackathon -- this is just one sample of an agenda based on what the Smithsonian and the Department of Energy have used before.
 
 |Time | Agenda |
--------|-------|
+|-------|-------|
 |**Day one** |     |
 | 9 a.m. | Welcome |
 | 9:15 a.m. | Challenge overview |
