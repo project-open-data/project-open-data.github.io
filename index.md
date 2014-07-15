@@ -167,5 +167,5 @@ An event where developers, designers, and strategists work in teams to solve pro
 
 **Goal:** To build relationships with the tech community and to see immediate tools and prototypes.
 
-###[Templates and instructions](event-templates)
+###[Templates and instructions](engagement/)
 
