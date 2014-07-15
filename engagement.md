@@ -6,21 +6,19 @@ filename: templates.md
 id: event-templates
 ---
 
-# Templates
-
 These templates are based on documents that have been used by agencies from the White House to the Department of Education. Feel free to modify and use these templates for your agency-organized data jam, datapalooza, or hackathon or to develop your own.
 
-- [Invitation list](engagement.md#invitation-list)
-- [Invitation](engagement.md#invitation)
-  - [Data Jam](engagement.md#data-jam)
-  - [Datapalooza](engagement.md#datapalooza)
-  - [Hackathon](engagement.md#hackathon)
-- [Data brief](engagement.md#data-brief)
-- [Agenda](engagement.md#agendas)
-  - [Data Jam](engagement.md#data-jam-1)
-  - [Datapalooza](engagement.md#datapalooza-1)
-  - [Hackathon](engagement.md#hackathon-1)
-- [Feedback mechanism](templates.md#feedback)
+- [Invitation list](#invitation-list)
+- [Invitation](#invitation)
+  - [Data Jam](#data-jam)
+  - [Datapalooza](#datapalooza)
+  - [Hackathon](#hackathon)
+- [Data brief](#data-brief)
+- [Agenda](#agendas)
+  - [Data Jam](#data-jam-1)
+  - [Datapalooza](#datapalooza-1)
+  - [Hackathon](#hackathon-1)
+- [Feedback mechanism](#feedback)
 
 ## Invitation List
 
