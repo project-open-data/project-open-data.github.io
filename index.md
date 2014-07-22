@@ -22,13 +22,13 @@ The White House developed Project Open Data – this collection of code, tools, 
 
 This section is a list of definitions and principles used to guide the project.
 
-2-1 [Open Data Principles](principles/) - The set of open data principles.
+2-1 [Open Data Principles](principles.md) - The set of open data principles.
 
-2-2 [Standards, Specifications, and Formats](open-standards/) - Standards, specifications, and formats supporting open data objectives.
+2-2 [Standards, Specifications, and Formats](standards.md) - Standards, specifications, and formats supporting open data objectives.
 
-2-3 [Open Data Glossary](glossary/) - The glossary of open data terms.
+2-3 [Open Data Glossary](glossary.md) - The glossary of open data terms.
 
-2-4 [Open Licenses](open-licenses/) - The definition for open licenses.
+2-4 [Open Licenses](licenses.md) - The definition for open licenses.
 
 2-5 [Common Core Metadata](schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.
 
@@ -38,13 +38,13 @@ This section is a list of definitions and principles used to guide the project.
 
 Implementation guidance for open data practices.
 
-3-1 [U.S. Government Policy on Open Data](/policy-memo/) - Full text of the memorandum.
+3-1 [U.S. Government Policy on Open Data](policy-memo.md) - Full text of the memorandum.
 
-3-2 [Implementation Guide](/implementation-guide/) - Official OMB implementation guidance for each step of implementing the policy.
+3-2 [Implementation Guide](implementation-guide.md) - Official OMB implementation guidance for each step of implementing the policy.
 
-3-3 [Public Data Listing](/catalog/) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.
+3-3 [Public Data Listing](catalog.md) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.
 
-3-4 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.
+3-4 [Frequently Asked Questions](faq.md) - A growing list of common questions and answers to facilitate adoption of open data projects.
 
 3-5 [Open Data Cross Priority (CAP) Goal](http://goals.performance.gov/opendata) - Information on the development of the Open Data CAP goal as required in the [Open Data Executive Order](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government).
 
@@ -98,28 +98,28 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 This section contains programmatic tools, resources, and/or checklists to help programs determine open data requirements.
 
-5-1 [Metadata Resources](metadata-resources/) -
+5-1 [Metadata Resources](metadata-resources.md) -
 Resources to provide guidance and assistance for each aspect of creating and maintaining agency.gov/data catalog files.
 
-5-2 [Business Case for Open Data](business-case/) - Overview of the benefits associated with open data.
+5-2 [Business Case for Open Data](business-case.md) - Overview of the benefits associated with open data.
 
-5-3 [General Workflows for Open Data Projects](future-case-study/) - A comprehensive overview of the steps involved in open data projects and their associated benefits.
+5-3 [General Workflows for Open Data Projects](future-case-study.md) - A comprehensive overview of the steps involved in open data projects and their associated benefits.
 
-5-4 [Open License Examples](license-examples/) - Potential licenses for data and content.
+5-4 [Open License Examples](license-examples.md) - Potential licenses for data and content.
 
-5-5 [API Basics](api-basics/) - Introductory resources for understanding application programming interfaces (APIs).
+5-5 [API Basics](api-basics.md) - Introductory resources for understanding application programming interfaces (APIs).
 
 5-6 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
 
-5-7 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
+5-7 [Digital PII Checklist](digital-pii-checklist.md) - Tool to assist agencies identify personally identifiable information in data.
 
-5-8 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards.
+5-8 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq.md) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards.
 
-5-9 [Example Policy Documents](policy-docs/) - Collection of memos, guidance and policy documents about open data for reference.
+5-9 [Example Policy Documents](policy-docs.md) - Collection of memos, guidance and policy documents about open data for reference.
 
-5-10 [Example Data Hubs](/data-hubs) - Collection of department, agency, and program data sites across the federal government.
+5-10 [Example Data Hubs](data-hubs.md) - Collection of department, agency, and program data sites across the federal government.
 
-5-11 [Licensing policies, principles, and resources](/licensing-resources) - Some examples of how government has addressed open licensing questions.
+5-11 [Licensing policies, principles, and resources](licensing-resources.md) - Some examples of how government has addressed open licensing questions.
 
 ----------------
 
@@ -127,13 +127,13 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 Case studies of novel or best practices from agencies who are leading in open data help others understand the challenges and opportunities for success.
 
-6-1 [Department of Labor API Program](labor-case-study/) - A department perspective on developing APIs for general use and, in particular, building the case for an ecosystem of users by developing SDKs.
+6-1 [Department of Labor API Program](labor-case-study.md) - A department perspective on developing APIs for general use and, in particular, building the case for an ecosystem of users by developing SDKs.
 
-6-2 [Department of Transportation Enterprise Data Inventory](transportation-case-study/) - A review of DOT's strategy and policy when creating a robust data inventory program.
+6-2 [Department of Transportation Enterprise Data Inventory](transportation-case-study.md) - A review of DOT's strategy and policy when creating a robust data inventory program.
 
-6-3 [Disaster Assistance Program Coordination](fema-case-study/) - The coordinated campaign led by FEMA has integrated a successful data exchange among 16 agencies to coordinate an important public service.
+6-3 [Disaster Assistance Program Coordination](fema-case-study.md) - The coordinated campaign led by FEMA has integrated a successful data exchange among 16 agencies to coordinate an important public service.
 
-6-4 [Environmental Protection Agency Central Data Exchange](epa-case-study/) - The agency's data exchange provides a model for programs that seek to coordinate the flow of data among industry, state, local, and tribal entities.
+6-4 [Environmental Protection Agency Central Data Exchange](epa-case-study.md) - The agency's data exchange provides a model for programs that seek to coordinate the flow of data among industry, state, local, and tribal entities.
 
 6-5 [FederalRegister.gov API](https://www.federalregister.gov/uploads/2012/11/FR2-API-Case-Study1.pdf) - A core government program update that has grown into an important public service.
 
