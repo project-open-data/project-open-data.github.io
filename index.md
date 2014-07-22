@@ -168,5 +168,17 @@ An event where developers, designers, and strategists work in teams to solve pro
 
 **Goal:** To build relationships with the tech community and to see immediate tools and prototypes.
 
+### Online Community
+A website, social networking group and/or email mailing list where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
+*Ex: Data.gov communities, NICAR/IRE, Code for America and Sunlight Foundation email listserv, Open Government Facebook and Google+ groups*
+
+**Goal:** To build and sustain ongoing relationships with media, nonprofits, good government advocates and civic technologists
+
+### FOIA Officers and Ombudsman
+Federal agency staff dedicated to handling Freedom of Information Act (FOIA) requests from industry and media. 
+*[The Office of Government Information Services (OGIS)](https://ogis.archives.gov/) at the National Archives and FOIA staff at agencies*
+
+**Goal:** To monitor and measure the incoming demand for data and proactively release data in response to that signal.
+
 ###[Templates and instructions](engagement/)
 
