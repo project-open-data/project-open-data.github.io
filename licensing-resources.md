@@ -76,5 +76,15 @@ An educational resource for government employees and government contractors to u
 
 A checklist developed at NSA to document the internal processes required to release government-developed software as open source software.  It provides a detailed example for other agencies to use as a starting point.  The original document contained a number of NSA-specific processes, the linked document is a "template" version that removes the specifics, and leaves just the outline and advisory material.
 
+###[National Aeronautics and Space Administration ESDSWG Open Source Working Group](https://earthdata.nasa.gov/esdswg#OpenSourceWorkingGroup-MissionStatement)
+
+The National Aeronuatics and Space Administration's Earth Science Data System Working Groups are chartered to 
+provide recommendations and guidance to the NASA data center community (missions, archives, etc.) in Earth 
+science including standards, technical infusion, recommendations in open source and software reuse and in
+big data. The Open Source Working Group within this organization promotes the consumption and production of 
+open source software, processes, standards and governance models throughout NASA’s Earth Science Data Systems.
+Work includes recommendations of open source licenses for NASA software projects, and case studies and use
+cases of leveraging licenses in both the consumption and production of open source software.
+
 
 
