@@ -1,11 +1,16 @@
 ---
 published: true
 layout: default
-title: Common Core Metadata Schema
-permalink: /schemav1_1/
-filename: schemav1_1.md
+title: Draft v1.1 Common Core Metadata Schema
+permalink: /v1.1/schema/
+filename: schema.md
 id: schema v1.1
 ---
+
+***IMPORTANT NOTE***
+This is not the official version of the common core metadata schema. This is an open, working draft to explore possible changes to version 1.0, which serves as the base for this file. The pull requests merged into this file while its in draft do not constitute OMB approved changes to the schema.
+
+---------------------------
 
 This section contains guidance to support the use of the common core metadata to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.
 
