@@ -78,7 +78,7 @@ A checklist developed at NSA to document the internal processes required to rele
 
 ###[National Aeronautics and Space Administration ESDSWG Open Source Working Group](https://earthdata.nasa.gov/esdswg#OpenSourceWorkingGroup-MissionStatement)
 
-The National Aeronuatics and Space Administration's Earth Science Data System Working Groups are chartered to 
+The National Aeronuatics and Space Administration (NASA)  Earth Science Data System Working Groups (ESDSWG) are chartered to 
 provide recommendations and guidance to the NASA data center community (missions, archives, etc.) in Earth 
 science including standards, technical infusion, recommendations in open source and software reuse and in
 big data. The Open Source Working Group within this organization promotes the consumption and production of 
