@@ -1,6 +1,6 @@
 # Project Open Data
 
-[![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.png?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
+[![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.svg?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
 
 ## Problem this Solves
 
