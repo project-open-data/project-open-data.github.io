@@ -25,7 +25,7 @@ Contributions can be made, primarily in two ways:
 3. Make changes as you would normally using the tools installed in step #1.
 4. Push the changes back to your fork
 5. Submitting a pull request to this repository
-6. You change should appear once approved.
+6. Your change(s) should appear once approved.
 
 ## Running Locally
 
