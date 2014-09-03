@@ -1,0 +1,69 @@
+[
+    {
+        "title": "Data Catalog",
+        "description": "Version 1.0", 
+        "keyword": ["catalog"], 
+        "modified": "2013-05-09",
+        "publisher": "US Department of X",
+        "contactPoint": "John Doe",
+        "mbox": "john.doe@agency.gov",
+        "identifier": "1",
+        "accessLevel": "public",
+        "bureauCode": ["018:10"],
+        "programCode": ["018:001"],
+	"accessURL": "http://agency.gov/data.json",
+	"format": "application/json"
+	
+    },
+    {
+        "title": "Public Elementary/Secondary Listing",
+        "description": "The purpose of the CCD nonfiscal surveys is to provide a listing of all schools and agencies providing free public elementary and secondary education, along with basic descriptive statistical information on each school and agency listed. Penalties apply for misuse, seehttp://nces.ed.gov/ncesglobal/data_usage_agreement.asp for more details.", 
+        "keyword": ["education","schools","children","locations","gis"], 
+        "modified": "2011-11-19T12:00:00Z",
+        "publisher": "US Department of Education",
+        "contactPoint": "Jane Doe",
+        "mbox": "Jane.doe@ed.gov",
+        "identifier": "gov-doe-nces-1121",
+        "accessLevel": "public",
+        "bureauCode": "018:10",
+        "programCode": "018:001",
+        "accessLevelComment": "",
+	"accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
+	"format": "text/csv",
+        "webService": "http://explore.data.gov/api/views/ykv5-fn9t/rows.json", 
+        "license": "Public Domain", 
+        "spatial": "United States", 
+        "temporal": "2009-09-01T12:00:00Z/2010-05-31T12:00:00Z"   
+    },
+    {
+        "title": "Public Elementary/Secondary Other Listing",
+        "description": "The purpose of the alt-CCD nonfiscal surveys is to provide a listing of all schools and agencies providing free public elementary and secondary education, along with basic descriptive statistical information on each school and agency listed. Penalties apply for misuse, seehttp://nces.ed.gov/ncesglobal/data_usage_agreement.asp for more details.", 
+        "keyword": ["education","schools","gis"], 
+        "modified": "2010-11-19T12:00:00Z",
+        "publisher": "US Department of Education",
+        "contactPoint": "Jane Doe",
+        "mbox": "Jane.doe@ed.gov",
+        "identifier": "gov-doe-nces-1120",
+        "accessLevel": "public",
+        "bureauCode": ["018:10"],
+        "programCode": ["018:001"],
+        "accessLevelComment": "",
+        "distribution": [
+            {
+                "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.csv?accessType=DOWNLOAD", 
+                "format": "text/csv"
+            }, 
+            {
+                "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.json?accessType=DOWNLOAD", 
+                "format": "application/json"
+            }, 
+            {
+                "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.xml?accessType=DOWNLOAD", 
+                "format": "application/xml"
+            }
+        ],
+        "webService": "http://explore.data.gov/api/views/ykv5-fn9s/rows.json", 
+        "license": "Public Domain", 
+        "spatial": "United States", 
+        "temporal": "2008-09-01T12:00:00Z/2009-05-31T12:00:00Z" 
+    }]
