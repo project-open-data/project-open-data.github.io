@@ -112,7 +112,7 @@ Further Metadata Field Guidance (alphabetical by field)
 {: .table .table-striped}
 **Field <a class="permalink" href="#accessLevel">#</a>** | **<a name="accessLevel">accessLevel</a>**
 ----- | -----
-**Cardinality** | (1,1)
+**Cardinality** | {1,1}
 **Required** | Yes, always
 **Accepted Values** | Must be one of the following: "public", "restricted public", "non-public"
 **Usage Notes** | This field refers to degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
