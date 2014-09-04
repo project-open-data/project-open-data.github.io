@@ -104,6 +104,7 @@ dataQuality				| Data Quality        | Whether the dataset meets the agency's In
 distribution			| Distribution        | Holds multiple download URLs for datasets composed of multiple files and/or file types 
 accrualPeriodicity		| Frequency           | Frequency with which dataset is published.                                                                                                    
 landingPage				| Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
+isPartOf				| isPartOf            | The collection of which the dataset is a subset.  
 language				| Language            | The language of the dataset.                                                                                                                  
 PrimaryITInvestmentUII	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
 references				| Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
@@ -226,6 +227,15 @@ Further Metadata Field Guidance (alphabetical by field)
 **Accepted Values** | String
 **Usage Notes** | This field allows third parties to maintain a consistent record for datasets even if title or URLs are updated. Agencies may integrate an existing system for maintaining unique identifiers or enter arbitrary characters for this field. However, each identifier **must** be unique across the agency's catalog and remain fixed. Characters should be alphanumeric.
 **Example** |  `{"identifier":"1344"}`
+
+{: .table .table-striped}
+**Field <a class="permalink" href="#ispartof">#</a>** | **<a name="ispartof">isPartOf</a>**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String
+**Usage Notes** | This field allows the grouping of multiple datasets into a "collection".  This field should be employed by the individual datasets that together make up a collection.  The value for this field should the the `identifier` of the parent dataset.  
+**Example** |  `{"isPartOf":"1344"}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#issued">#</a>** | **<a name="issued">issued</a>**
