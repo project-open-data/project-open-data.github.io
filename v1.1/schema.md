@@ -137,9 +137,9 @@ Further Metadata Field Guidance (alphabetical by field)
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | See usage notes
-**Usage Notes** | Must be a value from [DCCDAccrualPeriodicity](http://www.ukoln.ac.uk/metadata/dcmi/collection-DCCDAccrualPeriodicity/): "Annual","Bimonthly","Semiweekly","Daily","Biweekly","Semiannual","Biennial","Triennial","Three times a week","Three times a month","Continuously updated","Monthly","Quarterly","Semimonthly","Three times a year","Weekly","Completely irregular"
-**Example** |  `{"accrualPeriodicity":"Annual"}`
+**Accepted Values** | ISO 8601 Repeating Duration (or `irregular`)
+**Usage Notes** | Must be an ISO 8601 repeating duration unless this is not possible because the accrual periodicity is completely irregular, in which case the value should simply be `irregular`.  The value should not include a start or end date but rather simply express the duration of time between data publishing.  For example, a dataset which is updated on an annual basis would be `R/P1Y`; every three months would be `R/P3M`; weekly would be `R/P1W`; and daily would be `R/P1D`.  Further examples and documenation [can be found here](/iso8601_guidance.md#accrualperiodicity).  
+**Example** |  `{"accrualPeriodicity":"R/P1Y"}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#bureauCode">#</a>** | **<a name="bureauCode">bureauCode</a>**
