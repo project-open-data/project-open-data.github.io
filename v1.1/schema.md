@@ -79,7 +79,7 @@ Field                   | Label                 | Definition
 --------------          | --------------        | --------------                                                                                                                       
 bureauCode				| Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
 programCode				| Program Code			| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
-accessLevelComment		| Access Level Comment 	| An explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
+rights		| Rights 	| This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
 accessURL				| Download URL        	| URL providing direct access to the downloadable distribution of a dataset.                                                                     
 webService				| Endpoint            	| Endpoint of web service to access dataset.                                                                                                     
 format					| Format              	| The file format or API type of the distribution.                                                                                               
@@ -122,15 +122,6 @@ Further Metadata Field Guidance (alphabetical by field)
 **Accepted Values** | Must be one of the following: "public", "restricted public", "non-public"
 **Usage Notes** | This field refers to degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
 **Example** | `{"accessLevel":"public"}`
-
-{: .table .table-striped}
-**Field <a class="permalink" href="#accessLevelComment">#</a>** | **<a name="accessLevelComment">accessLevelComment</a>**
------ | -----
-**Cardinality** | (0,1)
-**Required** | Yes, if accessLevel is "restricted public" or "non-public"
-**Accepted Values** | String
-**Usage Notes** | An explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. 
-**Example** | `{"accessLevelComment":"This dataset contains Personally Identifiable Information and could not be released for public access. A statistical analysis of the data contained herein, stripped of all personal identifiers, is available at http://another.website.gov/dataset."}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#accessURL">#</a>** | **<a name="accessURL">accessURL</a>**
@@ -336,6 +327,17 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Accepted Values** | Array of strings (URLs)
 **Usage Notes** | Enclose each URL within strings. Separate multiple URLs with a comma.
 **Example** |  `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html"]}` or if multiple URLs, `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html","http://www.agency.gov/fruits/fruit_data_documentation.html"]}`
+
+
+{: .table .table-striped}
+**Field <a class="permalink" href="#rights">#</a>** | **<a name="rights">rights</a>**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if accessLevel is "restricted public" or "non-public"
+**Accepted Values** | String
+**Usage Notes** | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. 
+**Example** | `{"rights":"This dataset contains Personally Identifiable Information and could not be released for public access. A statistical analysis of the data contained herein, stripped of all personal identifiers, is available at http://another.website.gov/dataset."}`
+
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#spatial">#</a>** | **<a name="spatial">spatial</a>**
