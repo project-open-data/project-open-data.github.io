@@ -315,9 +315,9 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
-**Accepted Values** | String
-**Usage Notes** | The plaintext name of the entity publishing this dataset.
-**Example** |  `{"publisher":"U.S. Department of Education"}`
+**Accepted Values** | Object
+**Usage Notes** | The plaintext name of the entity publishing this dataset. Where greater specificity is desired, include as many levels of publisher as is useful, in ascending order, using the below format.  
+**Example** |  `{"publisher":{"name": "U.S. Department of Commerce"}` or if multiple levels, `"publisher": {"name": "National Weather Service", "subOrganizationOf": {"name": "National Oceanic and Atmospheric Administration", "subOrganizationOf": {"name": "U.S. Department of Commerce"}}}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#references">#</a>** | **<a name="references">references</a>**
