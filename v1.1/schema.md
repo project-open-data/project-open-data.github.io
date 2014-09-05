@@ -80,8 +80,8 @@ Field                   | Label                 | Definition
 bureauCode				| Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
 programCode				| Program Code			| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
 rights		| Rights 	| This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
-accessURL				| Download URL        	| URL providing direct access to the downloadable distribution of a dataset.                                                                     
-webService				| Endpoint            	| Endpoint of web service to access dataset.                                                                                                     
+accessURL				| Access URL        	| URL providing indirect access to a dataset, for example via API or a graphical interface.                                                                     
+downloadURL				| Download URL        	| URL providing direct access to a downloadable file of a dataset.                                                                    
 format					| Format              	| The file format or API type of the distribution.                                                                                               
 license					| License             	| The license with which the dataset or API is published.  See [Open Licenses](/open-licenses/) for more information. 
 spatial					| Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         
@@ -127,11 +127,11 @@ Further Metadata Field Guidance (alphabetical by field)
 {: .table .table-striped}
 **Field <a class="permalink" href="#accessURL">#</a>** | **<a name="accessURL">accessURL</a>**
 ----- | -----
-**Cardinality** | (0,1)
-**Required** | Yes, if the file is available for public download.
+**Cardinality** | (0,n)
+**Required** | Yes, if the file is accessible indirectly, through means other than direct download.
 **Accepted Values** | String (URL)
-**Usage Notes** | This must be the **direct** download URL. Use **homepage** for landing or disambiguation pages, or **references** for documentation pages. For multiple downloads, use **distribution** to include as many **accessURL** entries as you need.
-**Example** |  `{"accessURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
+**Usage Notes** | This should be the URL for an indirect means of accessing the data, such as API documentation, a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data.  This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
+**Example** |  `{"accessURL":"http://www.agency.gov/api/vegetables/"}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#accrualPeriodicity">#</a>** | **<a name="accrualPeriodicity">accrualPeriodicity</a>**
@@ -210,6 +210,16 @@ Further Metadata Field Guidance (alphabetical by field)
             }
         ]
         
+
+{: .table .table-striped}
+**Field <a class="permalink" href="#downloadURL">#</a>** | **<a name="downloadURL">downloadURL</a>**
+----- | -----
+**Cardinality** | (0,n)
+**Required** | Yes, if the file is available for public download.
+**Accepted Values** | String (URL)
+**Usage Notes** | This must be the **direct** download URL. Other means of accessing the dataset should be expressed using **accessURL**.  
+**Example** |  `{"downloadURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
+
 {: .table .table-striped}
 **Field <a class="permalink" href="#format">#</a>** | **<a name="format">format</a>**
 ----- | -----
@@ -397,15 +407,6 @@ Updated every 5 minutes beginning on February 15, 2010 would be represented as: 
 **Accepted Values** | String
 **Usage Notes** | Acronyms should be avoided.
 **Example**     | `{"title":"Types of Vegetables"}`
-
-{: .table .table-striped}
-**Field <a class="permalink" href="#webService">#</a>** | **<a name="webService">webService</a>**
------ | -----
-**Cardinality** | (0,1)
-**Required** | Yes, if the dataset has an API
-**Accepted Values** | String (URL)
-**Usage Notes** | This field will serve to delineate the web services offered by an agency and will be used to aggregate cross-government API catalogs.
-**Example** | `{"webService":"http://www.agency.gov/vegetables/vegetables.json"}`
 
 
 Rationale for Metadata Nomenclature
