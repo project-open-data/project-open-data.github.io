@@ -197,7 +197,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Cardinality** | (0,n)
 **Required** | Yes, if the dataset has an **accessURL** or **downloadURL**.  
 **Accepted Values** | Array of Objects 
-**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **accessURL**, **downloadURL**, **description**, **format**, **mediaType**, and **title**.   If an entry has only one form, enter details for that one; if it has multiple forms (such as a bulk download and an API), separate entries as seen below:  
+**Usage Notes** | This is a container for one or multiple `distribution` objects which group together the fields: **accessURL**, **downloadURL**, **description**, **format**, **mediaType**, and **title**.  
 **Example** | See below
  
 ~~~
