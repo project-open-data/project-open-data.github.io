@@ -41,6 +41,8 @@ The JSON representation of the catalog should track directly with any other opti
 
 Where optional fields are included in a catalog file but are unpopulated, they may be represented by a `null` value.  They should not be represented by an empty string (`""`).  
 
+If a dataset has not yet been published or is not accessible, this may be indicated by the absence of `accessURL` or `downloadURL` (and thus `distribution`) in the record.  
+
 The JSON catalog files should only use UTF-8 character encoding.  
 
 ### RDFa Lite
