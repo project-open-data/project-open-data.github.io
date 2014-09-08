@@ -198,29 +198,32 @@ Further Metadata Field Guidance (alphabetical by field)
 **Required** | Yes, if the dataset has an **accessURL** or **downloadURL**.  
 **Accepted Values** | Array of Objects 
 **Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **accessURL**, **downloadURL**, **description**, **format**, **mediaType**, and **title**.   If an entry has only one form, enter details for that one; if it has multiple forms (such as a bulk download and an API), separate entries as seen below:  
-**Example** | 
-            "distribution": [
-                {
-                    "description": "Vegetable data as a CSV file",
-                    "downloadURL": "http://www.agency.gov/vegetables/listofvegetables.csv",
-                    "format": "CSV",
-                    "mediaType": "text/csv",
-                    "title": "vegetables.csv"
-                },
-                {
-                    "description": "Vegetable data as a zipped CSV file with attached data dictionary",
-                    "downloadURL": "http://www.agency.gov/vegetables/vegetables-all.zip",
-                    "format": "Zipped CSV",
-                    "mediaType": "application/zip",
-                    "title": "vegetables-all.zip"
-                },
-                {
-                    "accessURL": "http://www.agency.gov/api/vegetables/",
-                    "description": "A fully queryable REST API with JSON and XML output",
-                    "format": "API",
-                    "title": "Vegetables REST API"
-                }
-            ]
+**Example** | See below
+ 
+~~~
+"distribution": [
+                 {
+                     "description": "Vegetable data as a CSV file",
+                     "downloadURL": "http://www.agency.gov/vegetables/listofvegetables.csv",
+                     "format": "CSV",
+                     "mediaType": "text/csv",
+                     "title": "vegetables.csv"
+                 },
+                 {
+                     "description": "Vegetable data as a zipped CSV file with attached data dictionary",
+                     "downloadURL": "http://www.agency.gov/vegetables/vegetables-all.zip",
+                     "format": "Zipped CSV",
+                     "mediaType": "application/zip",
+                     "title": "vegetables-all.zip"
+                 },
+                 {
+                     "accessURL": "http://www.agency.gov/api/vegetables/",
+                     "description": "A fully queryable REST API with JSON and XML output",
+                     "format": "API",
+                     "title": "Vegetables REST API"
+                 }
+            	]
+~~~
 
 {: .table .table-striped .child-field #distribution-accessURL}
 **Field [#](#distribution-accessURL){: .permalink}** | **distribution &rarr; accessURL**
