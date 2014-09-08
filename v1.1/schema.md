@@ -228,7 +228,7 @@ Further Metadata Field Guidance (alphabetical by field)
 {: .table .table-striped .child-field #distribution-accessURL}
 **Field [#](#distribution-accessURL){: .permalink}** | **distribution &rarr; accessURL**
 ----- | -----
-**Cardinality** | (0,n)
+**Cardinality** | (0,1)
 **Required** | Yes, if the file is accessible indirectly, through means other than direct download.
 **Accepted Values** | String (URL)
 **Usage Notes** | This should be the URL for an indirect means of accessing the data, such as API documentation, a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data.  This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
@@ -237,7 +237,7 @@ Further Metadata Field Guidance (alphabetical by field)
 {: .table .table-striped .child-field #distribution-downloadURL}
 **Field [#](#distribution-downloadURL){: .permalink}** | **distribution &rarr; downloadURL**
 ----- | -----
-**Cardinality** | (0,n)
+**Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String (URL)
 **Usage Notes** | This must be the **direct** download URL. Other means of accessing the dataset should be expressed using **accessURL**.  This should always be accompanied by **mediaType**.  
@@ -246,7 +246,7 @@ Further Metadata Field Guidance (alphabetical by field)
 {: .table .table-striped .child-field #distribution-description}
 **Field [#](#distribution-description){: .permalink}** | **distribution &rarr; description**
 ----- | -----
-**Cardinality** | (1,1)
+**Cardinality** | (0,1)
 **Required** | Yes, always
 **Accepted Values** | String
 **Usage Notes** | This should be a human-readable description of the distribution. 
@@ -273,7 +273,7 @@ Further Metadata Field Guidance (alphabetical by field)
 {: .table .table-striped .child-field #distribution-title}
 **Field [#](#distribution-title){: .permalink}** | **distribution &rarr; title**
 -----           | -----
-**Cardinality** | (1,1)
+**Cardinality** | (0,1)
 **Required**    | Yes, always
 **Accepted Values** | String
 **Usage Notes** | This should be a useful title for the distribution.  Acronyms should be avoided.
