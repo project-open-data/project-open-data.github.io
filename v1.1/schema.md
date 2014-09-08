@@ -116,8 +116,8 @@ systemOfRecords			| System of Records   | If the systems is designated as a syst
 Further Metadata Field Guidance (alphabetical by field)
 -------------------------------
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#accessLevel">#</a>** | **<a name="accessLevel">accessLevel</a>**
+{: .table .table-striped #accessLevel}
+**Field [#](#accessLevel){: .permalink}** | **accessLevel**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -125,8 +125,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This field refers to degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
 **Example** | `{"accessLevel":"public"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#accessURL">#</a>** | **<a name="accessURL">accessURL</a>**
+{: .table .table-striped #accessURL}
+**Field [#](#accessURL){: .permalink}** | **accessURL**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | Yes, if the file is accessible indirectly, through means other than direct download.
@@ -134,8 +134,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This should be the URL for an indirect means of accessing the data, such as API documentation, a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data.  This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
 **Example** |  `{"accessURL":"http://www.agency.gov/api/vegetables/"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#accrualPeriodicity">#</a>** | **<a name="accrualPeriodicity">accrualPeriodicity</a>**
+{: .table .table-striped #accrualPeriodicity}
+**Field [#](#accrualPeriodicity){: .permalink}** | **accrualPeriodicity**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -143,8 +143,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | Must be an ISO 8601 repeating duration unless this is not possible because the accrual periodicity is completely irregular, in which case the value should simply be `irregular`.  The value should not include a start or end date but rather simply express the duration of time between data publishing.  For example, a dataset which is updated on an annual basis would be `R/P1Y`; every three months would be `R/P3M`; weekly would be `R/P1W`; and daily would be `R/P1D`.  Further examples and documenation [can be found here](/iso8601_guidance.md#accrualperiodicity).  
 **Example** |  `{"accrualPeriodicity":"R/P1Y"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#bureauCode">#</a>** | **<a name="bureauCode">bureauCode</a>**
+{: .table .table-striped #bureauCode}
+**Field [#](#bureauCode){: .permalink}** | **bureauCode**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | Yes, for United States Federal Government agencies
@@ -152,8 +152,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | Represent each bureau responsible for the dataset according to the codes found in [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf). Start with the agency code, then a colon, then the bureau code.
 **Example** |  The Office of the Solicitor (86) at the Department of the Interior (010) would be: `{"bureauCode":["010:86"]}`.  If a second bureau was also responsible, the format like this: `{"bureauCode":["010:86","010:04"]}`.
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#contactPoint">#</a>** | **<a name="contactPoint">contactPoint</a>**
+{: .table .table-striped #contactPoint}
+**Field [#](#contactPoint){: .permalink}** | **contactPoint**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -161,8 +161,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | -
 **Example** | `{"contactPoint":"John Brown"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#dataDictionary">#</a>** | **<a name="dataDictionary">dataDictionary</a>**
+{: .table .table-striped #dataDictionary}
+**Field [#](#dataDictionary){: .permalink}** | **dataDictionary**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No (Documentation that is not specifically a data dictionary belongs in "references")
@@ -170,8 +170,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | -
 **Example** |  `{"dataDictionary":"http://www.agency.gov/vegetables/dictionary.html"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#dataQuality">#</a>** | **<a name="dataQuality">dataQuality</a>**
+{: .table .table-striped #dataQuality}
+**Field [#](#dataQuality){: .permalink}** | **dataQuality**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -179,8 +179,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | Indicates whether a dataset conforms to the agency's information quality guidelines.
 **Example** |  `{"dataQuality":true}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#description">#</a>** | **<a name="description">description</a>**
+{: .table .table-striped #description}
+**Field [#](#description){: .permalink}** | **description**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -188,8 +188,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This should be human-readable and understandable to an average person.
 **Example** | `{"description":"This dataset contains a list of vegetables, including nutrition information and seasonality. Includes details on tomatoes, which are really fruit but considered a vegetable in this dataset."}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#distribution">#</a>** | **<a name="distribution">distribution</a>**
+{: .table .table-striped #distribution}
+**Field [#](#distribution){: .permalink}** | **distribution**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
@@ -212,8 +212,8 @@ Further Metadata Field Guidance (alphabetical by field)
         ]
         
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#downloadURL">#</a>** | **<a name="downloadURL">downloadURL</a>**
+{: .table .table-striped #downloadURL}
+**Field [#](#downloadURL){: .permalink}** | **downloadURL**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | Yes, if the file is available for public download.
@@ -221,8 +221,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This must be the **direct** download URL. Other means of accessing the dataset should be expressed using **accessURL**.  
 **Example** |  `{"downloadURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#format">#</a>** | **<a name="format">format</a>**
+{: .table .table-striped #format}
+**Field [#](#format){: .permalink}** | **format**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -230,8 +230,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This should be a human-readable description of the file format of the dataset, that provides useful information that might not be apparent from `mediaType`.  
 **Example** | `{"format":"A CSV spreadsheet compressed in a ZIP file."}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#identifier">#</a>** | **<a name="identifier">identifier</a>**
+{: .table .table-striped #identifier}
+**Field [#](#identifier){: .permalink}** | **identifier**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -239,8 +239,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This field allows third parties to maintain a consistent record for datasets even if title or URLs are updated. Agencies may integrate an existing system for maintaining unique identifiers or enter arbitrary characters for this field. However, each identifier **must** be unique across the agency's catalog and remain fixed. Characters should be alphanumeric.
 **Example** |  `{"identifier":"1344"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#ispartof">#</a>** | **<a name="ispartof">isPartOf</a>**
+{: .table .table-striped #isPartOf}
+**Field [#](#isPartOf){: .permalink}** | **isPartOf**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -248,8 +248,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This field allows the grouping of multiple datasets into a "collection".  This field should be employed by the individual datasets that together make up a collection.  The value for this field should the the `identifier` of the parent dataset.  
 **Example** |  `{"isPartOf":"1344"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#issued">#</a>** | **<a name="issued">issued</a>**
+{: .table .table-striped #issued}
+**Field [#](#issued){: .permalink}** | **issued**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -257,8 +257,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | Dates should be [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. 
 **Example** |  `{"issued":"2001-01-15"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#keyword">#</a>** | **<a name="keyword">keyword</a>**
+{: .table .table-striped #keyword}
+**Field [#](#keyword){: .permalink}** | **keyword**
 ----- | -----
 **Cardinality** | (1,n)
 **Required** | Yes, always
@@ -266,8 +266,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | Surround each keyword with quotes. Separate keywords with commas.  Avoid duplicate keywords in the same record.  
 **Example** | `{"keyword":["vegetables","veggies","greens","leafy","spinach","kale","nutrition"]}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#landingPage">#</a>** | **<a name="landingPage">landingPage</a>**
+{: .table .table-striped #landingPage}
+**Field [#](#landingPage){: .permalink}** | **landingPage**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -275,8 +275,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users should be directed to for all resources tied to the dataset.  This allows agencies to better specify what a visitor receives after selecting one of the agency's datasets on Data.gov or in third-party mashups.
 **Example** |  `{"landingPage":"http://www.agency.gov/vegetables"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#language">#</a>** | **<a name="language">language</a>**
+{: .table .table-striped #language}
+**Field [#](#language){: .permalink}** | **language**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
@@ -284,8 +284,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This should adhere to the [RFC 5646](http://tools.ietf.org/html/rfc5646) standard. This [language subtag lookup](http://rishida.net/utils/subtags/) provides a good tool for checking and verifying language codes. A language tag is comprised of either one or two parts, the language subtag (such as en for English, sp for Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only be provided when needed to distinguish a language tag from another one (such as American vs. British English).
 **Example** |  `{"language":["en-US"]}` or if multiple languages, `{"language":["es-MX","wo","nv","en-US"]}` 
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#license">#</a>** | **<a name="license">license</a>**
+{: .table .table-striped #license}
+**Field [#](#license){: .permalink}** | **license**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -293,8 +293,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | See list of licenses.
 **Example** |  `{"license":""}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#mbox">#</a>** | **<a name="mbox">mbox</a>**
+{: .table .table-striped #mbox}
+**Field [#](#mbox){: .permalink}** | **mbox**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -302,8 +302,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | -
 **Example** |  `{"mbox":"joe@agency.gov"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#mediaType">#</a>** | **<a name="mediaType">mediaType</a>**
+{: .table .table-striped #mediaType}
+**Field [#](#mediaType){: .permalink}** | **mediaType**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
@@ -311,8 +311,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Usage Notes** | This must describe the exact files available at **downloadURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
 **Example** | `{"mediaType":"application/json"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#modified">#</a>** | **<a name="modified">modified</a>**
+{: .table .table-striped #modified}
+**Field [#](#modified){: .permalink}** | **modified**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -322,8 +322,8 @@ Further Metadata Field Guidance (alphabetical by field)
 If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this by [giving the duration](http://en.wikipedia.org/wiki/ISO_8601#Durations).  For instance, `P1D` for daily, `P2W` for every two weeks, and `PT5M` for every five minutes.  
 **Example** |  `{"modified":"2012-01-15"}` or `{"modified":"P1D"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#PrimaryITInvestmentUII">#</a>** | **<a name="PrimaryITInvestmentUII">PrimaryITInvestmentUII</a>**
+{: .table .table-striped #PrimaryITInvestmentUII}
+**Field [#](#PrimaryITInvestmentUII){: .permalink}** | **PrimaryITInvestmentUII**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -331,8 +331,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Usage Notes** | Use to link a given dataset with its related IT Unique Investment Identifier, which can often be found in Exhibit 53 documents.
 **Example** |  `{"PrimaryITInvestmentUII":"023-000000001"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#programCode">#</a>** | **<a name="programCode">programCode</a>**
+{: .table .table-striped #programCode}
+**Field [#](#programCode){: .permalink}** | **programCode**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | Yes, for United States Federal Government Agencies
@@ -340,8 +340,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Usage Notes** | Provide an array of programs related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls).
 **Example** |  `{"programCode":["015:001"]}` or if multiple programs, `{"programCode":["015:001","015:002"]}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#publisher">#</a>** | **<a name="publisher">publisher</a>**
+{: .table .table-striped #publisher}
+**Field [#](#publisher){: .permalink}** | **publisher**
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
@@ -349,8 +349,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Usage Notes** | The plaintext name of the entity publishing this dataset. Where greater specificity is desired, include as many levels of publisher as is useful, in ascending order, using the below format.  
 **Example** |  `{"publisher":{"name": "U.S. Department of Commerce"}` or if multiple levels, `"publisher": {"name": "National Weather Service", "subOrganizationOf": {"name": "National Oceanic and Atmospheric Administration", "subOrganizationOf": {"name": "U.S. Department of Commerce"}}}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#references">#</a>** | **<a name="references">references</a>**
+{: .table .table-striped #references}
+**Field [#](#references){: .permalink}** | **references**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
@@ -359,8 +359,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Example** |  `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html"]}` or if multiple URLs, `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html","http://www.agency.gov/fruits/fruit_data_documentation.html"]}`
 
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#rights">#</a>** | **<a name="rights">rights</a>**
+{: .table .table-striped #rights}
+**Field [#](#rights){: .permalink}** | **rights**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if accessLevel is "restricted public" or "non-public"
@@ -369,8 +369,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Example** | `{"rights":"This dataset contains Personally Identifiable Information and could not be released for public access. A statistical analysis of the data contained herein, stripped of all personal identifiers, is available at http://another.website.gov/dataset."}`
 
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#spatial">#</a>** | **<a name="spatial">spatial</a>**
+{: .table .table-striped #spatial}
+**Field [#](#spatial){: .permalink}** | **spatial**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if the dataset is spatial
@@ -378,8 +378,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Usage Notes** | This field should contain one of the following types of content: (1) a bounding coordinate box for the dataset represented in latitude / longitude pairs where the coordinates are specified in decimal degrees and in the order of: minimum longitude, minimum latitude, maximum longitude, maximum latitude; (2) a latitude / longitude pair (in decimal degrees) representing a point where the dataset is relevant; (3) a geographic feature expressed in [Geography Markup Language using the Simple Features Profile](http://www.ogcnetwork.net/gml-sf); or (4) a geographic feature from the [GeoNames database](http://www.geonames.org).
 **Example** |  `{"spatial":"Lincoln, Nebraska"}`
 
-{: .table .table-striped}
-**Field** | **systemOfRecords**
+{: .table .table-striped #systemOfRecords}
+**Field [#](#systemOfRecords){: .permalink}** | **systemOfRecords**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
@@ -387,8 +387,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Usage Notes** | This field should a URL to the System of Records Notice (SORN) that relates to the dataset, specifically from FederalRegister.gov.   
 **Example** |  `{"https://www.federalregister.gov/articles/2002/04/08/02-7376/privacy-act-of-1974-publication-in-full-of-all-notices-of-systems-of-records-including-several-new#p-361"}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#temporal">#</a>** | **<a name="temporal">temporal</a>**
+{: .table .table-striped #temporal}
+**Field [#](#temporal){: .permalink}** | **temporal**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if applicable
@@ -400,8 +400,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 Updated every 5 minutes beginning on February 15, 2010 would be represented as: `R/2010-02-15/PT5M`.  
 **Example** |  `{"temporal":"2000-01-15T00:45:00Z/2010-01-15T00:06:00Z"}`  or `{"temporal":"R/2000-01-15T00:45:00Z/P1W"}`  
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#theme">#</a>** | **<a name="theme">theme</a>**
+{: .table .table-striped #theme}
+**Field [#](#theme){: .permalink}** | **theme**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | No
@@ -409,8 +409,8 @@ Updated every 5 minutes beginning on February 15, 2010 would be represented as: 
 **Usage Notes** | Separate multiple categories with a comma. Could include [ISO Topic Categories](http://www.isotopicmaps.org/).  
 **Examples** |  `{"theme":["vegetables"]}` or if multiple categories, `{"theme":["vegetables","produce"]}`
 
-{: .table .table-striped}
-**Field <a class="permalink" href="#title">#</a>**       | **<a name="title">title</a>**
+{: .table .table-striped #title}
+**Field [#](#title){: .permalink}** | **title**
 -----           | -----
 **Cardinality** | (1,1)
 **Required**    | Yes, always
