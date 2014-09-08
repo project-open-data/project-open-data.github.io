@@ -683,9 +683,3 @@ background-color : #e3e3e3;
     padding-top:0;
   }
 }
-@media (min-width: 980px) {
-  body {
-    background: url("../img/seal.jpg") no-repeat fixed 80% 90% transparent;
-    padding: 0;
-  }
-}
