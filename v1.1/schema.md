@@ -105,7 +105,7 @@ distribution			| Distribution        | Holds multiple download URLs for datasets
 accrualPeriodicity		| Frequency           | Frequency with which dataset is published.                                                                                                    
 landingPage				| Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
 language				| Language            | The language of the dataset.                                                                                                                  
-PrimaryITInvestmentUII	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
+primaryITInvestmentUII	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
 references				| Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
 issued					| Release Date        | Date of formal issuance.                                                                                                                      
 systemOfRecords			| System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
@@ -302,13 +302,13 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Example** |  `{"modified":"2012-01-15"}` or `{"modified":"P1D"}`
 
 {: .table .table-striped}
-**Field <a class="permalink" href="#PrimaryITInvestmentUII">#</a>** | **<a name="PrimaryITInvestmentUII">PrimaryITInvestmentUII</a>**
+**Field <a class="permalink" href="#primaryITInvestmentUII">#</a>** | **<a name="primaryITInvestmentUII">primaryITInvestmentUII</a>**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | String
 **Usage Notes** | Use to link a given dataset with its related IT Unique Investment Identifier, which can often be found in Exhibit 53 documents.
-**Example** |  `{"PrimaryITInvestmentUII":"023-000000001"}`
+**Example** |  `{"primaryITInvestmentUII":"023-000000001"}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#programCode">#</a>** | **<a name="programCode">programCode</a>**
