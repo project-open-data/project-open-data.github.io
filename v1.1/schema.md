@@ -41,6 +41,8 @@ The [Implementation Guidance](/implementation-guide/) available as a part of Pro
 
 Where optional fields are included in a catalog file but are unpopulated, they may be represented by a `null` value.  They should not be represented by an empty string (`""`).  
 
+When a record has an `accessURL` or `downloadURL`, they should be contained as objects within a `distribution`. Any object may be described by `title`, `description`, `format`, or `mediaType`, though when an object contains `downloadURL`, it must be accompanied by `mediatype`.  
+
 The Project Open Data schema is case sensitive. The schema uses a camel case convention where the first letter of some words within a field are capitalized (usually all words but the first one). While it may seem subtle which characters are uppercase and lowercase, it is necessary to follow the exact same casing as defined in the schema documented here.  For example: 
 
 > Correct: `contactPoint`  
@@ -79,14 +81,25 @@ Field                   | Label                 | Definition
 --------------          | --------------        | --------------                                                                                                                       
 bureauCode				| Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
 programCode				| Program Code			| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
-rights		| Rights 	| This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
-accessURL				| Access URL        	| URL providing indirect access to a dataset, for example via API or a graphical interface.                                                                     
-downloadURL				| Download URL        	| URL providing direct access to a downloadable file of a dataset.                                                                    
-format					| Format              	| A human-readable description of the file format of a dataset.                                                                                               
+distribution			| Distribution        | Represents a specific available form of a dataset in the form of download or access URLs, along with metadata specific to that form.  
 license					| License             	| The license with which the dataset or API is published.  See [Open Licenses](/open-licenses/) for more information. 
-mediaType					| MIME Type              	| The machine-readable file format ([IANA MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of a dataset.                                                                                               
+rights		| Rights 	| This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
 spatial					| Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         
 temporal				| Temporal				| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   
+
+"Common Core" Distribution Fields
+-------------------------------------------
+Within a record, `distribution` is used to aggregate the metadata specific to a dataset's resources (`accessURL` and `downloadURL`), which may be described using the following fields.  Each distribution should contain one `accessURL` or `downloadURL`.  `downloadURL` should always be accompanied by `mediaType`.  
+
+{: .table .table-striped}
+Field                   | Label                 | Definition
+--------------          | --------------        | --------------                                                                                                                       
+accessURL				| Access URL        	| URL providing indirect access to a dataset, for example via API or a graphical interface.                                                                     
+downloadURL				| Download URL        	| URL providing direct access to a downloadable file of a dataset.                                                                    
+description		        | Description         | Human-readable description of the distribution. 
+format					| Format              	| A human-readable description of the file format of a distribution.                                                                                               
+mediaType					| MIME Type              	| The machine-readable file format ([IANA MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of a distribution.    
+title			        | Title               | Human-readable name of the distribution.  
 
 Beyond Common Core -- Extending the Schema
 ------------------------------------------
@@ -102,7 +115,6 @@ Field                   | Label               | Definition
 theme					| Category            | Main thematic category of the dataset.                                                                                                        
 dataDictionary			| Data Dictionary     | URL to the data dictionary for the dataset or API.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              
 dataQuality				| Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             
-distribution			| Distribution        | Holds multiple download URLs for datasets composed of multiple files and/or file types 
 accrualPeriodicity		| Frequency           | Frequency with which dataset is published.                                                                                                    
 landingPage				| Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
 isPartOf				| isPartOf            | The collection of which the dataset is a subset.  
