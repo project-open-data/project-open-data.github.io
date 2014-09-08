@@ -41,7 +41,7 @@ The [Implementation Guidance](/implementation-guide/) available as a part of Pro
 
 Where optional fields are included in a catalog file but are unpopulated, they may be represented by a `null` value.  They should not be represented by an empty string (`""`).  
 
-When a record has an `accessURL` or `downloadURL`, they should be contained as objects within a `distribution`. Any object may be described by `title`, `description`, `format`, or `mediaType`, though when an object contains `downloadURL`, it must be accompanied by `mediatype`.  
+When a record has an **accessURL** or **downloadURL**, they should be contained as objects within a **distribution**. Any object may be described by **title**, **description**, **format**, or **mediaType**, though when an object contains **downloadURL**, it must be accompanied by **mediaType**.  
 
 The Project Open Data schema is case sensitive. The schema uses a camel case convention where the first letter of some words within a field are capitalized (usually all words but the first one). While it may seem subtle which characters are uppercase and lowercase, it is necessary to follow the exact same casing as defined in the schema documented here.  For example: 
 
@@ -89,7 +89,7 @@ temporal				| Temporal				| The range of temporal applicability of a dataset (i.
 
 "Common Core" Distribution Fields
 -------------------------------------------
-Within a record, `distribution` is used to aggregate the metadata specific to a dataset's resources (`accessURL` and `downloadURL`), which may be described using the following fields.  Each distribution should contain one `accessURL` or `downloadURL`.  `downloadURL` should always be accompanied by `mediaType`.  
+Within a record, **distribution** is used to aggregate the metadata specific to a dataset's resources (**accessURL** and **downloadURL**), which may be described using the following fields.  Each distribution should contain one **accessURL** or **downloadURL**.  **downloadURL** should always be accompanied by **mediaType**.  
 
 {: .table .table-striped}
 Field                   | Label                 | Definition
@@ -136,15 +136,6 @@ Further Metadata Field Guidance (alphabetical by field)
 **Accepted Values** | Must be one of the following: "public", "restricted public", "non-public"
 **Usage Notes** | This field refers to degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
 **Example** | `{"accessLevel":"public"}`
-
-{: .table .table-striped #accessURL}
-**Field [#](#accessURL){: .permalink}** | **accessURL**
------ | -----
-**Cardinality** | (0,n)
-**Required** | Yes, if the file is accessible indirectly, through means other than direct download.
-**Accepted Values** | String (URL)
-**Usage Notes** | This should be the URL for an indirect means of accessing the data, such as API documentation, a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data.  This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
-**Example** |  `{"accessURL":"http://www.agency.gov/api/vegetables/"}`
 
 {: .table .table-striped #accrualPeriodicity}
 **Field [#](#accrualPeriodicity){: .permalink}** | **accrualPeriodicity**
@@ -204,43 +195,87 @@ Further Metadata Field Guidance (alphabetical by field)
 **Field [#](#distribution){: .permalink}** | **distribution**
 ----- | -----
 **Cardinality** | (0,n)
-**Required** | No
-**Accepted Values** | See Usage Notes
-**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **accessURL** and **format**.  If an entry has only one dataset, enter details for that one; if it has multiple datasets (such as a bulk download and an API), separate entries as seen below:  
-  
-    "distribution": [
-            {
-                "accessURL":"https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-                "format":"text/csv"
-            }, 
-            {
-                "accessURL":"https://explore.data.gov/views/ykv5-fn9t/rows.json?accessType=DOWNLOAD", 
-                "format":"application/json"
-            }, 
-            {
-                "accessURL":"https://explore.data.gov/views/ykv5-fn9t/rows.xml?accessType=DOWNLOAD", 
-                "format":"text/xml"
-            }
-        ]
-        
+**Required** | Yes, if the dataset has an **accessURL** or **downloadURL**.  
+**Accepted Values** | Array of Objects 
+**Usage Notes** | Distribution is a concatenation, as appropriate, of the following elements: **accessURL**, **downloadURL**, **description**, **format**, **mediaType**, and **title**.   If an entry has only one form, enter details for that one; if it has multiple forms (such as a bulk download and an API), separate entries as seen below:  
+**Example** | 
+            "distribution": [
+                {
+                    "description": "Vegetable data as a CSV file",
+                    "downloadURL": "http://www.agency.gov/vegetables/listofvegetables.csv",
+                    "format": "CSV",
+                    "mediaType": "text/csv",
+                    "title": "vegetables.csv"
+                },
+                {
+                    "description": "Vegetable data as a zipped CSV file with attached data dictionary",
+                    "downloadURL": "http://www.agency.gov/vegetables/vegetables-all.zip",
+                    "format": "Zipped CSV",
+                    "mediaType": "application/zip",
+                    "title": "vegetables-all.zip"
+                },
+                {
+                    "accessURL": "http://www.agency.gov/api/vegetables/",
+                    "description": "A fully queryable REST API with JSON and XML output",
+                    "format": "API",
+                    "title": "Vegetables REST API"
+                }
+            ]
 
-{: .table .table-striped #downloadURL}
-**Field [#](#downloadURL){: .permalink}** | **downloadURL**
+{: .table .table-striped .child-field #distribution-accessURL}
+**Field [#](#distribution-accessURL){: .permalink}** | **distribution &rarr; accessURL**
+----- | -----
+**Cardinality** | (0,n)
+**Required** | Yes, if the file is accessible indirectly, through means other than direct download.
+**Accepted Values** | String (URL)
+**Usage Notes** | This should be the URL for an indirect means of accessing the data, such as API documentation, a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data.  This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
+**Example** |  `{"accessURL":"http://www.agency.gov/api/vegetables/"}`
+
+{: .table .table-striped .child-field #distribution-downloadURL}
+**Field [#](#distribution-downloadURL){: .permalink}** | **distribution &rarr; downloadURL**
 ----- | -----
 **Cardinality** | (0,n)
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String (URL)
-**Usage Notes** | This must be the **direct** download URL. Other means of accessing the dataset should be expressed using **accessURL**.  
+**Usage Notes** | This must be the **direct** download URL. Other means of accessing the dataset should be expressed using **accessURL**.  This should always be accompanied by **mediaType**.  
 **Example** |  `{"downloadURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
 
-{: .table .table-striped #format}
-**Field [#](#format){: .permalink}** | **format**
+{: .table .table-striped .child-field #distribution-description}
+**Field [#](#distribution-description){: .permalink}** | **distribution &rarr; description**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String
+**Usage Notes** | This should be a human-readable description of the distribution. 
+**Example** | `{"description":"Vegetable data as a zipped CSV file with attached data dictionary"}`
+
+{: .table .table-striped .child-field #distribution-format}
+**Field [#](#distribution-format){: .permalink}** | **distribution &rarr; format**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | String
 **Usage Notes** | This should be a human-readable description of the file format of the dataset, that provides useful information that might not be apparent from `mediaType`.  
 **Example** | `{"format":"A CSV spreadsheet compressed in a ZIP file."}`
+
+{: .table .table-striped .child-field #distribution-mediaType}
+**Field [#](#distribution-mediaType){: .permalink}** | **distribution &rarr; mediaType**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if the file is available for public download.
+**Accepted Values** | String
+**Usage Notes** | This must describe the exact files available at **downloadURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
+**Example** | `{"mediaType":"application/csv"}`
+
+{: .table .table-striped .child-field #distribution-title}
+**Field [#](#distribution-title){: .permalink}** | **distribution &rarr; title**
+-----           | -----
+**Cardinality** | (1,1)
+**Required**    | Yes, always
+**Accepted Values** | String
+**Usage Notes** | This should be a useful title for the distribution.  Acronyms should be avoided.
+**Example**     | `{"title":"Spreadsheet"}`
+
 
 {: .table .table-striped #identifier}
 **Field [#](#identifier){: .permalink}** | **identifier**
@@ -313,15 +348,6 @@ Further Metadata Field Guidance (alphabetical by field)
 **Accepted Values** | Email address
 **Usage Notes** | -
 **Example** |  `{"mbox":"joe@agency.gov"}`
-
-{: .table .table-striped #mediaType}
-**Field [#](#mediaType){: .permalink}** | **mediaType**
------ | -----
-**Cardinality** | (0,1)
-**Required** | Yes, if the file is available for public download.
-**Accepted Values** | String
-**Usage Notes** | This must describe the exact files available at **downloadURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
-**Example** | `{"mediaType":"application/json"}`
 
 {: .table .table-striped #modified}
 **Field [#](#modified){: .permalink}** | **modified**
@@ -406,7 +432,16 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Required** | Yes, if applicable
 **Accepted Values** | ISO 8601 Date
 **Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start datetime/end datetime} in the [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) format. ISO 8601 specifies that datetimes can be formatted in a number of ways, including a simple four-digit year (eg. 2013) to a much more specific YYYY-MM-DDTHH:MM:SSZ, where the T specifies a seperator between the date and time and time is expressed in 24 hour notation in the UTC (Zulu) time zone. (e.g., 2011-02-14T12:00:00Z/2013-07-04T19:34:00Z). Use a solidus ("/") to separate start and end times.  
-  
+
+{: .table .table-striped #title}
+**Field [#](#title){: .permalink}** | **title**
+-----           | -----
+**Cardinality** | (1,1)
+**Required**    | Yes, always
+**Accepted Values** | String
+**Usage Notes** | Acronyms should be avoided.
+**Example**     | `{"title":"Types of Vegetables"}`
+
 If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this [with repeating intervals](http://en.wikipedia.org/wiki/ISO_8601#Time_intervals).  For instance, updated monthly starting in January 2010 and continuing through the present would be represented as: `R/2010-01/P1M`.
 
 Updated every 5 minutes beginning on February 15, 2010 would be represented as: `R/2010-02-15/PT5M`.  
