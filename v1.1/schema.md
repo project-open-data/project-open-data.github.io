@@ -82,8 +82,9 @@ programCode				| Program Code			| Federal agencies, list the primary program rel
 rights		| Rights 	| This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
 accessURL				| Access URL        	| URL providing indirect access to a dataset, for example via API or a graphical interface.                                                                     
 downloadURL				| Download URL        	| URL providing direct access to a downloadable file of a dataset.                                                                    
-format					| Format              	| The file format or API type of the distribution.                                                                                               
+format					| Format              	| A human-readable description of the file format of a dataset.                                                                                               
 license					| License             	| The license with which the dataset or API is published.  See [Open Licenses](/open-licenses/) for more information. 
+mediaType					| MIME Type              	| The machine-readable file format ([IANA MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of a dataset.                                                                                               
 spatial					| Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         
 temporal				| Temporal				| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   
 
@@ -224,10 +225,10 @@ Further Metadata Field Guidance (alphabetical by field)
 **Field <a class="permalink" href="#format">#</a>** | **<a name="format">format</a>**
 ----- | -----
 **Cardinality** | (0,1)
-**Required** | Yes, if the file is available for public download.
+**Required** | No
 **Accepted Values** | String
-**Usage Notes** | This must describe the exact files available at **accessURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
-**Example** | `{"format":"application/json"}`
+**Usage Notes** | This should be a human-readable description of the file format of the dataset, that provides useful information that might not be apparent from `mediaType`.  
+**Example** | `{"format":"A CSV spreadsheet compressed in a ZIP file."}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#identifier">#</a>** | **<a name="identifier">identifier</a>**
@@ -300,6 +301,15 @@ Further Metadata Field Guidance (alphabetical by field)
 **Accepted Values** | Email address
 **Usage Notes** | -
 **Example** |  `{"mbox":"joe@agency.gov"}`
+
+{: .table .table-striped}
+**Field <a class="permalink" href="#mediaType">#</a>** | **<a name="mediaType">mediaType</a>**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | Yes, if the file is available for public download.
+**Accepted Values** | String
+**Usage Notes** | This must describe the exact files available at **downloadURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
+**Example** | `{"mediaType":"application/json"}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#modified">#</a>** | **<a name="modified">modified</a>**
