@@ -648,7 +648,9 @@ background-color : #e3e3e3;
 .icon-fullscreen {
   background-position: -456px -144px;
 }
-
+.child-field {
+  border-left : 10em solid #fff;
+}
 @media (max-width: 979px) {
   .navbar .nav-collapse .nav.pull-right {
     float: none;
