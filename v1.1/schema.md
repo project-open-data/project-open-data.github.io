@@ -53,6 +53,11 @@ The Project Open Data schema is case sensitive. The schema uses a camel case con
 Links to downloadable examples of metadata files developed in this and other formats in [the metadata resources](/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
 
 
+Schema Version Declaration (Required)
+-----------------------------
+In order to distinguish the schema version being used publishers are required to specify the relevant URI using the `$schema` field at the beginning of their data.json file. Version 1.1 of the schema should be identified with the following URI: http://projectopendata.PLACEHOLDER.gov/v1.1/schema.  Optionally, publishers may also use the `$ref` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (http://projectopendata.PLACEHOLDER.gov/v1.1/schema/catalog.json) or they may refer to their own JSON Schema file where they have extended the schema. These fields are both part of a JSON object that also contains a listing of all datasets under the `dataset` field. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
+
+
 "Common Core" Required Fields
 -----------------------------
 The following "common core" fields are required, to be used to describe each entry:
@@ -125,7 +130,42 @@ issued					| Release Date        | Date of formal issuance.
 systemOfRecords			| System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
 
 
-Further Metadata Field Guidance (alphabetical by field)
+Further Metadata Field Guidance
+-------------------------------
+Additional details for each field are provided here broken down into sections for the overarching [Catalog](#Catalog), each [dataset](#dataset), and each dataset's [distribution](#distribution).
+
+Catalog Fields {#Catalog}
+-------------------------------
+
+{: .table .table-striped #schema}
+**Field [#](#schema){: .permalink}** | **&#36;schema**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String (URL)
+**Usage Notes** | This is used to identify the schema version using a URI. The URI for version 1.1 of the schema is `http://projectopendata.PLACEHOLDER.gov/v1.1/schema`
+**Example** | `{"$schema": "http://projectopendata.PLACEHOLDER.gov/v1.1/schema"}`
+
+{: .table .table-striped #ref}
+**Field [#](#ref){: .permalink}** | **&#36;ref**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String (URL)
+**Usage Notes** | This is used to specify a [JSON Schema](http://json-schema.org/) file that defines all fields. By default, it is recommended that the canonical JSON Schema file is referenced (http://projectopendata.PLACEHOLDER.gov/v1.1/schema/catalog.json) but if the schema had been extended, publishers may reference a file that defines those extensions. 
+**Example** | `{"$ref": "http://projectopendata.PLACEHOLDER.gov/v1.1/schema/catalog.json"}`
+
+{: .table .table-striped #dataset}
+**Field [#](#dataset){: .permalink}** | **dataset**
+----- | -----
+**Cardinality** | (1,n)
+**Required** | Yes, always
+**Accepted Values** | Array of Objects
+**Usage Notes** | This field is a container for an array of Dataset objects. See [Dataset Fields](#Dataset) below for details
+**Example** | `{"dataset": [...]}`
+
+
+Dataset Fields {#Dataset}
 -------------------------------
 
 {: .table .table-striped #accessLevel}
