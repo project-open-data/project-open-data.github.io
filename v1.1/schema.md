@@ -72,8 +72,7 @@ description		        | Description         | Human-readable description (e.g., a
 keyword			        | Tags                | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users.             
 modified		        | Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        
 publisher		        | Publisher           | The publishing entity.                                                                                                                         
-contactPoint	        | Contact Name        | Contact person's name for the asset.                                                                                                           
-mbox			        | Contact Email       | Contact person's email address. 			           	                                                                                       
+contactPoint	        | Contact Name and Email        | Contact person's name and email for the asset.                                                                                                           
 identifier		        | Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 
 accessLevel | Public Access Level      | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)
 
@@ -200,9 +199,34 @@ Dataset Fields {#Dataset}
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
+**Accepted Values** | vCard object
+**Usage Notes** | This is a container for two fields that together make up the contact information for the dataset.  **contactPoint** should always contain both the person's appropriately formatted full name (**fn**) and email (**hasEmail**).  
+**Example** | See below
+
+~~~
+            "contactPoint": {
+                "fn": "Jane Doe",
+                "hasEmail": "mailto:jane.doe@agency.gov"
+            }
+~~~
+
+{: .table .table-striped .child-field #contactPoint-fn}
+**Field [#](#contactPoint-fn){: .permalink}** | **contactPoint &rarr; fn**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
 **Accepted Values** | String
-**Usage Notes** | -
-**Example** | `{"contactPoint":"John Brown"}`
+**Usage Notes** | This should include included with **hasEmail** as part of a record's **contactPoint** (see above example).  
+**Example** |  `{"fn": "Jane Doe"}`
+
+{: .table .table-striped .child-field #contactPoint-hasEmail}
+**Field [#](#contactPoint-hasEmail){: .permalink}** | **contactPoint &rarr; hasEmail**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String
+**Usage Notes** | This should be formatted per vCard specifications (see example below) and included with **fn** as part of a record's **contactPoint** (see above example).    
+**Example** |  `{"hasEmail": "mailto:jane.doe@agency.gov"}`
 
 {: .table .table-striped #dataDictionary}
 **Field [#](#dataDictionary){: .permalink}** | **dataDictionary**
@@ -382,15 +406,6 @@ Dataset Fields {#Dataset}
 **Accepted Values** | -
 **Usage Notes** | See list of licenses.
 **Example** |  `{"license":""}`
-
-{: .table .table-striped #mbox}
-**Field [#](#mbox){: .permalink}** | **mbox**
------ | -----
-**Cardinality** | (1,1)
-**Required** | Yes, always
-**Accepted Values** | Email address
-**Usage Notes** | -
-**Example** |  `{"mbox":"joe@agency.gov"}`
 
 {: .table .table-striped #modified}
 **Field [#](#modified){: .permalink}** | **modified**
