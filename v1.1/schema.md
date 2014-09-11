@@ -55,7 +55,7 @@ Links to downloadable examples of metadata files developed in this and other for
 
 Schema Version Declaration (Required)
 -----------------------------
-In order to distinguish the schema version being used publishers are required to specify the relevant URI using the `conformsTo` field at the beginning of their data.json file. Version 1.1 of the schema should be identified with the following URI: http://projectopendata.PLACEHOLDER.gov/v1.1/schema.  Optionally, publishers may also use the `describedBy` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (http://projectopendata.PLACEHOLDER.gov/v1.1/schema/catalog.json) or they may refer to their own JSON Schema file where they have extended the schema. These fields are both part of a JSON object that also contains a listing of all datasets under the `dataset` field. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
+In order to distinguish the schema version being used publishers are required to specify the relevant URI using the `conformsTo` field at the beginning of their data.json file. Version 1.1 of the schema should be identified with the following URI: http://project-open-data.cio.gov/v1.1/schema.  Optionally, publishers may also use the `describedBy` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (http://project-open-data.cio.gov/v1.1/schema/catalog.json) or they may refer to their own JSON Schema file where they have extended the schema. These fields are both part of a JSON object that also contains a listing of all datasets under the `dataset` field. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
 
 
 "Common Core" Required Fields
@@ -142,8 +142,8 @@ Catalog Fields {#Catalog}
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String (URL)
-**Usage Notes** | This is used to identify the schema version using a URI. The URI for version 1.1 of the schema is `http://projectopendata.PLACEHOLDER.gov/v1.1/schema`
-**Example** | `{"conformsTo": "http://projectopendata.PLACEHOLDER.gov/v1.1/schema"}`
+**Usage Notes** | This is used to identify the schema version using a URI. The URI for version 1.1 of the schema is `http://project-open-data.cio.gov/v1.1/schema`
+**Example** | `{"conformsTo": "http://project-open-data.cio.gov/v1.1/schema"}`
 
 {: .table .table-striped #describedBy}
 **Field [#](#describedBy){: .permalink}** | **describedBy**
@@ -151,8 +151,8 @@ Catalog Fields {#Catalog}
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | String (URL)
-**Usage Notes** | This is used to specify a [JSON Schema](http://json-schema.org/) file that defines all fields. By default, it is recommended that the canonical JSON Schema file is referenced (http://projectopendata.PLACEHOLDER.gov/v1.1/schema/catalog.json) but if the schema had been extended, publishers may reference a file that defines those extensions. 
-**Example** | `{"describedBy": "http://projectopendata.PLACEHOLDER.gov/v1.1/schema/catalog.json"}`
+**Usage Notes** | This is used to specify a [JSON Schema](http://json-schema.org/) file that defines all fields. By default, it is recommended that the canonical JSON Schema file is referenced (http://project-open-data.cio.gov/v1.1/schema/catalog.json) but if the schema had been extended, publishers may reference a file that defines those extensions. 
+**Example** | `{"describedBy": "http://project-open-data.cio.gov/v1.1/schema/catalog.json"}`
 
 {: .table .table-striped #dataset}
 **Field [#](#dataset){: .permalink}** | **dataset**
