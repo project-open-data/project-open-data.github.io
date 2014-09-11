@@ -13,28 +13,28 @@ This page lists changes to the common core metadata schema by version. Latest ch
 
 Updates to version 1.0 common core metadata:
   
-* Renames "accessLevelComment" field to "rights" to better alight with DCAT
-* Renames "mbox" field to "hasEmail" and moves to within "contactPoint" to better align with vCard
-* Aligns "accrualPeriodicity" field to ISO 8601
-* Aligns "contactPoint" field to vCard
+* Renames "accessLevelComment" field to "rights" to better alight with DCAT  
+* Renames "mbox" field to "hasEmail" and moves to within "contactPoint" to better align with vCard  
+* Aligns "accrualPeriodicity" field to ISO 8601  
+* Aligns "contactPoint" field to vCard  
   
-* Changes "accessURL" field to represent indirect access and to exist only within "distribution"
-* Changes "format" field to a human readable description and to exist only within "distribution"
-* Changes "distribution" field to become required-if-applicable and to always contain the "accessURL" or "downloadURL" fields
-* Changes "primaryITInvestmentUII" to the correct capitalization
-* Changes "publisher" field to allow for multiple levels of organizations
+* Changes "accessURL" field to represent indirect access and to exist only within "distribution"  
+* Changes "format" field to a human readable description and to exist only within "distribution"  
+* Changes "distribution" field to become required-if-applicable and to always contain the "accessURL" or "downloadURL" fields  
+* Changes "primaryITInvestmentUII" to the correct capitalization  
+* Changes "publisher" field to allow for multiple levels of organizations  
   
-* Removes "webService" field
+* Removes "webService" field  
   
-* Adds required "catalog" field to wrap the entire data.json file
-* Adds "conformsTo" field, required at the catalog level and optional at the individual record level
-* Adds optional "describedBy" field
-* Adds optional "description" field for use within "distribution"
-* Adds required-if-applicable "downloadURL" field
-* Adds required "fn" field as part of "contactPoint"
-* Adds optional "isPartOf" field
-* Adds required-if-applicable "mediaType" field
-* Adds optional "title" field for use within "distribution"
+* Adds required "catalog" field to wrap the entire data.json file  
+* Adds "conformsTo" field, required at the catalog level and optional at the individual record level    
+* Adds optional "describedBy" field  
+* Adds optional "description" field for use within "distribution"  
+* Adds required-if-applicable "downloadURL" field  
+* Adds required "fn" field as part of "contactPoint"  
+* Adds optional "isPartOf" field  
+* Adds required-if-applicable "mediaType" field  
+* Adds optional "title" field for use within "distribution"  
 
 
 ### Version 1.0 FINAL - 9/20/2013
