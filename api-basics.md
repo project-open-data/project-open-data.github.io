@@ -24,7 +24,7 @@ APIs have been around since the 1980s, when they were used in hardware and softw
 
 ### How government agencies are using APIs
 
-DigitalGov University has recorded a [variety of courses](http://www.howto.gov/training/classes#apis-and-data) on how APIs can be used by government organizations and made them available online.
+DigitalGov University has recorded a [variety of courses](http://18f.github.io/API-All-the-X/pages/education) on how APIs can be used by government organizations and made them available online.
 
 
 ### First Mover
@@ -61,15 +61,15 @@ Many of these pioneers have shaped the way in which we develop, deploy, consume,
 
 APIs are driven by a set of specific technologies, making them easily understood by developers.  This type of focus means that APIs can work with any common programming language, with the most popular approach to delivering web APIs being REST, or [REpresentational State Transfer](http://en.wikipedia.org/wiki/Representational_state_transfer).
 
-REST takes advantage of the same Internet mechanisms that are used to view regular web pages, giving it many advantages, that can result in faster implementations and easier for developers to understand and use. REST APIs allow you to take data and functionality that may already be available on your website and make them available through a programmatic API, that both web and mobile applications can use. Then, instead of returning HTML to represent the information like a website would, an API returns data in one of two possible formats:
-* [Extensible Markup Language (XML)](http://en.wikipedia.org/wiki/Xml)
-* [JavaScript Object Notation (JSON)](http://en.wikipedia.org/wiki/JSON)
+REST takes advantage of the same Internet mechanisms that are used to view regular web pages, giving it many advantages, that can result in faster implementations and easier for developers to understand and use. REST APIs allow you to take data and functionality that may already be available on your website and make them available through a programmatic API, that both web and mobile applications can use. Then, instead of returning HTML to represent the information like a website would, an API returns data in one of two possible formats:  
+* [Extensible Markup Language (XML)](http://en.wikipedia.org/wiki/Xml)  
+* [JavaScript Object Notation (JSON)](http://en.wikipedia.org/wiki/JSON)  
 
 Developers can then take this data and use in web and mobile applications.  However XML and JSON are easily consumed by spreadsheets and other tools non-developers can use as well, making APIs accessible by potentially anyone.  
 
-Easy access to all this data and resources is great, but sometimes we need to control access to APIs. There are two primary ways to secure an API by providing  authentication using:
-* [Basic Auth](http://en.wikipedia.org/wiki/Basic_auth)
-* [OAuth](http://en.wikipedia.org/wiki/Oauth)
+Easy access to all this data and resources is great, but sometimes we need to control access to APIs. There are two primary ways to secure an API by providing  authentication using:  
+* [Basic Auth](http://en.wikipedia.org/wiki/Basic_auth)  
+* [OAuth](http://en.wikipedia.org/wiki/Oauth)  
 
 REST with JSON has become the favorite of developers and API owners, because it is easier to both deploy and consume than other implementations. Even though REST + JSON is not a standard, it is seeing wide acceptance across the industry.
 
