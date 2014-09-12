@@ -357,7 +357,7 @@ Dataset Fields {#Dataset}
 **Field [#](#distribution-description){: .permalink}** | **distribution &rarr; description**
 ----- | -----
 **Cardinality** | (0,1)
-**Required** | Yes, always
+**Required** | No
 **Accepted Values** | String
 **Usage Notes** | This should be a human-readable description of the distribution. 
 **Example** | `{"description":"Vegetable data as a zipped CSV file with attached data dictionary"}`
@@ -384,7 +384,7 @@ Dataset Fields {#Dataset}
 **Field [#](#distribution-title){: .permalink}** | **distribution &rarr; title**
 -----           | -----
 **Cardinality** | (0,1)
-**Required**    | Yes, always
+**Required**    | No
 **Accepted Values** | String
 **Usage Notes** | This should be a useful title for the distribution.  Acronyms should be avoided.
 **Example**     | `{"title":"Spreadsheet"}`
