@@ -98,12 +98,15 @@ Within a record, **distribution** is used to aggregate the metadata specific to 
 {: .table .table-striped}
 Field                   | Label                 | Definition
 --------------          | --------------        | --------------                                                                                                                       
-accessURL				| Access URL        	| URL providing indirect access to a dataset, for example via API or a graphical interface.                                                                     
-downloadURL				| Download URL        	| URL providing direct access to a downloadable file of a dataset.                                                                    
-description		        | Description         | Human-readable description of the distribution. 
-format					| Format              	| A human-readable description of the file format of a distribution.                                                                                               
-mediaType					| MIME Type              	| The machine-readable file format ([IANA MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of a distribution.    
-title			        | Title               | Human-readable name of the distribution.  
+accessURL				| Access URL        	| URL providing indirect access to a dataset, for example via API or a graphical interface
+conformsTo				| Data Standard        	| URI used to identify a standardized specification the distribution conforms to
+describedBy				| Data Dictionary     	| URL to the data dictionary for the distribution found at the `downloadURL`.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              
+describedByType			| Data Dictionary Type  | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `describedBy` URL
+description		        | Description           | Human-readable description of the distribution. 
+downloadURL				| Download URL        	| URL providing direct access to a downloadable file of a dataset
+format					| Format              	| A human-readable description of the file format of a distribution.
+mediaType				| Media Type         	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `downloadURL`.    
+title			        | Title               	| Human-readable name of the distribution.  
 
 Beyond Common Core -- Extending the Schema
 ------------------------------------------
