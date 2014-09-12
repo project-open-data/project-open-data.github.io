@@ -290,7 +290,7 @@ Dataset Fields {#Dataset}
                      "downloadURL": "http://www.agency.gov/vegetables/listofvegetables.csv",
                      "format": "CSV",
                      "mediaType": "text/csv",
-                     "title": "vegetables.csv"
+                     "title": "listofvegetables.csv"
                  }, 
                  {
                      "conformsTo": "http://www.agency.gov/vegetables-data-standard/",
@@ -300,7 +300,7 @@ Dataset Fields {#Dataset}
                      "downloadURL": "http://www.agency.gov/vegetables/listofvegetables.xml",
                      "format": "XML",
                      "mediaType": "text/xml",
-                     "title": "vegetables.xml"
+                     "title": "listofvegetables.xml"
                  },
                  {
                      "description": "Vegetable data as a zipped CSV file with attached data dictionary",
