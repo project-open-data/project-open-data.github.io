@@ -260,8 +260,8 @@ Dataset Fields {#Dataset}
 **Usage Notes** | This is used to specify a data dictionary or schema that defines fields or column headings in the dataset. If this is a machine readable file, it's recommended to be specified with [describedBy](#distribution-describedBy) at the distribution level along with the associated `describedByType`. At the dataset level it's assumed to be a human readable HTML webpage or PDF document. Documentation that is not specifically a data dictionary belongs in "references"
 **Example** | `{"describedBy": "http://www.agency.gov/vegetables/definitions.pdf"}`
 
-{: .table .table-striped .child-field #distribution-describedByType}
-**Field [#](#distribution-describedByType){: .permalink}** | **distribution &rarr; describedByType**
+{: .table .table-striped #dataset-describedByType}
+**Field [#](#dataset-describedByType){: .permalink}** | **describedByType**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
