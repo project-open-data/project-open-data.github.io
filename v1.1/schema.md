@@ -117,7 +117,7 @@ Agencies are encouraged to use the following expanded fields when appropriate. A
 Field                   | Label               | Definition
 --------------          | --------------      | --------------                                                                                                                                       
 theme					| Category            | Main thematic category of the dataset.                                                                                                        
-dataDictionary			| Data Dictionary     | URL to the data dictionary for the dataset or API.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              
+describedBy			| Data Dictionary     | URL to the data dictionary for the dataset or API.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              
 dataQuality				| Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             
 accrualPeriodicity		| Frequency           | Frequency with which dataset is published.                                                                                                    
 landingPage				| Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
@@ -238,15 +238,6 @@ Dataset Fields {#Dataset}
 **Usage Notes** | This should be formatted per vCard specifications (see example below) and included with **fn** as part of a record's **contactPoint** (see above example).    
 **Example** |  `{"hasEmail": "mailto:jane.doe@agency.gov"}`
 
-{: .table .table-striped #dataDictionary}
-**Field [#](#dataDictionary){: .permalink}** | **dataDictionary**
------ | -----
-**Cardinality** | (0,1)
-**Required** | No (Documentation that is not specifically a data dictionary belongs in "references")
-**Accepted Values** | String (URL)
-**Usage Notes** | -
-**Example** |  `{"dataDictionary":"http://www.agency.gov/vegetables/dictionary.html"}`
-
 {: .table .table-striped #dataQuality}
 **Field [#](#dataQuality){: .permalink}** | **dataQuality**
 ----- | -----
@@ -255,6 +246,16 @@ Dataset Fields {#Dataset}
 **Accepted Values** | Must be a boolean value of `true` or `false` (not contained within quote marks)
 **Usage Notes** | Indicates whether a dataset conforms to the agency's information quality guidelines.
 **Example** |  `{"dataQuality":true}`
+
+{: .table .table-striped #dataset-describedBy}
+**Field [#](#dataset-describedBy){: .permalink}** | **describedBy**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String (URL)
+**Usage Notes** | This is used to specify a data dictionary or schema that defines fields or column headings in the dataset. If this is a machine readable file, it's recommended to be specified with [describedBy](#distribution-describedBy) at the distribution level along with the associated `describedByType`. At the dataset level it's assumed to be a human readable HTML webpage. Documentation that is not specifically a data dictionary belongs in "references"
+**Example** | `{"describedBy": "http://release.niem.gov/niem/domains/jxdm/4.1/jxdm.xsd"}`
+
 
 {: .table .table-striped #description}
 **Field [#](#description){: .permalink}** | **description**
@@ -325,6 +326,24 @@ Dataset Fields {#Dataset}
 **Accepted Values** | String (URL)
 **Usage Notes** | This must be the **direct** download URL. Other means of accessing the dataset should be expressed using **accessURL**.  This should always be accompanied by **mediaType**.  
 **Example** |  `{"downloadURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
+
+{: .table .table-striped .child-field #distribution-describedBy}
+**Field [#](#distribution-describedBy){: .permalink}** | **distribution &rarr; describedBy**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String (URL)
+**Usage Notes** | This is used to specify a data dictionary or schema that defines fields or column headings in the distribution. If this is a machine readable file the media type should be specified with `describedByType` - otherwise it's assumed to be a human readable HTML webpage. 
+**Example** | `{"describedBy": "http://www.agency.gov/vegetables/schema.json"}`
+
+{: .table .table-striped .child-field #distribution-describedByType}
+**Field [#](#distribution-describedByType){: .permalink}** | **distribution &rarr; describedByType**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String (URL)
+**Usage Notes** | This is used to identify the [media type](http://en.wikipedia.org/wiki/Internet_media_type) (MIME type) of the URL used for the distribution's `describedBy` field. This is especially important if `describedBy` is a machine readable file. 
+**Example** | `{"describedByType": "application/schema+json"}`
 
 {: .table .table-striped .child-field #distribution-description}
 **Field [#](#distribution-description){: .permalink}** | **distribution &rarr; description**
