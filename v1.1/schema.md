@@ -280,7 +280,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,n)
 **Required** | Yes, if the dataset has an **accessURL** or **downloadURL**.  
 **Accepted Values** | Array of Objects 
-**Usage Notes** | This is a container for one or multiple `distribution` objects which group together the fields: **accessURL**, **downloadURL**, **description**, **format**, **mediaType**, and **title**.  
+**Usage Notes** | This is a container for one or multiple `distribution` objects which group together the fields: **accessURL**, **conformsTo**, **downloadURL**, **describedBy**, **describedByType**, **description**, **format**, **mediaType**, and **title**.  
 **Example** | See below
  
 ~~~
@@ -291,6 +291,16 @@ Dataset Fields {#Dataset}
                      "format": "CSV",
                      "mediaType": "text/csv",
                      "title": "vegetables.csv"
+                 }, 
+                 {
+                     "conformsTo": "http://www.agency.gov/vegetables-data-standard/",
+                     "describedBy": "http://www.agency.gov/vegetables/schema.xsd",
+                     "describedByType": "text/xml",
+                     "description": "Vegetable data as an XML file",
+                     "downloadURL": "http://www.agency.gov/vegetables/listofvegetables.xml",
+                     "format": "XML",
+                     "mediaType": "text/xml",
+                     "title": "vegetables.xml"
                  },
                  {
                      "description": "Vegetable data as a zipped CSV file with attached data dictionary",
