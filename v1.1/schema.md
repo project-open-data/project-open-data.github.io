@@ -117,20 +117,21 @@ Expanded Fields
 Agencies are encouraged to use the following expanded fields when appropriate. Agencies may freely augment these fields with their own.
 
 {: .table .table-striped}
-Field                   | Label               | Definition
---------------          | --------------      | --------------                                                                                                                                       
-theme					| Category            | Main thematic category of the dataset.                                                                                                        
-describedBy			| Data Dictionary     | URL to the data dictionary for the dataset or API.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              
-dataQuality				| Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             
-accrualPeriodicity		| Frequency           | Frequency with which dataset is published.                                                                                                    
-landingPage				| Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
-isPartOf				| isPartOf            | The collection of which the dataset is a subset.  
-language				| Language            | The language of the dataset.                                                                                                                  
-primaryITInvestmentUII	| primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
-references				| Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
-issued					| Release Date        | Date of formal issuance.                                                                                                                      
-systemOfRecords			| System of Records   | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
-
+Field                   | Label               		| Definition
+--------------          | --------------            | --------------                                                                                                                       
+accrualPeriodicity		| Frequency           		| Frequency with which dataset is published.                                                                                                    
+conformsTo				| Data Standard        		| URI used to identify a standardized specification the dataset conforms to
+describedBy				| Data Dictionary     		| URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`).              
+describedByType			| Data Dictionary Type  	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`)
+dataQuality				| Data Quality        		| Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             
+isPartOf				| Collection          		| The collection of which the dataset is a subset.  
+issued					| Release Date        		| Date of formal issuance.                                                                                                                      
+language				| Language            		| The language of the dataset.                                                                                                                  
+landingPage				| Homepage URL        		| Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
+primaryITInvestmentUII	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
+references				| Related Documents   		| Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
+systemOfRecords			| System of Records   		| If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
+theme					| Category            		| Main thematic category of the dataset.  
 
 Further Metadata Field Guidance
 -------------------------------
