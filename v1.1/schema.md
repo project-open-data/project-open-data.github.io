@@ -141,7 +141,7 @@ Catalog Fields {#Catalog}
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
-**Accepted Values** | String (URL)
+**Accepted Values** | String (URI)
 **Usage Notes** | This is used to identify the schema version using a URI. The URI for version 1.1 of the schema is `http://project-open-data.cio.gov/v1.1/schema`
 **Example** | `{"conformsTo": "http://project-open-data.cio.gov/v1.1/schema"}`
 
@@ -200,8 +200,8 @@ Dataset Fields {#Dataset}
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | String (URL)
-**Usage Notes** | This is used to identify a standardized specification the dataset conforms to
+**Accepted Values** | String (URI)
+**Usage Notes** | This is used to identify a standardized specification the dataset conforms to. If this is a technical specification associated with a particular serialization of a distribution, this should be specified with [conformsTo](#distribution-conformsTo) at the distribution level. 
 **Example** | `{"conformsTo": "http://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html"}`
 
 {: .table .table-striped #contactPoint}
@@ -314,9 +314,9 @@ Dataset Fields {#Dataset}
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | String (URL)
+**Accepted Values** | String (URI)
 **Usage Notes** | This is used to identify a standardized specification the distribution conforms to
-**Example** | `{"conformsTo": "http://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html"}`
+**Example** | `{"conformsTo": "http://www.agency.gov/vegetables-data-standard/"}`
 
 {: .table .table-striped .child-field #distribution-downloadURL}
 **Field [#](#distribution-downloadURL){: .permalink}** | **distribution &rarr; downloadURL**
