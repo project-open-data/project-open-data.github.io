@@ -194,6 +194,16 @@ Dataset Fields {#Dataset}
 **Usage Notes** | Represent each bureau responsible for the dataset according to the codes found in [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf). Start with the agency code, then a colon, then the bureau code.
 **Example** |  The Office of the Solicitor (86) at the Department of the Interior (010) would be: `{"bureauCode":["010:86"]}`.  If a second bureau was also responsible, the format like this: `{"bureauCode":["010:86","010:04"]}`.
 
+
+{: .table .table-striped #dataset-conformsTo}
+**Field [#](#dataset-conformsTo){: .permalink}** | **conformsTo**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String (URL)
+**Usage Notes** | This is used to identify a standardized specification the dataset conforms to
+**Example** | `{"conformsTo": "http://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html"}`
+
 {: .table .table-striped #contactPoint}
 **Field [#](#contactPoint){: .permalink}** | **contactPoint**
 ----- | -----
@@ -297,6 +307,15 @@ Dataset Fields {#Dataset}
 **Accepted Values** | String (URL)
 **Usage Notes** | This should be the URL for an indirect means of accessing the data, such as API documentation, a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data.  This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
 **Example** |  `{"accessURL":"http://www.agency.gov/api/vegetables/"}`
+
+{: .table .table-striped .child-field #distribution-conformsTo}
+**Field [#](#distribution-conformsTo){: .permalink}** | **distribution &rarr; conformsTo**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String (URL)
+**Usage Notes** | This is used to identify a standardized specification the distribution conforms to
+**Example** | `{"conformsTo": "http://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html"}`
 
 {: .table .table-striped .child-field #distribution-downloadURL}
 **Field [#](#distribution-downloadURL){: .permalink}** | **distribution &rarr; downloadURL**
