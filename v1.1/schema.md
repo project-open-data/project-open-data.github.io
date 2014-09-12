@@ -550,15 +550,6 @@ Dataset Fields {#Dataset}
 **Usage Notes** | This field should contain an interval of time defined by start and end dates.  Dates should be formatted as pairs of {start datetime/end datetime} in the [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) format. ISO 8601 specifies that datetimes can be formatted in a number of ways, including a simple four-digit year (eg. 2013) to a much more specific YYYY-MM-DDTHH:MM:SSZ, where the T specifies a seperator between the date and time and time is expressed in 24 hour notation in the UTC (Zulu) time zone. (e.g., 2011-02-14T12:00:00Z/2013-07-04T19:34:00Z). Use a solidus ("/") to separate start and end times.  If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this [with repeating intervals](http://en.wikipedia.org/wiki/ISO_8601#Time_intervals).  For instance, updated monthly starting in January 2010 and continuing through the present would be represented as: `R/2010-01/P1M`. Updated every 5 minutes beginning on February 15, 2010 would be represented as: `R/2010-02-15/PT5M`.  
 **Example** |  `{"temporal":"2000-01-15T00:45:00Z/2010-01-15T00:06:00Z"}`  or `{"temporal":"R/2000-01-15T00:45:00Z/P1W"}` 
 
-{: .table .table-striped #title}
-**Field [#](#title){: .permalink}** | **title**
------           | -----
-**Cardinality** | (1,1)
-**Required**    | Yes, always
-**Accepted Values** | String
-**Usage Notes** | Acronyms should be avoided.
-**Example**     | `{"title":"Types of Vegetables"}`
-
 {: .table .table-striped #theme}
 **Field [#](#theme){: .permalink}** | **theme**
 ----- | -----
