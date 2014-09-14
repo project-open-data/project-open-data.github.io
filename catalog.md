@@ -59,7 +59,7 @@ Agencies must follow the provided [specification](/schema/).  We have built a [c
 Inclusion of the Public Data Listing as a Record
 ------------------------------------------------
 
-Each 'data.json' catalog file should include a record for the data asset that is the data catalog itself.  Contact Name and Contact Email can be used to provide a PoC for the 'data.json' efforts;  Description can be used to clarify which version of the common core metadata schema the agency is currently using; and Last Update can be used to indicate the date when the Public Data Listing was last modified.  
+Each 'data.json' catalog file should include a record for the data asset that is the data catalog itself.  Contact Name and Contact Email can be used to provide a PoC for the 'data.json' efforts;  Data Standard (_conformsTo_) can be used to clarify which version of the common core metadata schema the agency is currently using; and Last Update can be used to indicate the date when the Public Data Listing was last modified.  
 
 Presentation
 ------------
