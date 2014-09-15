@@ -60,7 +60,7 @@ In order to distinguish the schema version being used publishers are required to
 
 "Common Core" Required Fields
 -----------------------------
-The following "common core" fields are required, to be used to describe each entry:
+The following "common core" fields are required, to be used to describe each entry. Only U.S. Federal agencies are required to fill out `bureauCode` and `programCode`.
 
 *(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources#common-core-required-fields-equivalents) to find the equivalent DCAT, Schema.org, and CKAN fields.)*
 
@@ -75,16 +75,16 @@ publisher		        | Publisher           | The publishing entity.
 contactPoint	        | Contact Name and Email        | Contact person's name and email for the asset.                                                                                                           
 identifier		        | Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 
 accessLevel | Public Access Level      | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)
+bureauCode<sup>[USG](#USG-note)</sup>       | Bureau Code           | Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
+programCode<sup>[USG](#USG-note)</sup>      | Program Code          | Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
 
 "Common Core" Required-if-Applicable Fields
 -------------------------------------------
-The following fields must be used to describe each dataset if they are applicable. U.S. Federal agencies must fill out bureauCode and programCode.
+The following fields must be used to describe each dataset if they are applicable. 
 
 {: .table .table-striped}
 Field                                       | Label                 | Definition
 --------------                              | --------------        | --------------                                                                                                                       
-bureauCode<sup>[USG](#USG-note)</sup>		| Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
-programCode<sup>[USG](#USG-note)</sup>		| Program Code			| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
 distribution			                    | Distribution          | Represents a specific available form of a dataset in the form of download or access URLs, along with metadata specific to that form.  
 license					                    | License             	| The license or non-license (i.e. Public Domain) status with which the dataset or API has been published.  See [Open Licenses](/open-licenses/) for more information. 
 rights		                                | Rights 	            | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
