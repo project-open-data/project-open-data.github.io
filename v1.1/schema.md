@@ -81,15 +81,15 @@ accessLevel | Public Access Level      | The degree to which this dataset **coul
 The following fields must be used to describe each dataset if they are applicable. U.S. Federal agencies must fill out bureauCode and programCode.
 
 {: .table .table-striped}
-Field                   | Label                 | Definition
---------------          | --------------        | --------------                                                                                                                       
-bureauCode				| Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
-programCode				| Program Code			| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
-distribution			| Distribution        | Represents a specific available form of a dataset in the form of download or access URLs, along with metadata specific to that form.  
-license					| License             	| The license or non-license (i.e. Public Domain) status with which the dataset or API has been published.  See [Open Licenses](/open-licenses/) for more information. 
-rights		| Rights 	| This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
-spatial					| Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         
-temporal				| Temporal				| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   
+Field                                       | Label                 | Definition
+--------------                              | --------------        | --------------                                                                                                                       
+bureauCode<sup>[USG](#USG-note)</sup>		| Bureau Code			| Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
+programCode<sup>[USG](#USG-note)</sup>		| Program Code			| Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
+distribution			                    | Distribution          | Represents a specific available form of a dataset in the form of download or access URLs, along with metadata specific to that form.  
+license					                    | License             	| The license or non-license (i.e. Public Domain) status with which the dataset or API has been published.  See [Open Licenses](/open-licenses/) for more information. 
+rights		                                | Rights 	            | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
+spatial					                    | Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         
+temporal				                    | Temporal				| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   
 
 "Common Core" Distribution Fields
 -------------------------------------------
@@ -117,21 +117,21 @@ Expanded Fields
 Agencies are encouraged to use the following expanded fields when appropriate. Agencies may freely augment these fields with their own.
 
 {: .table .table-striped}
-Field                   | Label               		| Definition
---------------          | --------------            | --------------                                                                                                                       
-accrualPeriodicity		| Frequency           		| Frequency with which dataset is published.                                                                                                    
-conformsTo				| Data Standard        		| URI used to identify a standardized specification the dataset conforms to
-describedBy				| Data Dictionary     		| URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`).              
-describedByType			| Data Dictionary Type  	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`)
-dataQuality				| Data Quality        		| Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             
-isPartOf				| Collection          		| The collection of which the dataset is a subset.  
-issued					| Release Date        		| Date of formal issuance.                                                                                                                      
-language				| Language            		| The language of the dataset.                                                                                                                  
-landingPage				| Homepage URL        		| Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
-primaryITInvestmentUII	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
-references				| Related Documents   		| Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
-systemOfRecords			| System of Records   		| If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
-theme					| Category            		| Main thematic category of the dataset.  
+Field                                               | Label               		| Definition
+--------------                                      | --------------            | --------------                                                                                                                       
+accrualPeriodicity		                            | Frequency           		| Frequency with which dataset is published.                                                                                                    
+conformsTo				                            | Data Standard        		| URI used to identify a standardized specification the dataset conforms to
+describedBy				                            | Data Dictionary     		| URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`).              
+describedByType			                            | Data Dictionary Type  	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`)
+dataQuality<sup>[USG](#USG-note)</sup>				| Data Quality        		| Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             
+isPartOf				                            | Collection          		| The collection of which the dataset is a subset.  
+issued					                            | Release Date        		| Date of formal issuance.                                                                                                                      
+language				                            | Language            		| The language of the dataset.                                                                                                                  
+landingPage				                            | Homepage URL        		| Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
+primaryITInvestmentUII<sup>[USG](#USG-note)</sup>	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
+references				                            | Related Documents   		| Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
+systemOfRecords<sup>[USG](#USG-note)</sup>			| System of Records   		| If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
+theme					                            | Category            		| Main thematic category of the dataset.  
 
 Further Metadata Field Guidance
 -------------------------------
@@ -568,6 +568,17 @@ Dataset Fields {#Dataset}
 **Usage Notes** | Acronyms should be avoided.
 **Example**     | `{"title":"Types of Vegetables"}`
 
+
+
+Federal Government Fields {#USG-note}
+----------------------
+<sup>USG</sup> &mdash; Fields specific to the U.S. Federal Government have been denoted with the <sup>USG</sup> superscript. 
+The Project Open Data schema has been developed as part of a U.S Federal Government open data policy. However, every attempt 
+has been made to align the schema with existing international standards and to provide opportunities for re-use and interoperability 
+with state and local government as well as non-profits, academic institutions, and businesses. There are however some fields 
+that have been introduced specifically for use by the U.S. Federal Government and have special meaning in that context. These fields 
+are: **bureauCode**, **programCode**, **dataQuality**, **primaryITInvestmentUII**, and **systemOfRecords**. Non-federal data 
+publishers are encouraged to make use of this schema, but these fields should not be seen as required and may not be relevant for those entities. 
 
 Rationale for Metadata Nomenclature
 ----------------------
