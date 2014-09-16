@@ -21,7 +21,7 @@ filename: data-hubs.md
 
 ### [Department of Education](http://www.ed.gov/data)
 * [Federal Student Aid Data Center](http://studentaid.ed.gov/data-center)
-* [Office of Civil Rghts](http://ocrdata.ed.gov/)
+* [Office of Civil Rights](http://ocrdata.ed.gov/)
 
 ### [Department of Energy](http://www.energy.gov/data)
 * [Atmospheric Radiation Measurement - Climate Research Facility](http://www.arm.gov/data)
