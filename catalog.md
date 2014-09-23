@@ -79,7 +79,7 @@ In the year since the release of the Open Data Policy, agencies and the public h
 
 * These updates have been managed through [issues in a single milestone](https://github.com/project-open-data/project-open-data.github.io/milestones/Next%20Version%20of%20Common%20Core%20Metadata%20Schema%20(1.0%20-%3E%201.1.)).  
 * Each issue within the milestone contains the related discussion and a link to the proposed edits.  
-* Those proposed edits can also be found bundled in [this combined pull request](https://github.com/project-open-data/project-open-data.github.io/pull/357).
+* The proposed edits can also be found bundled in [this combined pull request](https://github.com/project-open-data/project-open-data.github.io/pull/357).
 * [Example data.json file with the version 1.1 schema](https://gist.github.com/philipashlock/21ff607527863fba200b).  
 * [Preview of the new updately metadata schema page](http://project-open-data.civicagency.org/v1.1/schema/).  
 * [Changelog for the version 1.1 schema](http://project-open-data.civicagency.org/metadata-changelog/).
