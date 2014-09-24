@@ -539,7 +539,7 @@ Dataset Fields {#Dataset}
 **Required** | No
 **Accepted Values** | String (URL)
 **Usage Notes** | This field should a URL to the System of Records Notice (SORN) that relates to the dataset, specifically from FederalRegister.gov.   
-**Example** |  `{"https://www.federalregister.gov/articles/2002/04/08/02-7376/privacy-act-of-1974-publication-in-full-of-all-notices-of-systems-of-records-including-several-new#p-361"}`
+**Example** |  `{"systemOfRecords":"https://www.federalregister.gov/articles/2002/04/08/02-7376/privacy-act-of-1974-publication-in-full-of-all-notices-of-systems-of-records-including-several-new#p-361"}`
 
 {: .table .table-striped #temporal}
 **Field [#](#temporal){: .permalink}** | **temporal**
