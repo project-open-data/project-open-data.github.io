@@ -1,22 +1,20 @@
-# Project Open Data
+# Financial Data Transparency Town Hall
 
 [![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.png?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
 
-## Problem this Solves
+## Background
 
-Technology moves much faster than policy ever could.  Often when writing policy for technology, agencies are stuck w/ outdated methods as soon as they publish new policies.
+With the recent enactment of the “Digital Accountability Transparency Act” (DATA Act) (Pub. L. 113-101), Treasury has kicked off the government-wide implementation to the Federal financial transparency legislation by hosting a Data Transparency Town Hall on September 26, 2014.  Senior officials from the White House, Treasury, and all major Federal agencies participated in a one-day town hall meeting devoted to learning about DATA Act implementation, hearing from members of the public about the importance of Federal spending transparency, and learning from experts on what is possible from a technical implementation perspective. 
 
-## How this Project Solves this Problem
+For more information about the meeting, see the Federal Register Notice: https://www.federalregister.gov/articles/2014/09/05/2014-21213/notice-of-the-data-transparency-town-hall-meeting
 
-This Appendix is meant to be a living document so that collaboration in the open data ecosystem is fostered and the continual update of technology pieces that affect update can happen on a more rapid pace.
+## Town Hall Presentations and Comments
 
-## Where You Come In
-
-Help the United States Government make its Open Data policy better by collaborating.  Please suggest enhancements by editing the content here.
+See the presentations and comments submitted from the public in response to the Federal Register Notice posted here:
 
 ## How to Contribute
 
-This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing.
+Due to limited time, we did not give Town Hall attendees an opportunity to ask questions and provide comments on the presenations given during the town hall. In an effort to increase collaboration, we welcome your comments and questions!
 
 For information on how to contribute, please see the [how to contribute](CONTRIBUTING.md)
 
