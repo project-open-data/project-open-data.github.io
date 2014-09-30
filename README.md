@@ -1,10 +1,6 @@
-# Financial Data Transparency Town Hall
+# Welcome to the Federal Spending Transparency Collaboration Page
 
 [![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.png?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
-
-## Welcome
-
-Welcome to the Federal Spending Collaboration page. 
 
 ## How to Contribute
 
