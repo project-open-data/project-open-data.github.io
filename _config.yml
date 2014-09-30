@@ -1,13 +1,13 @@
 #document settings
-title: Project Open Data
-desc: "Open Data Policy — Managing Information as an Asset"
-url: //project-open-data.github.io/
-repo_name: project-open-data.github.io
+title: Federal Spending Transparency 
+desc: "Collaboration Space"
+url: //fmdatatransparency.github.io/
+repo_name: fmdatatransparency.github.io
 branch: master
 
 #global settings, no need to change these
-root_url: //project-open-data.github.io
-org_name: project-open-data
+root_url: //fmdatatransparency.github.io
+org_name: fmdatatransparency
 
 # default build settings for running locally, no need to edit
 pymgemnts: true
