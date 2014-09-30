@@ -64,11 +64,9 @@ ol, ul {
   padding-left: 0;
   padding-right: 0;
 }
-.navbar .brand {
+#header .navbar-brand {
   color: #ffffff;
   font-family: "Roboto Slab", Georgia, serif;
-  font-size: 16px;
-  padding: 10px 0;
 }
 .navbar .btn-navbar {
   margin-top: 7px;
@@ -84,8 +82,7 @@ ol, ul {
 }
 .navbar .nav > li > a {
   color: #ffffff;
-  margin-left: 20px;
-  padding: 10px 0 2px;
+  border-bottom: 2px solid #002a5b;  
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
