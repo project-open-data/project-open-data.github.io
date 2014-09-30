@@ -1,6 +1,6 @@
 ##Presentations and Comments Given at the Data Transparency Town Hall 
 
-###[DATA Act Implementation Overview](fedspendingtransparency.github.io / Session 2_ OMBTreas_Town Hall DATA Act Presentation..pptx)
+###[DATA Act Implementation Overview](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/blob/master/Session%202_%20OMBTreas_Town%20Hall%20DATA%20Act%20Presentation..pptx?raw=true)
 * Christina Ho, Acting Deputy Assistant Secretary, Department of the Treasury
 * Karen Lee, Branch Chief, Office of Federal Financial Management (OMB)
 
