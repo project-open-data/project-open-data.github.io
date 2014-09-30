@@ -25,6 +25,8 @@ Due to limited time, we did not give Town Hall attendees an opportunity to ask q
 
 For information on how to contribute, please see the [how to contribute](CONTRIBUTING.md)
 
+[presentation](https://github.com/FMDataTransparency/fmdatatransparency.github.io/blob/master/Session%202_%20OMBTreas_Town%20Hall%20DATA%20Act%20Presentation..pptx)
+
 ## License
 
 The project is a public domain work and is not subject to domestic or international copyright protection. See [the license file](LICENSE) for additional information.
