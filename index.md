@@ -16,7 +16,7 @@ For more information about the meeting, see the [Federal Register Notice](https:
 
 ## Town Hall Presentations and Comments
 
-See the [agenda](https://www.federalregister.gov/articles/2014/09/05/2014-21213/notice-of-the-data-transparency-town-hall-meeting), presentations, and comments submitted from the public in response to the Federal Register Notice.
+See the [agenda](fedspendingtransparency.github.io / Agenda.md), presentations, and comments submitted from the public in response to the Federal Register Notice posted [here](.
 
 
 ## How to Contribute
