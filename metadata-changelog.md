@@ -13,7 +13,7 @@ This page lists changes to the common core metadata schema by version. Latest ch
 
 Updates to version 1.0 common core metadata:
   
-* Adds required "catalog" object to wrap the entire data.json file ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
+* Adds required `dataset` field to wrap all datasets listed within an overarching "catalog" object that wraps the entire data.json file ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
 * Adds `conformsTo` field, required at the catalog level to specify the schema and optional at the dataset and distribution level ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309), [#362](https://github.com/project-open-data/project-open-data.github.io/issues/362))
 * Adds optional `describedBy` field at the catalog, dataset, and distribution level ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
 * Renames `accessLevelComment` field to `rights` ([#353](https://github.com/project-open-data/project-open-data.github.io/issues/353))
