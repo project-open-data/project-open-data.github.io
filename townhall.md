@@ -5,7 +5,7 @@
 * Karen Lee, Branch Chief, Office of Federal Financial Management (OMB)
 
 ###Why is Federal spending transparency important?
-*Cornelia Chebinou, NASACT and Martin Benison, Massachusetts Comptroller
+* Cornelia Chebinou, NASACT and Martin Benison, Massachusetts Comptroller
 * Anders Pedersen, Open Knowledge 
 * Matt Rumsey, Sunlight Foundation
 * Becky Sweger, National Priorities Project
