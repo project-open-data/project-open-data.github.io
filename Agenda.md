@@ -23,7 +23,9 @@ Beth Cobert, Deputy Director for Management, Office of Management and Budget (OM
 * Christina Ho, Acting Deputy Assistant Secretary, Department of the Treasury
 * Karen Lee, Branch Chief, Office of Federal Financial Management (OMB)
 
-    *Break for 10 minutes (10:10 – 10:20 pm)* 
+
+>*Break for 10 minutes (10:10 – 10:20 pm)* 
+
 
 3)	Why is Federal spending transparency important? (10:20 – 12:00 pm)
 -------------------------------------------------
@@ -34,7 +36,9 @@ Beth Cobert, Deputy Director for Management, Office of Management and Budget (OM
 * Sean Moulton, Center for Effective Government
 * Daniel Dudis, Government Accountability Transparency International, USA
 
-    *Break for Lunch (12:00 – 1:00 pm)* 
+
+>*Break for Lunch (12:00 – 1:00 pm)* 
+
 
 4)	Transforming financial management reporting through standardized data exchanges (1:00 pm – 3:00 pm)
 --------------------------------
@@ -51,7 +55,7 @@ Beth Cobert, Deputy Director for Management, Office of Management and Budget (OM
 * Herschel Chandler, ACT-IAC
 * Hudson Hollister, Data Transparency Coalition 
 
-    *Break for 10 minutes (3:55 – 4:05 pm)* 
+>*Break for 10 minutes (3:55 – 4:05 pm)* 
 
 6)	Data Standards – Standardizing data element definitions (4:05 – 4:35  pm)
 ------------------------
