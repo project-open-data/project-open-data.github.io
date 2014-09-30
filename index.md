@@ -6,7 +6,8 @@ filename: index.md
 title: Events
 ---
 
-# Financial Data Transparency Town Hall - September 26, 2014
+# Financial Data Transparency Town Hall 
+##September 26, 2014
 
 [![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.png?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
 
