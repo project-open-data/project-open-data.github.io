@@ -3,14 +3,12 @@ published: true
 permalink: /
 layout: hero
 filename: index.md
-title: Project Open Data
+title: Events
 ---
 
-# Financial Data Transparency Town Hall
+# Financial Data Transparency Town Hall - September 26, 2014
 
 [![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.png?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
-
-## Background
 
 With the recent enactment of the “Digital Accountability Transparency Act” (DATA Act) (Pub. L. 113-101), Treasury hosted a Data Transparency Town Hall on September 26, 2014 to kick off the government-wide implementation to the Federal financial transparency legislation.  Senior officials from the White House, Treasury, and all major Federal agencies as well as non-federal stakeholders participated in a one-day town hall meeting devoted to learning about DATA Act implementation, hearing from members of the public about the importance of Federal spending transparency, and learning from experts on what is possible from a technical implementation perspective. 
 
