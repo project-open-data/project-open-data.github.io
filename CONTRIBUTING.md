@@ -1,4 +1,4 @@
-# Contributing to Project Open Data
+# Contributing 
 
 *By contributing to this project, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). See the [license file](LICENSE) for additional information.*
 
@@ -10,7 +10,7 @@ Contributions can be made, primarily in two ways:
 
 ### Easy
 
-1. Browse the content at http://project-open-data.github.io/
+1. Browse the content at http://fmdatatransparency.github.io
 2. Click the "Improve this content" button in the top right corner of any page
 3. Make changes as you would normally
 4. Click "Submit".
