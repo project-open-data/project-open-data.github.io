@@ -10,7 +10,7 @@ Contributions can be made, primarily in two ways:
 
 ### Easy
 
-1. Browse the content at http://fmdatatransparency.github.io
+1. Browse the content at http://fedspendingtransparency.github.io
 2. Click the "Improve this content" button in the top right corner of any page
 3. Make changes as you would normally
 4. Click "Submit".
