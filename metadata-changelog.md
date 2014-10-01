@@ -15,7 +15,8 @@ Updates to version 1.0 common core metadata:
   
 * Adds required `dataset` field to wrap all datasets listed within an overarching "catalog" object that wraps the entire data.json file ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
 * Adds `conformsTo` field, required at the catalog level to specify the schema and optional at the dataset and distribution level ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309), [#362](https://github.com/project-open-data/project-open-data.github.io/issues/362))
-* Adds optional `describedBy` field at the catalog, dataset, and distribution level ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
+* Adds optional `describedBy` field at the catalog, dataset, and distribution level ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309), [#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
+* Adds optional `describedByType` field at the dataset and distribution level ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
 * Renames `accessLevelComment` field to `rights` ([#353](https://github.com/project-open-data/project-open-data.github.io/issues/353))
 * Changes `contactPoint` field to an object that contains the name (`fn`) and email address (`hasEmail`) ([#358](https://github.com/project-open-data/project-open-data.github.io/issues/358)) 
 * Renames `mbox` field to `hasEmail` and moves to within `contactPoint` ([#358](https://github.com/project-open-data/project-open-data.github.io/issues/358))  
