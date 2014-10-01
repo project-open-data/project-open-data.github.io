@@ -169,8 +169,8 @@ An event where developers, designers, and strategists work in teams to solve pro
 **Goal:** To build relationships with the tech community and to see immediate tools and prototypes.
 
 ### Online Community
-A website, social networking group and/or email mailing list where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
-*Ex: Data.gov communities, NICAR/IRE, Code for America and Sunlight Foundation email listserv, Open Government Facebook and Google+ groups*
+A website, social networking group and/or listserv where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
+*Ex: Listservs for [NICAR](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/), Code for America, Sunlight Foundation, the Open Government Facebook and Google+ groups*
 
 **Goal:** To build and sustain ongoing relationships with media, nonprofits, good government advocates and civic technologists
 
