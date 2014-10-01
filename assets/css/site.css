@@ -92,6 +92,25 @@ ol, ul {
   text-decoration: none;
 }
 
+
+.edit-button span {
+  background-color : #1d5392;
+  padding : .25em .5em;
+  border-radius : .2em;
+}
+
+a:hover.edit-button span,
+a:focus.edit-button span {
+  background-color: #fff;
+  color : #002a5b;
+}
+
+.navbar .nav > li > a:hover.edit-button,
+.navbar .nav > li > a:focus.edit-button {
+  border-bottom: 2px solid #002a5b;  
+}
+
+
 .hero-unit.home {
   background-color: none;
   border-bottom: 1px solid #BC9E5F;

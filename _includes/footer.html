@@ -2,7 +2,10 @@
   <div class="container" id="footer">
     <div class="row-fluid">
       <div class="span12">
-        <a class="btn btn-primary" href="{{ edit_url }}">Help Improve this Content</a>
+        <div class="pull-left">
+          <a class="btn btn-primary" href="{{ edit_url }}">Edit this Page</a>
+          <a class="btn btn-default" href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/commits/{{ site.branch }}">View Revision History</a>
+        </div>
         <div class="pull-right">
           <iframe src="/assets/ghbtns/github-btn.html?user={{ site.org_name }}&repo={{ site.repo_name }}&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
         </div>
@@ -10,9 +13,12 @@
     </div>
   </div><!-- /container -->
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="{{ site.root_url }}/assets/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
-  <script src="{{ site.root_url }}/assets/js/bootstrap.min.js"></script>
+ 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  
+
 
 </body>
 </html>
