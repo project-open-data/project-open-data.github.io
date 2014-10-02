@@ -7,8 +7,9 @@ filename: schema.md
 id: schema v1.1
 ---
 
-***IMPORTANT NOTE***
-This is not the official version of the common core metadata schema. This is an open, working draft to explore possible changes to version 1.0, which serves as the base for this file. The pull requests merged into this file while its in draft do not constitute OMB approved changes to the schema.
+***IMPORTANT NOTE***  
+
+This is not the official version of the common core metadata schema. This is an open, working draft to explore possible changes to version 1.0, which serves as the base for this file. The pull requests merged into this file while it's in draft do not constitute OMB approved changes to the schema.
 
 ---------------------------
 
