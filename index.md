@@ -16,19 +16,19 @@ For more information about the meeting, see the [Federal Register Notice](https:
 
 ## Town Hall Presentations and Comments
 
-See the [agenda](fedspendingtransparency.github.io/agenda), presentations, and comments submitted from the public in response to the [Federal Register Notice](fedspendingtransparency.github.io/townhall).
+See the [agenda](http://fedspendingtransparency.github.io/agenda), presentations, and comments submitted from the public in response to the [Federal Register Notice](http://fedspendingtransparency.github.io/townhall).
 
 
 ## How to Contribute
 
 Due to limited time, we did not give Town Hall attendees an opportunity to ask questions and provide comments on the presenations given during the town hall. In an effort to increase collaboration, we welcome your comments and questions!
 
-For information on how to contribute, please see the [how to contribute](CONTRIBUTING.md)
+For information on how to contribute, please see the [how to contribute](http://fedspendingtransparency.github.io/CONTRIBUTING)
 
 
 ## License
 
-The project is a public domain work and is not subject to domestic or international copyright protection. See [the license file](LICENSE) for additional information.
+The project is a public domain work and is not subject to domestic or international copyright protection. See [the license file](http://fedspendingtransparency.github.io/LICENSE) for additional information.
 
 Members of the public and US government employees who wish to contribute are encourage to do so, but by contributing, dedicate their work to the public domain and waive all rights to their contribution under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/).
 
