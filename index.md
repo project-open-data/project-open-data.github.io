@@ -23,7 +23,7 @@ See the [agenda](http://fedspendingtransparency.github.io/agenda/), presentation
 
 Due to limited time, we did not give Town Hall attendees an opportunity to ask questions and provide comments on the presenations given during the town hall. In an effort to increase collaboration, we welcome your comments and questions!
 
-For information on how to contribute, please see the [how to contribute](http://fedspendingtransparency.github.io/CONTRIBUTING)
+For information on how to contribute, please see the [how to contribute](http://fedspendingtransparency.github.io/contributing/)
 
 
 ## License
