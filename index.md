@@ -14,9 +14,12 @@ With the recent enactment of the “Digital Accountability Transparency Act” (
 
 For more information about the meeting, see the [Federal Register Notice](https://www.federalregister.gov/articles/2014/09/05/2014-21213/notice-of-the-data-transparency-town-hall-meeting).
 
-## Town Hall Presentations and Comments
+## Town Hall Agenda, Presentations, and Comments
 
-See the [agenda](http://fedspendingtransparency.github.io/agenda/), presentations, and comments submitted from the public in response to the [Federal Register Notice](http://fedspendingtransparency.github.io/townhall/).
+* Town Hall [agenda](http://fedspendingtransparency.github.io/agenda/)
+* Presentations, and comments submitted from the public in response to the Federal Register Notice:
+  * [Presentations and Comments Given at the Town Hall](http://fedspendingtransparency.github.io/townhall/)
+  * [Additional presenataions and comments submitted but not presented](http://fedspendingtransparency.github.io/townhall/)
 
 
 ## How to Contribute
