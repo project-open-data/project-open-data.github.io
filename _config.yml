@@ -1,13 +1,13 @@
 #document settings
 title: Federal Spending Transparency 
 desc: "Collaboration Space"
-url: //fmdatatransparency.github.io/
-repo_name: fmdatatransparency.github.io
+url: //fedspendingtransparency.github.io/
+repo_name: fedspendingtransparency.github.io
 branch: master
 
 #global settings, no need to change these
-root_url: //fmdatatransparency.github.io
-org_name: fmdatatransparency
+root_url: //fedspendingtransparency.github.io
+org_name: fedspendingtransparency
 
 # default build settings for running locally, no need to edit
 pymgemnts: true
