@@ -1,3 +1,12 @@
+---
+published: true
+permalink: /contributing/
+layout: hero
+filename: contributing.md
+title: Contributing
+---
+
+
 # Contributing 
 
 *By contributing to this project, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). See the [license file](LICENSE) for additional information.*
