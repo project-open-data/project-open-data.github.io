@@ -71,7 +71,7 @@ This Source Code Policy, forked from the DoD/CFPB policy, includes a new "Commun
 An educational resource for government employees and government contractors to understand the policies and legal issues relating to the use of open source software in the DoD.  Much of the information collected there is applicable to other Federal agencies.   The FAQ covers a range of issues, including:  DoD policy on OSS, general information about OSS, OSS licenses, release of government software as OSS, and OSS-like approaches used within the Federal government.
 * [Working Version of the FAQs](http://risacher.github.io/DoD-OSS-FAQ/)
 
-###[How to FOSS Your Government Project](http://bit.ly/HowToFOSS)
+###[How to FOSS Your Government Project](https://bit.ly/HowToFOSS)
 *National Security Agency & DoD CIO*
 
 A checklist developed at NSA to document the internal processes required to release government-developed software as open source software.  It provides a detailed example for other agencies to use as a starting point.  The original document contained a number of NSA-specific processes, the linked document is a "template" version that removes the specifics, and leaves just the outline and advisory material.
