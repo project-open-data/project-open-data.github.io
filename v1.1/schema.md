@@ -463,8 +463,8 @@ Dataset Fields {#Dataset}
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | -
-**Usage Notes** | See list of licenses.
+**Accepted Values** | String (URL)
+**Usage Notes** | See [list of potential licenses](/license-examples/).
 **Example** |  `{"license":""}`
 
 {: .table .table-striped #modified}
