@@ -2,8 +2,8 @@
 published: true
 permalink: /TownHall1/
 layout: hero
-filename: townhall1.md
-title: TownHall
+filename: TownHall1.md
+title: TownHall1
 ---
 
 # Financial Data Transparency Town Hall September 26, 2014
