@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: /TownHall/
+permalink: /TownHall1/
 layout: hero
 filename: townhall1.md
 title: TownHall
