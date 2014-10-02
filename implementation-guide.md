@@ -158,7 +158,7 @@ The objectives of this activity are to:
 **Tools and Resources on Project Open Data**
 
 * Data “Kickstart” Plug-in
-* [GSA’s Innovation Center](http://gsablogs.gsa.gov/dsic/)  API Resources
+* [GSA’s API Resources](http://18f.github.io/API-All-the-X/)
 
 ### D. Document if Data Cannot be Released
 
