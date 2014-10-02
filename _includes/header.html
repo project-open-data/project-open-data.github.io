@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="/assets/css/bootstrap.css">
   <link rel="stylesheet" href="/assets/css/site.css">
 
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
   {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
 </head>
 <body class="{{ page.id }}">
