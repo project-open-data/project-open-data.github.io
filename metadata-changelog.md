@@ -33,7 +33,7 @@ Updates to version 1.0 common core metadata:
 * Adds optional `title` field for use within `distribution` ([#248](https://github.com/project-open-data/project-open-data.github.io/issues/248)) 
 * Adds optional `isPartOf` field to group datasets as a collection ([#258](https://github.com/project-open-data/project-open-data.github.io/issues/258)) 
 * Removes `webService` field. APIs can be described within a `distribution` using `accessURL` and `format` ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291)) 
-
+* Changes `license` field to be a URL ([196](https://github.com/project-open-data/project-open-data.github.io/issues/196))
 
 ### Version 1.0 FINAL - 9/20/2013
 
