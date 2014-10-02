@@ -40,7 +40,7 @@ Contributions can be made, primarily in two ways:
 
 Project Open Data runs on GitHub pages and automatically regenerates as a static site after every change. To duplicate this process and preview changes locally:
 
-1. `git clone https://github.com/project-open-data/project-open-data.github.io.git && cd project-open-data.github.io`
+1. `git clone https://github.com/fedspendingtransparency/fedspendingtransparency.github.io.git && cd fedspendingtransparency.github.io`
 2. `script/bootstrap`
 3. (Make your changes)
 4. `script/server`
