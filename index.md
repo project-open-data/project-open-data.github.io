@@ -23,7 +23,7 @@ See the [agenda](http://fedspendingtransparency.github.io/agenda/), presentation
 
 Due to limited time, we did not give Town Hall attendees an opportunity to ask questions and provide comments on the presenations given during the town hall. In an effort to increase collaboration, we welcome your comments and questions!
 
-For information on how to contribute, please see the [how to contribute](http://fedspendingtransparency.github.io/contributing/)
+For information on how to contribute, please see the [how to contribute](http://fedspendingtransparency.github.io/contributing/).
 
 
 ## License
@@ -34,5 +34,5 @@ Members of the public and US government employees who wish to contribute are enc
 
 ## Privacy
 
-Comments, pull requests and any other messages received through this repository may be subject to the [Presidential Records Act](http://www.archives.gov/about/laws/presidential-records.html) and may be archived. Learn more at http://WhiteHouse.gov/privacy
+Comments, pull requests and any other messages received through this repository may be subject to the [Presidential Records Act](http://www.archives.gov/about/laws/presidential-records.html) and may be archived. Learn more at [http://WhiteHouse.gov/privacy](http://WhiteHouse.gov/privacy).
 
