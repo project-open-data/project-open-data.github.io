@@ -127,7 +127,7 @@ dataQuality<sup>[USG](#USG-note)</sup>				| Data Quality        		| Whether the 
 isPartOf				                            | Collection          		| The collection of which the dataset is a subset.  
 issued					                            | Release Date        		| Date of formal issuance.                                                                                                                      
 language				                            | Language            		| The language of the dataset.                                                                                                                  
-landingPage				                            | Homepage URL        		| Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
+landingPage				                            | Homepage URL        		| This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset.  
 primaryITInvestmentUII<sup>[USG](#USG-note)</sup>	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
 references				                            | Related Documents   		| Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
 systemOfRecords<sup>[USG](#USG-note)</sup>			| System of Records   		| If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
@@ -446,7 +446,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | String (URL)
-**Usage Notes** | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users should be directed to for all resources tied to the dataset.  This allows agencies to better specify what a visitor receives after selecting one of the agency's datasets on Data.gov or in third-party mashups.
+**Usage Notes** | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset.  
 **Example** |  `{"landingPage":"http://www.agency.gov/vegetables"}`
 
 {: .table .table-striped #language}
