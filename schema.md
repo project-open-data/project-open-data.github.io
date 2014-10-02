@@ -142,7 +142,9 @@ Further Metadata Field Guidance (alphabetical by field)
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | See usage notes
-**Usage Notes** | Must be a value from [DCCDAccrualPeriodicity](http://www.ukoln.ac.uk/metadata/dcmi/collection-DCCDAccrualPeriodicity/): "Annual","Bimonthly","Semiweekly","Daily","Biweekly","Semiannual","Biennial","Triennial","Three times a week","Three times a month","Continuously updated","Monthly","Quarterly","Semimonthly","Three times a year","Weekly","Completely irregular"
+**Usage Notes** | Must be a value from [DCCDAccrualPeriodicity](http://www.ukoln.ac.uk/metadata/dcmi/collection-DCCDAccrualPeriodicity/): "Annual","Bimonthly","Semiweekly","Daily","Biweekly","Semiannual","Biennial",
+"Triennial","Three times a week","Three times a month","Continuously updated","Monthly","Quarterly","Semimonthly","Three times a year",
+"Weekly","Completely irregular"
 **Example** |  `{"accrualPeriodicity":"Annual"}`
 
 {: .table .table-striped}
@@ -247,7 +249,7 @@ Further Metadata Field Guidance (alphabetical by field)
 **Required** | Yes, always
 **Accepted Values** | Array of strings
 **Usage Notes** | Surround each keyword with quotes. Separate keywords with commas.  Avoid duplicate keywords in the same record.  
-**Example** | `{"keyword":["vegetables","veggies","greens","leafy","spinach","kale","nutrition"]}`
+**Example** | `{"keyword":["vegetables","veggies","greens","spinach","kale","nutrition"]}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#landingPage">#</a>** | **<a name="landingPage">landingPage</a>**
@@ -330,7 +332,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Required** | No
 **Accepted Values** | Array of strings (URLs)
 **Usage Notes** | Enclose each URL within strings. Separate multiple URLs with a comma.
-**Example** |  `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html"]}` or if multiple URLs, `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html","http://www.agency.gov/fruits/fruit_data_documentation.html"]}`
+**Example** |  `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html"]}` or if multiple URLs, `{"references":["http://www.agency.gov/legumes/legumes_data_documentation.html",
+"http://www.agency.gov/fruits/fruit_data_documentation.html"]}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#spatial">#</a>** | **<a name="spatial">spatial</a>**
