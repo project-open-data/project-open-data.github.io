@@ -1,9 +1,9 @@
 ---
 published: true
-permalink: /
+permalink: /TownHall/
 layout: hero
 filename: townhall1.md
-title: Town Hall
+title: TownHall
 ---
 
 # Financial Data Transparency Town Hall September 26, 2014
