@@ -19,7 +19,7 @@ For more information about the meeting, see the [Federal Register Notice](https:
 * Town Hall [agenda](http://fedspendingtransparency.github.io/agenda/)
 * Presentations, and comments submitted from the public in response to the Federal Register Notice:
   * [Presentations and comments given at the town hall](http://fedspendingtransparency.github.io/townhall/)
-  * [Additional presentations and comments submitted but not presented](http://fedspendingtransparency.github.io/submitted.md) 
+  * [Additional presentations and comments submitted but not presented](http://fedspendingtransparency.github.io/submitted/) 
 
 
 ## How to Contribute
