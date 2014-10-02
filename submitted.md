@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: /submited/
+permalink: /submitted/
 layout: hero
 filename: townhall.md
 title: Submitted
