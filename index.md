@@ -13,7 +13,7 @@ title: Events
 
 With the recent enactment of the “Digital Accountability Transparency Act” (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm), the Federal Government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information. 
 
-Collaboration across the Federal Government and with external stakeholders is critical to the successful implementation of the DATA Act. We would like to use this site to foster a two way communication and collaboration with both Federal and non-Federal stakeholders. 
+Collaboration across the Federal Government and with external stakeholders is critical to the successful implementation of the DATA Act. We would like to use this collaboration space to foster a two way communication and collaboration with both Federal and non-Federal stakeholders. 
 
 
 ##Recent Events
