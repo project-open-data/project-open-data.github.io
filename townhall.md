@@ -1,3 +1,11 @@
+---
+published: true
+permalink: /townhall/
+layout: hero
+filename: townhall.md
+title: Townhall
+---
+
 ##Presentations and Comments Given at the Data Transparency Town Hall 
 
 ###[DATA Act Implementation Overview](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/blob/master/Session%202_%20OMBTreas_Town%20Hall%20DATA%20Act%20Presentation..pptx?raw=true)
