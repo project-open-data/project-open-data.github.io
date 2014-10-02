@@ -9,11 +9,11 @@ title: Contributing
 
 # Contributing 
 
-*By contributing to this project, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). See the [license file](LICENSE) for additional information.*
+*By contributing to this project, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). See the [license file](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/blob/master/LICENSE) for additional information.*
 
 ## How to Contribute
 
-This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing. For more information, please see [the FAQ](/faq/)
+This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing.
 
 Contributions can be made, primarily in two ways:
 
@@ -50,4 +50,4 @@ Project Open Data runs on GitHub pages and automatically regenerates as a static
 
 ## Privacy
 
-All comments, messages, pull requests, and other submissions received through official White House pages including this GitHub page may be subject to archiving requirements. See the [readme](README.md#privacy) for more information.
+All comments, messages, pull requests, and other submissions received through official White House pages including this GitHub page may be subject to archiving requirements.
