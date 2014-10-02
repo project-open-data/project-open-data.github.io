@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: /agenda
+permalink: /agenda/
 layout: hero
 filename: agenda.md
 title: Agenda
