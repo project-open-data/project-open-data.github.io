@@ -59,7 +59,7 @@ title			        | Title               | Human-readable name of the asset.  Shoul
 description		        | Description         | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. 
 keyword			        | Tags                | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users.             
 modified		        | Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        
-publisher		        | Publisher           | The publishing entity.                                                                                                                         
+publisher		        | Publisher           | The publishing entity, where possible the specific agency or bureau.                                                                                                                         
 contactPoint	        | Contact Name        | Contact person's name for the asset.                                                                                                           
 mbox			        | Contact Email       | Contact person's email address. 			           	                                                                                       
 identifier		        | Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 
@@ -320,8 +320,8 @@ If there is a need to reflect that the dataset is continually updated, ISO 8601 
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String
-**Usage Notes** | The plaintext name of the entity publishing this dataset.
-**Example** |  `{"publisher":"U.S. Department of Education"}`
+**Usage Notes** | The plaintext name of the entity publishing this dataset, where possible the specific agency or bureau.
+**Example** |  `{"publisher":"Federal Bureau of Investigation"}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#references">#</a>** | **<a name="references">references</a>**
