@@ -17,7 +17,7 @@ Collaboration across the Federal Government and with external stakeholders is cr
 
 
 ##Recent Events
-* [Financial Data Transparency Town Hall September 26, 2014](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/blob/master/thdescription/)
+* [Financial Data Transparency Town Hall September 26, 2014](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/blob/master/thdescription.md/)
 
 
 ##How to Contribute
