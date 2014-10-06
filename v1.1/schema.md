@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-title: Draft v1.1 Common Core Metadata Schema
+title: Draft v1.1 Metadata Schema
 permalink: /v1.1/schema/
 filename: schema.md
 id: schema v1.1
@@ -9,11 +9,11 @@ id: schema v1.1
 
 ***IMPORTANT NOTE***  
 
-This is not the official version of the common core metadata schema. This is an open, working draft to explore possible changes to version 1.0, which serves as the base for this file. The pull requests merged into this file while it's in draft do not constitute OMB approved changes to the schema.
+This is not the official version of the Project Open Data metadata schema. This is an open, working draft to explore possible changes to version 1.0, which serves as the base for this file. The pull requests merged into this file while it's in draft do not constitute OMB approved changes to the schema.
 
 ---------------------------
 
-This section contains guidance to support the use of the common core metadata to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.
+This section contains guidance to support the use of the Project Open Data metadata to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.
 
 Updates to the metadata schema can be found in the [changelog](/metadata-changelog). Current metadata version: 1.1 FINAL as of [DATE OF MERGE].
 
@@ -21,7 +21,7 @@ Standard Metadata Vocabulary
 ----------------------------
 Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource (NISO 2004, ISBN: 1-880124-62-9).  The challenge is to define and name standard metadata fields so that a data consumer has sufficient information to process and understand the described data. The more information that can be conveyed in a standardized regular format, the more valuable data becomes. Metadata can range from basic to advanced, from allowing one to discover the mere fact that a certain data asset exists and is about a general subject all the way to providing detailed information documenting the structure, processing history, quality, relationships, and other properties of a dataset. Making metadata machine readable greatly increases its utility, but requires more detailed standardization, defining not only field names, but how information is encoded in the metadata fields.
 
-Establishing a common vocabulary is the key to communication. The **common core metadata** specified in this memorandum is based on [DCAT](http://www.w3.org/TR/vocab-dcat/), a hierarchical vocabulary specific to datasets. This specification defines three levels of metadata elements: Required, Required-if (conditionally required), and Expanded fields.  These elements were selected to represent information that is most often looked for on the web. To assist users of other metadata standards, [mappings](http://project-open-data.github.io/metadata-resources/#common_core_required_fields_equivalents) to equivalent elements in other standards are provided.  
+Establishing a common vocabulary is the key to communication. The **metadata schema** specified in this memorandum is based on [DCAT](http://www.w3.org/TR/vocab-dcat/), a hierarchical vocabulary specific to datasets. This specification defines three types of metadata elements: Required, Required-if (conditionally required), and Expanded fields.  These elements were selected to represent information that is most often looked for on the web. To assist users of other metadata standards, [mappings](http://project-open-data.github.io/metadata-resources/#common_core_required_fields_equivalents) to equivalent elements in other standards are provided.  
 
 What to Document -- Datasets and Web APIs
 -------------------------------------
@@ -64,9 +64,9 @@ Field                   | Label                 | Definition
 conformsTo			| Schema Version        	| A URI that identifies the version of the Project Open Data schema being used.   
 dataset				| Dataset        	| A container for the array of Dataset objects. See <a href="#Dataset">Dataset Fields</a> below for details.  
 
-"Common Core" Required Fields
+Dataset Required Fields
 -----------------------------
-The following "common core" fields are required, to be used to describe each entry. Only U.S. Federal agencies are required to fill out `bureauCode` and `programCode`.
+The following fields are required, to be used to describe each dataset. Only U.S. Federal agencies are required to fill out `bureauCode` and `programCode`.
 
 *(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources#common-core-required-fields-equivalents) to find the equivalent DCAT, Schema.org, and CKAN fields.)*
 
@@ -84,7 +84,7 @@ accessLevel | Public Access Level      | The degree to which this dataset **coul
 bureauCode<sup>[USG](#USG-note)</sup>       | Bureau Code           | Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
 programCode<sup>[USG](#USG-note)</sup>      | Program Code          | Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
 
-"Common Core" Required-if-Applicable Fields
+Dataset Required-if-Applicable Fields
 -------------------------------------------
 The following fields must be used to describe each dataset if they are applicable. 
 
@@ -97,9 +97,9 @@ rights		                                | Rights 	            | This may include
 spatial					                    | Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         
 temporal				                    | Temporal				| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   
 
-"Common Core" Distribution Fields
+Dataset Distribution Fields
 -------------------------------------------
-Within a record, **distribution** is used to aggregate the metadata specific to a dataset's resources (**accessURL** and **downloadURL**), which may be described using the following fields.  Each distribution should contain one **accessURL** or **downloadURL**.  **downloadURL** should always be accompanied by **mediaType**.  
+Within a dataset, **distribution** is used to aggregate the metadata specific to a dataset's resources (**accessURL** and **downloadURL**), which may be described using the following fields.  Each distribution should contain one **accessURL** or **downloadURL**.  **downloadURL** should always be accompanied by **mediaType**.  
 
 {: .table .table-striped}
 Field                   | Label                 | Definition
@@ -114,7 +114,7 @@ format					| Format              	| A human-readable description of the file for
 mediaType				| Media Type         	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `downloadURL`.    
 title			        | Title               	| Human-readable name of the distribution.  
 
-Beyond Common Core -- Extending the Schema
+Extending the Schema
 ------------------------------------------
 "Extensional" and/or domain specific metadata can easily be added using other vocabularies even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, FGDC, ISO 19115, NIEM, and a growing number of vocabularies published at [Vocab.Data.gov](http://vocab.data.gov)) as long as they are properly assigned.
 
