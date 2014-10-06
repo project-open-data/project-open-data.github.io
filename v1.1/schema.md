@@ -561,8 +561,41 @@ Dataset Fields {#Dataset}
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | Object
-**Usage Notes** | The plaintext name of the entity publishing this dataset. Where greater specificity is desired, include as many levels of publisher as is useful, in ascending order, using the below format.  
-**Example** |  `{"publisher":{"name": "U.S. Department of Commerce"}` or if multiple levels, `"publisher": {"name": "National Weather Service", "subOrganizationOf": {"name": "National Oceanic and Atmospheric Administration", "subOrganizationOf": {"name": "U.S. Department of Commerce"}}}`
+**Usage Notes** | This is a container for a `publisher` object which groups together the fields: `name` and `subOrganization`. The `subOrganization` field can also contain a `publisher` object which allows one to describe an organization's hierarchy.  Where greater specificity is desired, include as many levels of publisher as is useful, in ascending order, using the below format. 
+**Example** | See below
+ 
+~~~
+"publisher": {
+    "name": "Widget Services", 
+    "subOrganizationOf": {
+        "name": "Office of Citizen Services and Innovative Technologies", 
+        "subOrganizationOf": {
+            "name": "General Services Administration", 
+            "subOrganizationOf": {
+                "name": "U.S. Government"
+            }
+        }
+    }
+}
+~~~
+
+{: .table .table-striped .child-field #publisher-name}
+**Field [#](#publisher-name){: .permalink}** | **publisher &rarr; name**
+----- | -----
+**Cardinality** | (1,1)
+**Required** | Yes, always
+**Accepted Values** | String
+**Usage Notes** | The plaintext name of the entity publishing this dataset.   
+**Example** |  `{"name": "U.S. Department of Commerce"}`
+
+{: .table .table-striped .child-field #publisher-subOrganizationOf}
+**Field [#](#publisher-subOrganizationOf){: .permalink}** | **publisher &rarr; subOrganizationOf**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | `publisher` object
+**Usage Notes** | A parent organizational entity described using the same `publisher` object fields.  
+**Example** |  `"subOrganizationOf": {"name": "General Services Administration", "subOrganizationOf": {"name": "U.S. Government"}}`
 
 {: .table .table-striped #references}
 **Field [#](#references){: .permalink}** | **references**
