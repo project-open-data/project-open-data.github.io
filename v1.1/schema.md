@@ -138,6 +138,53 @@ Further Metadata Field Guidance
 -------------------------------
 Additional details for each field are provided here broken down into sections for the overarching [Catalog](#Catalog), each [dataset](#dataset), and each dataset's [distribution](#distribution).
 
+
+* Catalog
+	* [conformsTo](#conformsTo)
+	* [describedBy](#describedBy)
+	* [dataset](#dataset)
+		* [accessLevel](#accessLevel)
+		* [accrualPeriodicity](#accrualPeriodicity)
+		* [bureauCode](#bureauCode)
+		* [conformsTo](#dataset-conformsTo)
+		* [contactPoint](#contactPoint)
+			* [fn](#contactPoint-fn)
+			* [hasEmail](#contactPoint-hasEmail)
+		* [dataQuality](#dataQuality)
+		* [describedBy](#dataset-describedBy)
+		* [describedByType](#dataset-describedByType)
+		* [description](#description)
+		* [distribution](#distribution)
+			* [accessURL](#distribution-accessURL)
+			* [conformsTo](#distribution-conformsTo)
+			* [downloadURL](#distribution-downloadURL)
+			* [describedBy](#distribution-describedBy)
+			* [describedByType](#distribution-describedByType)
+			* [description](#distribution-description)
+			* [format](#distribution-format)
+			* [mediaType](#distribution-mediaType)
+			* [title](#title)
+		* [identifier](#identifier)
+		* [isPartOf](#isPartOf)
+		* [issued](#issued)
+		* [keyword](#keyword)
+		* [landingPage](#landingPage)
+		* [language](#language)
+		* [license](#license)
+		* [modified](#modified)
+		* [primaryITInvestmentUII](#primaryITInvestmentUII)
+		* [programCode](#programCode)
+		* [publisher](#publisher)
+			* [name](#publisher-name)
+			* [subOrganizationOf](#publisher-subOrganizationOf)
+		* [rights](#rights)
+		* [spatial](#spatial)
+		* [systemOfRecords](#systemOfRecords)
+		* [temporal](#temporal)
+		* [theme](#theme)
+		* [title](#title)
+
+
 Catalog Fields {#Catalog}
 -------------------------------
 
