@@ -54,10 +54,15 @@ The Project Open Data schema is case sensitive. The schema uses a camel case con
 Links to downloadable examples of metadata files developed in this and other formats in [the metadata resources](/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
 
 
-Schema Version Declaration (Required)
------------------------------
-In order to distinguish the schema version being used publishers are required to specify the relevant URI using the `conformsTo` field at the beginning of their data.json file. Version 1.1 of the schema should be identified with the following URI: http://project-open-data.cio.gov/v1.1/schema.  Optionally, publishers may also use the `describedBy` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (http://project-open-data.cio.gov/v1.1/schema/catalog.json) or they may refer to their own JSON Schema file where they have extended the schema. These fields are both part of a JSON object that also contains a listing of all datasets under the `dataset` field. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
+Schema Version Required Declaration
+-------------------------------------------------
+The following fields are required, to be used to describe each Public Data Listing. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
 
+{: .table .table-striped}
+Field                   | Label                 | Definition
+--------------          | --------------        | --------------                                                                                                                       
+conformsTo			| Data Standard        	| Version 1.1 of the schema should be identified with the following URI: http://project-open-data.cio.gov/v1.1/schema. Optionally, publishers may also use the `describedBy` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (http://project-open-data.cio.gov/v1.1/schema/catalog.json) or they may refer to their own JSON Schema file where they have extended the schema.  
+dataset				| Dataset        	| This field is a container for an array of Dataset objects. See See <a href="#Dataset">Dataset Fields</a> below for details</td> below for details.  
 
 "Common Core" Required Fields
 -----------------------------
@@ -138,58 +143,51 @@ Further Metadata Field Guidance
 -------------------------------
 Additional details for each field are provided here broken down into sections for the overarching [Catalog](#Catalog), each [dataset](#dataset), and each dataset's [distribution](#distribution).
 
-{: .schema-fields .requirements-key}
-* Key
-	* {: .field-required} Required
-	* {: .field-required-if-applicable} Required if Applicable
-	* {: .field-optional} Expanded (optional)
 
-
-{: .schema-fields}
 * Catalog
-	* {: .field-required}[conformsTo](#conformsTo)
-	* {: .field-optional}[describedBy](#describedBy)
-	* {: .field-required}[dataset](#dataset)
-		* {: .field-required}[accessLevel](#accessLevel)
-		* {: .field-optional}[accrualPeriodicity](#accrualPeriodicity)
-		* {: .field-required}[bureauCode](#bureauCode)
-		* {: .field-optional}[conformsTo](#dataset-conformsTo)
-		* {: .field-required}[contactPoint](#contactPoint)
-			* {: .field-required}[fn](#contactPoint-fn)
-			* {: .field-required}[hasEmail](#contactPoint-hasEmail)
-		* {: .field-required-if-applicable}[dataQuality](#dataQuality)
-		* {: .field-optional}[describedBy](#dataset-describedBy)
-		* {: .field-optional}[describedByType](#dataset-describedByType)
-		* {: .field-required}[description](#description)
-		* {: .field-required-if-applicable}[distribution](#distribution)
-			* {: .field-optional}[accessURL](#distribution-accessURL)
-			* {: .field-optional}[conformsTo](#distribution-conformsTo)
-			* {: .field-required-if-applicable}[downloadURL](#distribution-downloadURL)
-			* {: .field-optional}[describedBy](#distribution-describedBy)
-			* {: .field-optional}[describedByType](#distribution-describedByType)
-			* {: .field-optional}[description](#distribution-description)
-			* {: .field-optional}[format](#distribution-format)
-			* {: .field-required-if-applicable}[mediaType](#distribution-mediaType)
-			* {: .field-optional}[title](#title)
-		* {: .field-required}[identifier](#identifier)
-		* {: .field-optional}[isPartOf](#isPartOf)
-		* {: .field-optional}[issued](#issued)
-		* {: .field-required}[keyword](#keyword)
-		* {: .field-optional}[landingPage](#landingPage)
-		* {: .field-optional}[language](#language)
-		* {: .field-required-if-applicable}[license](#license)
-		* {: .field-required}[modified](#modified)
-		* {: .field-optional}[primaryITInvestmentUII](#primaryITInvestmentUII)
-		* {: .field-required}[programCode](#programCode)
-		* {: .field-required}[publisher](#publisher)
-			* {: .field-required}[name](#publisher-name)
-			* {: .field-optional}[subOrganizationOf](#publisher-subOrganizationOf)
-		* {: .field-required-if-applicable}[rights](#rights)
-		* {: .field-required-if-applicable}[spatial](#spatial)
-		* {: .field-optional}[systemOfRecords](#systemOfRecords)
-		* {: .field-required-if-applicable}[temporal](#temporal)
-		* {: .field-optional}[theme](#theme)
-		* {: .field-required}[title](#title)
+	* [conformsTo](#conformsTo)
+	* [describedBy](#describedBy)
+	* [dataset](#dataset)
+		* [accessLevel](#accessLevel)
+		* [accrualPeriodicity](#accrualPeriodicity)
+		* [bureauCode](#bureauCode)
+		* [conformsTo](#dataset-conformsTo)
+		* [contactPoint](#contactPoint)
+			* [fn](#contactPoint-fn)
+			* [hasEmail](#contactPoint-hasEmail)
+		* [dataQuality](#dataQuality)
+		* [describedBy](#dataset-describedBy)
+		* [describedByType](#dataset-describedByType)
+		* [description](#description)
+		* [distribution](#distribution)
+			* [accessURL](#distribution-accessURL)
+			* [conformsTo](#distribution-conformsTo)
+			* [downloadURL](#distribution-downloadURL)
+			* [describedBy](#distribution-describedBy)
+			* [describedByType](#distribution-describedByType)
+			* [description](#distribution-description)
+			* [format](#distribution-format)
+			* [mediaType](#distribution-mediaType)
+			* [title](#title)
+		* [identifier](#identifier)
+		* [isPartOf](#isPartOf)
+		* [issued](#issued)
+		* [keyword](#keyword)
+		* [landingPage](#landingPage)
+		* [language](#language)
+		* [license](#license)
+		* [modified](#modified)
+		* [primaryITInvestmentUII](#primaryITInvestmentUII)
+		* [programCode](#programCode)
+		* [publisher](#publisher)
+			* [name](#publisher-name)
+			* [subOrganizationOf](#publisher-subOrganizationOf)
+		* [rights](#rights)
+		* [spatial](#spatial)
+		* [systemOfRecords](#systemOfRecords)
+		* [temporal](#temporal)
+		* [theme](#theme)
+		* [title](#title)
 
 
 Catalog Fields {#Catalog}
