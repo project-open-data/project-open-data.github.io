@@ -125,19 +125,19 @@ Agencies are encouraged to use the following expanded fields when appropriate. A
 {: .table .table-striped}
 Field                                               | Label               		| Definition
 --------------                                      | --------------            | --------------                                                                                                                       
-accrualPeriodicity		                            | Frequency           		| Frequency with which dataset is published.                                                                                                    
-conformsTo				                            | Data Standard        		| URI used to identify a standardized specification the dataset conforms to
-describedBy				                            | Data Dictionary     		| URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`).              
-describedByType			                            | Data Dictionary Type  	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`)
-dataQuality<sup>[USG](#USG-note)</sup>				| Data Quality        		| Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             
-isPartOf				                            | Collection          		| The collection of which the dataset is a subset.  
-issued					                            | Release Date        		| Date of formal issuance.                                                                                                                      
-language				                            | Language            		| The language of the dataset.                                                                                                                  
-landingPage				                            | Homepage URL        		| This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset.  
-primaryITInvestmentUII<sup>[USG](#USG-note)</sup>	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
-references				                            | Related Documents   		| Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
+accrualPeriodicity		                            	| Frequency           		| Frequency with which dataset is published.                                                                                                    
+conformsTo				                        | Data Standard        		| URI used to identify a standardized specification the dataset conforms to
+dataQuality<sup>[USG](#USG-note)</sup>				| Data Quality        		| Whether the dataset meets the agency's Information Quality Guidelines (true/false).     
+describedBy				                        | Data Dictionary     		| URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`).              
+describedByType			                        	| Data Dictionary Type  	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`)
+isPartOf				                        | Collection          		| The collection of which the dataset is a subset.  
+issued					                        | Release Date        		| Date of formal issuance.                                                                                                                      
+language				                        | Language            		| The language of the dataset.                                                                                                                  
+landingPage				                        | Homepage URL        		| This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset.  
+primaryITInvestmentUII<sup>[USG](#USG-note)</sup>		| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
+references				                        | Related Documents   		| Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
 systemOfRecords<sup>[USG](#USG-note)</sup>			| System of Records   		| If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
-theme					                            | Category            		| Main thematic category of the dataset.  
+theme					                        | Category            		| Main thematic category of the dataset.  
 
 Further Metadata Field Guidance
 -------------------------------
