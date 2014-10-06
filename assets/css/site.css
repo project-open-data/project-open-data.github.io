@@ -207,6 +207,71 @@ background-color : #e3e3e3;
 
 #footer { padding: 40px 10px; }
 
+ul.schema-fields, 
+ul.schema-fields ul {
+    list-style : none;
+    padding : 0;
+    margin : 0;
+}
+
+ul.schema-fields li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.schema-fields.requirements-key {
+  float : right;
+  border : 1px solid #ccc;
+  padding : 1em; 
+  background-color : #f9f9f9;
+  border-radius: 5px; 
+}
+
+.field-required:before {
+  content: "● ";
+  color : DarkRed;
+}
+
+span.field-required {
+  color : DarkRed;
+}
+
+.field-required {
+  font-weight : bold;
+}
+
+.field-required-if-applicable:before, 
+.field-required .field-required-if-applicable:before {
+  content: "◎ "; 
+  color : DarkMagenta;
+}
+
+span.field-required-if-applicable {
+ color : DarkMagenta; 
+}
+
+
+.field-required-if-applicable, 
+.field-required .field-required-if-applicable {
+  font-weight : normal;
+}
+
+.field-optional:before, 
+.field-required .field-optional:before, 
+.field-required-if-applicable .field-optional:before {    
+    content: "◌ ";
+    color : MidnightBlue;
+}
+
+.field-optional:before, 
+.field-required .field-optional, 
+.field-required-if-applicable .field-optional {    
+    font-weight : normal;
+}
+
+
+
+
 /* icons */
 [class^="icon-"],
 [class*=" icon-"] {
