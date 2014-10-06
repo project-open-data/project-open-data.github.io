@@ -85,9 +85,9 @@ Title               | *title*                 | *title*
 Description         | *description*           | *description*                
 Tags                | *keyword*              | *keyword*                
 Last Update         | *modified*          | *modified*   
-Publisher           | *publisher*           | *publisher*
-Contact Name        | *contactPoint*          | *contactPoint*   
-Contact Email       | *mbox* | *hasEmail*                
+Publisher           | *publisher*           | *publisher &rarr; name*
+Contact Name        | *contactPoint*          | *contactPoint &rarr; fn*   
+Contact Email       | *mbox* | *contactPoint &rarr; hasEmail*                
 Unique Identifier   | *identifier*     | *identifier*               
 Public Access Level | *accessLevel*                   | *rights*  
 Dataset | n/a | *dataset* 
@@ -96,14 +96,15 @@ Program Code 		| *programCode*                   | *programCode*
 Access Level Comment| *accessLevelComment*                   | *accessLevelComment*            
 Download URL        | *accessURL*          | *downloadURL*  
 Endpoint            | *webService*          | **REMOVED**  
-Format              | *format*          | *mediaType*  
+Media Type (formerly "Format")         | *format*          | *mediaType*  
+Format              | n/a             | *format*
 License             | *license* | *license*      
 Spatial             | *spatial*      | *spatial*              
 Temporal            | *temporal*    | *temporal*     
 Collection          | *n/a*    | *isPartOf*
 Category            | *theme*          | *theme*  
 Data Dictionary        | *dataDictionary*          | *describedBy*  
-Data Dictionary Type       | *dataDictionary*          | *describedByType*  
+Data Dictionary Type       | n/a          | *describedByType*  
 Data Standard | *n/a*                   | *conformsTo* 
 Data Quality        | *dataQuality*          | *dataQuality*  
 Distribution        | *distribution*          | *distribution* 
@@ -111,7 +112,7 @@ Frequency           | *accrualPeriodicity*             |  *accrualPeriodicity*
 Homepage URL        | *landingPage*                  | *landingPage*    
 Language            | *language*                   | *language*  
 Primary IT Investment UII            | *PrimaryITInvestmentUII*                   | *primaryITInvestmentUII*
-Related Documents   | *language*   | *language*  
+Related Documents   | *related*   | *related*  
 Release Date        | *issued*        | *issued*        
 System of Records   | *systemOfRecords*                  | *systemOfRecords*  
 
