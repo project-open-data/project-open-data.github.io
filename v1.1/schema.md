@@ -68,7 +68,7 @@ Dataset Required Fields
 -----------------------------
 The following fields are required, to be used to describe each dataset. Only U.S. Federal agencies are required to fill out `bureauCode` and `programCode`.
 
-*(Consult the 'Further Metadata Field Guidance' section lower in the page to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources#common-core-required-fields-equivalents) to find the equivalent DCAT, Schema.org, and CKAN fields.)*
+See the *[Further Metadata Field Guidance](#further-metadata-field-guidance)* section to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources#common-core-required-fields-equivalents) to find the equivalent DCAT, Schema.org, and CKAN fields.)
 
 {: .table .table-striped}
 Field                   | Label               | Definition
@@ -116,7 +116,7 @@ title			        | Title               	| Human-readable name of the distribution
 
 Extending the Schema
 ------------------------------------------
-"Extensional" and/or domain specific metadata can easily be added using other vocabularies even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, FGDC, ISO 19115, NIEM, and a growing number of vocabularies published at [Vocab.Data.gov](http://vocab.data.gov)) as long as they are properly assigned.
+"Extensional" and/or domain specific metadata can easily be added using other vocabularies even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, Schema.org, FGDC, ISO 19115, and NIEM)) as long as they are properly assigned.
 
 Expanded Fields
 ---------------
@@ -129,7 +129,7 @@ accrualPeriodicity		                            	| Frequency           		| Frequ
 conformsTo				                        | Data Standard        		| URI used to identify a standardized specification the dataset conforms to
 dataQuality<sup>[USG](#USG-note)</sup>				| Data Quality        		| Whether the dataset meets the agency's Information Quality Guidelines (true/false).     
 describedBy				                        | Data Dictionary     		| URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`).              
-describedByType			                        	| Data Dictionary Type  	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`)
+describedByType			                        	| Data Dictionary Type  	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`)
 isPartOf				                        | Collection          		| The collection of which the dataset is a subset.  
 issued					                        | Release Date        		| Date of formal issuance.                                                                                                                      
 language				                        | Language            		| The language of the dataset.                                                                                                                  
@@ -327,7 +327,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | String (URL)
-**Usage Notes** | This is used to identify the [media type](http://en.wikipedia.org/wiki/Internet_media_type) (MIME type) of the URL used for the dataset's `describedBy` field. This should be specified if `describedBy` is not an HTML webpage.
+**Usage Notes** | This is used to identify the media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the URL used for the dataset's `describedBy` field. This should be specified if `describedBy` is not an HTML webpage.
 **Example** | `{"describedByType": "application/pdf"}`
 
 {: .table .table-striped #description}
@@ -425,7 +425,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | String (URL)
-**Usage Notes** | This is used to identify the [media type](http://en.wikipedia.org/wiki/Internet_media_type) (MIME type) of the URL used for the distribution's `describedBy` field. This is especially important if `describedBy` is a machine readable file. 
+**Usage Notes** | This is used to identify the media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the URL used for the distribution's `describedBy` field. This is especially important if `describedBy` is a machine readable file. 
 **Example** | `{"describedByType": "application/schema+json"}`
 
 {: .table .table-striped .child-field #distribution-description}
@@ -452,7 +452,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String
-**Usage Notes** | This must describe the exact files available at **downloadURL** using [MIME Types](http://en.wikipedia.org/wiki/Internet_media_type).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
+**Usage Notes** | This must describe the exact files available at **downloadURL** using a media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
 **Example** | `{"mediaType":"application/csv"}`
 
 {: .table .table-striped .child-field #distribution-title}
