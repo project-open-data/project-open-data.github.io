@@ -78,7 +78,7 @@ Version 1.1 Update
 In the year since the release of the Open Data Policy, agencies and the public have suggested several updates to the metadata schema.  In the interest of stability, these updates have been tied together into a methodical update to a version 1.1 of the common core schema.  Each issue has been rigorously discussed in its own issue thread and at the [July government-wide offsite session](https://github.com/project-open-data/project-open-data.github.io/issues/325) dedicated to this update.  
 
 * [Changelog for the version 1.1 schema](http://project-open-data.civicagency.org/metadata-changelog/).
-* [Preview of the new updately metadata schema page](http://project-open-data.civicagency.org/v1.1/schema/).  
+* [Preview of the new updated metadata schema page](http://project-open-data.civicagency.org/v1.1/schema/).  
 * [Example data.json file with the version 1.1 schema](https://gist.github.com/philipashlock/21ff607527863fba200b).  
 * [Event signup for Oct. 15 webinar on the version 1.1 update](https://www.digitalgov.gov/event/open-data-policy-common-core-metadata-v-1-1-updates/).
 * These updates have been managed through [issues in a single milestone](https://github.com/project-open-data/project-open-data.github.io/milestones/Next%20Version%20of%20Common%20Core%20Metadata%20Schema%20(1.0%20-%3E%201.1.)).  Each issue within the milestone contains the related discussion and a link to the proposed edits.  
