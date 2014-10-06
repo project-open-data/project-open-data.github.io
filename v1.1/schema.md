@@ -54,15 +54,15 @@ The Project Open Data schema is case sensitive. The schema uses a camel case con
 Links to downloadable examples of metadata files developed in this and other formats in [the metadata resources](/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
 
 
-Schema Version Required Declaration
+Catalog Required Fields
 -------------------------------------------------
-The following fields are required, to be used to describe each Public Data Listing. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
+These fields describe the entire Public Data Listing catalog file. Optionally, publishers may also use the `describedBy` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (http://project-open-data.cio.gov/v1.1/schema/catalog.json) or they may refer to their own JSON Schema file where they have extended the schema. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
 
 {: .table .table-striped}
 Field                   | Label                 | Definition
 --------------          | --------------        | --------------                                                                                                                       
-conformsTo			| Data Standard        	| Version 1.1 of the schema should be identified with the following URI: http://project-open-data.cio.gov/v1.1/schema. Optionally, publishers may also use the `describedBy` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (http://project-open-data.cio.gov/v1.1/schema/catalog.json) or they may refer to their own JSON Schema file where they have extended the schema.  
-dataset				| Dataset        	| This field is a container for an array of Dataset objects. See See <a href="#Dataset">Dataset Fields</a> below for details</td> below for details.  
+conformsTo			| Schema Version        	| A URI that identifies the version of the Project Open Data schema being used.   
+dataset				| Dataset        	| A container for the array of Dataset objects. See <a href="#Dataset">Dataset Fields</a> below for details.  
 
 "Common Core" Required Fields
 -----------------------------
