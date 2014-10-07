@@ -275,7 +275,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | vCard object
-**Usage Notes** | This is a container for two fields that together make up the contact information for the dataset.  **contactPoint** should always contain both the person's appropriately formatted full name (**fn**) and email (**hasEmail**).  
+**Usage Notes** | This is a container for two fields that together make up the contact information for the dataset.  `contactPoint` should always contain both the person's appropriately formatted full name (`fn`) and email (`hasEmail`).  
 **Example** | See below
 
 ~~~
@@ -291,7 +291,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String
-**Usage Notes** | This should include included with **hasEmail** as part of a record's **contactPoint** (see above example).  
+**Usage Notes** | This should include included with `hasEmail` as part of a record's `contactPoint` (see above example).  
 **Example** |  `{"fn": "Jane Doe"}`
 
 {: .table .table-striped .child-field #contactPoint-hasEmail}
@@ -300,7 +300,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String
-**Usage Notes** | This should be formatted per vCard specifications (see example below) and included with **fn** as part of a record's **contactPoint** (see above example).    
+**Usage Notes** | This should be formatted per vCard specifications (see example below) and included with `fn` as part of a record's `contactPoint` (see above example).    
 **Example** |  `{"hasEmail": "mailto:jane.doe@agency.gov"}`
 
 {: .table .table-striped #dataQuality}
@@ -343,9 +343,9 @@ Dataset Fields {#Dataset}
 **Field [#](#distribution){: .permalink}** | **distribution**
 ----- | -----
 **Cardinality** | (0,n)
-**Required** | Yes, if the dataset has an **accessURL** or **downloadURL**.  
+**Required** | Yes, if the dataset has an `accessURL` or `downloadURL`.  
 **Accepted Values** | Array of Objects 
-**Usage Notes** | This is a container for one or multiple `distribution` objects which group together the fields: **accessURL**, **conformsTo**, **downloadURL**, **describedBy**, **describedByType**, **description**, **format**, **mediaType**, and **title**.  
+**Usage Notes** | This is a container for one or multiple `distribution` objects which group together the fields: `accessURL`, `conformsTo`, `downloadURL`, `describedBy`, `describedByType`, `description`, `format`, `mediaType`, and `title`.  
 **Example** | See below
  
 ~~~
@@ -407,7 +407,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String (URL)
-**Usage Notes** | This must be the **direct** download URL. Other means of accessing the dataset should be expressed using **accessURL**.  This should always be accompanied by **mediaType**.  
+**Usage Notes** | This must be the `direct` download URL. Other means of accessing the dataset should be expressed using `accessURL`.  This should always be accompanied by `mediaType`.  
 **Example** |  `{"downloadURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
 
 {: .table .table-striped .child-field #distribution-describedBy}
@@ -452,7 +452,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String
-**Usage Notes** | This must describe the exact files available at **downloadURL** using a media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
+**Usage Notes** | This must describe the exact files available at `downloadURL` using a media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
 **Example** | `{"mediaType":"application/csv"}`
 
 {: .table .table-striped .child-field #distribution-title}
@@ -534,7 +534,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | ISO 8601 Date
-**Usage Notes** | Dates should be [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) of highest resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the **issued** date here as well. If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this [with repeating intervals](http://en.wikipedia.org/wiki/ISO_8601#Time_intervals). For instance, `R/P1D` for daily, `R/P2W` for every two weeks, and `R/PT5M` for every five minutes.
+**Usage Notes** | Dates should be [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) of highest resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the `issued` date here as well. If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this [with repeating intervals](http://en.wikipedia.org/wiki/ISO_8601#Time_intervals). For instance, `R/P1D` for daily, `R/P2W` for every two weeks, and `R/PT5M` for every five minutes.
 +**Example** | `{"modified":"2012-01-15"}` or `{"modified":"R/P1D"}
 
 {: .table .table-striped #primaryITInvestmentUII}
@@ -611,7 +611,7 @@ Dataset Fields {#Dataset}
 **Field [#](#rights){: .permalink}** | **rights**
 ----- | -----
 **Cardinality** | (0,1)
-**Required** | Yes, if accessLevel is "restricted public" or "non-public"
+**Required** | Yes, if `accessLevel` is "restricted public" or "non-public"
 **Accepted Values** | String
 **Usage Notes** | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. If the dataset can be made available through a website indirectly, use `accessURL` for the URL that provides such access. 
 **Example** | `{"rights":"This dataset contains Personally Identifiable Information and could not be released for public access."}`
