@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "id": "http://project-open-data.github.io/schema/1_0_final/single_entry.json#",
-    "title": "Common Core Metadata Schema",
+    "title": "Project Open Data Metadata Schema",
     "description": "The metadata format for all federal open data. Validates a single JSON object entry (as opposed to entire Data.json catalog).",
     "type": "object",
     "required": ["title", "description", "keyword", "modified", "publisher", "contactPoint", "mbox", "identifier", "accessLevel"],

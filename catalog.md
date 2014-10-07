@@ -10,7 +10,7 @@ This section provides further guidance and explanation for implementing the agen
 /Data Requirements
 ------------------
 
-The Open Data Policy requires agencies to list and describe all agency data that *can* be made publicly available (i.e. there are no valid restrictions to release) in a publicly available open data catalog with [common core metadata](/schema/).  It further requires the catalog to be human-readable and machine-readable.  This guidance describes to agencies steps for implementing this portion of the policy. 
+The Open Data Policy requires agencies to list and describe all agency data that *can* be made publicly available (i.e. there are no valid restrictions to release) in a publicly available open data catalog using the [Project Open Data metadata schema](/schema/).  It further requires the catalog to be human-readable and machine-readable.  This guidance describes to agencies steps for implementing this portion of the policy. 
 
 Why this effort
 ---------------
@@ -31,7 +31,7 @@ All information deemed "machine-readable" required in this policy must be descri
 Implementing
 ------------
 
-To fulfill the requirements of this memorandum, agencies should begin to describe datasets as a catalog using the vocabulary of the [common core metadata](/schema/). This catalog is to be published as a standalone JSON file at `agency.gov/data.json`.  Agencies may optionally also publish it with RDFa Lite, either embedded within a HTML page which include human readable markups (e.g., `agency.gov/data.html`) or as an XML file (e.g., `agency.gov/data.xml`). 
+To fulfill the requirements of this memorandum, agencies should begin to describe datasets as a catalog using the vocabulary of the [Project Open Data metadata schema](/schema/). This catalog is to be published as a standalone JSON file at `agency.gov/data.json`.  Agencies may optionally also publish it with RDFa Lite, either embedded within a HTML page which include human readable markups (e.g., `agency.gov/data.html`) or as an XML file (e.g., `agency.gov/data.xml`). 
 
 ### JSON
 
@@ -59,7 +59,7 @@ Agencies must follow the provided [specification](/schema/).  We have built a [c
 Inclusion of the Public Data Listing as a Record
 ------------------------------------------------
 
-Each 'data.json' catalog file should include a record for the data asset that is the data catalog itself.  Contact Name and Contact Email can be used to provide a PoC for the 'data.json' efforts;  Data Standard (_conformsTo_) can be used to clarify which version of the common core metadata schema the agency is currently using; and Last Update can be used to indicate the date when the Public Data Listing was last modified.  
+Each 'data.json' catalog file should include a record for the data asset that is the data catalog itself.  Contact Name and Contact Email can be used to provide a PoC for the 'data.json' efforts;  Data Standard (_conformsTo_) can be used to clarify which version of the Project Open Data metadata schema the agency is currently using; and Last Update can be used to indicate the date when the Public Data Listing was last modified.  
 
 Presentation
 ------------
@@ -75,7 +75,7 @@ The page must be populated from the machine-readable catalog file (e.g. data.xml
 Version 1.1 Update 
 ------------------
 
-In the year since the release of the Open Data Policy, agencies and the public have suggested several updates to the metadata schema.  In the interest of stability, these updates have been tied together into a methodical update to a version 1.1 of the common core schema.  Each issue has been rigorously discussed in its own issue thread and at the [July government-wide offsite session](https://github.com/project-open-data/project-open-data.github.io/issues/325) dedicated to this update.  
+In the year since the release of the Open Data Policy, agencies and the public have suggested several updates to the metadata schema.  In the interest of stability, these updates have been tied together into a methodical update to a version 1.1 of the metadata schema.  Each issue has been rigorously discussed in its own issue thread and at the [July government-wide offsite session](https://github.com/project-open-data/project-open-data.github.io/issues/325) dedicated to this update.  
 
 * [Changelog for the version 1.1 schema](http://project-open-data.civicagency.org/metadata-changelog/).
 * [Preview of the new updated metadata schema page](http://project-open-data.civicagency.org/v1.1/schema/).  

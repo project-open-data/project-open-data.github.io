@@ -38,14 +38,14 @@ This guidance introduces an Enterprise Data Inventory framework to provide agenc
 ### A. Create and Maintain an Enterprise Data Inventory
 
 #### Purpose
-To develop a clear and comprehensive understanding of what data assets they possess, Federal Agencies are required to create an Enterprise Data Inventory (Inventory) that accounts for all data assets created or collected by the agency.  This includes, but is not limited to, data assets used in the agency’s information systems. The Inventory must be enterprise-wide, accounting for data assets across programs<sup>[2](#footnote-2)</sup>  and bureaus<sup>[3](#footnote-3)</sup>,  and must use the required [common core metadata](/schema) available on Project Open Data.   After creating the Inventory, agencies should continually improve the usefulness of the Inventory by expanding, enriching, and opening the Inventory (concepts described in the framework below).
+To develop a clear and comprehensive understanding of what data assets they possess, Federal Agencies are required to create an Enterprise Data Inventory (Inventory) that accounts for all data assets created or collected by the agency.  This includes, but is not limited to, data assets used in the agency’s information systems. The Inventory must be enterprise-wide, accounting for data assets across programs<sup>[2](#footnote-2)</sup>  and bureaus<sup>[3](#footnote-3)</sup>,  and must use the required [Project Open Data metadata schema](/schema) available on Project Open Data.   After creating the Inventory, agencies should continually improve the usefulness of the Inventory by expanding, enriching, and opening the Inventory (concepts described in the framework below).
 
 The objectives of this activity are to:
 
 * Build an internal inventory that accounts for data assets used in the agency' s information systems
 * Include data assets produced through agency contracts and cooperative agreements, and in some cases agency-funded grants; include data assets associated with, but not limited to, research, program administration, statistical, and financial activities
 * Indicate if the data may be made publicly available and if currently available
-* Describe the data with [common core metadata](/schema) available on Project Open Data.
+* Describe the data with [Project Open Data metadata schema](/schema) available on Project Open Data.
 
 #### Framework to Create and Maintain the Enterprise Data Inventory: Expand, Enrich, Open
 Since agencies have varying levels of visibility into their data assets, the size and maturity of agencies’ Enterprise Data Inventories will differ across agencies. OMB will assess agency progress toward overall maturity of the Enterprise Data Inventory through the maturity areas of “Expand,” “Enrich,” and “Open.”
@@ -89,7 +89,7 @@ Project Open Data provides metadata requirements, additional optional metadata f
 #### Create an Enterprise Data Inventory (by November 30, 2013)
 * Include, at a minimum, all data assets which were posted on Data.gov before August 1, 2013 and additional representative data assets from programs and bureaus.
 * Ensure the Inventory contains one metadata record for each data asset. A data asset can describe a collection of datasets (such as a CSV file for each state).
-* Use common core “required” fields and “required-if-applicable” fields on Project Open Data (includes indicating whether data can be made publicly available).
+* Use “required” fields and “required-if-applicable” fields on Project Open Data (includes indicating whether data can be made publicly available).
 * Submit to OMB via MAX Community<sup>[12](#footnote-12)</sup>  the inventory as a single JSON file using the defined schema from Project Open Data. OMB invites agency input on the option of replacing future submission with an API via a discussion on Project Open Data.
 
 #### Maintain the Enterprise Data Inventory (ongoing after November 30, 2013)
@@ -97,8 +97,8 @@ Project Open Data provides metadata requirements, additional optional metadata f
 * Update the Inventory Schedule submitted on November 30, 2013 on a quarterly basis on the www.\[agency].gov/digitalstrategy page.<sup>[13](#footnote-13)</sup>
 
 #### Tools and Resources on Project Open Data
-* Out-of-the-box Inventory Tool: OMB and GSA have provided a data inventory tool (CKAN) that is customized to be compliant with the Open Data Policy out of the box. Customization includes the ability to generate the compliant Public Data Listing directly from the Inventory, as well as integration of the required common core metadata schema. Agencies may choose to install CKAN on their servers or use the centrally hosted tool.
-* Definitions and schema of “common core metadata fields” and selected “extensible metadata fields”
+* Out-of-the-box Inventory Tool: OMB and GSA have provided a data inventory tool (CKAN) that is customized to be compliant with the Open Data Policy out of the box. Customization includes the ability to generate the compliant Public Data Listing directly from the Inventory, as well as integration of the required Project Open Data metadata schema. Agencies may choose to install CKAN on their servers or use the centrally hosted tool.
+* Definitions and schema of “Project Open Data metadata fields” and selected “extensible metadata fields”
 * The JSON schema for each Inventory’s “JSON Snapshot” as well as a schema generator and validator tools to facilitate agency efforts to create metadata
 * Additional best practices, case studies, and tools
 
@@ -109,7 +109,7 @@ To improve the discoverability and usability of data assets, all federal agencie
 
 Agencies, at their discretion, may choose to include entries for non-public data assets in their Public Data Listings, taking into account guidance in section D. For example, an agency may choose to list data assets with an ‘accessLevel’ of ‘restricted public’ to make the public aware of their existence and the process by which these data may be obtained.
 
-Agencies’ Public Data Listings will be used to dynamically populate the newly renovated Data.gov, the main website to find data assets generated and held by the U.S. Government.  Data.gov allows anyone from the public to find, download, and use government data.  The upcoming re-launch of Data.gov (currently in beta at next.data.gov) will automatically aggregate the agency-managed Public Data Listings into one centralized location, using the common core metadata standards and tagging to improve the user ability to find and use government data.  
+Agencies’ Public Data Listings will be used to dynamically populate the newly renovated Data.gov, the main website to find data assets generated and held by the U.S. Government.  Data.gov allows anyone from the public to find, download, and use government data.  The upcoming re-launch of Data.gov (currently in beta at next.data.gov) will automatically aggregate the agency-managed Public Data Listings into one centralized location, using the Project Open Data metadata standards and tagging to improve the user ability to find and use government data.  
 
 The objectives of this activity are to:
 
@@ -147,7 +147,7 @@ The objectives of this activity are to:
 
 **Establish Customer Feedback Mechanism (by November 30, 2013)**
 
-* Through the common core metadata requirements, agencies are already required to include a point of contact within each data asset’s metadata listed.
+* Through the Project Open Data metadata requirements, agencies are already required to include a point of contact within each data asset’s metadata listed.
 * Agencies should create a process to engage with customers on the www.\[agency].gov/data page or other appropriate mechanism. If the feedback tool is in an external location, it must be linked to the www.\[agency].gov/data page.
 * Agencies should consider utilizing tools available on Project Open Data, such as the “Kickstart”
  plug-in, to organize feedback around individual data assets.

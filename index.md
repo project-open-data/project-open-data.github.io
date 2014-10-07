@@ -30,7 +30,7 @@ This section is a list of definitions and principles used to guide the project.
 
 2-4 [Open Licenses](open-licenses/) - The definition for open licenses.
 
-2-5 [Common Core Metadata](schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.
+2-5 [Project Open Data Metadata Schema](schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.
 
 ----------------
 

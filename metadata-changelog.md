@@ -1,11 +1,11 @@
 ---
 published: true
 layout: default
-title: Common Core Metadata Changelog
+title: Metadata Changelog
 permalink: /metadata-changelog/
 filename: metadata-changelog.md
 ---
-This page lists changes to the common core metadata schema by version. Latest changes at the top. Consult [repository history](https://github.com/project-open-data/project-open-data.github.io/issues?q=is%3Aopen) for explanations.
+This page lists changes to the Project Open Data metadata schema by version. Latest changes at the top. Consult [repository history](https://github.com/project-open-data/project-open-data.github.io/issues?q=is%3Aopen) for explanations.
 
 ## Changelog
 

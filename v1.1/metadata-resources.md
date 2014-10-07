@@ -6,9 +6,9 @@ permalink: "/v1.1/metadata-resources/"
 filename: "metadata-resources.md"
 ---
 
-This section provides further background and resources to assist agencies in implementing the [common core metadata schema](/schema/).
+This section provides further background and resources to assist agencies in implementing the [Project Open Data metadata schema](/schema/).
 
-In addition to template and sample files we also produce Common Core Metadata schema in JSON schema format. [JSON schema](http://json-schema.org/) describes a JSON data format. It can be used to automatically validate Data.json files and to generate forms for creating JSON.
+In addition to template and sample files we also produce Project Open Data Metadata schema in JSON schema format. [JSON schema](http://json-schema.org/) describes a JSON data format. It can be used to automatically validate Data.json files and to generate forms for creating JSON.
 
 ### Terms and Abbreviations ###
 * **POD** - [Project Open Data](/schema)
@@ -75,11 +75,11 @@ F) Convert from CSV to JSON.
 
 In order to generate appropriately formatted JSON, simply import an appropriately formatted CSV into the [Catalog Generator](http://project-open-data.github.com/catalog-generator/), ensure that the metadata fields line up, and re-export the file.
 
-"Common Core" v 1.1. Updates
+Project Open Data Metadata Schema v 1.1. Updates
 -----------------------------
 
 {: .table .table-striped}
-Label               | *POD v 1.0*   | *POD v 1.1* 
+Label               | *v1.0*   | *v1.1* 
 -------             | -------                 | -------           
 Title               | *title*                 | *title*            
 Description         | *description*           | *description*                
@@ -116,7 +116,7 @@ Related Documents   | *related*   | *related*
 Release Date        | *issued*        | *issued*        
 System of Records   | *systemOfRecords*                  | *systemOfRecords*  
 
-"Common Core" Required Fields Equivalents
+Required Fields Equivalents
 -----------------------------
 
 {: .table .table-striped}
@@ -132,7 +132,7 @@ Contact Email       | *mbox* | *maintainer_email*                | [foaf:mbox](h
 Unique Identifier   | *identifier*     | *id*                | [dct:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
 Public Access Level | *accessLevel*                   | *n/a*             | *n/a* | *n/a*
 
-"Common Core" Required if Applicable Fields
+Required if Applicable Fields
 -------------------------------------------
 
 {: .table .table-striped}
