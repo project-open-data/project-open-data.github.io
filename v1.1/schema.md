@@ -326,7 +326,7 @@ Dataset Fields {#Dataset}
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | String (URL)
+**Accepted Values** | String ([IANA Media Type](http://www.iana.org/assignments/media-types))
 **Usage Notes** | This is used to identify the media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the URL used for the dataset's `describedBy` field. This should be specified if `describedBy` is not an HTML webpage.
 **Example** | `{"describedByType": "application/pdf"}`
 
@@ -424,7 +424,7 @@ Dataset Fields {#Dataset}
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
-**Accepted Values** | String (URL)
+**Accepted Values** | String ([IANA Media Type](http://www.iana.org/assignments/media-types))
 **Usage Notes** | This is used to identify the media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the URL used for the distribution's `describedBy` field. This is especially important if `describedBy` is a machine readable file. 
 **Example** | `{"describedByType": "application/schema+json"}`
 
@@ -451,8 +451,8 @@ Dataset Fields {#Dataset}
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
-**Accepted Values** | String
-**Usage Notes** | This must describe the exact files available at `downloadURL` using a media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)).  _[Also note [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)]_
+**Accepted Values** | String ([IANA Media Type](http://www.iana.org/assignments/media-types))
+**Usage Notes** | This must describe the exact files available at `downloadURL` using a media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)). For common Microsoft Office files, see [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)
 **Example** | `{"mediaType":"application/csv"}`
 
 {: .table .table-striped .child-field #distribution-title}
