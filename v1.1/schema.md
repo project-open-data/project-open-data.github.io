@@ -523,7 +523,7 @@ Dataset Fields {#Dataset}
 **Field [#](#license){: .permalink}** | **license**
 ----- | -----
 **Cardinality** | (0,1)
-**Required** | No
+**Required** | Yes, if applicable
 **Accepted Values** | String (URL)
 **Usage Notes** | See [list of potential licenses](/license-examples/).
 **Example** |  `{"license":""}`
