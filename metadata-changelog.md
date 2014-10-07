@@ -11,37 +11,44 @@ This page lists changes to the common core metadata schema by version. Latest ch
 
 ### Version 1.1 _(DRAFT - as of 10/6/2014)_
 
-##### NEW Catalog Required Fields
-* Adds `conformsTo` field, required at the catalog level to specify the schema and optional at the `dataset` and `distribution` level ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309), [#362](https://github.com/project-open-data/project-open-data.github.io/issues/362))
-* Adds `dataset` field, required at the catalog level to wrap all datasets listed within an overarching "catalog" object that wraps the entire data.json file ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
+##### Catalog Required Fields
+* Adds required `conformsTo` field to specify the schema version ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
+* Adds required `dataset` field as a container for all datasets listed ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
+* Adds optional `describedBy` field to specify a canonical or customized JSON schema file ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
 
-##### “Common Core” Required Fields
+##### Dataset Required Fields
 * Changes `contactPoint` field to an object that contains the name (`fn`) and email address (`hasEmail`) ([#358](https://github.com/project-open-data/project-open-data.github.io/issues/358))  
    * Adds `fn` field as part of `contactPoint` replacing earlier use of `contactPoint` ([#358](https://github.com/project-open-data/project-open-data.github.io/issues/358))  
    * Renames `mbox` field to `hasEmail` and moves to within `contactPoint` ([#358](https://github.com/project-open-data/project-open-data.github.io/issues/358))   
 * Changes `publisher` field to an object that allows multiple levels of organizations ([#296](https://github.com/project-open-data/project-open-data.github.io/issues/296)) 
+	* Adds `name` as part of `publisher` replacing earlier use of `publisher` ([#296](https://github.com/project-open-data/project-open-data.github.io/issues/296)) 
+	* Adds optional `subOrganizationOf` field as part of `publisher` to include parent organization hierarchy ([#296](https://github.com/project-open-data/project-open-data.github.io/issues/296)) 
 
-##### “Common Core” Required-if-Applicable Fields  
-* Renames `accessLevelComment` field to `rights` ([#353](https://github.com/project-open-data/project-open-data.github.io/issues/353))
-* Changes `distribution` field to become required-if-applicable and to always contain the `accessURL` or `downloadURL` fields ([#217](https://github.com/project-open-data/project-open-data.github.io/issues/217))
-* Changes `license` field to be a URL ([196](https://github.com/project-open-data/project-open-data.github.io/issues/196))
+##### Dataset Required-if-Applicable Fields  
 * Removes `webService` field. APIs can be described within a `distribution` using `accessURL` and `format` ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291)) 
+* Renames `accessLevelComment` field to `rights` ([#353](https://github.com/project-open-data/project-open-data.github.io/issues/353))
+* Changes `license` field to be a URL ([196](https://github.com/project-open-data/project-open-data.github.io/issues/196))
+* Changes `distribution` field to become required-if-applicable and to always contain the `accessURL` or `downloadURL` fields ([#217](https://github.com/project-open-data/project-open-data.github.io/issues/217))
 
-##### NEW “Common Core” Distribution Fields
+##### Dataset Distribution Fields
 * Adds required-if-applicable `downloadURL` field to replace earlier use of `accessURL` and to exist as a field within `distribution` ([#335](https://github.com/project-open-data/project-open-data.github.io/issues/335)) 
 * Adds required-if-applicable `mediaType` field to replace earlier use of `format` and to exist as a field within `distribution` ([#272](https://github.com/project-open-data/project-open-data.github.io/issues/272)) 
 * Changes `accessURL` field to represent indirect access and to exist only as an optional field within `distribution` ([#217](https://github.com/project-open-data/project-open-data.github.io/issues/217), [#335](https://github.com/project-open-data/project-open-data.github.io/issues/335))
 * Changes `format` field to a human readable description and to exist only as an optional field within `distribution` ([#272](https://github.com/project-open-data/project-open-data.github.io/issues/272), [#293](https://github.com/project-open-data/project-open-data.github.io/issues/293)) 
 * Adds optional `description` field for use within `distribution` ([#248](https://github.com/project-open-data/project-open-data.github.io/issues/248)) 
 * Adds optional `title` field for use within `distribution` ([#248](https://github.com/project-open-data/project-open-data.github.io/issues/248)) 
-* Note: the newly added `conformsTo`, `describeBy`, and `describeByType` can be used as optional fields at the `distribution` level as well.
+* Adds optional `describedBy` field to specify a distribution specific data dictionary ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
+* Adds optional `describedByType` field to specify the format of the data dictionary referenced with `describedBy` ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
+* Adds optional `conformsTo` field to specify a standard the distribution conforms to ([#362](https://github.com/project-open-data/project-open-data.github.io/issues/362))
 
 ##### Expanded Fields
 * Changes `accrualPeriodicity` field to use ISO 8601 date syntax ([#292](https://github.com/project-open-data/project-open-data.github.io/issues/292)) 
-* Renames `dataDictionary` field to `describedBy`. This optional field can be used at the catalog, `dataset`, and `distribution` level ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309), [#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
-* Adds optional `describedByType` field at the `dataset` and `distribution` level ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
-* Adds optional `isPartOf` field to group datasets as a collection  ([#258](https://github.com/project-open-data/project-open-data.github.io/issues/258)) 
 * Renames `PrimaryITInvestmentUII` field to `primaryITInvestmentUII` to use capitalization consistent with the rest of the schema ([#284](https://github.com/project-open-data/project-open-data.github.io/issues/284)) 
+* Renames `dataDictionary` field to `describedBy` ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
+* Adds optional `describedByType` field ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
+* Adds optional `conformsTo` field to specify a standard the dataset conforms to ([#362](https://github.com/project-open-data/project-open-data.github.io/issues/362))
+* Adds optional `isPartOf` field to group datasets as a collection  ([#258](https://github.com/project-open-data/project-open-data.github.io/issues/258)) 
+
 
 ### Version 1.0 FINAL - 9/20/2013
 
