@@ -75,6 +75,11 @@ F) Convert from CSV to JSON.
 
 In order to generate appropriately formatted JSON, simply import an appropriately formatted CSV into the [Catalog Generator](http://project-open-data.github.com/catalog-generator/), ensure that the metadata fields line up, and re-export the file.
 
+Schema Object Model Diagram
+-----------------------------
+![Schema Diagram](/v1.1/schema-diagram.svg)
+
+
 Project Open Data Metadata Schema v 1.1. Updates
 -----------------------------
 
