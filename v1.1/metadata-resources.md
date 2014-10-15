@@ -80,30 +80,41 @@ Schema Object Model Diagram
 ![Schema Diagram](/v1.1/schema-diagram.svg)
 
 
+Catalog Required Fields
+-----------------------------
+
+{: .table .table-striped}
+Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN API* | *DCAT*    | *Schema.org*
+-------             | -------                       | -------      | -------| -------   | -------
+Schema Version      | *conformsTo*                  | *n/a*        | *n/a*       | *n/a*          |  *n/a*
+Dataset             | *dataset*                     | *n/a*        | *results*       | [dct:dataset](http://www.w3.org/TR/vocab-dcat/#Property:catalog_dataset) | [dataset](http://schema.org/dataset)
+
+
+
 Dataset Required Fields
 -----------------------------
 
 {: .table .table-striped}
-Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN* | *DCAT*  | *Schema.org*
--------             | -------                       | -------      | -------| ------- | -------
-Title               | *title*                       | *title*                 | *title*           | [dct:title](http://www.w3.org/TR/vocab-dcat/#Property:dataset_title)                  | [name](http://schema.org/name)
-Description         | *description*                 | *description*           | *notes*                | [dct:description](http://www.w3.org/TR/vocab-dcat/#Property:dataset_description) | [description](http://schema.org/description)
-Tags                | *keyword*                     | *keyword*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword)    | [keywords](http://schema.org/keywords)
-Last Update         | *modified*                    | *modified*          | *n/a*                 | [dct:modified](http://www.w3.org/TR/vocab-dcat/#Property:dataset_update_date) | [dateModified](http://schema.org/dateModified)
-Publisher           | *publisher &rarr; name*       | *publisher*           | *organization* &rarr; *title*              | [dct:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [publisher](http://schema.org/publisher)
-Contact Name        | *contactPoint &rarr; fn*      | *contactPoint*          | *maintainer*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | *n/a*
-Contact Email       | *contactPoint &rarr; hasEmail*| *mbox* | *maintainer_email*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | *n/a*
-Unique Identifier   | *identifier*                  | *identifier*     | *id*                | [dct:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
-Public Access Level | *accessLevel*                 | *accessLevel*                   | *n/a*             | *n/a* | *n/a*
-Bureau Code         | *bureauCode*                  | *bureauCode*                   | *n/a*             | *n/a* | *n/a*
-Program Code        | *programCode*                 | *programCode*                   | *n/a*             | *n/a* | *n/a*
+Label               | *POD v1.1*                                 | *POD v1.0*   | *CKAN API* | *DCAT*  | *Schema.org*
+-------             | -------                                    | -------      | -------| ------- | -------
+Title               | *title*                                    | *title*                 | *title*           | [dct:title](http://www.w3.org/TR/vocab-dcat/#Property:dataset_title)                  | [name](http://schema.org/name)
+Description         | *description*                              | *description*           | *notes*                | [dct:description](http://www.w3.org/TR/vocab-dcat/#Property:dataset_description) | [description](http://schema.org/description)
+Tags                | *keyword*                                  | *keyword*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword)    | [keywords](http://schema.org/keywords)
+Last Update         | *modified*                                 | *modified*          | *n/a*                 | [dct:modified](http://www.w3.org/TR/vocab-dcat/#Property:dataset_update_date) | [dateModified](http://schema.org/dateModified)
+Publisher           | *publisher &rarr; name*                    | *publisher*           | *organization* &rarr; *title*              | [dct:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [publisher](http://schema.org/publisher) &rarr; [Organization](http://schema.org/Organization):[name](http://schema.org/name)
+Contact Name        | *contactPoint &rarr; fn*                   | *contactPoint*          | *maintainer*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | [provider](http://schema.org/publisher) &rarr; [Person](http://schema.org/Person):[name](http://schema.org/name)
+Contact Email       | *contactPoint &rarr; hasEmail*             | *mbox* | *maintainer_email*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | [provider](http://schema.org/publisher) &rarr; [Person](http://schema.org/Person):[email](http://schema.org/email)
+Unique Identifier   | *identifier*                               | *identifier*     | *id*                | [dct:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
+Public Access Level | *accessLevel*                              | *accessLevel*                   | *n/a*             | *n/a* | *n/a*
+Bureau Code         | *bureauCode*                               | *bureauCode*                   | *n/a*             | *n/a* | *n/a*
+Program Code        | *programCode*                              | *programCode*                   | *n/a*             | *n/a* | *n/a*
 
 Dataset Required-if-Applicable Fields
 -------------------------------------------
 Note the mapping for `license` and `rights` from Project Open Data to DCAT applies the fields from the Dataset object in Project Open Data to each of the Distribution objects in DCAT. 
 
 {: .table .table-striped}
-Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN* | *DCAT*  | *Schema.org*
+Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN API* | *DCAT*  | *Schema.org*
 -------             | -------                       | -------      | -------| ------- | -------
 Distribution        | *distribution*                | *distribution*  | *resources*              | [dcat:distribution](http://www.w3.org/TR/vocab-dcat/#Property:dataset_distribution)| [distribution](http://schema.org/distribution)
 License             | *license*                     | *license* | *license_title*        | [dct:license](http://www.w3.org/TR/vocab-dcat/#Property:distribution_license) | [license](http://schema.org/license)
@@ -117,24 +128,31 @@ Dataset Expanded Fields
 ---------------
 
 {: .table .table-striped}
-Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN* | *DCAT*  | *Schema.org*
--------             | -------                       | -------      | -------| ------- | -------
-Release Date        | *issued*                      | *issued*         | *n/a*                | [dct:issued](http://www.w3.org/TR/vocab-dcat/#Property:dataset_release_date) | [datePublished](http://schema.org/datePublished)
-Frequency           | *accrualPeriodicity*          | *accrualPeriodicity*             | *n/a*                | [dct:accrualPeriodicity](http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency)    | *n/a*
-Language            | *language*                    | *language*                   | *n/a*                | [dct:language](http://www.w3.org/TR/vocab-dcat/#Property:dataset_language)     | [inLanguage](http://schema.org/inLanguage)
-Data Quality        | *dataQuality*                 | *dataQuality*          | *n/a*                | *n/a*  | *n/a*
-Category            | *theme*                       | *theme*          | *groups*                | [dcat:theme](http://www.w3.org/TR/vocab-dcat/#Property:dataset_theme)   | [about](http://schema.org/about)
-Related Documents   | *references*                  | *references* | *n/a*                | [dct:references](http://dublincore.org/documents/dcmi-terms/#terms-references) | *n/a*
-Homepage URL        | *landingPage*                 | *landingPage*                  | *n/a*                | [dcat:landingPage](http://www.w3.org/ns/dcat#Property:dataset_landingpage)  | [url](http://schema.org/url)
-System of Records   | *systemOfRecords*             | *systemOfRecords*                  | *n/a*                | *n/a*  | *n/a*
-Data Dictionary     | *describedBy*                 | *dataDictionary*       | *n/a*                | *n/a* | *n/a*
+Label                          | *POD v1.1*                             | *POD v1.0*   | *CKAN API* | *DCAT*  | *Schema.org*
+-------                        | -------                                | -------      | -------| ------- | -------
+Release Date                   | *issued*                               | *issued*         | *n/a*                | [dct:issued](http://www.w3.org/TR/vocab-dcat/#Property:dataset_release_date) | [datePublished](http://schema.org/datePublished)
+Frequency                      | *accrualPeriodicity*                   | *accrualPeriodicity*             | *n/a*                | [dct:accrualPeriodicity](http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency)    | *n/a*
+Language                       | *language*                             | *language*                   | *n/a*                | [dct:language](http://www.w3.org/TR/vocab-dcat/#Property:dataset_language)     | [inLanguage](http://schema.org/inLanguage)
+Data Quality                   | *dataQuality*                          | *dataQuality*          | *n/a*                | *n/a*  | *n/a*
+Category                       | *theme*                                | *theme*          | *groups*                | [dcat:theme](http://www.w3.org/TR/vocab-dcat/#Property:dataset_theme)   | [about](http://schema.org/about)
+Related Documents              | *references*                           | *references* | *n/a*                | [dct:references](http://dublincore.org/documents/dcmi-terms/#terms-references) | *n/a*
+Homepage URL                   | *landingPage*                          | *landingPage*                  | *n/a*                | [dcat:landingPage](http://www.w3.org/ns/dcat#Property:dataset_landingpage)  | [url](http://schema.org/url)
+System of Records              | *systemOfRecords*                      | *systemOfRecords*                  | *n/a*                | *n/a*  | *n/a*
+Data Dictionary                | *describedBy*                          | *dataDictionary*       | *n/a*                | *n/a* | *n/a*
+Data Dictionary Type           | *describedByType*                      | *n/a*             |                                   | *n/a*   | *n/a*     
+Data Standard                  | *conformsTo*                           | *n/a*             |                                   | *n/a*   | *n/a*  
+Primary IT Investment          | *primaryITInvestmentUII*               | *primaryITInvestmentUII*             |                                   | *n/a*   | *n/a*  
+Collection                     | *isPartOf*                             | *n/a*             |                                   | *n/a*   | [isPartOf](http://schema.org/isPartOf)
+Publisher Parent Organization  | *publisher &rarr; subOrganizationOf*   | *n/a*           | *n/a*              | [dct:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [publisher](http://schema.org/publisher) &rarr; [Organization](http://schema.org/Organization):[memberOf](http://schema.org/memberOf)
+
+
 
 
 Dataset Distribution Fields
 -------------------------------------------
 
 {: .table .table-striped}
-Label                   | *POD v1.1*        | *POD v1.0*        | *CKAN*                            | *DCAT*  | *Schema.org*
+Label                   | *POD v1.1*        | *POD v1.0*        | *CKAN API*                        | *DCAT*  | *Schema.org*
 -------                 | -------           | -------           | -------                           | ------- | -------
 Download URL            | *downloadURL*     | *accessURL*       | *resources*  &rarr; *url*         | [dcat:downloadURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_downloadurl) | [contentUrl](http://schema.org/contentUrl)
 Access URL              | *accessURL*       | *n/a*             | *resources*  &rarr; *url*         | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | [contentUrl](http://schema.org/contentUrl)
