@@ -123,15 +123,12 @@ Data Quality                   | *dataQuality*                          | *dataQ
 Category                       | *theme*                                | *theme*          | *groups*                | [dcat:theme](http://www.w3.org/TR/vocab-dcat/#Property:dataset_theme)   | [about](http://schema.org/about)
 Related Documents              | *references*                           | *references* | *n/a*                | [dct:references](http://dublincore.org/documents/dcmi-terms/#terms-references) | *n/a*
 Homepage URL                   | *landingPage*                          | *landingPage*                  | *n/a*                | [dcat:landingPage](http://www.w3.org/ns/dcat#Property:dataset_landingpage)  | [url](http://schema.org/url)
+Collection                     | *isPartOf*                             | *n/a*             |                                   | *n/a*   | [isPartOf](http://schema.org/isPartOf)
 System of Records              | *systemOfRecords*                      | *systemOfRecords*                  | *n/a*                | *n/a*  | *n/a*
+Primary IT Investment          | *primaryITInvestmentUII*               | *primaryITInvestmentUII*             |                                   | *n/a*   | *n/a*  
 Data Dictionary                | *describedBy*                          | *dataDictionary*       | *n/a*                | *n/a* | *n/a*
 Data Dictionary Type           | *describedByType*                      | *n/a*             |                                   | *n/a*   | *n/a*     
 Data Standard                  | *conformsTo*                           | *n/a*             |                                   | *n/a*   | *n/a*  
-Primary IT Investment          | *primaryITInvestmentUII*               | *primaryITInvestmentUII*             |                                   | *n/a*   | *n/a*  
-Collection                     | *isPartOf*                             | *n/a*             |                                   | *n/a*   | [isPartOf](http://schema.org/isPartOf)
-
-
-
 
 
 Dataset Distribution Fields
