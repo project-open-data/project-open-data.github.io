@@ -80,94 +80,73 @@ Schema Object Model Diagram
 ![Schema Diagram](/v1.1/schema-diagram.svg)
 
 
-Project Open Data Metadata Schema v 1.1. Updates
+Dataset Required Fields
 -----------------------------
 
 {: .table .table-striped}
-Label               | *v1.0*   | *v1.1* 
--------             | -------                 | -------           
-Title               | *title*                 | *title*            
-Description         | *description*           | *description*                
-Tags                | *keyword*              | *keyword*                
-Last Update         | *modified*          | *modified*   
-Publisher           | *publisher*           | *publisher &rarr; name*
-Contact Name        | *contactPoint*          | *contactPoint &rarr; fn*   
-Contact Email       | *mbox* | *contactPoint &rarr; hasEmail*                
-Unique Identifier   | *identifier*     | *identifier*               
-Public Access Level | *accessLevel*                   | *rights*  
-Dataset | n/a | *dataset* 
-Bureau Code			| *bureauCode*                   | *bureauCode*             
-Program Code 		| *programCode*                   | *programCode*           
-Access Level Comment| *accessLevelComment*                   | *accessLevelComment*            
-Download URL        | *accessURL*          | *downloadURL*  
-Endpoint            | *webService*          | **REMOVED**  
-Media Type (formerly "Format")         | *format*          | *mediaType*  
-Format              | n/a             | *format*
-License             | *license* | *license*      
-Spatial             | *spatial*      | *spatial*              
-Temporal            | *temporal*    | *temporal*     
-Collection          | *n/a*    | *isPartOf*
-Category            | *theme*          | *theme*  
-Data Dictionary        | *dataDictionary*          | *describedBy*  
-Data Dictionary Type       | n/a          | *describedByType*  
-Data Standard | *n/a*                   | *conformsTo* 
-Data Quality        | *dataQuality*          | *dataQuality*  
-Distribution        | *distribution*          | *distribution* 
-Frequency           | *accrualPeriodicity*             |  *accrualPeriodicity*  
-Homepage URL        | *landingPage*                  | *landingPage*    
-Language            | *language*                   | *language*  
-Primary IT Investment UII            | *PrimaryITInvestmentUII*                   | *primaryITInvestmentUII*
-Related Documents   | *related*   | *related*  
-Release Date        | *issued*        | *issued*        
-System of Records   | *systemOfRecords*                  | *systemOfRecords*  
+Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN* | *DCAT*  | *Schema.org*
+-------             | -------                       | -------      | -------| ------- | -------
+Title               | *title*                       | *title*                 | *title*           | [dct:title](http://www.w3.org/TR/vocab-dcat/#Property:dataset_title)                  | [name](http://schema.org/name)
+Description         | *description*                 | *description*           | *notes*                | [dct:description](http://www.w3.org/TR/vocab-dcat/#Property:dataset_description) | [description](http://schema.org/description)
+Tags                | *keyword*                     | *keyword*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword)    | [keywords](http://schema.org/keywords)
+Last Update         | *modified*                    | *modified*          | *n/a*                 | [dct:modified](http://www.w3.org/TR/vocab-dcat/#Property:dataset_update_date) | [dateModified](http://schema.org/dateModified)
+Publisher           | *publisher &rarr; name*       | *publisher*           | *organization* &rarr; *title*              | [dct:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [publisher](http://schema.org/publisher)
+Contact Name        | *contactPoint &rarr; fn*      | *contactPoint*          | *maintainer*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | *n/a*
+Contact Email       | *contactPoint &rarr; hasEmail*| *mbox* | *maintainer_email*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | *n/a*
+Unique Identifier   | *identifier*                  | *identifier*     | *id*                | [dct:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
+Public Access Level | *accessLevel*                 | *accessLevel*                   | *n/a*             | *n/a* | *n/a*
+Bureau Code         | *bureauCode*                  | *bureauCode*                   | *n/a*             | *n/a* | *n/a*
+Program Code        | *programCode*                 | *programCode*                   | *n/a*             | *n/a* | *n/a*
 
-Required Fields Equivalents
------------------------------
-
-{: .table .table-striped}
-Label               | *POD*   | *CKAN* | *DCAT*  | *Schema.org*
--------             | -------                 | -------           | ------- | -------
-Title               | *title*                 | *title*           | [dct:title](http://www.w3.org/TR/vocab-dcat/#Property:distribution_title)    | [schema:name](http://schema.org/name)
-Description         | *description*           | *notes*                | [dct:description](http://www.w3.org/TR/vocab-dcat/#Property:dataset_description) | [schema:description](http://schema.org/description)
-Tags                | *keyword*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword)    | [schema:keywords](http://schema.org/keywords)
-Last Update         | *modified*          | *n/a*                 | [dct:modified](http://www.w3.org/TR/vocab-dcat/#Property:dataset_update_date) | [schema:dateModified](http://schema.org/dateModified)
-Publisher           | *publisher*           | *organization* &rarr; *title*              | [dct:publisher](http://www.w3.org/TR/vocab-dcat/#Property:dataset_publisher) | [schema:publisher](http://schema.org/publisher)
-Contact Name        | *contactPoint*          | *maintainer*                | [dcat:contactPoint](http://www.w3.org/TR/vocab-dcat/#Property:dataset_contactPoint) | *n/a*
-Contact Email       | *mbox* | *maintainer_email*                | [foaf:mbox](http://xmlns.com/foaf/spec/#term_mbox) | *n/a*
-Unique Identifier   | *identifier*     | *id*                | [dct:identifier](http://www.w3.org/TR/vocab-dcat/#Property:dataset_identifier) | *n/a*
-Public Access Level | *accessLevel*                   | *n/a*             | *n/a* | *n/a*
-
-Required if Applicable Fields
+Dataset Required-if-Applicable Fields
 -------------------------------------------
+Note the mapping for `license` and `rights` from Project Open Data to DCAT applies the fields from the Dataset object in Project Open Data to each of the Distribution objects in DCAT. 
 
 {: .table .table-striped}
-Label               | *POD*   | *CKAN* | *DCAT* | *Schema.org*
--------             | -------                 | -------           | -------  | -------
-Bureau Code			| *bureauCode*                   | *n/a*             | *n/a* | *n/a*
-Program Code 		| *programCode*                   | *n/a*             | *n/a* | *n/a*
-Access Level Comment| *accessLevelComment*                   | *n/a*             | *n/a* | *n/a*
-Data Dictionary     | *dataDictionary*       | *n/a*                | *n/a* | *n/a*
-Download URL        | *accessURL*          | *resources*  &rarr; *url*                | [dcat:downloadURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_downloadurl) (recommended) or [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) (deprecated) | [schema:contentUrl](http://schema.org/contentUrl)
-Endpoint            | *webService*          | *resources*  &rarr; *url*             | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | *n/a*
-Format              | *format*          | *resources*  &rarr; *mimetype*                | [dcat:mediaType](http://www.w3.org/TR/vocab-dcat/#Property:distribution_media_type) (recommended) or [dct:format](http://www.w3.org/TR/vocab-dcat/#Property:distribution_format) (deprecated)      | [schema:encodingFormat](http://schema.org/encodingFormat)
-License             | *license* | *license_title*        | [dct:license](http://www.w3.org/TR/vocab-dcat/#Property:distribution_license) | *n/a*
-Spatial             | *spatial*      | *n/a*                | [dct:spatial](http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial) | [schema:spatial](http://schema.org/spatial)
-Temporal            | *temporal*    | *n/a*                | [dct:temporal](http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal) | [schema:temporal](http://schema.org/temporal)
+Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN* | *DCAT*  | *Schema.org*
+-------             | -------                       | -------      | -------| ------- | -------
+Distribution        | *distribution*                | *distribution*  | *resources*              | [dcat:distribution](http://www.w3.org/TR/vocab-dcat/#Property:dataset_distribution)| [distribution](http://schema.org/distribution)
+License             | *license*                     | *license* | *license_title*        | [dct:license](http://www.w3.org/TR/vocab-dcat/#Property:distribution_license) | [license](http://schema.org/license)
+Rights              | *rights*                      | *accessLevelComment*                   | *n/a*             | [dct:rights](http://www.w3.org/TR/vocab-dcat/#Property:distribution_rights)| *n/a*
+Endpoint            | **Removed**                   | *webService*          | *resources*  &rarr; *url*             | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | *n/a*
+Spatial             | *spatial*                     | *spatial*      | *n/a*                | [dct:spatial](http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial) | [spatial](http://schema.org/spatial)
+Temporal            | *temporal*                    | *temporal*    | *n/a*                | [dct:temporal](http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal) | [temporal](http://schema.org/temporal)
 
-Expanded Fields
+
+Dataset Expanded Fields
 ---------------
 
 {: .table .table-striped}
-Label               | *POD*   | *CKAN* | *DCAT* | *Schema.org*
--------             | -------                 | -------           | -------  | -------
-Release Date        | *issued*         | *n/a*                | [dct:issued](http://www.w3.org/TR/vocab-dcat/#Property:dataset_release_date) | [schema:datePublished](http://schema.org/datePublished)
-Frequency           | *accrualPeriodicity*             | *n/a*                | [dct:accrualPeriodicity](http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency)    | *n/a*
-Language            | *language*                   | *n/a*                | [dct:language](http://www.w3.org/TR/vocab-dcat/#Property:dataset_language)     | [schema:inLanguage](http://schema.org/inLanguage)
-Data Quality        | *dataQuality*          | *n/a*                | *n/a*  | *n/a*
-Category            | *theme*          | *groups*                | [dcat:theme](http://www.w3.org/TR/vocab-dcat/#Property:dataset_theme)   | [schema:about](http://schema.org/about)
-Related Documents   | *references* | *n/a*                | [dct:references](http://dublincore.org/documents/dcmi-terms/#terms-references) | *n/a*
-Homepage URL        | *landingPage*                  | *n/a*                | [dcat:landingPage](http://www.w3.org/ns/dcat#Property:dataset_landingpage)  | [schema:url](http://schema.org/url)
-System of Records   | *systemOfRecords*                  | *n/a*                | *n/a*  | *n/a*
+Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN* | *DCAT*  | *Schema.org*
+-------             | -------                       | -------      | -------| ------- | -------
+Release Date        | *issued*                      | *issued*         | *n/a*                | [dct:issued](http://www.w3.org/TR/vocab-dcat/#Property:dataset_release_date) | [datePublished](http://schema.org/datePublished)
+Frequency           | *accrualPeriodicity*          | *accrualPeriodicity*             | *n/a*                | [dct:accrualPeriodicity](http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency)    | *n/a*
+Language            | *language*                    | *language*                   | *n/a*                | [dct:language](http://www.w3.org/TR/vocab-dcat/#Property:dataset_language)     | [inLanguage](http://schema.org/inLanguage)
+Data Quality        | *dataQuality*                 | *dataQuality*          | *n/a*                | *n/a*  | *n/a*
+Category            | *theme*                       | *theme*          | *groups*                | [dcat:theme](http://www.w3.org/TR/vocab-dcat/#Property:dataset_theme)   | [about](http://schema.org/about)
+Related Documents   | *references*                  | *references* | *n/a*                | [dct:references](http://dublincore.org/documents/dcmi-terms/#terms-references) | *n/a*
+Homepage URL        | *landingPage*                 | *landingPage*                  | *n/a*                | [dcat:landingPage](http://www.w3.org/ns/dcat#Property:dataset_landingpage)  | [url](http://schema.org/url)
+System of Records   | *systemOfRecords*             | *systemOfRecords*                  | *n/a*                | *n/a*  | *n/a*
+Data Dictionary     | *describedBy*                 | *dataDictionary*       | *n/a*                | *n/a* | *n/a*
+
+
+Dataset Distribution Fields
+-------------------------------------------
+
+{: .table .table-striped}
+Label                   | *POD v1.1*        | *POD v1.0*        | *CKAN*                            | *DCAT*  | *Schema.org*
+-------                 | -------           | -------           | -------                           | ------- | -------
+Download URL            | *downloadURL*     | *accessURL*       | *resources*  &rarr; *url*         | [dcat:downloadURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_downloadurl) | [contentUrl](http://schema.org/contentUrl)
+Access URL              | *accessURL*       | *n/a*             | *resources*  &rarr; *url*         | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | [contentUrl](http://schema.org/contentUrl)
+Media Type              | *mediaType*       | *format*          | *resources*  &rarr; *mimetype*    | [dcat:mediaType](http://www.w3.org/TR/vocab-dcat/#Property:distribution_media_type)       | *n/a*
+Format                  | *format*          | *n/a*             | *resources*  &rarr; *format*      | [dct:format](http://www.w3.org/TR/vocab-dcat/#Property:distribution_format)       | [encodingFormat](http://schema.org/encodingFormat)
+Title                   | *title*           | *n/a*             | *resources*  &rarr; *name*        | [dct:title](http://www.w3.org/TR/vocab-dcat/#Property:distribution_title)         | [name](http://schema.org/name)
+Description             | *description*     | *n/a*             | *resources*  &rarr; *description* | [dct:description](http://www.w3.org/TR/vocab-dcat/#Property:distribution_description)   | [description](http://schema.org/description)
+Data Dictionary         | *describedBy*     | *n/a*             |                                   | *n/a*   | *n/a*  
+Data Dictionary Type    | *describedByType* | *n/a*             |                                   | *n/a*   | *n/a*     
+Data Standard           | *conformsTo*      | *n/a*             |                                   | *n/a*   | *n/a*  
+
+         
 
 Mapping POD to Other Metadata Specifications
 ---------------------------------------------
@@ -186,12 +165,12 @@ The [Content Standard for Digital Geospatial Metadata](http://www.fgdc.gov/metad
 |title               | /metadata/idinfo/citation/citeinfo/title |
 |description         | /metadata/idinfo/descript/abstract |
 |keyword             | /metadata/idinfo/keywords/theme/themekey <br/> /metadata/idinfo/keywords/place/placekey <br/> /metadata/idinfo/keywords/temporal/tempkey |
-|modified          	 | /metadata/idinfo/citation/citeinfo/pubdate |
+|modified            | /metadata/idinfo/citation/citeinfo/pubdate |
 |publisher           | /metadata/idinfo/citation/citeinfo/pubinfo/publish <br/> /metadata/distinfo/distrib/cntinfo/cntperp/cntper <br/> /metadata/distinfo/distrib/cntinfo/cntorgp/cntorg |
 |contactPoint        | /metadata/idinfo/ptcontac/cntinfo/cntorgp/cntper |
-|mbox       		 | /metadata/idinfo/ptcontac/cntinfo/cntemail |
-|identifier    	 	 | CSDGM does not include a unique identifier in the metadata itself. Common practice is to use a URL to the metadata document as unique identifier. |
-|accessLevel 	  	 | /metadata/idinfo/accconst <br/> /metadata/idinfo/useconst <br/> /metadata/distinfo/distliab |
+|mbox                | /metadata/idinfo/ptcontac/cntinfo/cntemail |
+|identifier          | CSDGM does not include a unique identifier in the metadata itself. Common practice is to use a URL to the metadata document as unique identifier. |
+|accessLevel         | /metadata/idinfo/accconst <br/> /metadata/idinfo/useconst <br/> /metadata/distinfo/distliab |
 |dataDictionary      | /metadata/idinfo/keywords/theme/themekt <br/> /metadata/eainfo/overview/eadetcit |
 |accessURL           | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr |
 |webService          | /metadata/idinfo/citation/citeinfo/onlink <br/> /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr |
@@ -211,15 +190,15 @@ The [Content Standard for Digital Geospatial Metadata](http://www.fgdc.gov/metad
 |title               | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString |
 |description         | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString |
 |keyword             | //gmd:topicCategory/gmd:MD_TopicCategoryCode <br/> //gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString |
-|modified          	 | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
+|modified            | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
 |publisher           | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString[../../gmd:role/gmd:CI_RoleCode/@codeListValue='publisher'] <br/> //gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorContact/gmd:CI_ResponsibleParty/gmd:organisationName |
 |contactPoint        | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString <br/> //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString |
-|mbox       		 | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
-|identifier    	 	 | //gmd:fileIdentifier/gco:CharacterString |
-|accessLevel 	  	 | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
+|mbox                | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
+|identifier          | //gmd:fileIdentifier/gco:CharacterString |
+|accessLevel         | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
 |dataDictionary      | //gmd:contentInfo/gmd:MD_FeatureCatalogueDescription/gmd:featureCatalogueCitation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage |
 |accessURL           | //gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[../../gmd:function/gmd:CI_OnLineFunctionCode/@codeListValue='download'] |
-|webService			 |	|
+|webService          |  |
 |format              | //gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:name/gco:CharacterString |
 |license             |  |
 |spatial             | //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox |
@@ -236,14 +215,14 @@ The [Content Standard for Digital Geospatial Metadata](http://www.fgdc.gov/metad
 |title               | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString |
 |description         | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:abstract/gco:CharacterString |
 |keyword             | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString |
-|modified          	 | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
+|modified            | /gmd:MD_Metadata/gmd:dateStamp/gco:Date <br/> /gmd:MD_Metadata/gmd:dateStamp/gco:DateTime |
 |publisher           | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString |
 |contactPoint        | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString |
-|mbox       		 | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
-|identifier    	 	 | /gmd:MD_Metadata/gmd:fileIdentifier/gco:CharacterString |
-|accessLevel 	  	 | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
-|dataDictionary	 	 |  |
-|accessURL			 |	|
+|mbox                | /gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString |
+|identifier          | /gmd:MD_Metadata/gmd:fileIdentifier/gco:CharacterString |
+|accessLevel         | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString |
+|dataDictionary      |  |
+|accessURL           |  |
 |webService          | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL |
 |format              | /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName |
 |license             |  |
