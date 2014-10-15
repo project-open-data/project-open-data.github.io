@@ -83,7 +83,7 @@ In the year since the release of the Open Data Policy, agencies and the public h
 * [Event signup for Oct. 15 webinar on the version 1.1 update](https://www.digitalgov.gov/event/open-data-policy-common-core-metadata-v-1-1-updates/).
 * These updates have been managed through [issues in a single milestone](https://github.com/project-open-data/project-open-data.github.io/milestones/Next%20Version%20of%20Common%20Core%20Metadata%20Schema%20(1.0%20-%3E%201.1.)).  Each issue within the milestone contains the related discussion and a link to the proposed edits.  
 * The proposed edits can also be found bundled in [this combined pull request](https://github.com/project-open-data/project-open-data.github.io/pull/357).
-
+* [Schema Diagram](https://github.com/project-open-data/project-open-data.github.io/blob/metadata-v-1.1/v1.1/schema-diagram.svg)
 
 Supplemental Information
 ------------------------
