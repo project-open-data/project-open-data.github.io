@@ -453,7 +453,7 @@ Dataset Fields {#Dataset}
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String ([IANA Media Type](http://www.iana.org/assignments/media-types))
 **Usage Notes** | This must describe the exact files available at `downloadURL` using a media type ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)). For common Microsoft Office files, see [Office Open XML MIME types](http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx)
-**Example** | `{"mediaType":"application/csv"}`
+**Example** | `{"mediaType":"text/csv"}`
 
 {: .table .table-striped .child-field #distribution-title}
 **Field [#](#distribution-title){: .permalink}** | **distribution &rarr; title**
@@ -462,7 +462,7 @@ Dataset Fields {#Dataset}
 **Required**    | No
 **Accepted Values** | String
 **Usage Notes** | This should be a useful title for the distribution.  Acronyms should be avoided.
-**Example**     | `{"title":"Spreadsheet"}`
+**Example**     | `{"title":"listofvegetables.csv"}`
 
 
 {: .table .table-striped #identifier}
