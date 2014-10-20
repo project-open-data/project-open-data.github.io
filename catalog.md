@@ -89,7 +89,7 @@ In the year since the release of the Open Data Policy, agencies and the public h
 
 ####Guidance
  
-* ["Project Open Data Metadata Updates v 1.1" presentation slides](https://gsa.github.io/datagov-presentations/metadata-v1.1/) from the [October 15th webinar](https://www.digitalgov.gov/event/open-data-policy-common-core-metadata-v-1-1-updates/).
+* ["Project Open Data Metadata Updates v 1.1" presentation slides](https://gsa.github.io/datagov-presentations/metadata-v1.1/) and [video](http://www.youtube.com/watch?v=-kpEywSZPw8&feature=youtu.be&list=PLd9b-GuOJ3nFA8rIjFKllLSAJl61IBYKM) from the [October 15th webinar](https://www.digitalgov.gov/event/open-data-policy-common-core-metadata-v-1-1-updates/).
 
 Supplemental Information
 ------------------------
