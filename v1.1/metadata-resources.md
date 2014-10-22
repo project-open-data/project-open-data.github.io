@@ -80,6 +80,8 @@ Schema Object Model Diagram
 ![Schema Diagram](/v1.1/schema-diagram.svg)
 
 
+### Field Mappings ###
+
 Catalog Fields
 -----------------------------
 

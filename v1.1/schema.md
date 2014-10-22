@@ -54,148 +54,134 @@ The Project Open Data schema is case sensitive. The schema uses a camel case con
 Links to downloadable examples of metadata files developed in this and other formats in [the metadata resources](/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
 
 
-Catalog Required Fields
+Catalog Fields
 -------------------------------------------------
 These fields describe the entire Public Data Listing catalog file. Optionally, publishers may also use the `describedBy` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (http://project-open-data.cio.gov/v1.1/schema/catalog.json) or they may refer to their own JSON Schema file where they have extended the schema. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
 
 {: .table .table-striped}
-Field                   | Label                 | Definition
---------------          | --------------        | --------------                                                                                                                       
-conformsTo			| Schema Version        	| A URI that identifies the version of the Project Open Data schema being used.   
-dataset				| Dataset        	| A container for the array of Dataset objects. See <a href="#Dataset">Dataset Fields</a> below for details.  
+Field                           | Label                 | Definition    | Required
+--------------                  | --------------        | --------------| --------------
+[conformsTo](#conformsTo)       | Schema Version        | A URI that identifies the version of the Project Open Data schema being used. | Always 
+[dataset](#dataset)             | Dataset               | A container for the array of Dataset objects. See [Dataset Fields](#Dataset) below for details.  | Always
+[describedBy](#describedBy)     | Data Dictionary       |  URL for the [JSON Schema](http://json-schema.org/) file that defines the schema used  | No
 
-Dataset Required Fields
+Dataset Fields
 -----------------------------
-The following fields are required, to be used to describe each dataset. Only U.S. Federal agencies are required to fill out `bureauCode` and `programCode`.
-
-See the *[Further Metadata Field Guidance](#further-metadata-field-guidance)* section to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [schema maps](/metadata-resources#common-core-required-fields-equivalents) to find the equivalent DCAT, Schema.org, and CKAN fields.)
+See the *[Further Metadata Field Guidance](#further-metadata-field-guidance)* section to learn more about the use of each element, including the range of valid entries where appropriate. Consult the [field mappings](/v1.1/metadata-resources#field-mappings) to find the equivalent v1.0, DCAT, Schema.org, and CKAN fields. 
 
 {: .table .table-striped}
-Field                   | Label               | Definition
---------------          | --------------      | --------------
-title			        | Title               | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery.                
-description		        | Description         | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. 
-keyword			        | Tags                | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users.             
-modified		        | Last Update         | Most recent date on which the dataset was changed, updated or modified.                                                                        
-publisher		        | Publisher           | The publishing entity and optionally their parent organization(s)                                                                                                                     
-contactPoint	        | Contact Name and Email        | Contact person's name and email for the asset.                                                                                                           
-identifier		        | Unique Identifier   | A unique identifier for the dataset or API as maintained within an Agency catalog or database.                                                 
-accessLevel | Public Access Level      | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)
-bureauCode<sup>[USG](#USG-note)</sup>       | Bureau Code           | Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`.  
-programCode<sup>[USG](#USG-note)</sup>      | Program Code          | Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`  
+Field                                                      | Label                     | Definition      | Required
+--------------                                             | --------------            | --------------  | --------------
+[title](#title)                                            | Title                     | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery. | Always                
+[description](#description)                                | Description               | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | Always 
+[keyword](#keyword)                                        | Tags                      | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users. | Always              
+[modified](#modified)                                      | Last Update               | Most recent date on which the dataset was changed, updated or modified. | Always                                                                        
+[publisher](#publisher)                                    | Publisher                 | The publishing entity and optionally their parent organization(s) | Always                                                                                                                     
+[contactPoint](#contactPoint)                              | Contact Name and Email    | Contact person's name and email for the asset. | Always                                                                                                           
+[identifier](#identifier)                                  | Unique Identifier         | A unique identifier for the dataset or API as maintained within an Agency catalog or database. | Always                                                 
+[accessLevel](#accessLevel)                                | Public Access Level       | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public) | Always 
+[bureauCode](#bureauCode)<sup>[USG](#USG-note)</sup>       | Bureau Code               | Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`. | Always  
+[programCode](#programCode)<sup>[USG](#USG-note)</sup>     | Program Code              | Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001` | Always                                                                                                                       
+[license](#license)                                        | License                   | The license or non-license (i.e. Public Domain) status with which the dataset or API has been published.  See [Open Licenses](/open-licenses/) for more information. | If-Applicable 
+[rights](#rights)                                          | Rights                    | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters. | If-Applicable 
+[spatial](#spatial)                                        | Spatial                   | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place. | If-Applicable                        
+[temporal](#temporal)                                      | Temporal                  | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).  | If-Applicable                                  
+[distribution](#distribution)                              | Distribution              | A container for the array of Distribution objects. See [Dataset Distribution Fields](#dataset-distribution-fields) below for details. | If-Applicable
+[accrualPeriodicity](#accrualPeriodicity)                  | Frequency                 | Frequency with which dataset is published.   | No                                                                                                  
+[conformsTo](#dataset-conformsTo)                          | Data Standard             | URI used to identify a standardized specification the dataset conforms to | No
+[dataQuality](#dataQuality)<sup>[USG](#USG-note)</sup>     | Data Quality              | Whether the dataset meets the agency's Information Quality Guidelines (true/false). | No    
+[describedBy](#dataset-describedBy)                        | Data Dictionary           | URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`). | No              
+[describedByType](#dataset-describedByType)                | Data Dictionary Type      | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`) | No
+[isPartOf](#isPartOf)                                      | Collection                | The collection of which the dataset is a subset.  | No
+[issued](#issued)                                          | Release Date              | Date of formal issuance. | No                                                                                                                      
+[language](#language)                                      | Language                  | The language of the dataset. | No                                                                                                                  
+[landingPage](#landingPage)                                | Homepage URL              | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset. | No 
+[primaryITInvestmentUII](#primaryITInvestmentUII)<sup>[USG](#USG-note)</sup> | Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) | No
+[references](#references)                                  | Related Documents         | Related documents such as technical information about a dataset, developer documentation, etc. | No                                                                                           
+[systemOfRecords](#systemOfRecords)<sup>[USG](#USG-note)</sup>        | System of Records         | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | No
+[theme](#theme)                                            | Category                  | Main thematic category of the dataset.  | No
 
-Dataset Required-if-Applicable Fields
--------------------------------------------
-The following fields must be used to describe each dataset if they are applicable. 
-
-{: .table .table-striped}
-Field                                       | Label                 | Definition
---------------                              | --------------        | --------------                                                                                                                       
-distribution			                    | Distribution          | Represents a specific available form of a dataset in the form of download or access URLs, along with metadata specific to that form.  
-license					                    | License             	| The license or non-license (i.e. Public Domain) status with which the dataset or API has been published.  See [Open Licenses](/open-licenses/) for more information. 
-rights		                                | Rights 	            | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters.  
-spatial					                    | Spatial				| The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place.                         
-temporal				                    | Temporal				| The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).                                   
 
 Dataset Distribution Fields
 -------------------------------------------
-Within a dataset, **distribution** is used to aggregate the metadata specific to a dataset's resources (**accessURL** and **downloadURL**), which may be described using the following fields.  Each distribution should contain one **accessURL** or **downloadURL**.  **downloadURL** should always be accompanied by **mediaType**.  
+Within a dataset, **distribution** is used to aggregate the metadata specific to a dataset's resources (**accessURL** and **downloadURL**), which may be described using the following fields.  Each distribution should contain one **accessURL** or **downloadURL**.  A **downloadURL** should always be accompanied by **mediaType**.  
 
 {: .table .table-striped}
-Field                   | Label                 | Definition
---------------          | --------------        | --------------                                                                                                                       
-accessURL				| Access URL        	| URL providing indirect access to a dataset, for example via API or a graphical interface
-conformsTo				| Data Standard        	| URI used to identify a standardized specification the distribution conforms to
-describedBy				| Data Dictionary     	| URL to the data dictionary for the distribution found at the `downloadURL`.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.              
-describedByType			| Data Dictionary Type  | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `describedBy` URL
-description		        | Description           | Human-readable description of the distribution. 
-downloadURL				| Download URL        	| URL providing direct access to a downloadable file of a dataset
-format					| Format              	| A human-readable description of the file format of a distribution.
-mediaType				| Media Type         	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `downloadURL`.    
-title			        | Title               	| Human-readable name of the distribution.  
+Field                                           | Label                 | Definition     | Required
+--------------                                  | --------------        | -------------- | --------------                                                                                                                      
+[accessURL](#distribution-accessURL)            | Access URL            | URL providing indirect access to a dataset, for example via API or a graphical interface | If-Applicable
+[conformsTo](#distribution-conformsTo)          | Data Standard         | URI used to identify a standardized specification the distribution conforms to | No
+[describedBy](#distribution-describedBy)        | Data Dictionary       | URL to the data dictionary for the distribution found at the `downloadURL`.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields. | No             
+[describedByType](#distribution-describedByType)| Data Dictionary Type  | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `describedBy` URL | No
+[description](#distribution-description)        | Description           | Human-readable description of the distribution. | No
+[downloadURL](#distribution-downloadURL)        | Download URL          | URL providing direct access to a downloadable file of a dataset | If-Applicable
+[format](#distribution-format)                  | Format                | A human-readable description of the file format of a distribution. | No
+[mediaType](#distribution-mediaType)            | Media Type            | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `downloadURL`. | If-Applicable   
+[title](#distribution-title)                    | Title                 | Human-readable name of the distribution. | No
+                                                                                                                      
 
 Extending the Schema
 ------------------------------------------
-"Extensional" and/or domain specific metadata can easily be added using other vocabularies even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, Schema.org, FGDC, ISO 19115, and NIEM)) as long as they are properly assigned.
+"Extensional" and/or domain specific metadata can easily be added using other vocabularies even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, Schema.org, FGDC, ISO 19115, and NIEM) as long as they are properly assigned.
 
-Expanded Fields
----------------
-Agencies are encouraged to use the following expanded fields when appropriate. Agencies may freely augment these fields with their own.
-
-{: .table .table-striped}
-Field                                               | Label               		| Definition
---------------                                      | --------------            | --------------                                                                                                                       
-accrualPeriodicity		                            	| Frequency           		| Frequency with which dataset is published.                                                                                                    
-conformsTo				                        | Data Standard        		| URI used to identify a standardized specification the dataset conforms to
-dataQuality<sup>[USG](#USG-note)</sup>				| Data Quality        		| Whether the dataset meets the agency's Information Quality Guidelines (true/false).     
-describedBy				                        | Data Dictionary     		| URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`).              
-describedByType			                        	| Data Dictionary Type  	| The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`)
-isPartOf				                        | Collection          		| The collection of which the dataset is a subset.  
-issued					                        | Release Date        		| Date of formal issuance.                                                                                                                      
-language				                        | Language            		| The language of the dataset.                                                                                                                  
-landingPage				                        | Homepage URL        		| This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset.  
-primaryITInvestmentUII<sup>[USG](#USG-note)</sup>		| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
-references				                        | Related Documents   		| Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
-systemOfRecords<sup>[USG](#USG-note)</sup>			| System of Records   		| If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. 
-theme					                        | Category            		| Main thematic category of the dataset.  
 
 Further Metadata Field Guidance
 -------------------------------
-Additional details for each field are provided here broken down into sections for the overarching [Catalog](#Catalog), each [dataset](#dataset), and each dataset's [distribution](#distribution).
+Additional details for each field are provided here broken down into sections for the overarching [Catalog](#Catalog), each [dataset](#dataset), and each dataset's [distribution](#distribution). Consult the [field mappings](/v1.1/metadata-resources#field-mappings) to find the equivalent v1.0, DCAT, Schema.org, and CKAN fields.
 
 
 {: .schema-fields .requirements-key}
 * Key
-	* {: .field-required} Required
-	* {: .field-required-if-applicable} Required if Applicable
-	* {: .field-optional} Expanded (optional)
+    * {: .field-required} Required
+    * {: .field-required-if-applicable} Required if Applicable
+    * {: .field-optional} Expanded (optional)
 
 
 {: .schema-fields}
 * Catalog
-	* {: .field-required}[conformsTo](#conformsTo)
-	* {: .field-optional}[describedBy](#describedBy)
-	* {: .field-required}[dataset](#dataset)
-		* {: .field-required}[accessLevel](#accessLevel)
-		* {: .field-optional}[accrualPeriodicity](#accrualPeriodicity)
-		* {: .field-required}[bureauCode](#bureauCode)
-		* {: .field-optional}[conformsTo](#dataset-conformsTo)
-		* {: .field-required}[contactPoint](#contactPoint)
-			* {: .field-required}[fn](#contactPoint-fn)
-			* {: .field-required}[hasEmail](#contactPoint-hasEmail)
-		* {: .field-required-if-applicable}[dataQuality](#dataQuality)
-		* {: .field-optional}[describedBy](#dataset-describedBy)
-		* {: .field-optional}[describedByType](#dataset-describedByType)
-		* {: .field-required}[description](#description)
-		* {: .field-required-if-applicable}[distribution](#distribution)
-			* {: .field-optional}[accessURL](#distribution-accessURL)
-			* {: .field-optional}[conformsTo](#distribution-conformsTo)
-			* {: .field-required-if-applicable}[downloadURL](#distribution-downloadURL)
-			* {: .field-optional}[describedBy](#distribution-describedBy)
-			* {: .field-optional}[describedByType](#distribution-describedByType)
-			* {: .field-optional}[description](#distribution-description)
-			* {: .field-optional}[format](#distribution-format)
-			* {: .field-required-if-applicable}[mediaType](#distribution-mediaType)
-			* {: .field-optional}[title](#title)
-		* {: .field-required}[identifier](#identifier)
-		* {: .field-optional}[isPartOf](#isPartOf)
-		* {: .field-optional}[issued](#issued)
-		* {: .field-required}[keyword](#keyword)
-		* {: .field-optional}[landingPage](#landingPage)
-		* {: .field-optional}[language](#language)
-		* {: .field-required-if-applicable}[license](#license)
-		* {: .field-required}[modified](#modified)
-		* {: .field-optional}[primaryITInvestmentUII](#primaryITInvestmentUII)
-		* {: .field-required}[programCode](#programCode)
-		* {: .field-required}[publisher](#publisher)
-			* {: .field-required}[name](#publisher-name)
-			* {: .field-optional}[subOrganizationOf](#publisher-subOrganizationOf)
-		* {: .field-required-if-applicable}[rights](#rights)
-		* {: .field-required-if-applicable}[spatial](#spatial)
-		* {: .field-optional}[systemOfRecords](#systemOfRecords)
-		* {: .field-required-if-applicable}[temporal](#temporal)
-		* {: .field-optional}[theme](#theme)
-		* {: .field-required}[title](#title)
+    * {: .field-required}[conformsTo](#conformsTo)
+    * {: .field-optional}[describedBy](#describedBy)
+    * {: .field-required}[dataset](#dataset)
+        * {: .field-required}[accessLevel](#accessLevel)
+        * {: .field-optional}[accrualPeriodicity](#accrualPeriodicity)
+        * {: .field-required}[bureauCode](#bureauCode)
+        * {: .field-optional}[conformsTo](#dataset-conformsTo)
+        * {: .field-required}[contactPoint](#contactPoint)
+            * {: .field-required}[fn](#contactPoint-fn)
+            * {: .field-required}[hasEmail](#contactPoint-hasEmail)
+        * {: .field-required-if-applicable}[dataQuality](#dataQuality)
+        * {: .field-optional}[describedBy](#dataset-describedBy)
+        * {: .field-optional}[describedByType](#dataset-describedByType)
+        * {: .field-required}[description](#description)
+        * {: .field-required-if-applicable}[distribution](#distribution)
+            * {: .field-optional}[accessURL](#distribution-accessURL)
+            * {: .field-optional}[conformsTo](#distribution-conformsTo)
+            * {: .field-required-if-applicable}[downloadURL](#distribution-downloadURL)
+            * {: .field-optional}[describedBy](#distribution-describedBy)
+            * {: .field-optional}[describedByType](#distribution-describedByType)
+            * {: .field-optional}[description](#distribution-description)
+            * {: .field-optional}[format](#distribution-format)
+            * {: .field-required-if-applicable}[mediaType](#distribution-mediaType)
+            * {: .field-optional}[title](#title)
+        * {: .field-required}[identifier](#identifier)
+        * {: .field-optional}[isPartOf](#isPartOf)
+        * {: .field-optional}[issued](#issued)
+        * {: .field-required}[keyword](#keyword)
+        * {: .field-optional}[landingPage](#landingPage)
+        * {: .field-optional}[language](#language)
+        * {: .field-required-if-applicable}[license](#license)
+        * {: .field-required}[modified](#modified)
+        * {: .field-optional}[primaryITInvestmentUII](#primaryITInvestmentUII)
+        * {: .field-required}[programCode](#programCode)
+        * {: .field-required}[publisher](#publisher)
+            * {: .field-required}[name](#publisher-name)
+            * {: .field-optional}[subOrganizationOf](#publisher-subOrganizationOf)
+        * {: .field-required-if-applicable}[rights](#rights)
+        * {: .field-required-if-applicable}[spatial](#spatial)
+        * {: .field-optional}[systemOfRecords](#systemOfRecords)
+        * {: .field-required-if-applicable}[temporal](#temporal)
+        * {: .field-optional}[theme](#theme)
+        * {: .field-required}[title](#title)
 
 
 Catalog Fields {#Catalog}
@@ -380,7 +366,7 @@ Dataset Fields {#Dataset}
                      "format": "API",
                      "title": "Vegetables REST API"
                  }
-            	]
+                ]
 ~~~
 
 {: .table .table-striped .child-field #distribution-accessURL}
