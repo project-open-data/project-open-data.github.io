@@ -62,8 +62,9 @@ These fields describe the entire Public Data Listing catalog file. Optionally, p
 Field                           | Label                 | Definition    | Required
 --------------                  | --------------        | --------------| --------------
 [conformsTo](#conformsTo)       | Schema Version        | A URI that identifies the version of the Project Open Data schema being used. | Always 
-[dataset](#dataset)             | Dataset               | A container for the array of Dataset objects. See [Dataset Fields](#Dataset) below for details.  | Always
 [describedBy](#describedBy)     | Data Dictionary       |  URL for the [JSON Schema](http://json-schema.org/) file that defines the schema used  | No
+[dataset](#dataset)             | Dataset               | A container for the array of Dataset objects. See [Dataset Fields](#Dataset) below for details.  | Always
+
 
 Dataset Fields
 -----------------------------
