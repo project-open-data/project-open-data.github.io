@@ -11,12 +11,12 @@
 
   <title>{{ page.title }} - {{ site.title }}</title>
 
+  <link rel="shortcut icon" href="/favicon.ico"/>
   <link rel="stylesheet" href="/assets/css/bootstrap.css">
   <link rel="stylesheet" href="/assets/css/site.css">
 
-
-
-  {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
+  {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}{% endcapture %}
+  
 </head>
 <body class="{{ page.id }}">
   <!--[if lt IE 7]>

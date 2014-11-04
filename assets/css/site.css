@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Noto+Sans:400,700);
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Noto+Sans:400,700);
 
 body {
   font-family: "Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -764,11 +764,5 @@ span.field-required-if-applicable {
     padding-left: 0;
     padding-right: 0;
     padding-top:0;
-  }
-}
-@media (min-width: 980px) {
-  body {
-    background: url("../img/seal.jpg") no-repeat fixed 80% 90% transparent;
-    padding: 0;
   }
 }

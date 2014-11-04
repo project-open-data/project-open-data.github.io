@@ -64,7 +64,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-5 [PDF Filler](https://github.com/project-open-data/pdf-filler) - PDF Filler is a RESTful service (API) to aid in the completion of existing PDF-based forms and empower web developers to use browser-based forms and modern web standards to facilitate the collection of information. -&nbsp;*[Hosted](http://labs.data.gov/pdf-filler)*
 
-4-6 [Catalog Generator](https://github.com/project-open-data/catalog-generator) - Multi-format tool to generate and maintain agency.gov/data catalog files. - *[Hosted](http://data.civicagency.org/datagov/csv_to_json)* *[Alternative](http://project-open-data.github.com/catalog-generator/)*
+4-6 [Catalog Generator](http://labs.data.gov/dashboard/datagov/csv_to_json) - Multi-format tool to generate and maintain agency.gov/data catalog files. - *[Alternative](http://project-open-data.github.com/catalog-generator/)*
 
 4-7 A data.json validator can help you check compliance with the POD schema. - *[Hosted](http://data.civicagency.org/validate)*
 
@@ -169,8 +169,8 @@ An event where developers, designers, and strategists work in teams to solve pro
 **Goal:** To build relationships with the tech community and to see immediate tools and prototypes.
 
 ### Online Community
-A website, social networking group and/or email mailing list where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
-*Ex: Data.gov communities, NICAR/IRE, Code for America and Sunlight Foundation email listserv, Open Government Facebook and Google+ groups*
+A website, social networking group and/or listserv where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
+*Ex: Listservs for [NICAR](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/), Code for America, Sunlight Foundation, the Open Government Facebook and Google+ groups*
 
 **Goal:** To build and sustain ongoing relationships with media, nonprofits, good government advocates and civic technologists
 

@@ -10,11 +10,11 @@ Contributions can be made, primarily in two ways:
 
 ### Easy
 
-1. Browse the content at http://project-open-data.github.io/
-2. Click the "Improve this content" button in the top right corner of any page
-3. Make changes as you would normally
+1. Browse the content at http://project-open-data.github.io/.
+2. Click the "Improve this content" button in the top right corner of any page.
+3. Make changes as you would normally.
 4. Click "Submit".
-5. You change should appear once approved.
+5. Your change(s) should appear once approved.
 
 *Note: You may need to [create a free GitHub account](https://github.com/signup/free) if you do not already have one*
 
@@ -25,7 +25,7 @@ Contributions can be made, primarily in two ways:
 3. Make changes as you would normally using the tools installed in step #1.
 4. Push the changes back to your fork
 5. Submitting a pull request to this repository
-6. You change should appear once approved.
+6. Your change(s) should appear once approved.
 
 ## Running Locally
 

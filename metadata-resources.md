@@ -132,7 +132,7 @@ The mapping is from the POD field to the XPATH(s) in the common metadata schema 
 
 ###FGDC CSDGM
 
-Established by Office of Management and Budget Circular A-16, the Federal Geographic Data Committee ([FGDC](ttp://www.fgdc.gov)) promotes the coordinated development, use, sharing, and dissemination of geographic data. 
+Established by Office of Management and Budget Circular A-16, the Federal Geographic Data Committee ([FGDC](http://www.fgdc.gov)) promotes the coordinated development, use, sharing, and dissemination of geographic data. 
 The [Content Standard for Digital Geospatial Metadata](http://www.fgdc.gov/metadata/csdgm) aims to provide a common set of terminology and definitions for the documentation of digital geospatial data.
 
 {: .table .table-striped}

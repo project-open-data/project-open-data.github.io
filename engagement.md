@@ -48,7 +48,7 @@ Good [Morning/afternoon],
 
 On behalf of [host], and in collaboration with [co-hosts], I would like to invite you to a Data Jam. Please save the date for [date] in [location].
 
-This Data Jam will bring entrepreneurs, technology leaders, and policy experts together to explore and discuss new ideas for private-sector tools, services, and apps designed to improve value, affordability, and outcomes in postsecondary education.
+This Data Jam will bring entrepreneurs, technology leaders, and policy experts together to explore and discuss new ideas for private-sector tools, services, and apps designed to improve value, affordability, and outcomes in [topic].
 
 [Host] will be sending further information in the coming days, but if you are interested in participating, please RSVP or send questions to [Email address for logistics]. This invitation is non-transferrable.
 
