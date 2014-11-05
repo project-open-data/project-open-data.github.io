@@ -207,7 +207,7 @@ Catalog Fields {#Catalog}
 **Required** | No
 **Accepted Values** | String (URL)
 **Usage Notes** | The URL or JSON object for the [JSON-LD Context](http://www.w3.org/TR/json-ld/#the-context) that defines the schema used. The URL for version 1.1 of the schema is `https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld`
-**Example** | `{"@context": "http://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"}`
+**Example** | `{"@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"}`
 
 {: .table .table-striped #id}
 **Field [#](#id){: .permalink}** | **@id**
@@ -233,8 +233,8 @@ Catalog Fields {#Catalog}
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String (URI)
-**Usage Notes** | This is used to identify the schema version using a URI. The URI for version 1.1 of the schema is `http://project-open-data.cio.gov/v1.1/schema`
-**Example** | `{"conformsTo": "http://project-open-data.cio.gov/v1.1/schema"}`
+**Usage Notes** | This is used to identify the schema version using a URI. The URI for version 1.1 of the schema is `https://project-open-data.cio.gov/v1.1/schema`
+**Example** | `{"conformsTo": "https://project-open-data.cio.gov/v1.1/schema"}`
 
 {: .table .table-striped #describedBy}
 **Field [#](#describedBy){: .permalink}** | **describedBy**
@@ -242,8 +242,8 @@ Catalog Fields {#Catalog}
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | String (URL)
-**Usage Notes** | This is used to specify a [JSON Schema](http://json-schema.org/) file that defines all fields. By default, it is recommended that the canonical JSON Schema file is referenced (http://project-open-data.cio.gov/v1.1/schema/catalog.json) but if the schema had been extended, publishers may reference a file that defines those extensions. 
-**Example** | `{"describedBy": "http://project-open-data.cio.gov/v1.1/schema/catalog.json"}`
+**Usage Notes** | This is used to specify a [JSON Schema](http://json-schema.org/) file that defines all fields. By default, it is recommended that the canonical JSON Schema file is referenced (https://project-open-data.cio.gov/v1.1/schema/catalog.json) but if the schema had been extended, publishers may reference a file that defines those extensions. 
+**Example** | `{"describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"}`
 
 {: .table .table-striped #dataset}
 **Field [#](#dataset){: .permalink}** | **dataset**
