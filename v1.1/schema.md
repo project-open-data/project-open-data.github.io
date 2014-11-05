@@ -56,13 +56,16 @@ Links to downloadable examples of metadata files developed in this and other for
 
 Catalog Fields
 -------------------------------------------------
-These fields describe the entire Public Data Listing catalog file. Optionally, publishers may also use the `describedBy` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (http://project-open-data.cio.gov/v1.1/schema/catalog.json) or they may refer to their own JSON Schema file where they have extended the schema. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
+These fields describe the entire Public Data Listing catalog file. Publishers can also use the `describedBy` field to reference the default [JSON Schema](http://json-schema.org/) file used to define the schema (*https://project-open-data.cio.gov/v1.1/schema/catalog.json*) or they may refer to their own JSON Schema file if they have extended the schema with additional schema definitions. Similarly, `@context` can be used to reference the default [JSON-LD](http://www.w3.org/TR/json-ld) Context used to define the schema (*https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld*) or publishers can refer to their own if they have extended the schema with additional linked data vocabularies. See the [Catalog section](#Catalog) under *Further Metadata Field Guidance* for more details. 
 
 {: .table .table-striped}
 Field                           | Label                 | Definition    | Required
 --------------                  | --------------        | --------------| --------------
-[conformsTo](#conformsTo)       | Schema Version        | A URI that identifies the version of the Project Open Data schema being used. | Always 
-[describedBy](#describedBy)     | Data Dictionary       |  URL for the [JSON Schema](http://json-schema.org/) file that defines the schema used  | No
+[@context](#context)            | Metadata Context      | URL or JSON object for the [JSON-LD Context](http://www.w3.org/TR/json-ld/#the-context) that defines the schema used | No 
+[@id](#id)                      | Metadata Catalog ID   | IRI for the [JSON-LD Node Identifier](http://www.w3.org/TR/json-ld/#node-identifiers) of the Catalog. This should be the URL of the data.json file itself | No 
+[@type](#type)                  | Metadata Type         | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Catalog` for the Catalog | No 
+[conformsTo](#conformsTo)       | Schema Version        | URI that identifies the version of the Project Open Data schema being used. | Always 
+[describedBy](#describedBy)     | Data Dictionary       | URL for the [JSON Schema](http://json-schema.org/) file that defines the schema used  | No
 [dataset](#dataset)             | Dataset               | A container for the array of Dataset objects. See [Dataset Fields](#Dataset) below for details.  | Always
 
 
@@ -73,6 +76,7 @@ See the *[Further Metadata Field Guidance](#further-metadata-field-guidance)* se
 {: .table .table-striped}
 Field                                                      | Label                     | Definition      | Required
 --------------                                             | --------------            | --------------  | --------------
+[@type](#dataset-type)                                     | Metadata Type             | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Dataset` for each Dataset | No
 [title](#title)                                            | Title                     | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery. | Always                
 [description](#description)                                | Description               | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | Always 
 [keyword](#keyword)                                        | Tags                      | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users. | Always              
@@ -110,6 +114,7 @@ Within a dataset, **distribution** is used to aggregate the metadata specific to
 {: .table .table-striped}
 Field                                           | Label                 | Definition     | Required
 --------------                                  | --------------        | -------------- | --------------                                                                                                                      
+[@type](#distribution-type)                     | Metadata Type         | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Distribution` for each Distribution | No
 [accessURL](#distribution-accessURL)            | Access URL            | URL providing indirect access to a dataset, for example via API or a graphical interface | If-Applicable
 [conformsTo](#distribution-conformsTo)          | Data Standard         | URI used to identify a standardized specification the distribution conforms to | No
 [describedBy](#distribution-describedBy)        | Data Dictionary       | URL to the data dictionary for the distribution found at the `downloadURL`.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields. | No             
@@ -123,7 +128,7 @@ Field                                           | Label                 | Defini
 
 Extending the Schema
 ------------------------------------------
-"Extensional" and/or domain specific metadata can easily be added using other vocabularies even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, Schema.org, FGDC, ISO 19115, and NIEM) as long as they are properly assigned.
+"Extensional" and/or domain specific metadata can easily be added using other vocabularies even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Publishers are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, Schema.org, FGDC, ISO 19115, and NIEM) as long as they are properly assigned. It's also recommended that these extensions be defined through the `describedBy` and `@context` fields at the top of the [Catalog metadata](#catalog-fields).
 
 
 Further Metadata Field Guidance
@@ -140,14 +145,19 @@ Additional details for each field are provided here broken down into sections fo
 
 {: .schema-fields}
 * Catalog
+    * {: .field-optional}[@context](#context)
+    * {: .field-optional}[@id](#id)
+    * {: .field-optional}[@type](#type)
     * {: .field-required}[conformsTo](#conformsTo)
     * {: .field-optional}[describedBy](#describedBy)
     * {: .field-required}[dataset](#dataset)
+        * {: .field-optional}[@type](#dataset-type)
         * {: .field-required}[accessLevel](#accessLevel)
         * {: .field-optional}[accrualPeriodicity](#accrualPeriodicity)
         * {: .field-required}[bureauCode](#bureauCode)
         * {: .field-optional}[conformsTo](#dataset-conformsTo)
         * {: .field-required}[contactPoint](#contactPoint)
+            * {: .field-optional}[@type](#contactPoint-type)    
             * {: .field-required}[fn](#contactPoint-fn)
             * {: .field-required}[hasEmail](#contactPoint-hasEmail)
         * {: .field-required-if-applicable}[dataQuality](#dataQuality)
@@ -155,6 +165,7 @@ Additional details for each field are provided here broken down into sections fo
         * {: .field-optional}[describedByType](#dataset-describedByType)
         * {: .field-required}[description](#description)
         * {: .field-required-if-applicable}[distribution](#distribution)
+            * {: .field-optional}[@type](#distribution-type)    
             * {: .field-optional}[accessURL](#distribution-accessURL)
             * {: .field-optional}[conformsTo](#distribution-conformsTo)
             * {: .field-required-if-applicable}[downloadURL](#distribution-downloadURL)
@@ -175,6 +186,7 @@ Additional details for each field are provided here broken down into sections fo
         * {: .field-optional}[primaryITInvestmentUII](#primaryITInvestmentUII)
         * {: .field-required}[programCode](#programCode)
         * {: .field-required}[publisher](#publisher)
+            * {: .field-optional}[@type](#publisher-type) 
             * {: .field-required}[name](#publisher-name)
             * {: .field-optional}[subOrganizationOf](#publisher-subOrganizationOf)
         * {: .field-required-if-applicable}[rights](#rights)
@@ -187,6 +199,33 @@ Additional details for each field are provided here broken down into sections fo
 
 Catalog Fields {#Catalog}
 -------------------------------
+
+{: .table .table-striped #context}
+**Field [#](#context){: .permalink}** | **@context**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String (URL)
+**Usage Notes** | The URL or JSON object for the [JSON-LD Context](http://www.w3.org/TR/json-ld/#the-context) that defines the schema used. The URL for version 1.1 of the schema is `https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld`
+**Example** | `{"@context": "http://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"}`
+
+{: .table .table-striped #id}
+**Field [#](#id){: .permalink}** | **@id**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String ([IRI](http://www.w3.org/TR/json-ld/#dfn-iri))
+**Usage Notes** | A unique identifier for the Catalog as defined by [JSON-LD Node Identifiers](http://www.w3.org/TR/json-ld/#node-identifiers). This should be the URL of the data.json file itself
+**Example** | `{"@id": "https://www.agency.gov/data.json"}`
+
+{: .table .table-striped #type}
+**Field [#](#type){: .permalink}** | **@type**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String ([IRI](http://www.w3.org/TR/json-ld/#dfn-iri))
+**Usage Notes** | The metadata type as defined by [JSON-LD data types](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Catalog` for the Catalog
+**Example** | `{"@type": "dcat:Catalog"}`
 
 {: .table .table-striped #conformsTo}
 **Field [#](#conformsTo){: .permalink}** | **conformsTo**
@@ -218,6 +257,15 @@ Catalog Fields {#Catalog}
 
 Dataset Fields {#Dataset}
 -------------------------------
+
+{: .table .table-striped #dataset-type}
+**Field [#](#dataset-type){: .permalink}** | **@type**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String ([IRI](http://www.w3.org/TR/json-ld/#dfn-iri))
+**Usage Notes** | The metadata type as defined by [JSON-LD data types](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Dataset` for the Dataset
+**Example** | `{"@type": "dcat:Dataset"}`
 
 {: .table .table-striped #accessLevel}
 **Field [#](#accessLevel){: .permalink}** | **accessLevel**
@@ -267,10 +315,21 @@ Dataset Fields {#Dataset}
 
 ~~~
             "contactPoint": {
+                "@type": "vcard:Contact",
                 "fn": "Jane Doe",
                 "hasEmail": "mailto:jane.doe@agency.gov"
             }
 ~~~
+
+
+{: .table .table-striped .child-field #contactPoint-type}
+**Field [#](#contactPoint-type){: .permalink}** | **contactPoint &rarr; @type**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String ([IRI](http://www.w3.org/TR/json-ld/#dfn-iri))
+**Usage Notes** | The metadata type as defined by [JSON-LD data types](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `vcard:Contact` for contactPoint
+**Example** | `{"@type": "vcard:Contact"}`
 
 {: .table .table-striped .child-field #contactPoint-fn}
 **Field [#](#contactPoint-fn){: .permalink}** | **contactPoint &rarr; fn**
@@ -338,6 +397,7 @@ Dataset Fields {#Dataset}
 ~~~
 "distribution": [
                  {
+                     "@type": "dcat:Distribution",
                      "description": "Vegetable data as a CSV file",
                      "downloadURL": "http://www.agency.gov/vegetables/listofvegetables.csv",
                      "format": "CSV",
@@ -345,6 +405,7 @@ Dataset Fields {#Dataset}
                      "title": "listofvegetables.csv"
                  }, 
                  {
+                     "@type": "dcat:Distribution",
                      "conformsTo": "http://www.agency.gov/vegetables-data-standard/",
                      "describedBy": "http://www.agency.gov/vegetables/schema.xsd",
                      "describedByType": "text/xml",
@@ -355,6 +416,7 @@ Dataset Fields {#Dataset}
                      "title": "listofvegetables.xml"
                  },
                  {
+                     "@type": "dcat:Distribution",
                      "description": "Vegetable data as a zipped CSV file with attached data dictionary",
                      "downloadURL": "http://www.agency.gov/vegetables/vegetables-all.zip",
                      "format": "Zipped CSV",
@@ -362,6 +424,7 @@ Dataset Fields {#Dataset}
                      "title": "vegetables-all.zip"
                  },
                  {
+                     "@type": "dcat:Distribution",
                      "accessURL": "http://www.agency.gov/api/vegetables/",
                      "description": "A fully queryable REST API with JSON and XML output",
                      "format": "API",
@@ -369,6 +432,15 @@ Dataset Fields {#Dataset}
                  }
                 ]
 ~~~
+
+{: .table .table-striped .child-field #distribution-type}
+**Field [#](#distribution-type){: .permalink}** | **distribution &rarr; @type**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String ([IRI](http://www.w3.org/TR/json-ld/#dfn-iri))
+**Usage Notes** | The metadata type as defined by [JSON-LD data types](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Distribution` for each distribution
+**Example** | `{"@type": "dcat:Distribution"}`
 
 {: .table .table-striped .child-field #distribution-accessURL}
 **Field [#](#distribution-accessURL){: .permalink}** | **distribution &rarr; accessURL**
@@ -553,18 +625,31 @@ Dataset Fields {#Dataset}
  
 ~~~
 "publisher": {
-    "name": "Widget Services", 
+  "@type": "org:Organization",
+  "name": "Widget Services",
+  "subOrganizationOf": {
+    "@type": "org:Organization",
+    "name": "Office of Citizen Services and Innovative Technologies",
     "subOrganizationOf": {
-        "name": "Office of Citizen Services and Innovative Technologies", 
-        "subOrganizationOf": {
-            "name": "General Services Administration", 
-            "subOrganizationOf": {
-                "name": "U.S. Government"
-            }
-        }
+      "@type": "org:Organization",
+      "name": "General Services Administration",
+      "subOrganizationOf": {
+        "@type": "org:Organization",
+        "name": "U.S. Government"
+      }
     }
+  }
 }
 ~~~
+
+{: .table .table-striped .child-field #publisher-type}
+**Field [#](#publisher-type){: .permalink}** | **publisher &rarr; @type**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String ([IRI](http://www.w3.org/TR/json-ld/#dfn-iri))
+**Usage Notes** | The metadata type as defined by [JSON-LD data types](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `org:Organization` for each publisher
+**Example** | `{"@type": "org:Organization"}`
 
 {: .table .table-striped .child-field #publisher-name}
 **Field [#](#publisher-name){: .permalink}** | **publisher &rarr; name**
