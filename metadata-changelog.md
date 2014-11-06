@@ -9,12 +9,15 @@ This page lists changes to the Project Open Data metadata schema by version. Lat
 
 ## Changelog
 
-### Version 1.1 _(DRAFT - as of 10/6/2014)_
+### Version 1.1 _(DRAFT - as of 11/6/2014)_
 
 ##### Catalog Required Fields
 * Adds required `conformsTo` field to specify the schema version ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
 * Adds required `dataset` field as a container for all datasets listed ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
 * Adds optional `describedBy` field to specify a canonical or customized JSON schema file ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
+* Adds optional `@context` field to specify a JSON-LD Context ([#338](https://github.com/project-open-data/project-open-data.github.io/issues/388))
+* Adds optional `@id` field to specify a JSON-LD Node Identifier ([#338](https://github.com/project-open-data/project-open-data.github.io/issues/388))
+* Adds optional `@type` field to specify a JSON-LD data type ([#338](https://github.com/project-open-data/project-open-data.github.io/issues/388))
 
 ##### Dataset Required Fields
 * Changes `contactPoint` field to an object that contains the name (`fn`) and email address (`hasEmail`) ([#358](https://github.com/project-open-data/project-open-data.github.io/issues/358))  
@@ -23,6 +26,7 @@ This page lists changes to the Project Open Data metadata schema by version. Lat
 * Changes `publisher` field to an object that allows multiple levels of organizations ([#296](https://github.com/project-open-data/project-open-data.github.io/issues/296)) 
 	* Adds `name` as part of `publisher` replacing earlier use of `publisher` ([#296](https://github.com/project-open-data/project-open-data.github.io/issues/296)) 
 	* Adds optional `subOrganizationOf` field as part of `publisher` to include parent organization hierarchy ([#296](https://github.com/project-open-data/project-open-data.github.io/issues/296)) 
+* Adds optional `@type` field to specify a JSON-LD data type ([#338](https://github.com/project-open-data/project-open-data.github.io/issues/388))
 
 ##### Dataset Required-if-Applicable Fields  
 * Removes `webService` field. APIs can be described within a `distribution` using `accessURL` and `format` ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291)) 
@@ -40,6 +44,7 @@ This page lists changes to the Project Open Data metadata schema by version. Lat
 * Adds optional `describedBy` field to specify a distribution specific data dictionary ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
 * Adds optional `describedByType` field to specify the format of the data dictionary referenced with `describedBy` ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291), [#332](https://github.com/project-open-data/project-open-data.github.io/issues/332))
 * Adds optional `conformsTo` field to specify a standard the distribution conforms to ([#362](https://github.com/project-open-data/project-open-data.github.io/issues/362))
+* Adds optional `@type` field to specify a JSON-LD data type ([#338](https://github.com/project-open-data/project-open-data.github.io/issues/388))
 
 ##### Expanded Fields
 * Changes `accrualPeriodicity` field to use ISO 8601 date syntax ([#292](https://github.com/project-open-data/project-open-data.github.io/issues/292)) 
