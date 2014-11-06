@@ -51,7 +51,7 @@ The Project Open Data schema is case sensitive. The schema uses a camel case con
 > Incorrect: `contactpoint`  
 > incorrect: `CONTACTPOINT`  
 
-Links to downloadable examples of metadata files developed in this and other formats are in [the metadata resources](/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
+Links to downloadable examples of metadata files developed in this and other formats are in the [metadata resources](/v1.1/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
 
 
 Catalog Fields
