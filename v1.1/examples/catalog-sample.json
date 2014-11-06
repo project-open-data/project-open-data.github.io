@@ -1,69 +1,128 @@
-[
+{
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "dataset": [
     {
-        "title": "Data Catalog",
-        "description": "Version 1.0", 
-        "keyword": ["catalog"], 
-        "modified": "2013-05-09",
-        "publisher": "US Department of X",
-        "contactPoint": "John Doe",
-        "mbox": "john.doe@agency.gov",
-        "identifier": "1",
-        "accessLevel": "public",
-        "bureauCode": ["018:10"],
-        "programCode": ["018:001"],
-	"accessURL": "http://agency.gov/data.json",
-	"format": "application/json"
-	
-    },
-    {
-        "title": "Public Elementary/Secondary Listing",
-        "description": "The purpose of the CCD nonfiscal surveys is to provide a listing of all schools and agencies providing free public elementary and secondary education, along with basic descriptive statistical information on each school and agency listed. Penalties apply for misuse, seehttp://nces.ed.gov/ncesglobal/data_usage_agreement.asp for more details.", 
-        "keyword": ["education","schools","children","locations","gis"], 
-        "modified": "2011-11-19T12:00:00Z",
-        "publisher": "US Department of Education",
-        "contactPoint": "Jane Doe",
-        "mbox": "Jane.doe@ed.gov",
-        "identifier": "gov-doe-nces-1121",
-        "accessLevel": "public",
-        "bureauCode": "018:10",
-        "programCode": "018:001",
-        "accessLevelComment": "",
-	"accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-	"format": "text/csv",
-        "webService": "http://explore.data.gov/api/views/ykv5-fn9t/rows.json", 
-        "license": "Public Domain", 
-        "spatial": "United States", 
-        "temporal": "2009-09-01T12:00:00Z/2010-05-31T12:00:00Z"   
-    },
-    {
-        "title": "Public Elementary/Secondary Other Listing",
-        "description": "The purpose of the alt-CCD nonfiscal surveys is to provide a listing of all schools and agencies providing free public elementary and secondary education, along with basic descriptive statistical information on each school and agency listed. Penalties apply for misuse, seehttp://nces.ed.gov/ncesglobal/data_usage_agreement.asp for more details.", 
-        "keyword": ["education","schools","gis"], 
-        "modified": "2010-11-19T12:00:00Z",
-        "publisher": "US Department of Education",
-        "contactPoint": "Jane Doe",
-        "mbox": "Jane.doe@ed.gov",
-        "identifier": "gov-doe-nces-1120",
-        "accessLevel": "public",
-        "bureauCode": ["018:10"],
-        "programCode": ["018:001"],
-        "accessLevelComment": "",
-        "distribution": [
-            {
-                "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.csv?accessType=DOWNLOAD", 
-                "format": "text/csv"
-            }, 
-            {
-                "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.json?accessType=DOWNLOAD", 
-                "format": "application/json"
-            }, 
-            {
-                "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.xml?accessType=DOWNLOAD", 
-                "format": "application/xml"
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:10"
+      ],
+      "contactPoint": {
+        "fn": "Jane Doe",
+        "hasEmail": "mailto:jane.doe@agency.gov"
+      },
+      "description": "This dataset provides national statistics on the production of widgets",
+      "distribution": [
+        {
+          "downloadURL": "https://data.agency.gov/datasets/widgets-statistics/widgets.csv",
+          "mediaType": "text/csv"
+        },
+        {
+          "downloadURL": "https://data.agency.gov/datasets/widgets-statistics/widgets-all.zip",
+          "mediaType": "application/zip"
+        },
+        {
+          "downloadURL": "http://www.agency.gov/feeds/widgets-all.json",
+          "mediaType": "application/json"
+        },
+        {
+          "accessURL": "https://data.agency.gov/api/widgets-statistics/"
+        }
+      ],
+      "identifier": "widgets-0001",
+      "keyword": [
+        "widget",
+        "manufacturing",
+        "factory"
+      ],
+      "modified": "2011-11-19T12:00:00Z",
+      "programCode": [
+        "018:001"
+      ],
+      "publisher": {
+        "name": "Widget Services",
+        "subOrganizationOf": {
+          "name": "Office of Citizen Services and Innovative Technologies",
+          "subOrganizationOf": {
+            "name": "General Services Administration",
+            "subOrganizationOf": {
+              "name": "U.S. Government"
             }
-        ],
-        "webService": "http://explore.data.gov/api/views/ykv5-fn9s/rows.json", 
-        "license": "Public Domain", 
-        "spatial": "United States", 
-        "temporal": "2008-09-01T12:00:00Z/2009-05-31T12:00:00Z" 
-    }]
+          }
+        }
+      },
+      "title": "U.S. Widget Manufacturing Statistics"
+    },
+    {
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:10"
+      ],
+      "contactPoint": {
+        "fn": "James Doe",
+        "hasEmail": "mailto:james.doe@agency.gov"
+      },
+      "description": "This dataset provides ranges on widget phase modulation",
+      "identifier": "widget-modulators",
+      "keyword": [
+        "widget",
+        "modulation"
+      ],
+      "modified": "2011-11-19T12:00:00Z",
+      "programCode": [
+        "018:001"
+      ],
+      "publisher": {
+        "name": "Widget Modulation Program",
+        "subOrganizationOf": {
+          "name": "Office of Citizen Services and Innovative Technologies",
+          "subOrganizationOf": {
+            "name": "General Services Administration",
+            "subOrganizationOf": {
+              "name": "U.S. Government"
+            }
+          }
+        }
+      },
+      "title": "U.S. Widget Phase Modulation Ranges"
+    },
+    {
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:10"
+      ],
+      "contactPoint": {
+        "fn": "James Doe",
+        "hasEmail": "mailto:james.doe@agency.gov"
+      },
+      "description": "This dataset provides ranges on widget phase modulators for 2011",
+      "distribution": [
+        {
+          "downloadURL": "https://data.agency.gov/datasets/widgets-modulator-ranges.csv",
+          "mediaType": "text/csv"
+        }
+      ],
+      "identifier": "widget-modulation-2011",
+      "keyword": [
+        "widget",
+        "modulation"
+      ],
+      "modified": "2011-11-19T12:00:00Z",
+      "programCode": [
+        "018:001"
+      ],
+      "publisher": {
+        "name": "Widget Modulation Program",
+        "subOrganizationOf": {
+          "name": "Office of Citizen Services and Innovative Technologies",
+          "subOrganizationOf": {
+            "name": "General Services Administration",
+            "subOrganizationOf": {
+              "name": "U.S. Government"
+            }
+          }
+        }
+      },
+      "title": "U.S. Widget Phase Modulation Ranges for 2011"
+    }
+  ]
+}

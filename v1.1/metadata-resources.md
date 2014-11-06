@@ -19,34 +19,15 @@ In addition to template and sample files we also produce Project Open Data Metad
 
 ### JSON Schema Files ###
 
-* 1.0 Final Schema: [Single Entry](/schema/1_0_final/single_entry.json) and [Catalog](/schema/1_0_final/catalog.json)
+* 1.1 Final Schema: [Dataset](/v1.1/schema/dataset.json) and [Catalog](/v1.1/schema/catalog.json)
 
-
-### Template Data Files
-
-<table width="60%">
-<b><tr><td><ul>
-<li><a href="/examples/catalog-template.json">JSON</a></li>
-<li><a href="/examples/catalog-template.csv">CSV</a></li>
-</ul></td>
-<td><ul>
-<li><a href="/examples/catalog-template-extended.json">JSON (Extended)</a></li>
-<li><a href="/examples/catalog-template-extended.csv">CSV (Extended)</a></li>
-</ul></td></tr></b>
-</table>
 
 ### Sample Data Files
 
-<table width="60%">
-<b><tr><td><ul>
-<li><a href="/examples/catalog-sample.json">JSON</a></li>
-<li><a href="/examples/catalog-sample.csv">CSV</a></li>
-</ul></td>
-<td><ul>
-<li><a href="/examples/catalog-sample-extended.json">JSON (Extended)</a></li>
-<li><a href="/examples/catalog-sample-extended.csv">CSV (Extended)</a></li>
-</ul></td></tr></b>
-</table>
+- [JSON - Minimum Requirements](/v1.1/examples/catalog-sample.json)
+- [JSON - With Extended Fields](/v1.1/examples/catalog-sample-extended.json)
+- [CSV - Minimum Requirements](/v1.1/examples/catalog-sample.csv) *(limited to one distribution per dataset)*
+- [CSV - With Extended Fields](/v1.1/examples/catalog-sample-extended.csv) *(limited to one distribution per dataset)*
 
 
 ### Use Cases  
@@ -73,7 +54,7 @@ Agencies may also manage their data catalogs through various database solutions 
 
 F) Convert from CSV to JSON.  
 
-In order to generate appropriately formatted JSON, simply import an appropriately formatted CSV into the [Catalog Generator](http://project-open-data.github.com/catalog-generator/), ensure that the metadata fields line up, and re-export the file.
+In order to generate appropriately formatted JSON, simply import an appropriately formatted CSV into the [CSV Converter](http://labs.data.gov/dashboard/datagov/csv_to_json), ensure that the metadata fields line up, and re-export the file.
 
 Schema Object Model Diagram
 -----------------------------
