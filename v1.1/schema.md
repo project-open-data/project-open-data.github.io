@@ -1,21 +1,22 @@
 ---
 published: true
 layout: default
-title: Draft v1.1 Metadata Schema
+title: Project Open Data Metadata Schema v1.1
 permalink: /v1.1/schema/
 filename: schema.md
 id: schema v1.1
 ---
 
-{: .bg-warning .text-danger}
-***IMPORTANT NOTE***  
-This is not the official version of the Project Open Data metadata schema. This is an open, working draft to explore possible changes to version 1.0, which serves as the base for this file. The pull requests merged into this file while it's in draft do not constitute OMB approved changes to the schema.
+
+{: .bg-success}
+***New Schema***  
+This version of the schema replaces [Project Open Data Metadata Schema v1.0](/schema). Federal CFO-Act agencies are expected to complete the transition to the v1.1 schema by **February 1st, 2015**. 
 
 ---------------------------
 
 This section contains guidance to support the use of the Project Open Data metadata to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.
 
-Updates to the metadata schema can be found in the [changelog](/metadata-changelog). Current metadata version: 1.1 FINAL as of [DATE OF MERGE].
+Updates to the metadata schema can be found in the [changelog](/metadata-changelog). Current metadata version: 1.1 as of November 6th, 2014.
 
 Standard Metadata Vocabulary
 ----------------------------
