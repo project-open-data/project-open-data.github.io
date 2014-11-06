@@ -9,7 +9,9 @@ This page lists changes to the Project Open Data metadata schema by version. Lat
 
 ## Changelog
 
-### Version 1.1 _(DRAFT - as of 11/6/2014)_
+### Version 1.1
+
+**Final as of 11/6/2014**
 
 Changes made to establish the [v1.1 Schema](/v1.1/schema)
 

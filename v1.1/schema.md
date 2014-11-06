@@ -10,7 +10,7 @@ id: schema v1.1
 
 {: .bg-success}
 ***New Schema***  
-This version of the schema replaces [Project Open Data Metadata Schema v1.0](/schema). Federal CFO-Act agencies are expected to complete the transition to the v1.1 schema by **February 1st, 2015**. 
+This version of the schema replaces [Project Open Data Metadata Schema v1.0](/schema). Federal CFO-Act agencies are expected to complete the transition to the v1.1 schema by **February 1st, 2015**. <br> <br> To see changes from v1.0 to v1.1 see the [Version 1.1 Update](/catalog/#version-11-update) especially the field mappings in [Metadata Resources](/v1.1/metadata-resources/#field-mappings) and the [Metadata Changelog](/metadata-changelog/)
 
 ---------------------------
 
