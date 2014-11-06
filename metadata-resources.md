@@ -76,7 +76,6 @@ F) Convert from CSV to JSON.
 In order to generate appropriately formatted JSON, simply import an appropriately formatted CSV into the [Catalog Generator](http://project-open-data.github.com/catalog-generator/), ensure that the metadata fields line up, and re-export the file.
 
 
-
 "Common Core" Required Fields Equivalents
 -----------------------------
 

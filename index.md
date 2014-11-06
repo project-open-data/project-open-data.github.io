@@ -30,7 +30,7 @@ This section is a list of definitions and principles used to guide the project.
 
 2-4 [Open Licenses](open-licenses/) - The definition for open licenses.
 
-2-5 [Common Core Metadata](schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.
+2-5 [Project Open Data Metadata Schema](/v1.1/schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.
 
 ----------------
 
@@ -66,9 +66,9 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-6 [Catalog Generator](http://labs.data.gov/dashboard/datagov/csv_to_json) - Multi-format tool to generate and maintain agency.gov/data catalog files. - *[Alternative](http://project-open-data.github.com/catalog-generator/)*
 
-4-7 A data.json validator can help you check compliance with the POD schema. - *[Hosted](http://data.civicagency.org/validate)*
+4-7 [Data.json validator](http://labs.data.gov/dashboard/validate) can help you check compliance with the POD schema.
 
-4-8 [Project Open Data Dashboard](http://data.civicagency.org) - A dashboard to check the status of /data and /data.json at each agency. This also includes a validator.
+4-8 [Project Open Data Dashboard](http://labs.data.gov/dashboard/) - A dashboard to check the status of /data and /data.json at each agency. This also includes a validator.
 
 4-9 [Data.json File Merger](http://data.json.file.merger.ongithub.com/) - Allows the easy combination of multiple data.json files from component agencies or bureaus into one combined file.
 
