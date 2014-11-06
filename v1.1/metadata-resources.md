@@ -16,10 +16,16 @@ In addition to template and sample files we also produce Project Open Data Metad
 * **DCAT** - [Data Catalog Vocabulary](http://www.w3.org/TR/vocab-dcat/)
 * **CKAN** - [CKAN software](http://ckan.org/)
 * **Schema.org** - [schema.org](http://schema.org/)
+* **JSON Schema** - [JSON Schema docs](http://json-schema.org/) and [specification](http://json-schema.org/latest/json-schema-core.html)
+* **JSON-LD** - [JSON-LD docs](http://json-ld.org/) and [specification](http://www.w3.org/TR/json-ld/)
 
 ### JSON Schema Files ###
 
-* 1.1 Final Schema: [Dataset](/v1.1/schema/dataset.json) and [Catalog](/v1.1/schema/catalog.json)
+* 1.1 Schema (Draft): [Dataset](/v1.1/schema/dataset.json) and [Catalog](/v1.1/schema/catalog.json)
+
+### JSON-LD Context ###
+
+* [1.1 Schema](/v1.1/schema/catalog.jsonld) (Draft)
 
 
 ### Sample Data Files
