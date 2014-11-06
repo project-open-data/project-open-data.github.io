@@ -64,8 +64,11 @@ Catalog Fields
 -----------------------------
 
 {: .table .table-striped}
-Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN API* | *DCAT*    | *Schema.org*
--------             | -------                       | -------      | -------| -------   | -------
+Label               | *POD v1.1*                    | *POD v1.0*   | *CKAN API*  | *DCAT*         | *Schema.org*
+-------             | -------                       | -------      | -------     | -------        | -------
+Metadata Context    | *@context*                    | *n/a*        | *n/a*       | *n/a*          |  *n/a* 
+Metadata Catalog ID | *@id*                         | *n/a*        | *n/a*       | *n/a*          |  *n/a*
+Metadata Type       | *@type*                       | *n/a*        | *n/a*       | *n/a*          |  *itemtype attribute*  
 Schema Version      | *conformsTo*                  | *n/a*        | *n/a*       | *n/a*          |  *n/a*
 Schema URL          | *describedBy*                 | *n/a*        | *n/a*       | *n/a*          |  *n/a*
 Dataset             | *dataset*                     | *n/a*        | *results*       | [dct:dataset](http://www.w3.org/TR/vocab-dcat/#Property:catalog_dataset) | [dataset](http://schema.org/dataset)
@@ -78,6 +81,7 @@ Note the mapping for `license` and `rights` from Project Open Data to DCAT appli
 {: .table .table-striped}
 Label                          | *POD v1.1*                             | *POD v1.0*   | *CKAN API* | *DCAT*  | *Schema.org*
 -------                        | -------                                | -------      | -------| ------- | -------
+Metadata Type                  | *@type*                                | *n/a*        | *n/a*       | *n/a*          |  *itemtype attribute* 
 Title                          | *title*                                | *title*                 | *title*           | [dct:title](http://www.w3.org/TR/vocab-dcat/#Property:dataset_title)                  | [name](http://schema.org/name)
 Description                    | *description*                          | *description*           | *notes*                | [dct:description](http://www.w3.org/TR/vocab-dcat/#Property:dataset_description) | [description](http://schema.org/description)
 Tags                           | *keyword*                              | *keyword*              | *tags*                | [dcat:keyword](http://www.w3.org/TR/vocab-dcat/#Property:dataset_keyword)    | [keywords](http://schema.org/keywords)
@@ -117,6 +121,7 @@ Dataset Distribution Fields
 {: .table .table-striped}
 Label                   | *POD v1.1*        | *POD v1.0*        | *CKAN API*                        | *DCAT*  | *Schema.org*
 -------                 | -------           | -------           | -------                           | ------- | -------
+Metadata Type           | *@type*           | *n/a*             | *n/a*                             | *n/a*   |  *itemtype attribute* 
 Download URL            | *downloadURL*     | *accessURL*       | *resources*  &rarr; *url*         | [dcat:downloadURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_downloadurl) | [contentUrl](http://schema.org/contentUrl)
 Access URL              | *accessURL*       | *n/a*             | *resources*  &rarr; *url*         | [dcat:accessURL](http://www.w3.org/TR/vocab-dcat/#Property:distribution_accessurl) | [contentUrl](http://schema.org/contentUrl)
 Media Type              | *mediaType*       | *format*          | *resources*  &rarr; *mimetype*    | [dcat:mediaType](http://www.w3.org/TR/vocab-dcat/#Property:distribution_media_type)       | *n/a*
