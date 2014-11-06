@@ -767,7 +767,6 @@ We added the **dataQuality** to indicate whether or not the data meets an agency
 
 Additional Information
 ----------------------
-* [Schema.org](http://schema.org)
+
+* [Template and Sample Files (CSV and JSON format)](/v1.1/metadata-resources/)
 * [DCAT](http://www.w3.org/TR/vocab-dcat/)
-* [Vocab.Data.gov](http://vocab.data.gov)
-* [Template and Sample Files (CSV and JSON format)](/metadata-resources/)
