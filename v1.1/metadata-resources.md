@@ -6,7 +6,7 @@ permalink: "/v1.1/metadata-resources/"
 filename: "metadata-resources.md"
 ---
 
-This section provides further background and resources to assist agencies in implementing the [Project Open Data metadata schema](/schema/).
+This section provides further background and resources to assist agencies in implementing the [Project Open Data metadata schema](/v1.1/schema/).
 
 In addition to template and sample files we also produce Project Open Data Metadata schema in JSON schema format. [JSON schema](http://json-schema.org/) describes a JSON data format. It can be used to automatically validate Data.json files and to generate forms for creating JSON.
 
