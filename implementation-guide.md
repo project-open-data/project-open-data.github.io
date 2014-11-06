@@ -38,14 +38,14 @@ This guidance introduces an Enterprise Data Inventory framework to provide agenc
 ### A. Create and Maintain an Enterprise Data Inventory
 
 #### Purpose
-To develop a clear and comprehensive understanding of what data assets they possess, Federal Agencies are required to create an Enterprise Data Inventory (Inventory) that accounts for all data assets created or collected by the agency.  This includes, but is not limited to, data assets used in the agency’s information systems. The Inventory must be enterprise-wide, accounting for data assets across programs<sup>[2](#footnote-2)</sup>  and bureaus<sup>[3](#footnote-3)</sup>,  and must use the required [Project Open Data metadata schema](/schema) available on Project Open Data.   After creating the Inventory, agencies should continually improve the usefulness of the Inventory by expanding, enriching, and opening the Inventory (concepts described in the framework below).
+To develop a clear and comprehensive understanding of what data assets they possess, Federal Agencies are required to create an Enterprise Data Inventory (Inventory) that accounts for all data assets created or collected by the agency.  This includes, but is not limited to, data assets used in the agency’s information systems. The Inventory must be enterprise-wide, accounting for data assets across programs<sup>[2](#footnote-2)</sup>  and bureaus<sup>[3](#footnote-3)</sup>,  and must use the required [Project Open Data metadata schema](/v1.1/schema) available on Project Open Data.   After creating the Inventory, agencies should continually improve the usefulness of the Inventory by expanding, enriching, and opening the Inventory (concepts described in the framework below).
 
 The objectives of this activity are to:
 
 * Build an internal inventory that accounts for data assets used in the agency' s information systems
 * Include data assets produced through agency contracts and cooperative agreements, and in some cases agency-funded grants; include data assets associated with, but not limited to, research, program administration, statistical, and financial activities
 * Indicate if the data may be made publicly available and if currently available
-* Describe the data with [Project Open Data metadata schema](/schema) available on Project Open Data.
+* Describe the data with [Project Open Data metadata schema](/v1.1/schema) available on Project Open Data.
 
 #### Framework to Create and Maintain the Enterprise Data Inventory: Expand, Enrich, Open
 Since agencies have varying levels of visibility into their data assets, the size and maturity of agencies’ Enterprise Data Inventories will differ across agencies. OMB will assess agency progress toward overall maturity of the Enterprise Data Inventory through the maturity areas of “Expand,” “Enrich,” and “Open.”

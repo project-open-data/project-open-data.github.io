@@ -11,6 +11,8 @@ This page lists changes to the Project Open Data metadata schema by version. Lat
 
 ### Version 1.1 _(DRAFT - as of 11/6/2014)_
 
+Changes made to establish the [v1.1 Schema](/v1.1/schema)
+
 ##### Catalog Required Fields
 * Adds required `conformsTo` field to specify the schema version ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
 * Adds required `dataset` field as a container for all datasets listed ([#309](https://github.com/project-open-data/project-open-data.github.io/issues/309))
@@ -57,7 +59,7 @@ This page lists changes to the Project Open Data metadata schema by version. Lat
 
 ### Version 1.0 FINAL - 9/20/2013
 
-####Updates to original draft metadata:
+Changes made to establish the [v1.0 Schema](/schema)
 
 ##### “Common Core” Required Fields
 * Aligns `modified` field to ISO 8601 of least resolution
