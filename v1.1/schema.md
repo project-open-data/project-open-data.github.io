@@ -38,7 +38,7 @@ Metadata File Format --  JSON
 
 The [Implementation Guidance](/implementation-guide/) available as a part of Project Open Data describes Agency requirements for the development of metadata as per the Open Data Policy.  A quick primer on the file format involved:
 
-[JSON](http://www.json.org) is a lightweight data-exchange format that is very easy to read, parse and generate.  Based on a subset of the JavaScript programming language, JSON is a text format that is optimized for data interchange.  JSON is built on two structures: (1) a collection of name/value pairs; and (2) an ordered list of values.  
+[JSON](http://www.json.org) is a lightweight data-exchange format that is very easy to read, parse and generate.  Based on a subset of the JavaScript programming language, JSON is a text format that is optimized for data interchange.  JSON is built on two structures: (1) a collection of name/value pairs and (2) an ordered list of values.  
 
 Where optional fields are included in a catalog file but are unpopulated, they may be represented by a `null` value.  They should not be represented by an empty string (`""`).  
 
@@ -51,7 +51,7 @@ The Project Open Data schema is case sensitive. The schema uses a camel case con
 > Incorrect: `contactpoint`  
 > incorrect: `CONTACTPOINT`  
 
-Links to downloadable examples of metadata files developed in this and other formats in [the metadata resources](/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
+Links to downloadable examples of metadata files developed in this and other formats are in [the metadata resources](/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
 
 
 Catalog Fields
@@ -61,11 +61,11 @@ These fields describe the entire Public Data Listing catalog file. Publishers ca
 {: .table .table-striped}
 Field                           | Label                 | Definition    | Required
 --------------                  | --------------        | --------------| --------------
-[@context](#context)            | Metadata Context      | URL or JSON object for the [JSON-LD Context](http://www.w3.org/TR/json-ld/#the-context) that defines the schema used | No 
-[@id](#id)                      | Metadata Catalog ID   | IRI for the [JSON-LD Node Identifier](http://www.w3.org/TR/json-ld/#node-identifiers) of the Catalog. This should be the URL of the data.json file itself | No 
-[@type](#type)                  | Metadata Type         | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Catalog` for the Catalog | No 
+[@context](#context)            | Metadata Context      | URL or JSON object for the [JSON-LD Context](http://www.w3.org/TR/json-ld/#the-context) that defines the schema used. | No 
+[@id](#id)                      | Metadata Catalog ID   | IRI for the [JSON-LD Node Identifier](http://www.w3.org/TR/json-ld/#node-identifiers) of the Catalog. This should be the URL of the data.json file itself. | No 
+[@type](#type)                  | Metadata Type         | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Catalog` for the Catalog. | No 
 [conformsTo](#conformsTo)       | Schema Version        | URI that identifies the version of the Project Open Data schema being used. | Always 
-[describedBy](#describedBy)     | Data Dictionary       | URL for the [JSON Schema](http://json-schema.org/) file that defines the schema used  | No
+[describedBy](#describedBy)     | Data Dictionary       | URL for the [JSON Schema](http://json-schema.org/) file that defines the schema used.  | No
 [dataset](#dataset)             | Dataset               | A container for the array of Dataset objects. See [Dataset Fields](#Dataset) below for details.  | Always
 
 
@@ -76,34 +76,34 @@ See the *[Further Metadata Field Guidance](#further-metadata-field-guidance)* se
 {: .table .table-striped}
 Field                                                      | Label                     | Definition      | Required
 --------------                                             | --------------            | --------------  | --------------
-[@type](#dataset-type)                                     | Metadata Type             | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Dataset` for each Dataset | No
+[@type](#dataset-type)                                     | Metadata Type             | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Dataset` for each Dataset. | No
 [title](#title)                                            | Title                     | Human-readable name of the asset.  Should be in plain English and include sufficient detail to facilitate search and discovery. | Always                
 [description](#description)                                | Description               | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | Always 
 [keyword](#keyword)                                        | Tags                      | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users. | Always              
 [modified](#modified)                                      | Last Update               | Most recent date on which the dataset was changed, updated or modified. | Always                                                                        
-[publisher](#publisher)                                    | Publisher                 | The publishing entity and optionally their parent organization(s) | Always                                                                                                                     
+[publisher](#publisher)                                    | Publisher                 | The publishing entity and optionally their parent organization(s). | Always                                                                                                                     
 [contactPoint](#contactPoint)                              | Contact Name and Email    | Contact person's name and email for the asset. | Always                                                                                                           
 [identifier](#identifier)                                  | Unique Identifier         | A unique identifier for the dataset or API as maintained within an Agency catalog or database. | Always                                                 
-[accessLevel](#accessLevel)                                | Public Access Level       | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public) | Always 
+[accessLevel](#accessLevel)                                | Public Access Level       | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public). | Always 
 [bureauCode](#bureauCode)<sup>[USG](#USG-note)</sup>       | Bureau Code               | Federal agencies, combined agency and bureau code from [OMB Circular A-11, Appendix C](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf) in the format of `015:11`. | Always  
-[programCode](#programCode)<sup>[USG](#USG-note)</sup>     | Program Code              | Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001` | Always                                                                                                                       
+[programCode](#programCode)<sup>[USG](#USG-note)</sup>     | Program Code              | Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls). Use the format of `015:001`. | Always                                                                                                                       
 [license](#license)                                        | License                   | The license or non-license (i.e. Public Domain) status with which the dataset or API has been published.  See [Open Licenses](/open-licenses/) for more information. | If-Applicable 
 [rights](#rights)                                          | Rights                    | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters. | If-Applicable 
 [spatial](#spatial)                                        | Spatial                   | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place. | If-Applicable                        
 [temporal](#temporal)                                      | Temporal                  | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).  | If-Applicable                                  
 [distribution](#distribution)                              | Distribution              | A container for the array of Distribution objects. See [Dataset Distribution Fields](#dataset-distribution-fields) below for details. | If-Applicable
-[accrualPeriodicity](#accrualPeriodicity)                  | Frequency                 | Frequency with which dataset is published.   | No                                                                                                  
-[conformsTo](#dataset-conformsTo)                          | Data Standard             | URI used to identify a standardized specification the dataset conforms to | No
+[accrualPeriodicity](#accrualPeriodicity)                  | Frequency                 | The frequency with which dataset is published.   | No                                                                                                  
+[conformsTo](#dataset-conformsTo)                          | Data Standard             | URI used to identify a standardized specification the dataset conforms to. | No
 [dataQuality](#dataQuality)<sup>[USG](#USG-note)</sup>     | Data Quality              | Whether the dataset meets the agency's Information Quality Guidelines (true/false). | No    
 [describedBy](#dataset-describedBy)                        | Data Dictionary           | URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`). | No              
-[describedByType](#dataset-describedByType)                | Data Dictionary Type      | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`) | No
+[describedByType](#dataset-describedByType)                | Data Dictionary Type      | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`). | No
 [isPartOf](#isPartOf)                                      | Collection                | The collection of which the dataset is a subset.  | No
 [issued](#issued)                                          | Release Date              | Date of formal issuance. | No                                                                                                                      
 [language](#language)                                      | Language                  | The language of the dataset. | No                                                                                                                  
 [landingPage](#landingPage)                                | Homepage URL              | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset. | No 
-[primaryITInvestmentUII](#primaryITInvestmentUII)<sup>[USG](#USG-note)</sup> | Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) | No
+[primaryITInvestmentUII](#primaryITInvestmentUII)<sup>[USG](#USG-note)</sup> | Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII). | No
 [references](#references)                                  | Related Documents         | Related documents such as technical information about a dataset, developer documentation, etc. | No                                                                                           
-[systemOfRecords](#systemOfRecords)<sup>[USG](#USG-note)</sup>        | System of Records         | If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | No
+[systemOfRecords](#systemOfRecords)<sup>[USG](#USG-note)</sup>        | System of Records         | If the system is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | No
 [theme](#theme)                                            | Category                  | Main thematic category of the dataset.  | No
 
 
@@ -114,13 +114,13 @@ Within a dataset, **distribution** is used to aggregate the metadata specific to
 {: .table .table-striped}
 Field                                           | Label                 | Definition     | Required
 --------------                                  | --------------        | -------------- | --------------                                                                                                                      
-[@type](#distribution-type)                     | Metadata Type         | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Distribution` for each Distribution | No
-[accessURL](#distribution-accessURL)            | Access URL            | URL providing indirect access to a dataset, for example via API or a graphical interface | If-Applicable
-[conformsTo](#distribution-conformsTo)          | Data Standard         | URI used to identify a standardized specification the distribution conforms to | No
+[@type](#distribution-type)                     | Metadata Type         | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Distribution` for each Distribution. | No
+[accessURL](#distribution-accessURL)            | Access URL            | URL providing indirect access to a dataset, for example via API or a graphical interface. | If-Applicable
+[conformsTo](#distribution-conformsTo)          | Data Standard         | URI used to identify a standardized specification the distribution conforms to. | No
 [describedBy](#distribution-describedBy)        | Data Dictionary       | URL to the data dictionary for the distribution found at the `downloadURL`.  Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields. | No             
-[describedByType](#distribution-describedByType)| Data Dictionary Type  | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `describedBy` URL | No
+[describedByType](#distribution-describedByType)| Data Dictionary Type  | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `describedBy` URL. | No
 [description](#distribution-description)        | Description           | Human-readable description of the distribution. | No
-[downloadURL](#distribution-downloadURL)        | Download URL          | URL providing direct access to a downloadable file of a dataset | If-Applicable
+[downloadURL](#distribution-downloadURL)        | Download URL          | URL providing direct access to a downloadable file of a dataset. | If-Applicable
 [format](#distribution-format)                  | Format                | A human-readable description of the file format of a distribution. | No
 [mediaType](#distribution-mediaType)            | Media Type            | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `downloadURL`. | If-Applicable   
 [title](#distribution-title)                    | Title                 | Human-readable name of the distribution. | No
@@ -273,7 +273,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | Must be one of the following: "public", "restricted public", "non-public"
-**Usage Notes** | This field refers to degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
+**Usage Notes** | This field refers to the degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
 **Example** | `{"accessLevel":"public"}`
 
 {: .table .table-striped #accrualPeriodicity}
