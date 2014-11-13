@@ -31,6 +31,7 @@ Changes made to establish the [v1.1 Schema](/v1.1/schema)
 	* Adds `name` as part of `publisher` replacing earlier use of `publisher` ([#296](https://github.com/project-open-data/project-open-data.github.io/issues/296)) 
 	* Adds optional `subOrganizationOf` field as part of `publisher` to include parent organization hierarchy ([#296](https://github.com/project-open-data/project-open-data.github.io/issues/296)) 
 * Adds optional `@type` field to specify a JSON-LD data type ([#338](https://github.com/project-open-data/project-open-data.github.io/issues/388))
+* Recommends that `identifier` uses a URL, but does not require it. ([#69](https://github.com/project-open-data/project-open-data.github.io/issues/69))
 
 ##### Dataset Required-if-Applicable Fields  
 * Removes `webService` field. APIs can be described within a `distribution` using `accessURL` and `format` ([#291](https://github.com/project-open-data/project-open-data.github.io/issues/291)) 
