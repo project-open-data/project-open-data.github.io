@@ -21,7 +21,7 @@ In addition to template and sample files we also produce Project Open Data Metad
 
 ### JSON Schema Files ###
 
-* 1.1 Schema (Draft): [Dataset](/v1.1/schema/dataset.json) and [Catalog](/v1.1/schema/catalog.json)
+* [1.1 Schema](/v1.1/schema/catalog.json) (Draft). The [Catalog](/v1.1/schema/catalog.json) schema includes by reference the [Dataset](/v1.1/schema/dataset.json), [Distribution](/v1.1/schema/distribution.json), [Organization](/v1.1/schema/organization.json), and [vCard](/v1.1/schema/vcard.json) schemas. 
 
 ### JSON-LD Context ###
 
