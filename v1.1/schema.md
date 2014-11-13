@@ -541,7 +541,7 @@ Dataset Fields {#Dataset}
 **Required** | No
 **Accepted Values** | String
 **Usage Notes** | This field allows the grouping of multiple datasets into a "collection".  This field should be employed by the individual datasets that together make up a collection.  The value for this field should match the `identifier` of the parent dataset.  
-**Example** |  `{"isPartOf":"1344"}`
+**Example** |  `{"isPartOf":"http://dx.doi.org/10.7927/H4PZ56R2"}`
 
 {: .table .table-striped #issued}
 **Field [#](#issued){: .permalink}** | **issued**
