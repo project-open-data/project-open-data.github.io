@@ -531,8 +531,8 @@ Dataset Fields {#Dataset}
 **Cardinality** | (1,1)
 **Required** | Yes, always
 **Accepted Values** | String
-**Usage Notes** | This field allows third parties to maintain a consistent record for datasets even if title or URLs are updated. Agencies may integrate an existing system for maintaining unique identifiers or enter arbitrary characters for this field. However, each identifier **must** be unique across the agency's catalog and remain fixed. Characters should be alphanumeric.
-**Example** |  `{"identifier":"1344"}`
+**Usage Notes** | This field allows third parties to maintain a consistent record for datasets even if title or URLs are updated. Agencies may integrate an existing system for maintaining unique identifiers. Each identifier **must** be unique across the agency's catalog and remain fixed. Characters should be alphanumeric. It is **highly recommended** that a [URI (preferably an HTTP URL)](http://tools.ietf.org/html/rfc3986#section-1.1.3), be used to provide a globally unique identifier. URLs should be designed and maintained to persist indefinitely regardless of whether the URL of the resource itself changes.
+**Example** |  `{"identifier":"http://dx.doi.org/10.7927/H4PZ56R2"}`
 
 {: .table .table-striped #isPartOf}
 **Field [#](#isPartOf){: .permalink}** | **isPartOf**

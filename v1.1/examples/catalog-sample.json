@@ -28,7 +28,7 @@
           "accessURL": "https://data.agency.gov/api/widgets-statistics/"
         }
       ],
-      "identifier": "widgets-0001",
+      "identifier": "http://dx.doi.org/10.7927/H45X26V8",
       "keyword": [
         "widget",
         "manufacturing",
@@ -62,7 +62,7 @@
         "hasEmail": "mailto:james.doe@agency.gov"
       },
       "description": "This dataset provides ranges on widget phase modulation",
-      "identifier": "widget-modulators",
+      "identifier": "http://dx.doi.org/10.7927/",
       "keyword": [
         "widget",
         "modulation"
@@ -101,7 +101,7 @@
           "mediaType": "text/csv"
         }
       ],
-      "identifier": "widget-modulation-2011",
+      "identifier": "http://dx.doi.org/10.7927/H49P2ZKM",
       "keyword": [
         "widget",
         "modulation"
