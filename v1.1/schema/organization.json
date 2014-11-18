@@ -18,7 +18,8 @@
     "name": {
       "title": "Publisher Name",
       "description": "A full formatted name, eg Firstname Lastname",
-      "type": "string"
+      "type": "string",
+      "minLength": 1 
     },
     "subOrganizationOf": {
       "title": "Parent Organization",

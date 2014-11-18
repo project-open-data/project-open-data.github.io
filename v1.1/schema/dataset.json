@@ -133,7 +133,8 @@
     "description": {
       "title": "Description",
       "description": "Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest.",
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "distribution": {
       "title": "Distribution",
@@ -408,7 +409,8 @@
     "title": {
       "title": "Title",
       "description": "Human-readable name of the asset. Should be in plain English and include sufficient detail to facilitate search and discovery.",
-      "type": "string"
+      "type": "string", 
+      "minLength": 1
     }
   }
 }
