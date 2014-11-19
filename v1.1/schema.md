@@ -175,7 +175,7 @@ Additional details for each field are provided here broken down into sections fo
             * {: .field-optional}[description](#distribution-description)
             * {: .field-optional}[format](#distribution-format)
             * {: .field-required-if-applicable}[mediaType](#distribution-mediaType)
-            * {: .field-optional}[title](#title)
+            * {: .field-optional}[title](#distribution-title)
         * {: .field-required}[identifier](#identifier)
         * {: .field-optional}[isPartOf](#isPartOf)
         * {: .field-optional}[issued](#issued)
@@ -303,7 +303,7 @@ Dataset Fields {#Dataset}
 **Required** | No
 **Accepted Values** | String (URI)
 **Usage Notes** | This is used to identify a standardized specification the dataset conforms to. If this is a technical specification associated with a particular serialization of a distribution, this should be specified with [conformsTo](#distribution-conformsTo) at the distribution level. It's recommended that this be a URI that serves as a unique identifier for the standard. The URI may or may not also be a URL that provides documentation of the specification.
-**Example** | `{"conformsTo": "http://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html"}`
+**Example** | `{"conformsTo": "http://www.agency.gov/common-vegetable-analysis-model/"}`
 
 {: .table .table-striped #contactPoint}
 **Field [#](#contactPoint){: .permalink}** | **contactPoint**
@@ -504,7 +504,7 @@ Dataset Fields {#Dataset}
 **Required** | No
 **Accepted Values** | String
 **Usage Notes** | This should be a human-readable description of the file format of the dataset, that provides useful information that might not be apparent from `mediaType`.  
-**Example** | `{"format":"A CSV spreadsheet compressed in a ZIP file."}`
+**Example** | `{"format":"CSV"}`
 
 {: .table .table-striped .child-field #distribution-mediaType}
 **Field [#](#distribution-mediaType){: .permalink}** | **distribution &rarr; mediaType**
