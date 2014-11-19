@@ -467,7 +467,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is available for public download.
 **Accepted Values** | String (URL)
-**Usage Notes** | This must be the `direct` download URL. Other means of accessing the dataset should be expressed using `accessURL`.  This should always be accompanied by `mediaType`.  
+**Usage Notes** | This must be the **direct** download URL. Other means of accessing the dataset should be expressed using `accessURL`.  This should always be accompanied by `mediaType`.  
 **Example** |  `{"downloadURL":"http://www.agency.gov/vegetables/listofvegetables.csv"}`
 
 {: .table .table-striped .child-field #distribution-describedBy}
