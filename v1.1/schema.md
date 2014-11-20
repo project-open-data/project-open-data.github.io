@@ -190,6 +190,7 @@ Additional details for each field are provided here broken down into sections fo
             * {: .field-optional}[@type](#publisher-type) 
             * {: .field-required}[name](#publisher-name)
             * {: .field-optional}[subOrganizationOf](#publisher-subOrganizationOf)
+        * {: .field-optional}[references](#references)
         * {: .field-required-if-applicable}[rights](#rights)
         * {: .field-required-if-applicable}[spatial](#spatial)
         * {: .field-optional}[systemOfRecords](#systemOfRecords)
