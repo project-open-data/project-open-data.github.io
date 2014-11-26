@@ -82,7 +82,7 @@ Project Open Data provides metadata requirements, additional optional metadata f
 ### Minimum Requirements to Create and Maintain an Enterprise Data Inventory
 
 #### Develop and Submit to OMB an Inventory Schedule (by November 30, 2013)
-* Describe how the agency will ensure that all data assets from each bureau and program in the agency have been identified and accounted for in the Inventory, to the extent practicable, no later than November 30, 2014.  
+* Describe how the agency will ensure that all data assets from each bureau and program in the agency have been identified and accounted for in the Inventory, to the extent practicable, no later than November 30, 2014.  **Note: After the November 2014 deadline, agencies will still be required to update their Inventories and submit them to OMB on a quarterly basis until directed otherwise.**
 * Describe how the agency plans to expand, enrich, and open their Inventory each quarter through November 30, 2014 at a minimum; include a summary and milestones in the schedule.<sup>[10](#footnote-10)</sup>
 * Publish Inventory Schedule on the www.\[agency\].gov/digitalstrategy page by November 30, 2013.<sup>[11](#footnote-11)</sup>
 
