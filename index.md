@@ -15,14 +15,16 @@ With the recent enactment of the “Digital Accountability Transparency Act” (
 
 Collaboration across the Federal Government and with external stakeholders is critical to the successful implementation of the DATA Act. We would like to use this collaboration space to foster a two way communication and collaboration with both Federal and non-Federal stakeholders. 
 
+##Recent News and Events
 
-##Recent Events
+###News
+* The U.S. Treasury Department issued a solicitation for public input on the establishment of Federal financial data exchange standards via a  [Federal Register Notice](https://federalregister.gov/a/2014-22997).  See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004). 
+
+###Events
 * [Financial Data Transparency Town Hall September 26, 2014](http://fedspendingtransparency.github.io/thdescription/)
 
 
 ##How to Contribute
-
-Due to limited time, we did not give Town Hall attendees an opportunity to ask questions and provide comments on the presenations given during the town hall. In an effort to increase collaboration, we welcome your comments and questions!
 
 For information on how to contribute, please see the [how to contribute](http://fedspendingtransparency.github.io/contributing/).
 
