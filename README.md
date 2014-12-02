@@ -4,7 +4,7 @@
 
 ## How to Contribute
 
-For information on how to contribute, please see the [how to contribute](CONTRIBUTING.md)
+For information on how to contribute, please click [here](CONTRIBUTING.md)
 
 ## License
 
