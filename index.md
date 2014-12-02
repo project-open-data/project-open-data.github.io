@@ -15,27 +15,31 @@ With the recent enactment of the “Digital Accountability Transparency Act” (
 
 Collaboration across the Federal Government and with external stakeholders is critical to the successful implementation of the DATA Act. We would like to use this collaboration space to foster a two way communication and collaboration with both Federal and non-Federal stakeholders. 
 
-##Recent News and Events
 
-###News
+###Recent News and Events
+
+#####News
 * The U.S. Treasury Department issued a solicitation for public input on the establishment of Federal financial data exchange standards via a  [Federal Register Notice](https://federalregister.gov/a/2014-22997).  See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004). 
 
-###Events
+#####Events
 * [Financial Data Transparency Town Hall September 26, 2014](http://fedspendingtransparency.github.io/thdescription/)
 
 
-##How to Contribute
+###Join the Conversation 
+*Topics:*
+* [Federal Spending Data Elements](fedspendingtransparency.github.io/dataelements.md)
+* 
+*For information on how to contribute, click [here](http://fedspendingtransparency.github.io/contributing/).*
 
-For information on how to contribute, click [here](http://fedspendingtransparency.github.io/contributing/).
 
-
-##License
+###License
 
 The project is a public domain work and is not subject to domestic or international copyright protection. See [the license file](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/blob/master/LICENSE) for additional information.
 
 Members of the public and US government employees who wish to contribute are encourage to do so, but by contributing, dedicate their work to the public domain and waive all rights to their contribution under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/).
 
-##Privacy
+
+###Privacy
 
 Comments, pull requests and any other messages received through this repository may be subject to the [Presidential Records Act](http://www.archives.gov/about/laws/presidential-records.html) and may be archived. Learn more at [http://WhiteHouse.gov/privacy](http://WhiteHouse.gov/privacy).
 
