@@ -10,18 +10,22 @@ title: dataelements
 
 The data elements in the below list represent the existing Federal Funding Accountability and Transparency Act (FFATA) data elements currently displayed on [USAspending.gov](http://www.usaspending.gov/) and the additional data elements that will be posted pursuant to the DATA Act. These elements are currently being deliberated on and discussed by the Federal community as a part of DATA Act implementation. At this point, this list is exhaustive. However, additional data elements may be standardized for transparency reporting in the future based on agency or community needs. 
 
-#####*Join the Conversation*
+####*Join the Conversation*
 
 At this time, we are asking for comments in response to the following questions:
 
 1.	[Which data elements are most crucial to your current reporting and/or analysis?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/6) 
+
 2.	[In setting standards, what are industry standards the Treasury and OMB should be considering?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/7)
+
 3.	[What are some of the considerations that Treasury and OMB should take into account when establishing data standards?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/8)
+
 
 ### Federal Spending Data Elements List
 
 Number | Data Element Name | Category | Legislation (FFATA or DATA Act)
 ------ | -------- | ----------------- | ------------------------------
+  |   |   | 
 1	| Awardee/Recipient Legal Business Name	| Awardee/Recipient Entity Information	| FFATA 
 2	| Awardee/Recipient Legal Business Identifier Number	| Awardee/Recipient Entity Information |	FFATA 
 3	| Ultimate Awardee/Recipient Parent Identifier Number	| Awardee/Recipient Entity Information |	FFATA 
