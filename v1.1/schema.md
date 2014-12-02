@@ -31,7 +31,7 @@ A dataset is an identifiable collection of structured data objects unified by so
 
 A Web API (**A**pplication **P**rogramming **I**nterface) allows computer programs to dynamically query a dataset using the World Wide Web. For example, a dataset of [farmers markets](http://catalog.data.gov/dataset/farmers-markets-geographic-data) may be made available for download as a single file (e.g., a CSV), or may be made available to developers through a Web API, such that a computer program could use a ZIP Code to retrieve a list of farmers markets in the ZIP Code area.
 
-The catalog file for each agency should list all of the agency's datasets that can be made public, regardless of whether they are distributed by a file download or [through a Web API](https://project-open-data.cio.gov/v1.1/api/).  
+The catalog file for each agency should list all of the agency's datasets that can be made public, regardless of whether they are distributed by a file download or a Web API. Please also see the extended guidance on [documenting Web APIs in your data.json files](/v1.1/api/).  
 
 
 Metadata File Format --  JSON
@@ -450,7 +450,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is accessible indirectly, through means other than direct download.
 **Accepted Values** | String (URL)
-**Usage Notes** | This should be the URL for an indirect means of accessing the data, such as [API documentation](https://project-open-data.cio.gov/v1.1/api/), a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data. When accessLevel is "restricted public" but the dataset is available online indirectly, this field should be the URL that provides indirect access. This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
+**Usage Notes** | This should be the URL for an indirect means of accessing the data, such as [API documentation](/v1.1/api/), a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data. When accessLevel is "restricted public" but the dataset is available online indirectly, this field should be the URL that provides indirect access. This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
 **Example** |  `{"accessURL":"http://www.agency.gov/api/vegetables/"}`
 
 {: .table .table-striped .child-field #distribution-conformsTo}
