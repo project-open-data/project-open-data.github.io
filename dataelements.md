@@ -1,3 +1,10 @@
+---
+published: true
+permalink: /
+layout: hero
+filename: dataelements.md
+title: Federal Spending Data Elements
+---
 
 ## Federal Spending Data Elements 
 
