@@ -6,7 +6,7 @@ permalink: /v1.1/api/
 filename: api.md
 ---
 
-Agencies should list private, internal, and public-facing web APIs as part of their Enterprise Data Inventory and Public Data Listing data.json files. The original v1.0 schema acommondated the listing of APIs with a separate `webServices` field, but with the [v1.1 schema](/v1.1/schema/), APIs should now be listed as a separate distribution within a dataset. Since an API provides indirect access to a dataset and the primary URL that a user needs in order to access the API is the API documentation, all web APIs should be referenced using the primary API documentation URL as an `accessURL` with the `format` specified as "API". The `downloadURL` and `mediaType` fields should be left empty for a distribution that describes an API, but if the raw data download that powers the API is also available (as it should be) then that should be specified using the `downloadURL` and `mediaType` of another distribution entry on the same dataset. 
+Agencies should list private, internal, and public-facing web APIs as part of their Enterprise Data Inventory and Public Data Listing data.json files. The original v1.0 schema accommodated the listing of APIs with a separate `webServices` field, but with the [v1.1 schema](/v1.1/schema/), APIs should now be listed as a separate distribution within a dataset. Since an API provides indirect access to a dataset and the primary URL that a user needs in order to access the API is the API documentation, all web APIs should be referenced using the primary API documentation URL as an `accessURL` with the `format` specified as "API". The `downloadURL` and `mediaType` fields should be left empty for a distribution that describes an API, but if the raw data download that powers the API is also available (as it should be) then that should be specified using the `downloadURL` and `mediaType` of another distribution entry on the same dataset. 
 
 Machine Readable API Documentation
 --------------------------------------------------
@@ -15,6 +15,8 @@ For APIs that also have machine readable documentation (like [Swagger](https://g
 
 Media Types for Machine Readable API Documentation
 --------------------------------------------------
+
+These media types should be used for the `describedByType` field along with the URL to the machine readable documentation itself using the `describedBy` field. This should not be confused with the `format` field which should be "API" for an API and `mediaType` which should be blank for an API. 
 
 * The media type for Swagger has been [proposed](https://github.com/wordnik/swagger-spec/issues/110) as `application/swagger+json` 
 * The media type for RAML has been [defined](http://raml.org/spec.html#overview) as `application/raml+yaml`
