@@ -24,7 +24,7 @@ At this time, we are asking for comments in response to the following questions:
 ### Federal Spending Data Elements List
 
 Number | Data Element Name | Category | Legislation (FFATA or DATA Act)
------- | -------- | ----------------- | ------------------------------
+-- | ---------------- | ----------------- | -----
   |   |   | 
 1	| Awardee/Recipient Legal Business Name	| Awardee/Recipient Entity Information	| FFATA 
 2	| Awardee/Recipient Legal Business Identifier Number	| Awardee/Recipient Entity Information |	FFATA 
