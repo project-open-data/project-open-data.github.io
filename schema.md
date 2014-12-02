@@ -7,9 +7,19 @@ filename: schema.md
 id: schema
 ---
 
+
+******************
+
+
+
 {: .bg-warning .text-danger}
 ***IMPORTANT NOTE***  
 This version of the schema has been deprecated in favor of the [Project Open Data Metadata Schema v1.1](/v1.1/schema). Federal CFO-Act agencies are expected to complete the transition to the v1.1 schema by **February 1st, 2015**. 
+
+
+******************
+
+
 
 This section contains guidance to support the use of the common core metadata to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.
 
