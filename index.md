@@ -28,7 +28,7 @@ Collaboration across the Federal Government and with external stakeholders is cr
 ###Join the Conversation 
 *Topics:*
 * [Federal Spending Data Elements](https://fedspendingtransparency.github.io/dataelements/)
-* 
+
 *For information on how to contribute, click [here](http://fedspendingtransparency.github.io/contributing/).*
 
 
