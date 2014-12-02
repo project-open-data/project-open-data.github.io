@@ -31,7 +31,7 @@ A dataset is an identifiable collection of structured data objects unified by so
 
 A Web API (**A**pplication **P**rogramming **I**nterface) allows computer programs to dynamically query a dataset using the World Wide Web. For example, a dataset of [farmers markets](http://catalog.data.gov/dataset/farmers-markets-geographic-data) may be made available for download as a single file (e.g., a CSV), or may be made available to developers through a Web API, such that a computer program could use a ZIP Code to retrieve a list of farmers markets in the ZIP Code area.
 
-The catalog file for each agency should list all of the agency's datasets that can be made public, regardless of whether they are distributed by a file download or through a Web API.  
+The catalog file for each agency should list all of the agency's datasets that can be made public, regardless of whether they are distributed by a file download or [through a Web API](https://project-open-data.cio.gov/v1.1/api/).  
 
 
 Metadata File Format --  JSON
