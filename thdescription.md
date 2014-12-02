@@ -2,7 +2,7 @@
 published: true
 permalink: /thdescription/
 layout: hero
-filename: thdescription
+filename: thdescription.md
 title: thdescription
 ---
 
