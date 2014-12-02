@@ -1,9 +1,9 @@
 ---
 published: true
-permalink: /
+permalink: /dataelements/
 layout: hero
 filename: dataelements.md
-title: Federal Spending Data Elements
+title: dataelements
 ---
 
 ## Federal Spending Data Elements 
