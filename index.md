@@ -185,8 +185,7 @@ Federal agency staff dedicated to handling Freedom of Information Act (FOIA) req
 **Goal:** To monitor and measure the incoming demand for data and proactively release data in response to that signal.
 
 #### Chief Data Officers  
-Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. See this growing list of federal Chief Data Officers. 
-*Ex: Daniel Morgan, Chief Data Officer, Department of Transportation.*
+Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. *See this [growing list of federal Chief Data Officers](chiefdataofficers/).*
 
 **Goal:** To engage sister agencies in open data community events. 
 
