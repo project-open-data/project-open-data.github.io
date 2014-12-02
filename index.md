@@ -26,7 +26,7 @@ Collaboration across the Federal Government and with external stakeholders is cr
 
 ##How to Contribute
 
-For information on how to contribute, please see the [how to contribute](http://fedspendingtransparency.github.io/contributing/).
+For information on how to contribute, click [here](http://fedspendingtransparency.github.io/contributing/).
 
 
 ##License
