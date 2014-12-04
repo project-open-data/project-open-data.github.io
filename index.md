@@ -44,6 +44,8 @@ Implementation guidance for open data practices.
 
 3-3 [Public Data Listing](/catalog/) - The specific guidance for publishing the Open Data Catalog at the agency.gov/data page.
 
+3-4 [Documenting APIs](/v1.1/api/) - The specific guidance for documenting APIs in the data catalogs.   
+
 3-4 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.
 
 3-5 [Open Data Cross Priority (CAP) Goal](http://goals.performance.gov/opendata) - Information on the development of the Open Data CAP goal as required in the [Open Data Executive Order](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government).
