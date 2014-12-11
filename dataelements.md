@@ -83,7 +83,7 @@ Number | Data Element Name | Category | Legislation (FFATA or DATA Act)
 56	| Award ID |	Award Information	| DATA Act
 57	| Program Activity	| Account Information	| DATA Act
 58	| Outlay	| Account Information	| DATA Act
-59	| Expenditure	| Award Information	| DATA Act
+
 
 
 ####Thank you for your contribution to DATA Act implementation!
