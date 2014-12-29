@@ -297,8 +297,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Accepted Values** | ISO 8601 Date
 **Usage Notes** | Dates should be [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the **issued** date here as well.  
   
-If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this by [giving the duration](http://en.wikipedia.org/wiki/ISO_8601#Durations).  For instance, `P1D` for daily, `P2W` for every two weeks, and `PT5M` for every five minutes.  
-**Example** |  `{"modified":"2012-01-15"}` or `{"modified":"P1D"}`
+If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this [with repeating intervals](http://en.wikipedia.org/wiki/ISO_8601#Time_intervals).  For instance, `R/P1D` for daily, `R/P2W` for every two weeks, and `R/PT5M` for every five minutes.  
+**Example** |  `{"modified":"2012-01-15"}` or `{"modified":"R/P1D"}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#PrimaryITInvestmentUII">#</a>** | **<a name="PrimaryITInvestmentUII">PrimaryITInvestmentUII</a>**
