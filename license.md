@@ -1,3 +1,10 @@
+---
+published: true
+permalink: /license/
+layout: hero
+filename: license.md
+title: Federal Spending Collaboration Space - License
+---
 #License
 
 The project is a public domain work and is not subject to domestic or international copyright protection. See [the license file](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/blob/master/LICENSE) for additional information.

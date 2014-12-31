@@ -22,7 +22,6 @@ We are using [Github issues](https://guides.github.com/features/issues/) to trac
 *For additional information on how to provide feedback, click [here](feedback/).*
 
 
-
 ##Recent News and Events
 
 ####News
