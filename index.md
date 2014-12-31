@@ -3,17 +3,24 @@ published: true
 permalink: /
 layout: hero
 filename: index.md
-title: Events
+title: Federal Spending Collaboration Space
 ---
 
-#Welcome to the Federal Spending Transparency Collaboration Page 
-
-[![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.png?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
-
+#We Need Your Feedback! 
 
 With the recent enactment of the “Digital Accountability Transparency Act” (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm), the Federal Government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information. 
 
 Collaboration across the Federal Government and with external stakeholders is critical to the successful implementation of the DATA Act. We would like to use this collaboration space to foster a two way communication and collaboration with both Federal and non-Federal stakeholders. 
+
+
+##How to Participate
+
+Take a look at the [data elements being considered for publication](dataelements/). Is something missing? Do you have thoughts on how a particular data element should be defined? Do you have questions about a data element? 
+
+We are using [Github issues](https://guides.github.com/features/issues/) to track the conversation and changes around each data element. You'll find that each data element has its own issue, and is appropriately tagged with a category (such as awardee or account information). If you think a data element is missing, create an issue and add the tag: "proposed element". Otherwise, comment on the existing issue for that data element to join the discussion.
+
+*For additional information on how to provide feedback, click [here](feedback/).*
+
 
 
 ##Recent News and Events
@@ -22,25 +29,8 @@ Collaboration across the Federal Government and with external stakeholders is cr
 * The U.S. Treasury Department issued a solicitation for public input on the establishment of Federal financial data exchange standards via a  [Federal Register Notice](https://federalregister.gov/a/2014-22997).  See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004). 
 
 ####Events
-* [Financial Data Transparency Town Hall September 26, 2014](http://fedspendingtransparency.github.io/thdescription/)
+* [Financial Data Transparency Town Hall September 26, 2014](thdescription/)
 
 
-##Join the Conversation 
-*Topics:*
 
-* [Federal Spending Data Elements](http://fedspendingtransparency.github.io/dataelements/)
-
-*For additional information on how to contribute, click [here](http://fedspendingtransparency.github.io/contributing/).*
-
-
-##License
-
-The project is a public domain work and is not subject to domestic or international copyright protection. See [the license file](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/blob/master/LICENSE) for additional information.
-
-Members of the public and US government employees who wish to contribute are encourage to do so, but by contributing, dedicate their work to the public domain and waive all rights to their contribution under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/).
-
-
-##Privacy
-
-Comments, pull requests and any other messages received through this repository may be subject to the [Presidential Records Act](http://www.archives.gov/about/laws/presidential-records.html) and may be archived. Learn more at [http://WhiteHouse.gov/privacy](http://WhiteHouse.gov/privacy).
 

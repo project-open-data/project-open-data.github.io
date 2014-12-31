@@ -12,6 +12,12 @@ ul a[rel="footnote"] {
   top: -0.5em;
   vertical-align: baseline;
 }
+
+.span12 {
+    line-height: 1.6em;
+    font-size: 1.1em;
+}
+
 h1,
 h2,
 h3,
