@@ -22,6 +22,11 @@ We are using [Github issues](https://guides.github.com/features/issues/) to trac
 *For additional information on how to provide feedback, click [here](feedback/).*
 
 
+##The Timeline
+
+More info about the overall comment process goes here
+
+
 ##Recent News and Events
 
 ####News

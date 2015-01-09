@@ -10,22 +10,9 @@ title: dataelements
 
 The data elements in the below list represent the existing Federal Funding Accountability and Transparency Act (FFATA) data elements currently displayed on [USAspending.gov](http://www.usaspending.gov/) and the additional data elements that will be posted pursuant to the DATA Act. These elements are currently being deliberated on and discussed by the Federal community as a part of DATA Act implementation. At this point, this list is exhaustive. However, additional data elements may be standardized for transparency reporting in the future based on agency or community needs. 
 
-##*Join the Conversation*
+The data elements are grouped by category. Each element has its own Github issue where discussion can take place. You can provide feedback simply by clickling on an element and adding your comments to the issue. If you think an element is missing, please create a new issue, per our [contributing guidelines](feedback/).
 
-At this time, we are asking for comments in response to the following questions:
-
-1.	[Which data elements are most crucial to your current reporting and/or analysis?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/6) 
-
-2.	[In setting standards, what are industry standards the Treasury and OMB should be considering?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/7)
-
-3.	[What are some of the considerations that Treasury and OMB should take into account when establishing data standards?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/8)
-
-
-## Federal Spending Data Elements List
-
-The following elements represent an exhaustive list of all the data elements that will be part of a data standard for financial data. They are grouped by category. If you think an element is missing, please file an issue, per our [contributing guidelines](feedback/).
-
-### Awardee and Recipient Entity Information
+## Awardee and Recipient Entity Information
 
 Information in this section pertains to the awardee or recipient of federal funds. These elements will be the same, regardless of award type (grant, contract, etc.). 
 
@@ -42,7 +29,7 @@ Number | Data Element Name | Legislation
 45	| Top 5 Highly Compensated Officer Names	| FFATA 
 46	| Top 5 Highly Compensated Officer Total Compensations | FFATA 
 
-### Award Amount Information
+## Award Amount Information
 
 This section contains information on the amount of the award.
 
@@ -54,7 +41,7 @@ Number | Data Element Name | Legislation
 12	| Current Total Value of Award | FFATA 
 13	| Potential Total Value of Award | FFATA 
 
-### Award Information
+## Award Information
 
 These elements relate to categorical information regarding the actual award.
 
@@ -84,7 +71,7 @@ Number | Data Element Name | Legislation
 49	| Business Type	| FFATA 
 
 
-### Funding Entity Information
+## Funding Entity Information
 
 These data elements describe the entity providing the majority of the funding for the award.
 
@@ -97,7 +84,7 @@ Number | Data Element Name | Legislation
 18	| Office Name	| FFATA 
 19	| Office Code	| FFATA 
 
-### Awarding Entity Information
+## Awarding Entity Information
 
 Number | Data Element Name | Legislation
 ------ | ---------------- | ----- 
@@ -108,7 +95,7 @@ Number | Data Element Name | Legislation
 34	| Awarding Office Name	| FFATA 
 35	| Awarding Office Code	| FFATA 
 
-### Account Information
+## Account Information
 
 Number | Data Element Name | Legislation
 ------ | ---------------- | ----- 
@@ -120,6 +107,18 @@ Number | Data Element Name | Legislation
 55	| Amount of other budgetary resources 	| DATA Act
 57	| Program Activity	| DATA Act
 58	| Outlay	| DATA Act
+
+
+##Join the Conversation
+
+At this time, we are also gathering some more general feedback on how the public will use these data in the course of their work. We are asking for comments in response to the following questions:
+
+1.	[Which data elements are most crucial to your current reporting and/or analysis?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/6) 
+
+2.	[In setting standards, what are industry standards the Treasury and OMB should be considering?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/7)
+
+3.	[What are some of the considerations that Treasury and OMB should take into account when establishing data standards?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/8)
+
 
 
 
