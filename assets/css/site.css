@@ -145,25 +145,28 @@ table {
   border-spacing: 0;
   max-width: 100%;
 }
-.table {
+table {
   margin-bottom: 20px;
   width: 100%;
 }
-.table th, .table td {
+table th, table td {
   border-top: 1px solid #DDDDDD;
   line-height: 20px;
-  padding: 8px;
+  padding: .8em;
   text-align: left;
   vertical-align: top;
 }
-.table-striped tbody tr:nth-child(2n+1) td,
-.table-striped tbody tr:nth-child(2n+1) th { background-color: #F9F9F9; }
+
+table thead tr { background-color: #002a5b; color:white; }
+table tbody tr:nth-child(2n+1) td,
+table  tbody tr:nth-child(2n+1) th { background-color: #e9e9e9; }
 
 
 
 
 table tr td:nth-child(1) {
     width: 15%;
+    text-align: center;
 }
 
 table tr td code {
@@ -175,9 +178,6 @@ table + table {
 margin-top : 5em;
 }
 
-table tr:first-child {
-background-color : #e3e3e3;
-}
 
 
 .schema table th a,
