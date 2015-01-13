@@ -26,8 +26,8 @@ Number | Data Element Name | Legislation
 6	| Legal Business Congressional District	| FFATA 
 7	| Legal Business Country Code	| FFATA 
 8	| Legal Business Country Name	| FFATA 
-45	| Top 5 Highly Compensated Officer Names	| FFATA 
-46	| Top 5 Highly Compensated Officer Total Compensations | FFATA 
+9	| Top 5 Highly Compensated Officer Names	| FFATA 
+10	| Top 5 Highly Compensated Officer Total Compensations | FFATA 
 
 ## Award Amount Information
 
@@ -35,11 +35,11 @@ This section contains information on the amount of the award.
 
 Number | Data Element Name | Legislation
 ------ | ---------------- | ----- 
-9	| Funding Action Obligation	| FFATA 
-10	| Non-federal Funding Amount | FFATA 
-11	| Current Total Funding Obligation Amount on Award   | FFATA 
-12	| Current Total Value of Award | FFATA 
-13	| Potential Total Value of Award | FFATA 
+11	| Funding Action Obligation	| FFATA 
+12	| Non-federal Funding Amount | FFATA 
+13	| Current Total Funding Obligation Amount on Award   | FFATA 
+14	| Current Total Value of Award | FFATA 
+15	| Potential Total Value of Award | FFATA 
 
 ## Award Information
 
@@ -47,29 +47,28 @@ These elements relate to categorical information regarding the actual award.
 
 Number | Data Element Name | Legislation
 ------ | ---------------- | ----- 
-20	| Type of Transaction Code | FFATA 
-21	| North American Industry Classification System (NAICS) Code	| FFATA 
-22	| North American Industry Classification System (NAICS) Description 	| FFATA 
-23	| Catalog of Federal Domestic Assistance (CFDA) Number 	| FFATA 
-24	| Catalog of Federal Domestic Assistance (CFDA) Title 	| FFATA 
-25	| Treasury Account Symbol	| FFATA 
-26	| Award Description	| FFATA 
-28	| Award ID Modification/Amendment	| FFATA 
-29	| Parent Award ID	| FFATA 
-36	| Action Date	| FFATA 
-37	| Period of Performance Start Date	| FFATA 
-38	| Period of Performance Current End Date | FFATA 
-39	| Period of Performance Potential End Date | FFATA 
-40	| Ordering Period End Date | FFATA 
-41	| Primary Place of Performance Address	| FFATA 
-42	| Primary Place of Performance Congressional District	| FFATA 
-43	| Primary Place of Performance Country Code | FFATA 
-44	| Primary Place of Performance Country Name	| FFATA 
-56	| Award ID | DATA Act
-47	| Record Type	| FFATA 
-48	| Type of Action	| FFATA 
-49	| Business Type	| FFATA 
-
+16	| Type of Transaction Code | FFATA 
+17	| North American Industry Classification System (NAICS) Code	| FFATA 
+18	| North American Industry Classification System (NAICS) Description 	| FFATA 
+19	| Catalog of Federal Domestic Assistance (CFDA) Number 	| FFATA 
+20	| Catalog of Federal Domestic Assistance (CFDA) Title 	| FFATA 
+21	| Treasury Account Symbol	| FFATA 
+22	| Award Description	| FFATA 
+23	| Award ID Modification/Amendment	| FFATA 
+24	| Parent Award ID	| FFATA 
+25	| Action Date	| FFATA 
+26	| Period of Performance Start Date	| FFATA 
+27	| Period of Performance Current End Date | FFATA 
+28	| Period of Performance Potential End Date | FFATA 
+29	| Ordering Period End Date | FFATA 
+30	| Primary Place of Performance Address	| FFATA 
+31	| Primary Place of Performance Congressional District	| FFATA 
+32	| Primary Place of Performance Country Code | FFATA 
+33	| Primary Place of Performance Country Name	| FFATA 
+34	| Award ID | DATA Act
+35	| Record Type	| FFATA 
+36	| Type of Action	| FFATA 
+37	| Business Type	| FFATA 
 
 ## Funding Entity Information
 
@@ -77,23 +76,23 @@ These data elements describe the entity providing the majority of the funding fo
 
 Number | Data Element Name | Legislation
 ------ | ---------------- | ----- 
-14	| Agency Name	| FFATA 
-15	| Agency Code	| FFATA 
-16	| Sub Tier  Agency Name	| FFATA 
-17	| Sub Tier  Agency Code | FFATA 
-18	| Office Name	| FFATA 
-19	| Office Code	| FFATA 
+38	| Agency Name	| FFATA 
+39	| Agency Code	| FFATA 
+40	| Sub Tier  Agency Name	| FFATA 
+41	| Sub Tier  Agency Code | FFATA 
+42	| Office Name	| FFATA 
+43	| Office Code	| FFATA 
 
 ## Awarding Entity Information
 
 Number | Data Element Name | Legislation
 ------ | ---------------- | ----- 
-30	| Awarding Agency Name	| FFATA 
-31	| Awarding Agency Code	| FFATA 
-32	| Awarding Sub Tier  Agency Name | FFATA 
-33	| Awarding Sub Tier  Agency Code | FFATA 
-34	| Awarding Office Name	| FFATA 
-35	| Awarding Office Code	| FFATA 
+44	| Awarding Agency Name	| FFATA 
+45	| Awarding Agency Code	| FFATA 
+46	| Awarding Sub Tier  Agency Name | FFATA 
+47	| Awarding Sub Tier  Agency Code | FFATA 
+48	| Awarding Office Name	| FFATA 
+49	| Awarding Office Code	| FFATA 
 
 ## Account Information
 
@@ -105,8 +104,8 @@ Number | Data Element Name | Legislation
 53	| Obligated Amount 	| DATA Act
 54	| Unobligated Amount	| DATA Act
 55	| Amount of other budgetary resources 	| DATA Act
-57	| Program Activity	| DATA Act
-58	| Outlay	| DATA Act
+56	| Program Activity	| DATA Act
+57	| Outlay	| DATA Act
 
 
 ##Join the Conversation
