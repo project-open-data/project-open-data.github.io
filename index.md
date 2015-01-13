@@ -24,8 +24,15 @@ We are using [Github issues](https://guides.github.com/features/issues/) to trac
 
 ##The Timeline
 
-More info about the overall comment process goes here
+Because there are many data elements to discuss, we will be asking for comments on specific data elements in two-week rounds. Each data element will have it's own issue, with an associated milestone so you can easily see how long the comments will be open. We will begin soliciting comments on the specific data element definitions starting in February. 
 
+
+##Background Materials 
+
+Here you will find white papers that have been produced by our Interagency Advisory Committee on the data element definitions.
+
+ - Paper1
+ - Paper2
 
 ##Recent News and Events
 

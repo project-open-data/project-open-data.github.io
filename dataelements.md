@@ -10,7 +10,7 @@ title: dataelements
 
 The data elements in the below list represent the existing Federal Funding Accountability and Transparency Act (FFATA) data elements currently displayed on [USAspending.gov](http://www.usaspending.gov/) and the additional data elements that will be posted pursuant to the DATA Act. These elements are currently being deliberated on and discussed by the Federal community as a part of DATA Act implementation. At this point, this list is exhaustive. However, additional data elements may be standardized for transparency reporting in the future based on agency or community needs. 
 
-The data elements are grouped by category. Each element has its own Github issue where discussion can take place. You can provide feedback simply by clickling on an element and adding your comments to the issue. If you think an element is missing, please create a new issue, per our [contributing guidelines](feedback/).
+The data elements are grouped by category. Each element has its own Github issue where discussion can take place. You can provide feedback simply by clickling on an element and adding your comments to the issue. If you think an element is missing, please create a new issue, per our [contributing guidelines](/feedback/).
 
 ## Awardee and Recipient Entity Information
 
