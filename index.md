@@ -102,7 +102,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 This section contains programmatic tools, resources, and/or checklists to help programs determine open data requirements.
 
-5-1 [Metadata Resources](metadata-resources/) -
+5-1 [Metadata Resources](v1.1/metadata-resources/) -
 Resources to provide guidance and assistance for each aspect of creating and maintaining agency.gov/data catalog files.
 
 5-2 [Business Case for Open Data](business-case/) - Overview of the benefits associated with open data.
