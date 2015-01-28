@@ -9,12 +9,14 @@
   <meta name="description" content="{{ site.desc }}">
   <meta name="viewport" content="width=device-width">
 
-  <title>{{ site.title }}</title>
+  <title>{{ page.title }} - {{ site.title }}</title>
 
+  <link rel="shortcut icon" href="/favicon.ico"/>
   <link rel="stylesheet" href="/assets/css/bootstrap.css">
   <link rel="stylesheet" href="/assets/css/site.css">
 
-  {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
+  {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}{% endcapture %}
+  
 </head>
 <body class="{{ page.id }}">
   <!--[if lt IE 7]>
@@ -27,29 +29,44 @@
   </div>
   <![endif]-->
 
-  <div id="header">
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span12">
-          <div class="navbar navbar-inverse">
-            <div class="navbar-inner">
-              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </a>
-              <a class="brand" href="{{ site.root_url }}/">Project Open Data</a>
-              <div class="nav-collapse collapse">
-                <ul class="nav pull-right">
-                  <li><a href="{{ edit_url }}">Help Improve this Content</a></li>
-                  <li><a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/commits/{{ site.branch }}">View Revision History</a></li>
-                  <li><a href="{{ site.root_url }}/faq">FAQ</a></li>
-                  <li><a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues">Discuss</a></li>
-                </ul>
-              </div><!--/.nav-collapse -->
-            </div>
-          </div>
-        </div>
+
+  <!-- Static navbar -->
+  <div id="header" class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.root_url }}/">Project Open Data</a>
       </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="edit-button" href="{{ edit_url }}"><span>Edit this Page</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Definitions<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/v1.1/schema">Metadata Schema v1.1</a></li>
+              <li><a href="/glossary">Open Data Glossary</a></li>              
+              <li><a href="/open-standards">Data Standards</a></li>
+              <li><a href="/principles">Open Data Principles </a></li>
+              <li><a href="/open-licenses">Open Licenses</a></li>
+            </ul>
+          </li>     
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guidance<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/policy-memo">Policy - OMB M-13-13</a></li>
+              <li><a href="/implementation-guide">Implementation Guide</a></li>
+              <li><a href="/catalog">Public Data Listing</a></li> 
+              <li><a href="http://goals.performance.gov/opendata">Open Data CAP Goal</a></li>              
+              <li><a href="/faq">FAQ</a></li>          
+            </ul>
+          </li>               
+          <li><a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues">Discuss</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
     </div>
   </div>

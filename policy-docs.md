@@ -21,7 +21,7 @@ This section offers examples of policy documents (memos, guidance, manuals, etc)
 * Department of Education, [Data Standardization Policies and Procedures](http://federalstudentaid.ed.gov/static/gw/docs/ciolibrary/ECONOPS_Docs/DataStandardizationPolicies&Procedures.pdf).  The purpose of this document, released in 2007, is to describe policies and procedures for data standardization and data exchange in Federal Student Aid.
 * Department of Energy, [Atmospheric Radiation Measurement (ARM) Data Sharing and Distribution Policy](http://www.arm.gov/data/docs/policy).  This document sets expectations and establishes procedures for sharing data acquired in through the operations of Atmospheric Radiation Measurement (ARM) Climate Research Facility.
 * Los Alamos National Laboratory, [GISLab Data Policy](http://gislab.lanl.gov/policies/data_policy.html).  GISLab has established a spatial data warehouse to provide for access to spatial data at LANL. The GISLab spatial data policy specifies provisions for both data providers and data users. 
-
+* United States Agency for International Development, [Open Data Policy](http://pdf.usaid.gov/pdf_docs/pbaab096.pdf).  The document, released in October 2014, sets forth the agency's plan for data management.  
 
 ## Guidance
 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="647.578px" height="652.573px" viewBox="0 0 647.578 652.573" enable-background="new 0 0 647.578 652.573"
+	 xml:space="preserve">
+<rect x="13.5" y="10.5" stroke="#000000" stroke-miterlimit="10" width="150" height="24"/>
+<rect x="13.5" y="31.5" fill="#F2F2F2" stroke="#000000" stroke-miterlimit="10" width="150" height="608"/>
+<text transform="matrix(1 0 0 1 24 56)"><tspan x="0" y="0" font-family="'Arial'" font-size="16">conformsTo</tspan><tspan x="0" y="19.2" font-family="'Arial'" font-size="16">describedBy</tspan><tspan x="0" y="38.4" font-family="'Arial'" font-size="16">dataset </tspan><tspan x="56.93" y="38.4" fill="#666666" font-family="'Arial'" font-size="16">(list)</tspan></text>
+<rect x="19.094" y="15" fill="none" width="154.6" height="31"/>
+<text transform="matrix(1.0171 0 0 1 19.0933 26.4561)" fill="#FFFFFF" font-family="'Arial'" font-size="16">Catalog</text>
+<rect x="210.5" y="82.5" stroke="#000000" stroke-miterlimit="10" width="183" height="24"/>
+<rect x="210.5" y="103.5" fill="#F2F2F2" stroke="#000000" stroke-miterlimit="10" width="183" height="537"/>
+<text transform="matrix(1 0 0 1 218 124)"><tspan x="0" y="0" font-family="'Arial'" font-size="16">accessLevel</tspan><tspan x="0" y="19.2" font-family="'Arial'" font-size="16">accrualPeriodicity</tspan><tspan x="0" y="38.4" font-family="'Arial'" font-size="16">bureauCode </tspan><tspan x="92.516" y="38.4" fill="#666666" font-family="'Arial'" font-size="16">(list)</tspan><tspan x="0" y="57.6" font-family="'Arial'" font-size="16">conformsTo</tspan><tspan x="0" y="76.8" font-family="'Arial'" font-size="16">contactPoint</tspan><tspan x="0" y="96" font-family="'Arial'" font-size="16">dataQuality</tspan><tspan x="0" y="115.2" font-family="'Arial'" font-size="16">describedBy</tspan><tspan x="0" y="134.4" font-family="'Arial'" font-size="16">describedByType</tspan><tspan x="0" y="153.6" font-family="'Arial'" font-size="16">description</tspan><tspan x="0" y="172.8" font-family="'Arial'" font-size="16">distribution </tspan><tspan x="81.82" y="172.8" fill="#666666" font-family="'Arial'" font-size="16">(list)</tspan><tspan x="0" y="192" font-family="'Arial'" font-size="16">identifier</tspan><tspan x="0" y="211.2" font-family="'Arial'" font-size="16">isPartOf</tspan><tspan x="0" y="230.4" font-family="'Arial'" font-size="16">issued</tspan><tspan x="0" y="249.6" font-family="'Arial'" font-size="16">keyword </tspan><tspan x="64.023" y="249.6" fill="#666666" font-family="'Arial'" font-size="16">(list)</tspan><tspan x="0" y="268.8" font-family="'Arial'" font-size="16">landingPage</tspan><tspan x="0" y="288" font-family="'Arial'" font-size="16">language </tspan><tspan x="70.289" y="288" fill="#666666" font-family="'Arial'" font-size="16">(list)</tspan><tspan x="0" y="307.2" font-family="'Arial'" font-size="16">license</tspan><tspan x="0" y="326.4" font-family="'Arial'" font-size="16">modified</tspan><tspan x="0" y="345.6" font-family="'Arial'" font-size="16">primaryITInvestmentUII</tspan><tspan x="0" y="364.8" font-family="'Arial'" font-size="16">programCode </tspan><tspan x="102.273" y="364.8" fill="#666666" font-family="'Arial'" font-size="16">(list)</tspan><tspan x="0" y="384" font-family="'Arial'" font-size="16">publisher</tspan><tspan x="0" y="403.2" font-family="'Arial'" font-size="16">rights</tspan><tspan x="0" y="422.4" font-family="'Arial'" font-size="16">spatial</tspan><tspan x="0" y="441.6" font-family="'Arial'" font-size="16">systemOfRecords</tspan><tspan x="0" y="460.8" font-family="'Arial'" font-size="16">temporal</tspan><tspan x="0" y="480" font-family="'Arial'" font-size="16">theme </tspan><tspan x="48.914" y="480" fill="#666666" font-family="'Arial'" font-size="16">(list)</tspan><tspan x="0" y="499.2" font-family="'Arial'" font-size="16">title</tspan></text>
+<rect x="213" y="87" fill="none" width="152" height="31"/>
+<text transform="matrix(1 0 0 1 213 98.4561)" fill="#FFFFFF" font-family="'Arial'" font-size="16">Dataset</text>
+<g>
+	<line fill="#333333" x1="311" y1="196" x2="427" y2="196"/>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="311" y1="196" x2="417" y2="196"/>
+		<g>
+			<polygon points="412.448,202.139 415.056,196 412.448,189.861 427,196 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<line fill="#333333" x1="290" y1="504" x2="426" y2="504"/>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="290" y1="504" x2="416" y2="504"/>
+		<g>
+			<polygon points="411.647,510.139 414.255,504 411.647,497.861 426.198,504 			"/>
+		</g>
+	</g>
+</g>
+<rect x="442.5" y="184.5" stroke="#000000" stroke-miterlimit="10" width="150" height="24"/>
+<rect x="442.5" y="205.5" fill="#F2F2F2" stroke="#000000" stroke-miterlimit="10" width="150" height="50"/>
+<text transform="matrix(1 0 0 1 446 226)"><tspan x="0" y="0" font-family="'Arial'" font-size="16">fn</tspan><tspan x="0" y="19.2" font-family="'Arial'" font-size="16">hasEmail</tspan></text>
+<rect x="448.311" y="189" fill="none" width="154.6" height="31"/>
+<text transform="matrix(1.0171 0 0 1 448.3105 200.456)" fill="#FFFFFF" font-family="'Arial'" font-size="16">ContactPoint</text>
+<rect x="442.5" y="281.5" stroke="#000000" stroke-miterlimit="10" width="150" height="24"/>
+<rect x="442.5" y="303.5" fill="#F2F2F2" stroke="#000000" stroke-miterlimit="10" width="150" height="179"/>
+<text transform="matrix(1 0 0 1 446 321)"><tspan x="0" y="0" font-family="'Arial'" font-size="16">accessURL</tspan><tspan x="0" y="19.2" font-family="'Arial'" font-size="16">conformsTo</tspan><tspan x="0" y="38.4" font-family="'Arial'" font-size="16">downloadURL</tspan><tspan x="0" y="57.6" font-family="'Arial'" font-size="16">describedBy</tspan><tspan x="0" y="76.8" font-family="'Arial'" font-size="16">describedByType</tspan><tspan x="0" y="96" font-family="'Arial'" font-size="16">description</tspan><tspan x="0" y="115.2" font-family="'Arial'" font-size="16">format</tspan><tspan x="0" y="134.4" font-family="'Arial'" font-size="16">mediaType</tspan><tspan x="0" y="153.6" font-family="'Arial'" font-size="16">title</tspan></text>
+<rect x="448.311" y="286" fill="none" width="154.6" height="31"/>
+<text transform="matrix(1.0171 0 0 1 448.3105 297.456)" fill="#FFFFFF" font-family="'Arial'" font-size="16">Distribution</text>
+<rect x="442.5" y="495.5" stroke="#000000" stroke-miterlimit="10" width="150" height="24"/>
+<rect x="442.5" y="517.5" fill="#F2F2F2" stroke="#000000" stroke-miterlimit="10" width="150" height="48"/>
+<text transform="matrix(1 0 0 1 446 535)"><tspan x="0" y="0" font-family="'Arial'" font-size="16">name</tspan><tspan x="0" y="19.2" font-family="'Arial'" font-size="16">subOrganizationOf</tspan></text>
+<rect x="448" y="500" fill="none" width="152" height="31"/>
+<text transform="matrix(1 0 0 1 448 511.4561)" fill="#FFFFFF" font-family="'Arial'" font-size="16">Publisher</text>
+<g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M585.186,549.159c0,0,30.957-0.196,32.124-0.196
+			c26.697,0,25.436-39.964,1.076-39.964c-3.488,0-11.386,0-11.386,0"/>
+		<g>
+			<polygon points="611.828,501.826 608.915,508.681 611.828,515.536 595.577,508.681 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<polygon points="183.595,84.353 199.264,90.982 183.54,97.611 185.951,92.187 185.786,89.503 	"/>
+</g>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="189" y1="89" x2="115" y2="89"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="189" y1="93" x2="115" y2="93"/>
+<g>
+	<polygon points="411.595,287.353 427.264,293.982 411.54,300.611 413.951,295.187 413.786,292.503 	"/>
+</g>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="419" y1="292" x2="338" y2="292"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="419" y1="296" x2="338" y2="296"/>
+</svg>

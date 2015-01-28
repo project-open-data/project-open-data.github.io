@@ -1,19 +1,23 @@
 ---
 published: true
 layout: default
-title: Common Core Metadata Schema
+title: Common Core Metadata Schema v1.0
 permalink: /schema/
 filename: schema.md
 id: schema
 ---
 
+{: .bg-warning .text-danger}
+***IMPORTANT NOTE***  
+This version of the schema has been deprecated in favor of the [Project Open Data Metadata Schema v1.1](/v1.1/schema). Federal CFO-Act agencies are expected to complete the transition to the v1.1 schema by **February 1st, 2015**. 
+
 This section contains guidance to support the use of the common core metadata to list agency datasets and application programming interfaces (APIs) as hosted at agency.gov/data.
 
-Updates to the metadata schema can be found in the [changelog](/metadata-changelog). Current metadata version: 1.0 FINAL as of 9/20/13.
+Updates to the metadata schema can be found in the [changelog](/metadata-changelog). This is metadata version: 1.0 FINAL as of 9/20/13.
 
 Standard Metadata Vocabulary
 ----------------------------
-Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource (NISO 2004, ISBN: 1-880124-62-9).  The challenge is to define and name standard metadata fields so that a data consumer has sufficient information to process and understand the described data. The more information that can be conveyed in a standardized regular format, the more valuable data becomes. Metadata can range from basic to advanced, from allowing one to discover the mere fact that a certain data asset exists and is about a general subject all the way to providing detailed information documenting the structure, processing history, quality, relationships, and other properties of a dataset. Making metadata machine readable greatly increases its utility, but requires more detailed standardization, defining not only field names, but how information is encoded in the metadata fields.
+Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource (NISO 2004, ISBN: 1-880124-62-9).  The challenge is to define and name standard metadata fields so that a data consumer has sufficient information to process and understand the described data. The more information that can be conveyed in a standardized regular format, the more valuable data becomes. Metadata can range from basic to advanced, from allowing one to discover the mere fact that a certain data asset exists and is about a general subject all the way to providing detailed information documenting the structure, processing history, quality, relationships, and other properties of a dataset. Making metadata machine readable greatly increases its utility, but requires more detailed standardization, defining not only field names, but also how information is encoded in the metadata fields.
 
 Establishing a common vocabulary is the key to communication. The **common core metadata** specified in this memorandum is based on [DCAT](http://www.w3.org/TR/vocab-dcat/), a hierarchical vocabulary specific to datasets. This specification defines three levels of metadata elements: Required, Required-if (conditionally required), and Expanded fields.  These elements were selected to represent information that is most often looked for on the web. To assist users of other metadata standards, [mappings](http://project-open-data.github.io/metadata-resources/#common_core_required_fields_equivalents) to equivalent elements in other standards are provided.  
 
@@ -293,8 +297,8 @@ Further Metadata Field Guidance (alphabetical by field)
 **Accepted Values** | ISO 8601 Date
 **Usage Notes** | Dates should be [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) of least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If this file is brand-new, enter the **issued** date here as well.  
   
-If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this by [giving the duration](http://en.wikipedia.org/wiki/ISO_8601#Durations).  For instance, `P1D` for daily, `P2W` for every two weeks, and `PT5M` for every five minutes.  
-**Example** |  `{"modified":"2012-01-15"}` or `{"modified":"P1D"}`
+If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this [with repeating intervals](http://en.wikipedia.org/wiki/ISO_8601#Time_intervals).  For instance, `R/P1D` for daily, `R/P2W` for every two weeks, and `R/PT5M` for every five minutes.  
+**Example** |  `{"modified":"2012-01-15"}` or `{"modified":"R/P1D"}`
 
 {: .table .table-striped}
 **Field <a class="permalink" href="#PrimaryITInvestmentUII">#</a>** | **<a name="PrimaryITInvestmentUII">PrimaryITInvestmentUII</a>**
