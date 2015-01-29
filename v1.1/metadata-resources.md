@@ -134,12 +134,13 @@ Data Standard           | *conformsTo*      | *n/a*             |               
 
 Crosswalks for Geospatial Metadata
 -----------------------------
-FGDC member agencies developed these crosswalks as a standardized resource for use by agencies in creating their POD/JSONV1.1 metadata records. The crosswalks are intended as a reference model for the development of strategies and applications that support the conversion of existing geospatial metadata to the POD/JSONV1.1 schema.
+[FGDC](http://www.fgdc.gov/) member agencies developed these crosswalks as a standardized resource for use by agencies in creating their Project Open Data metadata schema v1.1 (data.json) records. The crosswalks are intended as a reference model for the development of strategies and applications that support the conversion of existing geospatial metadata to the Project Open Data metadata schema v1.1.
 
-The crosswalks will be periodically updated to address user comments and revisions to the source metadata standards. Users are asked to add their own information about strategies, applications, and other products generated using these crosswalks.
+The crosswalks will be periodically updated to address user comments and revisions to the source metadata standards. Users are asked to add their own information about strategies, applications, and other products generated using these crosswalks. Problems or suggestions can be submitted by [creating a new issue](https://github.com/project-open-data/project-open-data.github.io/issues/new) or improvements can be proposed directly following the [guidelines for contributing](https://github.com/project-open-data/project-open-data.github.io/blob/master/CONTRIBUTING.md).
 
+Since the Project Open Data Metadata Schema v1.1 is also a JSON and JSON-LD serialization of [DCAT](http://www.w3.org/TR/vocab-dcat/). Others working with transforms between ISO 19115 and DCAT may also be interested in this crosswalk. 
 
-CSDGM to Project Open Data (POD) Schema V1.1 Crosswalk (field definitions and domains)
+[CSDGM](http://www.fgdc.gov/metadata/csdgm/) to Project Open Data Metadata Schema v1.1 (POD v1.1) Crosswalk
 -------------------------------------------
 
 {: .table .table-striped .table-breakall}
@@ -169,7 +170,7 @@ theme | Theme | optional | Yes | insert POD default `geospatial` | -- | Insert d
 distribution>downloadURL | Download URL | if applicable | No |  | `metadata>distinfo>storder>digform>digtoption>onlinopt>networka>networkr` if null then `metadata>idinfo>citation>citeinfo>onlink` | Include if CSDGM value occurs, first instance
 distribution>mediaType | Media Type | required for download URL | No | insert POD default `application/http` |  | Insert default value `application/http` directly into POD record 
 
-ISO 19115 to Project Open Data (POD) Schema V1.1 Crosswalk (field definitions and domains)
+ISO 19115 to Project Open Data Metadata Schema v1.1 (POD v1.1) Crosswalk
 -------------------------------------------
 
 {: .table .table-striped}
