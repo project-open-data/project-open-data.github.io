@@ -179,6 +179,7 @@ table tr td:nth-child(1) {
 table tr td code {
     display: inline-block;
     word-wrap: break-word;
+    word-break: break-word;
 }
 
 table + table {
