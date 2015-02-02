@@ -19,6 +19,7 @@ Collaboration across the Federal Government and with external stakeholders is cr
 ##Recent News and Events
 
 ####News
+* OMB has generated a summary of all of the comments on the Federal Register Notice. [Download here](/DATA%20Act%20Federal%20Register%20Notice%20-%20Public%20Summary%20of%20Responses.pptx)
 * The U.S. Treasury Department issued a solicitation for public input on the establishment of Federal financial data exchange standards via a  [Federal Register Notice](https://federalregister.gov/a/2014-22997).  See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004). 
 
 ####Events
