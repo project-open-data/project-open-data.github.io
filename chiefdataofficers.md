@@ -1,3 +1,10 @@
+---
+layout: default
+title: Chief Data Officers
+permalink: /chiefdataofficers/
+filename: chiefdataofficers.md
+---
+
 Chief Data Officers
 -----------------------------
 The Chief Data Officer is an emerging role in US federal government. 
