@@ -17,16 +17,18 @@ Updates to the metadata schema can be found in the [changelog](/metadata-changel
 
 Standard Metadata Vocabulary
 ----------------------------
-Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource (NISO 2004, ISBN: 1-880124-62-9).  The challenge is to define and name standard metadata fields so that a data consumer has sufficient information to process and understand the described data. The more information that can be conveyed in a standardized regular format, the more valuable data becomes. Metadata can range from basic to advanced, from allowing one to discover the mere fact that a certain data asset exists and is about a general subject all the way to providing detailed information documenting the structure, processing history, quality, relationships, and other properties of a dataset. Making metadata machine readable greatly increases its utility, but requires more detailed standardization, defining not only field names, but also how information is encoded in the metadata fields.
+Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource (NISO 2004, ISBN: 1-880124-62-9).  The challenge is to define and name standard metadata fields so that a data consumer has sufficient information to process and understand the described data. The more information that can be conveyed in a standardized regular format, the more valuable data becomes. 
+
+Metadata can range from basic to advanced, from allowing one to discover the mere fact that a certain data asset exists and is about a general subject all the way to providing detailed information documenting the structure, processing history, quality, relationships, and other properties of a dataset. Making metadata machine readable greatly increases its utility, but requires more detailed standardization, defining not only field names, but also how information is encoded in the metadata fields.
 
 Establishing a common vocabulary is the key to communication. The **common core metadata** specified in this memorandum is based on [DCAT](http://www.w3.org/TR/vocab-dcat/), a hierarchical vocabulary specific to datasets. This specification defines three levels of metadata elements: Required, Required-if (conditionally required), and Expanded fields.  These elements were selected to represent information that is most often looked for on the web. To assist users of other metadata standards, [mappings](http://project-open-data.github.io/metadata-resources/#common_core_required_fields_equivalents) to equivalent elements in other standards are provided.  
 
 What to Document -- Datasets and Web APIs
 -------------------------------------
 
-A dataset is an identifiable collection of structured data objects unified by some criteria (authorship, subject, scope, spatial or temporal extent...). A catalog is a collection of descriptions of datasets; each description is a metadata record. The intention of a data catalog is to facilitate data access by users who are first interested in a particular kind of data, and upon finding a fit-for-purpose dataset, will next want to know how to get the data.
+A dataset is an identifiable collection of structured data objects unified by some criteria (authorship, subject, scope, spatial, or temporal extent...). A catalog is a collection of descriptions of datasets; each description is a metadata record. The intention of a data catalog is to facilitate data access by users who are first interested in a particular kind of data, and upon finding a fit-for-purpose dataset, will next want to know how to get the data.
 
-A Web API (**A**pplication **P**rogramming **I**nterface) allows computer programs to dynamically query a dataset using the World Wide Web. For example, a dataset [of farmers markets](https://explore.data.gov/Agriculture/Farmers-Markets-Geographic-Data/wfna-38ey) may be made available for download as a single file (e.g., a CSV), or may be made available to developers through a Web API, such that a computer program could use a ZIP Code to retrieve a list of farmers markets in the ZIP Code area.
+A Web API (**A**pplication **P**rogramming **I**nterface) allows computer programs to dynamically query a dataset using the World Wide Web. For example, a dataset [of farmers markets](https://explore.data.gov/Agriculture/Farmers-Markets-Geographic-Data/wfna-38ey) may be made available for download as a single file (e.g. a CSV), or may be made available to developers through a Web API, such that a computer program could use a ZIP Code to retrieve a list of farmers markets in the ZIP Code area.
 
 The catalog file for each agency should list all of the agency's datasets that can be made public, regardless of whether they are distributed by a file download or through a Web API.  The **Endpoint** data element is used to indicate which datasets offer Web APIs (see below for more information on Common Core and Extended metadata elements).
 
@@ -36,7 +38,7 @@ Metadata File Format --  JSON
 
 The [Implementation Guidance](/implementation-guide/) available as a part of Project Open Data describes Agency requirements for the development of metadata as per the Open Data Policy.  A quick primer on the file format involved:
 
-[JSON](http://www.json.org) is a lightweight data-exchange format that is very easy to read, parse and generate.  Based on a subset of the JavaScript programming language, JSON is a text format that is optimized for data interchange.  JSON is built on two structures: (1) a collection of name/value pairs; and (2) an ordered list of values.  
+[JSON](http://www.json.org) is a lightweight data-exchange format that is very easy to read, parse, and generate.  Based on a subset of the JavaScript programming language, JSON is a text format that is optimized for data interchange.  JSON is built on two structures: (1) a collection of name/value pairs; and (2) an ordered list of values.  
 
 Where optional fields are included in a catalog file but are unpopulated, they may be represented by a `null` value.  They should not be represented by an empty string (`""`).  
 
@@ -88,7 +90,7 @@ temporal				| Temporal				| The range of temporal applicability of a dataset (i.
 
 Beyond Common Core -- Extending the Schema
 ------------------------------------------
-"Extensional" and/or domain specific metadata can easily be added using other vocabularies even if it is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, FGDC, ISO 19115, NIEM, and a growing number of vocabularies published at [Vocab.Data.gov](http://vocab.data.gov)) as long as they are properly assigned.
+Extensional" and/or domain-specific metadata FIELDS can easily be added using other vocabularies even if the field is not a term (entity/property) that will get indexed by the major search engines - it could still be indexed by other custom search engines and by Data.gov.  Agencies are encouraged to extend their metadata descriptions using elements from the "Expanded Fields" list shown below, or from any well-known vocabulary (including Dublin Core, FGDC, ISO 19115, NIEM, and a growing number of vocabularies published at [Vocab.Data.gov](http://vocab.data.gov)) as long as they are properly assigned.
 
 Expanded Fields
 ---------------
@@ -102,7 +104,7 @@ dataDictionary			| Data Dictionary     | URL to the data dictionary for the data
 dataQuality				| Data Quality        | Whether the dataset meets the agency's Information Quality Guidelines (true/false).                                                                                                             
 distribution			| Distribution        | Holds multiple download URLs for datasets composed of multiple files and/or file types 
 accrualPeriodicity		| Frequency           | Frequency with which dataset is published.                                                                                                    
-landingPage				| Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the Dataset or API when selecting this resource from the Data.gov user interface.
+landingPage				| Homepage URL        | Alternative landing page used to redirect user to a contextual, Agency-hosted "homepage" for the dataset or API when selecting this resource from the Data.gov user interface.
 language				| Language            | The language of the dataset.                                                                                                                  
 PrimaryITInvestmentUII	| Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII) 
 references				| Related Documents   | Related documents such as technical information about a dataset, developer documentation, etc.                                                                                            
