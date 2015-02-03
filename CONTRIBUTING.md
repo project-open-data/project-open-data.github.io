@@ -10,8 +10,8 @@ Contributions can be made, primarily in two ways:
 
 ### Easy
 
-1. Browse the content at http://project-open-data.github.io/.
-2. Click the "Improve this content" button in the top right corner of any page.
+1. Browse the content at https://project-open-data.cio.gov/.
+2. Click the "Edit this Page" button in the top right corner of any page.
 3. Make changes as you would normally.
 4. Click "Submit".
 5. Your change(s) should appear once approved.
