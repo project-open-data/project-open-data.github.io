@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Chief Data Officers
-permalink: /chiefdataofficers/
+permalink: /chief-data-officers/
+redirect_from: /chiefdataofficers/
 filename: chiefdataofficers.md
 ---
 
