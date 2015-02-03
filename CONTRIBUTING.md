@@ -4,7 +4,7 @@
 
 ## How to Contribute
 
-This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing. For more information, please see [the FAQ](/faq/)
+This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing. For more information, please see [the FAQ](https://project-open-data.cio.gov/faq/)
 
 Contributions can be made, primarily in two ways:
 
