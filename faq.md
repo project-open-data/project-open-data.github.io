@@ -95,21 +95,21 @@ While ISO 32000 is an open standard, the Portable Document Format (PDF) does not
 
 ### What is the relationship of the metadata standard (specifically) to NIEM, ISE, FGDC, and other existing (especially official) government data standards?
 
-The [common core metadata schema](/schema/) is based on existing vocabularies and easily mapped to NIEM, Information Sharing Environment, and FGDC.
+The [Project Open Data metadata schema](/v1.1/schema) is based on existing vocabularies and easily mapped to NIEM, Information Sharing Environment, and FGDC.
 
 ### What is a "persistent identifier"?
 
 A persistent identifier is a unique label assigned to digital objects or data files that is managed and kept up to date over a defined time period (e.g., Unique Investment Identifiers).
 
-### Who established the common core metadata schema?
+### Who established the Project Open Data metadata schema?
 
 The core metadata schema was the result of recommendations from a government-wide Metadata Working Group at Data.gov combined with research of existing public schemas for data catalogs.  Most of the elements trace their roots to the Dublin Core Library.
  
 ### How can I recommend changes and improvements to the metadata schema?
 
-Submit a pull request for the [metadata schema](/schema/). 
+Submit a [new issue](https://github.com/project-open-data/project-open-data.github.io/issues/new) describing the change you would like to see.
 
-### Can I extend the metadata schema beyond the terms specified in the [common core metadata schema](/schema/)?
+### Can I extend the metadata schema beyond the terms specified in the [Project Open Data metadata schema](/v1.1/schema)?
 
 Yes, if your data management process includes rich metadata specific to the mission of your agency or the Line of Business in which your agency participates, publishing additional metadata that makes your data more useful to the public is welcomed and encouraged.  Note that Data.gov will be harvesting only the metadata in this published schema unless specific arrangements are in place (e.g. geospatial FGDC/ISO).
  
@@ -160,7 +160,7 @@ A wide variety of tools are available to manage a data catalog, whether public-f
  
 ### What formats are required/optional for the agency.gov/data file?
 
-JSON is required though there are several optional syntaxes that can also be used when publishing the data file. The syntax that is required to make the data readily available to developers is JSON (JavaScript Object Notation). Agencies should also create a data.html file for the human-browsable data homepage and may use RDFa Lite (Resource Description Framework) to mark-up each dataset's metadata using the [common core metadata schema](/schema/). Agencies may also choose to populate a metadata file using XML (eXtensible Markup Language). These alternate metadata files are optional but agencies must maintain the JSON version at agency.gov/data.json. [Tools](http://labs.data.gov) are available to transform any instance of the file into the alternative formats.
+JSON is required though there are several optional syntaxes that can also be used when publishing the data file. The syntax that is required to make the data readily available to developers is JSON (JavaScript Object Notation). Agencies should also create a data.html file for the human-browsable data homepage and may use RDFa Lite (Resource Description Framework) to mark-up each dataset's metadata using the [Project Open Data metadata schema](/v1.1/schema). Agencies may also choose to populate a metadata file using XML (eXtensible Markup Language). These alternate metadata files are optional but agencies must maintain the JSON version at agency.gov/data.json. [Tools](http://labs.data.gov) are available to transform any instance of the file into the alternative formats.
 
 ## Agency participation with Open Data
 
