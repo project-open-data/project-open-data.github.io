@@ -157,34 +157,43 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 So you’re opening up government data and making it easier to find and use – to inspire new ideas, spur economic growth, and ultimately make your agency more effective in achieving its mission. But you realize that your agency can’t just supply data – it’s also about getting and acting upon feedback, and catalyzing use of the data from a wide variety of stakeholders.  A community event is a great way to hear ideas and feedback from passionate people, offer your expertise to people with thoughtful questions and evangelize your data assets. This document gives an overview of the main types of open data community events the U.S. Government holds.
 
-### Data Jam
+### Open Data Community Events 
+
+#### Data Jam
 
 A closed-press, day-long ideation event with developers, designers, and subject matter experts focused on one topic and top related open data sets. Several are held in succession, leading up to a datapalooza three months later. *Ex: Health Data jam (HHS), 21st Century Jobs Jam (OVP, Commerce, OSTP), Mitigating Campus Sexual Assault (Department of Education, Department of Justice)*
 
 **Goal:** To connect tech and policy communities and get commitments to make things with open data, in support of agency mission and priorities.
 
-### Datapalooza
+#### Datapalooza
 An open press celebration, demo day, and platform to announce government open data releases or improvements. *Ex: Safety Datapalooza (DOT, CPSC, FDA.)*
 
 **Goal:** To celebrate open data tools, companies and commitments and build momentum for projects.
 
-### Hackathon
+#### Hackathon
 An event where developers, designers, and strategists work in teams to solve problems with software and/or hardware and demo the resulting work at the end of the day.
 *Ex: White House “We The People” API Hackathon, The American Art API Hackathon*
 
 **Goal:** To build relationships with the tech community and to see immediate tools and prototypes.
 
-### Online Community
-A website, social networking group and/or listserv where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
-*Ex: Listservs for [NICAR](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/), Code for America, Sunlight Foundation, the Open Government Facebook and Google+ groups*
+#### See: [Open Data Community Event Templates and Instructions](engagement/)
 
-**Goal:** To build and sustain ongoing relationships with media, nonprofits, good government advocates and civic technologists
+### Open Data Stakeholder Contacts
 
-### FOIA Officers and Ombudsman
+#### FOIA Officers and Ombudsman
 Federal agency staff dedicated to handling Freedom of Information Act (FOIA) requests from industry and media. 
-*[The Office of Government Information Services (OGIS)](https://ogis.archives.gov/) at the National Archives and FOIA staff at agencies*
+*[The Office of Government Information Services (OGIS)](https://ogis.archives.gov/) at the National Archives and FOIA staff at agencies.*
 
 **Goal:** To monitor and measure the incoming demand for data and proactively release data in response to that signal.
 
-###[Templates and instructions](engagement/)
+#### Chief Data Officers  
+Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. *See this [growing list of federal Chief Data Officers](chiefdataofficers/).*
+
+**Goal:** To engage sister agencies in open data community events. 
+
+#### Online Community
+A website, social networking group and/or listserv where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
+*Ex: Listservs for [NICAR](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/), [Code for America Brigade](https://groups.google.com/a/codeforamerica.org/forum/#!forum/brigade), [Sunlight Labs](https://groups.google.com/forum/#!forum/sunlightlabs), the Open Government Facebook and Google+ groups.*
+
+**Goal:** To build and sustain ongoing relationships with media, nonprofits, good government advocates and civic technologists.
 
