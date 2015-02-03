@@ -3,7 +3,7 @@ layout: default
 title: Chief Data Officers
 permalink: /chief-data-officers/
 redirect_from: /chiefdataofficers/
-filename: chiefdataofficers.md
+filename: chief-data-officers.md
 ---
 
 Chief Data Officers
