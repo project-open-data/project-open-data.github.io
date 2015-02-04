@@ -25,7 +25,7 @@
     "hasEmail": {
       "title": "Email",
       "description": "Email address for the contact",
-      "pattern": "^mailto:[\\w.-]+@[\\w.-]+\\.[\\w.-]+?$",
+      "pattern": "^mailto:[\\w\\_\\~\\!\\$\\&\\'\\(\\)\\*\\+\\,\\;\\=\\:.-]+@[\\w.-]+\\.[\\w.-]+?$",
       "type": "string"
     }
   }
