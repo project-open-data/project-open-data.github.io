@@ -132,7 +132,7 @@ If you use or would like to use data provided by the U.S. Department of the Trea
 
 1.	[Which data elements are central to your reporting or analysis processes?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/6) 
 
-*Note*: If none of the data elements listed is useful to you, use this space to describe an element that would be useful. Please also see our section on [proposing new elements](/feedback).
+**Note**: If none of the data elements listed is useful to you, use this space to describe an element that would be useful. Please also see our section on [proposing new elements](/feedback).
 
 2.	[In setting standards, what are industry standards the Treasury and OMB should be considering?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/7)
 
