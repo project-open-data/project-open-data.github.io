@@ -92,7 +92,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-19 [Libre Information Batch Restructuring Engine](https://github.com/commonwealth-of-puerto-rico/libre) - Open data conversion and API tool, created by the Office of the Chief Information Officer of the Commonwealth of Puerto Rico.
 
-4-20 [JSON-to-CSV Converter](http://konklone.io/json/) - A handy means of converting data.json files to a spreadsheet-friendly format.  A [similar tool](http://shancarter.github.io/mr-data-converter/) can provide basic CSV-to-JSON functionality.
+4-20 [JSON-to-CSV Converter](http://konklone.io/json/) - A handy means of converting data.json files to a spreadsheet-friendly format.  Other JSON to CSV converters are [csvkit](http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html) and the commercial [json-csv.com](https://json-csv.com).  A [similar tool](http://shancarter.github.io/mr-data-converter/) can provide basic CSV-to-JSON functionality.
 
 ----------------
 
