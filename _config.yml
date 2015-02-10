@@ -1,12 +1,12 @@
 #document settings
 title: Project Open Data
 desc: "Open Data Policy — Managing Information as an Asset"
-url: //project-open-data.cio.gov/
+url: https://project-open-data.cio.gov/
 repo_name: project-open-data.github.io
 branch: master
 
 #global settings, no need to change these
-root_url: //project-open-data.cio.gov
+root_url: https://project-open-data.cio.gov
 org_name: project-open-data
 
 # default build settings for running locally, no need to edit
@@ -14,3 +14,6 @@ pymgemnts: true
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
 markdown: kramdown
 relative_permalinks: false
+
+gems:
+  - jekyll-redirect-from

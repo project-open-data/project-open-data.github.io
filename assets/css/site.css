@@ -179,6 +179,7 @@ table tr td:nth-child(1) {
 table tr td code {
     display: inline-block;
     word-wrap: break-word;
+    word-break: break-word;
 }
 
 table + table {
@@ -269,7 +270,9 @@ span.field-required-if-applicable {
     font-weight : normal;
 }
 
-
+.table-breakall tr td:nth-child(6) {
+  word-break : break-all;
+}
 
 
 /* icons */

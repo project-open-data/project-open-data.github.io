@@ -19,12 +19,13 @@
     "fn": {
       "title": "Contact Name",
       "description": "A full formatted name, eg Firstname Lastname",
-      "type": "string"
+      "type": "string",
+      "minLength": 1      
     },
     "hasEmail": {
       "title": "Email",
       "description": "Email address for the contact",
-      "pattern": "^mailto:([\\w.-]+@[\\w.-]+\\.[\\w.-]+)?$",
+      "pattern": "^mailto:[\\w\\_\\~\\!\\$\\&\\'\\(\\)\\*\\+\\,\\;\\=\\:.-]+@[\\w.-]+\\.[\\w.-]+?$",
       "type": "string"
     }
   }
