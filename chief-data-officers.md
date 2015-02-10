@@ -17,7 +17,7 @@ Department of Agriculture                       | Bobby Jones, Acting
 Department of Commerce                          | Lynn Overmann, Deputy CDO 
 Department of Defense                           |
 Department of Education                         |
-Department of Energy                            | 
+Department of Energy                            | Dave Dutton
 Department of Health and Human Services         |
 Department of Homeland Security                 |
 Department of Housing and Urban Development     |
