@@ -5,7 +5,7 @@ permalink: /open-standards/
 filename: standards.md
 ---
 
-Consistent with existing agency responsibilities under [OMB Circular A-119] (http://www.whitehouse.gov/omb/circulars_a119) (Federal Participation in the Development and Use of Voluntary Consensus Standards and in Conformity Assessment Activities), and [M-12-08](http://www.whitehouse.gov/sites/default/files/omb/memoranda/2012/m-12-08.pdf), the use of consensus standards, specifications, and formats can be used to support open data objectives. OMB Circular A-119 states that voluntary consensus standards should be developed through a process that is defined by the following attributes: 
+Consistent with existing agency responsibilities under [OMB Circular A-119](http://www.whitehouse.gov/omb/circulars_a119) (Federal Participation in the Development and Use of Voluntary Consensus Standards and in Conformity Assessment Activities), and [M-12-08](http://www.whitehouse.gov/sites/default/files/omb/memoranda/2012/m-12-08.pdf), the use of consensus standards, specifications, and formats can be used to support open data objectives. OMB Circular A-119 states that voluntary consensus standards should be developed through a process that is defined by the following attributes: 
 
 * Openness
 * Balance of interest
