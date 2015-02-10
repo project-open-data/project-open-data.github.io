@@ -66,7 +66,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-5 [PDF Filler](https://github.com/project-open-data/pdf-filler) - PDF Filler is a RESTful service (API) to aid in the completion of existing PDF-based forms and empower web developers to use browser-based forms and modern web standards to facilitate the collection of information. -&nbsp;*[Hosted](http://labs.data.gov/pdf-filler)*
 
-4-6 [Catalog Generator](http://labs.data.gov/dashboard/datagov/csv_to_json) - Multi-format tool to generate and maintain agency.gov/data catalog files. - *[Alternative](http://project-open-data.github.com/catalog-generator/)*
+4-6 [Inventory.data.gov](https://inventory.data.gov/) - A data management tool to generate and maintain Enterprise Data Inventory and Public Data Listing JSON files. - *[How to Guide](https://www.digitalgov.gov/resources/inventory-data-gov-guide/)*
 
 4-7 [Data.json validator](http://labs.data.gov/dashboard/validate) can help you check compliance with the POD schema.
 

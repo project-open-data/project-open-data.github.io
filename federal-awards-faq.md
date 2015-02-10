@@ -7,8 +7,6 @@ filename: federal-awards-faq.md
 
 ---
 
-# Applying the Open Data Policy to Federal Awards
-
 ##Frequently Asked Questions
 
 ###[General Questions:](#general)
