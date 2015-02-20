@@ -28,7 +28,7 @@ Sharing your feedback is simple. To get started, take a look at these [lists of 
 
 Beginning in February 2015, we’ll be using [Github issues](https://guides.github.com/features/issues/) to track the conversation around and proposed changes to each data element. (If you’ve never used GitHub, you can find a great overview [tutorial](https://www.youtube.com/watch?v=TJlYiMp8FuY) here.) Each data element will have its own issue and will be tagged with a descriptive category (such as *awardee* or *account information*). To join the discussion about a certain element, simply post a comment on that element’s issue. All discussion participants will be able to read and respond to your feedback.
 
-If you think an element is missing from this list, we’d like to know. To propose a new element, create an issue and add the tag *proposed element*. For a more in-depth guide to sharing feedback, visit our complete [How to Contribute](feedback/) page.
+If you think an element is missing from this list, we’d like to know. To propose a new element, create an issue and add the tag *proposed element*. For a more in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](feedback/) page.
 
 
 ##Background Materials
