@@ -12,7 +12,7 @@ With the recent enactment of the “Digital Accountability and Transparency Act�
 
 To make sure that we implement the DATA Act successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between federal and non-federal stakeholders.
 
-As we implement the DATA Act, we'll be asking for your feedback. During the implementation process, you'll have many opportunities to share your insights – check this site often to see how you can get involved. You can also sign up for updates [here](# "get DATA Act implementation e-mail updates").
+As we implement the DATA Act, we'll be asking for your feedback. During the implementation process, you'll have many opportunities to share your insights – check this site often to see how you can get involved. You can also sign up for updates [EMAIL LIST LINK](# "get DATA Act implementation e-mail updates").
 
 Interested in providing feedback? Keep reading for more information on how to get involved.
 
