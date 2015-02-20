@@ -26,18 +26,18 @@ If you’d like to propose an entirely new element, please create a new issue ac
 
 This list includes information about recipients and awardees of federal funds. Please note that these elements will be standardized across the different types of awards (grants, contracts, etc.).
 
-Number | Data Element Name | Legislation
------- | ---------------- | -----------------
-1	| Legal Business Name	| FFATA
-2	| Legal Business Identifier Number	| FFATA
-3	| Ultimate Recipient Parent Identifier Number	| FFATA
-4	| Recipient Parent Legal Business Name | FFATA
-5	| Legal Business Address	| FFATA
-6	| Legal Business Congressional District	| FFATA
-7	| Legal Business Country Code	| FFATA
-8	| Legal Business Country Name	| FFATA
-9	| [Top 5 Highly Compensated Officer Names](/whitepapers/highlycompensatedofficers/)	| FFATA
-10	| [Top 5 Highly Compensated Officer Total Compensations](/whitepapers/highlycompensatedofficers/) | FFATA
+Number | Data Element Name | Legislation | Provide Feedback
+------ | ---------------- | ----------------- | ----------
+1	| Legal Business Name	| FFATA | feedback period opens soon
+2	| Legal Business Identifier Number	| FFATA | feedback period opens soon
+3	| Ultimate Recipient Parent Identifier Number	| FFATA | closed [LINK TO ARCHIVED GITHUB ISSUE]
+4	| Recipient Parent Legal Business Name | FFATA | closed [LINK TO ARCHIVED GITHUB ISSUE]
+5	| Legal Business Address	| FFATA | feedback period opens soon
+6	| Legal Business Congressional District	| FFATA | feedback period opens soon
+7	| Legal Business Country Code	| FFATA | feedback period opens soon
+8	| Legal Business Country Name	| FFATA | feedback period opens soon
+9	| [Top 5 Highly Compensated Officer Names](/whitepapers/highlycompensatedofficers/)	| FFATA | [LINK TO GITHUB ISSUE]
+10	| [Top 5 Highly Compensated Officer Total Compensations](/whitepapers/highlycompensatedofficers/) | FFATA | [LINK TO GITHUB ISSUE]
 
 ## Award Amount Information
 

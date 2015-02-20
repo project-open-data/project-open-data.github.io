@@ -8,7 +8,9 @@ title: Highly Compensated Officers
 
 # Element: Top 5 Highly Compensated Officers
 
-This page contains information about the following federal spending data elements, with the goal of soliciting public questions and feedback.
+This page contains information about the following federal spending data elements, with the goal of soliciting public input. You can submit questions and feedback on this GitHub issue [NOTE: TO BE CREATED].
+
+For a more in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](feedback/) page.
 
 Number | Data Element Name | Legislation
 ------ | ---------------- | -----------------
