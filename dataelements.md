@@ -36,8 +36,8 @@ Number | Data Element Name | Legislation
 6	| Legal Business Congressional District	| FFATA
 7	| Legal Business Country Code	| FFATA
 8	| Legal Business Country Name	| FFATA
-9	| Top 5 Highly Compensated Officer Names	| FFATA
-10	| Top 5 Highly Compensated Officer Total Compensations | FFATA
+9	| [Top 5 Highly Compensated Officer Names](/whitepapers/highlycompensatedofficers/)	| FFATA
+10	| [Top 5 Highly Compensated Officer Total Compensations](/whitepapers/highlycompensatedofficers/) | FFATA
 
 ## Award Amount Information
 
