@@ -11,9 +11,7 @@ title: How to Contribute
 
 We’re glad you’d like to help improve the quality and accessibility of federal spending data. On this page, you’ll find everything you need to know about how to share your thoughts.
 
-Questions or concerns? Email us at [XXX@XXX.gov], and we’ll get back to you as soon as we can. Thanks for your interest in federal spending transparency.
-
-All of our open comment threads are hosted on GitHub. In order provide feedback on data elements, you must first create a GitHub account. Sign up for a free account at [github.com].
+All of our open comment threads are hosted on GitHub. In order provide feedback on data elements, you must first create a GitHub account. Sign up for a free account at [github.com](https://github.com/join).
 
 
 Each data element listed on the [data elements page](/dataelements) has a corresponding GitHub issue that’s linked in the name of the element; it’s helpful to think of each issue as a distinct comment thread. To view an element’s current discussion or post input, click on the data element’s name – you’ll be taken to the issue page, where you can leave your feedback.
