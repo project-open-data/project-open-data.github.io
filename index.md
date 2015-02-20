@@ -6,11 +6,13 @@ filename: index.md
 title: Federal Spending Collaboration Space
 ---
 
-#We Need Your Feedback! 
+#We Need Your Feedback!
 
-With the recent enactment of the “Digital Accountability Transparency Act” (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm), the federal government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information. 
+With the recent enactment of the “Digital Accountability and Transparency Act” (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm), the federal government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information.
 
-To make sure that we implement the DATA Act successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between Federal and non-Federal stakeholders.
+To make sure that we implement the DATA Act successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between federal and non-federal stakeholders.
+
+As we implement the DATA Act, we'll be asking for your feedback. During the implementation process, you'll have many opportunities to share your insights – check this site often to see how you can get involved. You can also sign up for updates [here](# "get DATA Act implementation e-mail updates").
 
 Interested in providing feedback? Keep reading for more information on how to get involved.
 
@@ -18,23 +20,20 @@ Interested in providing feedback? Keep reading for more information on how to ge
 
 Because there are so many data elements, we’ll be focusing the conversation on certain ones during two-week rounds. Every two weeks, we’ll select a different group of elements to discuss. Each element will have its own issue and associated [milestone](https://guides.github.com/features/issues/#filtering) letting you know how long the comments will be open.
 
-Starting in February 2015, we’ll begin soliciting feedback on selected data elements. Check our GitHub page to find out which elements are currently in focus. 
+Starting in February 2015, we’ll begin soliciting feedback on selected data elements. Check our GitHub page to find out which elements are currently in focus.
 
 ##How to Participate
 
-Sharing your feedback is simple. To get started, take a look at these [lists of data elements](dataelements/). They feature the elements that are currently displayed on USAspending.gov, along with elements that will be published in accordance with the DATA Act. As you review the lists, ask yourself whether anything is missing. Do you feel a particular element should be defined differently? Do you have questions about any of the elements? We’d love to hear your impressions of the current elements and how they might be improved.
+Sharing your feedback is simple. To get started, take a look at these [lists of data elements](dataelements/). They feature the elements that are currently displayed on USAspending.gov (in accordance with the Federal Funding Accountability Transparency Act (FFATA)), along with elements that will be published in accordance with the DATA Act. As you review the lists, ask yourself whether anything is missing. We are looking for your feedback on if the data is defined and captured in a way that's useful to you. Also, feel free to ask questions about the elements. We'd love to hear your impressions of the current elements and how they might be improved.
+
+Beginning in February 2015, we’ll be using [Github issues](https://guides.github.com/features/issues/) to track the conversation around and proposed changes to each data element. (If you’ve never used GitHub, you can find a great overview [tutorial](https://www.youtube.com/watch?v=TJlYiMp8FuY) here.) Each data element will have its own issue and will be tagged with a descriptive category (such as *awardee* or *account information*). To join the discussion about a certain element, simply post a comment on that element’s issue. All discussion participants will be able to read and respond to your feedback.
+
+If you think an element is missing from this list, we’d like to know. To propose a new element, create an issue and add the tag *proposed element*. For a more in-depth guide to sharing feedback, visit our complete [How to Contribute](feedback/) page.
 
 
-Beginning in February 2015, we’ll be using [Github issues](https://guides.github.com/features/issues/) to track the conversation around and proposed changes to each data element (If you’ve never used GitHub, you can find a great overview [tutorial](https://www.youtube.com/watch?v=TJlYiMp8FuY) here.) Each data element will have its own issue and will be tagged with a descriptive category (such as awardee or account information). To join the discussion about a certain element, simply comment on that element’s issue. All discussion participants will be able to read and respond to your feedback.
+##Background Materials
 
-If you think an element is missing from this list, we’d like to know. To propose a new element, create an issue and add the tag *proposed element*. For a more in-depth guide to sharing feedback, visit our complete [Sharing Feedback](feedback/) page. 
-
-
-##Background Materials 
-
-Would you like more information about a specific data element? Browse our selection of white papers on different elements and read those that interest you. 
-
-Produced by our Interagency Advisory Committee, these white papers provide a comprehensive overview of each element, giving you all the background information you need to propose changes.
+Would you like more information about a specific data element? Browse our selection of white papers on different elements and read those that interest you.
 
  - Paper1
  - Paper2
@@ -42,16 +41,12 @@ Produced by our Interagency Advisory Committee, these white papers provide a com
 ##Recent News and Events
 
 ###News
-Read the latest on Federal financial data updates and the DATA Act.
+Read the latest on federal financial data updates and the DATA Act.
 
 * Update: The Federal Register comments are closed and have been summarized in [this presentation](/DATA%20Act%20Federal%20Register%20Notice%20-%20Public%20Summary%20of%20Responses.pptx)
-* The U.S. Treasury Department issued a solicitation for public input on the establishment of Federal financial data exchange standards via a  [Federal Register Notice](https://federalregister.gov/a/2014-22997).  See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004). 
+* The U.S. Treasury Department issued a solicitation for public input on the establishment of federal financial data exchange standards via a  [Federal Register Notice](https://federalregister.gov/a/2014-22997).  See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004).
 
 ###Events
-Get minutes from past town hall meetings, watch webinar recordings, and more.
+Get materials from past town hall meetings, watch webinar recordings, and more.
 
 * [Financial Data Transparency Town Hall September 26, 2014](thdescription/)
-
-
-
-
