@@ -12,19 +12,17 @@ With the recent enactment of the “Digital Accountability and Transparency Act�
 
 To make sure that we implement the DATA Act successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between federal and non-federal stakeholders.
 
-As we implement the DATA Act, we'll be asking for your feedback. During the implementation process, you'll have many opportunities to share your insights – check this site often to see how you can get involved.
-
-Interested in providing feedback? Keep reading for more information on how to get involved.
+As we implement the DATA Act, we'll be asking for your feedback. During the implementation process, you'll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
 
 ##The Timeline
 
-Because there are so many data elements, we’ll be focusing the conversation on certain ones during two-week rounds. Every two weeks, we’ll select a different group of elements to discuss. Each element will have its own issue and associated [milestone](https://guides.github.com/features/issues/#filtering) letting you know how long the comments will be open.
+Because there are so many data elements, we’ll be focusing the conversation on certain ones during two-week rounds. Every two weeks, we'll select a different group of elements to discuss; these discussions will take place on [GitHub](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues).
 
 Starting in February 2015, we’ll begin soliciting feedback on selected data elements. Check our GitHub page to find out which elements are currently in focus.
 
 ##How to Participate
 
-Sharing your feedback is simple. To get started, take a look at these [lists of data elements](dataelements/). They feature the elements that are currently displayed on USAspending.gov (in accordance with the Federal Funding Accountability Transparency Act (FFATA)), along with elements that will be published in accordance with the DATA Act. As you review the lists, ask yourself whether anything is missing. We are looking for your feedback on if the data is defined and captured in a way that's useful to you. Also, feel free to ask questions about the elements. We'd love to hear your impressions of the current elements and how they might be improved.
+Sharing your feedback is simple. To get started, take a look at these [lists of data elements](dataelements/). They feature the elements that are currently displayed on USAspending.gov (in accordance with the Federal Funding Accountability Transparency Act (FFATA)), along with elements that will be published in accordance with the DATA Act. As you review the lists, ask yourself whether anything is missing. Is the data defined and captured in a way that's useful to you? Do you have questions about any of the elements? We'd love to hear your impressions of the current elements and how they might be improved.
 
 Beginning in February 2015, we’ll be using [Github issues](https://guides.github.com/features/issues/) to track the conversation around and proposed changes to each data element. (If you’ve never used GitHub, you can find a great overview [tutorial](https://www.youtube.com/watch?v=TJlYiMp8FuY) here.) Each data element will have its own issue and will be tagged with a descriptive category (such as *awardee* or *account information*). To join the discussion about a certain element, simply post a comment on that element’s issue. All discussion participants will be able to read and respond to your feedback.
 

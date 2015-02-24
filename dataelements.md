@@ -11,7 +11,7 @@ title: dataelements
 The lists on this page contain two types of federal spending data elements:
 
 1. Existing Federal Funding Accountability and Transparency Act (FFATA) data elements, which are currently featured on USAspending.gov
-2. Additional data elements required by the DATA Act that will be featured on USASpending.gov once the DATA Act is fully implemented.
+2. Additional data elements required by the DATA Act that will be featured on USASpending.gov once the DATA Act is fully implemented
 
 The elements on these lists are currently being discussed by members of the federal community as part of the DATA Act.
 
