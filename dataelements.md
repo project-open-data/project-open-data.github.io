@@ -36,8 +36,8 @@ Number | Data Element Name | Legislation | Provide Feedback
 6	| Legal Business Congressional District	| FFATA | feedback period opens soon
 7	| Legal Business Country Code	| FFATA | feedback period opens soon
 8	| Legal Business Country Name	| FFATA | feedback period opens soon
-9	| [Top 5 Highly Compensated Officer Names](/whitepapers/highlycompensatedofficers/)	| FFATA | feedback period opens soon
-10	| [Top 5 Highly Compensated Officer Total Compensations](/whitepapers/highlycompensatedofficers/) | FFATA | feedback period opens soon
+9	| [Top 5 Highly Compensated Officer Names](/whitepapers/highlycompensatedofficers/)	| FFATA | [leave feedback (closes 3/10/15)](https://github.com/kaitlin/fedspendingtransparency/issues/2)
+10	| [Top 5 Highly Compensated Officer Total Compensations](/whitepapers/highlycompensatedofficers/) | FFATA | [leave feedback (closes 3/10/15)](https://github.com/kaitlin/fedspendingtransparency/issues/2)
 
 ## Award Amount Information
 

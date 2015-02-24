@@ -22,13 +22,13 @@ Each data element listed on the [data elements page](/dataelements) has a corres
 If you think of a data element that you’d like to see included in the standard for federal spending data, we’d love to hear about it. Please take the following steps to share your feedback about the element(s) you’d like to see created:
 
 
-- Visit the [Federal Spending Transparency Github page](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/new) and create a new issue.
+- Visit the [Federal Spending Transparency Github page](https://github.com/kaitlin/fedspendingtransparency/issues/new) and create a new issue.
 - In the *Title* field, list the title of your proposed element. Be descriptive, but also keep your title succinct.
 - To the right of the *Title* field is the *Labels* column. In this column, find *Proposed Element* and click it to add it to your issue.
 - Use the comment field to add your description of your proposed element, along with your reasoning for why it should be included in the standard. If you’d like to add an image, you may do so by dragging and dropping or by uploading an image file.
 - Once you’ve completed your proposed element description, hit the *Submit* button. You’re done! Thanks for sharing your idea.
 
-You may propose as many new elements as you like. Before proposing a new element, however, please check [the current list of proposed elements](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/labels/proposed%20element) to make sure someone else hasn’t already submitted a similar idea.
+You may propose as many new elements as you like. Before proposing a new element, however, please check [the current list of proposed elements](https://github.com/kaitlin/fedspendingtransparency/labels/proposed%20element) to make sure someone else hasn’t already submitted a similar idea.
 
 
 # Deadlines
