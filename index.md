@@ -6,7 +6,7 @@ filename: index.md
 title: Project Open Data
 ---
 
-##1. Background
+## 1. Background
 
 Data is a valuable national resource and a strategic asset to the U.S. Government, its partners, and the public.  Managing this data as an asset and making it available, discoverable, and usable – [in a word, open](principles/) – not only strengthens our democracy and promotes efficiency and effectiveness in government, but also has the potential to create economic opportunity and improve citizens’ quality of life.
 
@@ -18,7 +18,7 @@ The White House developed Project Open Data – this collection of code, tools, 
 
 ----------------
 
-##2. Definitions
+## 2. Definitions
 
 This section is a list of definitions and principles used to guide the project.
 
@@ -34,7 +34,7 @@ This section is a list of definitions and principles used to guide the project.
 
 ----------------
 
-##3. Implementation Guidance
+## 3. Implementation Guidance
 
 Implementation guidance for open data practices.
 
@@ -52,11 +52,11 @@ Implementation guidance for open data practices.
 
 ----------------
 
-##4. Tools
+## 4. Tools
 
 This section is a list of ready-to-use solutions or tools that will help agencies jump-start their open efforts.  These are real, implementable, coded solutions that were developed to significantly reduce the barrier to implementing open data at your agency.  Many of these tools are hosted at [Labs.Data.gov](http://labs.data.gov) and developers are encouraged to contribute improvements to them and contribute other tools which help us implement the spirit of Project Open Data.
 
-###Data Catalog Tools
+### Data Catalog Tools
 
 4-1 [Project Open Data Dashboard](http://labs.data.gov/dashboard/) - A dashboard to check the status of /data and /data.json at each agency. This also includes a validator.
 
