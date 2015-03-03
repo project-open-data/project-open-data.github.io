@@ -135,6 +135,9 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-11 [Licensing policies, principles, and resources](/licensing-resources) - Some examples of how government has addressed open licensing questions.
 
+5-12 [Videos](/videos) - Online tutorials walking agencies through important aspects of the Open Data Policy.   
+
+
 ----------------
 
 ##6. Case Studies
