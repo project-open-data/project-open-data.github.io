@@ -12,10 +12,26 @@ This page contains information about the following federal spending data element
 
 For an in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](/feedback/) page.
 
-Number | Data Element Name | Legislation
------- | ---------------- | -----------------
-9	| Top 5 Highly Compensated Officer Names	| FFATA
-10	| Top 5 Highly Compensated Officer Total Compensations | FFATA
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Number</th>
+      <th scope ="col">Data Element Name</th>
+      <th scope="col">Legislation</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>9</td>
+    <td>Top 5 Highly Compensated Officer Names</td>
+    <td>FFATA</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Top 5 Highly Compensated Officer Total Compensations</td>
+    <td>FFATA</td>
+  </tr>
+</table>
+
 
 ## Background
 
@@ -34,9 +50,37 @@ There were no concerns raised or alternative definitions suggested by representa
 
 ## Recommended Definitions for Transparency Reporting
 
-Recommended Data Element Name | Recommended Definition | Type of Data Element | Format/Length
-:-----------------------------| :--------------------- | -------------------- | :------------
-Highly Compensated Officer First Name	| The first name of an individual identified as one of the five most highly compensated "Executives."  "Executive" means officers, managing partners, or any other employees in management positions.	| Text | Alphanumeric; 35 characters
-Highly Compensated Officer Middle Initial	| The middle initial of an individual identified as one of the five most highly compensated "Executives."  "Executive" means officers, managing partners, or any other employees in management positions.	| Text | Alphanumeric; 1 character
-Highly Compensated Officer Last Name	| The last name of an individual identified as one of the five most highly compensated "Executives." "Executive" means officers, managing partners, or any other employees in management positions.	| Text | Alphanumeric; 35 characters
-Highly Compensated Officer Total Compensation	| The cash and noncash dollar value earned by the one of the five most highly compensated “Executives” during the awardee's preceding fiscal year and includes the following (for more information see 17 CFR 229.402c2): salary and bonuses, awards of stock, stock options, and stock appreciation rights, earnings for services under non-equity incentive plans, change in pension value, above-market earnings on deferred compensation which is not tax qualified, and other compensation.	| Amount | Numeric; 38 characters
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Recommended Data Element Name</th>
+      <th scope="col">Recommended Definition</th>
+      <th scope="col">Type of Data Element</th>
+      <th scope="col">Format/Length</th>
+    </tr>
+  </thead>
+  <tr>
+      <td>Highly Compensated Officer First Name</td>
+      <td>The first name of an individual identified as one of the five most highly compensated "Executives."  "Executive" means officers, managing partners, or any other employees in management positions.</td>
+      <td>Text</td>
+      <td>Alphanumeric; 35 characters</td>
+  </tr>
+  <tr>
+      <td>Highly Compensated Officer Middle Initial</td>
+      <td>The middle initial of an individual identified as one of the five most highly compensated "Executives."  "Executive" means officers, managing partners, or any other employees in management positions.</td>
+      <td>Text</td>
+      <td>Alphanumeric; 1 character</td>
+  </tr>
+  <tr>
+      <td>Highly Compensated Officer Last Name</td>
+      <td>The last name of an individual identified as one of the five most highly compensated "Executives." "Executive" means officers, managing partners, or any other employees in management positions.</td>
+      <td>Text</td>
+      <td>Alphanumeric; 35 characters</td>
+  </tr>
+  <tr>
+      <td>Highly Compensated Officer Total Compensation</td>
+      <td>The cash and noncash dollar value earned by the one of the five most highly compensated “Executives” during the awardee's preceding fiscal year and includes the following (for more information see 17 CFR 229.402c2): salary and bonuses, awards of stock, stock options, and stock appreciation rights, earnings for services under non-equity incentive plans, change in pension value, above-market earnings on deferred compensation which is not tax qualified, and other compensation.</td>
+      <td>Amount</td>
+      <td>Numeric; 38 characters</td>
+  </tr>
+</table>
