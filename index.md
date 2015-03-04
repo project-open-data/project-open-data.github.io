@@ -76,7 +76,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-9 [US Open Data Institute's Let Me Get That Data For You](http://lmgtdfy.usopendata.org/) - A simple search interface that shows you what public machine-readable data is already live on your website. This tool is useful for ensuring your Public Data Listing is complete. 
 
-###Converter Tools 
+#### Converter Tools 
 
 4-10 [Database to API](https://github.com/project-open-data/db-to-api) - Dynamically generate RESTful APIs from the contents of a database table. Provides JSON, XML, and HTML. Supports most popular databases. -&nbsp;*[Hosted](http://labs.data.gov/db-to-api/readme.md)*
 
@@ -88,11 +88,11 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-14 [ESRI2Open](http://github.com/project-open-data/esri2open) - A tool which converts spatial and non-spatial data form ESRI only formats to the Open Data formats, CSV, JSON, or GeoJSON, making them more a part of the WWW ecology.
 
-###Engagement Tools 
+#### Engagement Tools 
 
 4-15 [Kickstart](https://github.com/project-open-data/kickstart) - A WordPress plugin to help agencies kickstart their open data efforts by allowing citizens to browse existing datasets and vote for suggested priorities.
 
-###Data Tools (Miscellaneous) 
+#### Data Tools (Miscellaneous) 
 
 4-16 [Spatial Search](https://github.com/project-open-data/SpatialSearch) - A RESTful API that allows the user to query geographic entities by latitude and longitude, and extract data.
 
@@ -167,7 +167,7 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 So you’re opening up government data and making it easier to find and use – to inspire new ideas, spur economic growth, and ultimately make your agency more effective in achieving its mission. But you realize that your agency can’t just supply data – it’s also about getting and acting upon feedback, and catalyzing use of the data from a wide variety of stakeholders.  A community event is a great way to hear ideas and feedback from passionate people, offer your expertise to people with thoughtful questions and evangelize your data assets. This document gives an overview of the main types of open data community events the U.S. Government holds.
 
-### Open Data Community Events 
+## Open Data Community Events 
 
 #### Data Jam
 
@@ -188,7 +188,7 @@ An event where developers, designers, and strategists work in teams to solve pro
 
 #### See: [Open Data Community Event Templates and Instructions](engagement/)
 
-### Open Data Stakeholder Contacts
+## Open Data Stakeholder Contacts
 
 #### FOIA Officers and Ombudsman
 Federal agency staff dedicated to handling Freedom of Information Act (FOIA) requests from industry and media. 
