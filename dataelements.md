@@ -165,15 +165,15 @@ These elements describe the different characteristics each award possesses – f
   </tr>
     <tr>
     <td>17</td>
-    <td>North American Industry Classification System (NAICS) Code</td>
+    <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industry Classification System (NAICS) Code</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/4" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 3/10/15)</a></td>
   </tr>
   <tr>
     <td>18</td>
-    <td>North American Industry Classification System (NAICS) Description</td>
+    <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industry Classification System (NAICS) Description</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/4" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 3/10/15)</a></td>
   </tr>
   <tr>
     <td>19</td>
