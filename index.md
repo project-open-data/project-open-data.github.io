@@ -17,7 +17,7 @@ The ultimate value of data can often not be predicted. That’s why the U.S. Gov
 The White House developed Project Open Data to help agencies adopt the Open Data Policy and unlock the potential of government data.  This collection of code, tools, and case studies is framed into the following organizing construct and will evolve over time as a community resource to facilitate broader adoption of open data practices in government.  
 
 
-![](https://github.com/davechod/project-open-data.github.io/blob/master/assets/img/framework.png)
+![](assets/img/framework.png)
 
 **Figure 1: Project Open Data Framework** 
 
