@@ -14,7 +14,7 @@ The Chief Data Officer is an emerging role in US federal government.
 CFO Act Agencies                                |  Chief Data Officer                 
 --------------                                  | --------------        
 Department of Agriculture                       | Bobby Jones, Acting
-Department of Commerce                          | Lynn Overmann, Deputy CDO 
+Department of Commerce                          | Ian Kalin
 Department of Defense                           |
 Department of Education                         |
 Department of Energy                            | Dave Dutton
