@@ -63,7 +63,7 @@ There were no concerns or recommended alternatives for the NAICS Code and NAICS 
     <td>North American Industrial Classification System (NAICS) Code</td>
     <td>The identifier that represents the North American Industrial Classification System Code assigned to the solicitation and resulting award identifying the industry in which the contract requirements are normally performed.</td>
     <td>Text</td>
-    <td>Numeric; 2-6 digits</td>
+    <td>Alphaumeric; 2-6 digits</td>
   </tr>
   <tr>
     <td>North American Industrial Classification System (NAICS) Description</td>
@@ -77,4 +77,3 @@ There were no concerns or recommended alternatives for the NAICS Code and NAICS 
 
 [Federal Acquisition Regulation Part 19, Small Business Programs.](http://acquisition.gov/far/current/html/FARTOCP19.html)  
 [U.S. Census Bureau site with NAICS codes.](http://www.census.gov/eos/www/naics/)
-
