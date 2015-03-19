@@ -87,13 +87,13 @@ This list includes information about recipients and awardees of federal funds. P
     <td>9</td>
     <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Names</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/2" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 3/10/15)</a></td>
+    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/2" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 4/3/15)</a></td>
   </tr>
   <tr>
     <td>10</td>
     <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Total Compensations</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/2" title="Leave feedback for Top 5 Highly Compensated Officer Total Compensations">leave feedback (closes 3/10/15)</a></td>
+    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/2" title="Leave feedback for Top 5 Highly Compensated Officer Total Compensations">leave feedback (closes 4/3/15)</a></td>
   </tr>
 </table>
 
@@ -115,7 +115,7 @@ This list includes elements used to describe the amount (value) of a certain awa
     <td>11</td>
     <td>Funding Action Obligation</td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td>feedback period opens 3/27/15</td>
   </tr>
   <tr>
     <td>12</td>
@@ -167,13 +167,13 @@ These elements describe the different characteristics each award possesses – f
     <td>17</td>
     <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industry Classification System (NAICS) Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/4" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 3/10/15)</a></td>
+    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/4" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 4/3/15)</a></td>
   </tr>
   <tr>
     <td>18</td>
     <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industry Classification System (NAICS) Description</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/4" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 3/10/15)</a></td>
+    <td><a href="https://github.com/kaitlin/fedspendingtransparency/issues/4" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 4/3/15)</a></td>
   </tr>
   <tr>
     <td>19</td>
@@ -443,7 +443,7 @@ This list features elements that describe the accounts from which the awards are
     <td>55</td>
     <td>Amount of other budgetary resources</td>
     <td>DATA Act</td>
-    <td>feedback period opens soon</td>
+    <td>feedback period opens 3/27/15</td>
   </tr>
   <tr>
     <td>56</td>
@@ -455,7 +455,7 @@ This list features elements that describe the accounts from which the awards are
     <td>57</td>
     <td>Outlay</td>
     <td>DATA Act</td>
-    <td>feedback period opens soon</td>
+    <td>feedback period opens 3/27/15</td>
   </tr>
 </table>
 
