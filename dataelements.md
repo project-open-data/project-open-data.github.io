@@ -115,7 +115,7 @@ This list includes elements used to describe the amount (value) of a certain awa
     <td>11</td>
     <td>Funding Action Obligation</td>
     <td>FFATA</td>
-    <td>feedback period opens 3/27/15</td>
+    <td>feedback period opens soon</td>
   </tr>
   <tr>
     <td>12</td>
@@ -431,7 +431,7 @@ This list features elements that describe the accounts from which the awards are
     <td>53</td>
     <td>Obligated Amount</td>
     <td>DATA Act</td>
-    <td>feedback period opens soon</td>
+    <td>feedback period opens 3/27/15</td>
   </tr>
   <tr>
     <td>54</td>
