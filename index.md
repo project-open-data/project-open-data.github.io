@@ -8,15 +8,15 @@ title: Federal Spending Collaboration Space
 
 #We Need Your Feedback!
 
-With the recent enactment of the Digital Accountability and Transparency Act (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm), the federal government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information.
+In conjunction with the recent enactment of the Digital Accountability and Transparency Act (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm) and our ongoing efforts to improve federal spending data under the Federal Funding Accountability and Transparency Act (FFATA), the federal government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information.
 
-To make sure that we implement the DATA Act successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between federal and non-federal stakeholders.
+To make sure that we implement the data standards and improvements successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between federal and non-federal stakeholders.
 
-As we implement the DATA Act, we'll be asking for your feedback. During the implementation process, you'll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
+As we continue our implementation efforts, we'll be asking for your feedback. During the implementation process, you'll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
 
 ##The Timeline
 
-Because there are so many data elements, we’ll be focusing the conversation on certain ones during two-week rounds. Every two weeks, we'll select a different group of elements to discuss; these discussions will take place on [GitHub](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues).
+Because there are so many data elements, we’ll be focusing the conversation on certain ones during three-week rounds. In each round, we'll select a different group of elements to discuss; these discussions will take place on [GitHub](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues).
 
 Starting in March 2015, we’ll begin soliciting feedback on selected data elements. Check our GitHub page to find out which elements are currently in focus.
 

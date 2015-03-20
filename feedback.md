@@ -32,10 +32,10 @@ You may propose as many new elements as you like. Before proposing a new element
 
 # Deadlines
 
-As we work to make federal spending data clearer and more accessible, we’ll be taking into consideration many data elements. For this reason, we’ll be gathering feedback on specific groupings of elements during two-week spans. Every two weeks, we’ll request feedback on a different group of elements. As you view open issues on the issues page, you can filter the issues by milestone to see only those that are currently open for providing feedback.
+As we work to make federal spending data clearer and more accessible, we’ll be taking into consideration many data elements. For this reason, we’ll be gathering feedback on specific groupings of elements in three-week spans. During each of these spans, we’ll request feedback on a different group of elements. As you view open issues on the issues page, you can filter the issues by milestone to see only those that are currently open for providing feedback.
 
-Each two-week interval will have its own milestone, or deadline. Once a milestone has passed, we will close and archive the associated issues, and you’ll no longer be able to share your feedback on the included elements.
+Each three-week interval will have its own milestone, or deadline. Once a milestone has passed, we will close and archive the associated issues, and you’ll no longer be able to share your feedback on the included elements.
 
-Because of this, it’s important to stay informed of the milestones and which issues will be closing soon. You may find it helpful to prioritize those elements whose issues will be closed in the near future. Please note that the team working on the spending standard is very small. Gathering feedback in two-week intervals will allow them to fully engage with your feedback.
+Because of this, it’s important to stay informed of the milestones and which issues will be closing soon. You may find it helpful to prioritize those elements whose issues will be closed in the near future. Please note that the team working on the spending standard is very small. Gathering feedback in three-week intervals will allow them to fully engage with your feedback.
 
 You can get updates when new data elements are ready for feedback by [joining our mailing list](http://eepurl.com/bgqOH9).
