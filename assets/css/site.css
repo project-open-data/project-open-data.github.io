@@ -43,7 +43,7 @@ h2 {
   line-height: 24px;
 }
 
-#site-header h2 { 
+#site-header h2 {
   margin-top: 10px;
 }
 h3 { margin-top: 30px; }
@@ -172,11 +172,6 @@ table  tbody tr:nth-child(2n+1) th { background-color: #e9e9e9; }
 
 
 
-
-table tr td:nth-child(1) {
-    width: 15%;
-    text-align: center;
-}
 
 table tr td code {
     display: inline-block;
