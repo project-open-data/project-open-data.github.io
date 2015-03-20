@@ -6,84 +6,410 @@ filename: dataelements.md
 title: dataelements
 ---
 
-## Federal Spending Data Elements 
+# Federal Spending Data Elements
 
-The data elements in the below list represent the existing Federal Funding Accountability and Transparency Act (FFATA) data elements currently displayed on [USAspending.gov](http://www.usaspending.gov/) and the additional data elements that will be posted pursuant to the DATA Act. These elements are currently being deliberated on and discussed by the Federal community as a part of DATA Act implementation. At this point, this list is exhaustive. However, additional data elements may be standardized for transparency reporting in the future based on agency or community needs. 
+The lists on this page contain two types of federal spending data elements:
 
-###*Join the Conversation*
+1. Existing Federal Funding Accountability and Transparency Act (FFATA) data elements, which are currently featured on USAspending.gov
+2. Additional data elements required by the DATA Act that will be featured on USASpending.gov once the DATA Act is fully implemented
 
-At this time, we are asking for comments in response to the following questions:
+The elements on these lists are currently being discussed by members of the federal community as part of the DATA Act.
 
-1.	[Which data elements are most crucial to your current reporting and/or analysis?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/6) 
+At the current time, these lists are exhaustive. That said, the federal community is aware of agencies’ and the larger community’s needs and may add and standardize new elements to improve transparency reporting moving forward.
+
+The data elements are grouped by category; each short list represents a different category. In addition, each element will have own GitHub issue, which is where you can add to the discussion on that element. To share your thoughts, simply click on the link in an element's feedback column to be rerouted to its GitHub issue page, where you can leave your feedback in the blank comment box.
+
+If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines](/feedback).
+
+
+## Awardee and Recipient Entity Information
+
+This list includes information about recipients and awardees of federal funds. Please note that these elements will be standardized across the different types of awards (grants, contracts, etc.).
+
+<table>
+  <thead>
+    <tr>
+      <th scope ="col">Data Element Name</th>
+      <th scope="col">Legislation</th>
+      <th scope="col">Provide Feedback</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Legal Business Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Legal Business Identifier Number</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Ultimate Recipient Parent Identifier Number</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Recipient Parent Legal Business Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Legal Business Address</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Legal Business Congressional District</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Legal Business Country Code</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Legal Business Country Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Names</a></td>
+    <td>FFATA</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 4/10/15)</a></td>
+  </tr>
+  <tr>
+    <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Total Compensations</a></td>
+    <td>FFATA</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="Leave feedback for Top 5 Highly Compensated Officer Total Compensations">leave feedback (closes 4/10/15)</a></td>
+  </tr>
+</table>
+
+
+## Award Amount Information
+
+This list includes elements used to describe the amount (value) of a certain award.
+
+<table>
+  <thead>
+    <tr>
+      <th scope ="col">Data Element Name</th>
+      <th scope="col">Legislation</th>
+      <th scope="col">Provide Feedback</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Funding Action Obligation</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Non-federal Funding Amount</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Current Total Funding Obligation Amount on Award</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Current Total Value of Award</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Potential Total Value of Award</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+</table>
+
+
+## Award Characteristic Information
+
+These elements describe the different characteristics each award possesses – for example, its transaction code, its Award ID, and so on.
+
+<table>
+  <thead>
+    <tr>
+      <th scope ="col">Data Element Name</th>
+      <th scope="col">Legislation</th>
+      <th scope="col">Provide Feedback</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Type of Transaction Code</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+    <tr>
+    <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Code</a></td>
+    <td>FFATA</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="Leave feedback for North American Industrial Classification System Code">leave feedback (closes 4/10/15)</a></td>
+  </tr>
+  <tr>
+    <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Description</a></td>
+    <td>FFATA</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="Leave feedback for North American Industrial Classification System Description">leave feedback (closes 4/10/15)</a></td>
+  </tr>
+  <tr>
+    <td>Catalog of Federal Domestic Assistance (CFDA) Number</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Catalog of Federal Domestic Assistance (CFDA) Title</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Treasury Account Symbol</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Award Description</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Award ID Modification/Amendment</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Parent Award ID</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Action Date</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Period of Performance Start Date</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Period of Performance Current End Date</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Period of Performance Potential End Date</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Ordering Period End Date</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Primary Place of Performance Address</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Primary Place of Performance Congressional District</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Primary Place of Performance Country Code</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Primary Place of Performance Country Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Award ID</td>
+    <td>DATA Act</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Record Type</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Type of Action</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Business Type</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+</table>
+
+
+## Funding Entity Information
+
+These data elements describe characteristics of the entity that provided funding for an award.
+
+<table>
+  <thead>
+    <tr>
+      <th scope ="col">Data Element Name</th>
+      <th scope="col">Legislation</th>
+      <th scope="col">Provide Feedback</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Agency Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Agency Code</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Sub Tier  Agency Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Sub Tier  Agency Code</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Office Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Office Code</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+</table>
+
+
+## Awarding Entity Information
+
+Elements on this list describe awarding entities – those that presented the awardee with the funding.
+
+<table>
+  <thead>
+    <tr>
+      <th scope ="col">Data Element Name</th>
+      <th scope="col">Legislation</th>
+      <th scope="col">Provide Feedback</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Awarding Agency Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Awarding Agency Code</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Awarding Sub Tier  Agency Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Awarding Sub Tier  Agency Code</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Awarding Office Name</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Awarding Office Code</td>
+    <td>FFATA</td>
+    <td>feedback period opens soon</td>
+  </tr>
+</table>
+
+
+## Account Level Information
+
+This list features elements that describe the accounts from which the awards are funded.
+
+<table>
+  <thead>
+    <tr>
+      <th scope ="col">Data Element Name</th>
+      <th scope="col">Legislation</th>
+      <th scope="col">Provide Feedback</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Object Class</td>
+    <td>DATA Act</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Appropriations Account</td>
+    <td>DATA Act</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Amount of Budget Authority Appropriated</td>
+    <td>DATA Act</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Obligated Amount</td>
+    <td>DATA Act</td>
+    <td>feedback period opens 3/27/15</td>
+  </tr>
+  <tr>
+    <td>Unobligated Amount</td>
+    <td>DATA Act</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Amount of other budgetary resources</td>
+    <td>DATA Act</td>
+    <td>feedback period opens 3/27/15</td>
+  </tr>
+  <tr>
+    <td>Program Activity</td>
+    <td>DATA Act</td>
+    <td>feedback period opens soon</td>
+  </tr>
+  <tr>
+    <td>Outlay</td>
+    <td>DATA Act</td>
+    <td>feedback period opens 3/27/15</td>
+  </tr>
+</table>
+
+
+##Join the Conversation
+
+We’re currently researching how people use these data elements in the course of their work, and we’d love your feedback.
+
+If you use or would like to use data provided by the U.S. Department of the Treasury, please answer the following questions:
+
+1.	[Which data elements are central to your reporting or analysis processes?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/6)
+
+**Note**: If none of the data elements listed is useful to you, use this space to describe an element that would be useful. Please also see our section on [proposing new elements](/feedback).
 
 2.	[In setting standards, what are industry standards the Treasury and OMB should be considering?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/7)
 
-3.	[What are some of the considerations that Treasury and OMB should take into account when establishing data standards?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/8)
-
-
-### Federal Spending Data Elements List
-
-Number | Data Element Name | Category | Legislation (FFATA or DATA Act)
------- | ---------------- | ----------------- | ----- 
-  |   |   | 
-1	| Awardee/Recipient Legal Business Name	| Awardee/Recipient Entity Information 	| FFATA 
-2	| Awardee/Recipient Legal Business Identifier Number	| Awardee/Recipient Entity Information  |	FFATA 
-3	| Ultimate Awardee/Recipient Parent Identifier Number	| Awardee/Recipient Entity Information  |	FFATA 
-4	| Awardee/Recipient Parent Legal Business Name	| Awardee/Recipient Entity Information  |	FFATA 
-5	| Awardee/Recipient Legal Business Address	| Awardee/Recipient Entity Information  |	FFATA 
-6	| Awardee/Recipient Legal Business Congressional District	| Awardee/Recipient Entity Information 	| FFATA 
-7	| Awardee/Recipient Legal Business Country Code	| Awardee/Recipient Entity Information 	| FFATA 
-8	| Awardee/Recipient Legal Business Country Name	| Awardee/Recipient Entity Information 	| FFATA 
-9	| Funding Action Obligation	| Award Amount	| FFATA 
-10	| Non-federal Funding Amount	| Award Amount	| FFATA 
-11	| Current Total Funding Obligation Amount on Award   |	Award Amount |	FFATA 
-12	| Current Total Value of Award | 	Award Amount |	FFATA 
-13	| Potential Total Value of Award	| Award Amount	| FFATA 
-14	| Type of Transaction Code	| Award Information |	FFATA 
-15	| Funding Agency Name	| Funding Entity Information	| FFATA 
-16	| Funding Agency Code	| Funding Entity Information	| FFATA 
-17	| Funding Sub Tier  Agency Name	| Funding Entity Information	| FFATA 
-18	| Funding Sub Tier  Agency Code |Funding Entity Information	 | FFATA 
-19	| Funding Office Name	| Funding Entity Information	| FFATA 
-20	| Funding Office Code	| Funding Entity Information	| FFATA 
-21	| North American Industry Classification System (NAICS) Code	| Award Information	| FFATA 
-22	| North American Industry Classification System (NAICS) Description 	| Award Information	| FFATA 
-23	| Catalog of Federal Domestic Assistance (CFDA) Number 	| Award Information	| FFATA 
-24	| Catalog of Federal Domestic Assistance (CFDA) Title 	| Award Information	| FFATA 
-25	| Treasury Account Symbol	| Award Information	 | FFATA 
-26	| Award Description	| Award Information	| FFATA 
-28	| Award ID Modification/Amendment	| Award Information	| FFATA 
-29	| Parent Award ID	| Award Information	| FFATA 
-30	| Awarding Agency Name	| Awarding Entity Information 	| FFATA 
-31	| Awarding Agency Code	| Awarding Entity Information 	| FFATA 
-32	| Awarding Sub Tier  Agency Name	|Awarding Entity Information  |	FFATA 
-33	| Awarding Sub Tier  Agency Code	| Awarding Entity Information 	| FFATA 
-34	| Awarding Office Name	| Awarding Entity Information  	|FFATA 
-35	| Awarding Office Code	| Awarding Entity Information 	| FFATA 
-36	| Action Date	| Award Information	| FFATA 
-37	| Period of Performance Start Date	| Award Information 	| FFATA 
-38	| Period of Performance Current End Date |	Award Information 	| FFATA 
-39	| Period of Performance Potential End Date |	Award Information  |	FFATA 
-40	| Ordering Period End Date |	Award Information 	| FFATA 
-41	| Primary Place of Performance Address	| Award Information 	| FFATA 
-42	| Primary Place of Performance Congressional District	| Award Information 	| FFATA 
-43	| Primary Place of Performance Country Code |	Award Information 	| FFATA 
-44	| Primary Place of Performance Country Name	| Award Information 	| FFATA 
-45	| Top 5 Highly Compensated Officer Names	| Awardee/Recipient Entity Information 	| FFATA 
-46	| Top 5 Highly Compensated Officer Total Compensations |	Awardee/Recipient Entity Information  |	FFATA 
-47	| Record Type	| Award Information	| FFATA 
-48	| Type of Action	| Award Information	| FFATA 
-49	| Business Type	| Award Information	| FFATA 
-50	| Object Class	| Account Information	| DATA Act
-51	| Appropriations Account | Account Information	| DATA Act
-52	| Amount of Budget Authority Appropriated |	Account Information	| DATA Act
-53	| Obligated Amount 	| Account Information	| DATA Act
-54	| Unobligated Amount	| Account Information	| DATA Act
-55	| Amount of other budgetary resources 	| Account Information	| DATA Act
-56	| Award ID |	Award Information	| DATA Act
-57	| Program Activity	| Account Information	| DATA Act
-58	| Outlay	| Account Information	| DATA Act
-
+3.	[What factors should the Treasury and OMB take into account as they establish data standards? ](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/8)
 
 
 ####Thank you for your contribution to DATA Act implementation!
