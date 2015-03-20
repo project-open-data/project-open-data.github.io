@@ -18,8 +18,6 @@ As we continue our implementation efforts, we'll be asking for your feedback. Du
 
 Because there are so many data elements, we’ll be focusing the conversation on certain ones during three-week rounds. In each round, we'll select a different group of elements to discuss; these discussions will take place on [GitHub](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues).
 
-Starting in March 2015, we’ll begin soliciting feedback on selected data elements. Check our GitHub page to find out which elements are currently in focus.
-
 ##How to Participate
 
 Sharing your feedback is simple. To get started, take a look at these [lists of data elements](dataelements/). They feature the elements that are currently displayed on USAspending.gov (in accordance with the Federal Funding Accountability Transparency Act (FFATA)), along with elements that will be published in accordance with the DATA Act. As you review the lists, ask yourself whether anything is missing. Is the data defined and captured in a way that's useful to you? Do you have questions about any of the elements? We'd love to hear your impressions of the current elements and how they might be improved.
