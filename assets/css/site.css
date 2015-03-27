@@ -198,6 +198,11 @@ margin-top : 5em;
   color : #E74338;
 }
 
+blockquote{
+  background-color: #E9E9E9;
+  padding: 10px;
+  border: 1px solid #002A5b;
+}
 
 #footer { padding: 40px 10px; }
 
