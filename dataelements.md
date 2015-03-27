@@ -370,7 +370,7 @@ This list features elements that describe the accounts from which the awards are
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/obligation/" title="Obligation whitepaper">Obligated Amount</a></td>
+    <td><a href="/whitepapers/obligation/" title="Obligation whitepaper">Obligation</a></td>
     <td>DATA Act</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/20" title="Leave feedback for Obligation">leave feedback (closes 4/17/15)</a></td>
   </tr>
