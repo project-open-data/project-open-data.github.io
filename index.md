@@ -6,6 +6,12 @@ filename: index.md
 title: Federal Spending Collaboration Space
 ---
 
+> **Webcast on DATA Act Implementation**
+>
+> The webcast has been rescheduled and will no longer take place on March 27, 2014. As soon as a new date, time, and link is available, that information will be posted here.
+>
+> Thank you for your interest in DATA Act implementation!
+
 #We Need Your Feedback!
 
 In conjunction with the recent enactment of the Digital Accountability and Transparency Act (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm) and our ongoing efforts to improve federal spending data under the Federal Funding Accountability and Transparency Act (FFATA), the federal government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information.
