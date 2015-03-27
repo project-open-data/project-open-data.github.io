@@ -39,6 +39,9 @@ Would you like more information about a specific data element? Browse our select
 
  - [Top 5 Highly Compensated Officers](whitepapers/highlycompensatedofficers/)
  - [North American Industrial Classification System](whitepapers/naics/)
+ - [Object Class](whitepapers/objectclass/)
+ - [Obligation](whitepapers/obligation/)
+ - [Program Activity](whitepapers/programactivity/)
  - More materials coming soon
 
 ##Recent News and Events
