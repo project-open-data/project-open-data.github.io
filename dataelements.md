@@ -382,7 +382,7 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td>Amount of other budgetary resources</td>
     <td>DATA Act</td>
-    <td>feedback period opens 3/27/15</td>
+    <td>feedback period opens soon</td>
   </tr>
   <tr>
     <td><a href="/whitepapers/programactivity/" title="Program Activity whitepaper">Program Activity</a></td>
@@ -392,7 +392,7 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td>Outlay</td>
     <td>DATA Act</td>
-    <td>feedback period opens 3/27/15</td>
+    <td>feedback period opens soon</td>
   </tr>
 </table>
 
