@@ -2,6 +2,7 @@
 layout: default
 title: Open Licenses
 permalink: /open-licenses/
+redirect_from: /license-examples/
 filename: licenses.md
 ---
 
