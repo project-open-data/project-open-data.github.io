@@ -586,7 +586,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | Yes, if applicable
 **Accepted Values** | String (URL)
-**Usage Notes** | See [list of license-free declarations and licenses](/license-examples/).
+**Usage Notes** | See [list of license-free declarations and licenses](/open-licenses/).
 **Example** |  `{"license":"http://creativecommons.org/publicdomain/zero/1.0/"}`
 
 {: .table .table-striped #modified}
