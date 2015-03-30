@@ -39,11 +39,11 @@ Agencies review obligations and outlays by object class on a very regular basis.
 
 OMB Circular A-11 Section 83.1 defines object classes as “categories in a classification system that presents obligations by the items or services purchased by the Federal Government.”  Section 83.1 describes five major groups of object classes:
 
-    **10	Personnel Compensation and Benefits**
-    **20	Contractual Services and Supplies**
-    **30	Acquisition of Assets**
-    **40	Grants and Fixed Charges**
-    **90	Other**
+        10 Personnel Compensation and Benefits
+        20 Contractual Services and Supplies
+        30 Acquisition of Assets
+        40 Grants and Fixed Charges
+        90 Other
 
 Each grouping includes detailed object classes.  For instance, Personnel Compensation and Benefits includes object classes for: personnel compensation for full-time permanent government employees; other than full-time permanent employees; benefits; and, military personnel.  Section 83.6 defines each specific object class.
 
