@@ -10,9 +10,9 @@ The [Federal Open Data Policy](https://project-open-data.cio.gov/policy-memo/#c-
 
 ## U.S. Public Domain 
 
-Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection under [17 U.S.C. § 105](http://www.copyright.gov/title17/92chap1.html#105). Government works are by default in the U.S. Public Domain. If no other open license applies, the following URL should be input to your data's `license` field: 
+Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection under [17 U.S.C. § 105](http://www.copyright.gov/title17/92chap1.html#105). Government works are by default in the U.S. Public Domain. If no other open license applies, the following URL should be used for the dataset's `license` field: 
 
-* U.S. Public Domain: [Copyright Law of the United States of America, Section 105](http://www.copyright.gov/title17/92chap1.html#105)
+* [U.S. Public Domain](http://www.usa.gov/publicdomain/mark/1.0/), e.g. `"license":"http://www.usa.gov/publicdomain/mark/1.0/"`
 
 ## Open Licenses  
 
@@ -29,17 +29,22 @@ Open licenses grant permission to access, re-use, and redistribute a work with f
 When purchasing data or content from third-party vendors, however care must be taken to ensure the information is not hindered by a restrictive, non-open license. In general, such licenses should comply with [the open knowledge definition](http://opendefinition.org/okd/) of an open license. Several examples of open licenses for potential use by agencies are listed below:
 
 #### Data Licenses
-* [Open Data Commons Public Domain Dedication and Licence (PDDL)](http://opendefinition.org/licenses/odc-pddl)
-* [Open Data Commons Attribution License](http://opendatacommons.org/licenses/by/)
-* [Open Data Commons Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/)
+* [Open Data Commons Public Domain Dedication and Licence (PDDL)](http://opendatacommons.org/licenses/pddl/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/pddl/1.0/"`
+* [Open Data Commons Attribution License](http://opendatacommons.org/licenses/by/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/by/1.0/"`
+* [Open Data Commons Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/odbl/1.0/"`
 
 #### Content Licenses
 * [Creative Commons BY, BY-SA, or CC0](http://creativecommons.org/choose/)
-* [GNU Free Documentation License](http://www.gnu.org/licenses/fdl-1.3.en.html)
+    * e.g. `"license":"https://creativecommons.org/licenses/by/4.0/"`
+    * e.g. `"license":"http://creativecommons.org/publicdomain/zero/1.0/"`
+* [GNU Free Documentation License](http://www.gnu.org/licenses/fdl-1.3.en.html), e.g. `"license":"http://www.gnu.org/licenses/fdl-1.3.en.html"`
+
+## U.S. Public Domain
+* [U.S. Public Domain](http://www.usa.gov/publicdomain/mark/1.0/), e.g. `"license":"http://www.usa.gov/publicdomain/mark/1.0/"`
 
 ## Worldwide Public Domain Dedication
-* [Creative Commons CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/)
-* [Open Data Commons Public Domain Dedication and License (PDDL)](http://opendatacommons.org/licenses/pddl/)
+* [Creative Commons CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/), e.g. `"license":"http://creativecommons.org/publicdomain/zero/1.0/"`
+* [Open Data Commons Public Domain Dedication and License (PDDL)](http://opendatacommons.org/licenses/pddl/), e.g. `"license":"http://opendatacommons.org/licenses/pddl/"`
 
 ## More Information
 * *[Copyright and Other Rights Pertaining to U.S. Government Works](http://www.usa.gov/copyright.shtml)*
