@@ -355,9 +355,9 @@ This list features elements that describe the accounts from which the awards are
     </tr>
   </thead>
   <tr>
-    <td>Object Class</td>
+    <td><a href="/whitepapers/objectclass/" title="Object Class whitepaper">Object Class</a></td>
     <td>DATA Act</td>
-    <td>feedback period opens soon</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/19" title="Leave feedback for Object Class">leave feedback (closes 4/20/15)</a></td>
   </tr>
   <tr>
     <td>Appropriations Account</td>
@@ -370,9 +370,9 @@ This list features elements that describe the accounts from which the awards are
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Obligated Amount</td>
+    <td><a href="/whitepapers/obligation/" title="Obligation whitepaper">Obligation</a></td>
     <td>DATA Act</td>
-    <td>feedback period opens 3/27/15</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/20" title="Leave feedback for Obligation">leave feedback (closes 4/20/15)</a></td>
   </tr>
   <tr>
     <td>Unobligated Amount</td>
@@ -382,17 +382,17 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td>Amount of other budgetary resources</td>
     <td>DATA Act</td>
-    <td>feedback period opens 3/27/15</td>
+    <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Program Activity</td>
+    <td><a href="/whitepapers/programactivity/" title="Program Activity whitepaper">Program Activity</a></td>
     <td>DATA Act</td>
-    <td>feedback period opens soon</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/21" title="Leave feedback for Program Activity">leave feedback (closes 4/20/15)</a></td>
   </tr>
   <tr>
     <td>Outlay</td>
     <td>DATA Act</td>
-    <td>feedback period opens 3/27/15</td>
+    <td>feedback period opens soon</td>
   </tr>
 </table>
 

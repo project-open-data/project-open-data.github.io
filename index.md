@@ -8,7 +8,7 @@ title: Federal Spending Collaboration Space
 
 > **Webcast on DATA Act Implementation**
 >
-> The webcast has been rescheduled and will no longer take place on March 27, 2014. As soon as a new date, time, and link is available, that information will be posted here.
+> The webcast has been rescheduled and will no longer take place on March 27, 2015. As soon as a new date, time, and link is available, that information will be posted here.
 >
 > Thank you for your interest in DATA Act implementation!
 
@@ -39,6 +39,9 @@ Would you like more information about a specific data element? Browse our select
 
  - [Top 5 Highly Compensated Officers](whitepapers/highlycompensatedofficers/)
  - [North American Industrial Classification System](whitepapers/naics/)
+ - [Object Class](whitepapers/objectclass/)
+ - [Obligation](whitepapers/obligation/)
+ - [Program Activity](whitepapers/programactivity/)
  - More materials coming soon
 
 ##Recent News and Events
