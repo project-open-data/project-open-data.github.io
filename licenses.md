@@ -44,7 +44,7 @@ When purchasing data or content from third-party vendors, however care must be t
 
 ## Worldwide Public Domain Dedication
 * [Creative Commons CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/), e.g. `"license":"http://creativecommons.org/publicdomain/zero/1.0/"`
-* [Open Data Commons Public Domain Dedication and License (PDDL)](http://opendatacommons.org/licenses/pddl/), e.g. `"license":"http://opendatacommons.org/licenses/pddl/"`
+* [Open Data Commons Public Domain Dedication and License (PDDL)](http://opendatacommons.org/licenses/pddl/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/pddl/1.0/"`
 
 ## More Information
 * *[Copyright and Other Rights Pertaining to U.S. Government Works](http://www.usa.gov/copyright.shtml)*
