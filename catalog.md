@@ -61,6 +61,14 @@ Inclusion of the Public Data Listing as a Record
 
 Each 'data.json' catalog file should include a record for the data asset that is the data catalog itself.  Contact Name and Contact Email can be used to provide a PoC for the 'data.json' efforts;  Data Standard (_conformsTo_) can be used to clarify which version of the Project Open Data metadata schema the agency is currently using; and Last Update can be used to indicate the date when the Public Data Listing was last modified.  
 
+
+Including Non-Public Data and Redactions
+----------------------------------------
+
+While the Public Data Listing is primarily intended to list datasets thare are (or will be) available for public download, it can also serve as a way to publish information about non-public datasets and to provide information about accessing "restricted public" datasets. Data.gov provides a label to distinguish the `accessLevel` of datasets so that the public is aware that non-public dataset listings are only intended to provide metadata rather than access to the data itself. Metadata listings of non-public datasets on agency websites should also make this distinction clear. 
+
+If an agency's FOIA office determines that any metadata provided for these non-public datasets needs to be redacted in order to be displayed publicly, agencies should consult the [Redaction Guidance](/redactions) page for more information. 
+
 Presentation
 ------------
 
