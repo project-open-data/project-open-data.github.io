@@ -5,7 +5,7 @@ permalink: /unknown-license/
 filename: unknown-license.md
 ---
 
-This page is meant to serve as a landing page and placeholder for licenses that were specified by name using the [Project Open Data schema v1](/schema/#license) and were automatically converted to a URL for [Project Open Data schema v1.1](/v1.1/schema/#license). Further guidance on specifying licenses (or non-licenses) will be continually updated on the [license examples](/license-examples/) page.
+This page is meant to serve as a landing page and placeholder for licenses that were specified by name using the [Project Open Data schema v1](/schema/#license) and were automatically converted to a URL for [Project Open Data schema v1.1](/v1.1/schema/#license). Further guidance on specifying licenses (or non-licenses) will be continually updated on the [license examples](/open-licenses/) page.
 
 <h3 id="legacy-license"></h3>
 <h3 id="legacy-license-url"></h3>

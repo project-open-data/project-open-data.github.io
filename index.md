@@ -28,9 +28,7 @@ This section is a list of definitions and principles used to guide the project.
 
 2-3 [Open Data Glossary](glossary/) - The glossary of open data terms.
 
-2-4 [Open Licenses](open-licenses/) - The definition for open licenses.
-
-2-5 [Project Open Data Metadata Schema](/v1.1/schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.
+2-4 [Project Open Data Metadata Schema](/v1.1/schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.
 
 ----------------
 
@@ -46,9 +44,11 @@ Implementation guidance for open data practices.
 
 3-4 [Documenting APIs](/v1.1/api/) - The specific guidance for documenting APIs in the data catalogs.   
 
-3-4 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.
+3-5 [Open Licenses](open-licenses/) - Open license guidance and examples. 
 
-3-5 [Open Data Cross Priority (CAP) Goal](http://goals.performance.gov/opendata) - Information on the development of the Open Data CAP goal as required in the [Open Data Executive Order](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government).
+3-6 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.
+
+3-7 [Open Data Cross Priority (CAP) Goal](http://goals.performance.gov/opendata) - Information on the development of the Open Data CAP goal as required in the [Open Data Executive Order](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government).
 
 ----------------
 
@@ -119,21 +119,17 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-3 [General Workflows for Open Data Projects](future-case-study/) - A comprehensive overview of the steps involved in open data projects and their associated benefits.
 
-5-4 [Open License Examples](license-examples/) - Potential licenses for data and content.
+5-4 [API Basics](api-basics/) - Introductory resources for understanding application programming interfaces (APIs).
 
-5-5 [API Basics](api-basics/) - Introductory resources for understanding application programming interfaces (APIs).
+5-5 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
 
-5-6 [Data Release Safeguard Checklist](http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf) - Checklist to enable the safe and secure release of data.
+5-6 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
 
-5-7 [Digital PII Checklist](digital-pii-checklist/) - Tool to assist agencies identify personally identifiable information in data.
+5-7 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards.
 
-5-8 [Applying the Open Data Policy to Federal Awards: FAQ](federal-awards-faq/) - Frequently asked questions for contracting officers, grant professionals and the federal acquisitions community on applying the Open Data Policy to federal awards.
+5-8 [Example Policy Documents](policy-docs/) - Collection of memos, guidance and policy documents about open data for reference.
 
-5-9 [Example Policy Documents](policy-docs/) - Collection of memos, guidance and policy documents about open data for reference.
-
-5-10 [Example Data Hubs](/data-hubs) - Collection of department, agency, and program data sites across the federal government.
-
-5-11 [Licensing policies, principles, and resources](/licensing-resources) - Some examples of how government has addressed open licensing questions.
+5-9 [Example Data Hubs](/data-hubs) - Collection of department, agency, and program data sites across the federal government.
 
 ----------------
 
@@ -157,7 +153,9 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 6-8 [USAID Crowdsourcing to Open Data](http://transition.usaid.gov/our_work/economic_growth_and_trade/development_credit/pdfs/2012/USAIDCrowdsourcingCaseStudy.pdf) - A case study that shows how USAID invited the "crowd" to clean and geocode a USAID dataset in order to open and map the data.
 
-6-9 [Centers for Medicare & Medicaid Services (CMS) Data and Information Products](http://www.cms.gov/Research-Statistics-Data-and-Systems/Research/ResearchGenInfo/Downloads/CMS-Data-and-Information-Products.pdf) - a case study of how CMS is transitioning to a data-driven culture, including the creation of a new office for information products and data analytics, the release of open data summarizing provider utilization and payment information, and the responsible disclosure of restricted use data to qualified parties.  
+6-9 [Centers for Medicare & Medicaid Services (CMS) Data and Information Products](http://www.cms.gov/Research-Statistics-Data-and-Systems/Research/ResearchGenInfo/Downloads/CMS-Data-and-Information-Products.pdf) - a case study of how CMS is transitioning to a data-driven culture, including the creation of a new office for information products and data analytics, the release of open data summarizing provider utilization and payment information, and the responsible disclosure of restricted use data to qualified parties.
+
+6-10 [Licensing policies, principles, and resources](/licensing-resources) - Some examples of how government has addressed open licensing questions.
 
 **For Developers: [View all appendices](http://github.com/project-open-data/) (and source)**
 
