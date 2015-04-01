@@ -38,14 +38,14 @@ The default U.S. Public Domain status of U.S. Government Works is limited to the
 When agencies purchase data or content from third-party vendors, care must be taken to ensure the information is not hindered by a restrictive, non-open license. In general, such licenses should comply with the [Open Knowledge Definition](http://opendefinition.org/okd/) of an open license. Several examples of open licenses and dedications for use by agencies are listed below:
 
 #### Worldwide Public Domain Dedications
-* [Creative Commons CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/), e.g. `"license":"http://creativecommons.org/publicdomain/zero/1.0/"`
+* [Creative Commons Zero Public Domain Dedication (CC0)](http://creativecommons.org/publicdomain/zero/1.0/), e.g. `"license":"http://creativecommons.org/publicdomain/zero/1.0/"`
 * [Open Data Commons Public Domain Dedication and Licence (PDDL)](http://opendatacommons.org/licenses/pddl/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/pddl/1.0/"`
 
 #### Open Licenses
-* [Open Data Commons Attribution License](http://opendatacommons.org/licenses/by/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/by/1.0/"`
+* [Open Data Commons Attribution License (ODC-By)](http://opendatacommons.org/licenses/by/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/by/1.0/"`
 * [Open Data Commons Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/odbl/1.0/"`
-* [Creative Commons BY](http://creativecommons.org/choose/), e.g. `"license":"https://creativecommons.org/licenses/by/4.0/"`
-* [Creative Commons BY-SA](http://creativecommons.org/choose/), e.g. `"license":"https://creativecommons.org/licenses/by-sa/4.0/"`
+* [Creative Commons Attribution (CC BY)](http://creativecommons.org/licenses/by/4.0/), e.g. `"license":"http://creativecommons.org/licenses/by/4.0/"`
+* [Creative Commons Attribution-ShareAlike (CC BY-SA)](http://creativecommons.org/licenses/by-sa/4.0/), e.g. `"license":"http://creativecommons.org/licenses/by-sa/4.0/"`
 * [GNU Free Documentation License](http://www.gnu.org/licenses/fdl-1.3.en.html), e.g. `"license":"http://www.gnu.org/licenses/fdl-1.3.en.html"`
 
 ## More Information
