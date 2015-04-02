@@ -165,7 +165,7 @@ These elements describe the different characteristics each award possesses – f
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Treasury Account Symbol</td>
+    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Treasury Account Symbol</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -275,12 +275,12 @@ These data elements describe characteristics of the entity that provided funding
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Sub Tier  Agency Name</td>
+    <td>Sub Tier Agency Name</td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Sub Tier  Agency Code</td>
+    <td>Sub Tier Agency Code</td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -320,12 +320,12 @@ Elements on this list describe awarding entities – those that presented the aw
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Awarding Sub Tier  Agency Name</td>
+    <td>Awarding Sub Tier Agency Name</td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Awarding Sub Tier  Agency Code</td>
+    <td>Awarding Sub Tier Agency Code</td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -360,12 +360,12 @@ This list features elements that describe the accounts from which the awards are
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/19" title="Leave feedback for Object Class">leave feedback (closes 4/20/15)</a></td>
   </tr>
   <tr>
-    <td>Appropriations Account</td>
+    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Appropriations Account</a></td>
     <td>DATA Act</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Amount of Budget Authority Appropriated</td>
+    <td><a href="/whitepapers/ba-appropriated-other-resources/" title="Budget Authority Amount and Other Budgetary Resources whitepaper">Budget Authority Appropriated</a></td>
     <td>DATA Act</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -380,7 +380,7 @@ This list features elements that describe the accounts from which the awards are
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Amount of other budgetary resources</td>
+    <td><a href="/whitepapers/ba-appropriated-other-resources/" title="Budget Authority Amount and Other Budgetary Resources whitepaper">Other Budgetary Resources</a></td>
     <td>DATA Act</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -390,7 +390,7 @@ This list features elements that describe the accounts from which the awards are
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/21" title="Leave feedback for Program Activity">leave feedback (closes 4/20/15)</a></td>
   </tr>
   <tr>
-    <td>Outlay</td>
+    <td><a href="/whitepapers/outlay/" title="Outlay whitepaper">Outlay</a></td>
     <td>DATA Act</td>
     <td>feedback period opens soon</td>
   </tr>
