@@ -14,7 +14,7 @@ The [Project Open Data Metadata Schema](https://project-open-data.cio.gov/v1.1/s
 
 ## Definitions
 
-For the purposes of Project Open Data, the term "Open License" is used to refer to any legally binding instrument that grants permission to access, re-use, and redistribute a work with few or no restrictions. While technically not a "license," wordwide public domain dedications such as [Creative Commons Zero](http://creativecommons.org/publicdomain/zero/1.0/) also satisfy this definition. An "Open License" must meet the following conditions:
+For the purposes of Project Open Data, the term "Open License" is used to refer to any legally binding instrument that grants permission to access, re-use, and redistribute a work with few or no restrictions. While technically not a "license," wordwide public domain dedications such as [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) also satisfy this definition. An "Open License" must meet the following conditions:
 
 * *Reuse*. The license must allow for reproductions, modifications and derivative works and permit their distribution under the terms of the original work. The rights attached to the work must not depend on the work being part of a particular package. If the work is extracted from that package and used or distributed within the terms of the work’s license, all parties to whom the work is redistributed should have the same rights as those that are granted in conjunction with the original package.
 
@@ -28,9 +28,9 @@ Data and content created by government employees within the scope of their emplo
 
     http://www.usa.gov/publicdomain/label/1.0/
 
-The default U.S. Public Domain status of U.S. Government Works is limited to the jurisdiction of the United States. If an agency is able to expand the public domain status to apply internationally for works that they have produced, they can use a worldwide public domain dedication such as [Creative Commons Zero](http://creativecommons.org/publicdomain/zero/1.0/). This is an important tool to assure users of U.S. Government Works that they have full permission to freely use the work internationally. When Creative Commons Zero has been applied, the following URL should be used for the `license` field:
+The default U.S. Public Domain status of U.S. Government Works is limited to the jurisdiction of the United States. If an agency is able to expand the public domain status to apply internationally for works that they have produced, they can use a worldwide public domain dedication such as [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/). This is an important tool to assure users of U.S. Government Works that they have full permission to freely use the work internationally. When Creative Commons Zero has been applied, the following URL should be used for the `license` field:
 
-    http://creativecommons.org/publicdomain/zero/1.0/
+    https://creativecommons.org/publicdomain/zero/1.0/
 
 
 ## Examples of Open Licenses & Dedications
@@ -38,14 +38,14 @@ The default U.S. Public Domain status of U.S. Government Works is limited to the
 When agencies purchase data or content from third-party vendors, care must be taken to ensure the information is not hindered by a restrictive, non-open license. In general, such licenses should comply with the [Open Knowledge Definition](http://opendefinition.org/okd/) of an open license. Several examples of open licenses and dedications for use by agencies are listed below:
 
 #### Worldwide Public Domain Dedications
-* [Creative Commons Zero Public Domain Dedication (CC0)](http://creativecommons.org/publicdomain/zero/1.0/), e.g. `"license":"http://creativecommons.org/publicdomain/zero/1.0/"`
+* [Creative Commons Zero Public Domain Dedication (CC0)](https://creativecommons.org/publicdomain/zero/1.0/), e.g. `"license":"https://creativecommons.org/publicdomain/zero/1.0/"`
 * [Open Data Commons Public Domain Dedication and Licence (PDDL)](http://opendatacommons.org/licenses/pddl/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/pddl/1.0/"`
 
 #### Open Licenses
 * [Open Data Commons Attribution License (ODC-By)](http://opendatacommons.org/licenses/by/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/by/1.0/"`
 * [Open Data Commons Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/), e.g. `"license":"http://opendatacommons.org/licenses/odbl/1.0/"`
-* [Creative Commons Attribution (CC BY)](http://creativecommons.org/licenses/by/4.0/), e.g. `"license":"http://creativecommons.org/licenses/by/4.0/"`
-* [Creative Commons Attribution-ShareAlike (CC BY-SA)](http://creativecommons.org/licenses/by-sa/4.0/), e.g. `"license":"http://creativecommons.org/licenses/by-sa/4.0/"`
+* [Creative Commons Attribution (CC BY)](https://creativecommons.org/licenses/by/4.0/), e.g. `"license":"https://creativecommons.org/licenses/by/4.0/"`
+* [Creative Commons Attribution-ShareAlike (CC BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/), e.g. `"license":"https://creativecommons.org/licenses/by-sa/4.0/"`
 * [GNU Free Documentation License](http://www.gnu.org/licenses/fdl-1.3.en.html), e.g. `"license":"http://www.gnu.org/licenses/fdl-1.3.en.html"`
 
 ## More Information
