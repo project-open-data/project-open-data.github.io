@@ -165,7 +165,7 @@ These elements describe the different characteristics each award possesses – f
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Treasury Account Symbol</a></td>
+    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Treasury Account Symbol (excluding Sub-Account)</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -265,12 +265,12 @@ These data elements describe characteristics of the entity that provided funding
     </tr>
   </thead>
   <tr>
-    <td>Agency Name</td>
+    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Agency Name</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Agency Code</td>
+    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Agency Code</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -310,12 +310,12 @@ Elements on this list describe awarding entities – those that presented the aw
     </tr>
   </thead>
   <tr>
-    <td>Awarding Agency Name</td>
+    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Name</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Awarding Agency Code</td>
+    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Code</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>

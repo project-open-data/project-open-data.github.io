@@ -42,7 +42,7 @@ Would you like more information about a specific data element? Browse our select
  - [Object Class](whitepapers/objectclass/)
  - [Obligation](whitepapers/obligation/)
  - [Program Activity](whitepapers/programactivity/)
- - [Treasury Account Symbol, Appropriations Account, and Agency](whitepapers/approp-agency-tas/)
+ - [Treasury Account Symbol (excluding Sub-Account), Appropriations Account, and Agency](whitepapers/approp-agency-tas/)
  - [Budget Authority Appropriated and Other Budgetary Resources](whitepapers/ba-appropriated-other-resources/)
  - [Outlay](whitepapers/outlay/)
  - More materials coming soon

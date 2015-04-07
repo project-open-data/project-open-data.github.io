@@ -27,7 +27,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
 
 ## Background
 
-The DATA Act requires agencies to report outlays by [appropriations account](/whitepapers/approp-agency-tas/), [program activity](/whitepapers/programactivity), and [object class](/whitepapers/objectclass/) for each of their congressionally created appropriations accounts.  Prior to the DATA Act, outlays on a government-wide basis have not been reported by program activity or object class.  However, OMB publishes outlays by appropriations account on Line 3020 of the SF 133 _Reports on Budget Execution and Budgetary Resources_.  Treasury publishes outlays in its _Treasury Combined Statement of Receipts, Outlays, and Balances of the United States Government_.  In addition, other publications show government-wide outlays (though not by appropriations account, program activity, or object class.)
+The DATA Act requires agencies to report outlays by [program activity](/whitepapers/programactivity), [object class](/whitepapers/objectclass/), and program activity by object class for each of their congressionally created appropriations accounts.  Prior to the DATA Act, outlays on a government-wide basis have not been reported by program activity or object class.  However, OMB publishes outlays by appropriations account on Line 3020 of the SF 133 _Reports on Budget Execution and Budgetary Resources_.  Treasury publishes outlays in its _Treasury Combined Statement of Receipts, Outlays, and Balances of the United States Government_.  In addition, other publications show government-wide outlays (though not by appropriations account, program activity, or object class.)
 
 ## Context
 

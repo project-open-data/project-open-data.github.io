@@ -6,7 +6,7 @@ filename: approp-agency-tas.md
 title: Treasury Account Symbol, Appropriations Account, and Agency
 ---
 
-# Elements: Treasury Account Symbol, Appropriations Account, and Agency
+# Elements: Treasury Account Symbol (excluding Sub-Account), Appropriations Account, and Agency
 
 This page contains information about the following federal spending data elements, with the goal of soliciting public input.
 
@@ -26,7 +26,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
     <td>DATA Act</td>
   </tr>
   <tr>
-    <td>Agency</td>
+    <td>Agency Code and Agency Name</td>
     <td>Account Level Information</td>
     <td>DATA Act</td>
   </tr>
