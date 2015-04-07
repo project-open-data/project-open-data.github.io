@@ -109,11 +109,7 @@ To improve the discoverability and usability of data assets, all federal agencie
 
 Agencies, at their discretion, may choose to include entries for non-public data assets in their Public Data Listings, taking into account guidance in section D. For example, an agency may choose to list data assets with an ‘accessLevel’ of ‘restricted public’ to make the public aware of their existence and the process by which these data may be obtained.
 
-<<<<<<< HEAD
-Agencies’ Public Data Listings will be used to dynamically populate the newly renovated Data.gov, the main website to find data assets generated and held by the U.S. Government.  Data.gov allows anyone from the public to find, download, and use government data.  The upcoming re-launch of Data.gov (currently in beta at next.data.gov) will automatically aggregate the agency-managed Public Data Listings into one centralized location, using the common core metadata standards and tagging to improve the user ability to find and use government data.
-=======
 Agencies’ Public Data Listings will be used to dynamically populate the newly renovated Data.gov, the main website to find data assets generated and held by the U.S. Government.  Data.gov allows anyone from the public to find, download, and use government data.  The upcoming re-launch of Data.gov (currently in beta at next.data.gov) will automatically aggregate the agency-managed Public Data Listings into one centralized location, using the Project Open Data metadata standards and tagging to improve the user ability to find and use government data.
->>>>>>> master
 
 The objectives of this activity are to:
 
