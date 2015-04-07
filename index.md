@@ -131,6 +131,9 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-9 [Example Data Hubs](/data-hubs) - Collection of department, agency, and program data sites across the federal government.
 
+5-12 [Videos](/videos) - Online tutorials walking agencies through important aspects of the Open Data Policy.   
+
+
 ----------------
 
 ##6. Case Studies
