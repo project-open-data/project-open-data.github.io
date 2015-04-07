@@ -21,3 +21,11 @@ In general, open data will be consistent with the following principles:
 * *Timely.* Open data are made available as quickly as necessary to preserve the value of the data. Frequency of release should account for key audiences and downstream needs.
 
 * *Managed Post-Release.* A point of contact must be designated to assist with data use and to respond to complaints about adherence to these open data requirements.
+
+**Similar efforts can be found at**: 
+* [Open Definition](http://opendefinition.org/od/)
+* [Open Gov Data](http://opengovdata.org/)
+* [Sunlight Foundation's Ten Open Data Principles](http://sunlightfoundation.com/policy/documents/ten-open-data-principles/)
+* [Sunlight Foundation's Guidelines to Guidelines](http://sunlightfoundation.com/blog/tag/guidelines-to-guidelines/)
+  
+
