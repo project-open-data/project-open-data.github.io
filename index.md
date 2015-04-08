@@ -18,17 +18,30 @@ In conjunction with the recent enactment of the Digital Accountability and Trans
 
 To make sure that we implement the data standards and improvements successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between federal and non-federal stakeholders.
 
-As we continue our implementation efforts, we'll be asking for your feedback. During the implementation process, you'll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
+The overall data standardization effort consists of two parallel, yet related efforts: 
+
+ 1. Standardizing the definition of the data elements that the DATA Act requires
+ 2. Creating a data exchange standard that includes these elements and prescribes how to transmit them between agencies and the public. 
+
+The data exchange standard broadly refers to the DATA Act Schema, which is the generic model of the relationships between data elements, and the format-specific implementations of this schema, where the data validation requirements are specifically expressed as XML, JSON, or other formats. 
+
+As we continue our implementation efforts, we’ll be asking for your feedback on both efforts. Because the the data definitions necessarily inform the data exchange standard, we will be releasing several drafts of it to incorporate new information and feedback. During the implementation process, you’ll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
 
 ##The Timeline
 
 Because there are so many data elements, we’ll be focusing the conversation on certain ones during three-week rounds. In each round, we'll select a different group of elements to discuss; these discussions will take place on [GitHub](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues).
+
+The feedback on the data exchange standard will be open on a less regular, but still rolling basis. As newly defined elements are added to the schema and we create example implementations, we will post new versions to collect feedback on.  
+
+To get updates on when any new information is posted to this space, please [sign up for our email list](http://eepurl.com/bgqOH9).
 
 ##How to Participate
 
 Sharing your feedback is simple. To get started, take a look at these [lists of data elements](dataelements/). They feature the elements that are currently displayed on USAspending.gov (in accordance with the Federal Funding Accountability Transparency Act (FFATA)), along with elements that will be published in accordance with the DATA Act. As you review the lists, ask yourself whether anything is missing. Is the data defined and captured in a way that's useful to you? Do you have questions about any of the elements? We'd love to hear your impressions of the current elements and how they might be improved.
 
 Beginning in March 2015, we’ll be using [Github issues](https://guides.github.com/features/issues/) to track the conversation around and proposed changes to each data element. (If you’ve never used GitHub, you can find a great overview [tutorial](https://www.youtube.com/watch?v=TJlYiMp8FuY) here.) Each data element will have its own issue and will be tagged with a descriptive category (such as *awardee* or *account information*). To join the discussion about a certain element, simply post a comment on that element’s issue. All discussion participants will be able to read and respond to your feedback.
+
+Similarly, you can discuss the data exchange standard (including the DATA Act Schema and any example implementations) on any issue with the label [data exchange standard](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/labels/data%20exchange%20standard). You can also keep track of past conversations and work to date on the [data exchange standard page](data-exchange-standard/).
 
 If you think an element is missing from this list, we’d like to know. To propose a new element, create an issue and add the tag *proposed element*. For a more in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](feedback/) page.
 
