@@ -25,9 +25,7 @@ The overall data standardization effort consists of two parallel, yet related ef
 
 The data exchange standard broadly refers to the DATA Act schema, which is the generic model of the relationships between data elements, and the format-specific implementations of this schema, where the data validation requirements are specifically expressed as XML, JSON, or other formats. 
 
- In this space, we will be seeking feedback on both efforts. Because the the data definitions necessarily inform the data exchange standard, we will be releasing several drafts of it to incorporate new information and feedback. 
-
-As we continue our implementation efforts, we'll be asking for your feedback. During the implementation process, you'll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
+As we continue our implementation efforts, we’ll be asking for your feedback on both efforts. Because the the data definitions necessarily inform the data exchange standard, we will be releasing several drafts of it to incorporate new information and feedback. During the implementation process, you’ll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
 
 ##The Timeline
 
