@@ -23,7 +23,7 @@ The overall data standardization effort consists of two parallel, yet related ef
  1. Standardizing the definition of the data elements that the DATA Act requires
  2. Creating a data exchange standard that includes these elements and prescribes how to transmit them between agencies and the public. 
 
-The data exchange standard broadly refers to the DATA Act schema, which is the generic model of the relationships between data elements, and the format-specific implementations of this schema, where the data validation requirements are specifically expressed as XML, JSON, or other formats. 
+The data exchange standard broadly refers to the DATA Act Schema, which is the generic model of the relationships between data elements, and the format-specific implementations of this schema, where the data validation requirements are specifically expressed as XML, JSON, or other formats. 
 
 As we continue our implementation efforts, we’ll be asking for your feedback on both efforts. Because the the data definitions necessarily inform the data exchange standard, we will be releasing several drafts of it to incorporate new information and feedback. During the implementation process, you’ll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
 
@@ -41,7 +41,7 @@ Sharing your feedback is simple. To get started, take a look at these [lists of 
 
 Beginning in March 2015, we’ll be using [Github issues](https://guides.github.com/features/issues/) to track the conversation around and proposed changes to each data element. (If you’ve never used GitHub, you can find a great overview [tutorial](https://www.youtube.com/watch?v=TJlYiMp8FuY) here.) Each data element will have its own issue and will be tagged with a descriptive category (such as *awardee* or *account information*). To join the discussion about a certain element, simply post a comment on that element’s issue. All discussion participants will be able to read and respond to your feedback.
 
-Similarly, you can discuss the data exchange standard (including the DATA Act schema and any example implementations) on any issue with the label [data exchange standard](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/labels/data%20exchange%20standard). You can also keep track of past conversations and work to date on the [data exchange standard page](data-exchange-standard/).
+Similarly, you can discuss the data exchange standard (including the DATA Act Schema and any example implementations) on any issue with the label [data exchange standard](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/labels/data%20exchange%20standard). You can also keep track of past conversations and work to date on the [data exchange standard page](data-exchange-standard/).
 
 If you think an element is missing from this list, we’d like to know. To propose a new element, create an issue and add the tag *proposed element*. For a more in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](feedback/) page.
 
