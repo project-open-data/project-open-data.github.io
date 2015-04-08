@@ -22,5 +22,5 @@ This version of the data standard focuses on financial information only, and doe
 - <a href="/assets/docs/DATA_Act_Schema_v0.1.docx">DATA Act Schema description</a>
 - <a href="/assets/docs/data_act_schema_v0.1.zip">Schema instance (XML version)</a>
 
-To provide feedback on any of the above, please see our [issues page](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues).
+To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/25).
 
