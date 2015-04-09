@@ -18,12 +18,12 @@ In conjunction with the recent enactment of the Digital Accountability and Trans
 
 To make sure that we implement the data standards and improvements successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between federal and non-federal stakeholders.
 
-The overall data standardization effort consists of two parallel, yet related efforts: 
+The overall data standardization effort consists of two parallel, yet related efforts:
 
  1. Standardizing the definition of the data elements that the DATA Act requires
- 2. Creating a data exchange standard that includes these elements and prescribes how to transmit them between agencies and the public. 
+ 2. Creating a data exchange standard that includes these elements and prescribes how to transmit them between agencies and the public.
 
-The data exchange standard broadly refers to the DATA Act Schema, which is the generic model of the relationships between data elements, and the format-specific implementations of this schema, where the data validation requirements are specifically expressed as XML, JSON, or other formats. 
+The data exchange standard broadly refers to the DATA Act Schema, which is the generic model of the relationships between data elements, and the format-specific implementations of this schema, where the data validation requirements are specifically expressed as XML, JSON, or other formats.
 
 As we continue our implementation efforts, we’ll be asking for your feedback on both efforts. Because the the data definitions necessarily inform the data exchange standard, we will be releasing several drafts of it to incorporate new information and feedback. During the implementation process, you’ll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
 
@@ -58,6 +58,7 @@ Would you like more information about a specific data element? Browse our select
  - [Treasury Account Symbol (excluding Sub-Account), Appropriations Account, and Agency](whitepapers/approp-agency-tas/)
  - [Budget Authority Appropriated and Other Budgetary Resources](whitepapers/ba-appropriated-other-resources/)
  - [Outlay](whitepapers/outlay/)
+  - [Awardee/Recipient Unique Identifier, Awardee/Recipient Legal Business Name, Ultimate Parent Identifier Number, Ultimate Parent Legal Business Name](whitepapers/unique-id-business-name/)
  - More materials coming soon
 
 ##Recent News and Events
