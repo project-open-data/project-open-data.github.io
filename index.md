@@ -6,11 +6,14 @@ filename: index.md
 title: Federal Spending Collaboration Space
 ---
 
-> **Webcast on DATA Act Implementation**
+> **National Webcast on DATA Act Implementation**
 >
-> The webcast has been rescheduled and will no longer take place on March 27, 2015. As soon as a new date, time, and link is available, that information will be posted here.
+> Wednesday, April 15, 2015  
+3:30 PM - 4:30 PM EST
 >
-> Thank you for your interest in DATA Act implementation!
+>You may watch the live webcast here: [http://portal.hud.gov/hudportal/HUD?src=/webcasts/schedule](http://portal.hud.gov/hudportal/HUD?src=/webcasts/schedule).
+>
+>We will discuss our current efforts to implement the DATA Act and answer questions we received from industry, transparency advocates, and federal award recipients.
 
 #We Need Your Feedback!
 
@@ -18,12 +21,12 @@ In conjunction with the recent enactment of the Digital Accountability and Trans
 
 To make sure that we implement the data standards and improvements successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between federal and non-federal stakeholders.
 
-The overall data standardization effort consists of two parallel, yet related efforts: 
+The overall data standardization effort consists of two parallel, yet related efforts:
 
  1. Standardizing the definition of the data elements that the DATA Act requires
- 2. Creating a data exchange standard that includes these elements and prescribes how to transmit them between agencies and the public. 
+ 2. Creating a data exchange standard that includes these elements and prescribes how to transmit them between agencies and the public.
 
-The data exchange standard broadly refers to the DATA Act Schema, which is the generic model of the relationships between data elements, and the format-specific implementations of this schema, where the data validation requirements are specifically expressed as XML, JSON, or other formats. 
+The data exchange standard broadly refers to the DATA Act Schema, which is the generic model of the relationships between data elements, and the format-specific implementations of this schema, where the data validation requirements are specifically expressed as XML, JSON, or other formats.
 
 As we continue our implementation efforts, we’ll be asking for your feedback on both efforts. Because the the data definitions necessarily inform the data exchange standard, we will be releasing several drafts of it to incorporate new information and feedback. During the implementation process, you’ll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
 
