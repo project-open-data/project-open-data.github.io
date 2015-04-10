@@ -265,14 +265,14 @@ These data elements describe characteristics of the entity that provided funding
     </tr>
   </thead>
   <tr>
-    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Agency Name</a></td>
+    <td>Agency Name</td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="Leave feedback">leave feedback (closes 4/29/15)</a></td>
+    <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Agency Code</a></td>
+    <td>Agency Code</td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="Leave feedback">leave feedback (closes 4/29/15)</a></td>
+    <td>feedback period opens soon</td>
   </tr>
   <tr>
     <td>Sub Tier Agency Name</td>
