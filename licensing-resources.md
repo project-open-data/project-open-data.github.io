@@ -44,7 +44,7 @@ Guidance clarifying how existing law and regulations apply to the use and public
 
 The guidance provides a framework for the decision of the government to release software to the public (as open source), based on following three criteria: 1) the project manager or comparable official decides that it is in the government's interests to do so; 2) the government has the appropriate data rights to release the software; 3) the release of the software is not restricted by other law or regulation, particularly export control under the Export Administration Regulations or the International Traffic in Arms Regulation.
 
-###[Use of External Open Source Software Policy](https://github.com/cfpb/source-code-policy/blob/master/cfpb-source-code-policy.txt)
+###[Use of External Open Source Software Policy](https://github.com/cfpb/source-code-policy/blob/gh-pages/cfpb-source-code-policy.txt)
 *Consumer Finance Protection Bureau*
 
 Policy that references legal and practical considerations in researching and procuring software, keeping in mind open source options.
