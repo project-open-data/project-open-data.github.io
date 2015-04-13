@@ -77,12 +77,12 @@ This list includes information about recipients and awardees of federal funds. P
   <tr>
     <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Names</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="Leave feedback for Top 5 Highly Compensated Officer Names">leave feedback (closes 4/10/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="Leave feedback for Top 5 Highly Compensated Officer Names">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Total Compensations</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="Leave feedback for Top 5 Highly Compensated Officer Total Compensations">leave feedback (closes 4/10/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="Leave feedback for Top 5 Highly Compensated Officer Total Compensations">feedback period closed</a></td>
   </tr>
 </table>
 
@@ -147,12 +147,12 @@ These elements describe the different characteristics each award possesses – f
     <tr>
     <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="Leave feedback for North American Industrial Classification System Code">leave feedback (closes 4/10/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="Leave feedback for North American Industrial Classification System Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Description</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="Leave feedback for North American Industrial Classification System Description">leave feedback (closes 4/10/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="Leave feedback for North American Industrial Classification System Description">feedback period closed</a></td>
   </tr>
   <tr>
     <td>Catalog of Federal Domestic Assistance (CFDA) Number</td>
