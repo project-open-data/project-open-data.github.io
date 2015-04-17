@@ -8,12 +8,7 @@ title: Federal Spending Collaboration Space
 
 > **National Webcast on DATA Act Implementation**
 >
-> Wednesday, April 15, 2015  
-3:30 PM - 4:30 PM EST
->
->You may watch the live webcast here: [http://portal.hud.gov/hudportal/HUD?src=/webcasts/schedule](http://portal.hud.gov/hudportal/HUD?src=/webcasts/schedule).
->
->We will discuss our current efforts to implement the DATA Act and answer questions we received from industry, transparency advocates, and federal award recipients.
+> We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. We will post a link to the archived webcast shortly.
 
 #We Need Your Feedback!
 
