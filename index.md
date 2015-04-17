@@ -10,7 +10,6 @@ title: Federal Spending Collaboration Space
 >
 > We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. We will post a link to the archived webcast shortly.
 
-
 #We Need Your Feedback!
 
 In conjunction with the recent enactment of the Digital Accountability and Transparency Act (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm) and our ongoing efforts to improve federal spending data under the Federal Funding Accountability and Transparency Act (FFATA), the federal government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information.
