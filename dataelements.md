@@ -77,12 +77,12 @@ This list includes information about recipients and awardees of federal funds. P
   <tr>
     <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Names</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="Leave feedback for Top 5 Highly Compensated Officer Names">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Top 5 Highly Compensated Officer Names">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Total Compensations</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="Leave feedback for Top 5 Highly Compensated Officer Total Compensations">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Top 5 Highly Compensated Officer Total Compensations">feedback period closed</a></td>
   </tr>
 </table>
 
@@ -147,12 +147,12 @@ These elements describe the different characteristics each award possesses – f
     <tr>
     <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="Leave feedback for North American Industrial Classification System Code">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="feedback for North American Industrial Classification System Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Description</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="Leave feedback for North American Industrial Classification System Description">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="feedback for North American Industrial Classification System Description">feedback period closed</a></td>
   </tr>
   <tr>
     <td>Catalog of Federal Domestic Assistance (CFDA) Number</td>
@@ -357,7 +357,7 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td><a href="/whitepapers/objectclass/" title="Object Class whitepaper">Object Class</a></td>
     <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/19" title="Leave feedback for Object Class">leave feedback (closes 4/20/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/19" title="feedback for Object Class">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Appropriations Account</a></td>
@@ -372,7 +372,7 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td><a href="/whitepapers/obligation/" title="Obligation whitepaper">Obligation</a></td>
     <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/20" title="Leave feedback for Obligation">leave feedback (closes 4/20/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/20" title="feedback for Obligation">feedback period closed</a></td>
   </tr>
   <tr>
     <td>Unobligated Amount</td>
@@ -387,7 +387,7 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td><a href="/whitepapers/programactivity/" title="Program Activity whitepaper">Program Activity</a></td>
     <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/21" title="Leave feedback for Program Activity">leave feedback (closes 4/20/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/21" title="feedback for Program Activity">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/outlay/" title="Outlay whitepaper">Outlay</a></td>
