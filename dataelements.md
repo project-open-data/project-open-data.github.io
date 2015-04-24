@@ -35,22 +35,22 @@ This list includes information about recipients and awardees of federal funds. P
     </tr>
   </thead>
   <tr>
-    <td>Legal Business Name</td>
+    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Legal Business Name</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Legal Business Identifier Number</td>
+    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Legal Business Identifier Number</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Ultimate Recipient Parent Identifier Number</td>
+    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Ultimate Recipient Parent Identifier Number</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Recipient Parent Legal Business Name</td>
+    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Recipient Parent Legal Business Name</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
