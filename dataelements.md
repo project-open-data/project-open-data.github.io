@@ -37,22 +37,22 @@ This list includes information about recipients and awardees of federal funds. P
   <tr>
     <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Legal Business Name</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for legal business name">leave feedback (closes 5/15/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Legal Business Identifier Number</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for legal business identifier number">leave feedback (closes 5/15/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Ultimate Recipient Parent Identifier Number</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for ultimate recipient parent identifier">leave feedback (closes 5/15/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Recipient Parent Legal Business Name</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="recipient parent legal business name">leave feedback (closes 5/15/15)</a></td>
   </tr>
   <tr>
     <td>Legal Business Address</td>
