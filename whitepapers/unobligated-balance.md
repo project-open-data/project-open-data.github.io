@@ -29,7 +29,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
 
 ## Background
 
-The DATA Act requires agencies to report unobligated balances from each of their appropriations accounts.  Unobligated balances are published in the President’s Budget; SF 133 Report on Budget Execution and Budgetary Resources; and, in other government-wide publications.
+The DATA Act requires agencies to report unobligated balances from each of their appropriations accounts.  Unobligated balances are published in the _President’s Budget_; SF 133 Report on Budget Execution and Budgetary Resources; and, in other government-wide publications.
 
 ## Context
 
@@ -52,8 +52,7 @@ The Department of the Treasury publishes a cross walk showing all Standard Gener
   </thead>
   <tr>
     <td>Unobligated Balance</td>
-    <td>Unobligated balance means the cumulative amount of budget authority that remains available for obligation under law in unexpired accounts.  The term “expired balances available for adjustment only” refers to unobligated amounts in expired accounts.  
-
+    <td>Unobligated balance means the cumulative amount of budget authority that remains available for obligation under law in unexpired accounts.  The term “expired balances available for adjustment only” refers to unobligated amounts in expired accounts.<br/>
     Additional detail is provided in Circular A‐11.</td>
   </tr>
 </table>
