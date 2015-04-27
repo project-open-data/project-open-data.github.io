@@ -8,7 +8,7 @@ title: Federal Spending Collaboration Space
 
 > **National Webcast on DATA Act Implementation**
 >
-> We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. We will post a link to the archived webcast shortly.
+> We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. The link for the archived webcast can be found at [https://www.youtube.com/watch?v=_jjB_ggYBcA](https://www.youtube.com/watch?v=_jjB_ggYBcA)
 
 #We Need Your Feedback!
 
