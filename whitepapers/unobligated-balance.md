@@ -29,7 +29,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
 
 ## Background
 
-The DATA Act requires agencies to report unobligated balances from each of their appropriations accounts.  Unobligated balances are published in the _President’s Budget_; SF 133 Report on Budget Execution and Budgetary Resources; and, in other government-wide publications.
+The DATA Act requires agencies to report unobligated balances from each of their appropriations accounts.  Unobligated balances are published in the President’s Budget; SF 133 Report on Budget Execution and Budgetary Resources; and, in other government-wide publications.
 
 ## Context
 
@@ -37,9 +37,9 @@ By way of context, the unexpired phase of an appropriations account is the time 
 
 Congress often provides funds that agencies must obligate in one year (starting October 1 and ending September 30).  At the end of the year, the appropriations account shifts to the expired phase and can no longer incur obligations.  When Congress provides agencies with authority to obligate funds over two or more years, the funds left over at the start of the following year(s) for those appropriations accounts in the unexpired phase are called unobligated balances brought forward, October 1.
 
-Unobligated balance and other financial data elements are defined in OMB Circular A-11.  The definitions for all financial data elements typically appear in Section 20, Terms and Concepts, and Appendix F, Format of SF132, SF 133, Schedule P and SBR.
+Unobligated balance and other financial data elements are defined in OMB Circular A-11.  The definitions for all financial data elements typically appear in Section 20, Terms and Concepts, and Appendix F, Format of SF 132, SF 133, Schedule P and SBR.
 
-The Department of the Treasury publishes a cross walk showing all Standard General Ledger accounts (used in agency financial systems) that crosswalk to each line in OMB’s SF 133 Report on Budget Execution and Budgetary Resources.  The crosswalk appears in the Treasury Financial Manual Volume I Part 2 Supplement, Section V: Crosswalks to Standard External Reports for Fiscal 2015 Reporting.
+The Department of the Treasury publishes a crosswalk showing all Standard General Ledger accounts (used in agency financial systems) that crosswalk to each line in OMB’s SF 133 Report on Budget Execution and Budgetary Resources.  The crosswalk appears in the Treasury Financial Manual Volume I Part 2 Supplement, Section V: Crosswalks to Standard External Reports for Fiscal 2015 Reporting.
 
 ## Recommended Definitions for Transparency Reporting
 
