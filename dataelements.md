@@ -377,7 +377,7 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td><a href="/whitepapers/unobligated-balance/" title="Unobligated balance whitepaper">Unobligated Balance</a></td>
     <td>DATA Act</td>
-    <td>leave feedback (closes 5/5/15)</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/51" title="Leave feedback for Unobligated balance">leave feedback (closes 5/5/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/ba-appropriated-other-resources/" title="Budget Authority Amount and Other Budgetary Resources whitepaper">Other Budgetary Resources</a></td>
