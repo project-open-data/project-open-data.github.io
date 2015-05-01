@@ -55,24 +55,24 @@ This list includes information about recipients and awardees of federal funds. P
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="recipient parent legal business name">leave feedback (closes 5/15/15)</a></td>
   </tr>
   <tr>
-    <td>Legal Business Address</td>
+    <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Address</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="">leave feedback (closes TBD)</a></td>
   </tr>
   <tr>
-    <td>Legal Business Congressional District</td>
+    <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Congressional District</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="">leave feedback (closes TBD)</a></td>
   </tr>
   <tr>
-    <td>Legal Business Country Code</td>
+    <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Country Code</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="">leave feedback (closes TBD)</a></td>
   </tr>
   <tr>
-    <td>Legal Business Country Name</td>
+    <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Country Name</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="">leave feedback (closes TBD)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Names</a></td>
@@ -170,19 +170,19 @@ These elements describe the different characteristics each award possesses – f
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="Leave feedback">feedback period closed</a></td>
   </tr>
   <tr>
-    <td>Award Description</td>
+    <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award Description</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="">leave feedback closes TBD</a></td>
   </tr>
   <tr>
-    <td>Award ID Modification/Amendment</td>
+    <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award ID Modification/Amendment</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="">leave feedback closes TBD</a></td>
   </tr>
   <tr>
-    <td>Parent Award ID</td>
+    <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Parent Award ID</a></td>
     <td>FFATA</td>
-    <td>feedback period opens soon</td>
+    <td><a href="">leave feedback closes TBD</a></td>
   </tr>
   <tr>
     <td>Action Date</td>
