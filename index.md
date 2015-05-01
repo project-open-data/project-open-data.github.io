@@ -58,6 +58,8 @@ Would you like more information about a specific data element? Browse our select
  - [Outlay](whitepapers/outlay/)
  - [Awardee/Recipient Unique Identifier, Awardee/Recipient Legal Business Name, Ultimate Parent Identifier Number, Ultimate Parent Legal Business Name](whitepapers/unique-id-business-name/)
  - [Unobligated Balance](whitepapers/unobligated-balance/)
+ - [Entity Address](/whitepapers/entity-address/)
+ - [Award ID and Description](/whitepapers/award-id-description/)
  - More materials coming soon
 
 ##Recent News and Events
