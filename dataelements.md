@@ -230,7 +230,7 @@ These elements describe the different characteristics each award possesses – f
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Award ID</td>
+    <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award ID</a></td>
     <td>DATA Act</td>
     <td>feedback period opens soon</td>
   </tr>

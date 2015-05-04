@@ -21,7 +21,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
     </tr>
   </thead>
   <tr>
-    <td>Award Number</td>
+    <td>Award ID</td>
     <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
@@ -36,7 +36,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
     <td>FFATA</td>
   </tr>
   <tr>
-    <td>Parent Award Number</td>
+    <td>Parent Award ID</td>
     <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
