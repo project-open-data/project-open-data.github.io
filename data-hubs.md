@@ -16,6 +16,7 @@ filename: data-hubs.md
 * [Coral Health and Monitoring Program - NOAA](http://www.coral.noaa.gov/data.html)
 * [Integrated Ocean Observing System - NOAA](http://www.ioos.noaa.gov/data/)
 * [Marine Cadastre - NOAA](http://marinecadastre.gov/DATA)
+* [National Institute of Standards and Technology](http://nist.gov/data/)
 
 ### [Department of Defense](http://www.defense.gov/data)
 
