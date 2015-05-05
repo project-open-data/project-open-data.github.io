@@ -12,6 +12,7 @@ These templates are based on documents that have been used by agencies from the 
   - [Invitation List](#invitation-list)
   - [Invitation](#invitation)
   - [Agenda](#agenda)
+  - [Brainstorming Session](#brainstorming-session)
 - [Datapaloozas](#datapaloozas)
   - [Invitation List](#invitation-list-1)
   - [Invitation](#invitation-1)
@@ -68,11 +69,38 @@ Data jams should be fast-paced, with the majority of time devoted to collaborati
 | 10:30 a.m. | Pitch | A captain from each table |
 | 10:45 a.m. | Vote | Emcee |
 | 11:00 a.m. | Coffee break | |
-| 11:15 a.m. | Brainstorming session | Moderators lead this conversation at each table |
+| 11:15 a.m. | [Brainstorming session](#brainstorming-session) | Moderators lead this conversation at each table |
 | 12:15 p.m. | Lunch | |
 | 1:15 p.m. | Pitch | A captain from each table |
 | 1:45 p.m. | Commitments | Emcee |
 | 2:15 p.m. | Closing remarks | Person to emphasize the impact of this work |
+
+### Brainstorming Session
+
+#### Define your problem statement
+
+In groups of about 8-10 people (try to include a mix of skills and experience in each group), start with a moderated discussion to define your problem statement in three parts:
+
+1. **Nature:** Your North Star! What is the difference between today and what could be? (One sentence!)
+2. **Opportunity:** So what?! What could be better about the world? (One sentence!)
+3. **Constraints:** What could get in the way? (Bulleted list)
+
+#### Brainstorm
+
+* **5 min:** In SILENT brainstorming, everyone draws at least three ideas on sticky notes. DRAWINGS are important. Sketch out what your idea should look like.
+* **10 min:** PITCH your ideas to your group and then stick them on a board. Try to group similar ideas if possible.
+* **5 min:** Silently VOTE on your favorite ideas. Everyone gets 3-5 dot stickers to place on their favorite idea. You can all vote on one idea or spread over many. You can vote for your idea.
+
+#### Refine
+
+* **10 min:** For the top 1-3 most popular ideas, choose a captain for each. Ask participants to form teams around their favorite idea and refine the concept to sketch a (large) one-page pitch that includes:
+ * A snappy title!
+ * A drawing
+ * One sentence explaining the idea
+* **Pitch:** Teams present their idea to the entire room. Give teams 3-5 minutes per pitch (less time for bigger rooms).
+* **10 min:** Repeat silent voting with dot stickers across the entire room.
+
+At this point, you can ask participants to raise their hand to commit to building initial prototypes for a datapolooza...
 
 ## Datapaloozas
 
