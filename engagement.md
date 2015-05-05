@@ -24,6 +24,7 @@ These templates are based on documents that have been used by agencies from the 
 - [Useful resources for all events](#useful-resources-for-all-events)
   - [Data Brief](#data-brief)
   - [Feedback Mechanism](#feedback-mechanism)
+  - [Guides for Organizers](#guides-from-organizers)
 
 ## Data Jams
 
@@ -224,3 +225,14 @@ Plain-language, succinct description of what’s in the data set, what’s inter
 ### Feedback Mechanism
 
 At any of these events, you'll be lucky enough to have technical people thinking about the interesting problems in your subject matter area. Post butcher paper or a white board at the event and ask attendees to add any feedback that comes up during the event. This is specifically designed to capture ideas they have about improving the data sets you're using or data they wish was available -- ask them to add their email address if they’re willing to give more detail in a follow-up. This is great source of ideas for projects that could become datapalooza announcements.
+
+### Guides for Organizers
+
+These guides by civic hacking event organizers can help you organize a better event.
+
+* [Civic Innovation Toolkit: How to run a civic hackathon](http://www.smartchicagocollaborative.org/civic-innovation-toolkit-how-to-run-a-civic-hackathon/) by Smart Chicago
+* [Host Your Own Transparency Camp](http://transparencycamp.org/how-to/) by Sunlight Foundation
+* [How to run a successful Hackathon, A step-by-step guide](https://hackathon.guide/) by Josh Tauber, organizer of Open Data Day DC
+* [Building Community and Engagement Around Data](https://medium.com/@elle_mccann/building-community-and-engagement-around-data-2fb7d72b13b4) by Laurenellen McCann, creative technologist and organizer
+* [How To Welcome New Coders To A Civic Hackathon](https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/) an 18F blog post by Melody Kramer, Becky Sweger, Aidan Feldman, Julia Elman, and Will Slack
+* [Hackathons: Not Just For Folks Who Code](https://18f.gsa.gov/2015/04/21/hackathons-not-just-for-folks-who-code/) 18F blog post by Kate Garklavs
