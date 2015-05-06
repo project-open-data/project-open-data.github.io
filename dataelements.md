@@ -140,7 +140,7 @@ These elements describe the different characteristics each award possesses – f
     </tr>
   </thead>
   <tr>
-    <td>Type of Transaction Code</td>
+    <td><a href="/whitepapers/type-transaction-code" title="Type of Transaction Code whitepaper">Type of Transaction Code</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -185,47 +185,47 @@ These elements describe the different characteristics each award possesses – f
     <td><a href="">leave feedback closes TBD</a></td>
   </tr>
   <tr>
-    <td>Action Date</td>
+    <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Action Date</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Period of Performance Start Date</td>
+    <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Start Date</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Period of Performance Current End Date</td>
+    <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Current End Date</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Period of Performance Potential End Date</td>
+    <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Potential End Date</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Ordering Period End Date</td>
+    <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Ordering Period End Date</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Primary Place of Performance Address</td>
+    <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Address</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Primary Place of Performance Congressional District</td>
+    <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Congressional District</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Primary Place of Performance Country Code</td>
+    <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Country Code</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Primary Place of Performance Country Name</td>
+    <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Country Name</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -235,12 +235,12 @@ These elements describe the different characteristics each award possesses – f
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Record Type</td>
+    <td><a href="/whitepapers/type-transaction-code" title="Type of Transaction Code whitepaper">Record Type</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Type of Action</td>
+    <td><a href="/whitepapers/type-transaction-code" title="Type of Transaction Code whitepaper">Type of Action</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -265,32 +265,32 @@ These data elements describe characteristics of the entity that provided funding
     </tr>
   </thead>
   <tr>
-    <td>Agency Name</td>
+    <td>Funding Agency Name</td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Agency Code</td>
+    <td>Funding Agency Code</td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Sub Tier Agency Name</td>
+    <td><a href="/whitepapers/funding-sub-tier-agency/" title="Funding Sub Tier Agency whitepaper">Funding Sub Tier Agency Name</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Sub Tier Agency Code</td>
+    <td><a href="/whitepapers/funding-sub-tier-agency/" title="Funding Sub Tier Agency whitepaper">Funding Sub Tier Agency Code</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Office Name</td>
+    <td><a href="/whitepapers/funding-sub-tier-agency/" title="Funding Sub Tier Agency whitepaper">Funding Office Name</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Office Code</td>
+    <td><a href="/whitepapers/funding-sub-tier-agency/" title="Funding Sub Tier Agency whitepaper">Funding Office Code</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -320,22 +320,22 @@ Elements on this list describe awarding entities – those that presented the aw
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="Leave feedback">feedback period closed</a></td>
   </tr>
   <tr>
-    <td>Awarding Sub Tier Agency Name</td>
+    <td><a href="/whitepapers/awarding-sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Sub Tier Agency Name</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Awarding Sub Tier Agency Code</td>
+    <td><a href="/whitepapers/awarding-sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Sub Tier Agency Code</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Awarding Office Name</td>
+    <td><a href="/whitepapers/awarding-sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Office Name</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Awarding Office Code</td>
+    <td><a href="/whitepapers/awarding-sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Office Code</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
