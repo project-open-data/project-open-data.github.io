@@ -46,7 +46,7 @@ If you think an element is missing from this list, we’d like to know. To propo
 
 ##Background Materials
 
-Would you like more information about a specific data element? [Browse our selection of white papers](http://localhost:4000/dataelements/ "Data Elements") on different elements and read those that interest you.
+Would you like more information about a specific data element? [Browse our selection of white papers](dataelements/ "Data Elements") on different elements and read those that interest you.
 
 
 ##Recent News and Events
