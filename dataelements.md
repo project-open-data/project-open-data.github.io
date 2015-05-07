@@ -190,24 +190,19 @@ These elements describe the different characteristics each award possesses – f
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/periodofperformance/" title="Period of Performace whitepaper">Period of Performance Start Date</a></td>
+    <td><a href="/whitepapers/period-of-performance/" title="Period of Performace whitepaper">Period of Performance Start Date</a></td>
     <td>FFATA</td>
-    <td>feedback period closes TBD</td>
-  </tr>
-  <tr>
-    <td><a href="/whitepapers/periodofperformance/" title="Period of Performace whitepaper">Period of Performance Current End Date</a></td>
-    <td>FFATA</td>
-    <td>feedback period closes TBD</td>
+    <td>feedback period closes opens soon</td>
   </tr>
   <tr>
     <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Potential End Date</a></td>
     <td>FFATA</td>
-    <td>feedback period closes TBD</td>
+    <td>feedback period closes opens soon</td>
   </tr>
   <tr>
     <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Ordering Period End Date</a></td>
     <td>FFATA</td>
-    <td>feedback period closes TBD</td>
+    <td>feedback period opens soon</td>
   </tr>
   <tr>
     <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Address</a></td>
