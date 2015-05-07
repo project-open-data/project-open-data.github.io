@@ -35,24 +35,24 @@ This list includes information about recipients and awardees of federal funds. P
     </tr>
   </thead>
   <tr>
-    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Legal Business Name</a></td>
+    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Awardee/Recipient Legal Business Name</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for legal business name">leave feedback (closes 5/15/15)</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Legal Business Identifier Number</a></td>
+    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Awardee/Recipient Unique Identifier</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for legal business identifier number">leave feedback (closes 5/15/15)</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Ultimate Recipient Parent Identifier Number</a></td>
+    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Ultimate Parent Unique Identifier</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for ultimate recipient parent identifier">leave feedback (closes 5/15/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for ultimate parent unique identifier">leave feedback (closes 5/15/15)</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Recipient Parent Legal Business Name</a></td>
+    <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Ultimate Parent Legal Business Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="recipient parent legal business name">leave feedback (closes 5/15/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="ultimate parent legal business name">leave feedback (closes 5/15/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Address</a></td>
@@ -105,7 +105,7 @@ This list includes elements used to describe the amount (value) of a certain awa
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">Leave feedback</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Non-federal Funding Amount</a></td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Non-Federal Funding Amount</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">Leave feedback</a></td>
   </tr>
@@ -175,7 +175,7 @@ These elements describe the different characteristics each award possesses – f
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award ID Modification/Amendment</a></td>
+    <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award Modification / Amendment Number</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback</a></td>
   </tr>
