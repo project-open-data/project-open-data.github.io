@@ -8,9 +8,7 @@ title: Object Class
 
 # Element: Object Class
 
-This page contains information about the following federal spending data element, with the goal of soliciting public input.
-
-For an in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](/feedback/) page.
+As of May 8, 2015, 15 of the data elements below have been finalized, and those can be found [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "Federal Spending Transparency Data Standards").  12 of the below elements have proposed standard definitions that are now open for public feedback, and will be finalized after feedback is analyzed. For the remaining 30 elements, we have posted their current, longstanding definitions. These are open for feedback as we continue the standardization process so that this feedback can be incorporated into discussions in real time. We will update these pages throughout the summer with more information and the proposed definitions as they are developed. Please click _Get Updates_ above to receive emails as we update these pages.
 
 <table>
   <thead>
