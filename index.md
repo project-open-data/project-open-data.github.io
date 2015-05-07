@@ -46,23 +46,8 @@ If you think an element is missing from this list, we’d like to know. To propo
 
 ##Background Materials
 
-Would you like more information about a specific data element? Browse our selection of white papers on different elements and read those that interest you.
+Would you like more information about a specific data element? [Browse our selection of white papers](dataelements/ "Data Elements") on different elements and read those that interest you.
 
- - [Top 5 Highly Compensated Officers](whitepapers/highlycompensatedofficers/)
- - [North American Industrial Classification System](whitepapers/naics/)
- - [Object Class](whitepapers/objectclass/)
- - [Obligation](whitepapers/obligation/)
- - [Program Activity](whitepapers/programactivity/)
- - [Treasury Account Symbol (excluding Sub-Account), Appropriations Account, and Agency](whitepapers/approp-agency-tas/)
- - [Budget Authority Appropriated and Other Budgetary Resources](whitepapers/ba-appropriated-other-resources/)
- - [Outlay](whitepapers/outlay/)
- - [Awardee/Recipient Unique Identifier, Awardee/Recipient Legal Business Name, Ultimate Parent Identifier Number, Ultimate Parent Legal Business Name](whitepapers/unique-id-business-name/)
- - [Unobligated Balance](whitepapers/unobligated-balance/)
- - [Entity Address](/whitepapers/entity-address/)
- - [Award ID and Description](/whitepapers/award-id-description/)
- - [Funding Agency](/whitepapers/fundingagency/)
- - [CFDA Program Number_Title](/whitepapers/cfdaprogramnumber-title/)
- - More materials coming soon
 
 ##Recent News and Events
 
