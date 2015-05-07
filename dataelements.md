@@ -100,27 +100,27 @@ This list includes elements used to describe the amount (value) of a certain awa
     </tr>
   </thead>
   <tr>
-    <td>Funding Action Obligation</td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Funding Action Obligation</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Non-federal Funding Amount</td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Non-federal Funding Amount</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Current Total Funding Obligation Amount on Award</td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Current Total Funding Obligation Amount on Award</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Current Total Value of Award</td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Current Total Value of Award</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
   <tr>
-    <td>Potential Total Value of Award</td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Potential Total Value of Award</a></td>
     <td>FFATA</td>
     <td>feedback period opens soon</td>
   </tr>
@@ -140,7 +140,7 @@ These elements describe the different characteristics each award possesses – f
     </tr>
   </thead>
   <tr>
-    <td><a href="/whitepapers/type-transaction-code" title="Type of Transaction Code whitepaper">Type of Transaction Code</a></td>
+    <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Type of Transaction Code</a></td>
     <td>FFATA</td>
     <td>leave feedback</td>
   </tr>
@@ -235,17 +235,17 @@ These elements describe the different characteristics each award possesses – f
     <td>leave feedback</td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/type-transaction-code" title="Type of Transaction Code whitepaper">Record Type</a></td>
+    <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Record Type</a></td>
     <td>FFATA</td>
     <td>leave feedback</td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/type-transaction-code" title="Type of Transaction Code whitepaper">Type of Action</a></td>
+    <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Type of Action</a></td>
     <td>FFATA</td>
     <td>leave feedback</td>
   </tr>
   <tr>
-    <td>Business Type</td>
+    <td><a href="/whitepapers/business-type/" title="Business Type whitepaper">Business Type</td>
     <td>FFATA</td>
     <td>leave feedback</td>
   </tr>
