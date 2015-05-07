@@ -60,6 +60,8 @@ Would you like more information about a specific data element? Browse our select
  - [Unobligated Balance](whitepapers/unobligated-balance/)
  - [Entity Address](/whitepapers/entity-address/)
  - [Award ID and Description](/whitepapers/award-id-description/)
+ - [Funding Agency](/whitepapers/fundingagency/)
+ - [CFDA Program Number_Title](/whitepapers/cfdaprogramnumber-title/)
  - More materials coming soon
 
 ##Recent News and Events
