@@ -60,6 +60,6 @@ Listed below are the current definitions for this data element that exist across
 
 ## 2. Key Considerations in Providing Feedback
 
-Please review the definitions above and submit your feedback to us, letting us know how these definitions currently serve (or do not serve) your organization.
+As we continue the process of finalizing these data elements, we want to incorporate public feedback at all points of the process. To facilitate that, the above definitions represent those currently found in federal communities and systems. We encourage you to share your feedback on these existing definitions so that we may fold your insight into our work as we draft proposed definitions – this is an opportunity for you to get involved in the standardization process at an early stage.
 
 Standardizing these data elements poses a challenge because before funds reach a recipient, they may be transferred through one of more agencies. Tracking these funds during this process is complicated by the different conventions for federal agency, the different tracking procedures employed by agencies, and disparate systems that track these funds. The different naming and coding conventions for agencies also poses a challenge to standardization.

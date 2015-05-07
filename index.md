@@ -54,10 +54,12 @@ Would you like more information about a specific data element? [Browse our selec
 ###News
 Read the latest on federal financial data updates and the DATA Act.
 
-* Update: The Federal Register comments are closed and have been summarized in [this presentation](/DATA%20Act%20Federal%20Register%20Notice%20-%20Public%20Summary%20of%20Responses.pptx)
+* On May 8, 2015 the Office of Management and Budget (OMB) and U.S. Treasury Department issued a blog post: “Better data, Better decisions, Better government” and OMB issued guidance to federal agencies: “Increasing Transparency of Federal Spending by Making Federal Spending Data Accessible, Searchable, and Reliable”
+
 * The U.S. Treasury Department issued a solicitation for public input on the establishment of federal financial data exchange standards via a  [Federal Register Notice](https://federalregister.gov/a/2014-22997).  See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004).
 
 ###Events
 Get materials from past town hall meetings, watch webinar recordings, and more.
 
+* National Webcast on DATA Act Implementation: We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. The link for the archived webcast can be found at [https://www.youtube.com/watch?v=_jjB_ggYBcA](https://www.youtube.com/watch?v=_jjB_ggYBcA)
 * [Financial Data Transparency Town Hall September 26, 2014](thdescription/)

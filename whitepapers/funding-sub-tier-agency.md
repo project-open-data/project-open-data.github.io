@@ -45,7 +45,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
 
 ## Current Sources and Definitions
 
-Listed below are the current definitions for this data element that exist across the federal government. These definitions have been formed over years of practice within communities, sometimes involving rulemaking procedures and official public comment. In these cases, there are legitimate and sometime statutory reasons for maintaining variations across communities. For some elements, transparency will be enhanced by adjusting how data are displayed rather than defined. During the next few months, the federal community will continue to explore opportunities to refine and improve the consistent government-wide use of these data definitions, and we will update this page. 
+Listed below are the current definitions for this data element that exist across the federal government. These definitions have been formed over years of practice within communities, sometimes involving rulemaking procedures and official public comment. In these cases, there are legitimate and sometime statutory reasons for maintaining variations across communities. For some elements, transparency will be enhanced by adjusting how data are displayed rather than defined. During the next few months, the federal community will continue to explore opportunities to refine and improve the consistent government-wide use of these data definitions, and we will update this page.
 
 <table>
   <thead>
@@ -79,5 +79,6 @@ Listed below are the current definitions for this data element that exist across
 
 ## Key Considerations in Providing Feedback
 
-Please review the definitions above and submit your feedback to us, letting us know how these definitions currently serve (or do not serve) your organization. 
-In particular, as we standardize the definition for funding agency, we are considering how to track and display sub tier and office information for funding agency. The Federal community is discussing the utility of potentially tracking this data element and how best to display it. 
+As we continue the process of finalizing these data elements, we want to incorporate public feedback at all points of the process. To facilitate that, the above definitions represent those currently found in federal communities and systems. We encourage you to share your feedback on these existing definitions so that we may fold your insight into our work as we draft proposed definitions – this is an opportunity for you to get involved in the standardization process at an early stage.
+
+In particular, as we standardize the definition for funding agency, we are considering how to track and display sub tier and office information for funding agency. The Federal community is discussing the utility of potentially tracking this data element and how best to display it.

@@ -110,10 +110,10 @@ If the principal place of performance is a particular city, the five-character n
 
 ## Key Considerations in Providing Feedback
 
-Please review the definitions above and submit your feedback to us, letting us know how these definitions currently serve (or do not serve) your organization. 
+As we continue the process of finalizing these data elements, we want to incorporate public feedback at all points of the process. To facilitate that, the above definitions represent those currently found in federal communities and systems. We encourage you to share your feedback on these existing definitions so that we may fold your insight into our work as we draft proposed definitions – this is an opportunity for you to get involved in the standardization process at an early stage.
 
-Some areas where your input would be especially helpful: 
+Some areas where your input would be especially helpful:
 
-1.  Reconciling various definitions for the same data element 
+1.  Reconciling various definitions for the same data element
 2.  Ways to limit ambiguity on defining place of performance when parties may perform on a contract at many places
 3.  Other considerations
