@@ -24,7 +24,7 @@ These templates are based on documents that have been used by agencies from the 
 - [Useful resources for all events](#useful-resources-for-all-events)
   - [Data Brief](#data-brief)
   - [Feedback Mechanism](#feedback-mechanism)
-  - [Guides for Organizers](#guides-from-organizers)
+  - [Guides for Organizers](#guides-for-organizers)
 
 ## Data Jams
 
