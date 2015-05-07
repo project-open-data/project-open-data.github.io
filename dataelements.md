@@ -231,7 +231,7 @@ These elements describe the different characteristics each award possesses – f
   </tr>
   <tr>
     <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award ID</a></td>
-    <td>DATA Act</td>
+    <td>FFATA</td>
     <td>leave feedback</td>
   </tr>
   <tr>
