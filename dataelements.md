@@ -167,7 +167,7 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Treasury Account Symbol (excluding Sub-Account)</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="Leave feedback">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award Description</a></td>
@@ -245,7 +245,7 @@ These elements describe the different characteristics each award possesses – f
     <td>leave feedback</td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/business-type/" title="Business Type whitepaper">Business Type</td>
+    <td><a href="/whitepapers/business-type/" title="Business Type whitepaper">Business Type</a></td>
     <td>FFATA</td>
     <td>leave feedback</td>
   </tr>
