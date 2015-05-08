@@ -142,7 +142,7 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Type of Transaction Code</a></td>
     <td>FFATA</td>
-    <td>leave feedback</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">leave feedback</a></td>
   </tr>
     <tr>
     <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Code</a></td>
