@@ -57,22 +57,22 @@ This list includes information about recipients and awardees of federal funds. P
   <tr>
     <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Address</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback Entity Legal Business Adress">Leave feedback</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback Entity Legal Business Adress">Leave feedback (closes 5/29/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Congressional District</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback Entity Legal Business Adress">Leave feedback</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback Entity Legal Business Adress">Leave feedback (closes 5/29/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Country Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback Entity Legal Business Adress">Leave feedback</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback Entity Legal Business Adress">Leave feedback (closes 5/29/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Country Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback Entity Legal Business Adress">Leave feedback</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback Entity Legal Business Country Name">Leave feedback (closes 5/29/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/highlycompensatedofficers/" title="Top 5 Highly Compensated Officers whitepaper">Top 5 Highly Compensated Officer Names</a></td>
@@ -142,7 +142,7 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Type of Transaction Code</a></td>
     <td>FFATA</td>
-    <td>leave feedback</td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">leave feedback</a></td>
   </tr>
     <tr>
     <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Code</a></td>
@@ -172,17 +172,17 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award Description</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback (closes 5/29/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award Modification / Amendment Number</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback (closes 5/29/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Parent Award ID</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback (closes 5/29/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Action Date</a></td>
@@ -232,7 +232,7 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/award-id-description/" title="Award ID and Description whitepaper">Award ID</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback Award ID and Description">leave feedback (closes 5/29/15)</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Record Type</a></td>
