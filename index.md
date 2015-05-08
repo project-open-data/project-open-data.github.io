@@ -50,7 +50,7 @@ Would you like more information about a specific data element? [Browse our selec
 ###News
 Read the latest on federal financial data updates and the DATA Act.
 
-* On May 8, 2015 the Office of Management and Budget (OMB) and U.S. Treasury Department issued a blog post: “Better data, Better decisions, Better government” and OMB issued guidance to federal agencies: “Increasing Transparency of Federal Spending by Making Federal Spending Data Accessible, Searchable, and Reliable”.
+* On May 8, 2015 the Office of Management and Budget (OMB) and U.S. Treasury Department issued a blog post: [“Better data, Better decisions, Better government”](https://www.whitehouse.gov/blog/2015/05/08/better-data-better-decisions-better-government) and OMB issued guidance to federal agencies: [“Increasing Transparency of Federal Spending by Making Federal Spending Data Accessible, Searchable, and Reliable”](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-12.pdf).
 
 * The U.S. Treasury Department issued a solicitation for public input on the establishment of federal financial data exchange standards via a [Federal Register Notice](https://federalregister.gov/a/2014-22997). The Federal Register comments are closed and have been summarized in [this presentation](http://fedspendingtransparency.github.io/DATA%20Act%20Federal%20Register%20Notice%20-%20Public%20Summary%20of%20Responses.pptx "summary of responses to Federal Register comments on financial exchange data standards"). See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004).
 
