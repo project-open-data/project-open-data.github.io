@@ -6,10 +6,6 @@ filename: index.md
 title: Federal Spending Collaboration Space
 ---
 
-> **National Webcast on DATA Act Implementation**
->
-> We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. The link for the archived webcast can be found at [https://www.youtube.com/watch?v=_jjB_ggYBcA](https://www.youtube.com/watch?v=_jjB_ggYBcA)
-
 #We Need Your Feedback!
 
 In conjunction with the recent enactment of the Digital Accountability and Transparency Act (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm) and our ongoing efforts to improve federal spending data under the Federal Funding Accountability and Transparency Act (FFATA), the federal government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information.
@@ -46,29 +42,21 @@ If you think an element is missing from this list, we’d like to know. To propo
 
 ##Background Materials
 
-Would you like more information about a specific data element? Browse our selection of white papers on different elements and read those that interest you.
+Would you like more information about a specific data element? [Browse our selection of white papers](dataelements/ "Data Elements") on different elements and read those that interest you.
 
- - [Top 5 Highly Compensated Officers](whitepapers/highlycompensatedofficers/)
- - [North American Industrial Classification System](whitepapers/naics/)
- - [Object Class](whitepapers/objectclass/)
- - [Obligation](whitepapers/obligation/)
- - [Program Activity](whitepapers/programactivity/)
- - [Treasury Account Symbol (excluding Sub-Account), Appropriations Account, and Agency](whitepapers/approp-agency-tas/)
- - [Budget Authority Appropriated and Other Budgetary Resources](whitepapers/ba-appropriated-other-resources/)
- - [Outlay](whitepapers/outlay/)
- - [Awardee/Recipient Unique Identifier, Awardee/Recipient Legal Business Name, Ultimate Parent Identifier Number, Ultimate Parent Legal Business Name](whitepapers/unique-id-business-name/)
- - [Unobligated Balance](whitepapers/unobligated-balance/)
- - More materials coming soon
 
 ##Recent News and Events
 
 ###News
 Read the latest on federal financial data updates and the DATA Act.
 
-* Update: The Federal Register comments are closed and have been summarized in [this presentation](/DATA%20Act%20Federal%20Register%20Notice%20-%20Public%20Summary%20of%20Responses.pptx)
-* The U.S. Treasury Department issued a solicitation for public input on the establishment of federal financial data exchange standards via a  [Federal Register Notice](https://federalregister.gov/a/2014-22997).  See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004).
+* On May 8, 2015 the Office of Management and Budget (OMB) and U.S. Treasury Department issued a blog post: “Better data, Better decisions, Better government” and OMB issued guidance to federal agencies: “Increasing Transparency of Federal Spending by Making Federal Spending Data Accessible, Searchable, and Reliable”.
+
+* The U.S. Treasury Department issued a solicitation for public input on the establishment of federal financial data exchange standards via a [Federal Register Notice](https://federalregister.gov/a/2014-22997). The Federal Register comments are closed and have been summarized in [this presentation](http://fedspendingtransparency.github.io/DATA%20Act%20Federal%20Register%20Notice%20-%20Public%20Summary%20of%20Responses.pptx "summary of responses to Federal Register comments on financial exchange data standards"). See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004).
 
 ###Events
 Get materials from past town hall meetings, watch webinar recordings, and more.
+
+* National Webcast on DATA Act Implementation: We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. The link for the archived webcast can be found at [https://www.youtube.com/watch?v=_jjB_ggYBcA](https://www.youtube.com/watch?v=_jjB_ggYBcA)
 
 * [Financial Data Transparency Town Hall September 26, 2014](thdescription/)

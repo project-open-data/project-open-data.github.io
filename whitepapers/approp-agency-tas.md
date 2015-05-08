@@ -8,9 +8,7 @@ title: Treasury Account Symbol, Appropriations Account, and Agency
 
 # Elements: Treasury Account Symbol (excluding Sub-Account), Appropriations Account, and Agency
 
-This page contains information about the following federal spending data elements, with the goal of soliciting public input.
-
-For an in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](/feedback/) page.
+Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "Federal Spending Transparency Standards") to see the data definitions for these elements in their final form.
 
 <table>
   <thead>
