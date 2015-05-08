@@ -6,10 +6,6 @@ filename: index.md
 title: Federal Spending Collaboration Space
 ---
 
-> **National Webcast on DATA Act Implementation**
->
-> We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. The link for the archived webcast can be found at [https://www.youtube.com/watch?v=_jjB_ggYBcA](https://www.youtube.com/watch?v=_jjB_ggYBcA)
-
 #We Need Your Feedback!
 
 In conjunction with the recent enactment of the Digital Accountability and Transparency Act (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm) and our ongoing efforts to improve federal spending data under the Federal Funding Accountability and Transparency Act (FFATA), the federal government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information.
@@ -54,12 +50,13 @@ Would you like more information about a specific data element? [Browse our selec
 ###News
 Read the latest on federal financial data updates and the DATA Act.
 
-* On May 8, 2015 the Office of Management and Budget (OMB) and U.S. Treasury Department issued a blog post: “Better data, Better decisions, Better government” and OMB issued guidance to federal agencies: [“Increasing Transparency of Federal Spending by Making Federal Spending Data Accessible, Searchable, and Reliable”](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-12.pdf "OMB guidance to federal agencies").
+* On May 8, 2015 the Office of Management and Budget (OMB) and U.S. Treasury Department issued a blog post: “Better data, Better decisions, Better government” and OMB issued guidance to federal agencies: “Increasing Transparency of Federal Spending by Making Federal Spending Data Accessible, Searchable, and Reliable”.
 
-* The U.S. Treasury Department issued a solicitation for public input on the establishment of federal financial data exchange standards via a  [Federal Register Notice](https://federalregister.gov/a/2014-22997).  See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004).
+* The U.S. Treasury Department issued a solicitation for public input on the establishment of federal financial data exchange standards via a [Federal Register Notice](https://federalregister.gov/a/2014-22997). The Federal Register comments are closed and have been summarized in [this presentation](http://fedspendingtransparency.github.io/DATA%20Act%20Federal%20Register%20Notice%20-%20Public%20Summary%20of%20Responses.pptx "summary of responses to Federal Register comments on financial exchange data standards"). See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004).
 
 ###Events
 Get materials from past town hall meetings, watch webinar recordings, and more.
 
 * National Webcast on DATA Act Implementation: We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. The link for the archived webcast can be found at [https://www.youtube.com/watch?v=_jjB_ggYBcA](https://www.youtube.com/watch?v=_jjB_ggYBcA)
+
 * [Financial Data Transparency Town Hall September 26, 2014](thdescription/)
