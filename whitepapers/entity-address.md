@@ -101,7 +101,7 @@ _Congressional district._ A congressional district is the geographic region that
   </tr>
   <tr>
     <td>Entity Legal Business State</td>
-    <td>State code in which the awardee or recipient’s legal business address is located, using the INCITS 38 codes for states.  Puerto Rico, Northern Mariana Islands, American Samoa, Guam, U.S. Virgin Islands, and U.S. Minor Outlying Islands are included as states. </td>
+    <td>United States Postal Service (USPS) two-letter abbreviation for the state or territory in which the awardee or recipient’s legal business address is located. Identify States, the District of Columbia, territories (i.e., American Samoa, Guam, Northern Mariana Islands, Puerto Rico, U.S. Virgin Islands) and associated states (i.e., Republic of the Marshall Islands, the Federated States of Micronesia, and Palau) by their USPS two-letter abbreviation for the purposes of reporting. Report legal business address located in the Puerto Rico, Northern Mariana Islands, American Samoa, Guam, and U.S. Virgin Islands using USPS assigned state codes.</td>
   </tr>
   <tr>
     <td>Entity Legal Business ZIP+4 Code</td>
