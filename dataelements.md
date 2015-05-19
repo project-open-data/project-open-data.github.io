@@ -37,22 +37,22 @@ This list includes information about recipients and awardees of federal funds. P
   <tr>
     <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Awardee/Recipient Legal Business Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for legal business name">leave feedback (closes 5/15/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for legal business name">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Awardee/Recipient Unique Identifier</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for legal business identifier number">leave feedback (closes 5/15/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for legal business identifier number">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Ultimate Parent Unique Identifier</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="leave feedback for ultimate parent unique identifier">leave feedback (closes 5/15/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for ultimate parent unique identifier">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Business Name whitepaper">Ultimate Parent Legal Business Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="ultimate parent legal business name">leave feedback (closes 5/15/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for ultimate parent legal business name">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/entity-address/" title="entity address whitepaper">Legal Business Address</a></td>
@@ -312,12 +312,12 @@ Elements on this list describe awarding entities – those that presented the aw
   <tr>
     <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="Leave feedback">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Awarding Agency Name">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="Leave feedback">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Awarding Agency Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/awarding-sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Sub Tier Agency Name</a></td>
@@ -362,12 +362,12 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Appropriations Account</a></td>
     <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="Leave feedback">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Appropriations Account">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/ba-appropriated-other-resources/" title="Budget Authority Amount and Other Budgetary Resources whitepaper">Budget Authority Appropriated</a></td>
     <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/31" title="Leave feedback for Budget Authority Appropriated">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/31" title="feedback for Budget Authority Appropriated">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/obligation/" title="Obligation whitepaper">Obligation</a></td>
@@ -382,7 +382,7 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td><a href="/whitepapers/ba-appropriated-other-resources/" title="Budget Authority Amount and Other Budgetary Resources whitepaper">Other Budgetary Resources</a></td>
     <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/31" title="Leave feedback for Other Budgetary Resources">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/31" title="feedback for Other Budgetary Resources">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/programactivity/" title="Program Activity whitepaper">Program Activity</a></td>
@@ -392,7 +392,7 @@ This list features elements that describe the accounts from which the awards are
   <tr>
     <td><a href="/whitepapers/outlay/" title="Outlay whitepaper">Outlay</a></td>
     <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/30" title="Leave feedback for Outlay">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/30" title="feedback for Outlay">feedback period closed</a></td>
   </tr>
 </table>
 
