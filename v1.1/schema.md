@@ -584,7 +584,7 @@ Dataset Fields {#Dataset}
 **Field [#](#license){: .permalink}** | **license**
 ----- | -----
 **Cardinality** | (0,1)
-**Required** | Yes, if applicable
+**Required** | Yes, always
 **Accepted Values** | String (URL)
 **Usage Notes** | See [list of license-free declarations and licenses](/open-licenses/).
 **Example** |  `{"license":"http://creativecommons.org/publicdomain/zero/1.0/"}`
