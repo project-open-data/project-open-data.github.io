@@ -38,4 +38,4 @@ Each three-week interval will have its own milestone, or deadline. Once a milest
 
 Because of this, it’s important to stay informed of the milestones and which issues will be closing soon. You may find it helpful to prioritize those elements whose issues will be closed in the near future. Please note that the team working on the spending standard is very small. Gathering feedback in three-week intervals will allow them to fully engage with your feedback.
 
-You can get updates when new data elements are ready for feedback by [joining our mailing list](http://eepurl.com/bgqOH9).
+You can get updates when new data elements are ready for feedback by [joining our mailing list](https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa).
