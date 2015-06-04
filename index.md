@@ -27,7 +27,7 @@ Because there are so many data elements, we’ll be focusing the conversation on
 
 The feedback on the data exchange standard will be open on a less regular, but still rolling basis. As newly defined elements are added to the schema and we create example implementations, we will post new versions to collect feedback on.  
 
-To get updates on when any new information is posted to this space, please [sign up for our email list](http://eepurl.com/bgqOH9).
+To get updates on when any new information is posted to this space, please [sign up for our email list](https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa).
 
 ##How to Participate
 
