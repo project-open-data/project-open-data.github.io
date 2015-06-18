@@ -47,6 +47,10 @@ A web service that provides dynamic access to the page content of a website, inc
 
 A comma separated values (CSV) file is a computer data file used for implementing the tried and true organizational tool, the Comma Separated List. The CSV file is used for the digital storage of data structured in a table of lists form. Each line in the CSV file corresponds to a row in the table. Within a line, fields are separated by commas, and each field belongs to one table column. CSV files are often used for moving tabular data between two different computer programs (like moving between a database program and a spreadsheet program).  —*[source](http://www.data.gov/glossary)*
 
+### CSW
+
+Catalog Service for the Web (CSW) is an API used by geospatial systems to provide metadata in open standards, including in the FGDC-endorsed ISO 19115 schema.  The CSW-provided metadata can be mapped into the Project Open Data metadata schema.  -*[source](http://www.digitalgov.gov/resources/how-to-get-your-open-data-on-data-gov/#federal-geospatial-data)*
+
 ### Data 
 
 A value or set of values representing a specific concept or concepts. Data become "information" when analyzed and possibly combined with other data in order to extract meaning, and to provide context. The meaning of data can vary depending on its context.  Data includes *all* data.  It includes, but is not limited to, 1) geospatial data 2) unstructured data, 3) structured data, etc.  —*[source](http://www.data.gov/glossary)*
