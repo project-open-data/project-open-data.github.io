@@ -1,13 +1,17 @@
 #document settings
 title: Project Open Data
 desc: "Open Data Policy — Managing Information as an Asset"
-url: https://project-open-data.cio.gov/
-repo_name: project-open-data.github.io
-branch: master
+url: https://project-open-data.cio.gov
+
+#web analytics
+google_analytics: UA-42145528-3
+enable_dap_analytics: true
 
 #global settings, no need to change these
 root_url: https://project-open-data.cio.gov
 org_name: project-open-data
+repo_name: project-open-data.github.io
+branch: master
 
 # default build settings for running locally, no need to edit
 pymgemnts: true

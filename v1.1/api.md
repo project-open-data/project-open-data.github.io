@@ -31,7 +31,7 @@ Some APIs may implement a common standard such as WMS, WFS, or Open311. If this 
 Example of an API listing in a data.json file
 --------------------------------------------------
 ~~~~
-"distribution":
+"distribution": [
     {
         "accessURL": "http://www.agency.gov/api/vegetables/",
         "description": "A fully queryable REST API with JSON and XML output",
