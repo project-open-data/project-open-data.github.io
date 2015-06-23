@@ -78,7 +78,7 @@ Agencies must have present a table/list of each dataset in the /data page.  The 
 * Dataset description (description)
 * URL to the dataset (accessURL or webService)
 
-The page must be populated from the machine-readable catalog file (e.g. data.xml or data.json) following the [Project Open Data metadata schema](/v1.1/schema/) described above.  Agencies are encouraged to add functionality to assist end-user discoverability.  Additional functions might be sorting, filtering or paging to help make a more digestible list.  Agencies are also encouraged to add more to the standard schema which might further assist end-user discoverability and usability (e.g. thumbnails).
+The page must be populated from the machine-readable catalog file (e.g. data.xml or data.json) or the same source that generates the machine-readable catalog file following the [Project Open Data metadata schema](/v1.1/schema/) described above.  Agencies are encouraged to add functionality to assist end-user discoverability.  Additional functions might be sorting, filtering or paging to help make a more digestible list.  Agencies are also encouraged to add more to the standard schema which might further assist end-user discoverability and usability (e.g. thumbnails).
 
 Version 1.1 Update 
 ------------------
