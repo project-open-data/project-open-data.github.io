@@ -2,15 +2,13 @@
 published: true
 permalink: /whitepapers/award-id-description/
 layout: hero
-filename: award-id-description 
+filename: award-id-description
 title: Award Identification (ID) Number and Description
 ---
 
 # Element: Award Description, Award Identification (ID) Number, Award Modification/Amendment Number, and Parent Award Identification (ID) Number
 
-This page contains information about the following federal spending data element, with the goal of soliciting public input.
-
-For an in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](/feedback/) page.
+Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.omb.gov/datastandards) to see the data definitions for these elements in their final form.
 
 <table>
   <thead>
@@ -62,15 +60,15 @@ The award identifier is included on all reported subcontracts and subawards.
 
 ##Analysis of Current Definitions
 
-Although referenced in the FAR and 2 CFR several times, no specific definitions in the regulations exist for award identifiers.  For the FFATA data standardization effort, the following definitions are proposed for both procurement and financial assistance as basic elements of award identification: 
+Although referenced in the FAR and 2 CFR several times, no specific definitions in the regulations exist for award identifiers.  For the FFATA data standardization effort, the following definitions are proposed for both procurement and financial assistance as basic elements of award identification:
 
 * Award Description – A brief description of the purpose of the award.
 
 * Award Number – The unique identifier of the specific award being reported. (The PIID for procurement and the FAIN for financial assistance)
 
-* Modification / Amendment Number – The identifier of the action being reported that indicates a change to the initial award.  For procurement, a modification / amendment number of zero (“0”) indicates the initial award.  For financial assistance, initial awards are indicated by the Type of Action. 
+* Modification / Amendment Number – The identifier of the action being reported that indicates a change to the initial award.  For procurement, a modification / amendment number of zero (“0”) indicates the initial award.  For financial assistance, initial awards are indicated by the Type of Action.
 
-* Parent Award Number – For procurement, if the award is a delivery order or task order under a parent contract, the identifier of the parent award. 
+* Parent Award Number – For procurement, if the award is a delivery order or task order under a parent contract, the identifier of the parent award.
 
 Long term implementation of the DATA Act is expected to require expenditures and/or outlays be tracked to individual awards.  In order to accomplish this, financial systems will need to record the award identifiers.  This consideration does not change the recommended definitions here.
 

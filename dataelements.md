@@ -75,14 +75,14 @@ This list includes information about recipients and awardees of federal funds. P
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback for Legal Entity Country Name">feedback period closed</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/highlycompensatedofficers/" title="Highly Compensated Officers whitepaper">Highly Compensated Officer Names</a></td>
+    <td><a href="/whitepapers/highlycompensatedofficers/" title="Highly Compensated Officers whitepaper">Highly Compensated Officer Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Highly Compensated Officer Names">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Highly Compensated Officer Name">feedback period closed</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/highlycompensatedofficers/" title="Highly Compensated Officers whitepaper">Highly Compensated Officer Total Compensations</a></td>
+    <td><a href="/whitepapers/highlycompensatedofficers/" title="Highly Compensated Officers whitepaper">Highly Compensated Officer Total Compensation</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Highly Compensated Officer Total Compensations">feedback period closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Highly Compensated Officer Total Compensation">feedback period closed</a></td>
   </tr>
 </table>
 

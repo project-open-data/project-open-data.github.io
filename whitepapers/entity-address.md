@@ -6,11 +6,9 @@ filename: entity-address
 title: Legal Entity Address
 ---
 
-# Elements: Legal Entity Address, Legal Entity Congressional District, Legal Entity Country Code, and Legal Entity Country Name	
+# Elements: Legal Entity Address, Legal Entity Congressional District, Legal Entity Country Code, and Legal Entity Country Name
 
-This page contains information about the following federal spending data elements, with the goal of soliciting public input.
-
-For an in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](/feedback/) page.
+Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.omb.gov/datastandards) to see the data definitions for these elements in their final form.
 
 <table>
   <thead>
@@ -49,7 +47,7 @@ Section 2(b)(1) of FFATA requires that the location of the entity receiving the 
 
 ##Context
 
-Accurate and timely identification of responsible Federal award partners is essential to ensuring the integrity of the Federal awarding processes.  The entity’s address and congressional district complements this information, allows for additional specification related to the entity, and provides taxpayers a better understanding as to where their tax dollars are being spent. The address references that of the entity’s principal place of business, which may be different from the place of activity. 
+Accurate and timely identification of responsible Federal award partners is essential to ensuring the integrity of the Federal awarding processes.  The entity’s address and congressional district complements this information, allows for additional specification related to the entity, and provides taxpayers a better understanding as to where their tax dollars are being spent. The address references that of the entity’s principal place of business, which may be different from the place of activity.
 
 ##Analysis of Current Definitions
 
@@ -61,7 +59,7 @@ _Identification of country code._  Historically, the procurement and financial a
 
 _Components of address._  The use of awardee / recipient addresses and the reporting thereof have followed a general standard practice used by the United States Postal Service (USPS) to identify U.S. locations:  requiring a physical street address (at least one line), city, state code, and ZIP+4 code.   For reporting non-U.S. locations, the identification of a city and country is required; other subdivisions (provinces or states) and postal codes are optional.  The recommendation is to maintain these components of “address.”
 
-_Identification of state code._  The grants/financial assistance community used the numeric state codes in FIPS 5-1 to report FAADS+ data; FIPS 5-1 was superseded by FIPS 5-2 (which uses alpha codes) but the FAADS+ guidance continues to reference it.  The contracting community has historically used FIPS 5-2, “Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States,” for state codes.  It has been replaced by of International Committee for Information Technology Standards (INCITS) 38, “Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rice, and the Insular Areas.”  These two-letter codes are the same as those used by the USPS.  The recommendation is to standardize on INCITS 38 for state codes. 
+_Identification of state code._  The grants/financial assistance community used the numeric state codes in FIPS 5-1 to report FAADS+ data; FIPS 5-1 was superseded by FIPS 5-2 (which uses alpha codes) but the FAADS+ guidance continues to reference it.  The contracting community has historically used FIPS 5-2, “Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States,” for state codes.  It has been replaced by of International Committee for Information Technology Standards (INCITS) 38, “Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rice, and the Insular Areas.”  These two-letter codes are the same as those used by the USPS.  The recommendation is to standardize on INCITS 38 for state codes.
 
 _Identification of city and county._  The contracting and grants/financial assistance communities also historically used the FIPS 55-3 standard to identify cities for reporting and FIPS 6-4 for county codes.  These standards were also withdrawn in September 2008.  The contracting community has since been using the actual city name associated with the entity’s SAM record, while the grants/financial assistance community is today still required to report the defunct code for both city and county.  The recommendation is to discontinue this city/location code and county code practice and require the actual city and county name be reported from both communities based on no known requirement for the agency systems other than to supply this information to USAspending.gov.
 
@@ -136,6 +134,3 @@ United States Postal Service Publication 28, Postal Addressing Standards.  [http
 National Institute of Standards and Technology (NIST) Federal Information Processing Standards (FIPS) – Withdrawn FIPS publications and replacement standards for withdrawn FIPS on geographic codes.  [http://www.nist.gov/itl/fips.cfm](http://www.nist.gov/itl/fips.cfm)
 
 International Committee for Information Technology Standards (INCITS) list of adopted standards.  [http://incits.org/dotAsset/20089da0-bb02-427e-9bb0-5f34129821d3.pdf.](http://incits.org/dotAsset/20089da0-bb02-427e-9bb0-5f34129821d3.pdf)  INCITS 38 is available for purchase from the American National Standards Institute - [ANSI](http://webstore.ansi.org/default.aspx) or through the INCITS store via [Techstreet](http://www.techstreet.com/incits).
-
-
-
