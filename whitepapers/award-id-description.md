@@ -3,10 +3,10 @@ published: true
 permalink: /whitepapers/award-id-description/
 layout: hero
 filename: award-id-description 
-title: Award ID and Description
+title: Award Identification (ID) Number and Description
 ---
 
-# Element: Award Description, Award Number, Award Modification/Amendment Number, and Parent Award Number
+# Element: Award Description, Award Identification (ID) Number, Award Modification/Amendment Number, and Parent Award Identification (ID) Number
 
 This page contains information about the following federal spending data element, with the goal of soliciting public input.
 
@@ -21,7 +21,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
     </tr>
   </thead>
   <tr>
-    <td>Award ID</td>
+    <td>Award Identification (ID) Number</td>
     <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
@@ -36,7 +36,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
     <td>FFATA</td>
   </tr>
   <tr>
-    <td>Parent Award ID</td>
+    <td>Parent Award Identification (ID) Number</td>
     <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>

@@ -3,10 +3,10 @@ published: true
 permalink: /whitepapers/entity-address/
 layout: hero
 filename: entity-address
-title: Entity Adress
+title: Legal Entity Address
 ---
 
-# Elements: Entity Legal Business Address, Entity Legal Business Congressional District, Entity Legal Business Country Code, and Entity Legal Business Country Name	
+# Elements: Legal Entity Address, Legal Entity Congressional District, Legal Entity Country Code, and Legal Entity Country Name	
 
 This page contains information about the following federal spending data elements, with the goal of soliciting public input.
 
@@ -21,22 +21,22 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
     </tr>
   </thead>
   <tr>
-    <td>Entity Legal Business Address</td>
+    <td>Legal Entity Address</td>
     <td>Awardee and Recipient Entity Information</td>
     <td>FFATA</td>
   </tr>
   <tr>
-    <td>Entity Legal Business Congressional District</td>
+    <td>Legal Entity Congressional District</td>
     <td>Awardee and Recipient Entity Information</td>
     <td>FFATA</td>
   </tr>
   <tr>
-    <td>Entity Legal Business Country Code</td>
+    <td>Legal Entity Country Code</td>
     <td>Awardee and Recipient Entity Information</td>
     <td>FFATA</td>
   </tr>
   <tr>
-    <td>Entity Legal Business Country Name</td>
+    <td>Legal Entity Country Name</td>
     <td>Awardee and Recipient Entity Information</td>
     <td>FFATA</td>
   </tr>
@@ -84,43 +84,43 @@ _Congressional district._ A congressional district is the geographic region that
     </tr>
   </thead>
   <tr>
-    <td>Entity Legal Business Address</td>
+    <td>Legal Entity Address</td>
     <td>The awardee or recipient’s legal business address where the office represented by the Unique Entity Identifier (as registered in SAM) is located.  In most cases, this should match what the entity has filed with the state in its organizational documents, if required. The address is made up of five components: Address Lines 1 and 2, City, State Code, and ZIP+4 or Postal Code.</td>
   </tr>
   <tr>
-    <td>Entity Legal Business Address Line 1</td>
+    <td>Legal Entity Address Line 1</td>
     <td>First line of awardee or recipient’s legal business address.</td>
   </tr>
   <tr>
-    <td>Entity Legal Business Address Line 2</td>
+    <td>Legal Entity Address Line 2</td>
     <td>Second line of awardee or recipient’s legal business address.</td>
   </tr>
   <tr>
-    <td>Entity Legal Business City</td>
+    <td>Legal Entity City</td>
     <td>Name of the city in which the awardee or recipient’s legal business address is located.</td>
   </tr>
   <tr>
-    <td>Entity Legal Business State</td>
+    <td>Legal Entity State</td>
     <td>United States Postal Service (USPS) two-letter abbreviation for the state or territory in which the awardee or recipient’s legal business address is located. Identify States, the District of Columbia, territories (i.e., American Samoa, Guam, Northern Mariana Islands, Puerto Rico, U.S. Virgin Islands) and associated states (i.e., Republic of the Marshall Islands, the Federated States of Micronesia, and Palau) by their USPS two-letter abbreviation for the purposes of reporting. Report legal business address located in the Puerto Rico, Northern Mariana Islands, American Samoa, Guam, and U.S. Virgin Islands using USPS assigned state codes.</td>
   </tr>
   <tr>
-    <td>Entity Legal Business ZIP+4 Code</td>
+    <td>Legal Entity ZIP+4 Code</td>
     <td>USPS zoning code associated with the awardee or recipient’s legal business address. This is not a required data element for non-US addresses.</td>
   </tr>
   <tr>
-    <td>Entity Legal Business Postal Code</td>
+    <td>Legal Entity Postal Code</td>
     <td>Postal service code for awardee or recipient not located in the United States.  This is an optional data element, and used instead of the ZIP+4 Code for non-US addresses.</td>
   </tr>
   <tr>
-    <td>Entity Legal Business Congressional District</td>
+    <td>Legal Entity Congressional District</td>
     <td>The congressional district in which the awardee or recipient is located. This is not a required data element for non-US addresses.</td>
   </tr>
   <tr>
-    <td>Entity Legal Business Country Code</td>
+    <td>Legal Entity Country Code</td>
     <td>Code for the country in which the awardee or recipient is located, using the ISO 3166-1 Alpha-3 GENC Profile, less the codes listed for those territories and possessions of the United States already identified as “states.”</td>
   </tr>
   <tr>
-    <td>Entity Legal Business Country Name</td>
+    <td>Legal Entity Country Name</td>
     <td>The name corresponding to the Country Code.</td>
   </tr>
 </table>
