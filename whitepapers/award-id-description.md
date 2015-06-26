@@ -86,7 +86,7 @@ Long term implementation of the DATA Act is expected to require expenditures and
     <td>A brief description of the purpose of the award.</td>
   </tr>
   <tr>
-    <td>Award Number</td>
+    <td>Award Identification (ID) Number</td>
     <td>The unique identifier of the specific award being reported.</td>
   </tr>
   <tr>
@@ -94,7 +94,7 @@ Long term implementation of the DATA Act is expected to require expenditures and
     <td>The identifier of an action being reported that indicates the specific subsequent change to the initial award.</td>
   </tr>
   <tr>
-    <td>Parent Award Number</td>
+    <td>Parent Award Identification (ID) Number</td>
     <td>The identifier of the procurement award under which the specific award is issued (such as a Federal Supply Schedule).  Term currently applies to procurement actions only.</td>
   </tr>
 </table>
