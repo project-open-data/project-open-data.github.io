@@ -2,15 +2,13 @@
 published: true
 permalink: /whitepapers/award-id-description/
 layout: hero
-filename: award-id-description 
-title: Award ID and Description
+filename: award-id-description
+title: Award Identification (ID) Number and Description
 ---
 
-# Element: Award Description, Award Number, Award Modification/Amendment Number, and Parent Award Number
+# Element: Award Description, Award Identification (ID) Number, Award Modification/Amendment Number, and Parent Award Identification (ID) Number
 
-This page contains information about the following federal spending data element, with the goal of soliciting public input.
-
-For an in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](/feedback/) page.
+Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.omb.gov/datastandards) to see the data definitions for these elements in their final form.
 
 <table>
   <thead>
@@ -21,7 +19,12 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
     </tr>
   </thead>
   <tr>
-    <td>Award ID</td>
+    <td>Award Description</td>
+    <td>Award Characteristic Information</td>
+    <td>FFATA</td>
+  </tr>
+  <tr>
+    <td>Award Identification (ID) Number</td>
     <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
@@ -31,12 +34,7 @@ For an in-depth guide to sharing feedback, visit our complete [How to Contribute
     <td>FFATA</td>
   </tr>
   <tr>
-    <td>Award Description</td>
-    <td>Award Characteristic Information</td>
-    <td>FFATA</td>
-  </tr>
-  <tr>
-    <td>Parent Award ID</td>
+    <td>Parent Award Identification (ID) Number</td>
     <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
@@ -62,15 +60,15 @@ The award identifier is included on all reported subcontracts and subawards.
 
 ##Analysis of Current Definitions
 
-Although referenced in the FAR and 2 CFR several times, no specific definitions in the regulations exist for award identifiers.  For the FFATA data standardization effort, the following definitions are proposed for both procurement and financial assistance as basic elements of award identification: 
+Although referenced in the FAR and 2 CFR several times, no specific definitions in the regulations exist for award identifiers.  For the FFATA data standardization effort, the following definitions are proposed for both procurement and financial assistance as basic elements of award identification:
 
 * Award Description – A brief description of the purpose of the award.
 
-* Award Number – The unique identifier of the specific award being reported. (The PIID for procurement and the FAIN for financial assistance)
+* Award Identification (ID) Number – The unique identifier of the specific award being reported. (The PIID for procurement and the FAIN for financial assistance)
 
-* Modification / Amendment Number – The identifier of the action being reported that indicates a change to the initial award.  For procurement, a modification / amendment number of zero (“0”) indicates the initial award.  For financial assistance, initial awards are indicated by the Type of Action. 
+* Award Modification / Amendment Number – The identifier of the action being reported that indicates a change to the initial award.  For procurement, a modification / amendment number of zero (“0”) indicates the initial award.  For financial assistance, initial awards are indicated by the Type of Action.
 
-* Parent Award Number – For procurement, if the award is a delivery order or task order under a parent contract, the identifier of the parent award. 
+* Parent Award Identification (ID) Number – For procurement, if the award is a delivery order or task order under a parent contract, the identifier of the parent award.
 
 Long term implementation of the DATA Act is expected to require expenditures and/or outlays be tracked to individual awards.  In order to accomplish this, financial systems will need to record the award identifiers.  This consideration does not change the recommended definitions here.
 
@@ -88,7 +86,7 @@ Long term implementation of the DATA Act is expected to require expenditures and
     <td>A brief description of the purpose of the award.</td>
   </tr>
   <tr>
-    <td>Award Number</td>
+    <td>Award Identification (ID) Number</td>
     <td>The unique identifier of the specific award being reported.</td>
   </tr>
   <tr>
@@ -96,7 +94,7 @@ Long term implementation of the DATA Act is expected to require expenditures and
     <td>The identifier of an action being reported that indicates the specific subsequent change to the initial award.</td>
   </tr>
   <tr>
-    <td>Parent Award Number</td>
+    <td>Parent Award Identification (ID) Number</td>
     <td>The identifier of the procurement award under which the specific award is issued (such as a Federal Supply Schedule).  Term currently applies to procurement actions only.</td>
   </tr>
 </table>

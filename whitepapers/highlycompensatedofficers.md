@@ -6,7 +6,7 @@ filename: highlycompensatedofficers.md
 title: Highly Compensated Officers
 ---
 
-# Element: Top 5 Highly Compensated Officers
+# Element: Highly Compensated Officer
 
 Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "Federal Spending Transparency Standards") to see the data definitions for these elements in their final form.
 
@@ -20,12 +20,12 @@ Thank you for contributing your feedback on this data element—your input and i
   </thead>
   <tr>
     <td>9</td>
-    <td>Top 5 Highly Compensated Officer Names</td>
+    <td>Highly Compensated Officer Name</td>
     <td>FFATA</td>
   </tr>
   <tr>
     <td>10</td>
-    <td>Top 5 Highly Compensated Officer Total Compensations</td>
+    <td>Highly Compensated Officer Total Compensation</td>
     <td>FFATA</td>
   </tr>
 </table>
