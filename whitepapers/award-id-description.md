@@ -19,17 +19,17 @@ Thank you for contributing your feedback on this data element—your input and i
     </tr>
   </thead>
   <tr>
+    <td>Award Description</td>
+    <td>Award Characteristic Information</td>
+    <td>FFATA</td>
+  </tr>
+  <tr>
     <td>Award Identification (ID) Number</td>
     <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
   <tr>
     <td>Award Modification / Amendment Number</td>
-    <td>Award Characteristic Information</td>
-    <td>FFATA</td>
-  </tr>
-  <tr>
-    <td>Award Description</td>
     <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
@@ -64,11 +64,11 @@ Although referenced in the FAR and 2 CFR several times, no specific definitions 
 
 * Award Description – A brief description of the purpose of the award.
 
-* Award Number – The unique identifier of the specific award being reported. (The PIID for procurement and the FAIN for financial assistance)
+* Award Identification (ID) Number – The unique identifier of the specific award being reported. (The PIID for procurement and the FAIN for financial assistance)
 
-* Modification / Amendment Number – The identifier of the action being reported that indicates a change to the initial award.  For procurement, a modification / amendment number of zero (“0”) indicates the initial award.  For financial assistance, initial awards are indicated by the Type of Action.
+* Award Modification / Amendment Number – The identifier of the action being reported that indicates a change to the initial award.  For procurement, a modification / amendment number of zero (“0”) indicates the initial award.  For financial assistance, initial awards are indicated by the Type of Action.
 
-* Parent Award Number – For procurement, if the award is a delivery order or task order under a parent contract, the identifier of the parent award.
+* Parent Award Identification (ID) Number – For procurement, if the award is a delivery order or task order under a parent contract, the identifier of the parent award.
 
 Long term implementation of the DATA Act is expected to require expenditures and/or outlays be tracked to individual awards.  In order to accomplish this, financial systems will need to record the award identifiers.  This consideration does not change the recommended definitions here.
 
