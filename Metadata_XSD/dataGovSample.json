@@ -1,0 +1,97 @@
+{
+  "@type": "dcat:Catalog",
+  "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+  "@id": "http://www.agency.gov/data.json",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "dataset": [{
+    "title": "U.S. Widget Manufacturing Statistics",
+    "description": "This dataset provides national statistics on the production of widgets",
+    "contactPoint": {
+      "@type": "vcard:Contact",
+      "fn": "Jane Doe",
+      "hasEmail": "mailto:jane.doe@agency.gov"
+    },
+    "keyword": [
+      "widget",
+      "manufacturing",
+      "factory"
+    ],
+    "modified": "2011-11-19",
+    "publisher": {
+      "@type": "org:Organization",
+      "name": "Widget Services",
+      "subOrganizationOf": {
+        "@type": "org:Organization",
+        "name": "Office of Citizen Services and Innovative Technologies",
+        "subOrganizationOf": {
+          "@type": "org:Organization",
+          "name": "General Services Administration",
+          "subOrganizationOf": {
+            "@type": "org:Organization",
+            "name": "U.S. Government"
+          }
+        }
+      }
+    },
+    "accessLevel": "public",
+    "identifier": "http://dx.doi.org/10.7927/H4PZ56R2",
+    "bureauCode": ["018:10"],
+    "programCode": ["018:001"],
+    "accrualPeriodicty": "R/P1Y",
+    "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+    "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "dataQuality": true,
+    "distribution": [
+      {
+        "description": "Widgets data as a CSV file",
+        "downloadURL": "https://data.agency.gov/datasets/widgets-statistics/widgets.csv",
+        "format": "CSV",
+        "mediaType": "text/csv",
+        "title": "widgets.csv",
+        "@type": "dcat:Distribution"
+      },
+      {
+        "description": "Widgets data as a zipped CSV file with attached data dictionary",
+        "downloadURL": "https://data.agency.gov/datasets/widgets-statistics/widgets-all.zip",
+        "format": "Zipped CSV",
+        "mediaType": "application/zip",
+        "title": "widgets-all.zip",
+        "@type": "dcat:Distribution"
+      },
+      {
+        "conformsTo": "http://www.agency.gov/widget-data-standard/",
+        "describedBy": "http://www.agency.gov/widgets/schema.json",
+        "describedByType": "application/schema+json",
+        "description": "Widget data as a JSON feed",
+        "downloadURL": "http://www.agency.gov/feeds/widgets-all.json",
+        "format": "JSON",
+        "mediaType": "application/json",
+        "title": "widgets-all.json",
+        "@type": "dcat:Distribution"
+      },
+      {
+        "accessURL": "https://data.agency.gov/api/widgets-statistics/",
+        "description": "A fully queryable REST API with JSON and XML output",
+        "format": "API",
+        "title": "Widgets REST API",
+        "@type": "dcat:Distribution"
+      }
+    ],
+    "issued": "2011-11-22",
+    "landingPage": "http://agency.gov/widgets/data",
+    "language": ["en-US"],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "primaryITInvestmentUII": "021-006227212",
+    "references": [
+      "http://agency.gov/docs/widgets-1.html",
+      "http://agency.gov/docs/widgets-2.html"
+    ],
+    "rights": "This dataset has been given an international public domain dedication for worldwide reuse",
+    "spatial": "United States",
+    "systemOfRecords": "http://www.agency.gov/widgets/sorn/",
+    "temporal": "2009-09-01T12:00:00Z/2010-05-31T12:00:00Z",
+    "theme": ["manufacturing"],
+    "@type": "dcat:Dataset"
+  }]
+}

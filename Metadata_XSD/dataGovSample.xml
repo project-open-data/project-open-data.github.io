@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="POD_v1_1.xsd">
+	<type>dcat:Catalog</type>
+	<context>https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld</context>
+	<id>http://www.agency.gov/data.json</id>
+	<conformsTo>https://project-open-data.cio.gov/v1.1/schema</conformsTo>
+	<describedBy>https://project-open-data.cio.gov/v1.1/schema/catalog.json</describedBy>
+	<dataset>
+		<title>U.S. Widget Manufacturing Statistics</title>
+		<description>This dataset provides national statistics on the production of widgets</description>
+		<contactPoint>
+			<type>vcard:Contact</type>
+			<fn>Jane Doe</fn>
+			<hasEmail>jane.doe@agency.gov</hasEmail>
+			<!-- note, add mailto: in transformation to json -->
+		</contactPoint>
+		<keyword>
+			<item>widget</item>
+			<item>manufacturing</item>
+			<item>factory</item>
+		</keyword>
+		<modified>2011-11-19</modified>
+		<!-- our regEx dosen't allow time to be included -->
+		<publisher>
+			<type>org:Organization</type>
+			<name>Widget Services</name>
+			<subOrganizationOf>
+				<type>org:Organization</type>
+				<name>Office of Citizen Services and Innovative Technologies</name>
+				<subOrganizationOf>
+					<type>org:Organization</type>
+					<name>General Services Administration</name>
+					<subOrganizationOf>
+						<type>org:Organization</type>
+						<name>U.S. Government</name>
+					</subOrganizationOf>
+				</subOrganizationOf>
+			</subOrganizationOf>
+		</publisher>
+		<accessLevel>public</accessLevel>
+		<identifier>http://dx.doi.org/10.7927/H4PZ56R2</identifier>
+		<bureauCode>018:10</bureauCode>
+		<programCode>018:001</programCode>
+		<accrualPeriodicty>R/P1Y</accrualPeriodicty>
+		<conformsTo>https://project-open-data.cio.gov/v1.1/schema</conformsTo>
+		<describedBy>https://project-open-data.cio.gov/v1.1/schema/catalog.json</describedBy>
+		<dataQuality>true</dataQuality>
+		<distribution>
+			<description>Widgets data as a CSV file</description>
+			<downloadURL>https://data.agency.gov/datasets/widgets-statistics/widgets.csv</downloadURL>
+			<format>CSV</format>
+			<mediaType>text/csv</mediaType>
+			<title>widgets.csv</title>
+			<type>dcat:Distribution</type>
+		</distribution>
+		<distribution>
+			<description>Widgets data as a zipped CSV file with attached data dictionary</description>
+			<downloadURL>https://data.agency.gov/datasets/widgets-statistics/widgets-all.zip</downloadURL>
+			<format>Zipped CSV</format>
+			<mediaType>application/zip</mediaType>
+			<title>widgets-all.zip</title>
+			<type>dcat:Distribution</type>
+		</distribution>
+		<distribution>
+			<conformsTo>http://www.agency.gov/widget-data-standard/</conformsTo>
+			<describedBy>http://www.agency.gov/widgets/schema.json</describedBy>
+			<describedByType>application/schema+json</describedByType>
+			<description>Widget data as a JSON feed</description>
+			<downloadURL>http://www.agency.gov/feeds/widgets-all.json</downloadURL>
+			<format>JSON</format>
+			<mediaType>application/json</mediaType>
+			<title>widgets-all.json</title>
+			<type>dcat:Distribution</type>
+		</distribution>
+		<distribution>
+			<accessURL>https://data.agency.gov/api/widgets-statistics/</accessURL>
+			<description>A fully queryable REST API with JSON and XML output</description>
+			<format>API</format>
+			<title>Widgets REST API</title>
+			<type>dcat:Distribution</type>
+		</distribution>
+		<issued>2011-11-22</issued>
+		<landingPage>http://agency.gov/widgets/data</landingPage>
+		<language>
+			<item>en-US</item>
+		</language>
+		<license>http://creativecommons.org/publicdomain/zero/1.0/</license>
+		<primaryITInvestmentUII>021-006227212</primaryITInvestmentUII>
+		<references>
+			<url>http://agency.gov/docs/widgets-1.html</url>
+			<url>http://agency.gov/docs/widgets-2.html</url>
+		</references>
+		<rights>This dataset has been given an international public domain dedication for worldwide reuse</rights>
+		<spatial>United States</spatial>
+		<systemOfRecords>http://www.agency.gov/widgets/sorn/</systemOfRecords>
+		<temporal>2009-09-01T12:00:00Z/2010-05-31T12:00:00Z</temporal>
+		<theme>
+			<item>manufacturing</item>
+		</theme>
+		<type>dcat:Dataset</type>
+	</dataset>
+</catalog>

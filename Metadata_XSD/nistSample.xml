@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="POD_v1_1.xsd">
+	<type>dcat:Catalog</type>
+	<context>https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld</context>
+	<id>http://www.agency.gov/data.json</id>
+	<conformsTo>https://project-open-data.cio.gov/v1.1/schema</conformsTo>
+	<describedBy>https://project-open-data.cio.gov/v1.1/schema/catalog.json</describedBy>
+	<dataset>
+		<title>NIST Chem-BLAST Gateway for PDB - SRD 155</title>
+		<description>Chemical Block Layered Alignment of Substructure or Chem-BLAST uses a method for finding chemical compounds within a large collection. In this method, all chemical compounds are annotated in terms of standard chemical structural fragments. These fragments are then organized into a data tree based on their chemical substructures. Search engines have been developed to use this data tree. These search engines use the Chem-BLAST technique to search on the fragments and look for their chemical structural neighbors. The technique was originally developed in the context of the HIV Structural database to enable a query on inhibitors of HIV protease. (See http://xpdb.nist.gov/hivsdb/hivsdb.html.) Recently the method has been significantly improved to extend to the ligands found in the Protein Data Bank (PDB). (See http://xpdb.nist.gov/chemblast/pdb.html.)  The method establishes a tree-like relationship between the rings found in three-letter codes that denote ligands of the structures found in the PDB. Semantic Web relations are established between the structural scaffolds of the ligands and organizes them in an XML database utilizing the Webâ??s Resource Description Framework (RDF). An Adobe Flex-based interface is used to present this information on the Web. Plans are under way to extend this work to non-ring type scaffolds as well. Chem-BLAST has also been extended to structures in PubChem. http://xpdb.nist.gov/chemblast/pdb.pl which includes several non-ring standard reused groups such as sulfates. Efforts are under way to use the underlying principles of Chem-BLAST to enable query on non-structural data, such as cell image data http://xpdb.nist.gov/cell/image.pl.</description>
+		<contactPoint>
+			<type>vcard:Contact</type>
+			<fn>NIST Standard Reference Data</fn>
+			<hasEmail>data@nist.gov</hasEmail>
+		</contactPoint>
+		<keyword>
+			<item>Cell-image-data</item>
+			<item>Chem-BLAST</item>
+			<item>Enabling-scientific-linked-data-by-automation</item>
+			<item>Federated-terms-building</item>
+			<item>Global-data-integration-challenge-solutions</item>
+			<item>Infrastructure-for-semantic-terminology</item>
+			<item>Latin-like-root-terminology-for-science</item>
+			<item>Machine-friendly-vocabulary</item>
+			<item>On-demand-ontology-nuggets</item>
+			<item>PDB-ligands</item>
+			<item>PubChem-structures</item>
+			<item>Re-used-nuggets-of-ontology</item>
+			<item>Re-used-scalable-terminology</item>
+			<item>Re-used-use-case-friendly-terminology</item>
+			<item>Rule-based-linking-of-data</item>
+			<item>Rule-based-structural-data-graphs</item>
+			<item>Rule-based-vocabulary-building</item>
+			<item>Sanskrit-like-root-terminology-for-science</item>
+			<item>Structural-resource-for-drug-design</item>
+			<item>Thermodynamic-data</item>
+		</keyword>
+		<modified>2003</modified>
+		<publisher>
+			<type>org:Organization</type>
+			<name>National Institute of Standards and Technology</name>
+		</publisher>
+		<accessLevel>public</accessLevel>
+
+		<identifier>EBC9DB05EDEF5B0EE043065706812DF86</identifier>
+		<bureauCode>006:55</bureauCode>
+		<programCode>006:045</programCode>
+		<describedBy>http://xpdb.nist.gov/pdb_chem_blast/help.html</describedBy>
+		<landingPage>http://www.ceramics.nist.gov/srd/scd/scdquery.htm</landingPage>
+		<language>
+			<item>en-US</item>
+		</language>
+		<license>http://www.nist.gov/data/license.cf</license>
+		<theme>
+			<item>materials science</item>
+		</theme>
+		<type>dcat:Dataset</type>
+	</dataset>
+	<dataset>
+		<title>NIST Atlas of the Spectrum of a Platinum/Neon Hollow-Cathode Lamp in the Region 1130-4330 Å - SRD 112</title>
+		<description>The Atlas provides lists of spectral lines with wavelengths, intensities, and energy level classifications, as well as graphical tracings of the observed spectrum of a platinum hollow-cathode lamp containing neon carrier gas. The spectrum was recorded photographically and photoelectrically with a 10.7 m normal-incidence vacuum spectrograph. Wavelengths and intensities were determined for about 5600 lines in the region 1130 Å to 4330 Å.</description>
+		<contactPoint>
+			<type>vcard:Contact</type>
+			<fn>NIST Standard Reference Data</fn>
+			<hasEmail>data@nist.gov</hasEmail>
+		</contactPoint>
+		<keyword>
+			<item>Atomic</item>
+			<item>Pt</item>
+			<item>UV</item>
+			<item>atlas</item>
+			<item>calibration</item>
+			<item>hollow cathode lamp</item>
+			<item>intensities</item>
+			<item>platinum</item>
+			<item>spectrograph</item>
+			<item>spectroscopy</item>
+			<item>spectrum</item>
+			<item>ultraviolet</item>
+			<item>wavelength</item>
+		</keyword>
+		<modified>2003-07</modified>
+		<publisher>
+			<type>org:Organization</type>
+			<name>National Institute of Standards and Technology</name>
+		</publisher>
+		<accessLevel>public</accessLevel>
+		
+		
+		<identifier>FDB5909746675200E043065706813E54111</identifier>
+		<bureauCode>006:55</bureauCode>
+		<programCode>006:045</programCode>
+		<landingPage>http://www.nist.gov/pml/data/platinum/index.cfm</landingPage>
+		<language><item>en-US</item></language>
+		<license>http://www.nist.gov/data/license.cfm</license>
+		<references>
+			<url>http://nvlpubs.nist.gov/nistpubs/jres/097/1/V97-1.pdf</url>
+			<url>http://dx.doi.org/10.6028/jres.097.002</url>
+		</references>
+		<type>dcat:Dataset</type>
+		
+	</dataset>
+</catalog>
