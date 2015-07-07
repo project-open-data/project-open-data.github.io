@@ -31,11 +31,11 @@
         "accessLevelComment": null,
         "distribution": [
             {
-                "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
+                "accessURL": "https://data.example_agency.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
                 "format": "text/csv"
             }
         ],
-        "webService": "http://explore.data.gov/api/views/ykv5-fn9t/rows.json", 
+        "webService": "http://data.example_agency.gov/api/views/ykv5-fn9t/rows.json", 
         "license": "Public Domain", 
         "spatial": "United States", 
         "temporal": "2009-09-01T12:00:00Z/2010-05-31T12:00:00Z", 
@@ -65,19 +65,19 @@
         "accessLevelComment": null,
         "distribution": [
             {
-                "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.csv?accessType=DOWNLOAD", 
+                "accessURL": "https://data.example_agency.gov/views/ykv5-fn9s/rows.csv?accessType=DOWNLOAD", 
                 "format": "text/csv"
             }, 
             {
-                "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.json?accessType=DOWNLOAD", 
+                "accessURL": "https://data.example_agency.gov/views/ykv5-fn9s/rows.json?accessType=DOWNLOAD", 
                 "format": "application/json"
             }, 
             {
-                "accessURL": "https://explore.data.gov/views/ykv5-fn9s/rows.xml?accessType=DOWNLOAD", 
+                "accessURL": "https://data.example_agency.gov/views/ykv5-fn9s/rows.xml?accessType=DOWNLOAD", 
                 "format": "application/xml"
             }
         ],
-        "webService": "http://explore.data.gov/api/views/ykv5-fn9s/rows.json", 
+        "webService": "http://data.example_agency.gov/api/views/ykv5-fn9s/rows.json", 
         "license": "Public Domain", 
         "spatial": "United States", 
         "temporal": "2008-09-01T12:00:00Z/2009-05-31T12:00:00Z", 
