@@ -193,16 +193,19 @@ An event where developers, designers, and strategists work in teams to solve pro
 
 ## Open Data Stakeholder Contacts
 
+#### Agency Open Data Policy Points of Contact
+Federal agency staff dedicated to implementing the Open Data Policy requirements as reported to the Office of Management and Budget. *See this [list of Agency Points of Contact](points-of-contact/).*
+
+#### Chief Data Officers  
+Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. *See this [growing list of federal Chief Data Officers](chief-data-officers/).*
+
+**Goal:** To engage sister agencies in open data community events. 
+
 #### FOIA Officers and Ombudsman
 Federal agency staff dedicated to handling Freedom of Information Act (FOIA) requests from industry and media. 
 *[The Office of Government Information Services (OGIS)](https://ogis.archives.gov/) at the National Archives and FOIA staff at agencies.*
 
 **Goal:** To monitor and measure the incoming demand for data and proactively release data in response to that signal.
-
-#### Chief Data Officers  
-Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. *See this [growing list of federal Chief Data Officers](chiefdataofficers/).*
-
-**Goal:** To engage sister agencies in open data community events. 
 
 #### Online Community
 A website, social networking group and/or listserv where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
