@@ -12,8 +12,7 @@
   <title>{{ page.title }} - {{ site.title }}</title>
 
   <link rel="shortcut icon" href="/favicon.ico"/>
-  <link rel="stylesheet" href="/assets/css/bootstrap.css">
-  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 

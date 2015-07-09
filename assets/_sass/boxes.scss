@@ -1,0 +1,10 @@
+.bgbox{
+  padding: 19px; /* same as bootstrap's .well */
+  &.success{
+    @extend .bg-success;
+  }
+  &.warning{
+    @extend .bg-warning;
+    @extend .text-danger;
+  }
+}
