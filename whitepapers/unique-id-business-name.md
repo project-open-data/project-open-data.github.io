@@ -9,9 +9,9 @@ title: Unique Identifier and Legal Business Name
 # Elements: Awardee/Recipient Unique Identifier, Awardee/Recipient Legal Entity Name, Ultimate Parent Unique Identifier Number, and Ultimate Parent Legal Entity Name
 
 
-This page contains information about the following federal spending data elements, with the goal of soliciting public input.
+Updated 7/13/2015: 
 
-For an in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](/feedback/) page.
+Thank you for contributing your feedback on this data element—-your input and insight was helpful as we worked to finalize the standards. Please go here[https://max.omb.gov/datastandards](https://max.omb.gov/datastandards) to see the data definitions for these elements in their final form.
 
 <table>
   <thead>
@@ -56,7 +56,7 @@ FFATA defines “entity” as any legal business organization, such as a profit 
 
 ## Context
 
-Accurate and timely identification of responsible Federal award partners is essential to ensuring the integrity of the Federal awarding processes and the best use of taxpayer dollars.  A unique entity identifier is required to, among other things, verify entity information, location, past performance, integrity data, incorporation information, provide payment, and create transparency.   Since 1995<sup>1</sup>, the Federal government has identified the Dun and Bradstreet (D&B) Data Universal Numbering System (DUNS®) as the unique identifier used to standardize identification of Federal contractors.  This decision was the result of task force recommendations developed in support of the requirements of President Clinton’s October 1993 memo on Streamlining Procurement through Electronic Commerce.  The task force recommended the use of the DUNS® as it was recognized domestically and internationally for identifying businesses conducting electronic commerce.  The task force recommendations did not preclude use of different identifiers as circumstances changed.
+Accurate and timely identification of responsible Federal award partners is essential to ensuring the integrity of the Federal awarding processes and the best use of taxpayer dollars.  A unique entity identifier is required to, among other things, verify entity information, location, past performance, integrity data, incorporation information, provide payment, and create transparency.   Since 1995<sup>1</sup>, the Federal government has identified the Dun and Bradstreet (D&B) Data Universal Numbering System (DUNS®) as the unique identifier used to standardize identification of Federal contractors.  This decision was the result of task force recommendations developed in support of the requirements of President Clinton’s October 1993 memo on _Streamlining Procurement through Electronic Commerce_.  The task force recommended the use of the DUNS® as it was recognized domestically and internationally for identifying businesses conducting electronic commerce.  The task force recommendations did not preclude use of different identifiers as circumstances changed.
 
 To standardize implementation of FFATA, the Office of Management and Budget (OMB) issued memorandum M-08-04, dated November 9, 2007, which established the use of the DUNS® number as the unique identifier for transparency reporting.  The Federal Acquisition Regulation (FAR) and Code of Federal Regulations (2 CFR) include requirements for a unique identifier for Federal prime and subawardees.  
 
