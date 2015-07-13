@@ -34,7 +34,7 @@ Environmental Protection Agency                 |                               
 General Services Administration                 |                                             | Kris Rowley
 National Aeronautics and Space Administration   |                                             |               
 National Science Foundation                     |                                             |
-Nuclear Regulatory Commission                   |                                             |
+Nuclear Regulatory Commission                   |                                             | Arthur Smith
 Office of Personnel Management                  |                                             |
 Small Business Administration                   |                                             |
 Social Security Administration                  |                                             |
