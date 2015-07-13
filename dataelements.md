@@ -19,7 +19,7 @@ At the current time, these lists are exhaustive. That said, the federal communit
 
 The data elements are grouped by category; each short list represents a different category. In addition, each element will have own GitHub issue, which is where you can add to the discussion on that element. To share your thoughts, simply click on the link in an element's feedback column to be rerouted to its GitHub issue page, where you can leave your feedback in the blank comment box.
 
-If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines](/feedback). As of May 8, 2015, 15 of the data elements below have been finalized, and those can be found [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm). 12 of the below elements have proposed standard definitions that are now open for public feedback, and will be finalized after feedback is analyzed. For the remaining 30 elements, we have posted their current, longstanding definitions. These are open for feedback as we continue the standardization process so that this feedback can be incorporated into discussions in real time. We will update these pages throughout the summer with more information and the proposed definitions as they are developed. Please click Get Updates above to receive emails as we update these pages.
+If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines](/feedback). Please click Get Updates above to receive emails as we update these pages.
 
 
 ## Awardee and Recipient Entity Information
