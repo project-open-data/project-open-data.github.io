@@ -17,7 +17,7 @@ Department of Agriculture                       |                               
 Department of Commerce                          |                                             | Ian Kalin
 Department of Defense                           |                                             |
 Department of Education                         |                                             |
-Department of Energy                            |                                             | Dave Dutton
+Department of Energy                            |                                             | 
 Department of Health and Human Services         |                                             |
 Department of Health and Human Services         | Centers for Medicare and Medicaid Services  | Niall Brennan
 Department of Homeland Security                 |                                             |
