@@ -21,3 +21,6 @@ relative_permalinks: false
 
 gems:
   - jekyll-redirect-from
+
+sass:
+    sass_dir: assets/_sass
