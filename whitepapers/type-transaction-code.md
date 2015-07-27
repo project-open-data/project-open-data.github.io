@@ -49,7 +49,7 @@ This is the method chosen by the Federal government to provide funding in suppor
 * Other form of financial assistance
 * Contract
 
-Some data users are only interested in these general types.  Currently there is no single element that corresponds to these general types.  This categorization is determined to be procurement if the award is reported through Federal Procurement Data System-Next Generation (FPDS-NG). If the award is reported through the Award Submission Portal (ASP) using the FAADS+ format, the Type of Assistance field below is used.  This paper does not propose a new data element required to identify a Federal contract, loan, grant, or other award type, but rather recommends a stratification for display purposes.   
+Some data users are only interested in these general types.  Currently there is no single element that corresponds to these general types.  This categorization is determined to be procurement if the award is reported through Federal Procurement Data System-Next Generation (FPDS-NG). If the award is reported through the Award Submission Portal (ASP) using the FAADS+ format, the Type of Assistance field below is used.  This paper does not propose a new data element required to identify a Federal contract, loan, grant, or other award type, but rather recommends a stratification for display purposes. OMB and Treasury are currently working with agencies to design the future reporting architecture which will adhere to this practice and not require a new data element.    
 
 ###Award Type – 
 this level provides more information about the specific type of award used (for financial assistance: “Type of Assistance”; for procurement: “Transaction Information” and “Type of Procurement Instrument”) 
@@ -422,7 +422,8 @@ The FAADS field where a user can designate aggregate reporting is Record Type.  
   </tr>
 </table>
 
-## References
+##References
+
 Federal Acquisition Regulation 4.606, Reporting Data, section (a) (3).
 
 [https://www.acquisition.gov/?q=/browse/far/4](https://www.acquisition.gov/?q=/browse/far/4)
@@ -432,4 +433,19 @@ Procedures, Guidance, and Information (PGI) 204.606, Reporting Data, section (1)
 [http://www.acq.osd.mil/dpap/dars/pgi/pgi_htm/PGI204_6.htm](http://www.acq.osd.mil/dpap/dars/pgi/pgi_htm/PGI204_6.htm)
 
 GSA Federal Procurement Data System-Next Generation (FPDS-NG) Data Element Dictionary, Version 1.4.3, May 1, 2015.  Elements 6Q Number of Actions, page 76 and 12C Reason for Modification, page 138.
+
+[https://www.fpds.gov/downloads/Version_1.4.3_specs/FPDSNG_DataDictionary_V1.4.3.pdf](https://www.fpds.gov/downloads/Version_1.4.3_specs/FPDSNG_DataDictionary_V1.4.3.pdf)
+
+U.S. Department of the Treasury, Award Submission Portal User Guide (July 2015).  
+
+[https://submissions.usaspending.gov/content/documents/UserGuide.pdf](https://submissions.usaspending.gov/content/documents/UserGuide.pdf)
+
+Federal Procurement Data System – Next Generation Grants Data Dictionary, Version 1.0, January 10, 2013. Elements 2A Type of Action on page 6, and 2F Record Type on page 8.
+
+[https://www.fpds.gov/downloads/FAADS/Grants_Data_Dictionary_(Draft).pdf](<https://www.fpds.gov/downloads/FAADS/Grants_Data_Dictionary_(Draft).pdf>)
+
+Federal Acquisition Regulation Part 16 identifies contract types.
+
+[https://www.acquisition.gov/?q=/browse/far/16](https://www.acquisition.gov/?q=/browse/far/16)
+
 
