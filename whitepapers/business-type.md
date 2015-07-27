@@ -8,73 +8,74 @@ title: Business Type
 
 # Element: Business Type
 
-This page contains information about the following federal spending data element, with the goal of soliciting public input.
-
-For an in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](/feedback/) page.
-
 <table>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
-      <th scope="col">Category</th>
       <th scope="col">Legislation</th>
     </tr>
   </thead>
   <tr>
     <td>Business Type</td>
-    <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
   </table>
 
 
-## Current Sources and Definitions
+##Background
 
-Listed below are the current definitions for this data element that exist across the federal government. These definitions have been formed over years of practice within communities, sometimes involving rulemaking procedures and official public comment. In these cases, there are legitimate and sometime statutory reasons for maintaining variations across communities. For some elements, transparency will be enhanced by adjusting how data are displayed rather than defined. During the next few months, the federal community will continue to explore opportunities to refine and improve the consistent government-wide use of these data definitions, and we will update this page.  
+There is no specific requirement in either the Federal Funding Accountability and Transparency Act of 2006 (FFATA) or the Digital Accountability and Transparency Act of 2014 (DATA Act) that requires reporting of Business Type.  However, the reporting of socio-economic and other organizational / business indicators relating to federal contractors and financial assistance recipients is a requirement of other statutes and has been a long-standing Federal transparency practice, so this paper provides the definition.
 
+##Context
+
+Agencies used two established data sources (further described below) to report awards to USAspending.gov.  There were two concepts in the established data sources related to reporting business type.  
+
+##Analysis of Current Definitions
+
+There are currently 89 different “business types” that may be included when reporting a federal award to USAspending (87 are used in procurement reporting; 14 of the 87 are also used in financial assistance reporting; remaining 2 are only used in financial assistance reporting). The “business types” used for financial assistance reporting are a subset of those used for procurement reporting. Twenty (20) of the currently used business types have explicit definitions in the Federal Acquisition Regulations (FAR) and / or Title 2 Code of Federal Regulations (CFR).  Several more are used elsewhere in the FAR, but are not specifically defined. Examples include:
+
+* Corporate Entity, Not Tax Exempt
+* Sole Proprietorship
+* 8(a) Program Participant
+* Historically Underutilized Business Zone (HUBZone) Firm
+* Small Disadvantaged Business
+* Historically Black College or University
+* Tribal College
+* Educational Institution
+
+
+An organization could have multiple business types.  For example, a company could be both a HUBZone Firm and a Small Disadvantaged Business.  To accommodate this, in FPDS-NG each of the business types is a separate field, and it includes “yes” or “no” to indicate whether the organization is this business type.
+
+While some of the business types have specific definitions, the overall concept Business Type is not defined.  The proposed definition is:
+
+* Business Type – an indicator of different types of recipients based on socio-economic status and organization / business areas.
+
+The original source for financial assistance awards was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce.  FAADS includes the following data element:  
+
+* Type of Recipient – two-position numeric code which depicts the type of recipient or borrower.
+
+There are 13 types listed.  Only one value is reported, the type that best represents the entity.  Going forward, an option would be to have financial assistance awards use separate fields for each type with a “yes” or “no” indicator as is done in FPDS-NG.
+
+##Recommended Definitions for Transparency Reporting
 <table>
   <thead>
     <tr>
       <th scope="col">Element</th>
-      <th scope="col">Source</th>
-      <th scope="col">Definition</th>
+      <th scope="col">Recommended Definition</th>
     </tr>
   </thead>
   <tr>
     <td>Business Type</td>
-    <td>FPDS</td>
-    <td>Organization Type / Business Type<br/>
-    (Entity information 3.3.1): Business types selected by an entity as applicable for Federal awards.</td>
-  </tr>
-  <tr>
-    <td>Business Type</td>
-    <td>FAADS+</td>
-    <td>Two-position numeric code which depicts the type of recipient or borrower.<br/>
-    Government codes:<br/>
-    00 = State government<br/>
-    01 = county government<br/>
-    02 = city or township government<br/>
-    04 = special district government<br/>
-    05 = independent school district<br/>
-    06 = State controlled institution of higher education
-    Nonprofit agencies:<br/>
-    11 = Indian tribe<br/>
-    12 = other nonprofit<br/>
-    Private:<br/>
-    20 = private higher education<br/>
-    21 = individual<br/>
-    22 = profit organization<br/>
-    23 = small business<br/>
-    25 = all other
-    </td>
+    <td>An indicator of different types of recipients based on socio-economic status and organization / business areas.</td>
   </tr>
 </table>
 
-## Key Considerations in Providing Feedback
+##References
+GSA Federal Procurement Data System-Next Generation (FPDS-NG) Data Element Dictionary, Version 1.4.3, May 1, 2015.  Elements listed under 13 Contractor Data, pages 139-217.
 
-As we continue the process of finalizing these data elements, we want to incorporate public feedback at all points of the process. To facilitate that, the above definitions represent those currently found in federal communities and systems. We encourage you to share your feedback on these existing definitions so that we may fold your insight into our work as we draft proposed definitions – this is an opportunity for you to get involved in the standardization process at an early stage.
+[https://www.fpds.gov/downloads/Version_1.4.3_specs/FPDSNG_DataDictionary_V1.4.3.pdf](https://www.fpds.gov/downloads/Version_1.4.3_specs/FPDSNG_DataDictionary_V1.4.3.pdf)
 
-Some areas where your input would be especially helpful:
+Federal Assistance Award Data System (FAADS) Users’ Guide for Federal Fiscal Year 2010, revised August 2011.Type of Recipient field #10 on page 9.
 
-1.  Reconciling FPDS and FAADS+ definitions
-2.  Other considerations
+[http://media.nara.gov/electronic-records/rg-029/faads/guide2010.pdf](http://media.nara.gov/electronic-records/rg-029/faads/guide2010.pdf)
+
