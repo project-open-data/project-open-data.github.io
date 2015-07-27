@@ -6,100 +6,430 @@ filename: type-transaction-code.md
 title: Type of Transaction Code
 ---
 
-# Element: Type of Transaction Code
-
-This page contains information about the following federal spending data element, with the goal of soliciting public input.
-
-For an in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](/feedback/) page.
+# Element: Award Type, Action Type, Record Type
 
 <table>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
-      <th scope="col">Category</th>
       <th scope="col">Legislation</th>
     </tr>
   </thead>
   <tr>
-    <td>Type of Transaction Code</td>
-    <td>Award Characteristic Information</td>
+    <td>Award Type</td>
+    <td>FFATA</td>
+  </tr>
+  <tr>
+    <td>Action Type</td>
     <td>FFATA</td>
   </tr>
   <tr>
     <td>Record Type</td>
-    <td>Award Characteristic Information</td>
-    <td>FFATA</td>
-  </tr>
-  <tr>
-    <td>Type of Action</td>
-    <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
 </table>
 
-## Current Sources and Definitions
+##Background
+The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that the transaction type be reported for each Federal award.  There is no specific requirement in either FFATA or the Digital Accountability and Transparency Act of 2014 (DATA Act) that requires reporting of Record Type or Type of Action.  However, these additional elements are important to understanding the data that is required to be reported, and so this paper provides the definitions.
 
-Listed below are the current definitions for this data element that exist across the federal government. These definitions have been formed over years of practice within communities, sometimes involving rulemaking procedures and official public comment. In these cases, there are legitimate and sometime statutory reasons for maintaining variations across communities. For some elements, transparency will be enhanced by adjusting how data are displayed rather than defined. During the next few months, the federal community will continue to explore opportunities to refine and improve the consistent government-wide use of these data definitions, and we will update this page.
+##Context
+Agencies used two established data sources (further described below) to report awards to USAspending.gov.  There were several fields in the established data sources that characterize the award information reported.  
 
+##Analysis of Current Definitions and Considerations
+The original source for *financial assistance awards* was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce.  Currently, agencies submit their financial assistance awards data to USAspending.gov using the Award Submission Portal (ASP). The ASP adopted the Aggregate Reporting and Type of Action definitions of the FAADS.
+
+The original source for contract awards was the Federal Procurement Data System – Next Generation (FPDS-NG).  
+
+<b>Federal prime award</b> – award being reported 
+This is the method chosen by the Federal government to provide funding in support of programmatic outcomes. This is the highest level of award for which funding will be summarized and for which more detailed information will be made available.   The required FFATA award types related to financial assistance and contracts and are defined as follows:  
+
+* Grant
+* Loan
+* Cooperative agreement
+* Other form of financial assistance
+* Contract
+
+Some data users are only interested in these general types.  Currently there is no single element that corresponds to these general types.  This categorization is determined to be procurement if the award is reported through Federal Procurement Data System-Next Generation (FPDS-NG). If the award is reported through the Award Submission Portal (ASP) using the FAADS+ format, the Type of Assistance field below is used.  This paper does not propose a new data element required to identify a Federal contract, loan, grant, or other award type, but rather recommends a stratification for display purposes.   
+
+###Award Type – 
+this level provides more information about the specific type of award used (for financial assistance: “Type of Assistance”; for procurement: “Transaction Information” and “Type of Procurement Instrument”) 
+Federal awards are categorized in accordance with the objectives of the program, and the structure of the award.  The required FFATA award types are related to financial assistance and contracts and are defined as:  
+
+<b>(1) Contract –  transaction information</b>
+
+Each procurement action is identified with an Indefinite Delivery Vehicle (IDV) Type value or an Award Type value; they are mutually exclusive.  They are collected as separate data elements in FPDS using the codes and descriptions shown below:
+
+Indefinite Delivery Vehicle (IDV) Type – IDVs represent different types of ordering instruments under which federal agencies may place delivery/task orders or BPA call orders.
+
+<table>
+  <thead>
+      <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Description</th>
+      </tr>
+  </thead>
+  <tr>
+    <td>A</td>
+    <td>GWAC – Government-Wide Agency Contract approved by OMB</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>IDC – Indefinite delivery contract</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>FSS – GSA or VA Federal Supply Schedule</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>BOA – Basic Ordering Agreement</td>
+  </tr>
+  <tr>
+    <td>E</td>
+    <td>BPA – Blanket Purchase Agreement</td>
+  </tr>
+</table>
+
+Award Type – Awards represent different types of definitive delivery procurement instruments (i.e., the immediate requirement is known and awarded with all the attentive terms and conditions).  
+
+<table>
+  <thead>
+      <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Description</th>
+      </tr>
+  </thead>
+  <tr>
+    <td>A</td>
+    <td>BPA Call – call against a blanket purchase agreement</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>Purchase order</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>Delivery Order – delivery order or task order under an Indefinite Delivery Vehicle</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>Definitive contract</td>
+  </tr>
+</table>
+
+Additionally, each procurement transaction identifies the predominant Type of Contract (Pricing).  The value identified in the Type of Contract data element is based on the predominant type used on the procurement award (determined by the amount of funding).  Each of the values shown below relate to contract types identified in the Federal Acquisition Regulation Part 16.
+
+Type of Contract (Pricing)
+
+<table>
+  <thead>
+      <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Description</th>
+      </tr>
+  </thead>
+  <tr>
+    <td>A</td>
+    <td>Fixed Price Redetermination</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>Fixed Price Level of Effort</td>
+  </tr>
+  <tr>
+    <td>J</td>
+    <td>Firm Fixed Price</td>
+  </tr>
+  <tr>
+    <td>K</td>
+    <td>Fixed Price with Economic Price Adjustment</td>
+  </tr>
+  <tr>
+    <td>L</td>
+    <td>Fixed Price Incentive</td>
+  </tr>
+  <tr>
+    <td>M</td>
+    <td>Fixed Price Award Fee</td>
+  </tr>
+  <tr>
+    <td>R</td>
+    <td>Cost Plus Award Fee</td>
+  </tr>
+  <tr>
+    <td>S</td>
+    <td>Cost No Fee</td>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>Cost Sharing</td>
+  </tr>
+  <tr>
+    <td>U</td>
+    <td>Cost Plus Fixed Fee</td>
+  </tr>
+  <tr>
+    <td>V</td>
+    <td>Cost Plus Incentive Fee</td>
+  </tr>
+  <tr>
+    <td>Y</td>
+    <td>Time and Materials</td>
+  </tr>
+  <tr>
+    <td>Z</td>
+    <td>Labor Hours</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Order Dependent (this applies to IDVs only.  IDV allows pricing arrangements to be determined separately for each order)</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Combination – (this applies to awards only.  Applies to awards where two or more of the above apply.)  Note:  this value is not valid for awards after September 30, 2009.</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Other (This applies to Awards only.  Applies to Awards where none of the above apply).  Note:  this value is not valid for awards after Sept 30, 2009.</td>
+  </tr>
+</table>
+
+<b>(2) Financial Assistance  - transaction information</b>
+
+Each financial assistance action is identified with a Type of Assistance value in the FAADS+ data format as shown below.
+
+Type of Assistance
+<table>
+  <thead>
+      <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Description</th>
+      </tr>
+  </thead>
+  <tr>
+    <td>02</td>
+    <td>Block Grant</td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Formula Grant</td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Project Grant</td>
+  </tr>
+  <tr>
+    <td>05</td>
+    <td>Cooperative Agreement</td>
+  </tr>
+  <tr>
+    <td>06</td>
+    <td>Direct payment for specified use, such as a subsidy or other non-reimbursable direct financial assistance</td>
+  </tr>
+  <tr>
+    <td>07</td>
+    <td>Direct loan</td>
+  </tr>
+  <tr>
+    <td>08</td>
+    <td>Guaranteed/insured loan</td>
+  </tr>
+  <tr>
+    <td>09</td>
+    <td>Insurance</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Direct payment with unrestricted use (retirement pension, veterans’ benefits, etc.)</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Other reimbursable, contingent, intangible, or indirect financial assistance</td>
+  </tr>
+</table>
+
+###Action Type 
+(“Type of Action” for financial assistance and “Reason for Modification” for procurement) 
+
+Associated with each award type are action types that that result in changes to funding, reflect changes in administrative information (for the Federal government or the awardee), or in some other way reflect changes to the agreement.  Action types differ across Federal awarding communities and are called “type of action” for financial assistance and “reason for modification” for procurement.  Regardless of the terminology or the code, these indicate the specific subsequent change to the initial award.  
+
+(1) For Federal financial assistance, the “type of action code” data element identifies whether the action is a new agreement or a modification.  Values for the Type of Action are the following:
+<table>
+  <thead>
+      <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Description</th>
+      </tr>
+  </thead>
+  <tr>
+    <td>A</td>
+    <td>New assistance award</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>Continuation (funding in succeeding budget period that stemmed from a prior agreement to fund amount of the current action)</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>Revision (any change in Federal government’s financial obligation or contingent liability in existing assistance transaction amount of the change in funding; or any change in Recipient Name, Recipient Address, Project Period, or Project Scope)</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>Funding adjustment to completed project</td>
+  </tr>
+</table>
+
+(2) For Federal procurement, the “Reason for Modification” data element captures the reason for a modification to a contract and are defined as shown below.  Note, the absence of a “Reason for Modification” code indicates that the action is a new procurement award.  
+
+<table>
+  <thead>
+      <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Description</th>
+      </tr>
+  </thead>
+  <tr>
+    <td>A</td>
+    <td>Additional Work (new agreement, FAR part 6 applies)</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>Supplemental Agreement for work within scope</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>Funding Only Action</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>Change Order</td>
+  </tr>
+  <tr>
+    <td>E</td>
+    <td>Terminate for Default (complete or partial)</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>Terminate for Convenience (complete or partial)</td>
+  </tr>
+  <tr>
+    <td>G</td>
+    <td>Exercise an Option</td>
+  </tr>
+  <tr>
+    <td>H</td>
+    <td>Definitize Letter Contract</td>
+  </tr>
+  <tr>
+    <td>J</td>
+    <td>Novation Agreement</td>
+  </tr>
+  <tr>
+    <td>K</td>
+    <td>Close Out</td>
+  </tr>
+  <tr>
+    <td>L</td>
+    <td>Definitize Change Order</td>
+  </tr>
+  <tr>
+    <td>M</td>
+    <td>Other Administrative Action</td>
+  </tr>
+  <tr>
+    <td>N</td>
+    <td>Legal Contract Cancellation</td>
+  </tr>
+  <tr>
+    <td>P</td>
+    <td>Re-representation of Non-Novated Merger/Acquisition</td>
+  </tr>
+  <tr>
+    <td>R</td>
+    <td>Re-representation</td>
+  </tr>
+  <tr>
+    <td>S</td>
+    <td>Change PIID</td>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>Transfer Action</td>
+  </tr>
+  <tr>
+    <td>V</td>
+    <td>Vendor DUNS Change</td>
+  </tr>
+  <tr>
+    <td>W</td>
+    <td>Vendor Address Change</td>
+  </tr>
+  <tr>
+    <td>X</td>
+    <td>Terminate for Cause</td>
+  </tr>
+</table>
+
+###Record Type
+
+Record Type is used to distinguish between aggregate or non-aggregate financial assistance records. 
+
+For financial assistance awards, awards under $25,000 and awards to individuals, agencies are to report them as aggregates.  An aggregate record is created by taking a group of similar records and tallying the dollars based on a specific set of data fields in order to create one summary (or aggregate) record.
+
+For financial assistance awards under $25,000, agencies submit as much information as possible at an action-by-action level, to provide maximum transparency to the public.  If reporting awards under $25,000 poses a significant administrative burden on the agency, the agency may report these amounts as aggregates at the county level.
+
+For payments to individuals, agencies should not report at an action-by-action level.  All payments to individuals are reported as aggregates.  Examples are social insurance payments made directly to individuals and large volume programs such as individual home ownership loans and flood insurance.
+
+The FAADS field where a user can designate aggregate reporting is Record Type.  Values for Record Type are as follows:
+
+<table>
+  <thead>
+      <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Description</th>
+      </tr>
+  </thead>
+  <tr>
+    <td>1</td>
+    <td>Aggregate reporting</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Action-by-action reporting.  Non-aggregate records.</td>
+  </tr>
+</table>
+
+## Recommended Definitions for Transparency Reporting
 <table>
   <thead>
     <tr>
       <th scope="col">Element</th>
-      <th scope="col">Source</th>
-      <th scope="col">Definition</th>
+      <th scope="col">Recommended Definition</th>
     </tr>
   </thead>
   <tr>
-    <td>Type of Transaction Code</td>
-    <td>FAR</td>
-    <td>[Contract Types (16.101 General) <br/>
-    (a) A wide selection of contract types is available to the Government and contractors in order to provide needed flexibility in acquiring the large variety and volume of supplies and services required by agencies. Contract types vary according to— <br/>
-    (1) The degree and timing of the responsibility assumed by the contractor for the costs of performance; and<br/>(2) The amount and nature of the profit incentive offered to the contractor for achieving or exceeding specified standards or goals.<br/>
-    (b) The contract types are grouped into two broad categories: fixed-price contracts (see Subpart 16.2) and cost-reimbursement contracts (see Subpart 16.3). The specific contract types range from firm-fixed-price, in which the contractor has full responsibility for the performance costs and resulting profit (or loss), to cost-plus-fixed-fee, in which the contractor has minimal responsibility for the performance costs and the negotiated fee (profit) is fixed. In between are the various incentive contracts (see Subpart 16.4), in which the contractor’s responsibility for the performance costs and the profit or fee incentives offered are tailored to the uncertainties involved in contract performance.]
-    </td>
+    <td>Award Type</td>
+    <td>Description (and corresponding code) that provides information to distinguish type of contract, grant, or loan and providers the user with more granularity into the method of delivery of the outcomes.</td>
   </tr>
   <tr>
-    <td>Type of Transaction Code</td>
-    <td>FAADS+</td>
-    <td>Type of Assistance: The type of assistance provided by the award. <br/>
-    (From FAADS user guide)<br/>
-    02 = block grant (A)<br/>
-    03 = formula grant (A)<br/>
-    04 = project grant (B)<br/>
-    05 = cooperative agreement (B)<br/>
-    06 = direct payment for specified use, as a subsidy or other non-reimbursable direct financial aid (C)<br/>
-    07 = direct loan (E)<br/>
-    08 = guaranteed/insured loan (F)<br/>
-    09 = insurance (G)<br/>
-    10 = direct payment with unrestricted use (retirement, pension, veterans benefits, etc.) (D)<br/>
-    11 = other reimbursable, contingent, intangible, or indirect financial assistance
-    </td>
+    <td>Action Type</td>
+    <td>Action Type – description (and corresponding code) that provides information on any changes made to the Federal prime award.   There are typically multiple actions for each award.<br/>  
+    (Note: This includes encompasses current data elements ‘Type of Action’ for financial assistance and ‘Reason for Modification’ for procurement)</td>
   </tr>
   <tr>
     <td>Record Type</td>
-    <td>Uniform Guidance (OMB Memorandum M-09-19)</td>
-    <td>Information should be identified in the FAADS PLUS files using the 'Record Type' field as follows:<br/>
-    1 - County-level aggregate reporting (for payments to individuals and other amounts identifiable by a geographical unit)<br/>
-    2- Normal transaction-level (action-by-action) reporting. These are non-aggregate records.
-    </td>
-  </tr>
-  <tr>
-    <td>Type of Action</td>
-    <td>Uniform Guidance (OMB Memorandum M-09-19)</td>
-    <td>The record should instead use the 'Type of Action' data element to identify the type of change to the award as follows:<br/>
-    'B' - Continuation (funding in succeeding budget period which stemmed form prior agreement to fund amount of the current action)<br/>
-    'C' - Revision (any change in Federal Government's financial obligation or contingent liability in existing assistance transaction amount of the change in funding; or any change in Reicpient Name, Recipient Address, Project Period or Project Scope<br/>
-    'D' - Funding adjustment to completed project
-    </td>
+    <td>Code indicating whether an action is an individual transaction or aggregated.</td>
   </tr>
 </table>
 
-## Key Considerations in Providing Feedback
+## References
+Federal Acquisition Regulation 4.606, Reporting Data, section (a) (3).
 
-As we continue the process of finalizing these data elements, we want to incorporate public feedback at all points of the process. To facilitate that, the above definitions represent those currently found in federal communities and systems. We encourage you to share your feedback on these existing definitions so that we may fold your insight into our work as we draft proposed definitions – this is an opportunity for you to get involved in the standardization process at an early stage.
+[https://www.acquisition.gov/?q=/browse/far/4](https://www.acquisition.gov/?q=/browse/far/4)
 
-Some areas where your input would be especially helpful:
+Procedures, Guidance, and Information (PGI) 204.606, Reporting Data, section (1)(iii), Express Reporting.
 
-1.  Potential authoritative source(s) for this data element, i.e., FPDS, FAADS+, Circular A-11.
-2.  Ways to standardize/modernize the data definition
-3.  Other considerations
+[http://www.acq.osd.mil/dpap/dars/pgi/pgi_htm/PGI204_6.htm](http://www.acq.osd.mil/dpap/dars/pgi/pgi_htm/PGI204_6.htm)
+
+GSA Federal Procurement Data System-Next Generation (FPDS-NG) Data Element Dictionary, Version 1.4.3, May 1, 2015.  Elements 6Q Number of Actions, page 76 and 12C Reason for Modification, page 138.
+
