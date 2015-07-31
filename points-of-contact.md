@@ -7,7 +7,7 @@ filename: points-of-contact.md
 
 Agency Open Data Policly Points of Contact
 -----------------------------
-*As reported to the Office of Management and Budget.* Also available as a searchable downnloadable [CSV](https://github.com/project-open-data/project-open-data.github.io/blob/master/OpenDataPolicyPointsofContact.csv).
+*As reported to the Office of Management and Budget.* Also available as a searchable downnloadable [csv](https://github.com/project-open-data/project-open-data.github.io/blob/master/OpenDataPolicyPointsofContact.csv).
 
 {: .table .table-striped}
 CFO-Act Agency            | Name               | Email                         | Responsibility                                 | Agency Comment(s)
