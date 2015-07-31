@@ -30,7 +30,7 @@ title: CFDA Program Number_Title
 
 ## Background
 
-The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that the USASpending.gov website include federal award data from Fiscal Year (FY) 2007, and each fiscal year thereafter.  Although section 2(b)(1) does not specifically list dates as necessary to display for transparency, dates provide important information concerning utilization of the funding provided.   This paper provides a brief explanation of Catalog of Federal Domestic Assistance (CFDA) reporting in the financial assistance community today, followed by considerations and recommendations for future reporting.
+The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that the USASpending.gov website include federal award data from Fiscal Year (FY) 2007, and each fiscal year thereafter. This paper provides a brief explanation of Catalog of Federal Domestic Assistance (CFDA) reporting in the financial assistance community today, followed by considerations and recommendations for future reporting.
 
 ## Context
 
