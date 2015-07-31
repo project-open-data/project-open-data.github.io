@@ -22,4 +22,4 @@ This version of the data standard focuses includes the financial level as well a
 
 <a href="/assets/docs/DATA_Act_Schema_v0.5.zip">Schema instance (XML version)</a>
 
-To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/25).
+To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/101).
