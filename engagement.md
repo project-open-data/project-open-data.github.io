@@ -232,7 +232,7 @@ These guides by civic hacking event organizers can help you organize a better ev
 
 * [Civic Innovation Toolkit: How to run a civic hackathon](http://www.smartchicagocollaborative.org/civic-innovation-toolkit-how-to-run-a-civic-hackathon/) by Smart Chicago
 * [Host Your Own Transparency Camp](http://transparencycamp.org/how-to/) by Sunlight Foundation
-* [How to run a successful Hackathon, A step-by-step guide](https://hackathon.guide/) by Josh Tauber, organizer of Open Data Day DC
+* [How to run a successful Hackathon, A step-by-step guide](https://hackathon.guide/) by Josh Taurber, organizer of Open Data Day DC
 * [Building Community and Engagement Around Data](https://medium.com/@elle_mccann/building-community-and-engagement-around-data-2fb7d72b13b4) by Laurenellen McCann, creative technologist and organizer
 * [U.S. Public Engagement Playbook](http://participation.usa.gov/), which is a resource for government by the White House Office of Science and Technology Policy (OSTP) and the General Services Administration (GSA)
 * [How To Welcome New Coders To A Civic Hackathon](https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/) an 18F blog post by Melody Kramer, Becky Sweger, Aidan Feldman, Julia Elman, and Will Slack
