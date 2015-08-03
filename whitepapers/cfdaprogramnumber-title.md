@@ -98,7 +98,7 @@ The following data elements are proposed as those necessary to communicate the C
     <td>The number assigned to a Federal area of work in the Catalog of Federal Domestic Assistance. </td>
   </tr>
   <tr>
-    <td>Catalogue of Federal Domestic Assistance (CFDA) Number</td>
+    <td>Catalogue of Federal Domestic Assistance (CFDA) Title</td>
     <td>The title of the area of work under which the Federal award was funded in the Catalogue of Federal Domestic Assistance.</td>
   </tr>
 </table>
