@@ -110,7 +110,7 @@ This list includes elements used to describe the amount (value) of a certain awa
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">leave feedback (closes 8/17/15)</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Funding Oblication Amount Award</a></td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Funding Obligation Amount Award</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">leave feedback (closes 8/17/15)</a></td>
   </tr>
