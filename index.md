@@ -133,7 +133,9 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-9 [Example Data Hubs](/data-hubs) - Collection of department, agency, and program data sites across the federal government.
 
-5-12 [Videos](/videos) - Online tutorials walking agencies through important aspects of the Open Data Policy.   
+5-10 [Videos](/videos) - Online tutorials walking agencies through important aspects of the Open Data Policy.   
+
+5-11 [CIO Council Open Data Prioritization Toolkit](https://cio.gov/cio-council-releases-open-data-prioritization-toolkit/) -  A toolkit to assist agencies with evaluating and prioritizing datasets for release consisting of [guidance](https://cio.gov/wp-content/uploads/filebase/cio_document_library/Open%20Data%20Prioritization%20Toolkit_Summary.pdf) and [workbooks](https://cio.gov/wp-content/uploads/filebase/cio_document_library/Open%20Data%20Prioritization%20Toolkit_Workbook.xlsx) to help agencies evaluate datasets on the criteria of value, cost, and risk.
 
 
 ----------------
