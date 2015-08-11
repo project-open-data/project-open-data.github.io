@@ -52,7 +52,7 @@ title: Sub Tier Agency
 
 ##Background
 
-This paper addresses the set of data elements that identify a sub tier agency or “level 2” within a Federal Department of Independent Agency, and an office or “level n.”  The focus is in two key areas for transparency and data-driven decision making, (1) the ability to identify from where the funds on an award originate and (2) the ability to identify what organization awarded those funds.
+This paper addresses the set of data elements that identify a sub tier agency or “level 2” within a Federal Department or Independent Agency, and an office or “level n.”  The focus is in two key areas for transparency and data-driven decision making, (1) the ability to identify from where the funds on an award originate and (2) the ability to identify what organization awarded those funds.
 
 The Digital Accountability and Transparency Act of 2014 (DATA Act) refers to section 105 of title 5, United States Code, for the definition of a “Federal agency”.  It means an Executive department (one of the 15 “Department of” organizations), government corporation (a corporation owned or controlled by the Government of the United States), or an independent establishment (an establishment in the executive branch not included above).  A Federal agency can be thought of as a “level 1” organization within the Executive Branch.  The definition for Federal agency is provided in a separate paper [(Treasury Account Symbol (excluding Sub-Account), Appropriations Account, and Agency)](http://fedspendingtransparency.github.io/whitepapers/approp-agency-tas/).  
 
