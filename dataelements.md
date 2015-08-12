@@ -212,22 +212,22 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Address</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Congressional District</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Country Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Country Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/award-id-description/" title="Award Identification (ID) Number and Description whitepaper">Award Identification (ID) Number</a></td>
@@ -267,12 +267,12 @@ These data elements describe characteristics of the entity that provided funding
   <tr>
     <td><a href="/whitepapers/fundingagency/" title="Funding Agency Name whitepaper">Funding Agency Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68" title="leave feedback for Funding Agency Name and Code">feedback closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68" title="leave feedback for Funding Agency Name and Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/fundingagency/" title="Funding Agency Name whitepaper">Funding Agency Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68" title="leave feedback for Funding Agency Name and Code">feedback closed</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68" title="leave feedback for Funding Agency Name and Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Sub Tier Agency Name</a></td>
