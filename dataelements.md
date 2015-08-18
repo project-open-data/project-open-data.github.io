@@ -102,27 +102,27 @@ This list includes elements used to describe the amount (value) of a certain awa
   <tr>
     <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Funding Action Obligation</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Non-Federal Funding Amount</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Funding Obligation Amount Award</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Current Total Value of Award</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Potential Total Value of Award</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
 </table>
 
@@ -142,7 +142,7 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Award Type</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
   </tr>
     <tr>
     <td><a href="/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Code</a></td>
@@ -187,27 +187,27 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Action Date</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Start Date</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Current End Date</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Potential End Date</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Ordering Period End Date</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Address</a></td>
@@ -237,17 +237,17 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Record Type</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Action Type</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/business-type/" title="Business Type whitepaper">Business Type</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/77" title="feedback Business Type">leave feedback (closes 8/17/15)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/77" title="feedback Business Type">feedback period closed</a></td>
   </tr>
 </table>
 
