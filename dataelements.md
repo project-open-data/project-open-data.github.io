@@ -157,12 +157,12 @@ These elements describe the different characteristics each award possesses – f
   <tr>
     <td><a href="/whitepapers/cfdaprogramnumber-title/" title="CFDA Program Number_Title whitepaper">Catalog of Federal Domestic Assistance (CFDA) Number</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67" title="feedback for Catalogue of Federal Domestic Assistance and Title">leave feedback (closes 8/21/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67" title="feedback for Catalogue of Federal Domestic Assistance and Title">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/cfdaprogramnumber-title/" title="CFDA Program Number_Title whitepaper">Catalog of Federal Domestic Assistance (CFDA) Title</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67" title="feedback for Catalogue of Federal Domestic Assistance and Title">leave feedback (closes 8/21/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67" title="feedback for Catalogue of Federal Domestic Assistance and Title">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Treasury Account Symbol (excluding Sub-Account)</a></td>
