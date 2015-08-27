@@ -1,12 +1,12 @@
 ---
 published: true
-permalink: /whitepapers/business-type/
+permalink: /whitepapers/business-types/
 layout: hero
-filename: business-type.md
-title: Business Type
+filename: business-types.md
+title: Business Types
 ---
 
-# Element: Business Type
+# Element: Business Types
 
 <table>
   <thead>
@@ -16,10 +16,14 @@ title: Business Type
     </tr>
   </thead>
   <tr>
-    <td>Business Type</td>
+    <td>Business Types</td>
     <td>FFATA</td>
   </tr>
   </table>
+
+## Response to Public Feedback (August 2015)
+
+Business Types are important ways to describe awards that aid in transparency. During the three week feedback period, 3 individuals contributed through the GitHub issue here, and OMB and Treasury received feedback from the Government Accountability Office (GAO).  To address this feedback, the name of this data element has been changed from “Business Type” to “Business Types,” and the definition has been altered as well to show that this data element is really a collection of flags for business types, rather than a single element. The final data element definitions can be found here.
 
 
 ##Background
@@ -54,9 +58,9 @@ The original source for financial assistance awards was the Federal Assistance A
 
 * Type of Recipient – two-position numeric code which depicts the type of recipient or borrower.
 
-There are 13 types listed.  Only one value is reported, the type that best represents the entity.  Going forward, an option would be to have financial assistance awards use separate fields for each type with a “yes” or “no” indicator as is done in FPDS-NG.
+There are 13 types listed.  Only one value is reported, the type that best represents the entity.  Going forward, an option would be to have financial assistance awards use separate fields for each type with a “yes” or “no” indicator as is done in FPDS-NG. The financial assistance and procurement communities will continue to look at additional opportunities to standardize Business Types and how they are reported by agencies to USAspending.gov. 
 
-##Recommended Definitions for Transparency Reporting
+##Final Definitions for Transparency Reporting
 <table>
   <thead>
     <tr>
@@ -65,8 +69,8 @@ There are 13 types listed.  Only one value is reported, the type that best repre
     </tr>
   </thead>
   <tr>
-    <td>Business Type</td>
-    <td>An indicator of different types of recipients based on socio-economic status and organization / business areas.</td>
+    <td>Business Types</td>
+    <td>A collection of indicators of different types of recipients based on socio-economic status and organization / business areas.</td>
   </tr>
 </table>
 

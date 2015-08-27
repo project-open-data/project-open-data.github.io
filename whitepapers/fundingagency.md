@@ -6,7 +6,8 @@ filename: fundingagency.md
 title: Funding Agency
 ---
 
-# Element: Funding Agency Name and Funding Agency Code
+# Element: Funding Agency Name, Funding Agency Code, Awarding Agency Name, and Awarding Agency Code
+
 
 <table>
   <thead>
@@ -26,7 +27,30 @@ title: Funding Agency
     <td>Funding Entity Information</td>
     <td>FFATA</td>
   </tr>
+  <tr>
+    <td>Awarding Agency Name</td>
+    <td>Funding Entity Information</td>
+    <td>FFATA</td>
+  </tr>
+  <tr>
+    <td>Awarding Agency Code</td>
+    <td>Funding Entity Information</td>
+    <td>FFATA</td>
+  </tr>
 </table>
+
+## Response to Public Feedback (August 2015)
+
+During the three week public feedback period, this paper received 8 posts from 7 individuals and organizations here, and OMB and Treasury received additional feedback from the Government Accountability Office (GAO). The majority of the posts brought up concerns about the clarity and specificity of these papers and the definitions; and concerns that using different code lists in different communities would create data quality issues. The final data element definitions can be found here.
+
+In response to the feedback posted, we have added additional context to both this paper and the paper for Appropriations Account. The data elements for Awarding Agency Name and Awarding Agency Code have been moved without changes to this white paper to better clarify that they are constructs used in the awarding community (financial assistance and procurement), but not in the financial community. 
+
+In addition, to address data quality concerns, OMB and Treasury will be working with agencies to develop validation rules. Additional details about proposed management of agency hierarchy can be found in the paper for Sub Tier Agency and Office here. 
+
+To clarify, for award level DATA Act reporting, agencies will report both the agency that provided the preponderance of the funds for the award (Funding Agency) and the agency that interacts with the recipient to make the award (Awarding Agency), using the Common Government-wide Accounting Classification (CGAC) standard described below.  These are data elements used by the Federal awarding community and will not be reported from agency financial systems or derived from the Treasury Account Symbol (excluding sub-account). By using the CGAC standard that is used by the financial community, for the first time, the financial, procurement, and financial assistance communities will be using the same names and codes to describe Federal agencies, which will improve data quality, consistency, and transparency.
+
+The Funding Agency information is not currently reported to USAspending.gov for Federal financial assistance, but it is for procurement. Currently, the predominant Treasury Account Symbol (TAS) is used to show additional agency information. In the future, Funding Agency and Awarding Agency data elements will be reported to USAspending.gov for both Federal financial assistance and Federal procurement.  
+
 
 ##Background
 
@@ -34,7 +58,7 @@ The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires
 
 Currently, different functional communities (e.g. financial assistance, budget, finance, procurement) use different coding schemes to represent agency.
 
-In Federal contracting, sometimes one organization serves as the contracting office for another organization.  Federal Acquisition Regulation defines “assisted acquisition” as a type of interagency acquisition where one agency performs acquisition activities (“servicing agency”) on another agency’s behalf (“requesting agency”), such as awarding and administering a contract, task order, or delivery order.  In this paper, the servicing agency that is performing the acquisition activities is referred to as the “awarding” organization, and the agency that has the funding and authority to carry out a particular activity is referred to as the “funding” organization.  If there is only one agency involved, the “awarding” and “funding” elements are within the same agency.  
+In Federal contracting, sometimes one organization serves as the contracting office for another organization.  The Federal Acquisition Regulation defines “assisted acquisition” as a type of interagency acquisition where one agency performs acquisition activities (“servicing agency”) on another agency’s behalf (“requesting agency”), such as awarding and administering a contract, task order, or delivery order.  In this paper, the servicing agency that is performing the acquisition activities is referred to as the “awarding” organization, and the agency that has the funding and authority to carry out a particular activity is referred to as the “funding” organization.  If there is only one agency involved, the “awarding” and “funding” elements are within the same agency.    
 
 This practice also applies to financial assistance awards.
 
@@ -76,12 +100,20 @@ In the future, the Federal communities will examine the potential to provide add
   </thead>
   <tr>
     <td>Funding Agency Names</td>
-    <td>Name of the Federal organization that provided the preponderance of the funds for an award and/or individual transactions related to an award.</td>
+    <td>Name of the department or establishment of the Government that provided the preponderance of the funds for an award and/or individual transactions related to an award.</td>
   </tr>
   <tr>
     <td>Funding Agency Code</td>
-    <td>The 3-digit CGAC agency code of the Federal organization that provided the preponderance of the funds for an award and/or individual transactions related to an award.</td>
+    <td>The 3-digit CGAC agency code of the department or establishment of the Government that provided the preponderance of the funds for an award and/or individual transactions related to an award.</td>
   </tr>
+  <tr>
+    <td>Awarding Agency Name</td>
+    <td>The name associated with a department or establishment of the Government as used in the Treasury Account Fund Symbol (TAFS).</td>
+  </tr>
+  <tr>
+    <td>Awarding Agency Code</td>
+    <td>A department or establishment of the Government as used in the Treasury Account Fund Symbol (TAFS).</td>
+  </tr>  
 </table>
 
 <sup>1</sup>The National Institute of Standards and Technology (NIST) withdrew the Federal Information Processing Standards (FIPS) codes referenced above (FIPS 95-2, *Codes for the Identification of Federal and Federally Assisted Organizations*) in 2008.  A second publication, NIST Special Publication 800-87, Codes for Identification of Federal and Federally-Assisted Organizations, provides similar codes but has not been updated since 2008.  Organizations established after 2008 (such as the Consumer Financial Protection Bureau) are not in SP 800-87.  The FIPS 95-2 and SP 800-87 codes provided the basis of the FPDS-NG table of agency codes, which is updated by GSA and so includes new agencies.
