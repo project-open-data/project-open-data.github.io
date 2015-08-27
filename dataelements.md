@@ -13,13 +13,15 @@ The lists on this page contain two types of federal spending data elements:
 1. Existing Federal Funding Accountability and Transparency Act (FFATA) data elements, which are currently featured on USAspending.gov
 2. Additional data elements required by the DATA Act that will be featured on USASpending.gov once the DATA Act is fully implemented
 
-The elements on these lists are currently being discussed by members of the federal community as part of the DATA Act.
-
+The elements on these lists have been discussed by members of the federal community as part of the DATA Act.
 At the current time, these lists are exhaustive. That said, the federal community is aware of agencies’ and the larger community’s needs and may add and standardize new elements to improve transparency reporting moving forward.
 
-The data elements are grouped by category; each short list represents a different category. In addition, each element will have own GitHub issue, which is where you can add to the discussion on that element. To share your thoughts, simply click on the link in an element's feedback column to be rerouted to its GitHub issue page, where you can leave your feedback in the blank comment box.
+The data elements are grouped by category; each short list represents a different category. In addition, each element will have it's own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who posted responses to these papers and provided input on these data elements. 
 
-If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines](/feedback). Please click Get Updates above to receive emails as we update these pages.
+Data standards for these data elements have all been finalized. The final data element names and definitions are located here. 
+
+If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines](/feedback/). Please click _Get Updates_ above to receive emails as we update other pages on this site.
+
 
 
 ## Awardee and Recipient Entity Information
@@ -89,7 +91,7 @@ This list includes information about recipients and awardees of federal funds. P
 
 ## Award Amount Information
 
-This list includes elements used to describe the amount (value) of a certain award.
+This list includes elements used to describe the amount of a certain award.
 
 <table>
   <thead>
@@ -100,7 +102,7 @@ This list includes elements used to describe the amount (value) of a certain awa
     </tr>
   </thead>
   <tr>
-    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Funding Action Obligation</a></td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Amount of Award</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
@@ -110,7 +112,7 @@ This list includes elements used to describe the amount (value) of a certain awa
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Funding Obligation Amount Award</a></td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Federal Action Obligation</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
@@ -140,7 +142,7 @@ These elements describe the different characteristics each award possesses – f
     </tr>
   </thead>
   <tr>
-    <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Award Type</a></td>
+    <td><a href="/whitepapers/types/" title="Type of Transaction Code whitepaper">Award Type</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
   </tr>
@@ -235,12 +237,12 @@ These elements describe the different characteristics each award possesses – f
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback for Award Identification (ID) Number and Description">feedback period closed</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Record Type</a></td>
+    <td><a href="/whitepapers/types/" title="Type of Transaction Code whitepaper">Record Type</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/type-transaction-code/" title="Type of Transaction Code whitepaper">Action Type</a></td>
+    <td><a href="/whitepapers/types/" title="Type of Transaction Code whitepaper">Action Type</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
   </tr>
@@ -310,12 +312,12 @@ Elements on this list describe awarding entities – those that presented the aw
     </tr>
   </thead>
   <tr>
-    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Name</a></td>
+    <td><a href="/whitepapers/fundingagency/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Name</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Awarding Agency Name">feedback period closed</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Code</a></td>
+    <td><a href="/whitepapers/fundingagency/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Code</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Awarding Agency Code">feedback period closed</a></td>
   </tr>
@@ -397,19 +399,4 @@ This list features elements that describe the accounts from which the awards are
 </table>
 
 
-##Join the Conversation
 
-We’re currently researching how people use these data elements in the course of their work, and we’d love your feedback.
-
-If you use or would like to use data provided by the U.S. Department of the Treasury, please answer the following questions:
-
-1.	[Which data elements are central to your reporting or analysis processes?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/6)
-
-**Note**: If none of the data elements listed is useful to you, use this space to describe an element that would be useful. Please also see our section on [proposing new elements](/feedback).
-
-2.	[In setting standards, what are industry standards the Treasury and OMB should be considering?](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/7)
-
-3.	[What factors should the Treasury and OMB take into account as they establish data standards? ](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/8)
-
-
-####Thank you for your contribution to DATA Act implementation!

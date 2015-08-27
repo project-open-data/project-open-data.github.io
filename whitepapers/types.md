@@ -1,9 +1,9 @@
 ---
 published: true
-permalink: /whitepapers/type-transaction-code/
+permalink: /whitepapers/types/
 layout: hero
-filename: type-transaction-code.md
-title: Type of Transaction Code
+filename: types.md
+title: Types
 ---
 
 # Element: Award Type, Action Type, Record Type
@@ -29,16 +29,24 @@ title: Type of Transaction Code
   </tr>
 </table>
 
+## Response to Public Feedback (August 2015)
+
+The three data elements in this paper provide additional information about awards and modifications. During the three week feedback period, 5 individuals and organizations contributed 5 posts through the GitHub issue here, and OMB and Treasury received feedback from the Government Accountability Office (GAO). This feedback has provided valuable insight into how stakeholders use these data elements. As we move through implementation, these are issues we will continue to address through updated to the schema, ongoing policy discussions, and potential further clarification. However, after reviewing this feedback, no changes to the below paper or definitions were deemed necessary. The final data element definitions can be found here.
+
+
 ##Background
+
 The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that the transaction type be reported for each Federal award.  There is no specific requirement in either FFATA or the Digital Accountability and Transparency Act of 2014 (DATA Act) that requires reporting of Record Type or Type of Action.  However, these additional elements are important to understanding the data that is required to be reported, and so this paper provides the definitions.
 
 ##Context
+
 Agencies used two established data sources (further described below) to report awards to USAspending.gov.  There were several fields in the established data sources that characterize the award information reported.  
 
 ##Analysis of Current Definitions and Considerations
-The original source for *financial assistance awards* was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce.  Currently, agencies submit their financial assistance awards data to USAspending.gov using the Award Submission Portal (ASP). The ASP adopted the Aggregate Reporting and Type of Action definitions of the FAADS.
 
-The original source for contract awards was the Federal Procurement Data System – Next Generation (FPDS-NG).  
+The original source for _financial assistance awards_ was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce. Currently, agencies submit their financial assistance awards data to USAspending.gov using the Award Submission Portal (ASP). The ASP adopted the Aggregate Reporting and Type of Action definitions of the FAADS.
+
+The original source for _contract awards_ was the Federal Procurement Data System – Next Generation (FPDS-NG).  
 
 <b>Federal prime award</b> – award being reported 
 This is the method chosen by the Federal government to provide funding in support of programmatic outcomes. This is the highest level of award for which funding will be summarized and for which more detailed information will be made available.   The required FFATA award types related to financial assistance and contracts and are defined as follows:  
@@ -59,7 +67,7 @@ Federal awards are categorized in accordance with the objectives of the program,
 
 Each procurement action is identified with an Indefinite Delivery Vehicle (IDV) Type value or an Award Type value; they are mutually exclusive.  They are collected as separate data elements in FPDS using the codes and descriptions shown below:
 
-Indefinite Delivery Vehicle (IDV) Type – IDVs represent different types of ordering instruments under which federal agencies may place delivery/task orders or BPA call orders.
+Indefinite Delivery Vehicle (IDV) Type – IDVs represent different types of ordering instruments under which federal agencies may place delivery/task orders or blanket purchase agreement (BPA) call orders
 
 <table>
   <thead>
@@ -90,7 +98,7 @@ Indefinite Delivery Vehicle (IDV) Type – IDVs represent different types of ord
   </tr>
 </table>
 
-Award Type – Awards represent different types of definitive delivery procurement instruments (i.e., the immediate requirement is known and awarded with all the attentive terms and conditions).  
+Award Type – Awards represent different types of definitive delivery procurement instruments (i.e., the immediate requirement is known and awarded with all the attendant terms and conditions).  
 
 <table>
   <thead>
@@ -399,7 +407,7 @@ The FAADS field where a user can designate aggregate reporting is Record Type.  
   </tr>
 </table>
 
-## Recommended Definitions for Transparency Reporting
+## Final Definitions for Transparency Reporting
 <table>
   <thead>
     <tr>
@@ -424,7 +432,7 @@ The FAADS field where a user can designate aggregate reporting is Record Type.  
 
 ##References
 
-Federal Acquisition Regulation 4.606, Reporting Data, section (a) (3).
+Federal Acquisition Regulation 4.606(a)(3), Reporting Data.
 
 [https://www.acquisition.gov/?q=/browse/far/4](https://www.acquisition.gov/?q=/browse/far/4)
 

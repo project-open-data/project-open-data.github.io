@@ -50,6 +50,11 @@ title: Sub Tier Agency
   </tr>
   </table>
 
+## Response to Public Feedback (August 2015)
+
+The data elements in this paper will provide additional transparency into organizational structures of Federal agencies and how this structure relates to Federal award spending. During the three week feedback period, 2 individuals and organizations contributed through the GitHub issue here, and OMB and Treasury received feedback from the Government Accountability Office (GAO).This input commended the efforts to provide additional information and raised a concern about this information only being for the predominant funding or awarding organizational unit. As we move through implementation, these are issues we will continue to address through updated to the schema, ongoing policy discussions, and potential further clarification. After reviewing this feedback, no changes to the below paper or definitions were deemed necessary. The final data element definitions can be found here.
+
+
 ##Background
 
 This paper addresses the set of data elements that identify a sub tier agency or “level 2” within a Federal Department or Independent Agency, and an office or “level n.”  The focus is in two key areas for transparency and data-driven decision making, (1) the ability to identify from where the funds on an award originate and (2) the ability to identify what organization awarded those funds.
@@ -103,7 +108,7 @@ Recommended Business Process
 
 <sup>1</sup>The National Institute of Standards and Technology (NIST) withdrew the Federal Information Processing Standards (FIPS) codes referenced above (FIPS 95-2, Codes for the Identification of Federal and Federally Assisted Organizations) in 2008.  A second publication, NIST Special Publication 800-87, Codes for Identification of Federal and Federally-Assisted Organizations, provides similar codes but has not been updated since 2008.  Organizations established after 2008 (such as the Consumer Financial Protection Bureau) are not in SP 800-87.  The FIPS 95-2 and SP 800-87 codes provided the basis of the FPDS-NG table of agency codes, which is updated by GSA and so includes new agencies.
 
-##Recommended Definitions for Transparency Reporting
+##Final Definitions for Transparency Reporting
 <table>
   <thead>
     <tr>
