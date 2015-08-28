@@ -40,28 +40,28 @@ title: Amount
 
 ## Response to Public Feedback (August 2015)
 
-Data elements related to amount are crucial to Federal spending transparency and are important to many stakeholder groups, within and outside of the Federal Government. During the three week feedback period, 3 individuals and organizations provided feedback through GitHub, which is available here, and OMB and Treasury received feedback from the Government Accountability Office (GAO). The majority of this input brought up questions about the context of these amounts (including which data elements are cumulative), the applicability of these data elements to procurement and financial assistance, and the sources of this information.
+Data elements related to amount are crucial to federal spending transparency and are important to many stakeholder groups, within and outside of the federal government. During the three week feedback period, 3 individuals and organizations provided feedback through GitHub, which is available [here](https://max.gov/datastandards), and OMB and Treasury received feedback from the Government Accountability Office (GAO). The majority of this input brought up questions about the context of these amounts (including which data elements are cumulative), the applicability of these data elements to procurement and financial assistance, and the sources of this information.
 
-In response to the feedback posted, the data element names and definitions have been revised to show more clearly which data elements are cumulative, which are for only procurement or financial assistance, and how they are related. Through this process, some of the data element names have been adjusted. ‘Funding Obligation Amount on Award’ has been renamed ‘Federal Action Obligation’ and ‘Funding Action Obligation’ has been renamed ‘Amount of Award.’ The final data elements and definitions are posted here. In addition to these data elements, obligations for awards will also be reported by agencies from agency financial systems. This data element was previously standardized in May of this year and the final standard is here.  
+In response to the feedback posted, the data element names and definitions have been revised to show more clearly which data elements are cumulative, which are only procurement or financial assistance, and how they are related. Through this process, some of the data element names have been adjusted. ‘Funding Obligation Amount on Award’ has been renamed ‘Federal Action Obligation’ and ‘Funding Action Obligation’ has been renamed ‘Amount of Award.’ The final data elements and definitions are posted [here](https://max.gov/datastandards). In addition to these data elements, [obligations](/whitepapers/obligation) for awards will also be reported by agencies from agency financial systems. This data element was previously standardized in May of this year and the final standard is [here](https://max.gov/datastandards).  
 
 
 ##Background
 
-The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires reporting the amount of the award for each Federal award.  This paper defines amounts that agencies are reporting for financial assistance awards (including grants, subgrants, loans, awards, cooperative agreements, and other forms of financial assistance) and contract awards (including contracts, subcontracts, purchase orders, task orders, and delivery orders).
+The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires reporting the amount of the award for each federal award.  This paper defines amounts that agencies are reporting for financial assistance awards (including grants, subgrants, loans, awards, cooperative agreements, and other forms of financial assistance) and contract awards (including contracts, subcontracts, purchase orders, task orders, and delivery orders).
 
 ##Context
 
-To meet FFATA requirements, agencies used two established data sources (further described below) to report awards to USAspending.gov.  Since the information for financial assistance awards and contract awards is different, USAspending.gov is set up to report financial assistance and contract information separately.  In addition, each established data source included more than one “amount” element, with the result that agencies have been reporting multiple “amount” elements to USAspending.gov.  
+To meet FFATA requirements, agencies used two established data sources (further described below) to report awards to USAspending.gov.  Since the information for financial assistance awards and contract awards are different, USAspending.gov is set up to report financial assistance and contract information separately.  In addition, each established data source included more than one “amount” element, with the result that agencies have been reporting multiple “amount” elements to USAspending.gov.  
 
 Now, to clarify and standardize the award amount, this paper defines the “award amount” and how it relates to the other amounts reported.
 
 ##Analysis of Current Definitions
 
-The original source for *financial assistance awards* was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce. FAADS includes the following amount-related data elements.  
+The original source for *financial assistance awards* was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce. FAADS included the following amount-related data elements.  
 
-* Federal Funding Amount – amount of Federal government’s obligation or contingent liability, in dollars.
-* Non-Federal Funding Amount – amount of non-Federal funding, in dollars.
-* Total Funding Amount – Federal funding amount plus non-Federal funding amount in dollars.
+* Federal Funding Amount – amount of federal government’s obligation or contingent liability, in dollars.
+* Non-Federal Funding Amount – amount of non-federal funding, in dollars.
+* Total Funding Amount – federal funding amount plus non-federal funding amount in dollars.
 
 <b>Federal Funding Amount</b> is the amount of the award that agencies report to USAspending.gov for grants, subgrants, awards, cooperative agreements, and other forms of financial assistance except loans.
 
@@ -84,23 +84,23 @@ The original source for *contract awards* was the Federal Procurement Data Syste
 
 ##Considerations
 
-1.  <b>Use of authoritative data.</b>  The FAR requires Federal agencies to annually verify and validate data reported to the FPDS-NG.  Summary results of this validation and verification are made publicly available via USASpending.gov.  Award amounts for Federal procurement awards will continue to use FPDS-NG as the authoritative source for public display of procurement obligations.  Data for financial assistance is currently submitted by agencies using the FFADS+ file format to the Award Submission Portal (ASP). Current reporting requirements are stipulated in M-15-12 and the ASP User Guide.  Treasury and OMB are working with agencies to develop the architecture for future reporting. Once the Award ID is carried in agency financial systems and there is a linkage between financial data and award data, further policy and business process determinations will need to be made about sourcing obligation amounts from agency financial systems. 
+1.  <b>Use of authoritative data.</b>  he FAR requires federal agencies to annually verify and validate data reported to the FPDS-NG.  Summary results of this validation and verification are made publicly available via USAspending.gov.  Award amounts for federal procurement awards will continue to use FPDS-NG as the authoritative source for public display of procurement obligations.  Data for financial assistance is currently submitted by agencies using the FFADS+ file format to the Award Submission Portal (ASP). Current reporting requirements are stipulated in M-15-12 and the ASP User Guide.  Treasury and OMB are working with agencies to develop the architecture for future reporting. Once the award identification number (Award ID) is carried in agency financial systems and there is a linkage between financial data and award data, further policy and business process determinations will need to be made about sourcing obligation amounts from agency financial systems. 
 
-2.  These definitions apply to reporting on Federal awards that has taken place since enactment of FFATA.  OMB guidance issued in May 2015 directed agencies to include award identifiers in agency financial systems as the way to associated award data and financial data without duplicating efforts or data.  As agencies implement these changes in FY2017, a further review of the definition and standard for award amounts may be required.  
+2.  2.  These definitions apply to reporting on federal awards that has taken place since enactment of FFATA.  OMB guidance issued in May 2015 directed agencies to include Award ID in agency financial systems as the way to associated award data and financial data without duplicating efforts or data.  As agencies implement these changes in FY 2017, a further review of the definition and standard for award amounts may be required.    
 
 ##Final Definitions for Transparency Reporting
 <table>
   <thead>
     <tr>
-      <th scope="col">Element</th>
-      <th scope="col">Recommended Definition</th>
+      <th scope="col">Data Element</th>
+      <th scope="col">Definition</th>
     </tr>
   </thead>
   <tr>
     <td>Amount of Award</td>
-    <td>The cumulative amount obligated by the Federal government for an award, which is calculated by USAspending.gov.
+    <td>The cumulative amount obligated by the federal government for an award, which is calculated by USAspending.gov.
     <br> 
-    For procurement and financial assistance awards except loans, this is the sum of <strong>Federal Action Obligations.</strong>
+    For procurement and financial assistance awards except loans, this is the sum of Federal Action Obligations.
     <br>
     For loans or loan guarantees, this is the Original Subsidy Cost.
 
@@ -108,11 +108,11 @@ The original source for *contract awards* was the Federal Procurement Data Syste
   </tr>
   <tr>
     <td>Federal Action Obligation</td>
-    <td>Amount of Federal government’s obligation, de-obligation, or liability, in dollars, for an award transaction.</td>
+    <td>Amount of federal government’s obligation, de-obligation, or liability, in dollars, for an award transaction.</td>
   </tr>
   <tr>
     <td>Non-Federal Funding Amount</td>
-    <td>For financial assistance, the amount of the award funded by non-Federal source(s), in dollars. Program Income (as defined in 2 CFR § 200.80) is not included until such time that Program Income is generated and credited to the agreement.</td>
+    <td>For financial assistance, the amount of the award funded by non-federal source(s), in dollars. Program Income (as defined in 2 CFR § 200.80) is not included until such time that Program Income is generated and credited to the agreement.</td>
   </tr>
   <tr>
     <td>Total Funding Amount</td>

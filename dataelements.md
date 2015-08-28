@@ -18,7 +18,7 @@ At the current time, these lists are exhaustive. That said, the federal communit
 
 The data elements are grouped by category; each short list represents a different category. In addition, each element will have it's own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who posted responses to these papers and provided input on these data elements. 
 
-Data standards for these data elements have all been finalized. The final data element names and definitions are located here. 
+Data standards for these data elements have all been finalized. The final data element names and definitions are located [here](). 
 
 If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines](/feedback/). Please click _Get Updates_ above to receive emails as we update other pages on this site.
 
@@ -102,7 +102,7 @@ This list includes elements used to describe the amount of a certain award.
     </tr>
   </thead>
   <tr>
-    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Amount of Award</a></td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Amount of Award*</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
@@ -112,7 +112,7 @@ This list includes elements used to describe the amount of a certain award.
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Federal Action Obligation</a></td>
+    <td><a href="/whitepapers/amount/" title="Amounts whitepaper">Federal Action Obligation*</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
   </tr>
@@ -142,7 +142,7 @@ These elements describe the different characteristics each award possesses – f
     </tr>
   </thead>
   <tr>
-    <td><a href="/whitepapers/types/" title="Type of Transaction Code whitepaper">Award Type</a></td>
+    <td><a href="/whitepapers/types/" title="Type of Transaction Code whitepaper">Award Type*</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
   </tr>
@@ -242,12 +242,12 @@ These elements describe the different characteristics each award possesses – f
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/types/" title="Type of Transaction Code whitepaper">Action Type</a></td>
+    <td><a href="/whitepapers/types/" title="Type of Transaction Code whitepaper">Action Type*</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
   </tr>
   <tr>
-    <td><a href="/whitepapers/business-type/" title="Business Type whitepaper">Business Type</a></td>
+    <td><a href="/whitepapers/business-types/" title="Business Type whitepaper">Business Types*</a></td>
     <td>FFATA</td>
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/77" title="feedback Business Type">feedback period closed</a></td>
   </tr>
@@ -397,6 +397,8 @@ This list features elements that describe the accounts from which the awards are
     <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/30" title="feedback for Outlay">feedback period closed</a></td>
   </tr>
 </table>
+
+* An asterisk (*) next to a data element name indicates that the name for that data element has changed since it was first posted here in December 2015.  All final data element names and definitions are posted [here](https://max.gov/datastandards)
 
 
 
