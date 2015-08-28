@@ -86,13 +86,13 @@ The original source for *contract awards* was the Federal Procurement Data Syste
 
 1.  <b>Use of authoritative data.</b>  he FAR requires federal agencies to annually verify and validate data reported to the FPDS-NG.  Summary results of this validation and verification are made publicly available via USAspending.gov.  Award amounts for federal procurement awards will continue to use FPDS-NG as the authoritative source for public display of procurement obligations.  Data for financial assistance is currently submitted by agencies using the FFADS+ file format to the Award Submission Portal (ASP). Current reporting requirements are stipulated in M-15-12 and the ASP User Guide.  Treasury and OMB are working with agencies to develop the architecture for future reporting. Once the award identification number (Award ID) is carried in agency financial systems and there is a linkage between financial data and award data, further policy and business process determinations will need to be made about sourcing obligation amounts from agency financial systems. 
 
-2.  2.  These definitions apply to reporting on federal awards that has taken place since enactment of FFATA.  OMB guidance issued in May 2015 directed agencies to include Award ID in agency financial systems as the way to associated award data and financial data without duplicating efforts or data.  As agencies implement these changes in FY 2017, a further review of the definition and standard for award amounts may be required.    
+2.  These definitions apply to reporting on federal awards that has taken place since enactment of FFATA.  OMB guidance issued in May 2015 directed agencies to include Award ID in agency financial systems as the way to associated award data and financial data without duplicating efforts or data.  As agencies implement these changes in FY 2017, a further review of the definition and standard for award amounts may be required.    
 
 ##Final Definitions for Transparency Reporting
 <table>
   <thead>
     <tr>
-      <th scope="col">Data Element</th>
+      <th scope="col">Data Element Name</th>
       <th scope="col">Definition</th>
     </tr>
   </thead>
