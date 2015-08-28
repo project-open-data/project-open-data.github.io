@@ -47,25 +47,25 @@ In response to the feedback posted, we have added additional context to both thi
 
 In addition, to address data quality concerns, OMB and Treasury will be working with agencies to develop validation rules. Additional details about proposed management of agency hierarchy can be found in the paper for Sub Tier Agency and Office [here](/whitepapers/sub-tier-agency/). 
 
-To clarify, for award level DATA Act reporting, agencies will report both the agency that provided the preponderance of the funds for the award (Funding Agency) and the agency that interacts with the recipient to make the award (Awarding Agency), using the Common Government-wide Accounting Classification (CGAC) standard described below.  These are data elements used by the Federal awarding community and will not be reported from agency financial systems or derived from the Treasury Account Symbol (excluding sub-account). By using the CGAC standard that is used by the financial community, for the first time, the financial, procurement, and financial assistance communities will be using the same names and codes to describe Federal agencies, which will improve data quality, consistency, and transparency.
+To clarify, for award level DATA Act reporting, agencies will report both the agency that provided the preponderance of the funds for the award (Funding Agency) and the agency that interacts with the recipient to make the award (Awarding Agency), using the Common Government-wide Accounting Classification (CGAC) standard described below.  These are data elements used by the federal awarding community and will not be reported from agency financial systems or derived from the Treasury Account Symbol (excluding sub-account). By using the CGAC standard that is used by the financial community, for the first time, the financial, procurement, and financial assistance communities will be using the same names and codes to describe federal agencies, which will improve data quality, consistency, and transparency.
 
-The Funding Agency information is not currently reported to USAspending.gov for Federal financial assistance, but it is for procurement. Currently, the predominant Treasury Account Symbol (TAS) is used to show additional agency information. In the future, Funding Agency and Awarding Agency data elements will be reported to USAspending.gov for both Federal financial assistance and Federal procurement.  
+The Funding Agency information is not currently reported to USAspending.gov for federal financial assistance, but it is for procurement. Currently, the predominant Treasury Account Symbol (TAS) is used to show additional agency information. In the future, Funding Agency and Awarding Agency data elements will be reported to USAspending.gov for both federal financial assistance and federal procurement.  
 
 
 ##Background
 
-The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that each Federal award include information on the Federal funding agency.  This paper provides the definition of the Federal funding agency name and Federal funding agency code.
+The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that each federal award include information on the federal funding agency.  This paper provides the definition of the federal funding agency name and federal funding agency code.
 
 Currently, different functional communities (e.g. financial assistance, budget, finance, procurement) use different coding schemes to represent agency.
 
-In Federal contracting, sometimes one organization serves as the contracting office for another organization.  The Federal Acquisition Regulation defines “assisted acquisition” as a type of interagency acquisition where one agency performs acquisition activities (“servicing agency”) on another agency’s behalf (“requesting agency”), such as awarding and administering a contract, task order, or delivery order.  In this paper, the servicing agency that is performing the acquisition activities is referred to as the “awarding” organization, and the agency that has the funding and authority to carry out a particular activity is referred to as the “funding” organization.  If there is only one agency involved, the “awarding” and “funding” elements are within the same agency.    
+In federal contracting, sometimes one organization serves as the contracting office for another organization.  The Federal Acquisition Regulation defines “assisted acquisition” as a type of interagency acquisition where one agency performs acquisition activities (“servicing agency”) on another agency’s behalf (“requesting agency”), such as awarding and administering a contract, task order, or delivery order.  In this paper, the servicing agency that is performing the acquisition activities is referred to as the “awarding” organization, and the agency that has the funding and authority to carry out a particular activity is referred to as the “funding” organization.  If there is only one agency involved, the “awarding” and “funding” elements are within the same agency.    
 
 This practice also applies to financial assistance awards.
 
 
 ##Context
 
-Agencies used two established data sources (further described below) to report awards to USAspending.gov.  There were several Federal organization-related fields in the established data sources which agencies have been reporting.  
+Agencies used two established data sources (further described below) to report awards to USAspending.gov.  There were several federal organization-related fields in the established data sources which agencies have been reporting.  
 
 ##Analysis of Current Definitions
 
@@ -77,7 +77,7 @@ The original source for contract awards was the Federal Procurement Data System 
 
 Ordinarily, the **Program / Funding Agency Code** and the **Treasury Account Symbol Agency Identifier** can identify the funding agency. 
 
-The original source for *financial assistance awards* was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce.  OMB added data elements to FAADS (called FAADS PLUS) for FFATA reporting.  FAADS PLUS includes the following Federal organization-related data elements. Currently, agencies submit the same data using the same definitions to USAspending.gov using the Award Submission Portal (ASP). The ASP has replaced FAADS and FAADS PLUS. The two codes in the ASP that relates to Funding Agency follows:
+The original source for *financial assistance awards* was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce.  OMB added data elements to FAADS (called FAADS PLUS) for FFATA reporting.  FAADS PLUS includes the following federal organization-related data elements. Currently, agencies submit the same data using the same definitions to USAspending.gov using the Award Submission Portal (ASP). The ASP has replaced FAADS and FAADS PLUS. The two codes in the ASP that relates to Funding Agency follows:
 
 * Federal Agency / Organizational Unit Code – four-position FIPS-95<sup>1</sup> agency-bureau sequencing numeric code.  
 * Federal Agency Name – the name of the agency making the award of financial assistance.
@@ -87,7 +87,7 @@ The **Program Source / Treasury Account Symbol**: Agency Code identifies the fun
 
 In the past, financial assistance awards only reported one organization; they did not differentiate between funding agency and awarding agency.  Going forward, financial assistance awards must include both.
 
-In the future, the Federal communities will examine the potential to provide additional detail on funding sources, beyond the source of the preponderance of funding.  
+In the future, the federal communities will examine the potential to provide additional detail on funding sources, beyond the source of the preponderance of funding.  
 
 ##Final Definitions for Transparency Reporting
 
