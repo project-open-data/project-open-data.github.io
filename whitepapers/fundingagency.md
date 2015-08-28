@@ -41,11 +41,11 @@ title: Funding Agency
 
 ## Response to Public Feedback (August 2015)
 
-During the three week public feedback period, this paper received 8 posts from 7 individuals and organizations here, and OMB and Treasury received additional feedback from the Government Accountability Office (GAO). The majority of the posts brought up concerns about the clarity and specificity of these papers and the definitions; and concerns that using different code lists in different communities would create data quality issues. The final data element definitions can be found here.
+During the three week public feedback period, this paper received 8 posts from 7 individuals and organizations here, and OMB and Treasury received additional feedback from the Government Accountability Office (GAO). The majority of the posts brought up concerns about the clarity and specificity of these papers and the definitions; and concerns that using different code lists in different communities would create data quality issues. The final data element definitions can be found [here](https://max.gov/datastandards).
 
-In response to the feedback posted, we have added additional context to both this paper and the paper for Appropriations Account. The data elements for Awarding Agency Name and Awarding Agency Code have been moved without changes to this white paper to better clarify that they are constructs used in the awarding community (financial assistance and procurement), but not in the financial community. 
+In response to the feedback posted, we have added additional context to both this paper and the paper for A[ppropriations Account](/whitepapers/approp-agency-tas/). The data elements for Awarding Agency Name and Awarding Agency Code have been moved without changes to this white paper to better clarify that they are constructs used in the awarding community (financial assistance and procurement), but not in the financial community. 
 
-In addition, to address data quality concerns, OMB and Treasury will be working with agencies to develop validation rules. Additional details about proposed management of agency hierarchy can be found in the paper for Sub Tier Agency and Office here. 
+In addition, to address data quality concerns, OMB and Treasury will be working with agencies to develop validation rules. Additional details about proposed management of agency hierarchy can be found in the paper for Sub Tier Agency and Office [here](/whitepapers/sub-tier-agency/). 
 
 To clarify, for award level DATA Act reporting, agencies will report both the agency that provided the preponderance of the funds for the award (Funding Agency) and the agency that interacts with the recipient to make the award (Awarding Agency), using the Common Government-wide Accounting Classification (CGAC) standard described below.  These are data elements used by the Federal awarding community and will not be reported from agency financial systems or derived from the Treasury Account Symbol (excluding sub-account). By using the CGAC standard that is used by the financial community, for the first time, the financial, procurement, and financial assistance communities will be using the same names and codes to describe Federal agencies, which will improve data quality, consistency, and transparency.
 
@@ -89,7 +89,7 @@ In the past, financial assistance awards only reported one organization; they di
 
 In the future, the Federal communities will examine the potential to provide additional detail on funding sources, beyond the source of the preponderance of funding.  
 
-##Recommended Definitions for Transparency Reporting
+##Final Definitions for Transparency Reporting
 
 <table>
   <thead>

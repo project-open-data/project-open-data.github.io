@@ -38,9 +38,9 @@ Thank you for contributing your feedback on this data element—your input and i
 
 ## Response to Public Feedback (August 2015)
 
-This paper has been edited based on feedback provided for the Funding Agency white paper here, which received 8 posts from 7 individuals here, and OMB and Treasury received feedback from the Government Accountability Office (GAO). The majority of the posts brought up concerns about the clarity and specificity of these papers and the definitions; and concerns that using different code lists in different communities would create data quality issues. 
+This paper has been edited based on feedback provided for the Funding Agency white paper [here](/whitepapers/fundingagency/), which received 8 posts from 7 individuals [here](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68), and OMB and Treasury received feedback from the Government Accountability Office (GAO). The majority of the posts brought up concerns about the clarity and specificity of these papers and the definitions; and concerns that using different code lists in different communities would create data quality issues. 
 
-To address the feedback posted, context has been added to this paper and the paper for Funding Agency Name and Code, which now also contains the data elements Awarding Agency Name and Code. In addition, to address data quality concerns, OMB and Treasury will be working with agencies to develop validation rules. Additional details about proposed management of agency hierarchy can be found in the paper for Sub Tier Agency and Office here. For award level DATA Act reporting, agencies will report both the agency that provided the preponderance of the fund for the award (Funding Agency) and the agency that interacts with the recipient to make the award (Awarding Agency), using the CGAC standard described in the paper below. For the first time, the financial, procurement, and financial assistance communities will be using the same names and codes to describe Federal agencies, which will improve data quality, consistency, and transparency. 
+To address the feedback posted, context has been added to this paper and the paper for [Funding Agency Name and Code](/whitepapers/fundingagency/), which now also contains the data elements Awarding Agency Name and Code. In addition, to address data quality concerns, OMB and Treasury will be working with agencies to develop validation rules. Additional details about proposed management of agency hierarchy can be found in the paper for Sub Tier Agency and Office [here](/whitepapers/sub-tier-agency/). For award level DATA Act reporting, agencies will report both the agency that provided the preponderance of the fund for the award ([Funding Agency](/whitepapers/fundingagency/)) and the agency that interacts with the recipient to make the award ([Awarding Agency](/whitepapers/fundingagency/)), using the CGAC standard described in the paper below. For the first time, the financial, procurement, and financial assistance communities will be using the same names and codes to describe Federal agencies, which will improve data quality, consistency, and transparency. 
 
 ## Background
 
@@ -138,8 +138,8 @@ OMB Circular A-11 Appendix C is the authoritative source for a list of agency id
 <table>
   <thead>
     <tr>
-      <th scope="col">Recommended Data Element Name</th>
-      <th scope="col">Recommended Definition</th>
+      <th scope="col">Data Element Name</th>
+      <th scope="col">Definition</th>
     </tr>
   </thead>
   <tr>

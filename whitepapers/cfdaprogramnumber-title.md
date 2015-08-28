@@ -30,7 +30,7 @@ title: CFDA Program Number_Title
 
 ## Response to Public Feedback (August 2015)
 
-The Catalog of Federal Domestic Assistance (CFDA) is a resource for stakeholders within and outside of the Federal government. The CFDA Number and CFDA Title reported on USAspending.gov help to more transparently associate the CFDA entries with awards and obligations that are made, providing greater transparency about Federal financial assistance. During the three week feedback period, 4 individuals and organizations contributed 4 posts through the GitHub issue here, and OMB and Treasury received feedback from the Government Accountability Office (GAO). This feedback has provided valuable insight into how stakeholders use these data elements. However, after reviewing this feedback, no changes to this paper or definitions were deemed necessary because most of the points relate to operation or policy issues that OMB and Treasury will continue to examine moving forward. The final data element definitions can be found here.
+The Catalog of Federal Domestic Assistance (CFDA) is a resource for stakeholders within and outside of the Federal government. The CFDA Number and CFDA Title reported on USAspending.gov help to more transparently associate the CFDA entries with awards and obligations that are made, providing greater transparency about Federal financial assistance. During the three week feedback period, 4 individuals and organizations contributed 4 posts through the GitHub issue [here](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67), and OMB and Treasury received feedback from the Government Accountability Office (GAO). This feedback has provided valuable insight into how stakeholders use these data elements. However, after reviewing this feedback, no changes to this paper or definitions were deemed necessary because most of the points relate to operation or policy issues that OMB and Treasury will continue to examine moving forward. The final data element definitions can be found [here](https://max.gov/datastandards).
 
 
 ## Background
@@ -94,7 +94,7 @@ The following data elements are determined to be necessary to communicate the CF
   <thead>
     <tr>
       <th scope="col">Data Element Name</th>
-      <th scope="col">Recommended Definition</th>
+      <th scope="col">Definition</th>
     </tr>
   </thead>
   <tr>

@@ -46,7 +46,7 @@ title: Period of Performance
 
 ## Response to Public Feedback (August 2015)
 
-Period of Performance is a data element of interest to many stakeholder groups, within and outside of the Federal Government. During the three week feedback period, 4 individuals and organizations contributed 6 posts through the GitHub issue here. This feedback has provided valuable insight into how stakeholders use these data elements. However, after reviewing this feedback, no changes to the below paper or definitions were deemed necessary. The final data element definitions can be found here.
+Period of Performance is a data element of interest to many stakeholder groups, within and outside of the Federal Government. During the three week feedback period, 4 individuals and organizations contributed 6 posts through the GitHub issue [here](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71). This feedback has provided valuable insight into how stakeholders use these data elements. However, after reviewing this feedback, no changes to the below paper or definitions were deemed necessary. The final data element definitions can be found [here](https://max.gov/datastandards).
 
 
 ##Background
@@ -77,8 +77,8 @@ The following data elements are proposed as those necessary to communicate the P
 <table>
   <thead>
     <tr>
-      <th scope="col">Element</th>
-      <th scope="col">Recommended Definition</th>
+      <th scope="col">Data Element Name</th>
+      <th scope="col">Definition</th>
     </tr>
   </thead>
   <tr>
