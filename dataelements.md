@@ -277,22 +277,22 @@ These data elements describe characteristics of the entity that provided funding
   <tr>
     <td><a href="/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Sub Tier Agency Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">leave feedback (8/28/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Sub Tier Agency Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">leave feedback (8/28/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Office Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">leave feedback (8/28/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Office Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">leave feedback (8/28/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
   </tr>
 </table>
 
@@ -322,22 +322,22 @@ Elements on this list describe awarding entities – those that presented the aw
   <tr>
     <td><a href="/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Sub Tier Agency Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">leave feedback (8/28/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Sub Tier Agency Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">leave feedback (8/28/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Office Name</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">leave feedback (8/28/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
   </tr>
   <tr>
     <td><a href="/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Office Code</a></td>
     <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">leave feedback (8/28/2015)</a></td>
+    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
   </tr>
 </table>
 
