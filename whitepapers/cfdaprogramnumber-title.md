@@ -30,7 +30,7 @@ title: CFDA Program Number_Title
 
 ## Response to Public Feedback (August 2015)
 
-The Catalog of Federal Domestic Assistance (CFDA) is a resource for stakeholders within and outside of the Federal government. The CFDA Number and CFDA Title reported on USAspending.gov help to more transparently associate the CFDA entries with awards and obligations that are made, providing greater transparency about Federal financial assistance. During the three week feedback period, 4 individuals and organizations contributed 4 posts through the GitHub issue [here](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67), and OMB and Treasury received feedback from the Government Accountability Office (GAO). This feedback has provided valuable insight into how stakeholders use these data elements. However, after reviewing this feedback, no changes to this paper or definitions were deemed necessary because most of the points relate to operation or policy issues that OMB and Treasury will continue to examine moving forward. The final data element definitions can be found [here](https://max.gov/datastandards).
+The Catalog of Federal Domestic Assistance (CFDA) is a resource for stakeholders within and outside of the federal government. The CFDA Number and CFDA Title reported on USAspending.gov help to more transparently associate the CFDA entries with awards and obligations that are made, providing greater transparency about Federal financial assistance. During the three week feedback period, 4 individuals and organizations contributed 4 posts through the GitHub issue [here](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67), and OMB and Treasury received feedback from the Government Accountability Office (GAO). This feedback has provided valuable insight into how stakeholders use these data elements. However, after reviewing this feedback, no changes to this paper or definitions were deemed necessary because most of the points relate to operation or policy issues that OMB and Treasury will continue to examine moving forward. The final data element definitions can be found [here](https://max.gov/datastandards).
 
 
 ## Background
@@ -39,7 +39,7 @@ The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires
 
 ## Context
 
-FFATA requires data reporting on the CFDA number of the federal financial assistance program under which an award is made.  For the grants community, OMB Circular A-133 long has required Federal agencies to include in award documentation, the title and number listed in the CFDA for the program under which the award is made, to inform the recipient and make that information available to the auditor conducting the audit of the recipient that the Single Audit Act requires.  With the issuance of the Uniform Guidance, that requirement now is in 2 CFR 200.210.   OMB Circular A-133 also required (now in the Uniform Guidance at 2 CFR 200.331) each recipient to provide the CFDA program title and number to its subrecipients, for the same reason, by including it in each subaward.  
+FFATA requires data reporting on the CFDA number of the federal financial assistance program under which an award is made.  For the grants community, OMB Circular A-133 long has required federal agencies to include in award documentation, the title and number listed in the CFDA for the program under which the award is made, to inform the recipient and make that information available to the auditor conducting the audit of the recipient that the Single Audit Act requires.  With the issuance of the Uniform Guidance, that requirement now is in 2 CFR 200.210.   OMB Circular A-133 also required (now in the Uniform Guidance at 2 CFR 200.331) each recipient to provide the CFDA program title and number to its subrecipients, for the same reason, by including it in each subaward.  
 
 All CFDA entries are updated annually and must be completed by September 1st for the following fiscal year.  To ensure compliance, an estimate based on appropriations, or the President’s budget is included with each entry and an estimate for the following fiscal year is also provided to allow for extensive planning by existing and potential grantees.
 
@@ -47,19 +47,19 @@ All CFDA entries are updated annually and must be completed by September 1st for
 
 In 1983, Public Law 98-169 amended the Federal Program Information Act to transfer to the Administrator of GSA the responsibilities previously assigned to the Director of OMB for maintaining the CFDA as a computerized information system.  31 U.S.C. § 6102.  The system is to provide public access to the information the Act requires the Director of OMB to collect from agencies, review, and provide to the Administrator.  The transfer for maintaining the CFDA took place in July 1984. The Uniform Grants Guidance (2 CFR 200.202) states: 
 
-a)  The Federal awarding agency must notify the public of Federal programs in the Catalog of Federal Domestic Assistance (CFDA), maintained by the General Services Administration (GSA)
+a)  The federal awarding agency must notify the public of federal programs in the Catalog of Federal Domestic Assistance (CFDA), maintained by the General Services Administration (GSA)
 
-  1.  The CFDA, or any OMB-designated replacement, is the single, authoritative, government wide comprehensive source of Federal financial assistance program information produced by the executive branch of the Federal Government.
-  2.  The information that the Federal awarding agency must submit to GSA for approval by OMB is listed in paragraph (b) of this section. GSA must prescribe the format for the submission.
-  3.  The Federal awarding agency may not award Federal financial assistance without assigning it to a listing that has been included in the CFDA as required in this section unless there are exigent circumstances requiring otherwise, such as timing requirements imposed by statute.
+  1.  The CFDA, or any OMB-designated replacement, is the single, authoritative, government wide comprehensive source of federal financial assistance program information produced by the executive branch of the federal government.
+  2.  The information that the federal awarding agency must submit to GSA for approval by OMB is listed in paragraph (b) of this section. GSA must prescribe the format for the submission.
+  3.  The federal awarding agency may not award federal financial assistance without assigning it to a listing that has been included in the CFDA as required in this section unless there are exigent circumstances requiring otherwise, such as timing requirements imposed by statute.
 
-b)  For each CFDA unit that awards discretionary Federal awards, non-discretionary Federal awards, loans, insurance, or any other type of Federal financial assistance, the Federal awarding agency must submit the following information to GSA:
+b)  For each CFDA unit that awards discretionary federal awards, non-discretionary federal awards, loans, insurance, or any other type of federal financial assistance, the federal awarding agency must submit the following information to GSA:
 
-  1.  Description, Purpose, Goals and Measurement. A brief summary of the statutory or regulatory requirements of the program and its intended outcome. Where appropriate, the Program Description, Purpose, Goals, and Measurement should align with the strategic goals and objectives within the Federal awarding agency's performance plan and should support the Federal awarding agency's performance measurement, management, and reporting as required by Part 6 of OMB Circular A-11;
-  2.  Identification of whether the CFDA number makes Federal awards on a discretionary basis or the Federal awards are prescribed by Federal statute, such as in the case of formula grants;
+  1.  Description, Purpose, Goals and Measurement. A brief summary of the statutory or regulatory requirements of the program and its intended outcome. Where appropriate, the Program Description, Purpose, Goals, and Measurement should align with the strategic goals and objectives within the federal awarding agency's performance plan and should support the federal awarding agency's performance measurement, management, and reporting as required by Part 6 of OMB Circular A-11;
+  2.  Identification of whether the CFDA number makes federal awards on a discretionary basis or the federal awards are prescribed by federal statute, such as in the case of formula grants;
   3.  Projected total amount of funds available associated with the CFDA number. Estimates based on previous year funding are acceptable if current appropriations are not available at the time of the submission;
-  4.  Anticipated Source of Available Funds: The statutory authority for funding associated with the CFDA number and, to the extent possible, agency, sub-agency, or, if known, the specific program unit that will issue the Federal awards, and associated funding identifier (e.g., Treasury Account Symbol(s));
-  5.  General Eligibility Requirements: The statutory, regulatory or other eligibility factors or considerations that determine the applicant's qualification for Federal awards under the program (e.g., type of non-Federal entity); and
+  4.  Anticipated Source of Available Funds: The statutory authority for funding associated with the CFDA number and, to the extent possible, agency, sub-agency, or, if known, the specific program unit that will issue the federal awards, and associated funding identifier (e.g., Treasury Account Symbol(s));
+  5.  General Eligibility Requirements: The statutory, regulatory or other eligibility factors or considerations that determine the applicant's qualification for federal awards under the program (e.g., type of non-Federal entity); and
   6.  Applicability of Single Audit Requirements required by Subpart F—Audit of this part.
 
 ## Method of Collection
@@ -99,11 +99,11 @@ The following data elements are determined to be necessary to communicate the CF
   </thead>
   <tr>
     <td>Catalogue of Federal Domestic Assistance (CFDA) Number</td>
-    <td>The number assigned to a Federal area of work in the Catalog of Federal Domestic Assistance. </td>
+    <td>The number assigned to a federal area of work in the Catalog of Federal Domestic Assistance. </td>
   </tr>
   <tr>
     <td>Catalogue of Federal Domestic Assistance (CFDA) Title</td>
-    <td>The title of the area of work under which the Federal award was funded in the Catalogue of Federal Domestic Assistance.</td>
+    <td>The title of the area of work under which the federal award was funded in the Catalogue of Federal Domestic Assistance.</td>
   </tr>
 </table>
 
