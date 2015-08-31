@@ -398,7 +398,7 @@ This list features elements that describe the accounts from which the awards are
   </tr>
 </table>
 
-* An asterisk (*) next to a data element name indicates that the name for that data element has changed since it was first posted here in December 2015.  All final data element names and definitions are posted [here](https://max.gov/datastandards)
+\* An asterisk (*) next to a data element name indicates that the name for that data element has changed since it was first posted here in December 2015.  All final data element names and definitions are posted [here](https://max.gov/datastandards)
 
 
 

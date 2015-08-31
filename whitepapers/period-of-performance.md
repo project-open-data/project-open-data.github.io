@@ -95,13 +95,8 @@ The following data elements are proposed as those necessary to communicate the P
     <td>The current date on which, for the award referred to by the action being reported, awardee effort completes or the award is otherwise ended.  Administrative actions related to this award may continue to occur after this date.  This date does not apply to procurement indefinite delivery vehicles under which definitive orders may be awarded.</td>
   </tr>
   <tr>
-    <td>Period of Performance Current End Date</td>
-    <td>The current date on which, for the award referred to by the action being reported, awardee effort completes or the award is otherwise ended.  Administrative actions related to this award may continue to occur after this date.  This date does not apply to procurement indefinite delivery vehicles under which definitive orders may be awarded.
-    </td>
-  </tr>
-  <tr>
     <td>Period of Performance Potential End Date</td>
-    <td>The date on which, for the award referred to by the action being reported if all potential pre-determined or pre-negotiated options were exercised, awardee effort is completed or the award is otherwise ended.  Administrative actions related to this award may continue to occur after this date.  This date does not apply to procurement indefinite delivery vehicles under which definitive orders may be awarded.</td>
+    <td>For procurement, the date on which, for the award referred to by the action being reported if all potential pre-determined or pre-negotiated options were exercised, awardee effort is completed or the award is otherwise ended. Administrative actions related to this award may continue to occur after this date. This date does not apply to procurement indefinite delivery vehicles under which definitive orders may be awarded.</td>
   </tr>
   <tr>
     <td>Ordering Period End Date</td>
