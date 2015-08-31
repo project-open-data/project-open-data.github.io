@@ -98,7 +98,7 @@ The original source for *contract awards* was the Federal Procurement Data Syste
   </thead>
   <tr>
     <td>Amount of Award</td>
-    <td>The cumulative amount obligated by the federal government for an award, which is calculated by USAspending.gov.
+    <td>The cumulative amount obligated by the federal government for an award, calculated by USAspending.gov or a successor site.
     <br> 
     For procurement and financial assistance awards except loans, this is the sum of Federal Action Obligations.
     <br>
