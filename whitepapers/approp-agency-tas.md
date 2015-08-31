@@ -6,7 +6,8 @@ filename: approp-agency-tas.md
 title: Treasury Account Symbol, Appropriations Account, and Agency
 ---
 
-# Elements: Treasury Account Symbol (excluding Sub-Account), Appropriations Account, and Agency
+# Elements: Appropriations Account, Agency, Treasury Account Symbol (excluding sub-account)
+
 
 Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "Federal Spending Transparency Standards") to see the data definitions for these elements in their final form.
 
@@ -24,21 +25,22 @@ Thank you for contributing your feedback on this data element—your input and i
     <td>DATA Act</td>
   </tr>
   <tr>
-    <td>Agency Code and Agency Name</td>
+    <td>Agency</td>
     <td>Account Level Information</td>
     <td>DATA Act</td>
   </tr>
   <tr>
-    <td>Treasury Appropriation Fund Symbol</td>
-    <td>Account Level Information</td>
-    <td>DATA Act</td>
-  </tr>
-  <tr>
-    <td>Treasury Account Symbol</td>
+    <td>Treasury Account Symbol (excluding sub-account)</td>
     <td>Award Characteristic Information</td>
     <td>FFATA</td>
   </tr>
 </table>
+
+## Response to Public Feedback (August 2015)
+
+This paper has been edited based on feedback provided for the Funding Agency white paper [here](/whitepapers/fundingagency/), which received 8 posts from 7 individuals [here](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68), and OMB and Treasury received feedback from the Government Accountability Office (GAO). The majority of the posts brought up concerns about the clarity and specificity of these papers and the definitions; and concerns that using different code lists in different communities would create data quality issues. 
+
+To address the feedback posted, context has been added to this paper and the paper for [Funding Agency Name and Code](/whitepapers/fundingagency/), which now also contains the data elements Awarding Agency Name and Code. In addition, to address data quality concerns, OMB and Treasury will be working with agencies to develop validation rules. Additional details about proposed management of agency hierarchy can be found in the paper for Sub Tier Agency and Office [here](/whitepapers/sub-tier-agency/). For award level DATA Act reporting, agencies will report both the agency that provided the preponderance of the fund for the award ([Funding Agency](/whitepapers/fundingagency/)) and the agency that interacts with the recipient to make the award ([Awarding Agency](/whitepapers/fundingagency/)), using the CGAC standard described in the paper below. For the first time, the financial, procurement, and financial assistance communities will be using the same names and codes to describe federal agencies, which will improve data quality, consistency, and transparency. 
 
 ## Background
 
@@ -131,32 +133,30 @@ Second, funding in the federal government ties back to appropriations accounts, 
 
 OMB Circular A-11 Appendix C is the authoritative source for a list of agency identifiers.  The CGAC Agency Code column should be used.  The FAST Book is the authoritative source for the list of main account codes.
 
-## Recommended Definitions for Transparency Reporting
+## Final Definitions for Transparency Reporting
 
 <table>
   <thead>
     <tr>
-      <th scope="col">Recommended Data Element Name</th>
-      <th scope="col">Recommended Definition</th>
+      <th scope="col">Data Element Name</th>
+      <th scope="col">Definition</th>
     </tr>
   </thead>
   <tr>
     <td>Appropriations Account</td>
     <td>The basic unit of an appropriation generally reflecting each unnumbered paragraph in an appropriation act.  An appropriation account typically encompasses a number of activities or projects and may be subject to restrictions or conditions applicable to only the account, the appropriation act, titles within an appropriation act, other appropriation acts, or the government as a whole.
-
-    An appropriations account is represented by a TAFS.</td>
+    <br>
+    An appropriations account is represented by a TAFS. 
+</td>
   </tr>
   <tr>
-    <td>Agency</td>
-    <td>A department or establishment of the Government.</td>
-  </tr>
-  <tr>
-    <td>Treasury Appropriation Fund Symbol</td>
-    <td>The components of a Treasury Account Symbol – allocation agency, agency, main account, period of availability and availability type – that directly correspond to an appropriations account established by Congress.</td>
-  </tr>
-  <tr>
-    <td>Treasury Account Symbol</td>
-    <td>The account identification codes assigned by the Department of the Treasury to individual appropriation, receipt, or other fund accounts.  All financial transactions of the federal government are classified by TAS for reporting to the Department of the Treasury and the Office of Management and Budget.</td>
+    <td>Treasury Account Symbol (excluding sub-account)</td>
+    <td><strong>Agency:</strong> A department or establishment of the Government.(defined in OMB Circular A-11)
+    <br>
+    <strong>Treasury Account Symbol:</strong> The account identification codes assigned by the Department of the Treasury to individual appropriation, receipt, or other fund accounts. All financial transactions of the federal government are classified by TAS for reporting to the Department of the Treasury and the Office of Management and Budget.(defined in OMB Circular A-11)
+    <br>
+    <strong>Treasury Appropriation Fund Symbol:</strong> The components of a Treasury Account Symbol – allocation agency, agency, main account, period of availability and availability type – that directly correspond to an appropriations account established by Congress.(defined in OMB Circular A-11)
+</td>
   </tr>
 </table>
 

@@ -6,59 +6,20 @@ filename: index.md
 title: Federal Spending Collaboration Space
 ---
 
-#We Need Your Feedback!
+#Thanks for Helping Us Improve Government Data
 
-In conjunction with the recent enactment of the Digital Accountability and Transparency Act (DATA Act) [(Pub. L. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm) and our ongoing efforts to improve federal spending data under the Federal Funding Accountability and Transparency Act (FFATA), the federal government is working to establish government-wide financial data standards and increase the availability, accuracy, and usefulness of federal spending information.
-
-To make sure that we implement the data standards and improvements successfully, we need feedback from stakeholders outside the federal government (that’s you). We’ve created a collaboration space to foster two-way communication and the open exchange of ideas between federal and non-federal stakeholders.
-
-The overall data standardization effort consists of two parallel, yet related efforts:
-
- 1. Standardizing the definition of the data elements that the DATA Act requires
- 2. Creating a data exchange standard that includes these elements and prescribes how to transmit them between agencies and the public.
-
-The data exchange standard broadly refers to the DATA Act Schema, which is the generic model of the relationships between data elements, and the format-specific implementations of this schema, where the data validation requirements are specifically expressed as XML, JSON, or other formats.
-
-As we continue our implementation efforts, we’ll be asking for your feedback on both efforts. Because the the data definitions necessarily inform the data exchange standard, we will be releasing several drafts of it to incorporate new information and feedback. During the implementation process, you’ll have many opportunities to share your insights. Interested in providing feedback? Keep reading for more information on how to get involved.
-
-##The Timeline
-
-Because there are so many data elements, we’ll be focusing the conversation on certain ones during three-week rounds. In each round, we'll select a different group of elements to discuss; these discussions will take place on [GitHub](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues).
-
-The feedback on the data exchange standard will be open on a less regular, but still rolling basis. As newly defined elements are added to the schema and we create example implementations, we will post new versions to collect feedback on.  
-
-To get updates on when any new information is posted to this space, please [sign up for our email list](https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa).
-
-##How to Participate
-
-Sharing your feedback is simple. To get started, take a look at these [lists of data elements](dataelements/). They feature the elements that are currently displayed on USAspending.gov (in accordance with the Federal Funding Accountability Transparency Act (FFATA)), along with elements that will be published in accordance with the DATA Act. As you review the lists, ask yourself whether anything is missing. Is the data defined and captured in a way that's useful to you? Do you have questions about any of the elements? We'd love to hear your impressions of the current elements and how they might be improved.
-
-Beginning in March 2015, we’ll be using [Github issues](https://guides.github.com/features/issues/) to track the conversation around and proposed changes to each data element. (If you’ve never used GitHub, you can find a great overview [tutorial](https://www.youtube.com/watch?v=TJlYiMp8FuY) here.) Each data element will have its own issue and will be tagged with a descriptive category (such as *awardee* or *account information*). To join the discussion about a certain element, simply post a comment on that element’s issue. All discussion participants will be able to read and respond to your feedback.
-
-Similarly, you can discuss the data exchange standard (including the DATA Act Schema and any example implementations) on any issue with the label [data exchange standard](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/labels/data%20exchange%20standard). You can also keep track of past conversations and work to date on the [data exchange standard page](data-exchange-standard/).
-
-If you think an element is missing from this list, we’d like to know. To propose a new element, create an issue and add the tag *proposed element*. For a more in-depth guide to sharing feedback, visit our complete [How to Contribute Feedback](feedback/) page.
+On August 31, 2015 the Office of Management and Budget (OMB) and the Department of the Treasury (Treasury) released the complete list of standardized data elements. Each of the 57 data standards was open on GitHub for three weeks of public input.  After considering input from both federal and non-federal stakeholders, we have finalized standard definitions for use across the government. Standardization of these elements will help facilitate increased government efficiency and transparency.  In addition to input on specific proposed data definitions, we have also received great feedback on ideas for new/additional data elements to further standardize.  Moving forward, we’ll be developing a process to review and, if necessary, update the final data standards and consider additional data elements for standardization      
 
 
-##Background Materials
+With the enactment of the Digital Accountability and Transparency Act of 2014 (DATA Act) [(Pub. L. No. 113-101)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/html/PLAW-113publ101.htm) and our ongoing efforts to improve federal spending data under the Federal Funding Accountability and Transparency Act of 2006 (FFATA), the federal government has established government-wide financial data standards which will  increase the availability, accuracy, and usefulness of federal spending information. 
 
-Would you like more information about a specific data element? [Browse our selection of white papers](dataelements/ "Data Elements") on different elements and read those that interest you.
+The overall data standardization effort consists of two parallel, yet related, efforts:
 
+1.	Standardizing the definition of 57 financial and award data standards (complete on August 31, 2015); and
+2.	Creating a data exchange standard that prescribes how to transmit these elements between agencies and how to display the data to the public.
 
-##Recent News and Events
+The data exchange standard broadly refers to the DATA Act Schema.  The DATA Act Schema depicts the relationships between data elements and the format-specific implementations of the schema.  Furthermore, data validation requirements are specifically expressed in the DATA Act Schema and a rules file linked to the schema. 
 
-###News
-Read the latest on federal financial data updates and the DATA Act.
+During the data element standardization process, we relied on input from both federal and non-federal stakeholders, which helped us better understand how stakeholders report and use data.  The public input we received informed our work, and we responded by updating the white papers we posted on [GitHub](http://fedspendingtransparency.github.io/dataelements/).  As we continue our implementation efforts, the discussion threads on data standards we opened in December 2014 will remain open. Please continue to post your thoughts and propose additional data elements for standardization. We also look forward to reading your feedback on future releases of the DATA Act Schema.  You can discuss the data exchange standard (including the DATA Act Schema and any example implementations) on any issue with the label  [data exchange standard](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/labels/data%20exchange%20standard). You can also keep track of past conversations and our current work on the [data exchange standard page](http://fedspendingtransparency.github.io/data-exchange-standard/).
 
-* On June 26, 2015 the Office of Management and Budget (OMB) and U.S. Treasury Department issued the latest data definition standards for DATA Act implementation. These standards are posted [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm). 
-
-* On May 8, 2015 the Office of Management and Budget (OMB) and U.S. Treasury Department issued a blog post: [“Better data, Better decisions, Better government”](https://www.whitehouse.gov/blog/2015/05/08/better-data-better-decisions-better-government) and OMB issued guidance to federal agencies: [“Increasing Transparency of Federal Spending by Making Federal Spending Data Accessible, Searchable, and Reliable”](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-12.pdf).
-
-* The U.S. Treasury Department issued a solicitation for public input on the establishment of federal financial data exchange standards via a [Federal Register Notice](https://federalregister.gov/a/2014-22997). The Federal Register comments are closed and have been summarized in [this presentation](http://fedspendingtransparency.github.io/DATA%20Act%20Federal%20Register%20Notice%20-%20Public%20Summary%20of%20Responses.pptx "summary of responses to Federal Register comments on financial exchange data standards"). See all of the comments [here](http://www.regulations.gov/#!docketBrowser;rpp=25;po=0;dct=PS;D=FISCAL-2014-0004).
-
-###Events
-Get materials from past town hall meetings, watch webinar recordings, and more.
-
-* National Webcast on DATA Act Implementation: We recorded a live webcast on the DATA Act implementation on April 15, 2015. We discussed our current implementation efforts as well as answered questions from industry, transparency advocates, and federal award recipients. The link for the archived webcast can be found at [https://www.youtube.com/watch?v=_jjB_ggYBcA](https://www.youtube.com/watch?v=_jjB_ggYBcA)
-
-* [Financial Data Transparency Town Hall September 26, 2014](thdescription/)
+Again, we thank everyone who provided feedback during the data standardization process.  Your feedback has served a significant role in helping to define data standards across the federal government.  OMB and Treasury will continue to leverage GitHub to consult with stakeholders as agencies work to realize the full potential of the DATA Act. 

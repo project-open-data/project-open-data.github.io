@@ -1,9 +1,9 @@
 ---
 published: true
-permalink: /whitepapers/type-transaction-code/
+permalink: /whitepapers/types/
 layout: hero
-filename: type-transaction-code.md
-title: Type of Transaction Code
+filename: types.md
+title: Types
 ---
 
 # Element: Award Type, Action Type, Record Type
@@ -29,19 +29,28 @@ title: Type of Transaction Code
   </tr>
 </table>
 
+## Response to Public Feedback (August 2015)
+
+The three data elements in this paper provide additional information about awards and modifications. During the three week feedback period, 5 individuals and organizations contributed 5 posts through the GitHub issue [here](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73), and OMB and Treasury received feedback from the Government Accountability Office (GAO). This feedback has provided valuable insight into how stakeholders use these data elements. As we move through implementation, these are issues we will continue to address through updated to the schema, ongoing policy discussions, and potential further clarification. However, after reviewing this feedback, no changes to the below paper or definitions were deemed necessary. The final data element definitions can be found [here](https://max.gov/datastandards).
+
+
 ##Background
-The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that the transaction type be reported for each Federal award.  There is no specific requirement in either FFATA or the Digital Accountability and Transparency Act of 2014 (DATA Act) that requires reporting of Record Type or Type of Action.  However, these additional elements are important to understanding the data that is required to be reported, and so this paper provides the definitions.
+
+The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that the transaction type be reported for each federal award.  There is no specific requirement in either FFATA or the Digital Accountability and Transparency Act of 2014 (DATA Act) that requires reporting of Record Type or Type of Action.  However, these additional elements are important to understanding the data that is required to be reported, and so this paper provides the definitions.
 
 ##Context
+
 Agencies used two established data sources (further described below) to report awards to USAspending.gov.  There were several fields in the established data sources that characterize the award information reported.  
 
 ##Analysis of Current Definitions and Considerations
-The original source for *financial assistance awards* was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce.  Currently, agencies submit their financial assistance awards data to USAspending.gov using the Award Submission Portal (ASP). The ASP adopted the Aggregate Reporting and Type of Action definitions of the FAADS.
 
-The original source for contract awards was the Federal Procurement Data System – Next Generation (FPDS-NG).  
+The original source for _financial assistance awards_ was the Federal Assistance Award Data System (FAADS) maintained by the U.S. Census Bureau, Department of Commerce. Currently, agencies submit their financial assistance awards data to USAspending.gov using the Award Submission Portal (ASP). The ASP adopted the Aggregate Reporting and Type of Action definitions of the FAADS.
 
-<b>Federal prime award</b> – award being reported 
-This is the method chosen by the Federal government to provide funding in support of programmatic outcomes. This is the highest level of award for which funding will be summarized and for which more detailed information will be made available.   The required FFATA award types related to financial assistance and contracts and are defined as follows:  
+The original source for _contract awards_ was the Federal Procurement Data System – Next Generation (FPDS-NG).  
+
+### Federal prime award -the award being reported 
+
+This is the method chosen by the federal government to provide funding in support of programmatic outcomes. This is the highest level of award for which funding will be summarized and for which more detailed information will be made available.   The required FFATA award types related to financial assistance and contracts are defined as follows:  
 
 * Grant
 * Loan
@@ -49,17 +58,17 @@ This is the method chosen by the Federal government to provide funding in suppor
 * Other form of financial assistance
 * Contract
 
-Some data users are only interested in these general types.  Currently there is no single element that corresponds to these general types.  This categorization is determined to be procurement if the award is reported through Federal Procurement Data System-Next Generation (FPDS-NG). If the award is reported through the Award Submission Portal (ASP) using the FAADS+ format, the Type of Assistance field below is used.  This paper does not propose a new data element required to identify a Federal contract, loan, grant, or other award type, but rather recommends a stratification for display purposes. OMB and Treasury are currently working with agencies to design the future reporting architecture which will adhere to this practice and not require a new data element.    
+Some data users are only interested in these general types.  Currently, there is no single element that corresponds to these general types.  This categorization is determined to be procurement if the award is reported through Federal Procurement Data System-Next Generation (FPDS-NG). If the award is reported through the ASP using the FAADS PLUS format, the Type of Assistance field below is used.  This paper does not propose a new data element required to identify a federal contract, loan, grant, or other award type, but rather recommends a stratification for display purposes. OMB and Treasury are currently working with agencies to design the future reporting architecture which will adhere to this practice and not require a new data element.      
 
-###Award Type – 
-this level provides more information about the specific type of award used (for financial assistance: “Type of Assistance”; for procurement: “Transaction Information” and “Type of Procurement Instrument”) 
-Federal awards are categorized in accordance with the objectives of the program, and the structure of the award.  The required FFATA award types are related to financial assistance and contracts and are defined as:  
+###Award Type – this level provides more information about the specific type of award used (for financial assistance: “Type of Assistance”; for procurement: “Transaction Information” and “Type of Procurement Instrument”) 
+federal awards are categorized in accordance with the objectives of the program, and the structure of the award.  The required FFATA award types are related to financial assistance and contracts and are defined as:  
 
-<b>(1) Contract –  transaction information</b>
+
+<b>(1) Federal Contract –  transaction information</b>
 
 Each procurement action is identified with an Indefinite Delivery Vehicle (IDV) Type value or an Award Type value; they are mutually exclusive.  They are collected as separate data elements in FPDS using the codes and descriptions shown below:
 
-Indefinite Delivery Vehicle (IDV) Type – IDVs represent different types of ordering instruments under which federal agencies may place delivery/task orders or BPA call orders.
+Indefinite Delivery Vehicle (IDV) Type – IDVs represent different types of ordering instruments under which federal agencies may place delivery/task orders or blanket purchase agreement (BPA) call orders
 
 <table>
   <thead>
@@ -90,7 +99,7 @@ Indefinite Delivery Vehicle (IDV) Type – IDVs represent different types of ord
   </tr>
 </table>
 
-Award Type – Awards represent different types of definitive delivery procurement instruments (i.e., the immediate requirement is known and awarded with all the attentive terms and conditions).  
+Award Type – Awards represent different types of definitive delivery procurement instruments (i.e., the immediate requirement is known and awarded with all the attendant terms and conditions).  
 
 <table>
   <thead>
@@ -194,7 +203,7 @@ Type of Contract (Pricing)
   </tr>
 </table>
 
-<b>(2) Financial Assistance  - transaction information</b>
+<b>(2) Federal Financial Assistance  - transaction information</b>
 
 Each financial assistance action is identified with a Type of Assistance value in the FAADS+ data format as shown below.
 
@@ -251,7 +260,7 @@ Type of Assistance
 ###Action Type 
 (“Type of Action” for financial assistance and “Reason for Modification” for procurement) 
 
-Associated with each award type are action types that that result in changes to funding, reflect changes in administrative information (for the Federal government or the awardee), or in some other way reflect changes to the agreement.  Action types differ across Federal awarding communities and are called “type of action” for financial assistance and “reason for modification” for procurement.  Regardless of the terminology or the code, these indicate the specific subsequent change to the initial award.  
+Associated with each award type are action types that result in changes to funding, reflect changes in administrative information (for the federal government or the awardee), or in some other way reflect changes to the agreement.  Action types differ across federal awarding communities and are called “type of action” for financial assistance and “reason for modification” for procurement.  Regardless of the terminology or the code, these types indicate the specific subsequent change to the initial award.   
 
 (1) For Federal financial assistance, the “type of action code” data element identifies whether the action is a new agreement or a modification.  Values for the Type of Action are the following:
 <table>
@@ -271,7 +280,7 @@ Associated with each award type are action types that that result in changes to 
   </tr>
   <tr>
     <td>C</td>
-    <td>Revision (any change in Federal government’s financial obligation or contingent liability in existing assistance transaction amount of the change in funding; or any change in Recipient Name, Recipient Address, Project Period, or Project Scope)</td>
+    <td>Revision (any change in federal government’s financial obligation or contingent liability in existing assistance transaction amount of the change in funding; or any change in Recipient Name, Recipient Address, Project Period, or Project Scope)</td>
   </tr>
   <tr>
     <td>D</td>
@@ -374,7 +383,7 @@ Associated with each award type are action types that that result in changes to 
 
 Record Type is used to distinguish between aggregate or non-aggregate financial assistance records. 
 
-For financial assistance awards, awards under $25,000 and awards to individuals, agencies are to report them as aggregates.  An aggregate record is created by taking a group of similar records and tallying the dollars based on a specific set of data fields in order to create one summary (or aggregate) record.
+For financial assistance awards under $25,000 and awards to individuals, agencies are required to report them as aggregates.  An aggregate record is created by taking a group of similar records and tallying the dollars based on a specific set of data fields in order to create one summary (or aggregate) record.
 
 For financial assistance awards under $25,000, agencies submit as much information as possible at an action-by-action level, to provide maximum transparency to the public.  If reporting awards under $25,000 poses a significant administrative burden on the agency, the agency may report these amounts as aggregates at the county level.
 
@@ -399,12 +408,12 @@ The FAADS field where a user can designate aggregate reporting is Record Type.  
   </tr>
 </table>
 
-## Recommended Definitions for Transparency Reporting
+## Final Definitions for Transparency Reporting
 <table>
   <thead>
     <tr>
-      <th scope="col">Element</th>
-      <th scope="col">Recommended Definition</th>
+      <th scope="col">Data Element Name</th>
+      <th scope="col">Definition</th>
     </tr>
   </thead>
   <tr>
@@ -413,7 +422,7 @@ The FAADS field where a user can designate aggregate reporting is Record Type.  
   </tr>
   <tr>
     <td>Action Type</td>
-    <td>Action Type – description (and corresponding code) that provides information on any changes made to the Federal prime award.   There are typically multiple actions for each award.<br/>  
+    <td>Action Type – description (and corresponding code) that provides information on any changes made to the federal prime award.   There are typically multiple actions for each award.<br/>  
     (Note: This includes encompasses current data elements ‘Type of Action’ for financial assistance and ‘Reason for Modification’ for procurement)</td>
   </tr>
   <tr>
@@ -424,7 +433,7 @@ The FAADS field where a user can designate aggregate reporting is Record Type.  
 
 ##References
 
-Federal Acquisition Regulation 4.606, Reporting Data, section (a) (3).
+Federal Acquisition Regulation 4.606(a)(3), Reporting Data.
 
 [https://www.acquisition.gov/?q=/browse/far/4](https://www.acquisition.gov/?q=/browse/far/4)
 
