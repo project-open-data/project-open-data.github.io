@@ -17,7 +17,7 @@
       "@type": "@id"
     },
     "accessURL": {
-      "@id": "dcat:acessURL",
+      "@id": "dcat:accessURL",
       "@type": "@id"
     },
     "title": "dc:title",
