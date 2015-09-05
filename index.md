@@ -209,7 +209,13 @@ Federal agency staff dedicated to handling Freedom of Information Act (FOIA) req
 
 **Goal:** To monitor and measure the incoming demand for data and proactively release data in response to that signal.
 
-#### Online Community
+#### Interagency Open Data Working Group
+A Federal Government working group open to all federal employees interested in open data. 
+*[Join the Interagency Open Data Working Group](working-group/)*
+
+**Goal:** To discuss solutions to common pain points and share best practices and case studies across Federal agencies.
+
+#### Online Civil Society Community
 A website, social networking group and/or listserv where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
 *Ex: Listservs for [NICAR](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/), [Code for America Brigade](https://groups.google.com/a/codeforamerica.org/forum/#!forum/brigade), [Sunlight Labs](https://groups.google.com/forum/#!forum/sunlightlabs), the Open Government Facebook and Google+ groups.*
 
