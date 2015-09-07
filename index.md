@@ -192,7 +192,7 @@ An event where developers, designers, and strategists work in teams to solve pro
 **Goal:** To build relationships with the tech community and to see immediate tools and prototypes.
 
 #### See: [Open Data Community Event Templates and Instructions](engagement/)
-#### Add all upcoming open data events to [Data.gov/events](Data.gov/events). 
+#### Add all upcoming open data events to [Data.gov/events](https://www.data.gov/events). 
 
 ## Open Data Stakeholder Contacts
 
