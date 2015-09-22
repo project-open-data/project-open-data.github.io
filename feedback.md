@@ -16,7 +16,7 @@ You can get updates when new data elements are ready for feedback by joining our
 
 ## Feedback on Data Elements Completed
 
-Each data element listed on the [data elements page](http://fedspendingtransparency.github.io/dataelements/) has a corresponding GitHub issue that’s linked in the name of the element; it’s helpful to think of each issue as a distinct comment thread. To view the feedback received related to that data element, click on the data element’s name – you’ll be taken to the issue page.
+Each data element listed on the [data elements page]({{ site.baseurl }}/dataelements/) has a corresponding GitHub issue that’s linked in the name of the element; it’s helpful to think of each issue as a distinct comment thread. To view the feedback received related to that data element, click on the data element’s name – you’ll be taken to the issue page.
 
 ## Proposing New Elements
 
