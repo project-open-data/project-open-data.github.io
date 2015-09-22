@@ -16,9 +16,9 @@ The lists on this page contain two types of federal spending data elements:
 The elements on these lists have been discussed by members of the federal community as part of the DATA Act.
 At the current time, these lists are exhaustive. That said, the federal community is aware of agencies’ and the larger community’s needs and may add and standardize new elements to improve transparency reporting moving forward.
 
-The data elements are grouped by category; each short list represents a different category. In addition, each element will have it's own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who posted responses to these papers and provided input on these data elements. 
+The data elements are grouped by category; each short list represents a different category. In addition, each element will have it's own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who posted responses to these papers and provided input on these data elements.
 
-Data standards for these data elements have all been finalized. The final data element names and definitions are located [here](). 
+Data standards for these data elements have all been finalized. The final data element names and definitions are located [here]().
 
 If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines](/feedback/). Please click _Get Updates_ above to receive emails as we update other pages on this site.
 
@@ -398,8 +398,4 @@ This list features elements that describe the accounts from which the awards are
   </tr>
 </table>
 
-\* An asterisk (*) next to a data element name indicates that the name for that data element has changed since it was first posted here in December 2014.  All final data element names and definitions are posted [here](https://max.gov/datastandards)
-
-
-
-
+\* An asterisk (*) next to a data element name indicates that the name for that data element has changed since it was first posted here in December 2014.  All final data element names and definitions are posted [here](https://max.gov/datastandards).
