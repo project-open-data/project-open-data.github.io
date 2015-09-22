@@ -54,7 +54,7 @@ The Administration is committed to implementing the DATA Act.  The goal is to tr
 
 ## <a name="transparency"></a>How can the DATA Act implementation process set an example for transparency in its own implementation?
 
-* This [GitHub page]({{ site.baseurl }}) is where we will engage with non-federal stakeholders and the public at large.
+* This [GitHub page]({{ site.baseurl }}/) is where we will engage with non-federal stakeholders and the public at large.
 * We regularly conduct outreach to stakeholders, including the federal government, Congress, GAO, and the public.
 
 ## <a name="uniform-guidance"></a>What is being done to align DATA Act implementation with related efforts, like implementation of the Uniform Guidance?
