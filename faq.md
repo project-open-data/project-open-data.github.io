@@ -54,7 +54,7 @@ The Administration is committed to implementing the DATA Act.  The goal is to tr
 
 ## <a name="transparency"></a>How can the DATA Act implementation process set an example for transparency in its own implementation?
 
-* This [GitHub page](/) is where we will engage with non-federal stakeholders and the public at large.
+* This [GitHub page]({{ site.baseurl }}) is where we will engage with non-federal stakeholders and the public at large.
 * We regularly conduct outreach to stakeholders, including the federal government, Congress, GAO, and the public.
 
 ## <a name="uniform-guidance"></a>What is being done to align DATA Act implementation with related efforts, like implementation of the Uniform Guidance?
@@ -65,14 +65,14 @@ The governance structure established to oversee DATA Act implementation facilita
 
 OMB and Treasury are committed to keeping the implementation process transparent and collaborative. Continued outreach and engagement is essential for future success:
 
-* In the fall of 2014, Treasury and OMB hosted a [town hall](/thdescription/) for stakeholders to provide input on DATA Act implementation. While the town hall was very successful, we intend to use technology to engage an even broader range of stakeholders and facilitate a more extensive dialogue
+* In the fall of 2014, Treasury and OMB hosted a [town hall]({{ site.baseurl }}/thdescription/) for stakeholders to provide input on DATA Act implementation. While the town hall was very successful, we intend to use technology to engage an even broader range of stakeholders and facilitate a more extensive dialogue
 * In order to facilitate ongoing dynamic engagement with stakeholders, we are leveraging GitHub to engage with the public in real time.
 * We anticipate holding future webcasts, conference calls, and other engagements that allow stakeholders to engage, even if they cannot make it to DC.
 
 
 ## <a name="complete-data-list"></a>When can we expect to have a complete list of data fields that need to be standardized?
 
-* On this site's [data elements page](/dataelements), you will find a list of the financial data elements that we are required to standardize under the DATA Act, plus a larger set of data elements that were required under FFATA that we believe are ripe for additional standardization.
+* On this site's [data elements page]({{ site.baseurl }}/dataelements), you will find a list of the financial data elements that we are required to standardize under the DATA Act, plus a larger set of data elements that were required under FFATA that we believe are ripe for additional standardization.
 * Our engagement with both federal and public stakeholders is ongoing, and we anticipate that this list will evolve over time – standardization is not a single endeavor, but an ongoing commitment to ensure that the data is of high quality and relevant.
 
 ## <a name="data-standards"></a>What is the meaning of “data standards?”

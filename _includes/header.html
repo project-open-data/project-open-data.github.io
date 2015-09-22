@@ -11,8 +11,8 @@
 
   <title>{{ site.title }}</title>
 
-  <link rel="stylesheet" href="/assets/css/bootstrap.css">
-  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css">
 
   {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
 </head>
@@ -38,13 +38,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </a>
-              <a class="brand" href="/">Home</a>
+              <a class="brand" href="{{ site.baseurl}}/">Home</a>
               <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                  <li><a href="/faq">FAQ</a></li>
-                  <li><a href="/feedback">How to Contribute</a></li>
-                  <li><a href="/dataelements">Data Elements</a></li>
-                  <li><a href="/data-exchange-standard">Data Exchange</a></li>
+                  <li><a href="{{ site.baseurl}}/faq">FAQ</a></li>
+                  <li><a href="{{ site.baseurl}}/feedback">How to Contribute</a></li>
+                  <li><a href="{{ site.baseurl}}/dataelements">Data Elements</a></li>
+                  <li><a href="{{ site.baseurl}}/data-exchange-standard">Data Exchange</a></li>
                   <li><a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues">Discuss</a></li>
                   <li><a href="https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa">Get Updates</a></lis>
                 </ul>
