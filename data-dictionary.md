@@ -1,15 +1,15 @@
 ---
 published: true
-permalink: /elements-aug2015/
+permalink: /dictionary/
 layout: hero
-filename: data-act-elements-aug2015.md
-title: DATA Act Element Listing
+filename: data-dictionary.md
+title: DATA Act Data Dictionary
 ---
 <html>
 	<body>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<h1 class="lead">DATA Act Element Listing</h1>
+		<h1 class="lead">DATA Act Data Dictionary</h1>
 		<h3 class="lead">DATA Act Fields</h3>
 		<div class="panel panel-default">
 			<div class="panel panel-body">
@@ -8805,8 +8805,8 @@ Ex4: [blank]</td>
 									<td>
 										<strong>Example(s)</strong>
 									</td>
-									<td>Ex1: 0 
-Ex2: 12345 
+									<td>Ex1: 0
+Ex2: 12345
 Ex3: 12345.14
 Ex4: [blank]</td>
 								</tr>
@@ -9303,7 +9303,7 @@ D Definitive contract
 									<td>
 										<strong>Description</strong>
 									</td>
-									<td>Type of Assistance: The type of assistance provided by the award. 
+									<td>Type of Assistance: The type of assistance provided by the award.
 (From FAADS user guide)
 02 = block grant (A)
 03 = formula grant (A)
@@ -9405,7 +9405,7 @@ Ex3: [blank]</td>
 • Loan
 • Cooperative agreement
 • Other form of financial assistance
-• Procurement (which includes purchase order, delivery order, task order) 
+• Procurement (which includes purchase order, delivery order, task order)
 This categorization is determined to be procurement if the award is reported through FPDS. If the award is reported through the ASP using the FAADS+ format, the Type of Assistance field below is used.</td>
 								</tr>
 								<tr>
@@ -9496,7 +9496,7 @@ Ex6: [blank]</td>
 									<td>
 										<strong>Example(s)</strong>
 									</td>
-									<td>Ex1: 541330 
+									<td>Ex1: 541330
 Ex2: 110000
 Ex3: [blank]</td>
 								</tr>
@@ -9573,7 +9573,7 @@ Code exists in FPDS-NG.</td>
 									<td>
 										<strong>Example(s)</strong>
 									</td>
-									<td>Ex1: 541330 
+									<td>Ex1: 541330
 Ex2: 110000
 Ex3: [blank]</td>
 								</tr>
@@ -17288,7 +17288,7 @@ Ex2: 25.4</td>
 										<strong>Description</strong>
 									</td>
 									<td>The basic unit of an appropriation generally reflecting each unnumbered paragraph in an appropriation act. An appropriation account typically encompasses a number of activities or projects and may be subject to restrictions or conditions applicable to only the account, the appropriation act, titles within an appropriation act, other appropriation acts, or the government as a whole.
- 
+
 An appropriations account is represented by a TAFS created by Treasury in consultation with OMB.
 (defined in OMB Circular A-11)</td>
 								</tr>
@@ -17366,7 +17366,7 @@ Ex2: 012 X 5531</td>
 										<strong>Description</strong>
 									</td>
 									<td>The basic unit of an appropriation generally reflecting each unnumbered paragraph in an appropriation act. An appropriation account typically encompasses a number of activities or projects and may be subject to restrictions or conditions applicable to only the account, the appropriation act, titles within an appropriation act, other appropriation acts, or the government as a whole.
- 
+
 An appropriations account is represented by a TAFS created by Treasury in consultation with OMB.
 (defined in OMB Circular A-11)</td>
 								</tr>
@@ -17444,7 +17444,7 @@ Ex2: 012 X 5531</td>
 										<strong>Description</strong>
 									</td>
 									<td>The basic unit of an appropriation generally reflecting each unnumbered paragraph in an appropriation act. An appropriation account typically encompasses a number of activities or projects and may be subject to restrictions or conditions applicable to only the account, the appropriation act, titles within an appropriation act, other appropriation acts, or the government as a whole.
- 
+
 An appropriations account is represented by a TAFS created by Treasury in consultation with OMB.
 (defined in OMB Circular A-11)</td>
 								</tr>
@@ -17601,7 +17601,7 @@ Ex3: 0</td>
 										<strong>Description</strong>
 									</td>
 									<td>Obligation means a legally binding agreement that will result in outlays, immediately or in the future. When you place an order, sign a contract, award a grant, purchase a service, or take other actions that require the Government to make payments to the public or from one Government account to another, you incur an obligation. It is a violation of the Antideficiency Act (31 U.S.C. § 1341(a)) to involve the Federal Government in a contract or obligation for payment of money before an appropriation is made, unless authorized by law. This means you cannot incur obligations in a vacuum; you incur an obligation against budget authority in a Treasury account that belongs to your agency. It is a violation of the Antideficiency Act to incur an obligation in an amount greater than the amount available in the Treasury account that is available. This means that the account must have budget authority sufficient to cover the total of such obligations at the time the obligation is incurred. In addition, the obligation you incur must conform to other applicable provisions of law, and you must be able to support the amounts reported by the documentary evidence required by 31 U.S.C. § 1501. Moreover, you are required to maintain certifications and records showing that the amounts have been obligated (31 U.S.C. § 1108). The following subsections provide additional guidance on when to record obligations for the different types of goods and services or the amount.
- 
+
 Additional detail is provided in Circular A‐11.</td>
 								</tr>
 								<tr>
@@ -26201,8 +26201,8 @@ Ex2: 1 [yes]</td>
 									<td>
 										<strong>Example(s)</strong>
 									</td>
-									<td>Ex1: 0 
-Ex2: 12345 
+									<td>Ex1: 0
+Ex2: 12345
 Ex3: 12345.14
 Ex4: [blank]</td>
 								</tr>
@@ -26354,8 +26354,8 @@ Ex3: (blank)</td>
 									<td>
 										<strong>Example(s)</strong>
 									</td>
-									<td>Ex1: 0 
-Ex2: 1 
+									<td>Ex1: 0
+Ex2: 1
 Ex3: 999
 Ex4: [blank]</td>
 								</tr>
@@ -31297,8 +31297,8 @@ Ex5: [blank]</td>
 									<td>
 										<strong>Example(s)</strong>
 									</td>
-									<td>Ex1: 0 
-Ex2: 12345 
+									<td>Ex1: 0
+Ex2: 12345
 Ex3: 12345.14
 Ex4: [blank]</td>
 								</tr>
