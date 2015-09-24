@@ -16,10 +16,10 @@ Currently, the working version of the standard covers a subset of both financial
 
 ## Current Draft Version (v0.5)
 
-This version of the data standard focuses includes the financial level as well as additional elements related to the award level information. As part of this release, there are two parts: a Word document describing the schema, and an XML implementation of the schema. 
+This version of the data standard focuses includes the financial level as well as additional elements related to the award level information. As part of this release, there are two parts: a Word document describing the schema, and an XML implementation of the schema.
 
-<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.5.docx">DATA Act Schema description</a>
+<a href="{{ site.baseurl }}/dictionary/" title="DATA Act Data Dictionary">DATA Act Data Dictionary</a>
 
-<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.5.zip">Schema instance (XML version)</a>
+<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.5.zip" title="DATA Act schema instance (.zip)">Schema instance (XML version)</a>
 
 To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/101).
