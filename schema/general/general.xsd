@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:data="urn:us:gov:treas:data_act" targetNamespace="urn:us:gov:treas:data_act" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.6">
+	<xs:element name="AgencyIdentifier" type="data:AgencyIdentifier_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The agency code identifies the department or agency that is responsible for the account.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AllocationTransferAgencyIdentifier" type="data:AllocationTransferAgencyIdentifier_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The allocation agency identifies the department or agency that is receiving funds through an allocation (non-expenditure) transfer.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AssistanceType">
+		<xs:annotation>
+			<xs:documentation>Assistance Type Code Enumeration</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:token">
+				<xs:maxLength value="2"/>
+				<xs:enumeration value="02"/>
+				<xs:enumeration value="03"/>
+				<xs:enumeration value="04"/>
+				<xs:enumeration value="05"/>
+				<xs:enumeration value="06"/>
+				<xs:enumeration value="07"/>
+				<xs:enumeration value="08"/>
+				<xs:enumeration value="09"/>
+				<xs:enumeration value="10"/>
+				<xs:enumeration value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="AvailabilityTypeCode" type="data:AvailabilityTypeCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>In appropriations accounts, the availability type code identifies an unlimited period to incur new obligations; this is denoted by the letter "X"</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AwardIDprefix" type="data:AwardIDprefix_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The prefix indicates the Activity Address Code which is the department/agency and office issuing the instrument.  Use the AAC assigned to the program/funding office providing  the predominance of funding for the contract action as the program/funding office code.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AwardNumber" type="data:AwardNumber_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement awards (PIID): The number assigned by the issuing agency in these positions. Agencies may choose a minimum of four characters up to a maximum of eight characters to be used, but the same number of characters must be used agency-wide. If a number less than the maximum is used, do not use leading or trailing zeroes to make it equal the maximum in any system or data transmission. A separate series of numbers may be used for any type of instrument listed in paragraph (a)(3) of this section. An agency may reserve blocks of numbers or alpha-numeric numbers for use by its various components.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AwardType" type="data:AwardType_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement awards (PIID): The type of instrument by entering one upper case letter in position nine of the PIID. Departments and independent agencies may assign those letters identified for department use in accordance with their agency policy; however, any use must be applied to the entire department or agency.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AwardYear" type="data:AwardYear_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement awards (PIID): The last two digits of the fiscal year in which the procurement instrument  is issued or awarded. This is the date the action is signed, not the effective date if the effective date is different.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="BeginningPeriodOfAvailability" type="data:PeriodOfAvailability_SimpleType">
+		<xs:annotation>
+			<xs:documentation>In annual and multi-year funds, the beginning period of availability identifies the first year of availability under law that an appropriation account may incur new obligations.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="CityName" type="data:CityName_SimpleType">
+		<xs:annotation>
+			<xs:documentation> Name of the city in which the awardee or recipient’s legal business address is located.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="CongressionalDistrict" type="data:CongressionalDistrict_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The congressional district in which the awardee or recipient is located. This is not a required data element for non-U.S. addresses.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="ContractAwardType">
+		<xs:annotation>
+			<xs:documentation>The type of award being entered by this transaction. Types of awards include Purchase Orders (PO), Delivery Orders (DO), BPA Calls and Definitive Contracts.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:token">
+				<xs:length value="1"/>
+				<xs:enumeration value="A"/>
+				<xs:enumeration value="B"/>
+				<xs:enumeration value="C"/>
+				<xs:enumeration value="D"/>
+				<xs:enumeration value=""/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="CountryCode" type="data:CountryCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Code for the country in which the awardee or recipient is located, using the ISO 3166-1 Alpha-3 GENC Profile, and not the codes listed for those territories and possessions of the United States already identified as “states.”</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="CountryName" type="data:CountryName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The name corresponding to the Country Code.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="CountyName" type="data:CountyName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>County where the predominant performance of the award will be accomplished. </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Day" type="data:Day_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Day</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="EndingPeriodOfAvailability" type="data:PeriodOfAvailability_SimpleType">
+		<xs:annotation>
+			<xs:documentation>In annual and multi-year funds, the end period of availability identifies the last year of funds availability under law that an appropriation account may incur new obligations.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="FederalPrimeAward" type="data:FederalPrimeAward_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The required FFATA award types related to financial assistance and contracts and are defined as follows: • Grant • Loan • Cooperative agreement • Other form of financial assistance • Procurement (which includes purchase order, delivery order, task order) This categorization is determined to be procurement if the award is reported through FPDS. If the award is reported through the ASP using the FAADS+ format, the Type of Assistance field below is used.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="HighlyCompensatedOfficerCompensation" type="data:Amount_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The cash and noncash dollar value earned by the one of the five most highly compensated “Executives” during the awardee's preceding fiscal year and includes the following (for more information see 17 CFR 229.402c2): salary and bonuses, awards of stock, stock options, and stock appreciation rights, earnings for services under non-equity incentive plans, change in pension value, above-market earnings on deferred compensation which is not tax qualified, and other compensation.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="HighlyCompensatedOfficerFirstName">
+		<xs:annotation>
+			<xs:documentation>The first name of an individual identified as one of the five most highly compensated "Executives"."Executive" means officers, managing partners, or any other employees in management positions.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="data:HighlyCompensatedOfficerFirstName_SimpleType">
+				<xs:maxLength value="35"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="HighlyCompensatedOfficerLastName" type="data:HighlyCompensatedOfficerLastName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The last name of an individual identified as one of the five most highly compensated "Executives.""Executive" means officers, managing partners, or any other employees in management positions.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="HighlyCompensatedOfficerMiddleInitial" type="data:HighlyCompensatedOfficerMiddleInitial_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The middle initial of an individual identified as one of the five most highly compensated "Executives.""Executive" means officers, managing partners, or any other employees in management positions.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="idvType" type="data:idvType_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The type of Indefinite Delivery Vehicle being (IDV) loaded by this transaction. IDV Types include Government-Wide Acquisition Contract (GWAC), Multi-Agency Contract, Other Indefinite Delivery Contract (IDC), Federal Supply Schedule (FSS), Basic Ordering Agreement (BOA), and Blanket Purchase Agreements (BPA).</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="MainAccountCode" type="data:MainAccountCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>The main account code identifies the account in statute.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Month" type="data:Month_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Month</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="PostalCode" type="data:PostalCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation> Postal service code for awardee or recipient not located in the United States. This is an optional data element, and used instead of the ZIP+4 Code for non-US addresses.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="StateCode" type="data:StateCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>United States Postal Service (USPS) two-letter abbreviation for the state or territory in which the awardee or recipient’s legal business address is located. Identify States, the District of Columbia, territories (i.e., American Samoa, Guam, Northern Mariana Islands, Puerto Rico, U.S. Virgin Islands) and associated states (i.e., Republic of the Marshall Islands, the Federated States of Micronesia, and Palau) by their USPS two-letter abbreviation for the purposes of reporting. Report legal business address located in the Puerto Rico, Northern Mariana Islands, American Samoa, Guam, and U.S. Virgin Islands using USPS assigned state codes.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="StreetAddressLine1" type="data:StreetAddressLine_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Line 1 of street address.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="StreetAddressLine2" type="data:StreetAddressLine_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Line  2 of street address.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="TypeOfContractPricing" type="data:TypeOfContractPricing_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Valid code from FPDS-NG: A Fixed Price Redetermination B Fixed Price Level of Effort J Firm Fixed Price K Fixed Price with Economic Price Adjustment L Fixed Price Incentive M Fixed Price Award Fee R Cost Plus Award Fee S Cost No Fee T Cost Sharing U Cost Plus Fixed Fee V Cost Plus Incentive Fee Y Time and Materials Z Labor Hours 1 Order Dependent (this applies to IDVs only. IDV allows pricing arrangements to be determined separately for each order) 2 Combination – (this applies to awards only. Applies to awards where two or more of the above apply.) Note: this value is not valid for awards after September 30, 2009. 3 Other (This applies to Awards only. Applies to Awards where none of the above apply). Note: this value is not valid for awards after Sept 30, 2009.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Year" type="data:Year_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Year</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="ZipCode" type="data:ZipCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation> USPS zoning code associated with the awardee or recipient’s legal business address. This is not a required data element for non-US addresses. (First five digits)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="ZipCodePlus4" type="data:ZipCodePlus4_SimpleType">
+		<xs:annotation>
+			<xs:documentation> USPS zoning code associated with the awardee or recipient’s legal business address. This is not a required data element for non-US addresses. (Last four digits)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="Address_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Address Type</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="data:StreetAddressLine1" minOccurs="0"/>
+			<!--<element ref="streetAddressLine1" minOccurs="0" maxOccurs="1"/>
+					<element ref="streetAddressLine2" minOccurs="0" maxOccurs="1"/>
+					<element ref="streetAddressLine3" minOccurs="0" maxOccurs="1"/>-->
+			<xs:element ref="data:StreetAddressLine2" minOccurs="0"/>
+			<xs:element ref="data:CountyName" minOccurs="0"/>
+			<xs:element ref="data:CityName"/>
+			<xs:element ref="data:StateCode" minOccurs="0"/>
+			<xs:element ref="data:PostalCode" minOccurs="0"/>
+			<xs:element ref="data:ZipCode" minOccurs="0"/>
+			<xs:element ref="data:ZipCodePlus4" minOccurs="0"/>
+			<xs:element ref="data:CountryName" minOccurs="0"/>
+			<xs:element ref="data:CountryCode" minOccurs="0"/>
+			<xs:element ref="data:CongressionalDistrict" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AwardIdentificationNumber_ComplexType">
+		<xs:annotation>
+			<xs:documentation>The identifier of the procurement award under which the specific award is issued, such as a Federal Supply Schedule. This data element currently applies to procurement actions only.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="data:AwardIDprefix" minOccurs="0"/>
+			<xs:element ref="data:AwardYear"/>
+			<xs:element ref="data:AwardType"/>
+			<xs:element ref="data:AwardNumber"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Date_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Date Type</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="data:Day"/>
+			<xs:element ref="data:Month"/>
+			<xs:element ref="data:Year"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HighlyCompensatedOfficer_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Compensated Officer Container</xs:documentation>
+		</xs:annotation>
+		<xs:sequence maxOccurs="5">
+			<xs:element ref="data:HighlyCompensatedOfficerFirstName" minOccurs="0"/>
+			<xs:element ref="data:HighlyCompensatedOfficerMiddleInitial" minOccurs="0"/>
+			<xs:element ref="data:HighlyCompensatedOfficerLastName" minOccurs="0"/>
+			<xs:element ref="data:HighlyCompensatedOfficerCompensation" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TreasuryAccountSymbol_ComplexType">
+		<xs:annotation>
+			<xs:documentation>The Treasury Appropriation Fund Symbol (TAFS) is the components of a Treasury Account Symbol – allocation agency, agency, main account, period of availability and availability type – that directly correspond to an appropriations account established by Congress.
+(defined in OMB Circular A-11)</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<!--				    <element ref="subLevelPrefix" minOccurs="0" maxOccurs="1"/>-->
+			<xs:element ref="data:AllocationTransferAgencyIdentifier"/>
+			<xs:element ref="data:AgencyIdentifier"/>
+			<xs:element ref="data:BeginningPeriodOfAvailability"/>
+			<xs:element ref="data:EndingPeriodOfAvailability"/>
+			<xs:element ref="data:AvailabilityTypeCode"/>
+			<!--					<element ref="mainAccountCode" minOccurs="0" maxOccurs="1"/>
+					<element ref="subAccountCode" minOccurs="0" maxOccurs="1"/>-->
+			<xs:element ref="data:MainAccountCode"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TypeOfTransactionCode_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Transaction Code Container</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="data:TypeOfContractPricing" minOccurs="0"/>
+			<xs:element ref="data:idvType" minOccurs="0"/>
+			<xs:element ref="data:ContractAwardType" minOccurs="0"/>
+			<xs:element ref="data:AssistanceType" minOccurs="0"/>
+			<xs:element ref="data:FederalPrimeAward"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="AgencyCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Agency Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AgencyIdentifier_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Agency Identifier Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AgencyName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Agency Name Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AllocationTransferAgencyIdentifier_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Allocation Transfer Agency Identifier Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Amount_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Dollars Amount Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:decimal">
+			<xs:fractionDigits value="2"/>
+			<xs:totalDigits value="25"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AvailabilityTypeCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Availability Type Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AwardDescription_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Award Description Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="4000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AwardIDprefix_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Award Idenification Prefix Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="6"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AwardModificationNumber_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Award Modification Number Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="25"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AwardNumber_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Award Number Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="8"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AwardType_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Award Type Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AwardYear_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Award Year Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="BusienssType_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Business Type Enumeration Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="00"/>
+			<xs:enumeration value="01"/>
+			<xs:enumeration value="02"/>
+			<xs:enumeration value="04"/>
+			<xs:enumeration value="05"/>
+			<xs:enumeration value="06"/>
+			<xs:enumeration value="11"/>
+			<xs:enumeration value="12"/>
+			<xs:enumeration value="20"/>
+			<xs:enumeration value="21"/>
+			<xs:enumeration value="22"/>
+			<xs:enumeration value="23"/>
+			<xs:enumeration value="25"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CFDA_Code_SimpleType">
+		<xs:annotation>
+			<xs:documentation>CFDA Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="7"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CFDA_Description_SimpleType">
+		<xs:annotation>
+			<xs:documentation>CFDA Description Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CityName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>City Name Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="40"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CongressionalDistrict_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Congressional District Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CountryCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Country Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CountryName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Country Name Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CountyName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>County Name Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="40"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Day_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Day Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DUNS_Number_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Data Universal Numbering System Type </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="EntityCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Agency Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="EntityName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Entity Name Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="120"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="EntityUniqueID_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Entity Unique Identifier Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="FAIN_Number_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Financial assistance awards (FAIN) Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="FederalPrimeAward_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Federal Prime Award Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HighlyCompensatedOfficerFirstName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>First Name Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="35"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HighlyCompensatedOfficerLastName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Last Name Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="35"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HighlyCompensatedOfficerMiddleInitial_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Middle Initial Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="idvType_SimpleType">
+		<xs:annotation>
+			<xs:documentation>IDV Type Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="MainAccountCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Main Account Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Month_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Month Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="NAICS_Code_SimpleType">
+		<xs:annotation>
+			<xs:documentation>North American Industrial Classification System Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="6"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="NAICS_Description_SimpleType">
+		<xs:annotation>
+			<xs:documentation>North American Industrial Classification System Description Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="150"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ObjectClass_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Object Class Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="OfficeCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Office Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="OfficeName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Agency Name Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="25"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="PeriodOfAvailability_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Period Of Availability Simple Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="PostalCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Postal Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ProgramActivity_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Program Activity Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ReasonForModification_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Readon for Modification Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:length value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="RecordType_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Record Type Enumeration Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StateCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>State Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="AL"/>
+			<xs:enumeration value="AK"/>
+			<xs:enumeration value="AZ"/>
+			<xs:enumeration value="AR"/>
+			<xs:enumeration value="CA"/>
+			<xs:enumeration value="CO"/>
+			<xs:enumeration value="CT"/>
+			<xs:enumeration value="DE"/>
+			<xs:enumeration value="FL"/>
+			<xs:enumeration value="GA"/>
+			<xs:enumeration value="HI"/>
+			<xs:enumeration value="ID"/>
+			<xs:enumeration value="IL"/>
+			<xs:enumeration value="IN"/>
+			<xs:enumeration value="IA"/>
+			<xs:enumeration value="KS"/>
+			<xs:enumeration value="KY"/>
+			<xs:enumeration value="LA"/>
+			<xs:enumeration value="ME"/>
+			<xs:enumeration value="MD"/>
+			<xs:enumeration value="MA"/>
+			<xs:enumeration value="MI"/>
+			<xs:enumeration value="MN"/>
+			<xs:enumeration value="MS"/>
+			<xs:enumeration value="MO"/>
+			<xs:enumeration value="MT"/>
+			<xs:enumeration value="NE"/>
+			<xs:enumeration value="NV"/>
+			<xs:enumeration value="NH"/>
+			<xs:enumeration value="NJ"/>
+			<xs:enumeration value="NM"/>
+			<xs:enumeration value="NY"/>
+			<xs:enumeration value="NC"/>
+			<xs:enumeration value="ND"/>
+			<xs:enumeration value="OH"/>
+			<xs:enumeration value="OK"/>
+			<xs:enumeration value="OR"/>
+			<xs:enumeration value="PA"/>
+			<xs:enumeration value="RI"/>
+			<xs:enumeration value="SC"/>
+			<xs:enumeration value="SD"/>
+			<xs:enumeration value="TN"/>
+			<xs:enumeration value="TX"/>
+			<xs:enumeration value="UT"/>
+			<xs:enumeration value="VT"/>
+			<xs:enumeration value="VA"/>
+			<xs:enumeration value="WA"/>
+			<xs:enumeration value="WV"/>
+			<xs:enumeration value="WI"/>
+			<xs:enumeration value="WY"/>
+			<xs:enumeration value="AS"/>
+			<xs:enumeration value="DC"/>
+			<xs:enumeration value="FM"/>
+			<xs:enumeration value="GU"/>
+			<xs:enumeration value="MH"/>
+			<xs:enumeration value="MP"/>
+			<xs:enumeration value="PW"/>
+			<xs:enumeration value="PR"/>
+			<xs:enumeration value="VI"/>
+			<xs:enumeration value="AE"/>
+			<xs:enumeration value="AA"/>
+			<xs:enumeration value="AP"/>
+			<xs:enumeration value="undefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StreetAddressLine_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Line of Street Address type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="150"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TypeOfAction_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Type of Action Enumeration Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="B"/>
+			<xs:enumeration value="C"/>
+			<xs:enumeration value="D"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TypeOfContractPricing_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Type of Contract Pricing Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:length value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Year_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Year Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ZipCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Zip Code Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:positiveInteger">
+			<xs:totalDigits value="5"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ZipCodePlus4_SimpleType">
+		<xs:annotation>
+			<xs:documentation>ZIP Code Plus 4 Type</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
