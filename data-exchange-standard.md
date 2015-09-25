@@ -20,6 +20,6 @@ This version of the data standard focuses includes the financial level as well a
 
 <a href="{{ site.baseurl }}/dictionary/" title="DATA Act Data Dictionary">DATA Act Data Dictionary</a>
 
-<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.5.zip" title="DATA Act schema instance (.zip)">Schema instance (XML version)</a>
+<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.6.zip" title="DATA Act schema instance (.zip)">Schema instance (XML version)</a>
 
 To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/101).
