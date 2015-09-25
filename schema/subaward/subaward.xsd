@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:data="urn:us:gov:treas:data_act" targetNamespace="urn:us:gov:treas:data_act" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.6">
+	<xs:include schemaLocation="../general/general.xsd"/>
+	<xs:element name="SubAwardAttributes" type="data:SubAwardAttributes_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Sub Award Attributes Container</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="SubAwardAttributes_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Sub Award Attributes Container Type</xs:documentation>
+		</xs:annotation>
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element ref="data:RecipientLegalEntityName" minOccurs="0"/>
+			<xs:element ref="data:RecipientDunsNumber" minOccurs="0"/>
+			<xs:element ref="data:RecipientUltimateParentUniqueId" minOccurs="0"/>
+			<xs:element ref="data:RecipientUltimateParentLegalEntityName" minOccurs="0"/>
+			<xs:element ref="data:RecipientLegalEntityAddress" minOccurs="0"/>
+			<xs:element ref="data:HighlyCompensatedOfficer" minOccurs="0" maxOccurs="5"/>
+			<xs:element ref="data:CurrentTotalFundingObligationAmt" minOccurs="0"/>
+			<xs:element ref="data:SubAwardTypeOfContractPricing" minOccurs="0"/>
+			<xs:element ref="data:NaicsCode" minOccurs="0"/>
+			<xs:element ref="data:NaicsDesc" minOccurs="0"/>
+			<xs:element ref="data:CfdaCode"/>
+			<xs:element ref="data:CfdaDesc"/>
+			<xs:element ref="data:AwardingAgencyName"/>
+			<xs:element ref="data:AwardingAgencyCode"/>
+			<xs:element ref="data:AwardDesc"/>
+			<xs:element ref="data:ActionDate"/>
+			<xs:element ref="data:PlaceOfPerformance"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="RecipientLegalEntityName" type="data:EntityName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The name of the awardee or recipient that relates to the unique identifier. For U.S. based companies, this name is what the business ordinarily files in formation documents with individual states (when required).</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="RecipientDunsNumber" type="data:DUNS_Number_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The unique identification number for an awardee or recipient.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="RecipientUltimateParentUniqueId" type="data:EntityUniqueID_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The unique identification number for the ultimate parent of an awardee or recipient.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="RecipientUltimateParentLegalEntityName" type="data:EntityName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The name of the ultimate parent of the awardee or recipient. </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="RecipientLegalEntityAddress" type="data:Address_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Recipient address information.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="HighlyCompensatedOfficer" type="data:HighlyCompensatedOfficer_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Highly compensated officer container</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="CurrentTotalFundingObligationAmt" type="data:Amount_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The total Federal plus non-Federal funding amount in dollars. A negative number represents a decrease in funding.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="SubAwardTypeOfContractPricing" type="data:TypeOfContractPricing_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The total Federal plus non-Federal funding amount in dollars. A negative number represents a decrease in funding.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="NaicsCode" type="data:NAICS_Code_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement awards: The identifier that represents the North American Industrial Classification System Code assigned to the solicitation and resulting award identifying the industry in which the contract requirements are normally performed.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="NaicsDesc" type="data:NAICS_Description_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement awards: The title associated with the NAICS Code.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="CfdaCode" type="data:CFDA_Code_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement awards: The identifier that represents the North American Industrial Classification System Code assigned to the solicitation and resulting award identifying the industry in which the contract requirements are normally performed.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="CfdaDesc" type="data:CFDA_Description_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement awards: The title associated with the NAICS Code.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AwardingAgencyName" type="data:AgencyName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>All spending: The name associated with a department or establishment of the Government as used in the Treasury Account Fund Symbol (TAFS).
+(defined in OMB Circular A-11)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AwardingAgencyCode" type="data:AgencyCode_SimpleType">
+		<xs:annotation>
+			<xs:documentation>All spending: A department or establishment of the Government as used in the Treasury Account Fund Symbol (TAFS).
+(defined in OMB Circular A-11)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AwardDesc" type="data:AwardDescription_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: A brief description of the purpose of the award.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="ActionDate" type="data:Date_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards:  The calendar date the action being reported was issued / signed by the government or a binding agreement was reached.  </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="PlaceOfPerformance" type="data:Address_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistanc awards: Location where the predominant performance of the award will be accomplished.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

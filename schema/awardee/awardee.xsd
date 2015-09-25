@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:data="urn:us:gov:treas:data_act" targetNamespace="urn:us:gov:treas:data_act" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.6">
+	<xs:include schemaLocation="../general/general.xsd"/>
+	<xs:element name="AwardeeAttributes" type="data:AwardeeAttributes_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Awardee Attributes Container</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="AwardeeAttributes_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Awardee Attributes Container Type</xs:documentation>
+		</xs:annotation>
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element ref="data:RecipientDunsNumber"/>
+			<xs:element ref="data:RecipientUltimateParentUniqueId"/>
+			<xs:element ref="data:RecipientUltimateParentLegalEntityName"/>
+			<xs:element ref="data:RecipientLegalEntityAddress"/>
+			<xs:element ref="data:HighlyCompensatedOfficer" maxOccurs="5"/>
+			<xs:element ref="data:AwardeeBusinessType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="RecipientLegalEntityName" type="data:EntityName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The name of the awardee or recipient that relates to the unique identifier. For U.S. based companies, this name is what the business ordinarily files in formation documents with individual states (when required).</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="RecipientDunsNumber" type="data:DUNS_Number_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The unique identification number for an awardee or recipient.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="AwardeeBusinessType" type="data:BusienssType_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement awards: Organization Type / Business Type
+(Entity information 3.3.1): Business types selected by an entity as applicable for Federal awards.
+
+Financial assistance awards: Two-position numeric code which depicts the type of recipient or borrower.
+Government codes:
+00 = State government
+01 = county government
+02 = city or township government
+04 = special district government
+05 = independent school district
+06 = State controlled institution of higher education Nonprofit agencies:
+11 = Indian tribe
+12 = other nonprofit
+Private:
+20 = private higher education
+21 = individual
+22 = profit organization
+23 = small business
+25 = all other</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="RecipientUltimateParentUniqueId" type="data:EntityUniqueID_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The unique identification number for the ultimate parent of an awardee or recipient.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="RecipientUltimateParentLegalEntityName" type="data:EntityName_SimpleType">
+		<xs:annotation>
+			<xs:documentation>Procurement and financial assistance awards: The name of the ultimate parent of the awardee or recipient. </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="RecipientLegalEntityAddress" type="data:Address_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Recipient address information.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="HighlyCompensatedOfficer" type="data:HighlyCompensatedOfficer_ComplexType">
+		<xs:annotation>
+			<xs:documentation>Highly compensated officer container</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

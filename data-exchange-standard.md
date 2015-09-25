@@ -25,10 +25,28 @@ The DATA Act Schema includes both the technical representation and the <a href="
 
 **Important:** The draft schema does not constitute official USSGL guidance and should not be used as official guidance by federal agencies or the public. For official guidance, see [http://tfm.fiscal.treasury.gov/v1/supplements/ussgl.html](http://tfm.fiscal.treasury.gov/v1/supplements/ussgl.html "official USSGL guidance").
 
-## Current Draft Version (v0.6)
+## Data Dictionary v0.6
 
 <a href="{{ site.baseurl }}/dictionary/" title="DATA Act Data Dictionary">Data Dictionary</a>
 
+## DATA Act Data Standards v0.6 Schemas (zipped)
+
 <a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.6.zip" title="DATA Act schema instance (.zip)">Schema instance (XML version)</a>
+
+## DATA Act Data Standards v0.6 Schemas (Normative)
+
+<a href="{{ site.baseurl }}/schema/appropriations/appropriations.xsd" title="appropriations">appropriations</a>
+
+<a href="{{ site.baseurl }}/schema/award/award.xsd" title="award">award</a>
+
+<a href="{{ site.baseurl }}/schema/award-financial/award-financial.xsd" title="award financial">award-financial</a>
+
+<a href="{{ site.baseurl }}/schema/awardee/awardee.xsd" title="awardee">awardee</a>
+
+<a href="{{ site.baseurl }}/schema/general/general.xsd" title="general">general</a>
+
+<a href="{{ site.baseurl }}/schema/program-object/program-object.xsd" title="program-object">program-object</a>
+
+<a href="{{ site.baseurl }}/schema/subaward/subaward.xsd" title="subaward">subaward</a>
 
 To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/101).
