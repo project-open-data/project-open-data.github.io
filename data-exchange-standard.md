@@ -5,35 +5,34 @@ layout: hero
 filename: data-exchange-standard.md
 title: The Digital Accountability Transparency Act Schema
 ---
-# The Digital Accountability Transparency Act Schema
+# The Data Exchange Standard
 
-## Background
+As part of the implementation of the DATA Act, this page contains information on the standard data exchange, called the “Digital Accountability Transparency Act Schema” (DATA Act Schema). The data exchange standard leverages industry standards to structure financial and non-financial data with metadata, or supplemental information that describes, explains, locates, or otherwise makes it easier to retrieve and understand the data.
+The Department of the Treasury, along with agency partners, is working to release incremental versions of the standard that regularly incorporate feedback from agencies, the public, and other stakeholders. Please note that the data standard is under active development. Specific implementations of this schema may be in XBRL, XML, JSON, and other formats. The information on this page is a work in progress and does not represent final or official guidance at this point in time.
 
-The DATA Act directs the Office of Management and Budget (OMB) and the U.S. Treasury Department (Treasury) to establish government-wide data standards for federal funds and entities receiving such funds. While standard data definitions will help to ensure that information will be consistent and comparable, a standard data exchange, as part of our implementation to make financial management data more accessible and reusable and provide the necessary linkages between financial events. By making federal spending data accessible, searchable, reusable and more reliable, the public can understand how government spending impacts their communities. The standard data exchange will also reduce the need for massive system changes across federal agencies to collect information and allow agencies to focus on managing data.
+## Current Draft Version (v0.6)
 
-Accordingly, Treasury will issue data exchange guidelines that leverage industry standards to structure financial and non-financial data with metadata, or supplemental information that describes, explains, locates, or otherwise makes it easier to retrieve and understand the data.
+Now that OMB and Treasury have released the [complete list of standardized data elements](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "standardized DATA Act elements"), the federal community has worked to revise v0.5 of the DATA Act Schema to incorporate the standardized elements. DATA Act Schema v0.6:
 
-Treasury will require agencies, to the extent practicable, to submit data for posting on USAspending.gov (or successor site) via a standard data exchange called the “Digital Accountability Transparency Act Schema” (DATA Act Schema).
+* Includes the complete set of financial and award data elements required by the DATA Act and FFATA;
+* Provides a simplified approach to understanding the data elements and their relationships based on feedback received; and
+* Better aligns the schema with standard business rules for improved interoperability and simplicity.
 
-The standard data exchange, or DATA Act Schema, has two components: a complete set of data for DATA Act reporting purposes and a standard format, or “language” for exchanging data. The DATA Act Schema includes the required DATA Act data elements and related metadata, including relationship and validation rules. The DATA Act Schema will provide a comprehensive view of the data definition standards and their relationships to one another.  Based on feedback from the 0.5 release, the DATA Act Schema 0.6 release incorporates a minimal viable product approach.  This approach starts with basic functionality and then matures into more functionality - incrementally over time.  With each monthly release, more functionality will be integrated into the schemas.  This approach has two immediate benefits: (1) crystallizes the focus for substantive feedback to be based on the data relationships, rules, and flows; and, (2) incrementally introduces additional functionality to the framework to bring the structure into alignment with XBRL (eXtensible Reporting Language), a freely available and global standard for describing and exchanging business information.  XBRL provides an industry-proven, standards-based manner to communicate and exchange business information between systems.
+The v0.6 release includes these artifacts:
 
-Treasury has created a draft subset of the DATA Act Schema based upon a subset of U.S. Standard General Ledger (USSGL), which is expressed in XBRL. The draft schema can be found here. Additional components of the DATA Act Schema will be created in the future to capture other data elements (see Figure 1). For data transmission within the federal government and to external stakeholders, Treasury may leverage a combination of additional formats (e.g. JSON, Protocol Buffer, CSV, etc.) derived from the DATA Act schemas standard representation. This will allow matching of the optimal format given data volume, performance, and data presentation needs.
+### 1) Data Dictionary v0.6
 
-The DATA Act Schema will be revised periodically and is expected to evolve over time to capture unique requirements for more complex or specialized areas and to reflect changes due to law or regulation.
-
-The DATA Act Schema includes both the technical representation and the <a href="{{ site.baseurl }}/dictionary/" title="DATA Act Data Dictionary">“human readable” data dictionary</a>.
-
-**Important:** The draft schema does not constitute official USSGL guidance and should not be used as official guidance by federal agencies or the public. For official guidance, see [http://tfm.fiscal.treasury.gov/v1/supplements/ussgl.html](http://tfm.fiscal.treasury.gov/v1/supplements/ussgl.html "official USSGL guidance").
-
-## Data Dictionary v0.6
-
+A human-readable listing of the data elements with definitions and other metadata (_e.g._, string length).  
 <a href="{{ site.baseurl }}/dictionary/" title="DATA Act Data Dictionary">Data Dictionary</a>
 
-## DATA Act Data Standards v0.6 Schemas (zipped)
+### 2) DATA Act Data Standards v0.6 Schemas (zipped)
 
-<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.6.zip" title="DATA Act schema instance (.zip)">Schema instance (XML version)</a>
+A single downloadable file that contains the XML Schema files. The Data Dictionary and the XML Schema content are in alignment.  
+<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.6.zip" title="DATA Act Schema (.zip)">Data Schema</a>
 
-## DATA Act Data Standards v0.6 Schemas (Normative)
+### 3) DATA Act Data Standards v0.6 Schemas (Normative)
+
+The individual XML Schema files are posted for your assurance that the schemas have been unaltered for this release. The Data Dictionary is informative and could be modified during a release.
 
 <a href="{{ site.baseurl }}/schema/appropriations/appropriations.xsd" title="appropriations">appropriations</a>
 
