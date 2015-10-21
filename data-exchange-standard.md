@@ -8,6 +8,7 @@ title: The Digital Accountability Transparency Act Schema
 # The Data Exchange Standard
 
 As part of the implementation of the DATA Act, this page contains information on the standard data exchange, called the “Digital Accountability Transparency Act Schema” (DATA Act Schema). The data exchange standard leverages industry standards to structure financial and non-financial data with metadata, or supplemental information that describes, explains, locates, or otherwise makes it easier to retrieve and understand the data.
+
 The Department of the Treasury, along with agency partners, is working to release incremental versions of the standard that regularly incorporate feedback from agencies, the public, and other stakeholders. Please note that the data standard is under active development. Specific implementations of this schema may be in XBRL, XML, JSON, and other formats. The information on this page is a work in progress and does not represent final or official guidance at this point in time.
 
 ## Current Draft Version (v0.6)
