@@ -12,13 +12,13 @@ The Department of the Treasury, along with agency partners, is working to releas
 
 ## Current Draft Version (v0.6)
 
-Now that OMB and Treasury have released the [complete list of standardized data elements](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "standardized DATA Act elements"), the federal community has worked to revise v0.5 of the DATA Act Schema to incorporate the standardized elements. DATA Act Schema v0.6:
+Now that the Office of Management and Budget (OMB) and Treasury have released the [complete list of standardized data elements](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "standardized DATA Act elements"), the federal community has revised v0.5 of the DATA Act Schema to incorporate the newly standardized elements. DATA Act Schema v0.6:
 
 * Includes the complete set of financial and award data elements required by the DATA Act and FFATA;
 * Provides a simplified approach to understanding the data elements and their relationships based on feedback received; and
 * Better aligns the schema with standard business rules for improved interoperability and simplicity.
 
-The v0.6 release includes these artifacts:
+The v0.6 release includes the following artifacts:
 
 ### 1) Data Dictionary v0.6
 
@@ -28,11 +28,11 @@ A human-readable listing of the data elements with definitions and other metadat
 ### 2) DATA Act Data Standards v0.6 Schemas (zipped)
 
 A single downloadable file that contains the XML Schema files. The Data Dictionary and the XML Schema content are in alignment.  
-<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.6.zip" title="DATA Act Schema (.zip)">Data Schema</a>
+<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.6.zip" title="DATA Act Schema v0.6">DATA Act Schema v0.6</a>
 
 ### 3) DATA Act Data Standards v0.6 Schemas (Normative)
 
-The individual XML Schema files are posted for your assurance that the schemas have been unaltered for this release. The Data Dictionary is informative and could be modified during a release.
+The individual XML Schema files are posted for your assurance that the schemas have been unaltered for the v0.6 release.
 
 <a href="{{ site.baseurl }}/schema/appropriations/appropriations.xsd" title="appropriations">appropriations</a>
 
