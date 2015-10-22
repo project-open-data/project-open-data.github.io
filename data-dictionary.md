@@ -21,7 +21,7 @@ title: DATA Act Data Dictionary
 
 		<p>The DATA Act data dictionary will be revised periodically and is expected to evolve over time to reflect the content within the DATA Act Schema.</p>
 
-		<p>To provide feedback on the data dictionary, please see our <a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/101" title="provide data dictionary feedback">related issue</a>.</p>
+		<p>To provide feedback on the data dictionary, please see our <a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/123" title="provide data dictionary feedback">related issue</a>.</p>
 
 		<h2>DATA Act Schema Data Dictionary</h2>
 
