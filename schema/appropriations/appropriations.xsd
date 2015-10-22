@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:data="urn:us:gov:treas:data_act" targetNamespace="urn:us:gov:treas:data_act" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.6">
+	<xsd:include schemaLocation="../general/general.xsd"/>
+	<xsd:element name="AppropriationsAccount" type="data:AppropriationsAccount_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Appropriations Account Container</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AppropriationsAccounts">
+		<xsd:annotation>
+			<xsd:documentation>Root Element for All Appropriations Accounts</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="data:AppropriationsAccounts_ComplexType"/>
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="BudgetAuthorityAppropriatedAmount" type="data:Amount25_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A provision of law (not necessarily in an appropriations act) authorizing an account to incur obligations and to make outlays for a given purpose. Usually, but not always, an appropriation provides budget authority.
+(defined in OMB Circular A-11)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="OtherBudgetaryResourcesAmount" type="data:Amount25_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>New borrowing authority, contract authority, and spending authority from offsetting collections provided by Congress in an appropriations act or other legislation, or unobligated balances of budgetary resources made available in previous legislation, to incur obligations and to make outlays.
+(defined in OMB Circular A-11)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="UnobligatedBalance" type="data:Amount25_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Unobligated balance means the cumulative amount of budget authority that remains available for obligation under law in unexpired accounts at a point in time. The term “expired balances available for adjustment only” refers to unobligated amounts in expired accounts.
+ Additional detail is provided in Circular A-11.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="AppropriationsAccount_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Appropriations Accounts Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:AppropriationAccount"/>
+			<xsd:element ref="data:BudgetAuthorityAppropriatedAmount"/>
+			<xsd:element ref="data:OtherBudgetaryResourcesAmount"/>
+			<xsd:element ref="data:UnobligatedBalance"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AppropriationsAccounts_ComplexType">
+		<xsd:sequence>
+			<xsd:element ref="data:AppropriationAccount" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

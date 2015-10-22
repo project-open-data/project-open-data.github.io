@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:data="urn:us:gov:treas:data_act" targetNamespace="urn:us:gov:treas:data_act" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.6">
+	<xsd:include schemaLocation="../general/general.xsd"/>
+	<xsd:element name="AirportAuthority" type="data:AirportAuthority_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is an Airport Authority.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AlaskanNativeOwned" type="data:AlaskanNativeOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Alaskan Native Owned Corporation or Firm</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AmericanIndianOwned" type="data:AmericanIndianOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is an American Indian Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AnnualRevenue" type="data:AnnualRevenue_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The contractor's annual gross revenue, taken from an average of the last three years. Usually obtained from the CCR (Central Contractor Registry).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ArchitectureAndEngineering" type="data:ArchitectureAndEngineering_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Architecture And Engineering.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AsianPacOwned" type="data:AsianPacOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is an Asian-Pacific American Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Awardee" type="data:Awardee_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Awardee Container</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Awardees" type="data:Awardees_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Root Element for All Awardees</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="BlackOwned" type="data:BlackOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Black American Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CityLocalGovernment" type="data:CityLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a City Local Government.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CommunityDevCorp" type="data:CommunityDevCorp_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Community Development Corporation.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CommunityDevCorpOwned" type="data:CommunityDevCorpOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Community Developed Corporation Owned Firm.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ConstructionFirm" type="data:ConstructionFirm_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Construction Firm.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CorporateEntityNotTaxExempt" type="data:CorporateEntityNotTaxExempt_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Corporate Entity Not Tax Exempt.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CorporateEntityTaxExampt" type="data:CorporateEntityTaxExempt_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Corporate Entity, Tax Exempt</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CouncilOfGovernments" type="data:CouncilOfGovernments_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Council of Governments.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CountyLocalGovernment" type="data:CountyLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a County Local Government.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="DomesticShelter" type="data:DomesticShelter_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Domestic Shelter.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="DotCertifiedDisadvantagedBusEnterprise" type="data:DotCertifiedDisadvantagedBusEnterprise_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is DoT Certified Disadvantaged Business Enterprise.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="EducationalInstitution" type="data:EducationalInstitution_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is an Educational Institution.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="EmergingSmallBusiness" type="data:EmergingSmallBusiness_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether vendor is an Emerging Small Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FederalGovernemntOrg" type="data:FederalGovernemntOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Federal Government Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FederalGovernmentAgency" type="data:FederalGovernmentAgency_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Federal Government Agency.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FederallyFundedResearchAndDevCorp" type="data:FederallyFundedResearchAndDevCorp_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Federally Funded Research and Development Corporation.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ForeignGovernment" type="data:ForeignGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Foreign Government.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ForeignOwnedAndLocated" type="data:ForeignOwnedAndLocated_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Foreign Owned and Located.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ForProfitOrg" type="data:ForProfitOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is  a Profit Organization or not</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Foundation" type="data:Foundation_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Foundation</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HispanicOwned" type="data:HispanicOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Hispanic American Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HispanicServicingInstitution" type="data:HispanicServicingInstitution_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Hispanic Servicing Institution</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HistoricallyBlackCollegeOrUniversity" type="data:HistoricallyBlackCollegeOrUniversity_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Historically Black College or University.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Hospital" type="data:Hospital_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Hospital.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HousingAuthorities" type="data:HousingAuthorities_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Housing Authorities Public/Tribal.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HubZoneFirm" type="data:HubZoneFirm_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Historically Underutilized Business Zone (HUBZone) Firm.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="IndianTribe" type="data:IndianTribe_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is an Indian Tribe</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="InterMunicipalLocalGovernment" type="data:InterMunicipalLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Inter Municipal Local Government.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="InternationalOrg" type="data:InternationalOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a International Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="InterstateEntity" type="data:InterstateEntity_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Interstate Entity.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="JointVentureWomanOwnedSmallBusiness" type="data:JointVentureWomanOwnedSmallBusiness_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>This code is reported for a Women Owned Small Business Set-Aside made pursuant to FAR 19.15. This code is only valid for actions signed on or after 04/01/2011.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LaborSuplusAreaFirm" type="data:LaborSuplusAreaFirm_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Labor Surplus Area Firm.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LandGrantCollege1862" type="data:LandGrantCollege1862_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a 1862 Land Grant College.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LandGrantCollege1890" type="data:LandGrantCollege1890_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a 1890 Land Grant College.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LandGrantCollege1994" type="data:LandGrantCollege1994_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a 1994 Land Grant College.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LimitedLiabilityCorporation" type="data:LimitedLiabilityCorporation_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Limited Liability Corporation.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LocalGovernment" type="data:LocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Local Government Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LocalGovernmentOwned" type="data:LocalGovernmentOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Local Government Owned.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ManufacturerOfGoods" type="data:ManufacturerOfGoods_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Manufacturer of Goods.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="MinorityInstitution" type="data:MinorityInstitution_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Minority Institution.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="MinorityOwned" type="data:MinorityOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Minority Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="MunicipalityLocalGovernemnt" type="data:MunicipalityLocalGovernemnt_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Municipality Local Government.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NativeHawaiinOwned" type="data:NativeHawaiinOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Native Hawaiian Owned Organization Or Firm.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NativeOwned" type="data:NativeOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Native American Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NonProfitOrganization" type="data:NonProfitOrganization_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Nonprofit Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NumberOfActions" type="data:NumberOfActions_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The number of actions that involved contract modifications for additional supplies or services. Can be reported for new contracts or contract modification transactions.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NumberOfEmployees" type="data:NumberOfEmployees_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The contractor's business size in terms of number of employees. Usually obtained from the CCR (Central Contractor Registry).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="OtherBusOrOrg" type="data:OtherBusOrOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Other Business Or Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="OtherMinorityOwned" type="data:OtherMinorityOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Other Minority Owned.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="OtherNotForProfitOrg" type="data:OtherNotForProfitOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Other Not For Profit Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PartnershipOrLimitedLiabilityCorp" type="data:PartnershipOrLimitedLiabilityCorp_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Partnership Or Limited Liability Partnership.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PlanningCommision" type="data:PlanningCommision_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Planning Commission.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PortAuthority" type="data:PortAuthority_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Port Authority.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PrivateUniversityOrCollege" type="data:PrivateUniversityOrCollege_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Private University or College</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Program_8A_Participant" type="data:Program_8A_Participant_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is an 8(a) Program Participant Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ReceivesContractsAndGrants" type="data:ReceivesContractsAndGrants_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor receives Contracts and Grants.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="RecipientLegalEntityAddress" type="data:Awardee_Address_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Recipient address information.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SamException" type="data:SamException_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The reason a vendor/contractor not registered in the mandated SAM system may be used in a purchase.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SchoolDistrictLocalGovernment" type="data:SchoolDistrictLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a School District Local Government.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SchoolOfForestry" type="data:SchoolOfForestry_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is School of Forestry.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SelfCertifiedSmallDisadvantagedBusiness" type="data:SelfCertifiedSmallDisadvantagedBusiness_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Self-Certified Small Disadvantaged Business Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ServiceDisabledVeteranOwned" type="data:ServiceDisabledVeteranOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Service-Related Disabled Veteran Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ServiceProvider" type="data:ServiceProvider_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Service Provider.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ShelteredWorkshop" type="data:ShelteredWorkshop_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Sheltered Workshop (JWOD Provider) Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SmallAgriculturalCooperative" type="data:SmallAgriculturalCooperative_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Small Agricultural Cooperative.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SmallDisadvantaged" type="data:SmallDisadvantaged_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Small Disadvantaged Business Organization</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SoleProprietorship" type="data:SoleProprietorship_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Sole Proprietorship.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="StateGovernment" type="data:StateGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a State Government Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="StateInstitutionOfHigherLearning" type="data:StateInstitutionOfHigherLearning_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is State Controlled Institution of Higher Learning.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SubchapterSCorporation" type="data:SubcontinentAsianOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Subchapter S Corporation.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SubcontinentAsianOwned" type="data:SubcontinentAsianOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Subcontinent Asian (Asian-Indian) American Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TownshipLocalGovernment" type="data:TownshipLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Township Local Government.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TransitAuthority" type="data:TransitAuthority_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Transit Authority.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TribalCollege" type="data:TribalCollege_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Tribal College.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TribalGovernment" type="data:TribalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Tribal Government Organization.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TriballyOwned" type="data:TriballyOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Tribally Owned Firm.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="VenderAlternativeCode" type="data:VenderAlternativeCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Alternate site code for vendor.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="VendorAlternativeName" type="data:VendorAlternativeName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Alternate name for vendor.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="VendorFaxNumber" type="data:VendorFaxNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The fax number of the contractor.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="VendorPhoneNumber" type="data:VendorPhoneNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The phone number of the contractor.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="VeteranOwned" type="data:VeteranOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Veteran Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="VeterinaryCollege" type="data:VeterinaryCollege_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Veterinary College.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="VeterinaryHospital" type="data:VeterinaryHospital_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is Veterinary Hospital</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="WomanOwned" type="data:WomanOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor is a Woman Owned Business.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="WomanOwnedSmallBusiness" type="data:WomanOwnedSmallBusiness_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>This code is reported for a Women Owned Small Business Set-Aside made pursuant to FAR 19.15. This code is only valid for actions signed on or after 04/01/2011.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="Awardee_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Awardee Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:AwardeeOrRecipientLegalEntityName"/>
+			<xsd:element ref="data:AwardeeOrRecipientUniqueIdentifier"/>
+			<xsd:element ref="data:UltimateParentUniqueIdentifier"/>
+			<xsd:element ref="data:UltimateParentLegalEntityName"/>
+			<xsd:element ref="data:RecipientLegalEntityAddress"/>
+			<xsd:element ref="data:HighlyCompensatedOfficer" maxOccurs="5"/>
+			<xsd:element ref="data:BusinessType"/>
+			<xsd:element ref="data:AmericanIndianOwned"/>
+			<xsd:element ref="data:AsianPacOwned"/>
+			<xsd:element ref="data:BlackOwned"/>
+			<xsd:element ref="data:SamException" minOccurs="0"/>
+			<xsd:element ref="data:EducationalInstitution"/>
+			<xsd:element ref="data:EmergingSmallBusiness"/>
+			<xsd:element ref="data:VendorFaxNumber" minOccurs="0"/>
+			<xsd:element ref="data:FederalGovernemntOrg"/>
+			<xsd:element ref="data:Program_8A_Participant"/>
+			<xsd:element ref="data:HispanicOwned"/>
+			<xsd:element ref="data:HistoricallyBlackCollegeOrUniversity"/>
+			<xsd:element ref="data:Hospital"/>
+			<xsd:element ref="data:HubZoneFirm"/>
+			<xsd:element ref="data:LandGrantCollege1862"/>
+			<xsd:element ref="data:LandGrantCollege1890"/>
+			<xsd:element ref="data:LandGrantCollege1994"/>
+			<xsd:element ref="data:AirportAuthority"/>
+			<xsd:element ref="data:AlaskanNativeOwned"/>
+			<xsd:element ref="data:ArchitectureAndEngineering"/>
+			<xsd:element ref="data:CityLocalGovernment"/>
+			<xsd:element ref="data:CommunityDevCorpOwned"/>
+			<xsd:element ref="data:CommunityDevCorp"/>
+			<xsd:element ref="data:ConstructionFirm"/>
+			<xsd:element ref="data:CorporateEntityNotTaxExempt"/>
+			<xsd:element ref="data:CorporateEntityTaxExampt"/>
+			<xsd:element ref="data:CouncilOfGovernments"/>
+			<xsd:element ref="data:CountyLocalGovernment"/>
+			<xsd:element ref="data:DomesticShelter"/>
+			<xsd:element ref="data:DotCertifiedDisadvantagedBusEnterprise"/>
+			<xsd:element ref="data:WomanOwnedSmallBusiness"/>
+			<xsd:element ref="data:FederalGovernmentAgency"/>
+			<xsd:element ref="data:FederallyFundedResearchAndDevCorp"/>
+			<xsd:element ref="data:ForeignGovernment"/>
+			<xsd:element ref="data:ForeignOwnedAndLocated"/>
+			<xsd:element ref="data:ForProfitOrg"/>
+			<xsd:element ref="data:Foundation"/>
+			<xsd:element ref="data:HispanicServicingInstitution"/>
+			<xsd:element ref="data:HousingAuthorities"/>
+			<xsd:element ref="data:IndianTribe"/>
+			<xsd:element ref="data:InterMunicipalLocalGovernment"/>
+			<xsd:element ref="data:InternationalOrg"/>
+			<xsd:element ref="data:InterstateEntity"/>
+			<xsd:element ref="data:JointVentureWomanOwnedSmallBusiness"/>
+			<xsd:element ref="data:LaborSuplusAreaFirm"/>
+			<xsd:element ref="data:LimitedLiabilityCorporation"/>
+			<xsd:element ref="data:LocalGovernmentOwned"/>
+			<xsd:element ref="data:ManufacturerOfGoods"/>
+			<xsd:element ref="data:MunicipalityLocalGovernemnt"/>
+			<xsd:element ref="data:NativeHawaiinOwned"/>
+			<xsd:element ref="data:OtherBusOrOrg"/>
+			<xsd:element ref="data:OtherMinorityOwned"/>
+			<xsd:element ref="data:OtherNotForProfitOrg"/>
+			<xsd:element ref="data:PartnershipOrLimitedLiabilityCorp"/>
+			<xsd:element ref="data:PlanningCommision"/>
+			<xsd:element ref="data:PortAuthority"/>
+			<xsd:element ref="data:PrivateUniversityOrCollege"/>
+			<xsd:element ref="data:SmallDisadvantaged"/>
+			<xsd:element ref="data:SchoolDistrictLocalGovernment"/>
+			<xsd:element ref="data:SchoolOfForestry"/>
+			<xsd:element ref="data:ServiceProvider"/>
+			<xsd:element ref="data:SmallAgriculturalCooperative"/>
+			<xsd:element ref="data:SoleProprietorship"/>
+			<xsd:element ref="data:StateInstitutionOfHigherLearning"/>
+			<xsd:element ref="data:SubchapterSCorporation"/>
+			<xsd:element ref="data:TownshipLocalGovernment"/>
+			<xsd:element ref="data:TransitAuthority"/>
+			<xsd:element ref="data:TribalCollege"/>
+			<xsd:element ref="data:TriballyOwned"/>
+			<xsd:element ref="data:VeterinaryCollege"/>
+			<xsd:element ref="data:VeterinaryHospital"/>
+			<xsd:element ref="data:LocalGovernment"/>
+			<xsd:element ref="data:MinorityInstitution"/>
+			<xsd:element ref="data:MinorityOwned"/>
+			<xsd:element ref="data:NativeOwned"/>
+			<xsd:element ref="data:NonProfitOrganization"/>
+			<xsd:element ref="data:NumberOfActions"/>
+			<xsd:element ref="data:AnnualRevenue" minOccurs="0"/>
+			<xsd:element ref="data:NumberOfEmployees" minOccurs="0"/>
+			<xsd:element ref="data:VendorPhoneNumber" minOccurs="0"/>
+			<xsd:element ref="data:ReceivesContractsAndGrants"/>
+			<xsd:element ref="data:SubcontinentAsianOwned"/>
+			<xsd:element ref="data:SelfCertifiedSmallDisadvantagedBusiness"/>
+			<xsd:element ref="data:ShelteredWorkshop"/>
+			<xsd:element ref="data:ServiceDisabledVeteranOwned"/>
+			<xsd:element ref="data:StateGovernment"/>
+			<xsd:element ref="data:TribalGovernment"/>
+			<xsd:element ref="data:VendorAlternativeName" minOccurs="0"/>
+			<xsd:element ref="data:VenderAlternativeCode" minOccurs="0"/>
+			<xsd:element ref="data:VendorDoingBusinessAsName" minOccurs="0"/>
+			<xsd:element ref="data:VendorLegalOrgName" minOccurs="0"/>
+			<xsd:element ref="data:VeteranOwned"/>
+			<xsd:element ref="data:WomanOwned"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Awardees_ComplexType">
+		<xsd:sequence>
+			<xsd:element ref="data:Awardee" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

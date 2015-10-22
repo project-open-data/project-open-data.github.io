@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:data="urn:us:gov:treas:data_act" targetNamespace="urn:us:gov:treas:data_act" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.6">
+	<xsd:include schemaLocation="../general/general.xsd"/>
+	<xsd:element name="ArraModelQuestion1" type="data:ArraModelQuestion1_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>True or false flag in response to FFATA question for the prime awardee: In your business or organization’s previous fiscal year, did your business or organization (including parent organization, all branches, and all affiliates worldwide) receive (1) 80 percent or more of your annual gross revenues in U.S. federal contracts, subcontracts, loans, grants, subgrants, and/or cooperative agreements; and (2) $25,000,000 or more in annual gross revenues from U.S. federal contracts, subcontracts, loans, grants, subgrants, and/or cooperative agreements?</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ArraModelQuestion2" type="data:ArraModelQuestion2_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>True or false flag in response to FFATA question for the prime awardee: Does the public have access to information about the compensation of the senior executives in your business or organization (including parent organization, all branches, and all affiliates worldwide) through periodic reports filed under section 13(a) or 15(d) of the Securities Exchange Act of 1934 (15 U.S.C. 78m (a), 78o (d)) or section 6104 of the Internal Revenue Code of 1986?</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardDesc" type="data:AwardDescription_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A brief description of the purpose of the award.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardReportMonth" type="data:AwardReportMonth_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The FFATA Subaward Reporting System (FSRS) Report Period Month for the prime award or subaward.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardReportYear" type="data:Year_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The FFATA Subaward Reporting System (FSRS) Report Period Year for the prime award or subaward.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CurrentTotalFundingObligationAmt" type="data:Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The total Federal plus non-Federal funding amount in dollars. A negative number represents a decrease in funding.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LegalEntityAddress" type="data:Address_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Recipient Legal Entitiy Address Information.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NAICS_Code" type="data:NAICS_Code_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The identifier that represents the North American Industrial Classification System Code assigned to the solicitation and resulting award identifying the industry in which the contract requirements are normally performed.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NAICS_Desc" type="data:NAICS_Description_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The title associated with the NAICS Code.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PrimeAwardAgencyId" type="data:PrimeAwardAgencyId_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Identifier used to link agency in FPDS-NG to award information.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PrimeAwardDateSubmitted" type="data:PrimeAwardDateSubmitted_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The date when FFATA Subaward Reporting System (FSRS) Report was submitted for the prime award.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PrimeAwardReportId" type="data:PrimeAwardReportId_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The unique identifying record id.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PrimeAwardReportType" type="data:PrimeAwardReportType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The FFATA Subaward Reporting System (FSRS) Type of Report for the prime award.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SubAward" type="data:SubAward_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Sub Award Container</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SubawardeeBusinessType" type="data:SubawardeeBusinessType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Comma separated list representing sub-contractor business types pulled from FPDS-NG (Federal Procurement Data System - Next Generation) or Central Contract Registration (CCR).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SubawardNumber" type="data:SubawardNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>An identifying number assigned by the prime awardee organization to facilitate the tracking of its sub-contracts.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SubAwards">
+		<xsd:annotation>
+			<xsd:documentation>Root Element for all Subawards </xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:extension base="data:SubAwards_ComplexType"/>
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="SubAwardTypeOfContractPricing" type="data:TypeOfContractPricing_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The type of contract as defined in FAR Part 16 that applies to this procurement.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="SubAward_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Sub Award Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:AwardeeOrRecipientLegalEntityName" minOccurs="0"/>
+			<xsd:element ref="data:AwardeeOrRecipientUniqueIdentifier" minOccurs="0"/>
+			<xsd:element ref="data:UltimateParentUniqueIdentifier" minOccurs="0"/>
+			<xsd:element ref="data:UltimateParentLegalEntityName" minOccurs="0"/>
+			<xsd:element ref="data:LegalEntityAddress" minOccurs="0"/>
+			<xsd:element ref="data:HighlyCompensatedOfficer" minOccurs="0" maxOccurs="5"/>
+			<xsd:element ref="data:CurrentTotalFundingObligationAmt" minOccurs="0"/>
+			<xsd:element ref="data:SubAwardTypeOfContractPricing" minOccurs="0"/>
+			<xsd:element ref="data:NAICS_Code" minOccurs="0"/>
+			<xsd:element ref="data:NAICS_Desc" minOccurs="0"/>
+			<xsd:element ref="data:CFDA_Number" minOccurs="0"/>
+			<xsd:element ref="data:CFDA_Title" minOccurs="0"/>
+			<xsd:element ref="data:AwardingAgencyName" minOccurs="0"/>
+			<xsd:element ref="data:AwardingAgencyCode" minOccurs="0"/>
+			<xsd:element ref="data:AwardDesc" minOccurs="0"/>
+			<xsd:element ref="data:ActionDate" minOccurs="0"/>
+			<xsd:element ref="data:PlaceOfPerformance" minOccurs="0"/>
+			<xsd:element ref="data:VendorDoingBusinessAsName" minOccurs="0"/>
+			<xsd:element ref="data:AccountTitle" minOccurs="0"/>
+			<xsd:element ref="data:PrimeAwardAgencyId" minOccurs="0"/>
+			<xsd:element ref="data:PrimeAwardDateSubmitted" minOccurs="0"/>
+			<xsd:element ref="data:PrimeAwardReportId" minOccurs="0"/>
+			<xsd:element ref="data:AwardReportMonth" minOccurs="0"/>
+			<xsd:element ref="data:PrimeAwardReportType" minOccurs="0"/>
+			<xsd:element ref="data:AwardReportYear" minOccurs="0"/>
+			<xsd:element ref="data:ArraModelQuestion1" minOccurs="0"/>
+			<xsd:element ref="data:ArraModelQuestion2" minOccurs="0"/>
+			<xsd:element ref="data:SubawardNumber" minOccurs="0"/>
+			<xsd:element ref="data:SubawardeeBusinessType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="SubAwards_ComplexType">
+		<xsd:sequence>
+			<xsd:element ref="data:SubAward" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

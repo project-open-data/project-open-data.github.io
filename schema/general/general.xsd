@@ -1,0 +1,2209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:data="urn:us:gov:treas:data_act" targetNamespace="urn:us:gov:treas:data_act" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.6">
+	<xsd:element name="AccountTitle" type="data:AccountTitle_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The description of the Program Source.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ActionDate" type="data:Date_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>The date the action being reported was issued / signed by the government or a binding agreement was reached.  </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AgencyIdentifier" type="data:AgencyIdentifier_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The agency code identifies the department or agency that is responsible for the account.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AllocationTransferAgencyIdentifier" type="data:AllocationTransferAgencyIdentifier_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The allocation agency identifies the department or agency that is receiving funds through an allocation (non-expenditure) transfer.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AppropriationAccount" type="data:TreasuryAccountSymbol_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>The Treasury Appropriation Fund Symbol (TAFS) is the components of a Treasury Account Symbol – allocation agency, agency, main account, period of availability and availability type – that directly correspond to an appropriations account established by Congress.
+(defined in OMB Circular A-11)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AssistanceType" type="data:AssistanceType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Assistance Type Code Enumeration</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AvailabilityTypeCode" type="data:AvailabilityTypeCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>In appropriations accounts, the availability type code identifies an unlimited period to incur new obligations; this is denoted by the letter "X"</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardeeOrRecipientLegalEntityName" type="data:EntityName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The name of the awardee or recipient that relates to the unique identifier. For U.S. based companies, this name is what the business ordinarily files in formation documents with individual states (when required).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardeeOrRecipientUniqueIdentifier" type="data:DUNS_Number_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The unique identification number for an awardee or recipient. Currently the identifier is the 9-digit number assigned by D and B referred to as the DUNS number.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardIDprefix" type="data:AwardIDprefix_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The prefix indicates the Activity Address Code which is the department/agency and office issuing the instrument.  Use the AAC assigned to the program/funding office providing  the predominance of funding for the contract action as the program/funding office code.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardingAgencyCode" type="data:AgencyCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>All spending: A department or establishment of the Government as used in the Treasury Account Fund Symbol (TAFS).
+(defined in OMB Circular A-11)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardingAgencyName" type="data:AgencyName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>All spending: The name associated with a department or establishment of the Government as used in the Treasury Account Fund Symbol (TAFS).
+(defined in OMB Circular A-11)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardModAmendmentNumber" type="data:AwardModificationAmendmentNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The identifier of an action being reported that indicates the specific subsequent change to the initial award.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardNumber" type="data:AwardNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement awards (PIID): The number assigned by the issuing agency in these positions. Agencies may choose a minimum of four characters up to a maximum of eight characters to be used, but the same number of characters must be used agency-wide. If a number less than the maximum is used, do not use leading or trailing zeroes to make it equal the maximum in any system or data transmission. A separate series of numbers may be used for any type of instrument listed in paragraph (a)(3) of this section. An agency may reserve blocks of numbers or alpha-numeric numbers for use by its various components.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardType" type="data:AwardType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement awards (PIID): The type of instrument by entering one upper case letter in position nine of the PIID. Departments and independent agencies may assign those letters identified for department use in accordance with their agency policy; however, any use must be applied to the entire department or agency.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardYear" type="data:AwardYear_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement awards (PIID): The last two digits of the fiscal year in which the procurement instrument  is issued or awarded. This is the date the action is signed, not the effective date if the effective date is different.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="BeginningPeriodOfAvailability" type="data:PeriodOfAvailability_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>In annual and multi-year funds, the beginning period of availability identifies the first year of availability under law that an appropriation account may incur new obligations.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="BusinessType" type="data:BusinessType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement awards: Organization Type / Business Type
+	(Entity information 3.3.1): Business types selected by an entity as applicable for Federal awards.
+	
+	Financial assistance awards: Two-position numeric code which depicts the type of recipient or borrower.
+	Government codes:
+	00 = State government
+	01 = county government
+	02 = city or township government
+	04 = special district government
+	05 = independent school district
+	06 = State controlled institution of higher education Nonprofit agencies:
+	11 = Indian tribe
+	12 = other nonprofit
+	Private:
+	20 = private higher education
+	21 = individual
+	22 = profit organization
+	23 = small business
+	25 = all other</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CFDA_Number" type="data:CFDA_Number_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Six-position program number from the latest edition of the CFDA (left justified, space filled). Field is seven positions to accommodate possible expansion in this number. If CFDA program number is not available, a pseudo-code is used. This consists of the first two positions of the agency&apos;s CFDA program numbering series, followed by AAA, AAB, etc. for each program being reported. Program titles are listed in field 30.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CFDA_Title" type="data:CFDA_Title_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The title of the area of work under which the Federal award was funded in the Catalog of Federal Domestic Assistance.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CityName" type="data:CityName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation> Name of the city in which the awardee or recipient’s legal business address is located.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CongressionalDistrict" type="data:CongressionalDistrict_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The congressional district in which the awardee or recipient is located. This is not a required data element for non-U.S. addresses.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ContractAwardType" type="data:ContractAwardType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The type of award being entered by this transaction. Types of awards include Purchase Orders (PO), Delivery Orders (DO), BPA Calls and Definitive Contracts.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CountryCode" type="data:CountryCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Code for the country in which the awardee or recipient is located, using the ISO 3166-1 Alpha-3 GENC Profile, and not the codes listed for those territories and possessions of the United States already identified as “states.”</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CountryName" type="data:CountryName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The name corresponding to the Country Code.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CountyName" type="data:CountyName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>County where the predominant performance of the award will be accomplished. </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Day" type="data:Day_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Day</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="EndingPeriodOfAvailability" type="data:PeriodOfAvailability_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>In annual and multi-year funds, the end period of availability identifies the last year of funds availability under law that an appropriation account may incur new obligations.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FAIN_AwardNumber" type="data:FAIN_Number_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The Federal Award Identification Number (FAIN) is the unique ID within the Federal agency for each financial assistance award.  Once an agency assigns a FAIN and reports it to USAspending.gov, the Federal agency may not- with limited exceptions ­ modify the FAIN during the life of the award. Further, once a Federal agency assigns a FAIN, that Federal agency must ensure that the FAIN is clearly identified in all Federal award documents. As a term and condition of the award, Federal agencies must require that all recipients document the assigned FAIN on each subaward under the Federal award. </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FederalPrimeAward" type="data:FederalPrimeAward_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The required FFATA award types related to financial assistance and contracts and are defined as follows: • Grant • Loan • Cooperative agreement • Other form of financial assistance • Procurement (which includes purchase order, delivery order, task order) This categorization is determined to be procurement if the award is reported through FPDS. If the award is reported through the ASP using the FAADS+ format, the Type of Assistance field below is used.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HighlyCompensatedOfficer" type="data:HighlyCompensatedOfficer_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Highly compensated officer container</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HighlyCompensatedOfficerCompensation" type="data:Amount38_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The cash and noncash dollar value earned by the one of the five most highly compensated “Executives” during the awardee's preceding fiscal year and includes the following (for more information see 17 CFR 229.402c2): salary and bonuses, awards of stock, stock options, and stock appreciation rights, earnings for services under non-equity incentive plans, change in pension value, above-market earnings on deferred compensation which is not tax qualified, and other compensation.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HighlyCompensatedOfficerFirstName" type="data:HighlyCompensatedOfficerFirstName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The first name of an individual identified as one of the five most highly compensated "Executives"."Executive" means officers, managing partners, or any other employees in management positions.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HighlyCompensatedOfficerLastName" type="data:HighlyCompensatedOfficerLastName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The last name of an individual identified as one of the five most highly compensated "Executives.""Executive" means officers, managing partners, or any other employees in management positions.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="HighlyCompensatedOfficerMiddleInitial" type="data:HighlyCompensatedOfficerMiddleInitial_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The middle initial of an individual identified as one of the five most highly compensated "Executives.""Executive" means officers, managing partners, or any other employees in management positions.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="idvType" type="data:idvType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The type of Indefinite Delivery Vehicle being (IDV) loaded by this transaction. IDV Types include Government-Wide Acquisition Contract (GWAC), Multi-Agency Contract, Other Indefinite Delivery Contract (IDC), Federal Supply Schedule (FSS), Basic Ordering Agreement (BOA), and Blanket Purchase Agreements (BPA).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="MainAccountCode" type="data:MainAccountCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The main account code identifies the account in statute.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Month" type="data:Month_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Month</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ObjectClass" type="data:ObjectClass_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Categories in a classification system that presents obligations by the items or services purchased by the Federal Government. Each specific object class is defined in OMB Circular A-11 83.6.
+(defined in OMB Circular A-11)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PlaceOfPerformance" type="data:PlaceOfPerformance_Address_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Location where the predominant performance of the award will be accomplished.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PostalCode" type="data:PostalCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation> Postal service code for awardee or recipient not located in the United States. This is an optional data element, and used instead of the ZIP+4 Code for non-US addresses.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="StateCode" type="data:StateCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>United States Postal Service (USPS) two-letter abbreviation for the state or territory in which the awardee or recipient’s legal business address is located. Identify States, the District of Columbia, territories (i.e., American Samoa, Guam, Northern Mariana Islands, Puerto Rico, U.S. Virgin Islands) and associated states (i.e., Republic of the Marshall Islands, the Federated States of Micronesia, and Palau) by their USPS two-letter abbreviation for the purposes of reporting. Report legal business address located in the Puerto Rico, Northern Mariana Islands, American Samoa, Guam, and U.S. Virgin Islands using USPS assigned state codes.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="StreetAddressLine1" type="data:StreetAddressLine_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Line 1 of street address.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="StreetAddressLine2" type="data:StreetAddressLine_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Line  2 of street address.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TypeOfContractPricing" type="data:TypeOfContractPricing_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The type of contract as defined in FAR Part 16 that applies to this procurement.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="UltimateParentLegalEntityName" type="data:EntityName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The name of the ultimate parent of the awardee or recipient. Currently the name is from the global parent DUNS number.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="UltimateParentUniqueIdentifier" type="data:EntityUniqueID_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The unique identification number for the ultimate parent of an awardee or recipient. Currently the identifier is the 9-digit number maintained by D and B as the global parent DUNS number.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="VendorDoingBusinessAsName" type="data:VendorDoingBusinessAsName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The doing as business name of the contractor address.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="VendorLegalOrgName" type="data:VendorLegalOrgName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Vendor legal name.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Year" type="data:Year_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Year</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ZipCode" type="data:ZipCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation> USPS zoning code associated with the awardee or recipient’s legal business address. This is not a required data element for non-US addresses. (First five digits)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ZipCodePlus4_4_Digit" type="data:ZipCodePlus4_4_Digit_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation> USPS zoning code associated with the awardee or recipient’s legal business address. This is not a required data element for non-US addresses. (Last four digits)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ZipCodePlus4_9_Digit" type="data:ZipCodePlus4_9_Digit_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation> USPS zoning code associated with the awardee or recipient’s legal business address. This is not a required data element for non-US addresses. (Last four digits)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="Address_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Address Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:StreetAddressLine1" minOccurs="0"/>
+			<xsd:element ref="data:StreetAddressLine2" minOccurs="0"/>
+			<xsd:element ref="data:CountyName" minOccurs="0"/>
+			<xsd:element ref="data:CityName"/>
+			<xsd:element ref="data:StateCode" minOccurs="0"/>
+			<xsd:element ref="data:PostalCode" minOccurs="0"/>
+			<xsd:element ref="data:ZipCode" minOccurs="0"/>
+			<xsd:element ref="data:ZipCodePlus4_4_Digit" minOccurs="0"/>
+			<xsd:element ref="data:ZipCodePlus4_9_Digit" minOccurs="0"/>
+			<xsd:element ref="data:CountryName" minOccurs="0"/>
+			<xsd:element ref="data:CountryCode" minOccurs="0"/>
+			<xsd:element ref="data:CongressionalDistrict" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Awardee_Address_ComplexType">
+		<xsd:complexContent>
+			<xsd:restriction base="data:Address_ComplexType">
+				<xsd:sequence>
+					<xsd:element ref="data:StreetAddressLine1" minOccurs="0"/>
+					<xsd:element ref="data:StreetAddressLine2" minOccurs="0"/>
+					<xsd:element ref="data:CityName"/>
+					<xsd:element ref="data:StateCode" minOccurs="0"/>
+					<xsd:element ref="data:PostalCode" minOccurs="0"/>
+					<xsd:element ref="data:ZipCode" minOccurs="0"/>
+					<xsd:element ref="data:ZipCodePlus4_4_Digit" minOccurs="0"/>
+					<xsd:element ref="data:CountryName" minOccurs="0"/>
+					<xsd:element ref="data:CountryCode" minOccurs="0"/>
+					<xsd:element ref="data:CongressionalDistrict" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:restriction>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="AwardIdentificationNumber_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>The identifier of the procurement award under which the specific award is issued, such as a Federal Supply Schedule. This data element currently applies to procurement actions only.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:AwardIDprefix" minOccurs="0"/>
+			<xsd:element ref="data:AwardYear" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The last two digits of the fiscal year in which the procurement instrument  is issued or awarded. This is the date the action is signed, not the effective date if the effective date is different.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element ref="data:AwardType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The type of instrument by entering one upper case letter in position nine of the PIID. Departments and independent agencies may assign those letters identified for department use in accordance with their agency policy; however, any use must be applied to the entire department or agency.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element ref="data:AwardNumber" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The number assigned by the issuing agency in these positions. Agencies may choose a minimum of four characters up to a maximum of eight characters to be used, but the same number of characters must be used agency-wide. If a number less than the maximum is used, do not use leading or trailing zeroes to make it equal the maximum in any system or data transmission. A separate series of numbers may be used for any type of instrument listed in paragraph (a)(3) of this section. An agency may reserve blocks of numbers or alpha-numeric numbers for use by its various components.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element ref="data:FAIN_AwardNumber" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Date_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Date Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:Day"/>
+			<xsd:element ref="data:Month"/>
+			<xsd:element ref="data:Year"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="HighlyCompensatedOfficer_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Compensated Officer Container</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:HighlyCompensatedOfficerFirstName" minOccurs="0"/>
+			<xsd:element ref="data:HighlyCompensatedOfficerMiddleInitial" minOccurs="0"/>
+			<xsd:element ref="data:HighlyCompensatedOfficerLastName" minOccurs="0"/>
+			<xsd:element ref="data:HighlyCompensatedOfficerCompensation" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="PlaceOfPerformance_Address_ComplexType">
+		<xsd:complexContent>
+			<xsd:restriction base="data:Address_ComplexType">
+				<xsd:sequence>
+					<xsd:element ref="data:StreetAddressLine1" minOccurs="0"/>
+					<xsd:element ref="data:StreetAddressLine2" minOccurs="0"/>
+					<xsd:element ref="data:CountyName" minOccurs="0"/>
+					<xsd:element ref="data:CityName"/>
+					<xsd:element ref="data:StateCode" minOccurs="0"/>
+					<xsd:element ref="data:PostalCode" minOccurs="0"/>
+					<xsd:element ref="data:ZipCodePlus4_9_Digit" minOccurs="0"/>
+					<xsd:element ref="data:CountryName" minOccurs="0"/>
+					<xsd:element ref="data:CountryCode" minOccurs="0"/>
+					<xsd:element ref="data:CongressionalDistrict" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:restriction>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="TreasuryAccountSymbol_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>The Treasury Appropriation Fund Symbol (TAFS) is the components of a Treasury Account Symbol – allocation agency, agency, main account, period of availability and availability type – that directly correspond to an appropriations account established by Congress.
+(defined in OMB Circular A-11)</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:AllocationTransferAgencyIdentifier"/>
+			<xsd:element ref="data:AgencyIdentifier"/>
+			<xsd:element ref="data:BeginningPeriodOfAvailability"/>
+			<xsd:element ref="data:EndingPeriodOfAvailability"/>
+			<xsd:element ref="data:AvailabilityTypeCode"/>
+			<xsd:element ref="data:MainAccountCode"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="TypeOfTransactionCode_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Transaction Code Container</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:TypeOfContractPricing" minOccurs="0"/>
+			<xsd:element ref="data:idvType" minOccurs="0"/>
+			<xsd:element ref="data:ContractAwardType" minOccurs="0"/>
+			<xsd:element ref="data:AssistanceType" minOccurs="0"/>
+			<xsd:element ref="data:FederalPrimeAward"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:simpleType name="A76Action_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A76 Action Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="AccountTitle_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Account Title Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AgencyCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Agency Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AgencyIdentifier_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Agency Identifier Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AgencyName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Agency Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AirportAuthority_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Airport Authority Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="AlaskanNativeOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Alaskan Native Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="AllocationTransferAgencyIdentifier_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Allocation Transfer Agency Identifier Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AmericanIndianOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>American Indian Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Dollars Amount Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:fractionDigits value="2"/>
+			<xsd:totalDigits value="20"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="Amount25_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Dollars Amount Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:fractionDigits value="2"/>
+			<xsd:totalDigits value="25"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="Amount38_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Dollars Amount Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:fractionDigits value="2"/>
+			<xsd:totalDigits value="38"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AnnualRevenue_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Annual Revenue Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:fractionDigits value="2"/>
+			<xsd:totalDigits value="15"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ArchitectureAndEngineering_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Architecture And Engineering Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ArraModelQuestion1_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Arra Model Question 1 Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ArraModelQuestion2_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Arra Model Question 2 Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="AsianPacOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Asian Pacific Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="AssistanceType_SimpleType">
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="02">
+				<xsd:annotation>
+					<xsd:documentation>Block grant</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="03">
+				<xsd:annotation>
+					<xsd:documentation>
+						Formula grant (A)
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="04">
+				<xsd:annotation>
+					<xsd:documentation>
+						Project grant (B) 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="05">
+				<xsd:annotation>
+					<xsd:documentation>
+						Cooperative agreement (B) 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="06">
+				<xsd:annotation>
+					<xsd:documentation>
+						Direct payment for specified use, as a subsidy or other non-reimbursable direct financial aid (C) 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="07">
+				<xsd:annotation>
+					<xsd:documentation>
+						Direct loan (E) 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="08">
+				<xsd:annotation>
+					<xsd:documentation>
+						Guaranteed/insured loan (F) 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="09">
+				<xsd:annotation>
+					<xsd:documentation>
+						Insurance (G) 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="10">
+				<xsd:annotation>
+					<xsd:documentation>
+						Direct payment with unrestricted use (retirement, pension, veterans benefits, etc.) (D) 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="11">
+				<xsd:annotation>
+					<xsd:documentation>
+						Other reimbursable, contingent, intangible, or indirect financial assistance 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AvailabilityTypeCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Availability Type Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AwardDescription_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Award Description Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="4000"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AwardIDprefix_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Award Idenification Prefix Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="6"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AwardModificationAmendmentNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Award Modification Admendment Number Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="25"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AwardNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Award Number Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="8"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AwardReportMonth_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Award Report Month Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="25"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AwardType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Award Type Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="AwardYear_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Award Year Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="2"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="BlackOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Black Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="Boolean_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Boolean Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:boolean">
+			<xsd:pattern value="0|1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="BusinessType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Business Type Enumeration Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="00"/>
+			<xsd:enumeration value="01"/>
+			<xsd:enumeration value="02"/>
+			<xsd:enumeration value="04"/>
+			<xsd:enumeration value="05"/>
+			<xsd:enumeration value="06"/>
+			<xsd:enumeration value="11"/>
+			<xsd:enumeration value="12"/>
+			<xsd:enumeration value="20"/>
+			<xsd:enumeration value="21"/>
+			<xsd:enumeration value="22"/>
+			<xsd:enumeration value="23"/>
+			<xsd:enumeration value="25"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="CFDA_Number_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>CFDA Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="7"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="CFDA_Title_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>CFDA Description Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="CityLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>City Local Government Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CityName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>City Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="40"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ClingerCohenCompliance_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Clinger Cohen Compliance Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CoDeterminationBusSize_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Co Determination Bus Size Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CommercialItemAcquisProcedures_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Commercial Item Acquis Procedures Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CommercialItemTestProg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Commercial Item Test Prog Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CommunityDevCorp_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Community Dev Corp Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CommunityDevCorpOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Community Dev Corp Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CompetativeProcedures_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Competative Procedures Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="CongressionalDistrict_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Congressional District Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="2"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ConsolidatedContract_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Consolidated Contract Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ConstructionFirm_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Construction Firm Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ContigencyHumanitarianPeacekeeping_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Contigency Humanitarian Peacekeeping Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ContractAwardType_SimpleType">
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="A">
+				<xsd:annotation>
+					<xsd:documentation>
+						A
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="B">
+				<xsd:annotation>
+					<xsd:documentation>
+						B 
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="C">
+				<xsd:annotation>
+					<xsd:documentation>
+						C
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="D">
+				<xsd:annotation>
+					<xsd:documentation>
+						D
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ContractBundling_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Contract Bundling Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ContractFinancing_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Contract Financing Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CorporateEntityNotTaxExempt_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Corporate Entity Not Tax Exempt Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CorporateEntityTaxExempt_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Corporate Entity Tax Exempt Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CostAcctStandardsClause_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Cost Acct Standards Clause Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CostOrPricingData_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Cost Or Pricing Data Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CouncilOfGovernments_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Council Of Governments Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CountryCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Country Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="CountryName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Country Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="CountryOfOrigin_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Country Of Origin Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="CountyLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>County Local Government Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="CountyName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>County Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="40"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="DavisBaconAct_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Davis Bacon Act Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="Day_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Day Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="2"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="Decimal_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Decimal Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="DivisionName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Division Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="DivisionNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Division Number Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="DodClaimantProgCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>DoD Claimant Program Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="DomesticShelter_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Domestic Shelter Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="DotCertifiedDisadvantagedBusEnterprise_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>DOT Certified Disadvantaged Bus Enterprise Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="DUNS_Number_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Data Universal Numbering System Type </xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="9"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="DunsConfidenceCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Duns Confidence Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="2"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="EducationalInstitution_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Educational Institution Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="EmergingSmallBusiness_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Emerging Small Business Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="EntityCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Agency Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="9"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="EntityName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Entity Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="120"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="EntityUniqueID_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Entity Unique Identifier Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="9"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="EpaDesignatedProduct_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Epa Designated Product Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="EvaluatedPreference_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Evaluated Preference Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="6"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ExtentCompeted_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Extent Competed Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="FAIN_Number_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Financial assistance awards (FAIN) Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="FedBizOpps_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Fed Biz Opps Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="FederalGovernemntOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Federal Governemnt Org Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="FederalGovernmentAgency_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Federal Government Agency Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="FederallyFundedResearchAndDevCorp_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Federally Funded Research And Dev Corp Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="FederalPrimeAward_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Federal Prime Award Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="FeeForUseOfService_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Fee For Use Of Service Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="FeePaidForUseOfIdv_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Fee Paid For Use OfI dv Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:fractionDigits value="2"/>
+			<xsd:totalDigits value="20"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="FeeRangeLowerValue_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Fee Range Lower Value Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="FeeRangeUpperValue_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Fee Range Upper Value Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="FixedFeeValue_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Fixed Fee Value Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:minInclusive value=".01"/>
+			<xsd:maxInclusive value="100.00"/>
+			<xsd:fractionDigits value="2"/>
+			<xsd:totalDigits value="5"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ForeignFunding_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Foreign Funding Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ForeignGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Foreign Government Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ForeignOwnedAndLocated_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Foreign Owned And Located Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ForProfitOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>For Profit Org Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="Foundation_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Foundation Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="GfeGfp_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>GfeGfp Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="HighlyCompensatedOfficerFirstName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>First Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="35"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="HighlyCompensatedOfficerLastName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Last Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="35"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="HighlyCompensatedOfficerMiddleInitial_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Middle Initial Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="HispanicOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Hispanic Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="HispanicServicingInstitution_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Hispanic Servicing Institution Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="HistoricallyBlackCollegeOrUniversity_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Historically Black College Or University Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="Hospital_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Hospital Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="HousingAuthorities_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Housing Authorities Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="HubZoneFirm_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>HUB Zone Firm Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="IdvAgencyId_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Idv Agency ID Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="idvType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>IDV Type Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="IndianTribe_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indian Tribe Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="InfoTechCommercialItemCategory_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Info Tech Commercial Item Category Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="InteragencyContractAuth_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Interagency Contract Auth Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="InterMunicipalLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Inter Municipal Local Government Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="InternationalOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>International Org Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="InterstateEntity_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Interstate Entity Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="JointVentureWomanOwnedSmallBusiness_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Joint Venture Woman Owned Small Business Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="LaborSuplusAreaFirm_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Labor Suplus Area Firm Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="LandGrantCollege1862_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Land Grant College 1862 Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="LandGrantCollege1890_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Land Grant College 1890 Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="LandGrantCollege1994_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Land Grant College 1994 Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="LimitedLiabilityCorporation_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Limited Liability Corporation Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="LocalAreaSetAside_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Local Area Set Aside Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="LocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Local Government Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="LocalGovernmentOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Local Government Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="MainAccountCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Main Account Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="MajorProgram_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Major Program Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ManufacturerOfGoods_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Manufacturer Of Goods Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="MaximumOrderLimit_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Maximum Order Limit Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:positiveInteger">
+			<xsd:totalDigits value="20"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="MinorityInstitution_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Minority Institution Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="MinorityOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Minority Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="Month_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Month Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="2"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="MultiYearContract_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Multi Year Contract Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="MultpleOrSingleAwardIdv_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Multple Or Single Award Idv Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="MunicipalityLocalGovernemnt_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Municipality Local Governemnt Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="NAICS_Code_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>North American Industrial Classification System Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="6"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NAICS_Description_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>North American Industrial Classification System Description Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="150"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NationalInterestAction_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>National Interest Action Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NativeHawaiinOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Native Hawaiin Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="NativeOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Native Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="NonProfitOrganization_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Non Profit Organization Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="NumberOfActions_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Number Of Actions Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:positiveInteger">
+			<xsd:totalDigits value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NumberOfEmployees_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Number Of Employees Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:positiveInteger">
+			<xsd:totalDigits value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NumberOfOffersReceived_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Number Of Offers Received Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ObjectClass_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Object Class Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="OfficeCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Office Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="OfficeName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Agency Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="25"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="OrderingProcedure_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Ordering Procedure Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1000"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="OtherBusOrOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Other Business Or Organization Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="OtherMinorityOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Other Minority Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="OtherNotForProfitOrg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Other Not For Profit Org Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="OtherStatutoryAuthority_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Other Statutory Authority Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="PartnershipOrLimitedLiabilityCorp_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Partnership Or Limited Liability Corp Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="PerformanceBasedServiceAcquisition_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Performance Based Service Acquisition Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="PeriodOfAvailability_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Period Of Availability Simple Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PlaceOfManufacture_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Place Of Manufacture Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PlanningCommision_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Planning Commision Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="PortAuthority_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Port Authority Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="PostalCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Postal Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="50"/>
+			<xsd:pattern value="[0-9]*"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PriceEvaluationAdjPrefPctDiff_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Price Evaluation Adj Pref Pct Diff Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="PrimeAwardAgencyId_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Prime Award Agency ID Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PrimeAwardDateSubmitted_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Prime Award Date Submitted Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="25"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PrimeAwardReportId_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Prime Award Report ID Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="150"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PrimeAwardReportType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Prime Award Report Type Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PrivateUniversityOrCollege_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Private University Or College Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ProductOrServiceCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Product Or Service Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ProductOrServiceDescription_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Product Or Service DescriptionType</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="Program_8A_Participant_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>8a Program Participant Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ProgramAcronym_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Program Acronym Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="25"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ProgramActivityCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Program Activity Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ProgramActivityName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Program Activity Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="164"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PurchaseCardPayMethod_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Purchase Card Pay Method Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ReasonForModification_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Readon for Modification Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:minLength value="1"/>
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ReasonForNotCompleted_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Reason For Not Completed Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ReceivesContracts_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Receives Contracts Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ReceivesContractsAndGrants_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Receives Contracts And Grants Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ReceivesGrants_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Receives Grants Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="RecordType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Record Type Enumeration Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="1"/>
+			<xsd:enumeration value="2"/>
+			<xsd:enumeration value=""/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="RecoveredMaterialClauses_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Recovered Material Clauses Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="RecoveryActTas_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Recovery Act Tas Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SaiNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Sai Number Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SamException_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>SAM Exception Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SchoolDistrictLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>School District Local Government Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SchoolOfForestry_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>School Of Forestry Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SeaTranportation_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Sea Tranportation Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SelfCertifiedSmallDisadvantagedBusiness_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Self Certified Small Disadvantaged Business Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ServiceContractAct_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Service Contract Act Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ServiceDisabledVeteranOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Service Disabled Veteran Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ServiceProvider_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Service Provider Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="ShelteredWorkshop_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Sheltered Workshopn Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SmallAgriculturalCooperative_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Small Agricultural Cooperative Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SmallBusCompetativenessDemonstration_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Small Busisness Competativeness Demonstration Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SmallBusinessResearch_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Small Business Research Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SmallDisadvantaged_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Small Disadvantaged Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SoleProprietorship_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Sole Proprietorship Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SolicitationIdentifier_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Solicitation Identifier Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="25"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SolicitationProcedures_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Solicitation Procedures Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="5"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="StateCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>State Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="AL"/>
+			<xsd:enumeration value="AK"/>
+			<xsd:enumeration value="AZ"/>
+			<xsd:enumeration value="AR"/>
+			<xsd:enumeration value="CA"/>
+			<xsd:enumeration value="CO"/>
+			<xsd:enumeration value="CT"/>
+			<xsd:enumeration value="DE"/>
+			<xsd:enumeration value="FL"/>
+			<xsd:enumeration value="GA"/>
+			<xsd:enumeration value="HI"/>
+			<xsd:enumeration value="ID"/>
+			<xsd:enumeration value="IL"/>
+			<xsd:enumeration value="IN"/>
+			<xsd:enumeration value="IA"/>
+			<xsd:enumeration value="KS"/>
+			<xsd:enumeration value="KY"/>
+			<xsd:enumeration value="LA"/>
+			<xsd:enumeration value="ME"/>
+			<xsd:enumeration value="MD"/>
+			<xsd:enumeration value="MA"/>
+			<xsd:enumeration value="MI"/>
+			<xsd:enumeration value="MN"/>
+			<xsd:enumeration value="MS"/>
+			<xsd:enumeration value="MO"/>
+			<xsd:enumeration value="MT"/>
+			<xsd:enumeration value="NE"/>
+			<xsd:enumeration value="NV"/>
+			<xsd:enumeration value="NH"/>
+			<xsd:enumeration value="NJ"/>
+			<xsd:enumeration value="NM"/>
+			<xsd:enumeration value="NY"/>
+			<xsd:enumeration value="NC"/>
+			<xsd:enumeration value="ND"/>
+			<xsd:enumeration value="OH"/>
+			<xsd:enumeration value="OK"/>
+			<xsd:enumeration value="OR"/>
+			<xsd:enumeration value="PA"/>
+			<xsd:enumeration value="RI"/>
+			<xsd:enumeration value="SC"/>
+			<xsd:enumeration value="SD"/>
+			<xsd:enumeration value="TN"/>
+			<xsd:enumeration value="TX"/>
+			<xsd:enumeration value="UT"/>
+			<xsd:enumeration value="VT"/>
+			<xsd:enumeration value="VA"/>
+			<xsd:enumeration value="WA"/>
+			<xsd:enumeration value="WV"/>
+			<xsd:enumeration value="WI"/>
+			<xsd:enumeration value="WY"/>
+			<xsd:enumeration value="AS"/>
+			<xsd:enumeration value="DC"/>
+			<xsd:enumeration value="FM"/>
+			<xsd:enumeration value="GU"/>
+			<xsd:enumeration value="MH"/>
+			<xsd:enumeration value="MP"/>
+			<xsd:enumeration value="PW"/>
+			<xsd:enumeration value="PR"/>
+			<xsd:enumeration value="VI"/>
+			<xsd:enumeration value="AE"/>
+			<xsd:enumeration value="AA"/>
+			<xsd:enumeration value="AP"/>
+			<xsd:enumeration value="undefined"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="StateGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>State Government Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="StateInstitutionOfHigherLearning_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>State Institution Of Higher Learning Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="StatutoryExemptionTypeFairOpportunity_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Statutory Exemption Type Fair Opportunity Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="StreetAddressLine_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Line of Street Address type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="150"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="String_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>String Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SubawardeeBusinessType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Subawardee Business Type Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SubawardNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Subaward Number Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SubchapterSCorporation_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Subchapter S Corporation Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SubcontinentAsianOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Subcontinent Asian Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SubcontractingPlan_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Subcontracting Plan Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="SystemEquipmentCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>System Equipment Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="TownshipLocalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Township Local Government Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="TransactionNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Transaction Number Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="6"/>
+			<xsd:pattern value="1|0"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="TransitAuthority_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Transit Authority Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="TribalCollege_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Tribal College Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="TribalGovernment_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Tribal Government Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="TriballyOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Tribally Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="TypeOfAction_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Type of Action Enumeration Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="B"/>
+			<xsd:enumeration value="C"/>
+			<xsd:enumeration value="D"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="TypeOfContractPricing_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Type of Contract Pricing Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:minLength value="1"/>
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="TypeOfIdc_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Type Of Idc Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="TypeOfSetAside_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Type Of Set Aside Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="10"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="UndefinitizedAction_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Undefinitized Action Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="Uri_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Uri Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="VenderAlternativeCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Vender Alternative Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="120"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="VendorAlternativeName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Vendor Alternative Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="120"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="VendorDoingBusinessAsName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Vendor Doing Business As Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="120"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="VendorFaxNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Vendor Fax Number Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="13"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="VendorLegalOrgName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Vendor Legal Org Name Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="120"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="VendorPhoneNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Vendor Phone Number Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="30"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="VeteranOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Veteran Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="VeterinaryCollege_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Veterinary College Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="VeterinaryHospital_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Veterinary Hospital Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="WalshHealey_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Walsh Healey Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="WebSiteUrl_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Web Site Url Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="WhoCanUse_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Who Can Use Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="255"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="WomanOwned_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Woman Owned Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="WomanOwnedSmallBusiness_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Woman Owned Small Business Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:Boolean_SimpleType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="Year_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Year Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer">
+			<xsd:totalDigits value="4"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ZipCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Zip Code Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="5"/>
+			<xsd:pattern value="[0-9]*"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ZipCodePlus4_4_Digit_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>ZIP Code Plus 4 Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="4"/>
+			<xsd:pattern value="[0-9]*"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ZipCodePlus4_9_Digit_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>ZIP Code Plus 4 Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="data:String_SimpleType">
+			<xsd:maxLength value="9"/>
+			<xsd:pattern value="[0-9]*"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:data="urn:us:gov:treas:data_act" targetNamespace="urn:us:gov:treas:data_act" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.6">
+	<xsd:include schemaLocation="../general/general.xsd"/>
+	<xsd:element name="A76Action" type="data:A76Action_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the contract action resulted from an A- 76/Fair Act competitive sourcing process.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AmountOfAward" type="data:Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The cumulative amount obligated by the Federal government for an award, which is calculated by USAspending.gov.  For procurement and financial assistance awards except loans, this is the the sum of Federal Action Obligations.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Award" type="data:Award_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Award Container </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardDescription" type="data:AwardDescription_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A brief description of the purpose of the award.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardIdentificationNumber" type="data:AwardIdentificationNumber_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>The prime award indicating the Activity Address Code which is the department/agency and office issuing the instrument.  Use the AAC assigned to the program/funding office providing  the predominance of funding for the contract action as the program/funding office code.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardingOfficeCode" type="data:OfficeCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement and financial assistance awards: Identifier of the level n organization that awarded, executed or is otherwise responsible for the transaction.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardingOfficeName" type="data:OfficeName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement and financial assistance awards: Name of the level n organization that awarded, executed or is otherwise responsible for the transaction. </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardingSubTierAgencyCode" type="data:AgencyCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement and financial assistance awards: Identifier of the level 2 organization that awarded, executed or is otherwise responsible for the transaction. </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AwardingSubTierAgencyName" type="data:AgencyName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement and financial assistance awards: Name of the level 2 organization that awarded, executed or is otherwise responsible for the transaction. </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Awards" type="data:Awards_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Container for Awards</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ClingerCohenCompliance" type="data:ClingerCohenCompliance_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates the funding office has certified that the information technology purchase meets the planning requirements in 40 USC 1422 and 1423.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CoDeterminationBusSize" type="data:CoDeterminationBusSize_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The Contracting Officer's determination of whether the selected contractor meets the small business size standard for award to a small business for the NAICS code that is applicable to the contract.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CommercialItemAcquisProcedures" type="data:CommercialItemAcquisProcedures_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the solicitation used the special requirements for the acquisition of commercial items intended to more closely resemble those customarily used in the commercial marketplace as defined by FAR Part 12.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CommercialItemTestProg" type="data:CommercialItemTestProg_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the solicitation used Commercial Item Acquisition Procedures (FAR Part 12) and Simplified Acquisition Procedures (FAR Part 13.5) for acquisitions above  the  Simplified  Acquisition  Threshold  and  below $6,500,000</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CompetativeProcedures" type="data:CompetativeProcedures_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation> The designator for competitive solicitation procedures available pursuant to FAR 6.1 and 6.2, a code that represents the competitive nature of the contract and  designator for solicitation procedures other than full and open competition pursuant to FAR 6.3.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ConsolidatedContract" type="data:ConsolidatedContract_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the contract is a consolidated contract. This is only required if the Funding Agency or the contracting agency is a DoD Agency. Data field exists in XML schema version 1.2 and later only.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ContigencyHumanitarianPeacekeeping" type="data:ContigencyHumanitarianPeacekeeping_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates contract actions that exceed $200,000 and support a contingency operation, a humanitarian operation, or a peacekeeping operation.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ContractBundling" type="data:ContractBundling_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates that the value of the contract, including all options, is expected to exceed $5M as a result of consolidating separate small contracts into</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ContractFinancing" type="data:ContractFinancing_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Type of financing used to effect payment (progress payments, advance payments, etc.)</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CostAcctStandardsClause" type="data:CostAcctStandardsClause_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the contract includes a Cost Accounting Standards clause.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CostOrPricingData" type="data:CostOrPricingData_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether cost or pricing data was obtained, not obtained, or waived for DoD assigned contracts.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CountryOfOrigin" type="data:CountryOfOrigin_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Identifies the country of origin of the product.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="CurrentTotalValueAwardAmount" type="data:Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Total amount obligated to date on a contract, including the base and exercised options.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="DavisBaconAct" type="data:DavisBaconAct_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the transaction is subject to the Davis-Bacon Act (concerning the payment of prevailing wages on public works projects).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="DivisionName" type="data:DivisionName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Vendor's name of their business division</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="DivisionNumber" type="data:DivisionNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Vendor's name of their business division code</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="DodClaimantProgCode" type="data:DodClaimantProgCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A claimant program number designates a grouping of supplies, construction, or other services. This data field may have a code from the DoD Procurement Coding Manual Section III, DoD Claimant Program Number.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="DunsConfidenceCode" type="data:DunsConfidenceCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Optional data field to enter the DB Confidence Code received for validated DUNS data (As provided to agencies by Dun and Bradstreet when obtaining DUNS). </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="EpaDesignatedProduct" type="data:EpaDesignatedProduct_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether EPA approved products with a minimum recovered material content were used, or whether an exception was made.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="EvaluatedPreference" type="data:EvaluatedPreference_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The type of preference determined for the contract action, reported when a contract was made pursuant to the socioeconomic program price evaluation preferences -- FAR 19.11 and FAR 19.13. Data field exists only in XML schema version 1.2 and later.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ExtentCompeted" type="data:ExtentCompeted_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A code that represents how the contract was competed.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FaceValueLoanGuarantee" type="data:Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The face value of the direct loan or loan guarantee.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FedBizOpps" type="data:FedBizOpps_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the synopsis requirements of FAR Subpart 5.2. have been observed.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FederalActionObligation" type="data:Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Amount of Federal government’s obligation, de-obligation, or liability, in dollars, for an award transaction.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FeeForUseOfService" type="data:FeeForUseOfService_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>List of administrative fees charged for using an Indefinite Delivery Vehicle other than Federal Supply Schedule (FSS) Vehicle. The fees can be one of the following format: 1) Fixed, 2) Range - Varies by amount, and 3) Range - Varies by Other Factor.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FeePaidForUseOfIdv" type="data:FeePaidForUseOfIdv_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Enter the fee paid (if any ) to the IDV Awarding Agency as a consequence of placing the order.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FeeRangeLowerValue" type="data:FeeRangeLowerValue_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The lower value if "Range" (RVA, RVO) is chosen for Fee for Use of Service(5D).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FeeRangeUpperValue" type="data:FeeRangeUpperValue_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The upper value if "Range" (RVA, RVO) is chosen for Fee for Use of Service (5D).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FixedFeeValue" type="data:FixedFeeValue_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The value if "Fixed Fee" is chosen for Fee for Use of Service (5D).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ForeignFunding" type="data:ForeignFunding_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates that a foreign government, international organization, or foreign military organization bears some of the cost</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FundingAgencyCode" type="data:AgencyCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement and financial assistance awards: The agency supplied code of the agency that executed (or provided the preponderance of the funding) the transaction.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FundingAgencyName" type="data:AgencyName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement awards: The type of modification to an award or IDV performed by this transaction.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FundingOfficeCode" type="data:OfficeCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement and financial assistance awards: Identifier of the level n organization who has the requirements for the award, and whose parent agency provided the preponderance of the funds obligated by this transaction.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FundingOfficeName" type="data:OfficeName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement and financial assistance awards: Name of the level n organization who has the requirements for the award, and whose parent agency provided the preponderance of the funds obligated by this transaction.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FundingSubTierAgencyCode" type="data:AgencyCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement and financial assistance awards: Identifier of the level 2 organization that provided the preponderance of the funds obligated by this transaction. </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FundingSubTierAgencyName" type="data:AgencyName_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement and financial assistance awards: Name of the level 2 organization that provided the preponderance of the funds obligated by this transaction.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="GfeGfp" type="data:GfeGfp_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether Government Furnished Equipment (GFE) or Government Furnished Property (GFP) used for the contract, pursuant to FAR 45.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="IdvAgencyId" type="data:IdvAgencyId_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>This is a code for an agency, but it does not necessarily represent the agency that issued the contract. Instead, it serves as part of the unique identification for Federal Procurement Data System IDV records. For awards records, it partially identifies a linked IDV record.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="InfoTechCommercialItemCategory" type="data:InfoTechCommercialItemCategory_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A code that designates the commercial availability of an information technology product or service.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="InteragencyContractAuth" type="data:InteragencyContractAuth_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the transaction is an Economy Act or Statutory Authority</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="LocalAreaSetAside" type="data:LocalAreaSetAside_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>When awarding emergency response contracts during the term of a major disaster or emergency declaration by the President of the United States under the authority of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5121, et seq.), preference shall be given, to the extent feasible and practicable, to local firms. Preference may be given through a local area set-aside.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="MajorProgram" type="data:MajorProgram_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The agency determined code for a major program within the agency. For an Indefinite Delivery Vehicle, this may be the name of a GWAC (e.g., ITOPS or COMMITS).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="MaximumOrderLimit" type="data:MaximumOrderLimit_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Maximum dollar amount that can be applied to a single order against the Indefinite Delivery Vehicle.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="MultiYearContract" type="data:MultiYearContract_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether this is a multi-year contract, a contract for the purchase of supplies or services for more than 1, but not more than 5, program years. Such contracts are issued under specific congressional</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="MultpleOrSingleAwardIdv" type="data:MultpleOrSingleAwardIdv_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the contract is one of many that resulted from a single solicitation, all of the contracts are for the same or similar items, and contracting officers are required to compare their requirements with the offerings under more than one contract or are required to acquire the requirement competitively among the awardees. BPA "Multiple or Single Award IDV" value does not pull the "Multiple or Single Award IDV" value of the referenced FSS to the BPA. The "Multiple or Single Award IDV" value shall be required and selected by the user for all BPA bases created.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NAICS_Code" type="data:NAICS_Code_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The identifier that represents the North American Industrial Classification System Code assigned to the solicitation and resulting award identifying the industry in which the contract requirements are normally performed.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NAICS_Description" type="data:NAICS_Description_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The title associated with the NAICS Code.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NationalInterestAction" type="data:NationalInterestAction_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A code that represents the national interest for which the contract is created.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NonFederalFundingAmount" type="data:Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Financial assistance awards: Amount of non-Federal funding, in dollars.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="NumberOfOffersReceived" type="data:NumberOfOffersReceived_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The number of actual offers/bids received in response to the solicitation.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="OrderingPeriodEndDate" type="data:Date_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>The date on which, for the award referred to by the action being reported, no additional orders referring to it may be placed.  This date applies only to procurement indefinite delivery vehicles (such as indefinite delivery contracts or blanket purchase agreements).  Administrative actions related to this award may continue to occur after this date.  The period of performance end dates for procurement orders issued under the indefinite delivery vehicle may extend beyond this date.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="OrderingProcedure" type="data:OrderingProcedure_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>For the initial load of the IDV, describe ordering procedures, unless included in the government website listed in the "Web Site URL" data element (5A).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="OrginalSubsidyCost" type="data:Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>For loans or loan guarantees, the award amount is the Original Subsidy Cost.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="OtherStatutoryAuthority" type="data:OtherStatutoryAuthority_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the transaction is subject to other statutory authority (i.e., legislation other than the Economy Act).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ParentAwardID" type="data:AwardIdentificationNumber_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Award identification number of parent.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PerformanceBasedServiceAcquisition" type="data:PerformanceBasedServiceAcquisition_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the contract is a Performance-Based Service Acquisition (PBSA) as defined by FAR 37.601. A PBSA describes the requirements in terms of results rather than the methods of performance of the work and has other detailed requirements.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PeriodOfPerformanceCurrentEndDate" type="data:Date_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>The current date on which, for the award referred to by the action being reported, awardee effort completes or the award is otherwise ended.  Administrative actions related to this award may continue to occur after this date.  This date does not apply to procurement indefinite delivery vehicles under which definitive orders may be awarded.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PeriodOfPerformancePotentialEndDate" type="data:Date_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>The date on which, for the award referred to by the action being reported if all potential pre-determined or pre-negotiated options were exercised, awardee effort completes or the award is otherwise ended.  Administrative actions related to this award may continue to occur after this date.  This date does not apply to procurement indefinite delivery vehicles under which definitive orders may be awarded.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PeriodOfPerformanceStartDate" type="data:Date_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>The date on which, for the award referred to by the action being reported, awardee effort begins or the award is otherwise effective. </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PlaceOfManufacture" type="data:PlaceOfManufacture_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Represents whether the end products procured by the contract are manufactured inside or outside the U.S. in accordance with the Buy American Act (see FAR 25.1) and any exceptions or reasons for waivers employed.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PotentialTotalValueAwardAmount" type="data:Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Total Base and All Options Value:  The sum, in United States Dollars, of the mutually agreed upon total estimated contract or order value including base order and all options.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PriceEvaluationAdjPrefPctDiff" type="data:PriceEvaluationAdjPrefPctDiff_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates the percent difference between the award price and the lowest priced offer from a responsive, responsible non-HUBZone or non-SDB.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ProductOrServiceCode" type="data:ProductOrServiceCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The code that best identifies the product or service procured. If more than one code applies, then the code that represents most of the ultimate contract value is reported.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ProductOrServiceDescription" type="data:ProductOrServiceDescription_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The major category that the Federal Procurement Data System Product or Service Code for the record falls within (see page 12 of http://www.fpdsng.com/downloads/service_product_codes.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ProgramAcronym" type="data:ProgramAcronym_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The short name or title used for a GWAC or other contracting program. Examples include COMMITS, ITOPS, SEWP.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="PurchaseCardPayMethod" type="data:PurchaseCardPayMethod_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the method of payment is the Purchase Card. Agencies may issue formal contract documents and make payment using the Purchase Card. It is also permitted that agencies may report Purchase Card purchases.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ReasonForModification" type="data:ReasonForModification_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Procurement awards: The type of modification to an award or IDV performed by this transaction.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ReasonForNotCompleted" type="data:ReasonForNotCompleted_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A code for the reason the contract was not competed -- i.e., solicitation procedures other than full and open competition pursuant to FAR 6.3.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ReceivesContracts" type="data:ReceivesContracts_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor receives contracts</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ReceivesGrants" type="data:ReceivesGrants_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the vendor receives Grants.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="RecipientDunsNumber" type="data:DUNS_Number_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The unique identification number for an awardee or recipient. Currently the identifier is the 9-digit number assigned by DB referred to as the DUNS® number.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="RecordType" type="data:RecordType_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Code indicating whether an action is an individual transaction or aggregated.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="RecoveredMaterialClauses" type="data:RecoveredMaterialClauses_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether Recovered Material Certification and/or Estimate of Percentage of Recovered Material Content for EPA-Designated Products clauses were included in the contract.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="RecoveryActTas" type="data:RecoveryActTas_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Identifies whether the Treasury Account Symbol is for the American Reinvestment and Recovery Act of 2009 (ARRA).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SaiNumber" type="data:SaiNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A number assigned by state (as opposed to federal) review agencies to the award during the grant application process.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SeaTranportation" type="data:SeaTranportation_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the contractor anticipates that some of the supplies may be transported by sea.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="ServiceContractAct" type="data:ServiceContractAct_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the transaction is subject to the Service Contract Act (concerning payment of prevailing wage rates and fringe benefits to service employees).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SmallBusCompetativenessDemonstration" type="data:SmallBusCompetativenessDemonstration_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the contract was awarded to a U.S. business concern as a result of a solicitation issued on or after Jan 1, 1989 as part of the Small Business Competitiveness Program (FAR Part 19.10).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SmallBusinessResearch" type="data:SmallBusinessResearch_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A code used when the contract was awarded as part of a Small Business Innovation Research or Small Technology Transfer Research Program. Data field exists only in XML schema version 1.2 and later.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SolicitationIdentifier" type="data:SolicitationIdentifier_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Identifier used to link transactions to solicitation information.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SolicitationProcedures" type="data:SolicitationProcedures_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A code for the type of solicitation procedures used. Data field exists only in XML schema version 1.2 and later.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="StatutoryExemptionTypeFairOpportunity" type="data:StatutoryExemptionTypeFairOpportunity_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A code indicating a statutory exception to Fair Opportunity, used awarding a non competitive task order or delivery order exceeding $2500.00 against an IDIQ contract.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SubcontractingPlan" type="data:SubcontractingPlan_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether a Subcontracting Plan was included in the contract.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SystemEquipmentCode" type="data:SystemEquipmentCode_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Two codes that identify the program and weapons system or equipment purchased by a DoD agency. The first character is a number 1-4 that identifies the DoD component. The last 3 characters identify that component's program, system, or equipment.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TotalFundingAmount" type="data:Amount20_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The sum of the Amount of Award and the Non-Federal Funding Amount.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TransactionNumber" type="data:TransactionNumber_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Tie Breaker for legal, unique transactions that would otherwise have the same key.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TypeOfAction" type="data:TypeOfAction_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Identifies the type of change to the award as follows:
+&apos;B&apos; - Continuation (funding in succeeding budget period which stemmed form prior agreement to fund amount of the current action)
+&apos;C&apos; - Revision (any change in Federal Government&apos;s financial obligation or contingent liability in existing assistance transaction amount of the change in funding; or any change in Recipient Name, Recipient Address, Project Period or Project Scope
+&apos;D&apos; - Funding adjustment to completed project</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TypeOfIdc" type="data:TypeOfIdc_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Identifies whether the IDC or Multi- Agency Contract is Indefinite Delivery/Requirements, Indefinite Delivery/Indefinite Quantity, or Indefinite Delivery/Definite Quantity.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TypeOfSetAside" type="data:TypeOfSetAside_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>A code for the type of set aside determined for the contract action. Data field exists only in XML schema version 1.2 and later.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="TypeOfTransactionCode" type="data:TypeOfTransactionCode_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Transaction Code</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="UndefinitizedAction" type="data:UndefinitizedAction_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the award is an Undefinitized Action.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Uri" type="data:Uri_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>An agency defined identifier that is unique for every reported action.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="WalshHealey" type="data:WalshHealey_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>Indicates whether the transaction is subject to the Walsh-Healy Act (passed in 1936, establishing overtime as hours worked in excess of 40 hours per week).</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="WebSiteUrl" type="data:WebSiteUrl_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>The web site URL where users may go to get more information on the contract or program.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="WhoCanUse" type="data:WhoCanUse_SimpleType">
+		<xsd:annotation>
+			<xsd:documentation>For the initial award of an IDV, enter one of the specified code words. Certain code words require a list of agencies that may order from the IDV.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="Award_ComplexType">
+		<xsd:annotation>
+			<xsd:documentation>Award Container Type</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element ref="data:RecipientDunsNumber">
+				<xsd:annotation>
+					<xsd:documentation>The unique identification number for an awardee or recipient. Currently the identifier is the 9-digit number assigned by DB referred to as the DUNS number.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element ref="data:FederalActionObligation">
+				<xsd:annotation>
+					<xsd:documentation>Amount of Federal government’s obligation, de-obligation, or liability, in dollars, for an award transaction.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element ref="data:AmountOfAward"/>
+			<xsd:element ref="data:OrginalSubsidyCost" minOccurs="0"/>
+			<xsd:element ref="data:NonFederalFundingAmount" minOccurs="0"/>
+			<xsd:element ref="data:TotalFundingAmount"/>
+			<xsd:element ref="data:CurrentTotalValueAwardAmount" minOccurs="0"/>
+			<xsd:element ref="data:FaceValueLoanGuarantee" minOccurs="0"/>
+			<xsd:element ref="data:PotentialTotalValueAwardAmount" minOccurs="0"/>
+			<xsd:element ref="data:TypeOfTransactionCode" minOccurs="0"/>
+			<xsd:element ref="data:NAICS_Code"/>
+			<xsd:element ref="data:NAICS_Description"/>
+			<xsd:element ref="data:CFDA_Number"/>
+			<xsd:element ref="data:CFDA_Title"/>
+			<xsd:element ref="data:AwardDescription"/>
+			<xsd:element ref="data:AwardModAmendmentNumber"/>
+			<xsd:element ref="data:ParentAwardID" minOccurs="0"/>
+			<xsd:element ref="data:ActionDate"/>
+			<xsd:element ref="data:PeriodOfPerformanceStartDate" minOccurs="0"/>
+			<xsd:element ref="data:PeriodOfPerformanceCurrentEndDate" minOccurs="0"/>
+			<xsd:element ref="data:PeriodOfPerformancePotentialEndDate" minOccurs="0"/>
+			<xsd:element ref="data:OrderingPeriodEndDate" minOccurs="0"/>
+			<xsd:element ref="data:PlaceOfPerformance" minOccurs="0"/>
+			<xsd:element ref="data:AwardIdentificationNumber" minOccurs="0"/>
+			<xsd:element ref="data:RecordType" minOccurs="0"/>
+			<xsd:element ref="data:TypeOfAction" minOccurs="0"/>
+			<xsd:element ref="data:ReasonForModification" minOccurs="0"/>
+			<xsd:element ref="data:BusinessType"/>
+			<xsd:element ref="data:FundingAgencyName"/>
+			<xsd:element ref="data:FundingAgencyCode"/>
+			<xsd:element ref="data:FundingSubTierAgencyName"/>
+			<xsd:element ref="data:FundingSubTierAgencyCode"/>
+			<xsd:element ref="data:FundingOfficeName"/>
+			<xsd:element ref="data:FundingOfficeCode"/>
+			<xsd:element ref="data:AwardingAgencyName"/>
+			<xsd:element ref="data:AwardingAgencyCode"/>
+			<xsd:element ref="data:AwardingSubTierAgencyName"/>
+			<xsd:element ref="data:AwardingSubTierAgencyCode"/>
+			<xsd:element ref="data:AwardingOfficeName"/>
+			<xsd:element ref="data:AwardingOfficeCode"/>
+			<xsd:element ref="data:A76Action" minOccurs="0"/>
+			<xsd:element ref="data:DodClaimantProgCode" minOccurs="0"/>
+			<xsd:element ref="data:ClingerCohenCompliance" minOccurs="0"/>
+			<xsd:element ref="data:CommercialItemAcquisProcedures" minOccurs="0"/>
+			<xsd:element ref="data:CommercialItemTestProg" minOccurs="0"/>
+			<xsd:element ref="data:CompetativeProcedures" minOccurs="0"/>
+			<xsd:element ref="data:ConsolidatedContract" minOccurs="0"/>
+			<xsd:element ref="data:ContigencyHumanitarianPeacekeeping" minOccurs="0"/>
+			<xsd:element ref="data:ContractBundling" minOccurs="0"/>
+			<xsd:element ref="data:ContractFinancing" minOccurs="0"/>
+			<xsd:element ref="data:CoDeterminationBusSize" minOccurs="0"/>
+			<xsd:element ref="data:CostAcctStandardsClause" minOccurs="0"/>
+			<xsd:element ref="data:CostOrPricingData" minOccurs="0"/>
+			<xsd:element ref="data:CountryOfOrigin" minOccurs="0"/>
+			<xsd:element ref="data:DavisBaconAct" minOccurs="0"/>
+			<xsd:element ref="data:DivisionName" minOccurs="0"/>
+			<xsd:element ref="data:DivisionNumber" minOccurs="0"/>
+			<xsd:element ref="data:EvaluatedPreference" minOccurs="0"/>
+			<xsd:element ref="data:ExtentCompeted" minOccurs="0"/>
+			<xsd:element ref="data:FedBizOpps" minOccurs="0"/>
+			<xsd:element ref="data:ForeignFunding" minOccurs="0"/>
+			<xsd:element ref="data:GfeGfp" minOccurs="0"/>
+			<xsd:element ref="data:IdvAgencyId" minOccurs="0"/>
+			<xsd:element ref="data:InfoTechCommercialItemCategory" minOccurs="0"/>
+			<xsd:element ref="data:InteragencyContractAuth" minOccurs="0"/>
+			<xsd:element ref="data:UndefinitizedAction" minOccurs="0"/>
+			<xsd:element ref="data:LocalAreaSetAside" minOccurs="0"/>
+			<xsd:element ref="data:MajorProgram" minOccurs="0"/>
+			<xsd:element ref="data:PurchaseCardPayMethod" minOccurs="0"/>
+			<xsd:element ref="data:MultpleOrSingleAwardIdv" minOccurs="0"/>
+			<xsd:element ref="data:MultiYearContract" minOccurs="0"/>
+			<xsd:element ref="data:NationalInterestAction" minOccurs="0"/>
+			<xsd:element ref="data:NumberOfOffersReceived" minOccurs="0"/>
+			<xsd:element ref="data:OtherStatutoryAuthority" minOccurs="0"/>
+			<xsd:element ref="data:PerformanceBasedServiceAcquisition" minOccurs="0"/>
+			<xsd:element ref="data:PlaceOfManufacture" minOccurs="0"/>
+			<xsd:element ref="data:PriceEvaluationAdjPrefPctDiff" minOccurs="0"/>
+			<xsd:element ref="data:ProductOrServiceCode" minOccurs="0"/>
+			<xsd:element ref="data:ProgramAcronym" minOccurs="0"/>
+			<xsd:element ref="data:ProductOrServiceDescription" minOccurs="0"/>
+			<xsd:element ref="data:ReasonForNotCompleted" minOccurs="0"/>
+			<xsd:element ref="data:RecoveryActTas" minOccurs="0"/>
+			<xsd:element ref="data:ReceivesContracts" minOccurs="0"/>
+			<xsd:element ref="data:ReceivesGrants" minOccurs="0"/>
+			<xsd:element ref="data:RecoveredMaterialClauses" minOccurs="0"/>
+			<xsd:element ref="data:SmallBusinessResearch" minOccurs="0"/>
+			<xsd:element ref="data:SeaTranportation" minOccurs="0"/>
+			<xsd:element ref="data:ServiceContractAct" minOccurs="0"/>
+			<xsd:element ref="data:SmallBusCompetativenessDemonstration" minOccurs="0"/>
+			<xsd:element ref="data:SolicitationIdentifier" minOccurs="0"/>
+			<xsd:element ref="data:SolicitationProcedures" minOccurs="0"/>
+			<xsd:element ref="data:StatutoryExemptionTypeFairOpportunity" minOccurs="0"/>
+			<xsd:element ref="data:SubcontractingPlan" minOccurs="0"/>
+			<xsd:element ref="data:SystemEquipmentCode" minOccurs="0"/>
+			<xsd:element ref="data:TypeOfIdc" minOccurs="0"/>
+			<xsd:element ref="data:TypeOfSetAside" minOccurs="0"/>
+			<xsd:element ref="data:EpaDesignatedProduct" minOccurs="0"/>
+			<xsd:element ref="data:VendorLegalOrgName" minOccurs="0"/>
+			<xsd:element ref="data:WalshHealey" minOccurs="0"/>
+			<xsd:element ref="data:AccountTitle" minOccurs="0"/>
+			<xsd:element ref="data:DunsConfidenceCode" minOccurs="0"/>
+			<xsd:element ref="data:Uri" minOccurs="0"/>
+			<xsd:element ref="data:SaiNumber" minOccurs="0"/>
+			<xsd:element ref="data:TransactionNumber" minOccurs="0"/>
+			<xsd:element ref="data:WebSiteUrl" minOccurs="0"/>
+			<xsd:element ref="data:WhoCanUse" minOccurs="0"/>
+			<xsd:element ref="data:MaximumOrderLimit" minOccurs="0"/>
+			<xsd:element ref="data:FeeForUseOfService" minOccurs="0"/>
+			<xsd:element ref="data:FixedFeeValue" minOccurs="0"/>
+			<xsd:element ref="data:FeeRangeLowerValue" minOccurs="0"/>
+			<xsd:element ref="data:FeeRangeUpperValue" minOccurs="0"/>
+			<xsd:element ref="data:OrderingProcedure" minOccurs="0"/>
+			<xsd:element ref="data:FeePaidForUseOfIdv" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Awards_ComplexType">
+		<xsd:sequence>
+			<xsd:element ref="data:Award" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
