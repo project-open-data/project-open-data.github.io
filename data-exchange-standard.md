@@ -49,4 +49,4 @@ The individual XML Schema files are posted for your assurance that the schemas h
 
 <a href="{{ site.baseurl }}/schema/subaward/subaward.xsd" title="subaward">subaward</a>
 
-To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/101).
+To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/123).
