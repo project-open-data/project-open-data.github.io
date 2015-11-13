@@ -12,12 +12,11 @@ CFO-Act Agency Open Data Policy Points of Contact
 {: .table .table-striped}
 CFO-Act Agency            | Name               | Email                         | Responsibility                                 | Agency Comment(s)
 ------------------------- | ---------         | --------                       | -----------------------------------------      | ---------------
-Department of Agriculture | Payton, Ravoyne| Ravoyne.Payton@ocio.usda.gov | ODP: Data Privacy and Confidentiality | 
-Department of Agriculture | Jones, Bobby | bobby.jones@ocio.usda.gov | ODP: Communicating Strategic Value | 
-Department of Agriculture | Rhee, Peter | peter.rhee@oc.usda.gov | ODP: Public Data Release | 
-Department of Agriculture |  Jones, Bobby | bobby.jones@ocio.usda.gov | ODP: Private/Public Applications and Services | 
-Department of Agriculture |  Lowe, Christopher | christopher.lowe@asoc.usda.gov | ODP: Security Risk Assessment | 
-Department of Agriculture | Jones, Bobby | bobby.jones@ocio.usda.gov | ODP: Scaling Best Practices | 
+Department of Agriculture | Jones , Bobby | Bobby.Jones@ocio.usda.gov | ODP: Communicating Strategic Value | 
+Department of Agriculture | Rhee, Peter | Peter.Rhee@oc.usda.gov | ODP: Public Data Release | 
+Department of Agriculture | Jones, Bobby | Bobby.Jones@ocio.usda.gov | ODP: Private/Public Applications and Services | 
+Department of Agriculture | Jones,  Bobby | Bobby.Jones@ocio.usda.gov | ODP: Scaling Best Practices | 
+Department of Agriculture | Hemmings, Kimberly | Kimberly.Hennings@ocio.usda.gov | ODP: Security Risk Assessment | 
 Department of Commerce | Ian Kalin | ikalin@doc.gov | ODP: Communicating Strategic Value | 
 Department of Commerce | Ian Kalin | ikalin@doc.gov | ODP: Private/Public Applications and Services | 
 Department of Commerce | Ian Kalin | ikalin@doc.gov | ODP: Public Data Release | 
@@ -38,8 +37,8 @@ Department of Education | Michael Hawes | michael.hawes@ed.gov | ODP: Security R
 Department of Energy | Atiq Warraich | Atiq.Warraich@hq.doe.gov | ODP: Communicating Strategic Value | 
 Department of Energy | Atiq Warraich | Atiq.Warraich@hq.doe.gov | ODP: Public Data Release | 
 Department of Energy | Atiq Warraich | Atiq.Warraich@hq.doe.gov | ODP: Private/Public Applications and Services | 
-Department of Energy | David Dutton | David.Dutton@hq.doe.gov | ODP: Scaling Best Practices | 
-Department of Energy | Troy Manigault | Troy.Manigault@hq.doe.gov | ODP: Data Privacy and Confidentiality | 
+Department of Energy | Peter Tseronis | Peter.Tseronis@hq.doe.gov | ODP: Scaling Best Practices | 
+Department of Energy | Jerry Hanley | Jerry.Hanley@hq.doe.gov | ODP: Data Privacy and Confidentiality | 
 Department of Energy | Cuttie Bacon | Cuttie.Bacon@hq.doe.gov | ODP: Security Risk Assessment | 
 Department of Health and Human Services | Damon Davis | Damon.Davis@hhs.gov | ODP: Communicating Strategic Value | 
 Department of Health and Human Services | Damon Davis | Damon.Davis@hhs.gov | ODP: Public Data Release | 
@@ -47,12 +46,12 @@ Department of Health and Human Services | Damon Davis | Damon.Davis@hhs.gov | OD
 Department of Health and Human Services | Damon Davis | Damon.Davis@hhs.gov | ODP: Scaling Best Practices | 
 Department of Health and Human Services | Julia White | Julia.White@hhs.gov | ODP: Data Privacy and Confidentiality | 
 Department of Health and Human Services | Chris Bollerer | Christopher.Bollerer@hhs.gov | ODP: Security Risk Assessment | 
-Department of Homeland Security | Black, Benjamin | benjamin.black@hq.dhs.gov | ODP: Private/Public Applications and Services | Lead
-Department of Homeland Security | Ellmore,  Kimberly | kimberly.ellmore@hq.dhs.gov | ODP: Communicating Strategic Value | Lead
-Department of Homeland Security | Lilly,  Tamara | tamara.lilly@hq.dhs.gov | ODP: Security Risk Assessment | Officer (Information Security)
-Department of Homeland Security |  Pastiva, Penny | penny.pastiva@hq.dhs.gov | ODP: Scaling Best Practices | Lead
-Department of Homeland Security | Simcock, Michael | michael.simcock@hq.dhs.gov | ODP: Public Data Release | Lead
-Department of Homeland Security | Simcock, Michael | michael.simcock@hq.dhs.gov | ODP: Data Privacy and Confidentiality | Lead
+Department of Homeland Security | Black,  Benjamin | benjamin.black@hq.dhs.gov | ODP: Private/Public Applications and Services | Lead
+Department of Homeland Security | Cruz, Alma | alma.cruz@hq.dhs.gov | ODP: Public Data Release | Lead
+Department of Homeland Security | Cruz, Alma | alma.cruz@hq.dhs.gov | ODP: Data Privacy and Confidentiality | Lead
+Department of Homeland Security | Ellmore, Kimberly | kimberly.ellmore@hq.dhs.gov | ODP: Communicating Strategic Value | Lead
+Department of Homeland Security | Lilly, Tamara | tamara.lilly@hq.dhs.gov | ODP: Security Risk Assessment | Officer (Information Security)
+Department of Homeland Security | Pastiva, Penny | penny.pastiva@hq.dhs.gov | ODP: Scaling Best Practices | Lead
 Department of Housing and Urban Development | Rajeev Sharma | Rajeev.Sharma@hud.gov | ODP: Communicating Strategic Value | 
 Department of Housing and Urban Development | Rajeev Sharma | rajeev.sharma@hud.gov | ODP: Data Privacy and Confidentiality | 
 Department of Housing and Urban Development | Rajeev Sharma | rajeev.sharma@hud.gov | ODP: Private/Public Applications and Services | 
@@ -107,17 +106,23 @@ Environmental Protection Agency | Ana Greene | greene.ana@epa.gov | ODP: Scaling
 Environmental Protection Agency | Ana Greene | greene.ana@epa.gov | ODP: Data Privacy and Confidentiality | 
 Environmental Protection Agency | Ana Greene | greene.ana@epa.gov | ODP: Security Risk Assessment | 
 Environmental Protection Agency | Ana Greene | greene.ana@epa.gov | ODP: Public Data Release | 
-General Services Adminstration | Kermit McKelvy | william.mckelvy@gsa.gov | ODP: Communicating Strategic Value | 
+General Services Adminstration | Joseph Castle | joseph.castle@gsa.gov | ODP: Communicating Strategic Value | 
+General Services Adminstration | Kevin Wince | kevin.wince@gsa.gov | ODP: Communicating Strategic Value | 
 General Services Adminstration | Jonah Hatfield | jonah.hatfield@gsa.gov | ODP: Communicating Strategic Value | 
-General Services Adminstration | Kermit McKelvy | william.mckelvy@gsa.gov | ODP: Public Data Release | 
-General Services Adminstration | Jonah Hatfield | jonah.hatfield@gsa.gov | ODP: Public Data Release | 
-General Services Adminstration | Kermit McKelvy | william.mckelvy@gsa.gov | ODP: Private/Public Applications and Services | 
-General Services Adminstration | Jonah Hatfield | jonah.hatfield@gsa.gov | ODP: Private/Public Applications and Services | 
-General Services Adminstration | Kermit McKelvy | william.mckelvy@gsa.gov | ODP: Scaling Best Practices | 
-General Services Adminstration | Jonah Hatfield | jonah.hatfield@gsa.gov | ODP: Scaling Best Practices | 
-General Services Adminstration | Kermit McKelvy | william.mckelvy@gsa.gov | ODP: Data Privacy and Confidentiality | 
+General Services Adminstration | Joseph Castle | joseph.castle@gsa.gov | ODP: Data Privacy and Confidentiality | 
+General Services Adminstration | Kevin Wince | kevin.wince@gsa.gov | ODP: Data Privacy and Confidentiality | 
 General Services Adminstration | Jonah Hatfield | jonah.hatfield@gsa.gov | ODP: Data Privacy and Confidentiality | 
-General Services Adminstration | Kermit McKelvy | william.mckelvy@gsa.gov | ODP: Security Risk Assessment | 
+General Services Adminstration | Joseph Castle | joseph.castle@gsa.gov | ODP: Private/Public Applications and Services | 
+General Services Adminstration | Kevin Wince | kevin.wince@gsa.gov | ODP: Private/Public Applications and Services | 
+General Services Adminstration | Jonah Hatfield | jonah.hatfield@gsa.gov | ODP: Private/Public Applications and Services | 
+General Services Adminstration | Joseph Castle | joseph.castle@gsa.gov | ODP: Public Data Release | 
+General Services Adminstration | Kevin Wince | kevin.wince@gsa.gov | ODP: Public Data Release | 
+General Services Adminstration | Jonah Hatfield | jonah.hatfield@gsa.gov | ODP: Public Data Release | 
+General Services Adminstration | Joseph Castle | joseph.castle@gsa.gov | ODP: Scaling Best Practices | 
+General Services Adminstration | Kevin Wince | kevin.wince@gsa.gov | ODP: Scaling Best Practices | 
+General Services Adminstration | Jonah Hatfield | jonah.hatfield@gsa.gov | ODP: Scaling Best Practices | 
+General Services Adminstration | Joseph Castle | joseph.castle@gsa.gov | ODP: Security Risk Assessment | 
+General Services Adminstration | Kevin Wince | kevin.wince@gsa.gov | ODP: Security Risk Assessment | 
 General Services Adminstration | Jonah Hatfield | jonah.hatfield@gsa.gov | ODP: Security Risk Assessment | 
 National Aeronautics and Space Administration | Beth Beck | beth.beck@nasa.gov | ODP: Communicating Strategic Value | 
 National Aeronautics and Space Administration | Jason Duley | jason.duley@nasa.gov | ODP: Public Data Release | 
@@ -141,7 +146,7 @@ Office of Personnel Management | Donna Seymour | donna.seymour@opm.gov | ODP: Pu
 Office of Personnel Management | Jonathan Foley | jonathan.foley@opm.gov | ODP: Scaling Best Practices | PIO
 Office of Personnel Management | Donna Seymour | donna.seymour@opm.gov | ODP: Data Privacy and Confidentiality | CIO
 Office of Personnel Management | Donna Seymour | donna.seymour@opm.gov | ODP: Security Risk Assessment | CIO
-Small Business Administration | Renee Macklin | renee.macklin@sba.gov | ODP: Communicating Strategic Value | Primary
+Small Business Administration | Keith Bluestein | keith.bluestein@sba.gov | ODP: Communicating Strategic Value | Primary
 Small Business Administration | Asghar Noor | asghar.noor@sba.gov | ODP: Communicating Strategic Value | Backup
 Small Business Administration | Asghar Noor | asghar.noor@sba.gov | ODP: Public Data Release | Primary
 Small Business Administration | Yen Shan | yen.shan@sba.gov | ODP: Public Data Release | Backup
@@ -171,6 +176,4 @@ U.S. Agency for International Development | Laura Hughes | lhughes@usaid.gov | O
 U.S. Agency for International Development | Bill Morgan | wmorgan@usaid.gov | ODP: Data Privacy and Confidentiality | 
 U.S. Agency for International Development | Meredith Snee | msnee@usaid.gov | ODP: Data Privacy and Confidentiality | Alternate POC
 U.S. Agency for International Development | Bill Morgan | wmorgan@usaid.gov | ODP: Security Risk Assessment | 
-U.S. Agency for International Development | Wei Wei Milne | wmilne@usaid.gov | ODP: Security Risk Assessment | Alternate POC  
-
-
+U.S. Agency for International Development | Wei Wei Milne | wmilne@usaid.gov | ODP: Security Risk Assessment | Alternate POC
