@@ -94,15 +94,27 @@ title: DATA Act Data Dictionary
 						</tr>
 						<tr>
 							<td>
+								<strong>Required</strong>
+							</td>
+							<td>{{ element.required }}</td>
+						</tr>
+						<tr>
+							<td>
 								<strong>Business Line(s)</strong>
 							</td>
 							<td>{{ element.businessLine }}</td>
 						</tr>
 						<tr>
 							<td>
-								<strong>Domain Values, Derivations or Validations</strong>
+								<strong>Agency Reported: Domain Values and Validations</strong>
 							</td>
-							<td>{{ element.domainValuesDerivationsOrValidations }}</td>
+							<td>{{ element.domainValues }}</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>Treasury Derived: From External Source</strong>
+							</td>
+							<td>{{ element.externalSource }}</td>
 						</tr>
 					</tbody>
 				</table>
