@@ -3,3 +3,4 @@ _site
 .ruby-version
 Staticfile.auth
 #test
+.jekyll*
