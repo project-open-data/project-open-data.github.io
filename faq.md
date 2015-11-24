@@ -34,8 +34,8 @@ This project constitutes a collaborative work ("open source"). Federal employees
 1. Click the "Edit this Page" button in the top right corner of any page.
 2. If prompted, follow the instructions to "Fork this repository and propose changes."
 3. Make changes as you would normally.
-3. Fill out the form at the bottom of the page to "Propose file change" and then follow the instructions to submit a pull request.
-4. Your change should appear, once approved.
+4. Fill out the form at the bottom of the page to "Propose file change" and then follow the instructions to submit a pull request.
+5. Your change should appear, once approved.
 
 #### Advanced
 
