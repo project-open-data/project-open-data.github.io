@@ -74,9 +74,11 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-8 [Esri Geoportal Server](https://github.com/Esri/geoportal-server/) - Open source catalog supporting ISO/FGDC/DC/... metadata with mapping to DCAT to support agency.gov/data.json listings in addition to providing [OGC CSW](http://www.opengeospatial.org/standards/cat), [OAI-PMH](http://www.openarchives.org/pmh/) and [OpenSearch](http://www.opensearch.org). Supports automated harvesting from other open catalog sources.
 
-4-9 [GeoNode](http://geonode.org/) - An open source spatial data infrastructure (SDI) that enables federal agencies and other organizations to publish open geographic data in [standard open formats](http://geonode.readthedocs.org/en/latest/tutorials/devel/api/ogc.html).  GeoNode uses [pycsw](http://pycsw.org/) to publish [standard ISO metadata](https://www.fgdc.gov/metadata/geospatial-metadata-standards) and to support search/harvest functionality, including automated harvesting from CKAN.  Users can easily visualize data online or download data via the web user interface or programmatically.
+4-9 [pycsw](http://pycsw.org) - Lightweight and flexible open source catalog supporting ISO/FGDC/DC/DIF providing discovery via [OGC CSW](http://www.opengeospatial.org/standards/cat), [OpenSearch](http://www.opensearch.org)/[OGC Geo and Time Extensions](http://www.opengeospatial.org/standards/opensearchgeo), [OAI-PMH](http://www.openarchives.org/pmh/), [SRU](http://www.loc.gov/standards/sru/).  Supports automated harvesting of remote metadata, WAFs and OGC Web Services.
 
-4-10 [US Open Data Institute's Let Me Get That Data For You](http://lmgtdfy.usopendata.org/) - A simple search interface that shows you what public machine-readable data is already live on your website. This tool is useful for ensuring your Public Data Listing is complete. 
+4-10 [GeoNode](http://geonode.org/) - An open source spatial data infrastructure (SDI) that enables federal agencies and other organizations to publish open geographic data in [standard open formats](http://geonode.readthedocs.org/en/latest/tutorials/devel/api/ogc.html).  GeoNode uses [pycsw](http://pycsw.org/) to publish [standard ISO metadata](https://www.fgdc.gov/metadata/geospatial-metadata-standards) and to support search/harvest functionality, including automated harvesting from CKAN.  Users can easily visualize data online or download data via the web user interface or programmatically.
+
+4-11 [US Open Data Institute's Let Me Get That Data For You](http://lmgtdfy.usopendata.org/) - A simple search interface that shows you what public machine-readable data is already live on your website. This tool is useful for ensuring your Public Data Listing is complete. 
 
 #### Converter Tools 
 
