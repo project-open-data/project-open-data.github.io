@@ -22,6 +22,7 @@ This section offers examples of policy documents (memos, guidance, manuals, etc)
 * Department of Energy, [Atmospheric Radiation Measurement (ARM) Data Sharing and Distribution Policy](http://www.arm.gov/data/docs/policy).  This document sets expectations and establishes procedures for sharing data acquired in through the operations of Atmospheric Radiation Measurement (ARM) Climate Research Facility.
 * Los Alamos National Laboratory, [GISLab Data Policy](http://gislab.lanl.gov/policies/data_policy.html).  GISLab has established a spatial data warehouse to provide for access to spatial data at LANL. The GISLab spatial data policy specifies provisions for both data providers and data users.
 * United States Agency for International Development, [Open Data Policy](http://pdf.usaid.gov/pdf_docs/pbaab096.pdf).  The document, released in October 2014, sets forth the agency's plan for data management.  Read their one page [Fact Sheet](http://www.usaid.gov/sites/default/files/documents/1868/ADS579FactSheet.pdf) and access their [presentation](https://github.com/bpushed/Misc/blob/master/files/USAID%20OpenData%20Policy-OSTP-2014-10-21a.pptx?raw=true) delivered to White House OSTP on October 21, 2014.
+* Small Business Administration, [Open Data Program](https://github.com/project-open-data/project-open-data.github.io/raw/master/assets/docs/SOP%209081%20(1)%20from%20SBA.pdf). Outlines the programs and policies for the SBA Open Data Program, effective October 2014. 
 
 ## Guidance
 
