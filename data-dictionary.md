@@ -75,7 +75,7 @@ title: DATA Act Data Dictionary
 							<td>
 								<strong>Definition or Description</strong>
 							</td>
-							<td>{{ element.definition }}</td>
+							<td>{{ element.description }}</td>
 						</tr>
                         <tr>
                             <td>
