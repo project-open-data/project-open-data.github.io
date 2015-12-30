@@ -25,9 +25,9 @@ title: DATA Act Data Dictionary
 		<table class="table table-striped">
 			<thead>
 				<tr>
-					<th>DAIMS Package Container</th>
+					<th>Information Model Schema Package</th>
 					<th>DATA Act Field Name</th>
-					<th>DAIMS Semantic Standard Label</th>
+					<th>Information Model Element - Semantic Label</th>
 				</tr>
 			</thead>
       {% for element in site.data.elements %}<tr>
@@ -48,22 +48,22 @@ title: DATA Act Data Dictionary
 				<table class="table table-striped" style="width: 100%">
 					<thead>
 						<tr>
-							<th style="width: 20%">DATA Act Field Name</th>
-							<th style="width: 80%">{{ element.DATAActFieldName }}<a id="C{{ forloop.index | plus:1 }}"></a></th>
+							<th style="width: 20%"><a id="C{{ forloop.index | plus:1 }}"></a>Information Model Element - Semantic Label</th>
+							<th style="width: 80%">{{ element.DAIMSSemanticLabel }}</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td>
-								<strong>DAIMS Package Container</strong>
+								<strong>Information Model Schema Package</strong>
 							</td>
 							<td>{{ element.DAIMSPackageContainer }}</td>
 						</tr>
 						<tr>
 							<td>
-								<strong>DAIMS Semantic Standard Label</strong>
+								<strong>DATA Act Field Name</strong>
 							</td>
-							<td>{{ element.DAIMSSemanticLabel }}</td>
+							<td>{{ element.DATAActFieldName }}</td>
 						</tr>
 						<tr>
 							<td>
@@ -77,6 +77,12 @@ title: DATA Act Data Dictionary
 							</td>
 							<td>{{ element.definition }}</td>
 						</tr>
+                        <tr>
+                            <td>
+                                <strong>New/Expanded Element Description (Draft)</strong>
+                            </td>
+                            <td>{{ element.newDescription }} </td>
+                        </tr>
 						<tr>
 							<td>
 								<strong>Example(s)</strong>
@@ -86,13 +92,13 @@ title: DATA Act Data Dictionary
 						</tr>
 						<tr>
 							<td>
-								<strong>Data Type</strong>
+								<strong>Primitive Data Type</strong>
 							</td>
 							<td>{{ element.dataType }}</td>
 						</tr>
 						<tr>
 							<td>
-								<strong>Field Length</strong>
+								<strong>Definitional Field Length</strong>
 							</td>
 							<td>{{ element.fieldLength }}</td>
 						</tr>
@@ -108,6 +114,12 @@ title: DATA Act Data Dictionary
 							</td>
 							<td>{{ element.businessLine }}</td>
 						</tr>
+                        <tr>
+                            <td>
+                                <strong>Domain Values, Derivations or Validations</strong>
+                            </td>
+                            <td> {{ element.originalValidationRules }}</td>
+                        </tr>
 					</tbody>
 				</table>
 			</div>
