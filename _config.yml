@@ -4,6 +4,7 @@ desc: "DATA Act and FFATA Collaboration Space"
 url: //fedspendingtransparency.github.io/
 repo_name: fedspendingtransparency.github.io
 branch: master
+encoding: utf-8
 
 #global settings, no need to change these
 root_url: //fedspendingtransparency.github.io
