@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- Built by U.S. Government department of Treasury and thereby not subject to copyright -->
+<xs:schema elementFormDefault='qualified' targetNamespace='http://treasury.gov/dtr/type' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:nonnum='http://www.xbrl.org/dtr/type/non-numeric' xmlns:num='http://www.xbrl.org/dtr/type/numeric' xmlns:tfs='http://treasury.gov/dtr/type' xmlns:xbrli='http://www.xbrl.org/2003/instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+<xs:annotation>
+<xs:documentation>
+                This file is the schema file for treas-types.
+                
+                The DTS starting with this schema file will not contain any linkbases.
+</xs:documentation>
+</xs:annotation>
+
+<xs:import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+<xs:import namespace='http://www.xbrl.org/dtr/type/numeric' schemaLocation='http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd' />
+<xs:import namespace='http://www.xbrl.org/dtr/type/non-numeric' schemaLocation='http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd' />
+
+<xs:complexType abstract='false' mixed='false' name='agencyCodeItemType'>
+  <xs:simpleContent>
+     <xs:restriction base='xbrli:tokenItemType' />
+  </xs:simpleContent>
+</xs:complexType>
+<xs:complexType abstract='false' mixed='false' name='availabilityCodeItemType'>
+  <xs:simpleContent>
+     <xs:restriction base='xbrli:tokenItemType' />
+  </xs:simpleContent>
+</xs:complexType>
+<xs:complexType abstract='false' mixed='false' name='entityIdTypeCode'>
+    <xs:simpleContent>
+<xs:restriction base='xbrli:tokenItemType' />
+    </xs:simpleContent>
+</xs:complexType>
+<xs:complexType abstract='false' mixed='false' name='idvTypeCode'>
+    <xs:simpleContent>
+<xs:restriction base='xbrli:tokenItemType' />
+    </xs:simpleContent>
+</xs:complexType>
+</xs:schema>

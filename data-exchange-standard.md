@@ -32,28 +32,26 @@ A human-readable listing of the data elements with definitions and other metadat
 ### 2) DATA Act Data Standards v0.7 Schemas (zipped)
 
 A single downloadable file that contains the XBRL Schema files. The Data Dictionary and the XBRL Schema content are in alignment.
-<a href="{{ site.baseurl }}/assets/docs/DATA_Act_Schema_v0.6.zip" title="DATA Act Schema v0.7">DATA Act Schema v0.7</a>
+<a href="{{ site.baseurl }}/schema/daims/DATA_Act_Schema_v0.7.zip" title="DATA Act Schema v0.7">DATA Act Schema v0.7</a>
 
 ### 3) DATA Act Data Standards v0.7 Schemas (Normative)
 
 The individual XML Schema files are posted for your assurance that the schemas have been unaltered for the v0.7 release.
 
-<a href="{{ site.baseurl }}/schema/appropriations/appropriations.xsd" title="appropriations">appropriations</a>
+<a href="{{ site.baseurl }}/schema/daims/treas-20151231.xsd" title="DAIMS XBRL XSD">DAIMS XBRL XSD</a>
 
-<a href="{{ site.baseurl }}/schema/award/award.xsd" title="award">award</a>
+<a href="{{ site.baseurl }}/schema/daims/treas-20151231_lab.xml" title="DAIMS XBRL Labels">DAIMS XBRL Labels</a>
 
-<a href="{{ site.baseurl }}/schema/award-financial/award-financial.xsd" title="award financial">award-financial</a>
+<a href="{{ site.baseurl }}/schema/daims/treas-20151231_pre.xml" title="DAIMS XBRL Presentation Hierarchy">DAIMS XBRL Presentation Hierarchy</a>
 
-<a href="{{ site.baseurl }}/schema/awardee/awardee.xsd" title="awardee">awardee</a>
+<a href="{{ site.baseurl }}/schema/daims/treas-20151231_def.xml" title="DAIMS XBRL Definition Hierarchy">DAIMS XBRL Definition Hierarchy</a>
 
-<a href="{{ site.baseurl }}/schema/general/general.xsd" title="general">general</a>
+<a href="{{ site.baseurl }}/schema/daims/treasury-fiscal-service-2015-12-31.xsd
+" title="DAIMS XBRL Types">DAIMS XBRL Types</a>
 
-<a href="{{ site.baseurl }}/schema/program-object/program-object.xsd" title="program-object">program-object</a>
-
-<a href="{{ site.baseurl }}/schema/subaward/subaward.xsd" title="subaward">subaward</a>
 
 ### 4) DATA Act Data Standards v0.7 Schemas Diagrams
 
 The diagrams depict the structural relationships and hierarchies of the data fields.
 
-To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/123).
+To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/126).
