@@ -13,7 +13,7 @@ As part of the implementation of the DATA Act, this page contains information on
 
 ## Current Draft Version (v0.7)
 
-DATA Act Schema Version 0.7 builds off of version 0.6, which incorporated the [newly standardized data elements](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm) and included the complete set of financial and award data elements required by the DATA Act and FFATA.  Version 0.7 provides a comprehensive normative model, or DATA Act information Model Schema (DAIMS), to represent all spending and related information anticipated, required, or available to support the additional federal spending transparency information required by the DATA Act.  Version 0.7 does not include agency submission specifications regarding the file format, content scope, file organization, etc., but rather focuses on including additional semantic and contextual metadata, attributes, and missing elements. Specifically, version 0.7:
+DATA Act Schema Version 0.7 builds off of version 0.6, which incorporated the [newly standardized data elements](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm) and included the complete set of financial and award data elements required by the DATA Act and FFATA.  Version 0.7 provides a comprehensive normative model, or DATA Act Information Model Schema (DAIMS), to represent all spending and related information anticipated, required, or available to support the additional federal spending transparency information required by the DATA Act.  Version 0.7 does not include agency submission specifications regarding the file format, content scope, file organization, etc., but rather focuses on including additional semantic and contextual metadata, attributes, and missing elements. Specifically, version 0.7:
 
 * Incorporates additional financial data elements and attributes that will support more accurate and detailed financial and budgetary accounting information.  The schema leverages policy and guidance from the [US Standard General Ledger (USSGL)](https://www.fiscal.treasury.gov/fsreports/ref/ussgl/ussgl_home.htm) in implementing the financial data elements required by the DATA Act.
 * Incorporates recent policy decisions as well as feedback received from federal agency stakeholders.
@@ -35,8 +35,8 @@ A human-readable listing of the data elements with definitions and other metadat
 
 ### 3) DATA Act Data Standards v0.7 Schemas (zipped)
 
-A single downloadable file that contains the XBRL Schema files. The Data Dictionary and the XBRL Schema content are in alignment.
-<a href="{{ site.baseurl }}/schema/daims/DATA_Act_Schema_v0.7.zip" title="DATA Act Schema v0.7">DATA Act Information Model Schema (DAIMS) v0.7</a>
+A single downloadable file that contains the XBRL Schema files. The Data Dictionary and the XBRL Schema content are in alignment.<br />
+<a href="{{ site.baseurl }}/schema/daims/DATA_Act_Schema_v0.7.zip" title="DATA Act Schema v0.7">DATA Act Information Model Schema v0.7</a>
 
 ### 4) DATA Act Data Standards v0.7 Schemas (Normative)
 
