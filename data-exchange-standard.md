@@ -27,6 +27,19 @@ The v0.7 release includes the following artifacts:
 ### 1) DATA Act Data Standards v0.7 Schemas Diagrams
 
 The diagrams depict the structural relationships and hierarchies of the data fields.
+<br />
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_A_Legend.pdf" title="Schema Diagram Package A">Schema Diagram Package A</a>
+
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_B_Legend.pdf" title="Schema Diagram Package B">Schema Diagram Package B</a>
+
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_C_Legend.pdf" title="Schema Diagram Package C">Schema Diagram Package C</a>
+
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_D_Legend.pdf" title="Schema Diagram Package D">Schema Diagram Package D</a>
+
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_E_Legend.pdf" title="Schema Diagram Package E">Schema Diagram Package E</a>
+
+
+
 
 ### 2) Data Dictionary v0.7
 
