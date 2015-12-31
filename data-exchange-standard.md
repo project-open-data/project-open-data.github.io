@@ -24,17 +24,21 @@ DATA Act Schema Version 0.7 builds off of version 0.6, which incorporated the [n
 
 The v0.7 release includes the following artifacts:
 
-### 1) Data Dictionary v0.7
+### 1) DATA Act Data Standards v0.7 Schemas Diagrams
+
+The diagrams depict the structural relationships and hierarchies of the data fields.
+
+### 2) Data Dictionary v0.7
 
 A human-readable listing of the data elements with definitions and other metadata (e.g., data type).  
 <a href="{{ site.baseurl }}/dictionary/" title="DATA Act Data Dictionary">Data Dictionary</a>
 
-### 2) DATA Act Data Standards v0.7 Schemas (zipped)
+### 3) DATA Act Data Standards v0.7 Schemas (zipped)
 
 A single downloadable file that contains the XBRL Schema files. The Data Dictionary and the XBRL Schema content are in alignment.
-<a href="{{ site.baseurl }}/schema/daims/DATA_Act_Schema_v0.7.zip" title="DATA Act Schema v0.7">DATA Act Schema v0.7</a>
+<a href="{{ site.baseurl }}/schema/daims/DATA_Act_Schema_v0.7.zip" title="DATA Act Schema v0.7">DATA Act Information Model Schema (DAIMS) v0.7</a>
 
-### 3) DATA Act Data Standards v0.7 Schemas (Normative)
+### 4) DATA Act Data Standards v0.7 Schemas (Normative)
 
 The individual XML Schema files are posted for your assurance that the schemas have been unaltered for the v0.7 release.
 
@@ -50,8 +54,6 @@ The individual XML Schema files are posted for your assurance that the schemas h
 " title="DAIMS XBRL Types">DAIMS XBRL Types</a>
 
 
-### 4) DATA Act Data Standards v0.7 Schemas Diagrams
 
-The diagrams depict the structural relationships and hierarchies of the data fields.
 
 To provide feedback on any of the above, please see our [related issue](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/126).
