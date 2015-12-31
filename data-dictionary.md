@@ -14,7 +14,7 @@ title: DATA Act Data Dictionary
 <p>The DATA Act directs the Office of Management and Budget (OMB) and the U.S. Treasury Department (Treasury) to establish government-wide data standards for federal funds and entities receiving such funds. The DATA Act Schema will help to ensure that information is consistent and comparable and ultimately make data more accessible, reusable, and provide the necessary linkages between financial events. By making federal spending data accessible, searchable, reusable and more reliable, the public can understand how government spending impacts their communities. The DATA Act Schema will also reduce the need for massive system changes across federal agencies to collect information and allow agencies to focus on managing data.</p>
 
 
-<p>As the schema continues to evolve, the latest revision intentionally separates the purpose of defining the elements that comprise the domain of information addressed by the DATA Act, from providing detailed instructions for submission of data corresponding to those element definitions. As a result, the Schema Data Dictionary should become a common reference for the standard description of the overall Information Model covering all available DATA Act data. As such it should provide the same benefits both to data providers and data consumers, regardless of role or familiarity with existing government systems and terminology.</p>
+<p>The DATA Act data dictionary will be revised periodically and is expected to evolve over time to reflect the content within the DATA Act Schema. As the schema continues to evolve, the latest revision intentionally separates the purpose of defining the elements that comprise the domain of information addressed by the DATA Act, from providing detailed instructions for submission of data corresponding to those element definitions. As a result, the Schema Data Dictionary should become a common reference for the standard description of the overall Information Model covering all available DATA Act data. As such it should provide the same benefits both to data providers and data consumers, regardless of role or familiarity with existing government systems and terminology.</p>
 
 <p>To support this intent, the schema, now referred to as the <strong>DATA Act Information Model Schema (DAIMS)</strong>, has been updated with some new elements and element attributes. Likewise, some prior attributes intended for the purpose of submission instruction, have been removed. (Ultimately, submission instructions will be documented separately as Report Submission Specifications (RSS), specific to the needs of agencies required to provide data.)</p>
 
@@ -26,9 +26,8 @@ title: DATA Act Data Dictionary
 	</ul>
 </p>
 
-<p>To provide feedback on the data dictionary, please see our <a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/123" title="provide data dictionary feedback">related issue</a>.</p>
+<p>To provide feedback on the data dictionary, please see our <a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/126" title="provide data dictionary feedback">related issue</a>.</p>
 
-<br />
 <h2>DATA Act Schema Data Dictionary (v0.7)</h2>
 
 
