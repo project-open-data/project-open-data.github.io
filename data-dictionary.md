@@ -17,6 +17,23 @@ title: DATA Act Data Dictionary
 
 <p>To provide feedback on the data dictionary, please see our <a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/123" title="provide data dictionary feedback">related issue</a>.</p>
 
+<h2>Revision Update - Version 0.7</h2>
+
+<p>As the schema continues to evolve, the latest revision intentionally separates the purpose of defining the elements that comprise the domain of information addressed by the DATA Act, from providing detailed instructions for submission of data corresponding to those element definitions. As a result, the Schema Data Dictionary should become a common reference for the standard description of the overall Information Model covering all available DATA Act data. As such it should provide the same benefits both to data providers and data consumers, regardless of role or familiarity with existing government systems and terminology.</p>
+
+<p>To support this intent, the schema, now referred to as the <strong>DATA Act Information Model Schema (DAIMS)</strong>, has been updated with some new elements and element attributes. Likewise, some prior attributes intended for the purpose of submission instruction, have been removed. (Ultimately, submission instructions will be documented separately as Report Submission Specifications (RSS), specific to the needs of agencies required to provide data.)</p>
+
+<p>The principal changes reflected in the Data Dictionary include:
+	<ul>
+		<li>The addition of a DAIMS Semantic Standard Label, to provide a description of each element that where appropriate more clearly expresses detailed meaning, purpose and/or relationship context of the data, and when possible doesn’t require system specific domain knowledge. (The original DATA Act field names have been retained on elements where they originally existed.)</li>
+		<li>The addition of new elements, which better encompass the breadth or detail required for DATA Act reporting. For example, these include finer breakdowns of reported values for Obligations and Outlays, sometimes to the USSGL account level, or reflect attributes already present in government systems that provide valuable dimension to the data, such as direct versus reimbursable appropriations.</li>
+		<li>The removal of Cardinality and Field Width, which focus primarily on constraints that may or may not exist in the ultimate requirements for specific reporting file or data stream formats, of which the DATA Act will eventually support many.</li>
+	</ul>
+</p>
+
+
+
+<br />
 <h2>DATA Act Schema Data Dictionary</h2>
 
 
