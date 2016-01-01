@@ -28,23 +28,23 @@ The v0.7 release includes the following artifacts:
 
 The diagrams depict the structural relationships and hierarchies of the data fields.
 <br />
-<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_A_Legend.pdf" title="DAIMS Appropriation Account Information Package Diagram
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Diagram-PackageA_v0.7.pdf" title="DAIMS Appropriation Account Information Package Diagram
 ">DAIMS Appropriation Account Information Package Diagram
 </a>
 
-<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_B_Legend.pdf" title="DAIMS Treasury Account, Program Activity & Object Class Package Diagram
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Diagram-PackageB_v0.7.pdf" title="DAIMS Treasury Account, Program Activity & Object Class Package Diagram
 ">DAIMS Treasury Account, Program Activity & Object Class Package Diagram
 </a>
 
-<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_C_Legend.pdf" title="DAIMS Award Financial Information Package Diagram
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Diagram-PackageC_v0.7.pdf" title="DAIMS Award Financial Information Package Diagram
 ">DAIMS Award Financial Information Package Diagram
 </a>
 
-<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_D_Legend.pdf" title="DAIMS Award Actions Information Package Diagram
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Diagram-PackageD_v0.7.pdf" title="DAIMS Award Actions Information Package Diagram
 ">DAIMS Award Actions Information Package Diagram
 </a>
 
-<a href="{{ site.baseurl }}/assets/docs/DAIMS_Overview_v0.5.2_E_Legend.pdf" title="DAIMS Award Recipient Information Package Diagram
+<a href="{{ site.baseurl }}/assets/docs/DAIMS_Diagram-PackageE_v0.7.pdf" title="DAIMS Award Recipient Information Package Diagram
 ">DAIMS Award Recipient Information Package Diagram
 </a>
 
