@@ -9,14 +9,12 @@ title: The Digital Accountability Transparency Act Schema
 
 As part of the implementation of the DATA Act, this page contains information on the standard data exchange, called the “Digital Accountability Transparency Act Schema” (DATA Act Schema). The data exchange standard leverages industry standards to structure financial and non-financial data with metadata, or supplemental information that describes, explains, locates, or otherwise makes it easier to retrieve and understand the data.
 
-As part of the implementation of the DATA Act, this page contains information on the standard data exchange, called the “Digital Accountability Transparency Act Schema” (DATA Act Schema). The data exchange standard leverages industry standards to structure financial and non-financial data with metadata, or supplemental information that describes, explains, locates, or otherwise makes it easier to retrieve and understand the data.
 
 ## Current Draft Version (v0.7)
 
 DATA Act Schema Version 0.7 builds off of version 0.6, which incorporated the [newly standardized data elements](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm) and included the complete set of financial and award data elements required by the DATA Act and FFATA.  Version 0.7 provides a comprehensive normative model, or DATA Act Information Model Schema (DAIMS), to represent all spending and related information anticipated, required, or available to support the additional federal spending transparency information required by the DATA Act.  Version 0.7 does not include agency submission specifications regarding the file format, content scope, file organization, etc., but rather focuses on including additional semantic and contextual metadata, attributes, and missing elements. Specifically, version 0.7:
 
 * Incorporates additional financial data elements and attributes that will support more accurate and detailed financial and budgetary accounting information.  The schema leverages policy and guidance from the [US Standard General Ledger (USSGL)](https://www.fiscal.treasury.gov/fsreports/ref/ussgl/ussgl_home.htm) in implementing the financial data elements required by the DATA Act.
-* Incorporates recent policy decisions as well as feedback received from federal agency stakeholders.
 * Incorporates recent policy decisions as well as feedback received from federal agency stakeholders.
 * Includes schema diagrams that depict the structural relationships and hierarchies of the data fields.
 
