@@ -17,7 +17,7 @@ title: Amount
     </tr>
   </thead>
   <tr>
-    <td>Amout of Award</td>
+    <td>Amount of Award</td>
     <td>FFATA</td>
   </tr>
   <tr>
