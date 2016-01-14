@@ -129,6 +129,12 @@ To facilitate common understanding, a number of characteristics, or attributes, 
 
 An open standard for authorization. It allows users to share their private resources stored on one site with another site without having to hand out their credentials, typically username and password. —*[source](http://management.apievangelist.com/building-blocks.html)*
 
+### Open Data Protocol (OData) 
+
+The Open Data Protocol (OData) is an open protocol that allows the creation and consumption of queryable and interoperable RESTful APIs in a simple and standard way. OData defines conventions and best practices that unlock data through easy to use RESTful APIs that return standard, self-describing JSON payloads. 
+
+The OData standard is published and maintained by OASIS, a "nonprofit consortium that drives the development, convergence and adoption of open standards for the global information society". —*[source](http://odata.org)*
+
 ### Open Source Software
 
 Computer software that is available in source code form: the source code and certain other rights normally reserved for copyright holders are provided under an open-source license that permits users to study, change, improve and at times also to distribute the software.
