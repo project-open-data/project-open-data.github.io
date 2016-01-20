@@ -6,9 +6,11 @@ redirect_from: /chiefdataofficers/
 filename: chief-data-officers.md
 ---
 
-Chief Data Officers
+Chief Data Officers and Chief Data Scientists
 -----------------------------
-The Chief Data Officer is an emerging role in US federal government. 
+he Chief Data Officer and Chief Data Scientsit are an emerging roles in US federal government.
+
+
 
 {: .table .table-striped}
 CFO Act Agencies                                |  Agency / Bureau                            |  Chief Data Officer             
