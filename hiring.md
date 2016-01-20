@@ -6,7 +6,7 @@ redirect_from: /hiring/
 filename: hiring.md
 ---
 
-Clarifying roles and responsibilities for promoting efficient and effective data release practices is key to strengthening data management and release practices. In addition to ensuring proper authorities have been granted to execute on related [Open Data Policy responsibilities](https://project-open-data.cio.gov/policy-memo/), agencies have been exploring hiring [Chief Data Officers and Chief Data Scientists](https://project-open-data.cio.gov/chief-data-officers/), and procuring the services of new government technology programs, such as the Presidential Innovation Fellows, 18F, an USDS. Below are additional hiring resources relevant to data management that agencies may consider for specific projects and needs. *See OPM for official guidance.*
+Clarifying roles and responsibilities for promoting efficient and effective data release practices is key to strengthening data management and release practices. In addition to ensuring proper authorities have been granted to execute on related [Open Data Policy responsibilities](https://project-open-data.cio.gov/policy-memo/), agencies have been exploring hiring [Chief Data Officers and Chief Data Scientists](https://project-open-data.cio.gov/chief-data-officers/), and acquiring the services of new government technology programs, such as the Presidential Innovation Fellows, 18F, and USDS. Below are additional hiring resources relevant to data management that agencies may consider for specific projects and needs. *See OPM for official guidance.*
 
 ### Hiring Authorities 
 
