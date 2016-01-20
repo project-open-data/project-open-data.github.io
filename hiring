@@ -1,20 +1,16 @@
 ---
 layout: default
-title: Human Capital
-permalink: /human-capital/
-redirect_from: /humancapital/
-filename: humancapital.md
+title: Hiring
+permalink: /hiring/
+redirect_from: /hiring/
+filename: hiring.md
 ---
 
-Clarifying roles and responsibilities for promoting efficient and effective data release practices is key to strengthening data management and release practices. In addition to ensuring proper authorities have been granted to execute on related [Open Data Policy responsibilities](https://project-open-data.cio.gov/policy-memo/), agencies have been exploring hiring [Chief Data Officers](https://project-open-data.cio.gov/chief-data-officers/), and procuring the services of new government technology programs, such as the Presidential Innovation Fellows, 18F, an USDS. Below are addtional resources agencies might explore to build out their agency data teams. 
-
-### Example Job Descriptions
-* Chief Data Officer ([Example](https://github.com/project-open-data/project-open-data.github.io/blob/master/cdo-position-description.md))
-* Data Architect ([Example](https://github.com/18F/joining-18f/blob/18f-pages/_positions/data-architect.md))
+Clarifying roles and responsibilities for promoting efficient and effective data release practices is key to strengthening data management and release practices. In addition to ensuring proper authorities have been granted to execute on related [Open Data Policy responsibilities](https://project-open-data.cio.gov/policy-memo/), agencies have been exploring hiring [Chief Data Officers and Chief Data Scientists](https://project-open-data.cio.gov/chief-data-officers/), and procuring the services of new government technology programs, such as the Presidential Innovation Fellows, 18F, an USDS. Below are additional hiring resources relevant to data management that agencies may consider for specific projects and needs. *See OPM for official guidance.*
 
 ### Hiring Authorities 
 
-#### Existing Authorities/Flexibilities 
+#### Existing Hiring Authorities/Flexibilities 
 
 * Government-wide Direct Hire Authority for Information Technology Management (Information Security and Cybersecurity), GS-2210-09 through GS-2210-15
 * Schedule A Excepted Service Hiring Authority for DoD and DHS includes:  Intelligence Analysts, Computer Engineers, Computer Scientists, Telecommunications Investigators, and Criminal Investigators.
