@@ -1,0 +1,18 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+// Place list of your partial imports below, located in assets/_scss.
+
+
+// @import 'styleguide';
+// @import 'custom';
+
+
+// Bootstrap
+@import 'bootstrap-sass/assets/stylesheets/_bootstrap';
+
+// 18F colors
+@import 'variables';
+
+// Customizations
+@import 'custom';

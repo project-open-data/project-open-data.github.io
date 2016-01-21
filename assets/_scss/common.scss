@@ -1,0 +1,448 @@
+/* Colors */
+$color-darkest: #2C333B;
+
+/* Fonts */
+@font-face {
+	font-family: "dataact";
+	src:url("../fonts/dataact.eot");
+	src:url("../fonts/dataact.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/dataact.woff") format("woff"),
+	url("../fonts/dataact.ttf") format("truetype"),
+	url("../fonts/dataact.svg#dataact") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Sizing */
+$header-height: 8rem;
+
+/* Classes */
+.usa-da-text-white {
+	color: white
+}
+
+/* Functions */
+@function as-alpha($hex-color, $alpha) {
+	$-local-red: red(rgba($hex-color, 1));
+	$-local-green: green(rgba($hex-color, 1));
+	$-local-blue: blue(rgba($hex-color, 1));
+
+	@return rgba($-local-red, $-local-green, $-local-blue,$alpha);
+}
+
+/* Icons */
+[class^="usa-da-icon-"]:before,
+[class*=" usa-da-icon-"]:before {
+	font-size: 1em;
+	font-family: "dataact" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-webkit-osx-font-smoothing: grayscale;
+	padding-left: .4em;
+	padding-top: .4em;
+	position: absolute;
+}
+
+.usa-da-icon-lock:before {
+	content: "a";
+}
+.usa-da-icon-unlock:before {
+	content: "b";
+}
+.usa-da-icon-unlock-alt:before {
+	content: "c";
+}
+.usa-da-icon-user:before {
+	content: "d";
+}
+
+/* Elements */
+h1, h2, h3, h4, h5 {
+	font-family: $font-sans;
+}
+
+h1 {
+	font-size: 52px;
+	line-height: 52px;
+	font-weight: $font-light;
+	margin-top: 60px;
+	margin-bottom: 24px;
+}
+
+h3 {
+	font-size: 17px;
+	font-weight: $font-normal;
+	line-height: $lead-line-height;
+	margin-top: 0;
+	margin-bottom: 60px;
+}
+
+/* Tables */
+.usa-da-table-holder {
+	margin: 60px auto;
+	text-align: center;
+}
+
+.usa-da-table {
+	width: 100%;
+
+	thead {
+		tr {
+			background-color: $color-gray-light;
+			border: 1px solid $color-gray-light;
+		}
+
+		th {
+			text-align: right;
+			color: white;
+			border: 1px solid $color-gray-light;
+			border-right: 1px solid $color-gray-lightest;
+		}
+
+		th:last-child {
+			border-right: 1px solid $color-gray-light;
+		}
+	}
+
+	th, td {
+		border: 1px solid $color-gray-light;
+		padding: 1.0rem 2.0rem;
+		text-align: right;
+		color: $color-gray;
+	}
+}
+
+/* Header */
+.usa-da-header {
+	background-color: $color-gray-dark;
+	border: none;
+	height: $header-height;
+	border-radius: 0;
+	margin-bottom: 0;
+
+	.usa-da-header-container {
+		height: 100%;
+
+		.usa-da-header-navbar {
+			height: 100%;
+			display: table;
+		}
+
+		.usa-da-header-brand, .usa-da-header-brand:hover, .usa-da-header-brand:visited {
+			font-size: 2.0rem;
+			line-height: $header-height;
+			font-weight: $font-light;
+			height: 100%;
+			color: $color-white;
+			display: table-cell;
+			vertical-align: middle;
+			padding: 0;
+		}
+
+		#usa-da-header-link-holder {
+			padding: 0 10px;
+			margin: 0;
+			height: 100%;
+			line-height: $header-height;
+			font-size: 15px;
+			font-weight: $font-normal;
+
+			li {
+				height: 100%;
+				display: table;
+				margin-left: 0.5rem;
+			}
+		}
+
+		#usa-da-header-link-holder > li > a {
+			background-color: $color-gray-dark;
+			color: $color-primary-alt;
+			height: $header-height;
+			display: table-cell;
+			vertical-align: middle;
+			padding: 1.5rem 1.0rem;
+			font-size: 1.4rem;
+
+			&:hover {
+				background-color: $color-darkest;
+			}
+		}
+
+		#usa-da-header-link-holder > li.active > * {
+			background-color: $color-darkest;
+			color: $color-gold-lighter;
+		}
+
+		#usa-da-header-link-holder > li > .usa-da-user-info {
+			background-color: $color-gray;
+			color: $color-gray-light;
+		}
+	}
+}
+
+/* Content */
+.usa-da-content {
+	//@extend .styleguide-content;
+	margin: auto 0;
+	padding-bottom: 1.5em;
+	width: 100%;
+	max-width: 100%;
+	font-weight: $font-normal;
+
+	h1 {
+		font-weight: $font-light;
+		margin-top: 0;
+	}
+}
+
+.usa-da-content-dark {
+	color: white;
+	background-color: $color-darkest;
+
+	.row.usa-da-content-landing { background: url('/graphics/bar_bg.png') no-repeat bottom right; }
+	.row.usa-da-content-add-data { background: url('/graphics/line_bg.png') no-repeat bottom right; }
+}
+
+.usa-da-content-light-gray {
+	color: $color-gray-light;
+	background-color: $color-gray-lightest;
+}
+
+/* Progress Bar */
+.usa-da-progress-bar {
+	margin: 6.0rem auto 5.0rem;
+	font-size: 1.3em;
+	font-weight: $font-bold;
+
+	/* Progress Tracker v2 */
+	.usa-da-progress-bar-holder[data-steps="2"] li { width: 49%; }
+	.usa-da-progress-bar-holder[data-steps="3"] li { width: 33%; }
+	.usa-da-progress-bar-holder[data-steps="4"] li { width: 24%; }
+	.usa-da-progress-bar-holder[data-steps="5"] li { width: 19%; }
+	.usa-da-progress-bar-holder[data-steps="6"] li { width: 16%; }
+	.usa-da-progress-bar-holder[data-steps="7"] li { width: 14%; }
+	.usa-da-progress-bar-holder[data-steps="8"] li { width: 12%; }
+	.usa-da-progress-bar-holder[data-steps="9"] li { width: 11%; }
+
+	.usa-da-progress-bar-holder {
+		width: 100%;
+		list-style: none;
+		margin: 20px 0 20px 0;
+		padding: 0;
+
+		&:last-child {
+			font-size: $base-font-size;
+			padding-top: 4em;
+			font-family: $font-sans;
+		}
+	}
+
+	.usa-da-progress-bar-holder li {
+		float: left;
+		text-align: center;
+		position: relative;
+		z-index:5;
+	}
+
+	.usa-da-progress-bar-holder .name {
+		display: block;
+		vertical-align: bottom;
+		text-align: center;
+		margin-bottom: 1em;
+		color: $color-gray-dark;
+		opacity: 0.3;
+	}
+
+	.usa-da-progress-bar-holder .step {
+		color: $color-gray-light;
+		border: 1px solid $color-gray-light;
+		background-color: $color-gray-lightest;
+		border-radius: 100%;
+		line-height: 1.2;
+		width: 2.4em;
+		height: 2.4em;
+		padding-top: 0.6em;
+		display: inline-block;
+		z-index: 0;
+	}
+
+	.usa-da-progress-bar-holder .step span {
+		opacity: 0.3;
+	}
+
+	.usa-da-progress-bar-holder .usa-da-progress-bar-step-current .name,
+	.usa-da-progress-bar-holder .usa-da-progress-bar-step-current .step span {
+		opacity: 1;
+	}
+
+	.usa-da-progress-bar-holder .step:before {
+		content: "";
+		display: block;
+		background-color: $color-gray-light;
+		height: 0.4em;
+		width: 50%;
+		position: absolute;
+		bottom: 0.9em;
+		left: 0;
+		z-index: -1;
+	}
+
+	.usa-da-progress-bar-holder .step:after {
+		content: "";
+		display: block;
+		background-color: $color-gray-light;
+		height: 0.4em;
+		width: 50%;
+		position: absolute;
+		bottom: 0.9em;
+		right: 0;
+		z-index: -1;
+	}
+
+	.usa-da-progress-bar-holder li:first-of-type .step:before {
+		display: none;
+	}
+
+	.usa-da-progress-bar-holder li:last-of-type .step:after {
+		display: none;
+	}
+
+	.usa-da-progress-bar-holder .usa-da-progress-bar-step-done .step,
+	.usa-da-progress-bar-holder .usa-da-progress-bar-step-current .step {
+		border: 1px solid $color-focus;
+		background-color: $color-focus;
+		color: $color-white;
+	}
+
+	.usa-da-progress-bar-holder .usa-da-progress-bar-step-done .step:before,
+	.usa-da-progress-bar-holder .usa-da-progress-bar-step-done .step:after,
+	.usa-da-progress-bar-holder .usa-da-progress-bar-step-current .step:before {
+		background-color: $color-focus;
+		z-index: -1;
+		bottom: 0.9em;
+	}
+
+	.usa-da-progress-bar-holder .usa-da-progress-bar-step-done .step,
+	.usa-da-progress-bar-holder .usa-da-progress-bar-step-current .step {
+		border: 1px solid $color-focus;
+	}
+
+	/*.usa-da-progress-bar-step-holder {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		overflow: hidden;
+
+		li {
+			width: 45px;
+			height: 45px;
+			z-index: 1;
+			position: relative;
+			display: inline-block;
+
+			&.usa-da-progress-bar-step-current ~ li {
+				color: $color-white;
+				&::after {
+					width: 0;
+				}
+			}
+			&::after {
+				content: "";
+				position: absolute;
+				left: 45px;
+				top: 18px;
+				background: $color-focus;
+				height: 10px;
+				width: 100%;
+			}
+
+			div {
+				border-radius: 90px;
+				background: $color-focus;
+				color: $color-white;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+				width: 45px;
+				height: 45px;
+			}
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			right:0;
+			top:18px;
+			background: $color-gray-light;
+			height: 10px;
+			width: 100%;
+		}
+
+		.usa-da-progress-bar-step-current ~ li::after {
+			position: absolute;
+			top: 42%;
+			height: 10px;
+			z-index: 2;
+			background: $color-focus;
+		}
+
+		.usa-da-progress-bar-step::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 5px;
+			height: 5px;
+			z-index: 3;
+			background: $color-gray-light;
+		}
+	}*/
+
+	/*.usa-da-progress-bar-step-holder::after {
+		content: "";
+		position: absolute;
+		top: 42%;
+		left: 20px;
+		right: 20px;
+		height: 10px;
+		z-index: 1;
+		background: $color-gray-light;
+	}*/
+}
+
+/* Footer */
+.usa-da-footer {
+	font-family: $font-sans;
+	text-align: center;
+	background-color: $color-darkest;
+	color: $color-white;
+	padding: 10px 0;
+}
+
+
+/* Buttons */
+.usa-da-button-bigger {
+	width: 70%;
+	padding: 1.5em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.usa-da-button-biggest {
+	width: 100%;
+	padding: 3em;
+}
+
+
+
+
+
+
