@@ -12,11 +12,11 @@
     <meta name="description" content="{{ site.desc }}">
     <meta name="viewport" content="width=device-width">
     <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/google-fonts.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"> {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
 </head>
-
-<body class="{{ page.id }}">
-    <!--[if lt IE 7]>
+<!-- <body class="{{ page.id }}"> -->
+<!--[if lt IE 7]>
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span12">
@@ -25,48 +25,22 @@
     </div>
   </div>
   <![endif]-->
-    <nav class="navbar navbar-default usa-da-header">
-        <div class="container usa-da-header-container">
-            <div class='navbar-header usa-da-header-navbar'>
-                <a class="navbar-brand usa-da-header-brand" href="{{ site.baseurl}}/">DATA Act and FFATA Collaboration Space</a>
-            </div>
-            <ul id="usa-da-header-link-holder" class="nav navbar-nav navbar-right">
-                <li role="presentation"><a class="brand" href="{{ site.baseurl}}/">Home</a></li>
-                <li role="presentation"><a href="{{ site.baseurl}}/faq">FAQ</a></li>
-                <li role="presentation"><a href="{{ site.baseurl}}/feedback">How to Contribute</a></li>
-                <li role="presentation"><a href="{{ site.baseurl}}/dataelements">Data Elements</a></li>
-                <li role="presentation"><a href="{{ site.baseurl}}/data-exchange-standard">Data Exchange</a></li>
-                <li role="presentation"><a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues">Discuss</a></li>
-                <li role="presentation"><a href="https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa">Get Updates</a></li>
-            </ul>
+<nav class="navbar navbar-default usa-da-header">
+    <div class="container usa-da-header-container">
+        <div class="usa-da-masthead-wrap">
+            <a class="usa-da-navbar-header usa-da-header-navbar" href="{{ site.baseurl }}">
+                <h1>{{ site.title }}</h1>
+                <h2>{{ site.desc }}</h2>
+            </a>
         </div>
-    </nav>
-    <!--     <div id="header">
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span12">
-                    <div class="navbar navbar-inverse">
-                        <div class="navbar-inner">
-                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </a>
-                            <a class="brand" href="{{ site.baseurl}}/">Home</a>
-                            <div class="nav-collapse collapse">
-                                <ul class="nav pull-right">
-                                    <li><a href="{{ site.baseurl}}/faq">FAQ</a></li>
-                                    <li><a href="{{ site.baseurl}}/feedback">How to Contribute</a></li>
-                                    <li><a href="{{ site.baseurl}}/dataelements">Data Elements</a></li>
-                                    <li><a href="{{ site.baseurl}}/data-exchange-standard">Data Exchange</a></li>
-                                    <li><a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues">Discuss</a></li>
-                                    <li><a href="https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa">Get Updates</a></lis>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    </div>
+    <div class="container-fluid nav-row">
+        <ul id="usa-da-header-link-holder" class="nav center-block container">
+            {% for link in site.navigation %} {% assign current = nil %} {% if page.url contains link.url %} {% assign current ='active'%} {% endif %}
+            <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+                <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
