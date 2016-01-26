@@ -1,4 +1,5 @@
 @import './common';
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -89,8 +90,6 @@ p.italic{
 	font-style: italic;
 }
 
-
-
 .highlight{
 	background: #e9f27c;
 	padding: 3px;
@@ -99,6 +98,54 @@ p.italic{
 	margin-top: 30px;
 }
 
+/***** HOMEPAGE *****/
 
-// @media (min-width: 768px) {
-// }
+.homepage .usa-alert {
+	margin: 36px 0; 
+}
+
+.homepage .panel-container {
+	margin-top: 20px;
+	@include clearfix;
+}
+
+.homepage .panel-container .col-md-6 {
+	padding-left: 0;
+}
+
+.homepage .panel-heading h3 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.homepage .media {
+	margin-bottom: 30px;
+}
+
+.homepage .media p {
+	margin: 0;
+}
+
+.homepage .media .glyphicon {
+	width: 64px;
+	height: 64px;
+	font-size: 45px;
+	text-align: center;
+}
+
+.homepage .media .usaspend-logo {
+	display: block;
+	width: 64px;
+	height: 64px;
+	background-image: url("../img/graphic-sprite.png");
+	background-size: 200%;
+}
+
+.homepage .media .usaspend-openbeta-logo {
+	display: block;
+	width: 64px;
+	height: 64px;
+	background-image: url("../img/graphic-sprite.png");
+	background-size: 200%;
+	background-position-x: 192px;
+}

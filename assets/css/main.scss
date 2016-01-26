@@ -11,8 +11,15 @@
 // Bootstrap
 @import 'bootstrap-sass/assets/stylesheets/_bootstrap';
 
-// 18F colors
+// 18F Colors
 @import 'variables';
+
+// Bourbon and Neat (18F Style Dependency)
+@import '18f/_scss/lib/bourbon/bourbon';
+@import '18f/_scss/lib/neat/neat';
+
+// 18F Typography
+@import '18f/_scss/elements/_typography';
 
 // Customizations
 @import 'custom';
