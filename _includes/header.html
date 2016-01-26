@@ -15,51 +15,51 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/google-fonts.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"> {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
 </head>
-<!-- <body class="{{ page.id }}"> -->
-<!--[if lt IE 7]>
+
+<body class="usa-da-body {{ page.id }}">
+    <!--[if lt IE 7]>
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span12">
         <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="https://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-      </div>
+      </div>-
     </div>
   </div>
   <![endif]-->
-<nav class="navbar navbar-default usa-da-header">
-    <div class="container usa-da-header-container">
-        <div class="usa-da-masthead-wrap">
-            <a class="usa-da-navbar-header usa-da-header-navbar" href="{{ site.baseurl }}">
-                <h1>{{ site.title }}</h1>
-                <h2>{{ site.desc }}</h2>
-            </a>
+    <nav class="navbar navbar-default usa-da-header">
+        <div class="container usa-da-header-container">
+            <div class="usa-da-masthead-wrap">
+                <a class="usa-da-navbar-header usa-da-header-navbar" href="{{ site.baseurl }}">
+                    <h1>{{ site.title }}</h1>
+                    <h2>{{ site.desc }}</h2>
+                </a>
+            </div>
+        </div>
+        <div class="container-fluid nav-row">
+            <ul id="usa-da-header-link-holder" class="nav center-block container">
+                {% for link in site.navigation %} {% assign current = nil %} {% if page.url contains link.url %} {% assign current ='active'%} {% endif %}
+                <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+    <!-- MOBILE MASTHEAD -->
+    <div class='mobile-masthead'>
+        <span class='menu-toggle'></span>
+    </div>
+    <div id='nav-background' class='hidden'></div>
+    <div class='nav-wrapper'>
+        <div id="nav" class='hidden'>
+            <div class='top-close-block'></div>
+            <ul>
+                {% for link in site.navigation %} {% assign current = nil %} {% if page.url contains link.url %} {% assign current ='active'%} {% endif %}
+                <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
-    <div class="container-fluid nav-row">
-        <ul id="usa-da-header-link-holder" class="nav center-block container">
-            {% for link in site.navigation %} {% assign current = nil %} {% if page.url contains link.url %} {% assign current ='active'%} {% endif %}
-            <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-                <a href="{{ link.url }}">{{ link.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</nav>
-
-<!-- MOBILE MASTHEAD -->
-<div class='mobile-masthead'>
-    <span class='menu-toggle'></span>
-</div>
-<div id='nav-background' class='hidden'></div>
-<div class='nav-wrapper'>
-    <div id="nav" class='hidden'>
-        <div class='top-close-block'></div>
-        <ul>
-            {% for link in site.navigation %} {% assign current = nil %} {% if page.url contains link.url %} {% assign current ='active'%} {% endif %}
-            <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-                <a href="{{ link.url }}">{{ link.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
-</div>
+    <div class="usa-da-outter-wrap">

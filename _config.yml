@@ -22,20 +22,23 @@ relative_permalinks: false
 navigation:
  - title: Home
    url: /index
- - title: FAQ
-   url: /faq
- - title: How to Contribute
-   url: /feedback
+ - title: About
+   url: /about
  - title: Data Elements
-   url: /dataelements
- - title: Data Exchange
-   url: /data-exchange-standard
- - title: Discuss
-   url: "https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues"
- - title: Get Updates
-   url: "https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa"  
+   url: /data-elements
+ - title: Data Schema
+   url: /data-schema
+ - title: Data Broker
+   url: /data-broker
+ - title: Get Involved
+   url: "/get-involved"
+ - title: Blog
+   url: "/blog"  
 
-
+ # - title: Discuss
+ #   url: "https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues"
+ # - title: Get Updates
+ #   url: "https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa"
 
 sass:
   sass_dir:          assets/_scss

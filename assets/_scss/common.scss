@@ -1,3 +1,18 @@
+html {
+    height: 100%;
+}
+
+.usa-da-body {
+    @include flexbox();
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.usa-da-outter-wrap {
+    @include flex(1 0 auto);
+}
+
+
 /* Colors */
 
 $color-darkest: #2C333B;
@@ -153,6 +168,7 @@ p {
     border-radius: 0;
     margin-bottom: 0;
     border-bottom: 1px solid #d5d4d3;
+    flex: none;
     .usa-da-header-container {
         height: 160px;
         .usa-da-masthead-wrap {
@@ -187,7 +203,7 @@ p {
                     font-size: 1.6rem;
                     font-weight: 600;
                     color: #00a6d2;
-                    line-height: 2.8rem;
+                    line-height: 1.9rem;
                     float: right;
                     &:after,
                     &:before {
@@ -236,6 +252,7 @@ p {
                     }
                     & h2 {
                         float: none;
+                        line-height: 2.8rem;
                         &:after {
                             margin-left: 10px;
                         }
@@ -315,7 +332,31 @@ p {
     text-align: center;
     background-color: $color-darkest;
     color: $color-white;
-    padding: 10px 0;
+    width: 100%;
+    & p {
+        color: #fff;
+        margin: 20px 10px;
+    }
+    & .github-btn {
+        margin: 10px 0 -12px;
+        margin: 10px 0 -12px;
+        width: 80px;
+    }
+    & .footer-links {
+        margin: 8px 0 0;
+    }
+}
+
+@media (min-width: 990px) {
+    .usa-da-footer {
+        & p {
+            text-align: left;
+            padding: 0;
+        }
+        & .col-md-push-4.footer-links {
+            text-align: right;
+        }
+    }
 }
 
 
