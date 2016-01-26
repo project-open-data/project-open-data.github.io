@@ -4,11 +4,101 @@
     margin: 0 auto;
 }
 
-.btn-sm{
-	border-radius: 0;
+.btn {
+    border-radius: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .display-one, .display-two{
+	font-family: $font-sans;
+    margin: 1.5em 0 .5em;
+}
+
+.display-one {
+    font-weight: $font-bold;
+    font-size: 5.9rem;
+    line-height: 7.7rem;
+}
+
+.display-two {
+    font-weight: $font-light;
+    font-size: 4.4rem;
+    line-height: 5.7rem;
+}
+
+h1 {
+    font-weight: $font-light;
+    font-size: 4.4rem;
+    line-height: 5.7rem;
+}
+
+h2 {
+    font-weight: $font-bold;
+    font-size: 3.4rem;
+    line-height: 4.4rem;
+}
+
+h3 {
+    font-weight: $font-bold;
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+}
+
+h4 {
+    font-weight: $font-bold;
+    font-size: 1.9rem;
+    line-height: 1.3rem;
+}
+
+h5 {
+    font-weight: $font-bold;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+}
+
+h6 {
+    font-weight: $font-normal;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+p.lead {
+	font-weight: $font-normal;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+}
+
+p.large {
+	font-weight: $font-normal;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+}
+
+@mixin para {
+	font-weight: $font-normal;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+}
+
+p {
+	@include para;
+}
+
+p.italic{
+	@include para;
+	font-style: italic;
+}
+
+
+
+.highlight{
+	background: #e9f27c;
+	padding: 3px;
+}
+.mt-30{
+	margin-top: 30px;
 }
 
 
 // @media (min-width: 768px) {
-
 // }

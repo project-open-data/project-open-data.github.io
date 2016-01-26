@@ -105,23 +105,19 @@ h1 {
     font-size: 52px;
     line-height: 52px;
     font-weight: $font-light;
-    margin-top: 60px;
-    margin-bottom: 24px;
 }
 
 h3 {
     font-size: 17px;
     font-weight: $font-normal;
     line-height: $lead-line-height;
-    margin-top: 0;
-    margin-bottom: 60px;
+
 }
 
 p {
     font-size: 17px;
     font-weight: $font-normal;
     line-height: 26px;
-    margin-bottom: 36px;
     color: #414042;
 }
 
@@ -333,6 +329,7 @@ p {
     background-color: $color-darkest;
     color: $color-white;
     width: 100%;
+    margin: 60px 0 0;
     & p {
         color: #fff;
         margin: 20px 10px;
