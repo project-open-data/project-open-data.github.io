@@ -148,17 +148,21 @@ p {
 /* Header */
 
 .usa-da-header {
-    background-color: #fff;
+    background: $color-gray-warm-light;
     border: none;
     border-radius: 0;
     margin-bottom: 0;
+    border-bottom: 1px solid #d5d4d3;
     .usa-da-header-container {
-        height: 120px;
+        height: 160px;
         .usa-da-masthead-wrap {
             margin: 0 auto;
+            width: 209px;
+            text-align: right;
+            float: left;
             a.usa-da-navbar-header {
                 display: block;
-                margin: 35px auto 0;
+                margin: 29px auto 0;
                 width: -webkit-fit-content;
                 width: -moz-fit-content;
                 width: fit-content;
@@ -169,7 +173,7 @@ p {
                 & h1,
                 h2 {
                     text-transform: uppercase;
-                    text-align: center;
+                    text-align: right;
                 }
                 & h1 {
                     font-size: 3.2rem;
@@ -178,13 +182,13 @@ p {
                     margin: auto;
                 }
                 & h2 {
-                    // width: 473px;
                     margin: 0 auto;
                     @include flexbox();
                     font-size: 1.6rem;
                     font-weight: 600;
                     color: #00a6d2;
                     line-height: 2.8rem;
+                    float: right;
                     &:after,
                     &:before {
                         content: '';
@@ -192,10 +196,52 @@ p {
                         background: $headStripe;
                     }
                     &:after {
-                        margin-left: 10px;
+                        margin-left: 0;
                     }
                     &:before {
-                        margin-right: 10px;
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    #usa-da-header-link-holder > li.active > * {
+        color: #fff;
+    }
+}
+
+.nav-row {
+    background: $color-gray-warm-light;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .usa-da-header {
+        background: #fff;
+        border-bottom: none;
+        .usa-da-header-container {
+            height: 120px;
+            .usa-da-masthead-wrap {
+                width: auto;
+                text-align: center;
+                float: none;
+                a.usa-da-navbar-header {
+                    margin: 35px auto 0;
+                    & h1,
+                    h2 {
+                        text-align: center;
+                    }
+                    & h1 {
+                        margin: auto;
+                    }
+                    & h2 {
+                        float: none;
+                        &:after {
+                            margin-left: 10px;
+                        }
+                        &:before {
+                            margin-right: 10px;
+                        }
                     }
                 }
             }
@@ -223,10 +269,10 @@ p {
         background-color: $color-gray;
         color: #fff;
     }
-}
-
-.nav-row {
-    background: $color-gray-warm-light;
+    .nav-row {
+        background: $color-gray-warm-light;
+        display: block;
+    }
 }
 
 
@@ -259,212 +305,6 @@ p {
 .usa-da-content-light-gray {
     color: $color-gray-light;
     background-color: $color-gray-lightest;
-}
-
-
-/* Progress Bar */
-
-.usa-da-progress-bar {
-    margin: 6.0rem auto 5.0rem;
-    font-size: 1.3em;
-    font-weight: $font-bold;
-    /* Progress Tracker v2 */
-    .usa-da-progress-bar-holder[data-steps="2"] li {
-        width: 49%;
-    }
-    .usa-da-progress-bar-holder[data-steps="3"] li {
-        width: 33%;
-    }
-    .usa-da-progress-bar-holder[data-steps="4"] li {
-        width: 24%;
-    }
-    .usa-da-progress-bar-holder[data-steps="5"] li {
-        width: 19%;
-    }
-    .usa-da-progress-bar-holder[data-steps="6"] li {
-        width: 16%;
-    }
-    .usa-da-progress-bar-holder[data-steps="7"] li {
-        width: 14%;
-    }
-    .usa-da-progress-bar-holder[data-steps="8"] li {
-        width: 12%;
-    }
-    .usa-da-progress-bar-holder[data-steps="9"] li {
-        width: 11%;
-    }
-    .usa-da-progress-bar-holder {
-        width: 100%;
-        list-style: none;
-        margin: 20px 0 20px 0;
-        padding: 0;
-        &:last-child {
-            font-size: $base-font-size;
-            padding-top: 4em;
-            font-family: $font-sans;
-        }
-    }
-    .usa-da-progress-bar-holder li {
-        float: left;
-        text-align: center;
-        position: relative;
-        z-index: 5;
-    }
-    .usa-da-progress-bar-holder .name {
-        display: block;
-        vertical-align: bottom;
-        text-align: center;
-        margin-bottom: 1em;
-        color: $color-gray-dark;
-        opacity: 0.3;
-    }
-    .usa-da-progress-bar-holder .step {
-        color: $color-gray-light;
-        border: 1px solid $color-gray-light;
-        background-color: $color-gray-lightest;
-        border-radius: 100%;
-        line-height: 1.2;
-        width: 2.4em;
-        height: 2.4em;
-        padding-top: 0.6em;
-        display: inline-block;
-        z-index: 0;
-    }
-    .usa-da-progress-bar-holder .step span {
-        opacity: 0.3;
-    }
-    .usa-da-progress-bar-holder .usa-da-progress-bar-step-current .name,
-    .usa-da-progress-bar-holder .usa-da-progress-bar-step-current .step span {
-        opacity: 1;
-    }
-    .usa-da-progress-bar-holder .step:before {
-        content: "";
-        display: block;
-        background-color: $color-gray-light;
-        height: 0.4em;
-        width: 50%;
-        position: absolute;
-        bottom: 0.9em;
-        left: 0;
-        z-index: -1;
-    }
-    .usa-da-progress-bar-holder .step:after {
-        content: "";
-        display: block;
-        background-color: $color-gray-light;
-        height: 0.4em;
-        width: 50%;
-        position: absolute;
-        bottom: 0.9em;
-        right: 0;
-        z-index: -1;
-    }
-    .usa-da-progress-bar-holder li:first-of-type .step:before {
-        display: none;
-    }
-    .usa-da-progress-bar-holder li:last-of-type .step:after {
-        display: none;
-    }
-    .usa-da-progress-bar-holder .usa-da-progress-bar-step-done .step,
-    .usa-da-progress-bar-holder .usa-da-progress-bar-step-current .step {
-        border: 1px solid $color-focus;
-        background-color: $color-focus;
-        color: $color-white;
-    }
-    .usa-da-progress-bar-holder .usa-da-progress-bar-step-done .step:before,
-    .usa-da-progress-bar-holder .usa-da-progress-bar-step-done .step:after,
-    .usa-da-progress-bar-holder .usa-da-progress-bar-step-current .step:before {
-        background-color: $color-focus;
-        z-index: -1;
-        bottom: 0.9em;
-    }
-    .usa-da-progress-bar-holder .usa-da-progress-bar-step-done .step,
-    .usa-da-progress-bar-holder .usa-da-progress-bar-step-current .step {
-        border: 1px solid $color-focus;
-    }
-    /*.usa-da-progress-bar-step-holder {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		position: relative;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		overflow: hidden;
-
-		li {
-			width: 45px;
-			height: 45px;
-			z-index: 1;
-			position: relative;
-			display: inline-block;
-
-			&.usa-da-progress-bar-step-current ~ li {
-				color: $color-white;
-				&::after {
-					width: 0;
-				}
-			}
-			&::after {
-				content: "";
-				position: absolute;
-				left: 45px;
-				top: 18px;
-				background: $color-focus;
-				height: 10px;
-				width: 100%;
-			}
-
-			div {
-				border-radius: 90px;
-				background: $color-focus;
-				color: $color-white;
-				display: table-cell;
-				vertical-align: middle;
-				text-align: center;
-				width: 45px;
-				height: 45px;
-			}
-		}
-
-		&::after {
-			content: "";
-			position: absolute;
-			right:0;
-			top:18px;
-			background: $color-gray-light;
-			height: 10px;
-			width: 100%;
-		}
-
-		.usa-da-progress-bar-step-current ~ li::after {
-			position: absolute;
-			top: 42%;
-			height: 10px;
-			z-index: 2;
-			background: $color-focus;
-		}
-
-		.usa-da-progress-bar-step::after {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 5px;
-			height: 5px;
-			z-index: 3;
-			background: $color-gray-light;
-		}
-	}*/
-    /*.usa-da-progress-bar-step-holder::after {
-		content: "";
-		position: absolute;
-		top: 42%;
-		left: 20px;
-		right: 20px;
-		height: 10px;
-		z-index: 1;
-		background: $color-gray-light;
-	}*/
 }
 
 
