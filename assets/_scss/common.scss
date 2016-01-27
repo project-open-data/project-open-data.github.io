@@ -214,7 +214,7 @@ p {
                     @include flexbox();
                     font-size: 1.6rem;
                     font-weight: $font-normal;
-                    color: #00a6d2;
+                    color: $color-primary-alt-dark;
                     line-height: 1.9rem;
                     float: right;
                 }
