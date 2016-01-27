@@ -29,9 +29,7 @@ $color-darkest: #2C333B;
 }
 
 
-/* Sizing */
 
-$header-height: 8rem;
 
 /* Classes */
 
@@ -102,42 +100,6 @@ p {
     -webkit-font-smoothing: antialiased;
 }
 
-// .navbar h1 {
-//     font-size: 52px;
-//     line-height: 52px;
-//     font-weight: $font-light;
-// }
-
-// h3 {
-//     font-size: 17px;
-//     font-weight: $font-normal;
-//     line-height: $lead-line-height;
-// }
-
-// p {
-//     font-size: 17px;
-//     font-weight: $font-normal;
-//     line-height: 26px;
-//     color: #414042;
-// }
-
-// h3 {
-//     font-size: 17px;
-//     font-weight: $font-normal;
-//     line-height: $lead-line-height;
-//     margin-top: 0;
-//     margin-bottom: 60px;
-// }
-
-// p {
-//     font-size: 17px;
-//     font-weight: $font-normal;
-//     line-height: 26px;
-//     margin-bottom: 36px;
-//     color: #414042;
-// }
-
-
 /* Tables */
 
 .usa-da-table-holder {
@@ -171,154 +133,6 @@ p {
     }
 }
 
-
-/* Header */
-
-.usa-da-header {
-    background: $color-gray-warm-light;
-    border: none;
-    border-radius: 0;
-    margin-bottom: 0;
-    border-bottom: 1px solid #d5d4d3;
-    flex: none;
-    .usa-da-header-container {
-        height: 160px;
-        .usa-da-masthead-wrap {
-            width: 209px;
-            text-align: right;
-            float: left;
-            a.usa-da-navbar-header {
-                display: block;
-                margin: 29px auto 0;
-                width: -webkit-fit-content;
-                width: -moz-fit-content;
-                width: fit-content;
-                &:hover,
-                &:focus {
-                    text-decoration: none;
-                }
-                & h1,
-                h2 {
-                    text-transform: uppercase;
-                    text-align: right;
-                }
-                & h1 {
-                    font-size: 3.2rem;
-                    font-weight: $font-bold;
-                    color: $color-gray;
-                    line-height: 27px;
-                    margin: auto;
-                }
-                & h2 {
-                    margin: 0 auto;
-                    @include flexbox();
-                    font-size: 1.6rem;
-                    font-weight: $font-normal;
-                    color: $color-primary-alt-dark;
-                    line-height: 1.9rem;
-                    float: right;
-                }
-            }
-        }
-        & .seal-block {
-            display: none;
-        }
-    }
-    #usa-da-header-link-holder > li.active > * {
-        color: #fff;
-    }
-}
-
-.nav-row {
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .usa-da-header {
-        background: #fff;
-        border-bottom: none;
-        .usa-da-header-container {
-            height: auto;
-            position: relative;
-            .usa-da-masthead-wrap {
-                width: auto;
-                a.usa-da-navbar-header {
-                    margin: 50px 0;
-                    & h1 {
-                        margin: auto;
-                        text-align: left;
-                    }
-                    & h2 {
-                        float: none;
-                        line-height: 2.8rem;
-                        text-align: right;
-                        &:before {
-                        	content: '';
-                        	flex: 1;
-                        	margin-right: 10px;
-                        	background: $headStripe;
-                        }
-                    }
-                }
-            }
-            & .seal-block {
-                position: absolute;
-                right: 0;
-                top: 24px;
-                display: block;
-                & .tagline-one,
-                & .tagline-two,
-                & .tagline-three {
-                    color: #9a9b9d;
-                    font-weight: $font-bold;
-                    position: absolute;
-                    text-align: right;
-                    font-size: 1.1rem;
-                }
-                & .tagline-one {
-                    @include headTag(42px, -71px);
-                }
-                & .tagline-two {
-                    @include headTag(57px, -87px);
-                }
-                & .tagline-three {
-                    @include headTag(72px, -85px);
-                }
-                & img.dot-seal {
-                    height: 100px;
-                    width: 100px;
-                }
-            }
-        }
-    }
-    ul#usa-da-header-link-holder {
-        padding: 0;
-        font-size: 1.5rem;
-        font-weight: $font-normal;
-        @include flexbox();
-        justify-content: flex-start;
-        -webkit-flex-flow: row wrap;
-    }
-    #usa-da-header-link-holder > li > a {
-        color: $color-gray;
-        vertical-align: middle;
-        padding: 1.5rem;
-        font-size: 1.2rem;
-        &:hover {
-            transition: background-color 0.2s ease;
-            background-color: #f7f5f2;
-            color: $color-gray;
-        }
-    }
-    #usa-da-header-link-holder > li.active > * {
-        background-color: $color-gray;
-        color: #fff;
-    }
-    .nav-row {
-        background: $color-gray-warm-light;
-        display: block;
-    }
-}
 
 
 /* Content */
