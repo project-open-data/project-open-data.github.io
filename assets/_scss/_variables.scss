@@ -94,13 +94,18 @@ $grid-margins:      3rem;
 
 
 
-$gray-line: #d5d4d3;
-$headStripe: linear-gradient(to bottom, rgba(white, 0) 48.5%,
-	$gray-line 48.5%,
-	$gray-line 51.5%, rgba(white, 0) 51.5%);
+$gray-line: #b8b7b7;
+$headStripe: linear-gradient(to bottom, rgba(white, 0) 49%,
+	$gray-line 49%,
+	$gray-line 52%, rgba(white, 0) 52%);
 
 
 //linear-gradient(to bottom, rgba(255, 255, 255, 0) 58.5%, #d5d4d3 59.5%, #d5d4d3 49.5%, rgba(255, 255, 255, 0) 49.5%)
+
+@mixin headTag($top, $left) {
+    top: $top;
+    left: $left;
+}
 
 
 //Flexbox

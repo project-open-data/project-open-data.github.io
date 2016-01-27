@@ -111,7 +111,6 @@ h3 {
     font-size: 17px;
     font-weight: $font-normal;
     line-height: $lead-line-height;
-
 }
 
 p {
@@ -184,7 +183,6 @@ p {
     .usa-da-header-container {
         height: 160px;
         .usa-da-masthead-wrap {
-            margin: 0 auto;
             width: 209px;
             text-align: right;
             float: left;
@@ -205,7 +203,8 @@ p {
                 }
                 & h1 {
                     font-size: 3.2rem;
-                    color: $color-gray-dark;
+                    font-weight: $font-bold;
+                    color: $color-gray;
                     line-height: 27px;
                     margin: auto;
                 }
@@ -213,24 +212,15 @@ p {
                     margin: 0 auto;
                     @include flexbox();
                     font-size: 1.6rem;
-                    font-weight: 600;
+                    font-weight: $font-normal;
                     color: #00a6d2;
                     line-height: 1.9rem;
                     float: right;
-                    &:after,
-                    &:before {
-                        content: '';
-                        flex: 1;
-                        background: $headStripe;
-                    }
-                    &:after {
-                        margin-left: 0;
-                    }
-                    &:before {
-                        margin-right: 0;
-                    }
                 }
             }
+        }
+        & .seal-block {
+            display: none;
         }
     }
     #usa-da-header-link-holder > li.active > * {
@@ -239,7 +229,6 @@ p {
 }
 
 .nav-row {
-    background: $color-gray-warm-light;
     display: none;
 }
 
@@ -248,30 +237,54 @@ p {
         background: #fff;
         border-bottom: none;
         .usa-da-header-container {
-            height: 120px;
+            height: auto;
+            position: relative;
             .usa-da-masthead-wrap {
                 width: auto;
-                text-align: center;
-                float: none;
                 a.usa-da-navbar-header {
-                    margin: 35px auto 0;
-                    & h1,
-                    h2 {
-                        text-align: center;
-                    }
+                    margin: 50px 0;
                     & h1 {
                         margin: auto;
+                        text-align: left;
                     }
                     & h2 {
                         float: none;
                         line-height: 2.8rem;
-                        &:after {
-                            margin-left: 10px;
-                        }
+                        text-align: right;
                         &:before {
-                            margin-right: 10px;
+                        	content: '';
+                        	flex: 1;
+                        	margin-right: 10px;
+                        	background: $headStripe;
                         }
                     }
+                }
+            }
+            & .seal-block {
+                position: absolute;
+                right: 0;
+                top: 20px;
+                display: block;
+                & .tagline-one,
+                & .tagline-two,
+                & .tagline-three {
+                    color: #666;
+                    position: absolute;
+                    text-align: right;
+                    font-size: 1.2rem;
+                }
+                & .tagline-one {
+                    @include headTag(60px, -67px);
+                }
+                & .tagline-two {
+                    @include headTag(77px, -82px);
+                }
+                & .tagline-three {
+                    @include headTag(94px, -81px);
+                }
+                & img.dot-seal {
+                    height: 110px;
+                    width: 110px;
                 }
             }
         }
@@ -281,7 +294,8 @@ p {
         font-size: 1.5rem;
         font-weight: $font-normal;
         @include flexbox();
-        justify-content: center;
+        justify-content: flex-start;
+        -webkit-flex-flow: row wrap;
     }
     #usa-da-header-link-holder > li > a {
         color: $color-gray;
@@ -308,7 +322,6 @@ p {
 /* Content */
 
 .usa-da-content {
-    //@extend .styleguide-content;
     margin: auto 0;
     padding-bottom: 1.5em;
     width: 100%;
