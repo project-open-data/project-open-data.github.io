@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    -webkit-font-smoothing: antialiased !important;
 }
 
 .usa-da-body {
@@ -101,24 +102,24 @@ p {
     -webkit-font-smoothing: antialiased;
 }
 
-.navbar h1 {
-    font-size: 52px;
-    line-height: 52px;
-    font-weight: $font-light;
-}
+// .navbar h1 {
+//     font-size: 52px;
+//     line-height: 52px;
+//     font-weight: $font-light;
+// }
 
-h3 {
-    font-size: 17px;
-    font-weight: $font-normal;
-    line-height: $lead-line-height;
-}
+// h3 {
+//     font-size: 17px;
+//     font-weight: $font-normal;
+//     line-height: $lead-line-height;
+// }
 
-p {
-    font-size: 17px;
-    font-weight: $font-normal;
-    line-height: 26px;
-    color: #414042;
-}
+// p {
+//     font-size: 17px;
+//     font-weight: $font-normal;
+//     line-height: 26px;
+//     color: #414042;
+// }
 
 // h3 {
 //     font-size: 17px;
@@ -263,28 +264,29 @@ p {
             & .seal-block {
                 position: absolute;
                 right: 0;
-                top: 20px;
+                top: 24px;
                 display: block;
                 & .tagline-one,
                 & .tagline-two,
                 & .tagline-three {
-                    color: #666;
+                    color: #9a9b9d;
+                    font-weight: $font-bold;
                     position: absolute;
                     text-align: right;
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                 }
                 & .tagline-one {
-                    @include headTag(60px, -67px);
+                    @include headTag(42px, -71px);
                 }
                 & .tagline-two {
-                    @include headTag(77px, -82px);
+                    @include headTag(57px, -87px);
                 }
                 & .tagline-three {
-                    @include headTag(94px, -81px);
+                    @include headTag(72px, -85px);
                 }
                 & img.dot-seal {
-                    height: 110px;
-                    width: 110px;
+                    height: 100px;
+                    width: 100px;
                 }
             }
         }
