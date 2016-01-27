@@ -110,7 +110,7 @@ title: Federal Spending Collaboration Space
 					<div class="panel-body">
 						<div class="media">
 							<div class="media-left">
-						    	<span class="glyphicon glyphicon-heart-empty"></span>
+						    	<span class="usability-icon"></span>
 							</div>
 							<div class="media-body">
 							    <p>User research, testing, and design iteration will undergird all parts of the DATA Act implementation. Learn about our user-centered process here</p>
