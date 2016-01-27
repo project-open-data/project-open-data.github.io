@@ -97,6 +97,11 @@ p.italic{
 	background: #e9f27c;
 	padding: 3px;
 }
+
+.mt-0 {
+	margin-top: 0px;
+}
+
 .mt-30{
 	margin-top: 30px;
 }
@@ -104,7 +109,7 @@ p.italic{
 /***** HOMEPAGE *****/
 
 .homepage .usa-alert {
-	margin: 36px 0; 
+	margin: 50px 0; 
 }
 
 .homepage .panel-container {
@@ -123,6 +128,10 @@ p.italic{
 
 .homepage .media {
 	margin-bottom: 30px;
+}
+
+.homepage .media:last-child {
+	margin-bottom: 0;
 }
 
 .homepage .media p {
