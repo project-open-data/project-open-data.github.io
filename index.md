@@ -21,7 +21,7 @@ title: Federal Spending Collaboration Space
 	<div class="col-md-8">
 		<h2 class="mt-0">About Federal Spending Transparency</h2>
 
-		<p>With enactment of the Digital Accountability and Transparency Act of 2014 (DATA Act), the federal government has taken huge strides toward   increasing the availability, accuracy, and usefulness of federal spending information. Led by the Treasury Department and the Office of Management and Budget, federal agencies are working to upgrade the data they will provide to an updated USASpending.gov by 2017.</p>
+		<p>With enactment of the Digital Accountability and Transparency Act of 2014 (DATA Act), the federal government has taken huge strides toward   increasing the availability, accuracy, and usefulness of federal spending information. Led by the Treasury Department and the Office of Management and Budget, federal agencies are working to upgrade the data they will provide to an updated USAspending.gov by 2017.</p>
 
 		<p>This collaboration space is designed to openly share our process for meeting the new data transparency requirements of the DATA Act, and to engage the public and federal agencies in decisionmaking along the way. Visit the <a href="/about/" title="About">"About"</a> page to learn more about our Agile work process.</p>
 	</div>
@@ -110,7 +110,7 @@ title: Federal Spending Collaboration Space
 					<div class="panel-body">
 						<div class="media">
 							<div class="media-left">
-						    	<span class="glyphicon glyphicon-cog"></span>
+						    	<span class="glyphicon glyphicon-heart-empty"></span>
 							</div>
 							<div class="media-body">
 							    <p>User research, testing, and design iteration will undergird all parts of the DATA Act implementation. Learn about our user-centered process here</p>
