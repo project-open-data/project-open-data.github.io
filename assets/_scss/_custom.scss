@@ -104,7 +104,7 @@ p.italic {
     padding: 3px;
 }
 
-/***** GLOBAL MARGIN AND PADDING *****/
+/***** GLOBAL MARGIN AND PADDING *****/ 
 .mt-0 {
     margin-top: 0px;
 }
@@ -146,27 +146,17 @@ p.italic {
             font-size: 45px;
             text-align: center;
         }
-        & .usaspend-logo {
-            display: block;
-            width: 64px;
+        & .usaspend-logo, & .usaspend-openbeta-logo, & .usability-icon {
+        	display: block;
+        	width: 64px;
             height: 64px;
             background-image: url("../img/graphic-sprite.png");
             background-size: 303%;
         }
         & .usaspend-openbeta-logo {
-            display: block;
-            width: 64px;
-            height: 64px;
-            background-image: url("../img/graphic-sprite.png");
-            background-size: 303%;
             background-position-x: 192px;
         }
         & .usability-icon {
-			display: block;
-			width: 64px;
-			height: 64px;
-			background-image: url("../img/graphic-sprite.png");
-			background-size: 303%;
 			background-position-x: -129px;
 			background-position-y: -14px;
 		}		

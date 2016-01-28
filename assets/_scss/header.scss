@@ -8,7 +8,7 @@
     & .usa-da-header-container {
         height: 160px;
         & .usa-da-masthead-wrap {
-            width: 209px;
+            width: 230px;
             text-align: right;
             float: left;
             a.usa-da-navbar-header {
@@ -27,16 +27,16 @@
                     text-align: right;
                 }
                 & h1 {
-                    font-size: 3.2rem;
+                    font-size: 3.1rem;
                     font-weight: $font-bold;
                     color: $color-gray;
-                    line-height: 27px;
+                    line-height: 2.9rem;
                     margin: auto;
                 }
                 & h2 {
                     margin: 0 auto;
                     @include flexbox();
-                    font-size: 1.6rem;
+                    font-size: 1.5rem;
                     font-weight: $font-normal;
                     color: $color-primary-alt-dark;
                     line-height: 1.9rem;
@@ -51,6 +51,18 @@
 }
 .nav-row {
     display: none;
+}
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .usa-da-header > .usa-da-header-container > .usa-da-masthead-wrap > a.usa-da-navbar-header{
+        & h1 {
+            font-size: 2.6rem;
+        }
+        & h2 {
+            font-size: 1.4rem;
+        }
+    }
 }
 
 
@@ -145,17 +157,5 @@
     .nav-row {
         background: $color-gray-warm-light;
         display: block;
-    }
-}
-
-
-@media (max-width: 990px) {
-    .usa-da-header > .usa-da-header-container > .usa-da-masthead-wrap > a.usa-da-navbar-header{
-        & h1 {
-            font-size: 2.6rem;
-        }
-        & h2 {
-            font-size: 1.4rem;
-        }
     }
 }
