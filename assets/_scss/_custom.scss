@@ -1,5 +1,4 @@
 @import './common';
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -7,13 +6,20 @@
 
 .btn {
     border-radius: 0;
-    &:visited{
-    	color: #fff;
+    &:visited {
+        color: #fff;
     }
 }
 
-h1, h2, h3, h4, h5, h6, .display-one, .display-two{
-	font-family: $font-sans;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-one,
+.display-two {
+    font-family: $font-sans;
     margin: 1.5em 0 .5em;
 }
 
@@ -67,97 +73,92 @@ h6 {
 }
 
 p.lead {
-	font-weight: $font-normal;
+    font-weight: $font-normal;
     font-size: 2.2rem;
     line-height: 3.3rem;
 }
 
 p.large {
-	font-weight: $font-normal;
+    font-weight: $font-normal;
     font-size: 1.7rem;
     line-height: 2.6rem;
 }
 
 @mixin para {
-	font-weight: $font-normal;
+    font-weight: $font-normal;
     font-size: 1.4rem;
-    line-height: 2.0rem;
+    line-height: 2.2rem;
 }
 
 p {
-	@include para;
+    @include para;
 }
 
-p.italic{
-	@include para;
-	font-style: italic;
+p.italic {
+    @include para;
+    font-style: italic;
 }
 
-.highlight{
-	background: #e9f27c;
-	padding: 3px;
+.highlight {
+    background: #e9f27c;
+    padding: 3px;
 }
 
+/***** GLOBAL MARGIN AND PADDING *****/
 .mt-0 {
-	margin-top: 0px;
+    margin-top: 0px;
 }
 
-.mt-30{
-	margin-top: 30px;
+.mt-30 {
+    margin-top: 30px;
 }
+
 
 /***** HOMEPAGE *****/
 
-.homepage .usa-alert {
-	margin: 50px 0; 
-}
-
-.homepage .panel-container {
-	margin-top: 20px;
-	@include clearfix;
-}
-
-.homepage .panel-container .col-md-6 {
-	padding-left: 0;
-}
-
-.homepage .panel-heading h3 {
-	margin: 0;
-	font-weight: bold;
-}
-
-.homepage .media {
-	margin-bottom: 30px;
-}
-
-.homepage .media:last-child {
-	margin-bottom: 0;
-}
-
-.homepage .media p {
-	margin: 0;
-}
-
-.homepage .media .glyphicon {
-	width: 64px;
-	height: 64px;
-	font-size: 45px;
-	text-align: center;
-}
-
-.homepage .media .usaspend-logo {
-	display: block;
-	width: 64px;
-	height: 64px;
-	background-image: url("../img/graphic-sprite.png");
-	background-size: 200%;
-}
-
-.homepage .media .usaspend-openbeta-logo {
-	display: block;
-	width: 64px;
-	height: 64px;
-	background-image: url("../img/graphic-sprite.png");
-	background-size: 200%;
-	background-position-x: 192px;
+.homepage {
+    & .usa-alert {
+        margin: 50px 0;
+    }
+    & .panel-container {
+        margin-top: 20px;
+        @include clearfix;
+        & .col-md-6 {
+            padding-left: 0;
+        }
+    }
+    & .panel-heading h3 {
+        margin: 0;
+        font-weight: bold;
+    }
+    & .media {
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        & p {
+            margin: 0;
+        }
+        & .glyphicon {
+            width: 64px;
+            height: 64px;
+            font-size: 45px;
+            text-align: center;
+        }
+        & .usaspend-logo {
+            display: block;
+            width: 64px;
+            height: 64px;
+            background-image: url("../img/graphic-sprite.png");
+            background-size: 200%;
+        }
+        & .usaspend-openbeta-logo {
+            display: block;
+            width: 64px;
+            height: 64px;
+            background-image: url("../img/graphic-sprite.png");
+            background-size: 200%;
+            background-position-x: 192px;
+        }
+    }
 }
