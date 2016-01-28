@@ -114,6 +114,7 @@ p.italic {
 }
 
 
+
 /***** HOMEPAGE *****/
 
 .homepage {
@@ -129,7 +130,7 @@ p.italic {
     }
     & .panel-heading h3 {
         margin: 0;
-        font-weight: bold;
+        font-weight: $font-bold;
     }
     & .media {
         margin-bottom: 30px;
@@ -150,15 +151,24 @@ p.italic {
             width: 64px;
             height: 64px;
             background-image: url("../img/graphic-sprite.png");
-            background-size: 200%;
+            background-size: 303%;
         }
         & .usaspend-openbeta-logo {
             display: block;
             width: 64px;
             height: 64px;
             background-image: url("../img/graphic-sprite.png");
-            background-size: 200%;
+            background-size: 303%;
             background-position-x: 192px;
         }
+        & .usability-icon {
+			display: block;
+			width: 64px;
+			height: 64px;
+			background-image: url("../img/graphic-sprite.png");
+			background-size: 303%;
+			background-position-x: -129px;
+			background-position-y: -14px;
+		}		
     }
 }
