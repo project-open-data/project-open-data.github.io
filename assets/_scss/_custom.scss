@@ -136,12 +136,19 @@ ul li {
     & .usa-alert {
         margin: 50px 0;
     }
+    & .row p:last-child {
+        margin-bottom: 0;
+    }
     & .panel-container {
         margin-top: 20px;
         @include clearfix;
-        & .col-md-6 {
+        & .col-md-6, .col-md-12 {
             padding-left: 0;
         }
+        & .col-md-6 .panel {
+            height: 270px;
+        }
+
     }
     & .panel-heading h3 {
         margin: 0;
@@ -153,7 +160,7 @@ ul li {
             margin-bottom: 0;
         }
         & p {
-            margin: 0;
+            margin: 0 0 1em;
         }
         & .glyphicon {
             width: 64px;
@@ -164,19 +171,24 @@ ul li {
         & .usaspend-logo, & .usaspend-openbeta-logo, & .usability-icon {
         	display: block;
         	width: 64px;
-            height: 64px;
+            height: 61px;
+            padding:0 3px;
             background-image: url("../img/graphic-sprite.png");
-            background-size: 303%;
+            background-size: 290%;
+            background-position-x: 1px;
         }
         & .usaspend-openbeta-logo {
-            background-position-x: 130px;
+            background-position-x: 126px;
         }
         & .usability-icon {
-			background-position-x: -129px;
+            height: 40px;
+            background-size: 300%;
+			background-position-x: -127px;
 			background-position-y: -14px;
 		}		
     }
 }
+
 
 
 .blog-rail{
@@ -195,3 +207,17 @@ ul li {
 }
 
 
+
+/***** DATA-ELEMENTS *****/
+
+.data-elements {
+    & table {
+        width: 100%;
+        & td:first-child {
+            width: 50%;
+        }
+        & td:last-child {
+            width: 25%;
+        }
+    }
+}
