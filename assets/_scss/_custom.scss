@@ -173,3 +173,17 @@ p.italic {
 		}		
     }
 }
+
+/***** DATA-ELEMENTS *****/
+
+.data-elements {
+    & table {
+        width: 100%;
+        & td:first-child {
+            width: 50%;
+        }
+        & td:last-child {
+            width: 25%;
+        }
+    }
+}
