@@ -99,6 +99,21 @@ p.italic {
     font-style: italic;
 }
 
+
+ul li {
+    & a {
+        color: #333;
+        &:hover {
+            color: #333;
+        }
+        &:visited {
+            color: #333;
+        }
+    }
+}
+
+
+
 .highlight {
     background: #e9f27c;
     padding: 3px;
@@ -162,3 +177,21 @@ p.italic {
 		}		
     }
 }
+
+
+.blog-rail{
+	& ul{
+		margin: 80px 0 0;
+		list-style: none;
+		& li{
+			font-size: 1.4rem;
+			border-bottom: 1px solid #ececec;
+			padding: 10px 5px 10px;
+			&.active{
+				background: $color-green-lightest;
+			}
+		}
+	}
+}
+
+

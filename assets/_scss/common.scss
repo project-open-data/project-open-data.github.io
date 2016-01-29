@@ -29,7 +29,9 @@ $color-darkest: #2C333B;
 }
 
 
-
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
 
 /* Classes */
 

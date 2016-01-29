@@ -7,6 +7,7 @@ branch: master
 encoding: utf-8
 
 
+
 #global settings, no need to change these
 root_url: //fedspendingtransparency.github.io
 org_name: fedspendingtransparency
@@ -16,7 +17,6 @@ highlighter: rouge
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "LICENSE"]
 markdown: kramdown
 relative_permalinks: false
-
 
 
 navigation:
