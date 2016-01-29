@@ -4,6 +4,7 @@ permalink: /index
 layout: hero
 filename: index.md
 title: Federal Spending Collaboration Space
+page: homepage
 ---
 
 <!--
