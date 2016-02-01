@@ -18,17 +18,17 @@ title: Style Tests
 		  <h4>This is an h4</h4>
 		  <h5>This is an h5</h5>
 		  <h6>This is an h6</h6>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="container-fluid">
-<div class="row mt-30">
-  <div class="col-md-5">
-    <p class='lead'>
-      <span class='highlight'>Lead Paragraph</span> risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-    </p>
-  </div>
+  <div class="row mt-30">
+    <div class="col-md-5">
+      <p class='lead'>
+        <span class='highlight'>Lead Paragraph</span> risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+      </p>
+    </div>
 </div>
 
 <div class="row mt-30">
@@ -55,7 +55,61 @@ title: Style Tests
 </div>
 
 
-
+<div class="row mt-30">
+    <div class="col-md-12">
+        <table class='table-bordered'>
+            <thead>
+                <tr>
+                    <th scope="col">Column 1</th>
+                    <th scope="col">Column 2</th>
+                    <th scope="col">Column 3</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Natoque penatibus et magnis dis parturient montes</td>
+                <td>mollis ornare</td>
+                <td><a href="#">Nullam quis risus</a></td>
+            </tr>
+            <tr>
+                <td>Natoque penatibus et magnis dis parturient montes</td>
+                <td>mollis ornare</td>
+                <td><a href="#">Nullam quis risus</a></td>
+            </tr>
+            <tr>
+                <td>Natoque penatibus et magnis dis parturient montes</td>
+                <td>mollis ornare</td>
+                <td><a href="#">Nullam quis risus</a></td>
+            </tr>
+        </table>
+    </div>
 </div>
 
-# this is a new h1
+
+<div class="row mt-30">
+    <div class="col-md-12">
+        <table class='table'>
+            <thead>
+                <tr>
+                    <th scope="col">Column 1</th>
+                    <th scope="col">Column 2</th>
+                    <th scope="col">Column 3</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Natoque penatibus et magnis dis parturient montes</td>
+                <td>mollis ornare</td>
+                <td><a href="#">Nullam quis risus</a></td>
+            </tr>
+            <tr>
+                <td>Natoque penatibus et magnis dis parturient montes</td>
+                <td>mollis ornare</td>
+                <td><a href="#">Nullam quis risus</a></td>
+            </tr>
+            <tr>
+                <td>Natoque penatibus et magnis dis parturient montes</td>
+                <td>mollis ornare</td>
+                <td><a href="#">Nullam quis risus</a></td>
+            </tr>
+        </table>
+    </div>
+</div>

@@ -100,26 +100,80 @@ p.italic {
 }
 
 
-ul li {
-    & a {
-        color: #333;
-        &:hover {
-            color: #333;
+/***** TABLE STYLES *****/
+
+table {
+    &.table,
+    &.table-bordered {
+        width: 100%;
+        & thead {
+            font-size: 1.6rem;
+            font-weight: $font-bold;
+            min-height: 50px;
+            & tr {
+                & th {
+                    height: 50px;
+                    padding: 0 20px;
+                    border-bottom: none;
+                }
+            }
         }
-        &:visited {
-            color: #333;
+        & tbody {
+            & tr {
+                & td {
+                    padding: 0 20px;
+                    height: 40px;
+                    font-size: 1.4rem;
+                    color: $color-gray;
+                }
+            }
         }
     }
 }
 
+table {
+    &.table-bordered {
+        & thead {
+            color: #fff;
+            background: $color-gray;
+        }
+    }
+}
 
+table {
+    &.table {
+        & thead {
+            border-bottom: 1px solid red;
+            color: #212121;
+            background: $color-gray-lightest;
+            & tr {
+                & th {
+                    border-bottom: none;
+                    vertical-align: middle;
+                }
+            }
+        }
+        & tbody {
+            & tr {
+                &:last-child {
+                    border-bottom: 1px solid #ddd;
+                }
+                & td {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
 
 .highlight {
     background: #e9f27c;
     padding: 3px;
 }
 
-/***** GLOBAL MARGIN AND PADDING *****/ 
+
+/***** GLOBAL MARGIN AND PADDING *****/
+
 .mt-0 {
     margin-top: 0px;
 }
@@ -127,7 +181,6 @@ ul li {
 .mt-30 {
     margin-top: 30px;
 }
-
 
 
 /***** HOMEPAGE *****/
@@ -142,13 +195,13 @@ ul li {
     & .panel-container {
         margin-top: 20px;
         @include clearfix;
-        & .col-md-6, .col-md-12 {
+        & .col-md-6,
+        .col-md-12 {
             padding-left: 0;
         }
         & .col-md-6 .panel {
             height: 270px;
         }
-
     }
     & .panel-heading h3 {
         margin: 0;
@@ -168,11 +221,13 @@ ul li {
             font-size: 45px;
             text-align: center;
         }
-        & .usaspend-logo, & .usaspend-openbeta-logo, & .usability-icon {
-        	display: block;
-        	width: 64px;
+        & .usaspend-logo,
+        & .usaspend-openbeta-logo,
+        & .usability-icon {
+            display: block;
+            width: 64px;
             height: 61px;
-            padding:0 3px;
+            padding: 0 3px;
             background-image: url("../img/graphic-sprite.png");
             background-size: 290%;
             background-position-x: 1px;
@@ -183,29 +238,45 @@ ul li {
         & .usability-icon {
             height: 40px;
             background-size: 300%;
-			background-position-x: -127px;
-			background-position-y: -14px;
-		}		
+            background-position-x: -127px;
+            background-position-y: -14px;
+        }
     }
 }
 
 
+/***** BLOG PAGE *****/
 
-.blog-rail{
-	& ul{
-		margin: 80px 0 0;
-		list-style: none;
-		& li{
-			font-size: 1.4rem;
-			border-bottom: 1px solid #ececec;
-			padding: 10px 5px 10px;
-			&.active{
-				background: $color-green-lightest;
-			}
-		}
-	}
+.blog {
+    & h2 {
+        & a {
+            color: #333;
+        }
+    }
+    & cite {
+        padding: 8px 5px 6px;
+        border-top: #ececec 1px solid;
+        border-bottom: #ececec 1px solid;
+        font-size: 1.2rem;
+        display: block;
+        color: $color-gray;
+    }
 }
 
+.blog-rail {
+    & ul {
+        margin: 80px 0 0;
+        list-style: none;
+        & li {
+            font-size: 1.4rem;
+            border-bottom: 1px solid #ececec;
+            padding: 10px 5px 10px;
+            &.active {
+                background: $color-gray-cool-light;
+            }
+        }
+    }
+}
 
 
 /***** DATA-ELEMENTS *****/

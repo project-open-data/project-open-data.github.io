@@ -29,8 +29,8 @@ $color-darkest: #2C333B;
 }
 
 
-a, a:visited, a:hover, a:active {
-  color: inherit;
+a:visited, a:hover, a:active {
+  color: #0071bc;
 }
 
 /* Classes */
@@ -257,7 +257,7 @@ p {
   @include media($medium-screen) {
     margin-top: .3rem;
   }
-  margin: {
+  	margin: {
     bottom: .3rem;
     top: 0;
   }

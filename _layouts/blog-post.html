@@ -1,9 +1,9 @@
 {% include header.html %}
 <div class="container">
     <div class="row-fluid">
-        <div class="col-md-8">
+        <div class="col-md-8 blog">
             <h1 class='blog-post-title'>{{ page.title }}</h1>
-            <p>By: {{ page.byline }} | Posted on: {{ page.date | date: "%B %-d, %Y" }} | Tags: {{ page.tags }}</p>
+            <cite>By: {{ page.byline }} | Posted on: {{ page.date | date: "%B %-d, %Y" }} | Tags: {{ page.tags }}</cite>
             {{ content }}
         </div>
         <div class="col-md-4 blog-rail">
