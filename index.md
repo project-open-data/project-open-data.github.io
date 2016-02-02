@@ -19,7 +19,7 @@ page: homepage
 
 		<p>With enactment of the Digital Accountability and Transparency Act of 2014 (DATA Act), the federal government has taken huge strides toward   increasing the availability, accuracy, and usefulness of federal spending information. Led by the Treasury Department and the Office of Management and Budget, federal agencies are working to upgrade the data they will provide to an updated USAspending.gov by 2017.</p>
 
-		<p>This collaboration space is designed to openly share our process for meeting the new data transparency requirements of the DATA Act, and to engage the public and federal agencies in decisionmaking along the way. Visit the <a href="/about/" title="About">"About"</a> page to learn more about our Agile work process.</p>
+		<p>This collaboration space is designed to openly share our process for meeting the new data transparency requirements of the DATA Act, and to engage the public and federal agencies in decisionmaking along the way. Visit the <a href="{{ site.baseurl }}/about/" title="About">"About"</a> page to learn more about our Agile work process.</p>
 	</div>
 	<div class="col-md-4">
 		<div class="panel panel-default">
@@ -27,7 +27,7 @@ page: homepage
 				<h3>Get Involved</h3>
 			</div>
 			<div class="panel-body">
-				<p>Visit the <a href="/get-involved/" title="Get Involved">"Get Involved"</a> page to find out how to comment or participate in different aspects of this project.</p>
+				<p>Visit the <a href="{{ site.baseurl }}/get-involved/" title="Get Involved">"Get Involved"</a> page to find out how to comment or participate in different aspects of this project.</p>
 			</div>
 		</div>
 	</div>
@@ -113,7 +113,7 @@ page: homepage
 						    	<span class="usability-icon"></span>
 							</div>
 							<div class="media-body">
-							    <p>User research, testing, and design iteration will undergird all parts of the DATA Act implementation. Learn about our user-centered process <a href="">here</a></p>
+							    <p>User research, testing, and design iteration will undergird all parts of the DATA Act implementation. Learn about our user-centered process <a href="{{ site.baseurl }}/data-schema">here</a></p>
 						  	</div>
 						</div>
 					</div>

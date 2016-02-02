@@ -101,18 +101,19 @@ p.italic {
 }
 
 ol {
-	margin: 0 0 30px;
-	& li {
-		font-size: 1.4rem;
-		line-height: 2.2rem;
-		margin-bottom: 0.75em;
-		margin-top: 0.75em;
-	}
+    margin: 0 0 30px;
+    & li {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        margin-bottom: 0.75em;
+        margin-top: 0.75em;
+    }
 }
 
-.panel{
-	border-radius: 0;
+.panel {
+    border-radius: 0;
 }
+
 
 /***** TABLE STYLES *****/
 
@@ -180,9 +181,114 @@ table {
     }
 }
 
+.alert {
+    color: #333 !important;
+    font-size: 1.4rem;
+    border-radius: 0;
+    position: relative;
+    & h3 {
+        font-size: 2.2rem;
+        margin: 2px 0 8px 56px;
+    }
+    & p {
+        margin: 5px 0 5px 56px;
+    }
+    & .glyphicon {
+        font-size: 3.8rem;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+}
+
+.alert-success {
+    background: #e7f4e4;
+    & .glyphicon {
+        color: #5cb85c;
+    }
+}
+
+.alert-info {
+    background: #e1f3f8;
+    & .glyphicon {
+        color: #5bc0de;
+    }
+}
+
+.alert-warning {
+    background: #fff1d2;
+    & .glyphicon {
+        color: #f0ad4e;
+    }
+}
+
+.alert-danger {
+    background: #f9dede;
+    & .glyphicon {
+        color: #d9534f;
+    }
+}
+
 .highlight {
     background: #e9f27c;
     padding: 3px;
+}
+
+
+/***** BUTTONS *****/
+
+.btn {
+    font-size: 1.2rem;
+    font-weight: $font-bold;
+    padding: 8px 16px;
+    border: none;
+    &.btn-lg {
+        padding: 14px 22px;
+        font-size: 1.6rem;
+        line-height: 1.3rem;
+        border-radius: 0;
+    }
+    &.btn-primary {
+        background: $color-primary;
+        &:active {
+            background: $color-primary-darker;
+        }
+        &:hover {
+            background: $color-primary-darkest;
+        }
+    }
+    &.btn-primary-alt {
+        background: $color-primary-alt;
+        color: #212121;
+        &:active {
+            background: $color-primary-alt-darkest;
+            color: #fff;
+        }
+        &:hover {
+            background: $color-primary-alt-dark;
+        }
+    }
+    &.btn-danger {
+        background: $color-secondary;
+        color: #fff;
+        &:active {
+            background: $color-secondary-darkest;
+            color: #fff;
+        }
+        &:hover {
+            background: $color-secondary-dark;
+        }
+    }
+    &.btn-default {
+        color: $color-primary;
+        box-shadow: inset 0 0 0 2px $color-primary;
+        &:active {
+            color: $color-primary-darkest;
+        }
+        &:hover {
+            background: $color-primary-alt-lightest;
+        }
+    }
 }
 
 
@@ -192,6 +298,10 @@ table {
     margin-top: 0px;
 }
 
+.mt-15 {
+    margin-top: 15px;
+}
+
 .mt-30 {
     margin-top: 30px;
 }
@@ -199,6 +309,7 @@ table {
 .mt-50 {
     margin-top: 50px;
 }
+
 
 /***** HOMEPAGE *****/
 
@@ -223,6 +334,8 @@ table {
     & .panel-heading h3 {
         margin: 0;
         font-weight: $font-bold;
+        font-size: 2.0rem;
+        line-height: 2.8rem;
     }
     & .media {
         margin-bottom: 30px;
@@ -306,6 +419,55 @@ table {
         }
         & td:last-child {
             width: 25%;
+        }
+    }
+}
+
+
+/***** STYLEGUIDE SPECIFIC *****/
+
+h3.display-one.styleguide-only {
+    margin-top: 20px;
+}
+
+h2.styleguide-only {
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 10px;
+}
+
+.btn {
+    &.btn-primary {
+        &.styleguide-active {
+            background: $color-primary-darker;
+        }
+        &.styleguide-hover {
+            background: $color-primary-darkest;
+        }
+    }
+    &.btn-primary-alt {
+        &.styleguide-active {
+            background: $color-primary-alt-darkest;
+            color: #fff;
+        }
+        &.styleguide-hover {
+            background: $color-primary-alt-dark;
+        }
+    }
+    &.btn-danger {
+        &.styleguide-active {
+            background: $color-secondary-darkest;
+            color: #fff;
+        }
+        &.styleguide-hover {
+            background: $color-secondary-dark;
+        }
+    }
+    &.btn-default {
+        &.styleguide-active {
+            color: $color-primary-darkest;
+        }
+        &.styleguide-hover {
+            background: $color-primary-alt-lightest;
         }
     }
 }

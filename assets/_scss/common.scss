@@ -171,8 +171,12 @@ $alpha) {
     }
     & .github-btn {
         margin: 10px 0 -12px;
-        margin: 10px 0 -12px;
         width: 80px;
+        height: 34px;
+        background:#eee;
+        & .github-btn-large{
+        	height: 50px;
+        }
     }
     & .footer-links {
         margin: 8px 0 0;

@@ -16,6 +16,9 @@ org_name: fedspendingtransparency
 highlighter: rouge
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "LICENSE"]
 markdown: kramdown
+# markdown: redcarpet
+# redcarpet:
+#   extensions: []
 relative_permalinks: false
 
 
