@@ -21,6 +21,7 @@ h6,
 .display-two {
     font-family: $font-sans;
     margin: 1.5em 0 .5em;
+    -webkit-font-smoothing: antialiased;
 }
 
 .display-one {
@@ -99,6 +100,19 @@ p.italic {
     font-style: italic;
 }
 
+ol {
+	margin: 0 0 30px;
+	& li {
+		font-size: 1.4rem;
+		line-height: 2.2rem;
+		margin-bottom: 0.75em;
+		margin-top: 0.75em;
+	}
+}
+
+.panel{
+	border-radius: 0;
+}
 
 /***** TABLE STYLES *****/
 
@@ -182,6 +196,9 @@ table {
     margin-top: 30px;
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
 
 /***** HOMEPAGE *****/
 
@@ -200,7 +217,7 @@ table {
             padding-left: 0;
         }
         & .col-md-6 .panel {
-            height: 270px;
+            min-height: 270px;
         }
     }
     & .panel-heading h3 {

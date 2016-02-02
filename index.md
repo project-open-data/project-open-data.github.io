@@ -11,12 +11,7 @@ page: homepage
 ##Thanks for Helping Us Improve Government Data
 -->
 
-<div class="usa-alert usa-alert-info">
-	<div class="usa-alert-body">
-		<h3 class="usa-alert-heading">The Latest</h3>
-		<p class="usa-alert-text">On December 31, 2015, version 0.7 of the DATA Act Schema was released. It builds on version 0.6 by adding semantic and contextual metadata, attributes, and missing elements. You can read about, download, and comment on this latest information model schema here.</p>
-	</div>
-</div>
+{% include the-latest.html %}
 
 <div class="row">
 	<div class="col-md-8">

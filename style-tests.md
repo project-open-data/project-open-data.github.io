@@ -113,3 +113,33 @@ title: Style Tests
         </table>
     </div>
 </div>
+
+
+<div class="row mt-30">
+    <div class="col-md-12">
+        <table class='table-bordered table-striped'>
+            <thead>
+                <tr>
+                    <th scope="col">Column 1</th>
+                    <th scope="col">Column 2</th>
+                    <th scope="col">Column 3</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Natoque penatibus et magnis dis parturient montes</td>
+                <td>mollis ornare</td>
+                <td><a href="#">Nullam quis risus</a></td>
+            </tr>
+            <tr>
+                <td>Natoque penatibus et magnis dis parturient montes</td>
+                <td>mollis ornare</td>
+                <td><a href="#">Nullam quis risus</a></td>
+            </tr>
+            <tr>
+                <td>Natoque penatibus et magnis dis parturient montes</td>
+                <td>mollis ornare</td>
+                <td><a href="#">Nullam quis risus</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
