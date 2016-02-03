@@ -24,7 +24,7 @@ relative_permalinks: false
 
 navigation:
  - title: Home
-   url: /index
+   url: /index.html
  - title: About
    url: /about
  - title: Data Elements
