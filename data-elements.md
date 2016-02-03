@@ -1,14 +1,15 @@
 ---
 published: true
-permalink: /dataelements/
-layout: hero
-filename: dataelements.md
-title: dataelements
+permalink: /data-elements/
+layout: article
+filename: data-elements.md
+title: Data Elements
+page: data-elements
 ---
 
 # Federal Spending Data Elements
 
-The lists on this page contain two types of federal spending data elements:
+**The lists on this page contain two types of federal spending data elements:**
 
 1. Existing Federal Funding Accountability and Transparency Act (FFATA) data elements, which are currently featured on USAspending.gov
 2. Additional data elements required by the DATA Act that will be featured on USASpending.gov once the DATA Act is fully implemented
@@ -28,10 +29,10 @@ If you’d like to propose an entirely new element, please create a new issue ac
 
 This list includes information about recipients and awardees of federal funds. Please note that these elements will be standardized across the different types of awards (grants, contracts, etc.).
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
-      <th scope ="col">Data Element Name</th>
+      <th scope="col">Data Element Name</th>
       <th scope="col">Legislation</th>
       <th scope="col">Provide Feedback</th>
     </tr>
@@ -93,10 +94,10 @@ This list includes information about recipients and awardees of federal funds. P
 
 This list includes elements used to describe the amount of a certain award.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
-      <th scope ="col">Data Element Name</th>
+      <th scope="col">Data Element Name</th>
       <th scope="col">Legislation</th>
       <th scope="col">Provide Feedback</th>
     </tr>
@@ -133,10 +134,10 @@ This list includes elements used to describe the amount of a certain award.
 
 These elements describe the different characteristics each award possesses – for example, its transaction code, its Award Identification (ID) Number, and so on.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
-      <th scope ="col">Data Element Name</th>
+      <th scope="col">Data Element Name</th>
       <th scope="col">Legislation</th>
       <th scope="col">Provide Feedback</th>
     </tr>
@@ -258,10 +259,10 @@ These elements describe the different characteristics each award possesses – f
 
 These data elements describe characteristics of the entity that provided funding for an award.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
-      <th scope ="col">Data Element Name</th>
+      <th scope="col">Data Element Name</th>
       <th scope="col">Legislation</th>
       <th scope="col">Provide Feedback</th>
     </tr>
@@ -303,10 +304,10 @@ These data elements describe characteristics of the entity that provided funding
 
 Elements on this list describe awarding entities – those that presented the awardee with the funding.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
-      <th scope ="col">Data Element Name</th>
+      <th scope="col">Data Element Name</th>
       <th scope="col">Legislation</th>
       <th scope="col">Provide Feedback</th>
     </tr>
@@ -348,10 +349,10 @@ Elements on this list describe awarding entities – those that presented the aw
 
 This list features elements that describe the accounts from which the awards are funded.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
-      <th scope ="col">Data Element Name</th>
+      <th scope="col">Data Element Name</th>
       <th scope="col">Legislation</th>
       <th scope="col">Provide Feedback</th>
     </tr>

@@ -1,0 +1,292 @@
+html {
+    height: 100%;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.usa-da-body {
+    @include flexbox();
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.usa-da-outter-wrap {
+    @include flex(1 0 auto);
+}
+
+
+/* Colors */
+
+$color-darkest: #2C333B;
+
+/* Fonts */
+
+@font-face {
+    font-family: "dataact";
+    src: url("../fonts/dataact.eot");
+    src: url("../fonts/dataact.eot?#iefix") format("embedded-opentype"), url("../fonts/dataact.woff") format("woff"), url("../fonts/dataact.ttf") format("truetype"), url("../fonts/dataact.svg#dataact") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+a:visited, a:hover, a:active {
+  color: #0071bc;
+}
+
+/* Classes */
+
+.usa-da-text-white {
+    color: white
+}
+
+
+/* Functions */
+
+@function as-alpha($hex-color,
+$alpha) {
+    $-local-red: red(rgba($hex-color, 1));
+    $-local-green: green(rgba($hex-color, 1));
+    $-local-blue: blue(rgba($hex-color, 1));
+    @return rgba($-local-red,
+    $-local-green,
+    $-local-blue,
+    $alpha);
+}
+
+
+/* Icons */
+
+[class^="usa-da-icon-"]:before,
+[class*=" usa-da-icon-"]:before {
+    font-size: 1em;
+    font-family: "dataact" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -webkit-osx-font-smoothing: grayscale;
+    padding-left: .4em;
+    padding-top: .4em;
+    position: absolute;
+}
+
+.usa-da-icon-lock:before {
+    content: "a";
+}
+
+.usa-da-icon-unlock:before {
+    content: "b";
+}
+
+.usa-da-icon-unlock-alt:before {
+    content: "c";
+}
+
+.usa-da-icon-user:before {
+    content: "d";
+}
+
+
+/* Tables */
+
+.usa-da-table-holder {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.usa-da-table {
+    width: 100%;
+    thead {
+        tr {
+            background-color: $color-gray-light;
+            border: 1px solid $color-gray-light;
+        }
+        th {
+            text-align: right;
+            color: white;
+            border: 1px solid $color-gray-light;
+            border-right: 1px solid $color-gray-lightest;
+        }
+        th:last-child {
+            border-right: 1px solid $color-gray-light;
+        }
+    }
+    th,
+    td {
+        border: 1px solid $color-gray-light;
+        padding: 1.0rem 2.0rem;
+        text-align: right;
+        color: $color-gray;
+    }
+}
+
+
+
+/* Content */
+
+.usa-da-content {
+    margin: auto 0;
+    padding-bottom: 1.5em;
+    width: 100%;
+    max-width: 100%;
+    font-weight: $font-normal;
+    h1 {
+        font-weight: $font-light;
+        margin-top: 0;
+    }
+}
+
+.usa-da-content-dark {
+    color: white;
+    background-color: $color-darkest;
+    .row.usa-da-content-landing {
+        background: url('/graphics/bar_bg.png') no-repeat bottom right;
+    }
+    .row.usa-da-content-add-data {
+        background: url('/graphics/line_bg.png') no-repeat bottom right;
+    }
+}
+
+.usa-da-content-light-gray {
+    color: $color-gray-light;
+    background-color: $color-gray-lightest;
+}
+
+
+/* Footer */
+
+.usa-da-footer {
+    font-family: $font-sans;
+    text-align: center;
+    background-color: $color-darkest;
+    color: $color-white;
+    width: 100%;
+    margin: 60px 0 0;
+    & p {
+        color: #fff;
+        margin: 20px 10px;
+    }
+    & .github-btn {
+        margin: 10px 0 -12px;
+        width: 80px;
+        height: 34px;
+        background:#eee;
+        & .github-btn-large{
+        	height: 50px;
+        }
+    }
+    & .footer-links {
+        margin: 8px 0 0;
+    }
+}
+
+@media (min-width: 990px) {
+    .usa-da-footer {
+        & p {
+            text-align: left;
+            padding: 0;
+        }
+        & .col-md-push-4.footer-links {
+            text-align: right;
+        }
+    }
+}
+
+
+/* Buttons */
+
+.usa-da-button-bigger {
+    width: 70%;
+    padding: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.usa-da-button-biggest {
+    width: 100%;
+    padding: 3em;
+}
+
+/* Alerts */
+
+.usa-alert {
+  @include media($medium-screen) {
+    background-size: 5.2rem;
+  }
+  background-color: $color-gray-lightest;  
+  background-position: 1rem 2rem;
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  margin-top: 1.5em;
+  padding: 1em;
+
+  ul {
+    margin: {
+      bottom: 0;
+      top: 1em;
+    }
+  }
+}
+
+.usa-alert-icon {
+  display: table-cell;
+  padding-right: 1rem;
+}
+
+.usa-alert-body {
+  @include media($medium-screen) {
+    padding-left: 5rem;
+  }
+  display: table-cell;
+  padding-left: 3.5rem;
+  vertical-align: top;
+}
+
+.usa-alert-heading {
+  @include media($medium-screen) {
+    margin-top: .3rem;
+  }
+  	margin: {
+    bottom: .3rem;
+    top: 0;
+  }
+}
+
+.usa-alert-text {
+  font-family: $font-sans;
+  margin: {
+    bottom: 0;
+    top: 0;
+  }
+}
+
+.usa-alert-success {
+  background-color: $color-green-lightest;
+  background-image: url('../img/18f/alerts/success.png');  
+  background-image: url('../img/18f/alerts/success.svg');  
+}
+
+.usa-alert-warning {
+  background-color: $color-gold-lightest;
+  background-image: url('../img/18f/alerts/warning.png');  
+  background-image: url('../img/18f/alerts/warning.svg');   
+}
+
+.usa-alert-error {
+  background-color: $color-secondary-lightest;
+  background-image: url('../img/18f/alerts/error.png');  
+  background-image: url('../img/18f/alerts/error.svg');   
+}
+
+.usa-alert-info {
+  background-color: $color-primary-alt-lightest;
+  background-image: url('../img/18f/alerts/info.png');  
+  background-image: url('../img/18f/alerts/info.svg');   
+}
+
+.usa-alert-no_icon {
+ background-image: none; 
+}

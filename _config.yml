@@ -1,10 +1,12 @@
 #document settings
 title: Federal Spending Transparency
-desc: "DATA Act and FFATA Collaboration Space"
+desc: "DATA Act Collaboration Space"
 url: //fedspendingtransparency.github.io/
 repo_name: fedspendingtransparency.github.io
 branch: master
 encoding: utf-8
+
+
 
 #global settings, no need to change these
 root_url: //fedspendingtransparency.github.io
@@ -14,4 +16,35 @@ org_name: fedspendingtransparency
 highlighter: rouge
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "LICENSE"]
 markdown: kramdown
+# markdown: redcarpet
+# redcarpet:
+#   extensions: []
 relative_permalinks: false
+
+
+navigation:
+ - title: Home
+   url: /index
+ - title: About
+   url: /about
+ - title: Data Elements
+   url: /data-elements
+ - title: Data Schema
+   url: /data-schema
+ - title: Data Broker
+   url: /data-broker
+ - title: Usability
+   url: /usability
+ - title: Get Involved
+   url: "/get-involved"
+ - title: Blog
+   url: "/blog"  
+
+ # - title: Discuss
+ #   url: "https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues"
+ # - title: Get Updates
+ #   url: "https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa"
+
+sass:
+  sass_dir:          assets/_scss
+  #style:            :compressed

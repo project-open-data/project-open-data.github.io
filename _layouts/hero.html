@@ -1,19 +1,8 @@
 {% include header.html %}            
 
-<div class="hero-unit home">
-  <div class="container-fluid">
-    <div class="row-fluid">
-      <div id="site-header" class="span12">
-        <h1>{{ site.title }}</h1>
-        <h2>{{ site.desc }}</h2>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid">
+<div class="container {{page.page}}">
   <div class="row-fluid">
-    <div class="span12">
+    <div class="col-md-12">
       {{ content }}
     </div>
   </div>

@@ -1,0 +1,16 @@
+<div class='mobile-masthead'>
+        <span class='menu-toggle'></span>
+    </div>
+    <div id='nav-background' class='hidden'></div>
+    <div class='nav-wrapper'>
+        <div id="nav" class='hidden'>
+            <div class='top-close-block'></div>
+            <ul>
+                {% for link in site.navigation %} {% assign current = nil %} {% if page.url contains link.url %} {% assign current ='active'%} {% endif %}
+                <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>

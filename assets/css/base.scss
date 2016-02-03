@@ -1,0 +1,22 @@
+---
+---
+
+// @import 'bootstrap.css';
+// @import 'site.css';
+
+@import 'bootstrap.css';
+@import 'site.css';
+
+
+
+$grey-dark: #333;
+
+header {
+    width: 80%;
+    margin: 40px 10% 5px;
+    & h1 {
+        color: $grey-dark;
+        width: 45%;
+        float: left;
+    }
+}
