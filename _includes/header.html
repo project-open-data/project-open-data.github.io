@@ -37,7 +37,7 @@
                     <p class='tagline-one'>Better Data.</p>
                     <p class='tagline-two'>Better Decisions.</p>
                     <p class='tagline-three'>Better Government.</p>
-                    <img class="dot-seal" src="/assets/graphics/US-DOT-Seal.svg">
+                    <img class="dot-seal" src="{{ site.baseurl }}/assets/graphics/US-DOT-Seal.svg">
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
             <ul id="usa-da-header-link-holder" class="nav center-block container">
                 {% for link in site.navigation %} {% assign current = nil %} {% if page.url contains link.url %} {% assign current ='active'%} {% endif %}
                 <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-                    <a href="{{ link.url }}">{{ link.title }}</a>
+                    <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                 </li>
                 {% endfor %}
             </ul>
