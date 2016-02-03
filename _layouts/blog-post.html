@@ -9,7 +9,7 @@
         <div class="col-md-4 blog-rail">
             <ul>
                 {% for post in site.posts limit:5 %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+                <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
             </ul>
         </div>
     </div>
