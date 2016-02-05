@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/fundingagency/
-layout: hero
+layout: article
 filename: fundingagency.md
 title: Funding Agency
 ---
@@ -9,7 +9,7 @@ title: Funding Agency
 # Element: Funding Agency Name, Funding Agency Code, Awarding Agency Name, and Awarding Agency Code
 
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -91,7 +91,7 @@ In the future, the federal communities will examine the potential to provide add
 
 ##Final Definitions for Transparency Reporting
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Data Element Name</th>

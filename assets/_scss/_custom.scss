@@ -1,6 +1,6 @@
 @import './common';
 .container {
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -87,8 +87,9 @@ p.large {
 
 @mixin para {
     font-weight: $font-normal;
-    font-size: 1.4rem;
-    line-height: 2.2rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 p {
@@ -100,18 +101,25 @@ p.italic {
     font-style: italic;
 }
 
-ol {
+ol, ul {
     margin: 0 0 30px;
     & li {
-        font-size: 1.4rem;
-        line-height: 2.2rem;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
         margin-bottom: 0.75em;
         margin-top: 0.75em;
     }
 }
 
+table + p {
+    margin-top: 3.0rem;
+}
+
 .panel {
     border-radius: 0;
+    & p:first-child{
+    	margin-top: 0;
+    }
 }
 
 
@@ -122,13 +130,13 @@ table {
     &.table-bordered {
         width: 100%;
         & thead {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-weight: $font-bold;
-            min-height: 50px;
+            // min-height: 50px;
             & tr {
                 & th {
-                    height: 50px;
-                    padding: 0 20px;
+                    // height: 50px;
+                    padding: 15px;
                     border-bottom: none;
                 }
             }
@@ -136,8 +144,8 @@ table {
         & tbody {
             & tr {
                 & td {
-                    padding: 0 20px;
-                    height: 40px;
+                    padding: 15px;
+                    // min-height: 40px;
                     font-size: 1.4rem;
                     color: $color-gray;
                 }
@@ -186,15 +194,16 @@ table {
     font-size: 1.4rem;
     border-radius: 0;
     position: relative;
+    margin: 40px 0 !important; 
     & h3 {
-        font-size: 2.2rem;
-        margin: 2px 0 8px 56px;
+        font-size: 2.4rem;
+        margin: 2px 0 8px 48px;
     }
     & p {
-        margin: 5px 0 5px 56px;
+        margin: 5px 0 5px 48px;
     }
     & .glyphicon {
-        font-size: 3.8rem;
+        font-size: 3.2rem;
         position: absolute;
         top: 15px;
         left: 15px;
@@ -358,7 +367,7 @@ table {
             width: 64px;
             height: 61px;
             padding: 0 3px;
-            background-image: url("../img/graphic-sprite.png");
+            background-image: url('../img/graphic-sprite.png');
             background-size: 290%;
             background-position-x: 1px;
         }
@@ -372,6 +381,15 @@ table {
             background-position-y: -14px;
         }
     }
+}
+
+.article-wrap{
+	margin: 0 auto;
+	max-width: 76rem;
+	float: none;
+	& p {
+		
+	}
 }
 
 
@@ -419,55 +437,6 @@ table {
         }
         & td:last-child {
             width: 25%;
-        }
-    }
-}
-
-
-/***** STYLEGUIDE SPECIFIC *****/
-
-h3.display-one.styleguide-only {
-    margin-top: 20px;
-}
-
-h2.styleguide-only {
-    border-bottom: 1px solid #ccc;
-    padding: 0 0 10px;
-}
-
-.btn {
-    &.btn-primary {
-        &.styleguide-active {
-            background: $color-primary-darker;
-        }
-        &.styleguide-hover {
-            background: $color-primary-darkest;
-        }
-    }
-    &.btn-primary-alt {
-        &.styleguide-active {
-            background: $color-primary-alt-darkest;
-            color: #fff;
-        }
-        &.styleguide-hover {
-            background: $color-primary-alt-dark;
-        }
-    }
-    &.btn-danger {
-        &.styleguide-active {
-            background: $color-secondary-darkest;
-            color: #fff;
-        }
-        &.styleguide-hover {
-            background: $color-secondary-dark;
-        }
-    }
-    &.btn-default {
-        &.styleguide-active {
-            color: $color-primary-darkest;
-        }
-        &.styleguide-hover {
-            background: $color-primary-alt-lightest;
         }
     }
 }

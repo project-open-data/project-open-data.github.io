@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/amount/
-layout: hero
+layout: article
 filename: amount.md
 title: Amount
 ---
@@ -9,7 +9,7 @@ title: Amount
 # Element: Amount of Award, Federal Action Obligation, Non-Federal Funding Amount, Current Total Value of Award, and Potential Total Value of Award
 
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -89,7 +89,7 @@ The original source for *contract awards* was the Federal Procurement Data Syste
 2.  These definitions apply to reporting on federal awards that has taken place since enactment of FFATA.  OMB guidance issued in May 2015 directed agencies to include Award ID in agency financial systems as the way to associated award data and financial data without duplicating efforts or data.  As agencies implement these changes in FY 2017, a further review of the definition and standard for award amounts may be required.    
 
 ##Final Definitions for Transparency Reporting
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Data Element Name</th>

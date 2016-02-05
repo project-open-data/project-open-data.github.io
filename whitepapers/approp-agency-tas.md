@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/approp-agency-tas/
-layout: hero
+layout: article
 filename: approp-agency-tas.md
 title: Treasury Account Symbol, Appropriations Account, and Agency
 ---
@@ -11,7 +11,7 @@ title: Treasury Account Symbol, Appropriations Account, and Agency
 
 Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "Federal Spending Transparency Standards") to see the data definitions for these elements in their final form.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -35,6 +35,8 @@ Thank you for contributing your feedback on this data element—your input and i
     <td>FFATA</td>
   </tr>
 </table>
+
+
 
 ## Response to Public Feedback (August 2015)
 
@@ -64,7 +66,7 @@ An appropriations account is represented by the Treasury Appropriation Fund Symb
 
 The table below shows the component pieces of TAFS and TAS:
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Component</th>
@@ -135,7 +137,7 @@ OMB Circular A-11 Appendix C is the authoritative source for a list of agency id
 
 ## Final Definitions for Transparency Reporting
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Data Element Name</th>

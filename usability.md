@@ -1,9 +1,11 @@
 ---
 published: true
 permalink: /usability/
-layout: hero
+layout: article
 filename: usability.md
 title: usability
+
+
 ---
 
-# Usability
+<h1>Usability</h1>

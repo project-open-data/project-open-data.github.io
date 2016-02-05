@@ -130,23 +130,25 @@
         font-size: 1.5rem;
         font-weight: $font-normal;
         @include flexbox();
-        justify-content: flex-start;
+        justify-content: center;
         -webkit-flex-flow: row wrap;
-    
-        & > li > a {
-            color: $color-gray;
-            vertical-align: middle;
-            padding: 1.5rem;
-            font-size: 1.2rem;
-            &:hover {
-                transition: background-color 0.2s ease;
-                background-color: #f7f5f2;
-                color: #000;
-            }
-            &:focus {
-                outline-style:none;
-                box-shadow:none;
-                border-color:transparent;
+        & > li {
+            margin: 0;
+            a {
+                color: $color-gray;
+                vertical-align: middle;
+                padding: 1.5rem;
+                font-size: 1.4rem;
+                &:hover {
+                    transition: background-color 0.2s ease;
+                    background-color: #f7f5f2;
+                    color: #000;
+                }
+                &:focus {
+                    outline-style: none;
+                    box-shadow: none;
+                    border-color: transparent;
+                }
             }
         }
         & > li.active > * {

@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: /index
+permalink: /index.html
 layout: hero
 filename: index.md
 title: Federal Spending Collaboration Space

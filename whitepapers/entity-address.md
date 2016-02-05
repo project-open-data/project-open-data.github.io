@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/entity-address/
-layout: hero
+layout: article
 filename: entity-address
 title: Legal Entity Address
 ---
@@ -10,7 +10,7 @@ title: Legal Entity Address
 
 Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.omb.gov/datastandards) to see the data definitions for these elements in their final form.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -74,7 +74,7 @@ _Congressional district._ A congressional district is the geographic region that
 
 ##Recommended Definitions for Transparency Reporting
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Recommended Data Element Name</th>

@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/sub-tier-agency/
-layout: hero
+layout: article
 filename: sub-tier-agency.md
 title: Sub Tier Agency
 ---
@@ -9,7 +9,7 @@ title: Sub Tier Agency
 # Element: Sub Tier Agency and Office Information
 
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -109,7 +109,7 @@ Recommended Business Process
 <sup>1</sup>The National Institute of Standards and Technology (NIST) withdrew the Federal Information Processing Standards (FIPS) codes referenced above (FIPS 95-2, Codes for the Identification of Federal and Federally Assisted Organizations) in 2008.  A second publication, NIST Special Publication 800-87, Codes for Identification of Federal and Federally-Assisted Organizations, provides similar codes but has not been updated since 2008.  Organizations established after 2008 (such as the Consumer Financial Protection Bureau) are not in SP 800-87.  The FIPS 95-2 and SP 800-87 codes provided the basis of the FPDS-NG table of agency codes, which is updated by GSA and so includes new agencies.
 
 ##Final Definitions for Transparency Reporting
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Data Element Name</th>

@@ -290,7 +290,28 @@ title: Style Tests
       <button type="button" class="btn btn-primary btn-lg">Default</button>
       <button type="button" class="btn btn-default btn-lg">Default</button>
     </div>
-    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <pre class="brush:html">
+        <code>
+      &lt;div class="stack"&gt;
+        this is a div
+      &lt;/div&gt;
+        </code>
+      </pre>
+
+      <pre class="brush:html">
+        <code>
+&lt;div class=&quot;row mt-15&quot;&gt;
+  &lt;div class=&quot;col-md-8&quot;&gt;
+      &lt;p&gt;Disabled Button&lt;/p&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; disabled=&quot;disabled&quot;&gt;Default&lt;/button&gt;
+      &lt;/div&gt;
+  &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+        </code>
+      </pre>
+
+    </div>
   </div>
 
 </div>

@@ -1,14 +1,14 @@
 ---
 published: true
 permalink: /whitepapers/business-types/
-layout: hero
+layout: article
 filename: business-types.md
 title: Business Types
 ---
 
 # Element: Business Types
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -61,7 +61,7 @@ The original source for financial assistance awards was the Federal Assistance A
 There are 13 types listed.  Only one value is reported, the type that best represents the entity.  Going forward, an option would be to have financial assistance awards use separate fields for each type with a “yes” or “no” indicator as is done in FPDS-NG. The financial assistance and procurement communities will continue to look at additional opportunities to standardize Business Types and how they are reported by agencies to USAspending.gov. 
 
 ##Final Definitions for Transparency Reporting
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Element</th>
