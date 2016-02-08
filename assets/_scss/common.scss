@@ -1,3 +1,6 @@
+/* IMPORT SOURCE SANS PRO FONT FROM GOOGLE FONTS */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic);
+
 html, body {
     height: 100%;
     -webkit-font-smoothing: antialiased !important;
@@ -21,6 +24,7 @@ $color-darkest: #2C333B;
 
 /* Fonts */
 
+
 @font-face {
     font-family: "dataact";
     src: url("../fonts/dataact.eot");
@@ -37,7 +41,6 @@ a:active {
 
 
 /* Classes */
-
 .usa-da-text-white {
     color: white
 }
@@ -91,40 +94,6 @@ $alpha) {
 .usa-da-icon-user:before {
     content: "d";
 }
-
-
-/* Tables */
-
-// .usa-da-table-holder {
-//     margin: 60px auto;
-//     text-align: center;
-// }
-
-// .usa-da-table {
-//     width: 100%;
-//     thead {
-//         tr {
-//             background-color: $color-gray-light;
-//             border: 1px solid $color-gray-light;
-//         }
-//         th {
-//             text-align: right;
-//             color: white;
-//             border: 1px solid $color-gray-light;
-//             border-right: 1px solid $color-gray-lightest;
-//         }
-//         th:last-child {
-//             border-right: 1px solid $color-gray-light;
-//         }
-//     }
-//     th,
-//     td {
-//         border: 1px solid $color-gray-light;
-//         padding: 1.0rem 2.0rem;
-//         text-align: right;
-//         color: $color-gray;
-//     }
-// }
 
 
 /* Content */
@@ -197,21 +166,6 @@ $alpha) {
         }
     }
 }
-
-
-/* Buttons */
-
-// .usa-da-button-bigger {
-//     width: 70%;
-//     padding: 1.5em;
-//     margin-top: 1.5em;
-//     margin-bottom: 1.5em;
-// }
-
-// .usa-da-button-biggest {
-//     width: 100%;
-//     padding: 3em;
-// }
 
 
 /* Alerts */

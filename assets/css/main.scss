@@ -4,10 +4,6 @@
 // Place list of your partial imports below, located in assets/_scss.
 
 
-// @import 'styleguide';
-// @import 'custom';
-
-
 // Bootstrap
 @import 'bootstrap-sass/assets/stylesheets/_bootstrap';
 
@@ -19,13 +15,12 @@
 @import '18f/_scss/lib/neat/neat';
 
 // 18F Typography
-@import '18f/_scss/elements/_typography';
+// @import '18f/_scss/elements/_typography';
 
 // Customizations
 @import 'custom';
 @import 'header';
 @import 'mobile-header';
-
 
 
 // STYLEGUIDE SPECIFIC

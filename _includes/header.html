@@ -12,8 +12,11 @@
     <meta name="description" content="{{ site.desc }}">
     <meta name="viewport" content="width=device-width">
     <title>{{ site.title }}</title>
+    {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/google-fonts.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"> {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.filename }}{% endcapture %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/timeline.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/timeline/font.default.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 </head>
 
 <body class="usa-da-body {{ page.id }}">

@@ -427,6 +427,34 @@ table {
 }
 
 
+/***** TIMELINE *****/
+#timeline {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    min-height: 400px;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container-small {
+    background-color: $color-gray;
+}
+
+
+#issue-preliminary-guidance-initiate-pilots-marker.tl-timemarker.tl-timemarker-active > .tl-timemarker-content-container.tl-timemarker-content-container-small
+{background-color: red;}
+
+#example-of-an-event-spanning-over-time-marker.tl-timemarker.tl-timemarker-active > .tl-timemarker-content-container.tl-timemarker-content-container-small
+{background-color: blue;}
+
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+    color: #fff
+}
+
+
+#agencies-required-to-submit-financial-dan-payment-data-marker{
+    background: red;
+}
+
 /***** DATA-ELEMENTS *****/
 
 .data-elements {
