@@ -130,7 +130,7 @@
         font-size: 1.5rem;
         font-weight: $font-normal;
         @include flexbox();
-        justify-content: center;
+        justify-content: flex-start;
         -webkit-flex-flow: row wrap;
         & > li {
             margin: 0;

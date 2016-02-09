@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /about/
-layout: hero
+layout: article
 filename: about.md
 title: about
 ---

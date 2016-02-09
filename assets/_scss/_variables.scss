@@ -19,7 +19,7 @@ $lead-line-height:    1.7;
 $font-sans:           'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
 $font-serif:          'Merriweather', 'Georgia', 'Times New Roman', serif;
 
-$font-light:		  200;
+$font-light:		      200;
 $font-normal:         400;
 $font-bold:           700;
 
@@ -74,9 +74,10 @@ $color-visited:              #4c2c92;
 
 
 // Mobile First Breakpoints
-$small-screen:      481px;
-$medium-screen:     600px;
-$large-screen:      1201px;
+$x-small-screen:    max-width 767px;
+$small-screen:      768px;
+$medium-screen:     992px;
+$large-screen:      1200px;
 
 
 // Magic Numbers

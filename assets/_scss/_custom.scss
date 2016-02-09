@@ -383,13 +383,66 @@ table {
     }
 }
 
-.article-wrap{
-	margin: 0 auto;
-	max-width: 76rem;
-	float: none;
-	& p {
-		
-	}
+/***** ARTICLE PAGE *****/
+
+.article-wrap {
+    // max-width: 76rem;
+    // float: none;
+    & p, & ol, & li {
+        max-width: 76rem;
+    }
+    & .get-involved-wrap {
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        margin: 0 0 40px;
+        & .left-block {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: $color-cool-blue-lightest;
+            & .text-block {
+                & h3 {
+                    color: #444;
+                    margin: 0 0 0.5rem;
+                    @include media($x-small-screen) {
+                    margin-top: 20px;
+                    }
+                }
+                & p{
+                    color: #444;
+                    font-size: 1.3rem;
+                    line-height: 1.7rem;
+                }
+            }
+        }
+        & .right-block {
+            flex: 1 auto;
+            order: 2;
+            border: 1px solid #ececec;
+            padding: 30px 20px;
+            & p:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    & .calendar-wrap{
+        border: 1px solid #ececec;
+        & ul {
+            list-style-type: none;
+            padding: 3px 0;
+            margin: 0;
+            & li {
+                line-height: 1.6rem;
+                font-size: 1.4rem;
+                &:first-child {
+                    font-weight: $font-bold;
+                }
+                & a:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
 }
 
 
@@ -437,7 +490,6 @@ table {
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container-small {
     background-color: $color-gray;
 }
-
 
 #issue-preliminary-guidance-initiate-pilots-marker.tl-timemarker.tl-timemarker-active > .tl-timemarker-content-container.tl-timemarker-content-container-small
 {background-color: red;}
