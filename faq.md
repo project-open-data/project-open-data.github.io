@@ -92,6 +92,11 @@ In 2012, OMB established PortfolioStat accountability sessions to engage directl
 
 While ISO 32000 is an open standard, the Portable Document Format (PDF) does not achieve the same level of openness as CSV, XML, JSON, and other generic formats.
 
+### What are other data best practices that are suggested by internet standards bodies?  
+
+* W3 [Data on the Web Best Practices](https://www.w3.org/TR/dwbp/)
+
+
 ## Metadata
 
 ### What is the relationship of the metadata standard (specifically) to NIEM, ISE, FGDC, and other existing (especially official) government data standards?
