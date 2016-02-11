@@ -100,6 +100,14 @@ $headStripe: linear-gradient(to bottom, rgba(white, 0) 49%,
 	$gray-line 52%, rgba(white, 0) 52%);
 
 
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 
 @mixin headTag($top, $left) {
     top: $top;

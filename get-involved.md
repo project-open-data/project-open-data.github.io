@@ -7,9 +7,10 @@ title: Get Involved
 calendar: <h4>Upcoming Events</h4><li>item 1</li><li>item 2</li>
 ---
 
-# Get Involved
-
 <div class="row">
+
+<h1>Get Involved</h1>
+
 	<div class="col-md-3 calendar-wrap">{% include get-involved-calendar.html %}</div>
 	<div class="col-md-9">
 

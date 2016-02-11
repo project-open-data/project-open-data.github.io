@@ -20,6 +20,7 @@
 <script src="{{site.baseurl}}/assets/js/jquery-2.2.0.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/mobile-head.js"></script>
+<script src="{{site.baseurl}}/assets/js/fedSpend_base.js"></script>
 <!-- Google Analytics -->
 <script>
 (function(i, s, o, g, r, a, m) {
@@ -43,32 +44,22 @@ ga('set', 'forceSSL', true);
 
 ga('send', 'pageview');
 
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+// $(function() {
+//     $('[data-toggle="tooltip"]').tooltip()
+// })
 
-$(function () {
-  $('[data-toggle="popover"]').popover()
+// $(function() {
+//     $('[data-toggle="popover"]').popover()
 
-$('body').on('click', function (e) {
-    $('[data-toggle="popover"]').each(function () {
-        //the 'is' for buttons that trigger popups
-        //the 'has' for icons within a button that triggers a popup
-        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-            $(this).popover('hide');
-        }
-    });
-});
-
-
-
-})
-
-
-
-
-
-
+//     $('body').on('click', function(e) {
+//         $('[data-toggle="popover"]').each(function() {
+//             //the 'is' for buttons that trigger popups
+//             //the 'has' for icons within a button that triggers a popup
+//             if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+//                 $(this).popover('hide');
+//             }
+//         });
+//     });
 
 </script>
 </body>
