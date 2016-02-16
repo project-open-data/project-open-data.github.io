@@ -47,7 +47,7 @@ title: Style Tests
   
   <div class="row mt-30">
     <div class="col-md-5">
-      <p><span class='highlight'>Paragraph (14px)</span> Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque  penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+      <p><span class='highlight'>Paragraph (16px)</span> Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque  penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
   
         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
     </div>
@@ -284,37 +284,97 @@ title: Style Tests
     <div class="col-md-4"></div>
   </div>
 
-  <div class="row mt-15">
+<div class="row mt-15">
     <div class="col-md-8">
-      <p>Big Button</p>
-      <button type="button" class="btn btn-primary btn-lg">Default</button>
-      <button type="button" class="btn btn-default btn-lg">Default</button>
+        <p>Big Button</p>
+        <button type="button" class="btn btn-primary btn-lg">Default</button>
+        <button type="button" class="btn btn-default btn-lg">Default</button>
     </div>
     <div class="col-md-4">
-      <pre class="brush:html">
-        <code>
-      &lt;div class="stack"&gt;
-        this is a div
-      &lt;/div&gt;
-        </code>
-      </pre>
-
-      <pre class="brush:html">
-        <code>
-&lt;div class=&quot;row mt-15&quot;&gt;
-  &lt;div class=&quot;col-md-8&quot;&gt;
-      &lt;p&gt;Disabled Button&lt;/p&gt;
-        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; disabled=&quot;disabled&quot;&gt;Default&lt;/button&gt;
-      &lt;/div&gt;
-  &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        <!-- <pre class="brush:html">
+  <code>
+&lt;div class="stack"&gt;
+  this is a div
 &lt;/div&gt;
+  </code>
+</pre>
+
+      <pre class="brush:html">
+        <code>
+          &lt;div class=&quot;row mt-15&quot;&gt;
+          &lt;div class=&quot;col-md-8&quot;&gt;
+          &lt;p&gt;Disabled Button&lt;/p&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; disabled=&quot;disabled&quot;&gt;Default&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+          &lt;/div&gt;
         </code>
       </pre>
-
+      
+<code>
+<div>&lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;sdasdasdsa&lt;/div&gt;</div>
+</code> -->
     </div>
-  </div>
-
 </div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h2 class="styleguide-only">Charts</h2>
+    </div>
+</div>
+
+
+<div class="row mt-15">
+    <div class="col-md-8">
+        {% include charts/sample-pie.html %}
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+
+<div class="row mt-15">
+    <div class="col-md-8">
+        {% include charts/sample-doughnut.html %}
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+
+<div class="row mt-15">
+    <div class="col-md-8">
+        {% include charts/sample-line.html %}
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+
+<script>
+window.onload = function() {
+    var ctx = document.getElementById("sample-pie-chart-area").getContext("2d");
+    window.myPie = new Chart(ctx).Pie(SamplePieData, {
+        responsive: false,
+        segmentStrokeWidth: 3
+    });
+    document.getElementById('pieLegend').innerHTML = myPie.generateLegend();
+
+
+    var ctx = document.getElementById("sample-doughnut-data").getContext("2d");
+    window.myDoughnut = new Chart(ctx).Doughnut(sampleDoughnutData, {
+        responsive: false,
+        segmentStrokeWidth: 3,
+        percentageInnerCutout: 70
+    });
+    document.getElementById('doughnutLegend').innerHTML = myDoughnut.generateLegend();
+
+
+    var ctx = document.getElementById("sample-line-data").getContext("2d");
+    window.myLine = new Chart(ctx).Line(sampleLineChartData, {
+        responsive: true
+    });
+    document.getElementById('lineLegend').innerHTML = myLine.generateLegend();
+}
+</script>
 
 
 <!--   <div class="row">

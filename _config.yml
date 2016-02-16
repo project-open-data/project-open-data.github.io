@@ -27,8 +27,8 @@ navigation:
    url: /index.html
  - title: About
    url: /about
- - title: Data Elements
-   url: /data-elements
+ - title: Data Model
+   url: /data-model
  - title: Data Schema
    url: /data-schema
  - title: Data Broker

@@ -90,6 +90,7 @@ p.large {
     font-size: 1.6rem;
     line-height: 2.5rem;
     margin-bottom: 2.5rem;
+    color: #525252;
 }
 
 p {
@@ -347,6 +348,7 @@ table {
         font-weight: $font-bold;
         font-size: 2.0rem;
         line-height: 2.8rem;
+        color: #555
     }
     & .media {
         margin-bottom: 30px;
@@ -431,15 +433,22 @@ table {
     }
     & .calendar-wrap {
         border: 1px solid #ececec;
+        padding: 0 20px;
+        margin-bottom: 30px;
+        & h5{
+            line-height: 1.8rem;
+            margin-bottom: 0;
+        }
+        
         & ul {
             list-style-type: none;
-            padding: 3px 0;
+            padding: 0;
             margin: 0;
             & li {
                 line-height: 1.6rem;
                 font-size: 1.4rem;
-                &:first-child {
-                    font-weight: $font-bold;
+                &:last-child {
+                    margin-bottom: 3.0rem;
                 }
                 & a:hover {
                     cursor: pointer;
@@ -512,7 +521,7 @@ table {
 // }
 
 
-/***** DATA-ELEMENTS *****/
+/***** DATA-ELEMENTS PAGE *****/
 .data-elements {
     & table {
         width: 100%;
@@ -524,3 +533,47 @@ table {
         }
     }
 }
+
+/***** CHARTS *****/
+// #pieLegend, #doughnutLegend, #lineLegend {
+//     & ul{
+//     background: green;
+//         & li{
+//             display: block;
+//             float: left;
+//             & span{
+//                 display: block;
+//                 height: 10px;
+//                 width: 10px;
+
+//             }
+//         }
+//     }
+// }
+
+    .chart-legend {
+        & ul {
+            padding: 0;
+            & li {
+                display: block;
+                float: left;
+                margin: 0 20px 0 0;
+                & span {
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+
+
+
+
+// li span{
+//     display: inline-block;
+//     width: 122px;
+//     height: 12px;
+//     margin-right: 5px;
+// }
