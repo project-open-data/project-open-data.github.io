@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/highlycompensatedofficers/
-layout: hero
+layout: article
 filename: highlycompensatedofficers.md
 title: Highly Compensated Officers
 ---
@@ -10,7 +10,7 @@ title: Highly Compensated Officers
 
 Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "Federal Spending Transparency Standards") to see the data definitions for these elements in their final form.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Number</th>
@@ -48,7 +48,7 @@ There were no concerns raised or alternative definitions suggested by representa
 
 ## Recommended Definitions for Transparency Reporting
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Recommended Data Element Name</th>

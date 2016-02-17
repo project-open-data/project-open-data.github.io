@@ -1,0 +1,47 @@
+/***** STYLEGUIDE SPECIFIC *****/
+
+h3.display-one.styleguide-only {
+    margin-top: 20px;
+}
+
+h2.styleguide-only {
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 10px;
+}
+
+.btn {
+    &.btn-primary {
+        &.styleguide-active {
+            background: $color-primary-darker;
+        }
+        &.styleguide-hover {
+            background: $color-primary-darkest;
+        }
+    }
+    &.btn-primary-alt {
+        &.styleguide-active {
+            background: $color-primary-alt-darkest;
+            color: #fff;
+        }
+        &.styleguide-hover {
+            background: $color-primary-alt-dark;
+        }
+    }
+    &.btn-danger {
+        &.styleguide-active {
+            background: $color-secondary-darkest;
+            color: #fff;
+        }
+        &.styleguide-hover {
+            background: $color-secondary-dark;
+        }
+    }
+    &.btn-default {
+        &.styleguide-active {
+            color: $color-primary-darkest;
+        }
+        &.styleguide-hover {
+            background: $color-primary-alt-lightest;
+        }
+    }
+}

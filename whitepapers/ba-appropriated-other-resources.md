@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/ba-appropriated-other-resources/
-layout: hero
+layout: article
 filename: ba-appropriated-other-resources.md
 title: Budget Authority Appropriated and Other Budgetary Resources
 ---
@@ -10,7 +10,7 @@ title: Budget Authority Appropriated and Other Budgetary Resources
 
 Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "Federal Spending Transparency Standards") to see the data definitions for these elements in their final form.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -40,7 +40,9 @@ b. The OMB SF 133 _Report on Budget Execution and Budgetary Resources_ provides 
 
 The Constitution require all federal spending to start with laws passed by Congress.  Article I, Section 9, clause 7 of the Constitution states, in part, “No money shall be drawn from the Treasury, but in Consequence of Appropriations made by Law…”  Congress passes laws that provide one or more kinds of budgetary resources for each specific appropriations account.  The agencies administering these accounts incur obligations and make outlays against these budgetary resources.
 
-Budgetary resources fall into the following broad categories:
+
+__Budgetary resources fall into the following broad categories:__
+
 
 * _Appropriations_, which corresponds to Budget Authority Appropriated in the DATA Act
 * _Borrowing authority_, which is a component of the DATA Act’s Other Budgetary Resources
@@ -48,7 +50,9 @@ Budgetary resources fall into the following broad categories:
 * _Spending authority_ from offsetting collections, which is a component of the DATA Act’s Other Budgetary Resources
 * _Unobligated balances_, which is a component of the DATA Act’s Other Budgetary Resources.  
 
-Section 20 and Appendix F of OMB Circular A-11 define these terms as follows:
+
+**Section 20 and Appendix F of OMB Circular A-11 define these terms as follows:**
+
 
 >_Appropriation_ means a provision of law (not necessarily in an appropriations act) authorizing the expenditure of funds for a given purpose. Usually, but not always, an appropriation provides budget authority.
 >
@@ -70,7 +74,7 @@ b. The definitions for Budget Authority Appropriated and Other Budgetary Resourc
 
 ## Recommended Definitions for Transparency Reporting
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Recommended Data Element Name</th>
@@ -95,3 +99,6 @@ b. The definitions for Budget Authority Appropriated and Other Budgetary Resourc
 * Appendix F, Format of SF132, SF133, Schedule P, and SBR.
 
 [Treasury Financial Manual supplement United States Government Standard General Ledger, Part 2 Fiscal 2015 Reporting, Section V: Crosswalks to Standard External Reports for Fiscal 2015 Reporting, page V-89 and following for the USSGL accounts that are used in each line of SF 133, Report on Budget Execution and Budgetary Resources.](http://tfm.fiscal.treasury.gov/v1/supplements/ussgl/ussgl_part_2.html#Part 5)
+
+
+<a href="http://"></a>

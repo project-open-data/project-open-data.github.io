@@ -1,0 +1,11 @@
+{% for cal in site.data.cal %}
+  <h4>{{ cal.title }}</h4>
+  {% for subcategory in cal.subcategories %}
+    <h5>{{ subcategory.month }}</h5>
+    <ul>
+    {% for event in subcategory.events %}
+      <li><a data-container="body" data-toggle="popover" data-placement="right" data-content="{{ event.popupText }}"></li>{{ event.title }}</a></li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+{% endfor %}

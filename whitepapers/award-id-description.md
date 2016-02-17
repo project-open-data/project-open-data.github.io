@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/award-id-description/
-layout: hero
+layout: article
 filename: award-id-description
 title: Award Identification (ID) Number and Description
 ---
@@ -10,7 +10,7 @@ title: Award Identification (ID) Number and Description
 
 Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.omb.gov/datastandards) to see the data definitions for these elements in their final form.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -74,7 +74,7 @@ Long term implementation of the DATA Act is expected to require expenditures and
 
 ##Recommended Definitions for Transparency Reporting
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Recommended Data Element Name</th>

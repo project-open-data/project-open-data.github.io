@@ -1,10 +1,5 @@
 .usa-da-header {
-    background: $color-gray-warm-light;
-    border: none;
-    border-radius: 0;
-    margin-bottom: 0;
-    border-bottom: 1px solid #d5d4d3;
-    flex: none;
+    margin: 0;
     & .usa-da-header-container {
         height: 160px;
         & .usa-da-masthead-wrap {
@@ -73,7 +68,7 @@
         .usa-da-header-container {
             height: auto;
             position: relative;
-            padding: 0 30px;
+            padding: 0 15px;
             .usa-da-masthead-wrap {
                 width: auto;
                 a.usa-da-navbar-header {
@@ -97,7 +92,7 @@
             }
             & .seal-block {
                 position: absolute;
-                right: 30px;
+                right: 15px;
                 top: 24px;
                 display: block;
                 & .tagline-one,
@@ -126,27 +121,29 @@
         }
     }
     ul#usa-da-header-link-holder {
-        padding: 0 30px;
+        padding: 0 15px;
         font-size: 1.5rem;
         font-weight: $font-normal;
         @include flexbox();
         justify-content: flex-start;
         -webkit-flex-flow: row wrap;
-    
-        & > li > a {
-            color: $color-gray;
-            vertical-align: middle;
-            padding: 1.5rem;
-            font-size: 1.2rem;
-            &:hover {
-                transition: background-color 0.2s ease;
-                background-color: #f7f5f2;
-                color: #000;
-            }
-            &:focus {
-                outline-style:none;
-                box-shadow:none;
-                border-color:transparent;
+        & > li {
+            margin: 0;
+            a {
+                color: $color-gray;
+                vertical-align: middle;
+                padding: 1.3rem;
+                font-size: 1.3rem;
+                &:hover {
+                    transition: background-color 0.2s ease;
+                    background-color: #f7f5f2;
+                    color: #000;
+                }
+                &:focus {
+                    outline-style: none;
+                    box-shadow: none;
+                    border-color: transparent;
+                }
             }
         }
         & > li.active > * {

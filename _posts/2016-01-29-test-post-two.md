@@ -1,6 +1,6 @@
 ---
-layout: blog-post
-permalink: blog/:year/:month/:day/:title/
+layout: act-ivity-post
+permalink: act-ivity/:year/:month/:day/:title/
 tags: Data Broker, Fed Spending
 byline: Jon Doe
 

@@ -1,0 +1,202 @@
+{
+    "scale": "human",
+    "title": {
+        "media": {
+            "caption": "",
+            "credit": "",
+            "url": "",
+            "thumb": ""
+        },
+        "text": {
+            "headline": "Data Act Timeline",
+            "text": "<p>A timeline of the Data Act</p>"
+        }
+    },
+    "events": [{
+        "start_date": {
+            "year": "2014",
+            "month": "5",
+            "day": "",
+            "hour": "",
+            "minute": "",
+            "second": "",
+            "millisecond": "",
+            "format": ""
+        },
+        "group": "Key Legislative Milestones",
+        "media": {
+            "caption": "DATA Act signed into Law",
+            "credit": "",
+            "url": "",
+            "thumb": ""
+        },
+        "text": {
+            "headline": "DATA Act signed into Law",
+            "text": "Text will go here"
+        }
+    }, {
+        "start_date": {
+            "year": "2015",
+            "month": "5",
+            "day": "",
+            "hour": "",
+            "minute": "",
+            "second": "",
+            "millisecond": "",
+            "format": ""
+        },
+        "group": "Key Legislative Milestones",
+        "media": {
+            "caption": "",
+            "credit": "",
+            "url": "",
+            "thumb": ""
+        },
+        "text": {
+            "headline": "Issue preliminary guidance; initiate pilots",
+            "text": "Text will go here"
+        }
+    }, {
+        "start_date": {
+            "year": "2016",
+            "month": "11",
+            "day": "",
+            "hour": "",
+            "minute": "",
+            "second": "",
+            "millisecond": "",
+            "format": ""
+        },
+        "group": "Key Legislative Milestones",
+        "media": {
+            "caption": "",
+            "credit": "",
+            "url": "",
+            "thumb": ""
+        },
+        "text": {
+            "headline": "Agency IGs submit 1st report on data quality",
+            "text": "Text can go here"
+        }
+    }, {
+        "start_date": {
+            "year": "2017",
+            "month": "5",
+            "day": "",
+            "hour": "",
+            "minute": "",
+            "second": "",
+            "millisecond": "",
+            "format": ""
+        },
+        "group": "Key Legislative Milestones",
+        "media": {
+            "caption": "",
+            "credit": "",
+            "url": "",
+            "thumb": ""
+        },
+        "text": {
+            "headline": "Agencies required to submit financial dan payment data",
+            "text": "Text could live here."
+        }
+    }, {
+        "start_date": {
+            "year": "2017",
+            "month": "8",
+            "day": "",
+            "hour": "",
+            "minute": "",
+            "second": "",
+            "millisecond": "",
+            "format": ""
+        },
+        "group": "Key Legislative Milestones",
+        "media": {
+            "caption": "",
+            "credit": "",
+            "url": "",
+            "thumb": ""
+        },
+        "text": {
+            "headline": "OMB Report to Congress",
+            "text": "Text will live here."
+        }
+    }, {
+        "start_date": {
+            "year": "2017",
+            "month": "11",
+            "day": "",
+            "hour": "",
+            "minute": "",
+            "second": "",
+            "millisecond": "",
+            "format": ""
+        },
+        "group": "Key Legislative Milestones",
+        "media": {
+            "caption": "",
+            "credit": "",
+            "url": "",
+            "thumb": ""
+        },
+        "text": {
+            "headline": "GAO report",
+            "text": "Text could live here."
+        }
+    }, {
+        "start_date": {
+            "year": "2018",
+            "month": "5",
+            "day": "",
+            "hour": "",
+            "minute": "",
+            "second": "",
+            "millisecond": "",
+            "format": ""
+        },
+        "group": "Key Legislative Milestones",
+        "media": {
+            "caption": "",
+            "credit": "",
+            "url": "",
+            "thumb": ""
+        },
+        "text": {
+            "headline": "Treasury and OMB ensure published data conforms to standards",
+            "text": "Text could live here."
+        }
+    }, {
+        "start_date": {
+            "year": "2015",
+            "month": "2",
+            "day": "7",
+            "hour": "",
+            "minute": "",
+            "second": "",
+            "millisecond": "",
+            "format": ""
+        },
+        "end_date": {
+            "year": "2015",
+            "month": "8",
+            "day": "3",
+            "hour": "",
+            "minute": "",
+            "second": "",
+            "millisecond": "",
+            "format": ""
+        },
+        "group": "Schema & Guidance",
+        "media": {
+            "caption": "",
+            "credit": "",
+            "url": "",
+            "thumb": ""
+        },
+        "text": {
+            "headline": "Example of an event spanning over time",
+            "text": ""
+        }
+    }]
+}

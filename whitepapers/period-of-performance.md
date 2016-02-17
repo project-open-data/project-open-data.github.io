@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/period-of-performance/
-layout: hero
+layout: article
 filename: period-of-performance.md
 title: Period of Performance
 ---
@@ -9,7 +9,7 @@ title: Period of Performance
 # Element: Action Date, Period of Performance Start Date, Period of Performance Current End Date, Period of Performance Potential End Date, Ordering Period End Date
 
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -74,7 +74,7 @@ The goal is to harmonize these two definitions for the purposes of standardizing
 
 ##Final Definitions for Transparency Reporting
 The following data elements are proposed as those necessary to communicate the Period of Performance of a federal award to the public:
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Data Element Name</th>

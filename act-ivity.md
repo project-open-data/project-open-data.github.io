@@ -1,13 +1,13 @@
 ---
 published: true
-permalink: /blog/
-layout: blog-front
-filename: blog.md
-title: Blog
+permalink: /act-ivity/
+layout: act-ivity-front
+filename: act-ivity.md
+title: DATA Act-ivity
 ---
 
 <div class="container">
-    <div class="row-fluid">
+    <div class="row">
         <div class="col-md-8 blog">
             {% for post in site.posts %}
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>

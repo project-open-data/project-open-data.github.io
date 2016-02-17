@@ -1,6 +1,6 @@
 @import './common';
 .container {
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -87,8 +87,10 @@ p.large {
 
 @mixin para {
     font-weight: $font-normal;
-    font-size: 1.4rem;
-    line-height: 2.2rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #525252;
 }
 
 p {
@@ -100,18 +102,26 @@ p.italic {
     font-style: italic;
 }
 
-ol {
+ol,
+ul {
     margin: 0 0 30px;
     & li {
-        font-size: 1.4rem;
-        line-height: 2.2rem;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
         margin-bottom: 0.75em;
         margin-top: 0.75em;
     }
 }
 
+table + p {
+    margin-top: 3.0rem;
+}
+
 .panel {
     border-radius: 0;
+    & p:first-child {
+        margin-top: 0;
+    }
 }
 
 
@@ -122,13 +132,13 @@ table {
     &.table-bordered {
         width: 100%;
         & thead {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-weight: $font-bold;
-            min-height: 50px;
+            // min-height: 50px;
             & tr {
                 & th {
-                    height: 50px;
-                    padding: 0 20px;
+                    // height: 50px;
+                    padding: 15px;
                     border-bottom: none;
                 }
             }
@@ -136,8 +146,8 @@ table {
         & tbody {
             & tr {
                 & td {
-                    padding: 0 20px;
-                    height: 40px;
+                    padding: 15px;
+                    // min-height: 40px;
                     font-size: 1.4rem;
                     color: $color-gray;
                 }
@@ -186,15 +196,16 @@ table {
     font-size: 1.4rem;
     border-radius: 0;
     position: relative;
+    margin: 40px 0 !important;
     & h3 {
-        font-size: 2.2rem;
-        margin: 2px 0 8px 56px;
+        font-size: 2.4rem;
+        margin: 2px 0 8px 48px;
     }
     & p {
-        margin: 5px 0 5px 56px;
+        margin: 5px 0 5px 48px;
     }
     & .glyphicon {
-        font-size: 3.8rem;
+        font-size: 3.2rem;
         position: absolute;
         top: 15px;
         left: 15px;
@@ -320,27 +331,29 @@ table {
     & .row p:last-child {
         margin-bottom: 0;
     }
+    @include media($x-small-screen) {
+        & .col-md-8 {
+            & p:last-child {
+                margin-bottom: 40px;
+            }
+        }
+    }
     & .panel-container {
         margin-top: 20px;
         @include clearfix;
-        & .col-md-6,
-        .col-md-12 {
-            padding-left: 0;
-        }
-        & .col-md-6 .panel {
-            min-height: 270px;
-        }
+        & .col-md-6 .panel {}
     }
     & .panel-heading h3 {
         margin: 0;
         font-weight: $font-bold;
         font-size: 2.0rem;
         line-height: 2.8rem;
+        color: #555
     }
     & .media {
         margin-bottom: 30px;
         &:last-child {
-            margin-bottom: 0;
+            margin-bottom: 20px;
         }
         & p {
             margin: 0 0 1em;
@@ -358,7 +371,7 @@ table {
             width: 64px;
             height: 61px;
             padding: 0 3px;
-            background-image: url("../img/graphic-sprite.png");
+            background-image: url('../img/graphic-sprite.png');
             background-size: 290%;
             background-position-x: 1px;
         }
@@ -374,9 +387,79 @@ table {
     }
 }
 
+/***** ARTICLE PAGE *****/
+.article-wrap {
+    & p,
+    & ol,
+    & li {
+        max-width: 76rem;
+    }
+    & .get-involved-wrap {
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        margin: 0 0 40px;
+        & .left-block {
+            @include flexbox;
+            flex-direction: column;
+            justify-content: center;
+            background: #ececec;
+            & .text-block {
+                & h3 {
+                    color: #444;
+                    margin: 0 0 0.5rem;
+                    font-size: 3.5rem;
+                    font-weight: 200;
+                    margin: 0 0 0.8rem;
+                    @include media($x-small-screen) {
+                        margin-top: 20px;
+                    }
+                }
+                & p {
+                    color: #444;
+                    font-size: 1.3rem;
+                    line-height: 1.7rem;
+                }
+            }
+        }
+        & .right-block {
+            flex: 1 auto;
+            order: 2;
+            border: 1px solid #ececec;
+            padding: 30px 20px;
+            & p:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    & .calendar-wrap {
+        border: 1px solid #ececec;
+        padding: 0 20px;
+        margin-bottom: 30px;
+        & h5{
+            line-height: 1.8rem;
+            margin-bottom: 0;
+        }
+        
+        & ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            & li {
+                line-height: 1.6rem;
+                font-size: 1.4rem;
+                &:last-child {
+                    margin-bottom: 3.0rem;
+                }
+                & a:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
 
 /***** BLOG PAGE *****/
-
 .blog {
     & h2 {
         & a {
@@ -385,6 +468,7 @@ table {
     }
     & cite {
         padding: 8px 5px 6px;
+        margin: 0 0 20px;
         border-top: #ececec 1px solid;
         border-bottom: #ececec 1px solid;
         font-size: 1.2rem;
@@ -409,8 +493,35 @@ table {
 }
 
 
-/***** DATA-ELEMENTS *****/
+/***** TIMELINE *****/
+#timeline {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    min-height: 400px;
+}
 
+// .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container-small {
+//     background-color: $color-gray;
+// }
+
+// #issue-preliminary-guidance-initiate-pilots-marker.tl-timemarker.tl-timemarker-active > .tl-timemarker-content-container.tl-timemarker-content-container-small {
+//     background-color: red;
+// }
+
+// #example-of-an-event-spanning-over-time-marker.tl-timemarker.tl-timemarker-active > .tl-timemarker-content-container.tl-timemarker-content-container-small {
+//     background-color: blue;
+// }
+
+// .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+//     color: #fff
+// }
+
+// #agencies-required-to-submit-financial-dan-payment-data-marker {
+//     background: red;
+// }
+
+
+/***** DATA-ELEMENTS PAGE *****/
 .data-elements {
     & table {
         width: 100%;
@@ -423,51 +534,46 @@ table {
     }
 }
 
+/***** CHARTS *****/
+// #pieLegend, #doughnutLegend, #lineLegend {
+//     & ul{
+//     background: green;
+//         & li{
+//             display: block;
+//             float: left;
+//             & span{
+//                 display: block;
+//                 height: 10px;
+//                 width: 10px;
 
-/***** STYLEGUIDE SPECIFIC *****/
+//             }
+//         }
+//     }
+// }
 
-h3.display-one.styleguide-only {
-    margin-top: 20px;
-}
-
-h2.styleguide-only {
-    border-bottom: 1px solid #ccc;
-    padding: 0 0 10px;
-}
-
-.btn {
-    &.btn-primary {
-        &.styleguide-active {
-            background: $color-primary-darker;
-        }
-        &.styleguide-hover {
-            background: $color-primary-darkest;
+    .chart-legend {
+        & ul {
+            padding: 0;
+            & li {
+                display: block;
+                float: left;
+                margin: 0 20px 0 0;
+                & span {
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 4px;
+                }
+            }
         }
     }
-    &.btn-primary-alt {
-        &.styleguide-active {
-            background: $color-primary-alt-darkest;
-            color: #fff;
-        }
-        &.styleguide-hover {
-            background: $color-primary-alt-dark;
-        }
-    }
-    &.btn-danger {
-        &.styleguide-active {
-            background: $color-secondary-darkest;
-            color: #fff;
-        }
-        &.styleguide-hover {
-            background: $color-secondary-dark;
-        }
-    }
-    &.btn-default {
-        &.styleguide-active {
-            color: $color-primary-darkest;
-        }
-        &.styleguide-hover {
-            background: $color-primary-alt-lightest;
-        }
-    }
-}
+
+
+
+
+// li span{
+//     display: inline-block;
+//     width: 122px;
+//     height: 12px;
+//     margin-right: 5px;
+// }

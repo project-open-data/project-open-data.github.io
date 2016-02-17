@@ -1,14 +1,14 @@
 ---
 published: true
 permalink: /whitepapers/types/
-layout: hero
+layout: article
 filename: types.md
 title: Types
 ---
 
 # Element: Award Type, Action Type, Record Type
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -70,7 +70,7 @@ Each procurement action is identified with an Indefinite Delivery Vehicle (IDV) 
 
 Indefinite Delivery Vehicle (IDV) Type – IDVs represent different types of ordering instruments under which federal agencies may place delivery/task orders or blanket purchase agreement (BPA) call orders
 
-<table>
+<table class='table-bordered'>
   <thead>
       <tr>
         <th scope="col">Code</th>
@@ -130,7 +130,7 @@ Additionally, each procurement transaction identifies the predominant Type of Co
 
 Type of Contract (Pricing)
 
-<table>
+<table class='table-bordered'>
   <thead>
       <tr>
         <th scope="col">Code</th>
@@ -208,7 +208,7 @@ Type of Contract (Pricing)
 Each financial assistance action is identified with a Type of Assistance value in the FAADS+ data format as shown below.
 
 Type of Assistance
-<table>
+<table class='table-bordered'>
   <thead>
       <tr>
         <th scope="col">Code</th>
@@ -263,7 +263,7 @@ Type of Assistance
 Associated with each award type are action types that result in changes to funding, reflect changes in administrative information (for the federal government or the awardee), or in some other way reflect changes to the agreement.  Action types differ across federal awarding communities and are called “type of action” for financial assistance and “reason for modification” for procurement.  Regardless of the terminology or the code, these types indicate the specific subsequent change to the initial award.   
 
 (1) For Federal financial assistance, the “type of action code” data element identifies whether the action is a new agreement or a modification.  Values for the Type of Action are the following:
-<table>
+<table class='table-bordered'>
   <thead>
       <tr>
         <th scope="col">Code</th>
@@ -290,7 +290,7 @@ Associated with each award type are action types that result in changes to fundi
 
 (2) For Federal procurement, the “Reason for Modification” data element captures the reason for a modification to a contract and are defined as shown below.  Note, the absence of a “Reason for Modification” code indicates that the action is a new procurement award.  
 
-<table>
+<table class='table-bordered'>
   <thead>
       <tr>
         <th scope="col">Code</th>
@@ -391,7 +391,7 @@ For payments to individuals, agencies should not report at an action-by-action l
 
 The FAADS field where a user can designate aggregate reporting is Record Type.  Values for Record Type are as follows:
 
-<table>
+<table class='table-bordered'>
   <thead>
       <tr>
         <th scope="col">Code</th>

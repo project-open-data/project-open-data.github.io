@@ -1,6 +1,10 @@
-html {
+/* IMPORT SOURCE SANS PRO FONT FROM GOOGLE FONTS */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic);
+
+html, body {
     height: 100%;
     -webkit-font-smoothing: antialiased !important;
+    font-family: $font-sans;
 }
 
 .usa-da-body {
@@ -20,6 +24,7 @@ $color-darkest: #2C333B;
 
 /* Fonts */
 
+
 @font-face {
     font-family: "dataact";
     src: url("../fonts/dataact.eot");
@@ -28,13 +33,14 @@ $color-darkest: #2C333B;
     font-style: normal;
 }
 
-
-a:visited, a:hover, a:active {
-  color: #0071bc;
+a:visited,
+a:hover,
+a:active {
+    color: #0071bc;
 }
 
-/* Classes */
 
+/* Classes */
 .usa-da-text-white {
     color: white
 }
@@ -90,41 +96,6 @@ $alpha) {
 }
 
 
-/* Tables */
-
-.usa-da-table-holder {
-    margin: 60px auto;
-    text-align: center;
-}
-
-.usa-da-table {
-    width: 100%;
-    thead {
-        tr {
-            background-color: $color-gray-light;
-            border: 1px solid $color-gray-light;
-        }
-        th {
-            text-align: right;
-            color: white;
-            border: 1px solid $color-gray-light;
-            border-right: 1px solid $color-gray-lightest;
-        }
-        th:last-child {
-            border-right: 1px solid $color-gray-light;
-        }
-    }
-    th,
-    td {
-        border: 1px solid $color-gray-light;
-        padding: 1.0rem 2.0rem;
-        text-align: right;
-        color: $color-gray;
-    }
-}
-
-
-
 /* Content */
 
 .usa-da-content {
@@ -167,19 +138,19 @@ $alpha) {
     margin: 60px 0 0;
     & p {
         color: #fff;
-        margin: 20px 10px;
+        margin: 20px 0;
     }
     & .github-btn {
         margin: 10px 0 -12px;
         width: 80px;
         height: 34px;
-        background:#eee;
-        & .github-btn-large{
-        	height: 50px;
+        background: #eee;
+        & .github-btn-large {
+            height: 50px;
         }
     }
     & .footer-links {
-        margin: 8px 0 0;
+        margin: 5px 0 0;
     }
 }
 
@@ -189,104 +160,90 @@ $alpha) {
             text-align: left;
             padding: 0;
         }
-        & .col-md-push-4.footer-links {
+        & .col-md-push-7.footer-links {
             text-align: right;
+            padding: 0 10px 0 0;
         }
     }
 }
 
 
-/* Buttons */
-
-.usa-da-button-bigger {
-    width: 70%;
-    padding: 1.5em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-.usa-da-button-biggest {
-    width: 100%;
-    padding: 3em;
-}
-
 /* Alerts */
 
 .usa-alert {
-  @include media($medium-screen) {
-    background-size: 5.2rem;
-  }
-  background-color: $color-gray-lightest;  
-  background-position: 1rem 2rem;
-  background-repeat: no-repeat;
-  background-size: 4rem;
-  margin-top: 1.5em;
-  padding: 1em;
-
-  ul {
-    margin: {
-      bottom: 0;
-      top: 1em;
+    @include media($medium-screen) {
+        background-size: 5.2rem;
     }
-  }
+    background-color: $color-gray-lightest;
+    background-position: 1rem 2rem;
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    margin-top: 1.5em;
+    padding: 1em;
+    ul {
+        margin: {
+            bottom: 0;
+            top: 1em;
+        }
+    }
 }
 
 .usa-alert-icon {
-  display: table-cell;
-  padding-right: 1rem;
+    display: table-cell;
+    padding-right: 1rem;
 }
 
 .usa-alert-body {
-  @include media($medium-screen) {
-    padding-left: 5rem;
-  }
-  display: table-cell;
-  padding-left: 3.5rem;
-  vertical-align: top;
+    @include media($medium-screen) {
+        padding-left: 5rem;
+    }
+    display: table-cell;
+    padding-left: 3.5rem;
+    vertical-align: top;
 }
 
 .usa-alert-heading {
-  @include media($medium-screen) {
-    margin-top: .3rem;
-  }
-  	margin: {
-    bottom: .3rem;
-    top: 0;
-  }
+    @include media($medium-screen) {
+        margin-top: .3rem;
+    }
+    margin: {
+        bottom: .3rem;
+        top: 0;
+    }
 }
 
 .usa-alert-text {
-  font-family: $font-sans;
-  margin: {
-    bottom: 0;
-    top: 0;
-  }
+    font-family: $font-sans;
+    margin: {
+        bottom: 0;
+        top: 0;
+    }
 }
 
 .usa-alert-success {
-  background-color: $color-green-lightest;
-  background-image: url('../img/18f/alerts/success.png');  
-  background-image: url('../img/18f/alerts/success.svg');  
+    background-color: $color-green-lightest;
+    background-image: url('../img/18f/alerts/success.png');
+    background-image: url('../img/18f/alerts/success.svg');
 }
 
 .usa-alert-warning {
-  background-color: $color-gold-lightest;
-  background-image: url('../img/18f/alerts/warning.png');  
-  background-image: url('../img/18f/alerts/warning.svg');   
+    background-color: $color-gold-lightest;
+    background-image: url('../img/18f/alerts/warning.png');
+    background-image: url('../img/18f/alerts/warning.svg');
 }
 
 .usa-alert-error {
-  background-color: $color-secondary-lightest;
-  background-image: url('../img/18f/alerts/error.png');  
-  background-image: url('../img/18f/alerts/error.svg');   
+    background-color: $color-secondary-lightest;
+    background-image: url('../img/18f/alerts/error.png');
+    background-image: url('../img/18f/alerts/error.svg');
 }
 
 .usa-alert-info {
-  background-color: $color-primary-alt-lightest;
-  background-image: url('../img/18f/alerts/info.png');  
-  background-image: url('../img/18f/alerts/info.svg');   
+    background-color: $color-primary-alt-lightest;
+    background-image: url('../img/18f/alerts/info.png');
+    background-image: url('../img/18f/alerts/info.svg');
 }
 
 .usa-alert-no_icon {
- background-image: none; 
+    background-image: none;
 }

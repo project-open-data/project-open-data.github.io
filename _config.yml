@@ -27,8 +27,8 @@ navigation:
    url: /index.html
  - title: About
    url: /about
- - title: Data Elements
-   url: /data-elements
+ - title: Data Model
+   url: /data-model
  - title: Data Schema
    url: /data-schema
  - title: Data Broker
@@ -37,8 +37,8 @@ navigation:
    url: /usability
  - title: Get Involved
    url: "/get-involved"
- - title: Blog
-   url: "/blog"  
+ - title: DATA Act-ivity
+   url: "/act-ivity"  
 
  # - title: Discuss
  #   url: "https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues"

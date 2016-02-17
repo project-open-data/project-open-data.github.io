@@ -1,14 +1,14 @@
 ---
 published: true
 permalink: /whitepapers/place-of-performance/
-layout: hero
+layout: article
 filename: place-of-performance.md
 title: Place of Performance
 ---
 
 # Element: Primary Place of Performance Address, Primary Place of Performance Congressional District, Primary Place of Performance Country Code, and Primary Place of Performance Country Name
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -93,7 +93,7 @@ This paper recommends that a future activity of the Award Committee for E-Govern
 
 
 ##Final Definitions for Transparency Reporting
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Data Element Name</th>

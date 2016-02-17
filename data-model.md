@@ -1,10 +1,10 @@
 ---
 published: true
-permalink: /data-elements/
+permalink: /data-model/
 layout: article
-filename: data-elements.md
-title: Data Elements
-page: data-elements
+filename: data-model.md
+title: Data Model
+page: data-model
 ---
 
 # Federal Spending Data Elements
@@ -21,7 +21,7 @@ The data elements are grouped by category; each short list represents a differen
 
 Data standards for these data elements have all been finalized. The final data element names and definitions are located [here]().
 
-If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines]({{ site.baseurl }}/feedback/). Please click _Get Updates_ above to receive emails as we update other pages on this site.
+If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines]({{ site.baseurl }}/feedback/). Please click _Get Updates_ above to receive emails as we update other pages on this site. 
 
 
 
