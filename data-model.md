@@ -7,396 +7,81 @@ title: Data Model
 page: data-model
 ---
 
-# Federal Spending Data Elements
+# Data Model
 
-**The lists on this page contain two types of federal spending data elements:**
+To provide federal agencies the guidance to meet the requirements of the DATA Act and gain its benefits, we have designed a data model that captures the data elements needed, their relationships, and the overall context of how they fit together.
 
-1. Existing Federal Funding Accountability and Transparency Act (FFATA) data elements, which are currently featured on USAspending.gov
-2. Additional data elements required by the DATA Act that will be featured on USASpending.gov once the DATA Act is fully implemented
+The value of the data model is to provide clarity, guidance, and instruction on the need, submission, and use of the DATA Act elements.  
 
-The elements on these lists have been discussed by members of the federal community as part of the DATA Act.
-At the current time, these lists are exhaustive. That said, the federal community is aware of agencies’ and the larger community’s needs and may add and standardize new elements to improve transparency reporting moving forward.
+Interconnecting previously disconnected business domain areas, like financial management and procurement, has impacts to current business processes. One of the most effective ways to minimize the impacts is to design a data model that reflects the various business process subtleties, functional nuances, and complex relationships. To do this, we have compiled a set of artifacts to communicate the data model. These artifacts are referred to as the DATA Act Information Model Schema (DAIMS).
 
-The data elements are grouped by category; each short list represents a different category. In addition, each element will have it's own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who posted responses to these papers and provided input on these data elements.
+**The DAIMS contains artifacts that:**
 
-Data standards for these data elements have all been finalized. The final data element names and definitions are located [here]().
+* Help federal agencies understand what data to submit, with layout and context information
 
-If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines]({{ site.baseurl }}/feedback/). Please click _Get Updates_ above to receive emails as we update other pages on this site. 
+* Help the public understand what the data means
 
 
+**The specific DAIMS artifacts include:**
 
-## Awardee and Recipient Entity Information
+* Reporting Submission Specification (RSS) – contains the specific guidance federal agencies need to submit content and the appropriate format for a submission
 
-This list includes information about recipients and awardees of federal funds. Please note that these elements will be standardized across the different types of awards (grants, contracts, etc.).
+* Data Elements Guidance (DEG) – contains a comprehensive listing of the elements with supporting metadata to understand context, relationships, and derivations
 
-<table class='table-bordered'>
-  <thead>
-    <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
-    </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Entity Name whitepaper">Awardee/Recipient Legal Entity Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for legal Entity name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Entity Name whitepaper">Awardee/Recipient Unique Identifier</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for legal Entity identifier number">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Entity Name whitepaper">Ultimate Parent Unique Identifier</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for ultimate parent unique identifier">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unique-id-business-name/" title="Unique Identifier and Legal Entity Name whitepaper">Ultimate Parent Legal Entity Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/45" title="feedback for ultimate parent legal Entity name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/entity-address/" title="entity address whitepaper">Legal Entity Address</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback for Legal Entity Address">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/entity-address/" title="entity address whitepaper">Legal Entity Congressional District</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback for Legal Entity Address">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/entity-address/" title="entity address whitepaper">Legal Entity Country Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback for Legal Entity Address">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/entity-address/" title="entity address whitepaper">Legal Entity Country Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/79" title="feedback for Legal Entity Country Name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/highlycompensatedofficers/" title="Highly Compensated Officers whitepaper">Highly Compensated Officer Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Highly Compensated Officer Name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/highlycompensatedofficers/" title="Highly Compensated Officers whitepaper">Highly Compensated Officer Total Compensation</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/14" title="feedback for Highly Compensated Officer Total Compensation">feedback period closed</a></td>
-  </tr>
-</table>
+* Schema Diagrams – visual representations of how the data elements fit together in context
+
+* Online Data Dictionary – a list of data elements with definitions and minimal metadata, like data type
+
+* XBRL Schema Files – a machine-readable format of the elements that federal agencies submit
 
 
-## Award Amount Information
+The policies that affect the data needed for the DATA Act are continuously evolving. The policy changes, coupled with the feedback we receive from our engagements with federal agencies and stakeholders, have generated several releases of our data model since July 2015.
 
-This list includes elements used to describe the amount of a certain award.
+The revision process is part of our user-centric approach that depends on active participation by federal agencies, Congress, and the public. We will continue to share our latest thinking and actively seek your engagement to improve on our work.
 
-<table class='table-bordered'>
-  <thead>
-    <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
-    </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Amount of Award*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Non-Federal Funding Amount</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Federal Action Obligation*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Current Total Value of Award</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/amount/" title="Amounts whitepaper">Potential Total Value of Award</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/76" title="feedback for Award Amount Information">feedback period closed</a></td>
-  </tr>
-</table>
+To provide feedback on our data model (DAIMS), please see our related issue on [GitHub](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/126){:target="_blank"}.
 
 
-## Award Characteristic Information
+##Reporting Submission Specification (RSS)
 
-These elements describe the different characteristics each award possesses – for example, its transaction code, its Award Identification (ID) Number, and so on.
+An RSS details what needs to be included in a submission and the appropriate format for a submission. It includes information like which data elements are optional/required, how long a field is, and other metadata to understand what a data element means. The RSS documents contain the specific instructions a federal agency will need to submit data.
 
-<table class='table-bordered'>
-  <thead>
-    <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
-    </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/types/" title="Type of Transaction Code whitepaper">Award Type*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
-  </tr>
-    <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="feedback for North American Industrial Classification System Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/naics/" title="North American Industrial Classification System whitepaper">North American Industrial Classification System (NAICS) Description</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/13" title="feedback for North American Industrial Classification System Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/cfdaprogramnumber-title/" title="CFDA Program Number_Title whitepaper">Catalog of Federal Domestic Assistance (CFDA) Number</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67" title="feedback for Catalogue of Federal Domestic Assistance and Title">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/cfdaprogramnumber-title/" title="CFDA Program Number_Title whitepaper">Catalog of Federal Domestic Assistance (CFDA) Title</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/67" title="feedback for Catalogue of Federal Domestic Assistance and Title">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Treasury Account Symbol (excluding Sub-Account)</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/award-id-description/" title="Award Identification (ID) Number and Description whitepaper">Award Description</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback for Award Identification (ID) Number and Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/award-id-description/" title="Award Identification (ID) Number and Description whitepaper">Award Modification / Amendment Number</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback for Award Identification (ID) Number and Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/award-id-description/" title="Award Identification (ID) Number and Description whitepaper">Parent Award Identification (ID) Number</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback for Award Identification (ID) Number and Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Action Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Start Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Current End Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Period of Performance Potential End Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/period-of-performance/" title="Period of Performance whitepaper">Ordering Period End Date</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/71" title="feedback Action Date, Period of Performance, and Ordering Period End Date">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Address</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Congressional District</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Country Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/place-of-performance/" title="Place of Performance whitepaper">Primary Place of Performance Country Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/72" title="feedback Primary Place of Performance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/award-id-description/" title="Award Identification (ID) Number and Description whitepaper">Award Identification (ID) Number</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/78" title="feedback for Award Identification (ID) Number and Description">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/types/" title="Type of Transaction Code whitepaper">Record Type</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/types/" title="Type of Transaction Code whitepaper">Action Type*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/73" title="feedback Type of Transaction Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/business-types/" title="Business Type whitepaper">Business Types*</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/77" title="feedback Business Type">feedback period closed</a></td>
-  </tr>
-</table>
+Going forward, the RSS will continue to evolve as the DATA Act data model is updated and will continue to reflect the specific instructions for federal agencies. Federal agencies can view more information about RSSs, see Data Submission [link to Data Submission page on Max.gov]. 
+
+##Data Elements Guidance (DEG)
+
+In the course of developing and sharing the elements, we have learned that too much detail can be overwhelming. We are working with stakeholders to determine an appropriate balance of detail to provide in the DEG.
+
+The FFATA and DATA Act outline the required information for federal spending transparency reporting. These requirements were translated into core data elements that were standardized with feedback from the federal community and external stakeholders. The finalized definitions of these elements are available on the [Data Elements page]({{ site.baseurl }}/data-elements).
 
 
-## Funding Entity Information
+##Schema diagrams
 
-These data elements describe characteristics of the entity that provided funding for an award.
+The schema diagrams are visual representations of how the different data elements are related. They show the groupings of elements and attributes.
 
-<table class='table-bordered'>
-  <thead>
-    <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
-    </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/fundingagency/" title="Funding Agency Name whitepaper">Funding Agency Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68" title="leave feedback for Funding Agency Name and Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/fundingagency/" title="Funding Agency Name whitepaper">Funding Agency Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/68" title="leave feedback for Funding Agency Name and Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Sub Tier Agency Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Sub Tier Agency Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Office Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Funding Sub Tier Agency Name whitepaper">Funding Office Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70" title="Funding Sub Tier Agency Name/Code And Funding Office Name/Code">feedback period closed</a></td>
-  </tr>
-</table>
+<div class="list-group">
+  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageA_v0.7.pdf" target="_blank" class="list-group-item">Package A</a>
+  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageB_v0.7.pdf" target="_blank" class="list-group-item">Package B</a>
+  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageC_v0.7.pdf" target="_blank" class="list-group-item">Package C</a>
+  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageD_v0.7.pdf" target="_blank" class="list-group-item">Package D</a>
+  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageE_v0.7.pdf" target="_blank" class="list-group-item">Package E</a>
+</div>
 
 
-## Awarding Entity Information
+##Online Data Dictionary
 
-Elements on this list describe awarding entities – those that presented the awardee with the funding.
-
-<table class='table-bordered'>
-  <thead>
-    <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
-    </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/fundingagency/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Awarding Agency Name">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/fundingagency/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Awarding Agency Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Awarding Agency Code">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Sub Tier Agency Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Sub Tier Agency Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Office Name</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/sub-tier-agency/" title="Awarding Sub Tier Agency and Office whitepaper">Awarding Office Code</a></td>
-    <td>FFATA</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75" title="leave feedback Awarding Sub Tier Agency">feedback period closed</a></td>
-  </tr>
-</table>
+The [Data Dictionary]({{ site.baseurl }}/dictionary/){:target="_blank"} is a list of the data elements with definitions and details of associated metadata. Click the link in the information Model Element – Semantic Label column to access the metadata details.
 
 
-## Account Level Information
+##XBRL Schema Files
 
-This list features elements that describe the accounts from which the awards are funded.
+A data standard contains both a human-readable version of the standard and a machine-readable version of a standard. The XBRL Schema files are the machine-readable version of the DATA Act standard.
 
-<table class='table-bordered'>
-  <thead>
-    <tr>
-      <th scope="col">Data Element Name</th>
-      <th scope="col">Legislation</th>
-      <th scope="col">Provide Feedback</th>
-    </tr>
-  </thead>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/objectclass/" title="Object Class whitepaper">Object Class</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/19" title="feedback for Object Class">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/approp-agency-tas/" title="Treasury Account Symbol, Agency, and Appropriations Fund whitepaper">Appropriations Account</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/32" title="feedback for Appropriations Account">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/ba-appropriated-other-resources/" title="Budget Authority Amount and Other Budgetary Resources whitepaper">Budget Authority Appropriated</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/31" title="feedback for Budget Authority Appropriated">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/obligation/" title="Obligation whitepaper">Obligation</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/20" title="feedback for Obligation">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/unobligated-balance/" title="Unobligated balance whitepaper">Unobligated Balance</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/51" title="feedback for Unobligated balance">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/ba-appropriated-other-resources/" title="Budget Authority Amount and Other Budgetary Resources whitepaper">Other Budgetary Resources</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/31" title="feedback for Other Budgetary Resources">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/programactivity/" title="Program Activity whitepaper">Program Activity</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/21" title="feedback for Program Activity">feedback period closed</a></td>
-  </tr>
-  <tr>
-    <td><a href="{{ site.baseurl }}/whitepapers/outlay/" title="Outlay whitepaper">Outlay</a></td>
-    <td>DATA Act</td>
-    <td><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/30" title="feedback for Outlay">feedback period closed</a></td>
-  </tr>
-</table>
-
-\* An asterisk (*) next to a data element name indicates that the name for that data element has changed since it was first posted here in December 2014.  All final data element names and definitions are posted [here](https://max.gov/datastandards).
+<div class="list-group">
+  <a href="http://fedspendingtransparency.github.io/schema/daims/treas-20151231.xsd" target="_blank" class="list-group-item">XSD</a>
+  <a href="http://fedspendingtransparency.github.io/schema/daims/treas-20151231_lab.xml" target="_blank" class="list-group-item">Labels</a>
+  <a href="http://fedspendingtransparency.github.io/schema/daims/treas-20151231_pre.xml" target="_blank" class="list-group-item">Presentation Hierarchy</a>
+  <a href="http://fedspendingtransparency.github.io/schema/daims/treas-20151231_def.xml" target="_blank" class="list-group-item">Definition Hierarchy</a>
+  <a href="http://fedspendingtransparency.github.io/schema/daims/treasury-fiscal-service-2015-12-31.xsd" target="_blank" class="list-group-item">Types</a>
+  <a href="http://fedspendingtransparency.github.io/schema/daims/DATA_Act_Schema_v0.7.zip" target="_blank" class="list-group-item">All Files (zipped)</a>
+</div>

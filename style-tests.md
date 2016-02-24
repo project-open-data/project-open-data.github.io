@@ -170,6 +170,28 @@ title: Style Tests
 
 
 
+<div class="row mt-30">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="styleguide-only">List Group</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="list-group">
+                <a href="#" target="_blank" class="list-group-item">Item A</a>
+                <a href="#" target="_blank" class="list-group-item">Item B</a>
+                <a href="#" target="_blank" class="list-group-item">Item C</a>
+                <a href="#" target="_blank" class="list-group-item">Item D</a>
+                <a href="#" target="_blank" class="list-group-item">Item E</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <!-- right col -->
+        </div>
+    </div>
+  </div>
+
 
 <div class="row mt-30">
   <div class="row">

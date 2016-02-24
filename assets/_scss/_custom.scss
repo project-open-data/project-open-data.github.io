@@ -124,6 +124,11 @@ table + p {
     margin-top: 3.0rem;
 }
 
+p + h2, ul + h2, .list-group + h2 {
+   margin-top: 6.0rem;
+}
+
+
 .panel, .panel-heading {
     border-radius: 0;
     & p:first-child {
@@ -215,6 +220,18 @@ table {
             }
         }
     }
+}
+
+.list-group-item {
+    padding: 15px;
+    &:first-child {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+}
+
+a.list-group-item {
+    color: #0071bc;
 }
 
 .alert {
@@ -638,6 +655,39 @@ img.learn-test-make{
 }
 
 
+
+/***** DATA DICTIONARY *****/
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 41px;
+    background: $gray-light;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    font-size: 1.8rem
+}
+#back-to-top:hover {
+    background: $color-primary-alt-dark;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+
+
+
+
+
+
 /***** GLOBAL MARGIN AND PADDING *****/
 
 .mt-0 {
@@ -663,3 +713,9 @@ img.learn-test-make{
 .mt-50 {
     margin-top: 50px;
 }
+
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+

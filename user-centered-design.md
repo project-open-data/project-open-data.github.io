@@ -7,7 +7,7 @@ title: User-Centered Design
 ---
 
 
-#USER-CENTERED DESIGN
+#User-Centered Design
 
 The DATA Act team strives to gain a better understanding of those who will be using the new USAspending.gov site and those responsible for uploading data to it.
 

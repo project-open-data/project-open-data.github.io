@@ -29,10 +29,10 @@ navigation:
    url: /about
  - title: Data Model
    url: /data-model
- - title: Data Schema
-   url: /data-schema
- - title: Data Broker
-   url: /data-broker
+ # - title: Data Schema
+ #   url: /data-schema
+ # - title: Data Broker
+ #   url: /data-broker
  - title: User-Centered Design
    url: /user-centered-design
  - title: Get Involved
