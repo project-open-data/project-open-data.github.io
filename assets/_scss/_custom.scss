@@ -74,7 +74,7 @@ h2 {
 }
 
 h3 {
-    font-weight: $font-light;
+    font-weight: $font-bold;
     font-size: 3.052rem;
     line-height: 3.252rem;
 }
@@ -284,6 +284,9 @@ a.list-group-item {
     & h3 {
         font-size: 2.4rem;
         margin: 2px 0 8px 48px;
+    }
+    & h5{
+        margin:10px 0 8px;
     }
     & p {
         margin: 5px 0 5px 48px;
@@ -498,7 +501,7 @@ a.list-group-item {
 
 
 .get-involved-wrap {
-    & h3 {
+    & h3.white {
         color: #fff;
     }
     & .everybody {
@@ -545,7 +548,7 @@ a.list-group-item {
         background: #f3f5f9;
         padding: 5px 15px;
         margin-bottom: 30px;
-        & h5{
+        & h6{
             margin-bottom: 0;
         }
         
