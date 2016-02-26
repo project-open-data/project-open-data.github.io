@@ -22,7 +22,8 @@ Thank you for helping us improve government data. Below are ways you can stay up
                     <div class="invite">
                         <span class="glyphicon glyphicon-envelope icon"></span>
                         <h5>You're Invited!</h5>
-                        <p>External Stakeholder call Wednesday, March X, 2016 <a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">View Invite</a></p>
+
+                        <p>External Stakeholder call<br>Wednesday, March X, 2016 <a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">View Invite</a></p>
                     </div>
                     <div class="media-body">
                         <p><strong>OpenBeta</strong> -- View and give us feedback on the the public beta (test) site for the next release of <a href="https://openbeta.usaspending.gov/" target="_blank">USAspending.gov</a>. Site visitors can manipulate pilot data and comment on usability and visualizations.</p>
