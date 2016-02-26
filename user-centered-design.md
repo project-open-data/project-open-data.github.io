@@ -23,9 +23,9 @@ Below are some specific examples of our work.  For more about the user-centered 
 
 Through meetings, workshops, analytics, and user interviews, the DATA Act team has worked to learn about users’ needs, including what they want from the data, their technical environments (e.g., browsers, other software used), and their “pain points” with the current system.  Read some of our findings here. [link to 18F research summary].
 
-From that, we have developed a preliminary list of targeted user types, and a “Persona” for each. Personas are snapshots of users that capture and organize information into visual summaries that inform the design process. Personas have photos and representative personal details to help make them more real and relatable.
+From that, we have developed a preliminary set of targeted user types, called “Personas.” Personas are visual encapsulations of research findings that inform the design process. **They capture real user perceptions, experiences, and quotations, which we draw on to build better software.** Photos and personal details, however, are merely representative to help make them more real and relatable.
 
-####Our current personas are:
+####Below are four examples of our current personas:
 
 <div class="row mt-30">
     <div class="col-md-6 persona-block">
@@ -72,6 +72,8 @@ From that, we have developed a preliminary list of targeted user types, and a �
     	<p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Repurposer_user_persona.pdf"><strong>Repurposer</strong></a>: Technically savvy user who aggregates, translates, and/or resells data for their own purposes</p>
     </div>
 </div>
+
+As more user research is conducted and designs are tested, our personas will evolve and continuously become more accurate.
 
 
 ##Make
