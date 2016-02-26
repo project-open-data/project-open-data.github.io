@@ -26,7 +26,7 @@ page: homepage
         </div>
     </div>
 </div>
-<div class="row row-eq-height">
+<div class="row row-eq-height mt-40">
     <div class="col-md-12">
         <h2>Our Workstreams and Where to Find Them</h2>
     </div>
@@ -43,7 +43,7 @@ page: homepage
                         </div>
                         <div class="media-body">
                             <p><a href="" title="Data Submission">Data Submission</a>: Getting data uploaded to USA Spending is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
-                            <p>Click <a href="" title="Learn about format specifications">here</a> to learn about the format specification(s) and how our data broker will enable agencies to validate and submit data.</p>
+                            <p>If you are a federal agency employee, click <a href="" title="Learn about format specifications">here</a> to learn about the format specification(s) and how our data broker will enable you to validate and submit data.</p>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ page: homepage
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3>Usability</h3>
+                <h3>User-Centered Design</h3>
             </div>
             <div class="panel-body">
                 <div class="media">
