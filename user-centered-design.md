@@ -27,28 +27,6 @@ From that, we have developed a preliminary set of targeted user types, called â€
 
 ####Below are four examples of our current personas:
 
-<div class="row mt-30">
-    <div class="col-md-6 persona-block">
-        <img src="{{ site.baseurl }}/assets/img/user_personas/data_owner_mug.jpg" class="img-responsive img-circle">
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Data_Owner_user_persona.pdf"><strong>Data Owner</strong></a>: The agency person responsible for the accuracy and completeness of the data</p>
-    </div>
-    <div class="col-md-6 persona-block">
-        <img src="{{ site.baseurl }}/assets/img/user_personas/agency_developer_mug.jpg" class="img-responsive img-circle">
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Agency_Developer_user_persona.pdf"><strong>Agency Developer</strong></a>: The agency person or contractor with technical expertise to get the data into the USA Spending data store</p>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-6 persona-block">
-        <img src="{{ site.baseurl }}/assets/img/user_personas/cfo_mug.jpg" class="img-responsive img-circle">
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/CFO_user_persona.pdf"><strong>Chief Financial Officer</strong></a>: The CFO of an agency (or his/her staff), who is accountable for the agencyâ€™s overall performance, and who also may use USA Spending as a management tool</p>
-    </div>
-    <div class="col-md-6 persona-block">
-        <img src="{{ site.baseurl }}/assets/img/user_personas/omb_mug.jpg" class="img-responsive img-circle">
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Budget_Analyst_user_persona.pdf"><strong>OMB/Congress</strong></a>: Data reviewers with oversight across the government</p>
-    </div>
-</div>
-
 <div class="row">
     <div class="col-md-6 persona-block">
         <img src="{{ site.baseurl }}/assets/img/user_personas/citizen_mug.jpg" class="img-responsive img-circle">
