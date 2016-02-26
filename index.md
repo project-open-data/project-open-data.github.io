@@ -43,7 +43,7 @@ page: homepage
                         </div>
                         <div class="media-body">
                             <p><a href="" title="Data Submission">Data Submission</a>: Getting data uploaded to USA Spending is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
-                            <p>If you are a federal agency employee, cllick <a href="" title="Learn about format specifications">here</a> to learn about the format specification(s) and how our data broker will enable you to validate and submit data.</p>
+                            <p>If you are a federal agency employee, click <a href="" title="Learn about format specifications">here</a> to learn about the format specification(s) and how our data broker will enable you to validate and submit data.</p>
                         </div>
                     </div>
                 </div>
