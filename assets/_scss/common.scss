@@ -47,22 +47,8 @@ a:active {
 }
 
 
-/* Functions */
-
-@function as-alpha($hex-color,
-$alpha) {
-    $-local-red: red(rgba($hex-color, 1));
-    $-local-green: green(rgba($hex-color, 1));
-    $-local-blue: blue(rgba($hex-color, 1));
-    @return rgba($-local-red,
-    $-local-green,
-    $-local-blue,
-    $alpha);
-}
-
 
 /* Icons */
-
 [class^="usa-da-icon-"]:before,
 [class*=" usa-da-icon-"]:before {
     font-size: 1em;
@@ -98,7 +84,6 @@ $alpha) {
 
 
 /* Content */
-
 .usa-da-content {
     margin: auto 0;
     padding-bottom: 1.5em;
@@ -129,7 +114,6 @@ $alpha) {
 
 
 /* Footer */
-
 .usa-da-footer {
     font-family: $font-sans;
     text-align: center;
@@ -169,82 +153,13 @@ $alpha) {
 }
 
 
-/* Alerts */
 
-.usa-alert {
-    @include media($medium-screen) {
-        background-size: 5.2rem;
+// SHARPEN TEXT ON RETNA DISPLAY
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx){
+    body{
+        -webkit-font-smoothing: subpixel-antialiased;
     }
-    background-color: $color-gray-lightest;
-    background-position: 1rem 2rem;
-    background-repeat: no-repeat;
-    background-size: 4rem;
-    margin-top: 1.5em;
-    padding: 1em;
-    ul {
-        margin: {
-            bottom: 0;
-            top: 1em;
-        }
-    }
-}
-
-.usa-alert-icon {
-    display: table-cell;
-    padding-right: 1rem;
-}
-
-.usa-alert-body {
-    @include media($medium-screen) {
-        padding-left: 5rem;
-    }
-    display: table-cell;
-    padding-left: 3.5rem;
-    vertical-align: top;
-}
-
-.usa-alert-heading {
-    @include media($medium-screen) {
-        margin-top: .3rem;
-    }
-    margin: {
-        bottom: .3rem;
-        top: 0;
-    }
-}
-
-.usa-alert-text {
-    font-family: $font-sans;
-    margin: {
-        bottom: 0;
-        top: 0;
-    }
-}
-
-.usa-alert-success {
-    background-color: $color-green-lightest;
-    background-image: url('../img/18f/alerts/success.png');
-    background-image: url('../img/18f/alerts/success.svg');
-}
-
-.usa-alert-warning {
-    background-color: $color-gold-lightest;
-    background-image: url('../img/18f/alerts/warning.png');
-    background-image: url('../img/18f/alerts/warning.svg');
-}
-
-.usa-alert-error {
-    background-color: $color-secondary-lightest;
-    background-image: url('../img/18f/alerts/error.png');
-    background-image: url('../img/18f/alerts/error.svg');
-}
-
-.usa-alert-info {
-    background-color: $color-primary-alt-lightest;
-    background-image: url('../img/18f/alerts/info.png');
-    background-image: url('../img/18f/alerts/info.svg');
-}
-
-.usa-alert-no_icon {
-    background-image: none;
-}
+} 

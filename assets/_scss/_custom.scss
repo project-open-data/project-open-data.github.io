@@ -11,6 +11,30 @@
     }
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dl,
+blockquote,
+p,
+address,
+table,
+fieldset,
+figure,
+pre {
+  margin-bottom: $base-line-height;
+}
+
+
+
+
 h1,
 h2,
 h3,
@@ -21,8 +45,8 @@ h6,
 .display-two {
     font-family: $font-sans;
     // margin: 1em 0 .5em;
-    line-height: 1.45;
-    -webkit-font-smoothing: antialiased;
+    // line-height: 1.45;
+    color: #333;
 }
 
 .display-one {
@@ -39,33 +63,39 @@ h6,
 
 h1 {
     font-weight: $font-light;
-    font-size: 5.61rem;
+    font-size: 4.768rem;
+    line-height: 4.868rem;
 }
 
 h2 {
     font-weight: $font-light;
-    font-size: 4.209rem;
+    font-size: 3.815rem;
+    line-height: 4.015rem;
 }
 
 h3 {
-    font-weight: $font-bold;
-    font-size: 3.157rem;
+    font-weight: $font-light;
+    font-size: 3.052rem;
+    line-height: 3.252rem;
 }
 
 h4 {
     font-weight: $font-bold;
-    font-size: 2.369rem;
+    font-size: 2.441rem;
+    line-height: 2.641rem;
     color: #525252;
 }
 
 h5 {
     font-weight: $font-bold;
-    font-size: 1.777rem;
+    font-size: 1.953rem;
+    line-height: 2.1953rem;
 }
 
 h6 {
     font-weight: $font-bold;
-    font-size: 1.333rem;
+    font-size: 1.563rem;
+    line-height: 1.763rem;
 }
 
 p.lead {
@@ -83,8 +113,7 @@ p.large {
 @mixin para {
     font-weight: $font-normal;
     font-size: 1.6rem;
-    line-height: 2.5rem;
-    margin-bottom: 2.5rem;
+    line-height: 2.4rem;
     color: #525252;
 }
 
@@ -103,10 +132,10 @@ p strong{
 
 ol,
 ul {
-    margin: 0 0 30px;
+    margin: 0 0 $base-line-height * 2;
     & li {
         font-size: 1.6rem;
-        line-height: 1.45em;
+        line-height: $base-line-height;
         margin-bottom: 0.75em;
         margin-top: 0.75em;
     }
@@ -124,10 +153,18 @@ table + p {
     margin-top: 3.0rem;
 }
 
-p + h2, ul + h2, .list-group + h2 {
-   margin-top: 6.0rem;
+p + h2, p + h3, p + h4, table + h2, .list-group + h2 {
+   margin-top: $base-line-height * 3;
 }
 
+h2 + .row {
+    margin-bottom: $base-line-height * 3;
+}
+
+
+.panel{
+    margin-bottom: 40px; 
+}
 
 .panel, .panel-heading {
     border-radius: 0;
@@ -142,6 +179,10 @@ p + h2, ul + h2, .list-group + h2 {
     font-size: 2.0rem;
     line-height: 2.8rem;
     color: #555
+}
+
+.navbar{
+    margin-bottom: 0;
 }
 
 .flex-wrap{
@@ -411,6 +452,7 @@ a.list-group-item {
 
 /***** ARTICLE PAGE *****/
 .article-wrap {
+    margin-top: $base-line-height * 2;
     & p,
     & ol,
     & li {
@@ -685,9 +727,6 @@ img.learn-test-make{
 
 
 
-
-
-
 /***** GLOBAL MARGIN AND PADDING *****/
 
 .mt-0 {
@@ -708,6 +747,10 @@ img.learn-test-make{
 
 .mt-30 {
     margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
 }
 
 .mt-50 {

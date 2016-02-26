@@ -36,13 +36,13 @@ This two-week cadence will continue throughout the development lifecycle.
 
 In addition, the team participates in a stand-up call every morning to review the previous day’s work and to report any challenges, questions, or blockers so they can be addressed and resolved quickly.
 
-The Agile/scrum process is open and transparent: stakeholders can follow the progress of the tasks in the development and publication work streams on our [Open JIRA](https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all){:target="_blank"} site.
+The Agile/scrum process is open and transparent: stakeholders can follow the progress of the tasks in the development and publication work streams on our [JIRA](https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all){:target="_blank"} site.
 
 Operating in the spirit of transparency, we are using Github repositories for all our code. This external communication platform allows both internal and external stakeholders to monitor the progress of the DATA Act implementation processes. To provide feedback on the code, please file an issue on the relevant Github repository. You can find a list of all repositories [here](https://github.com/fedspendingtransparency){:target="_blank"}.
 
 Visit [Get Involved]({{ site.baseurl }}/get-involved) for more information. 
 
-####User-Centric Design Process
+####User-Centered Design Process
 
 The DATA Act team strives to have a deep understanding of who will be using the new USAspending.gov site and its related data upload vehicles. This understanding is built on town-hall meetings, workshops, and user interviews reaching the public, industry, and federal agencies. Our aim is to understand the users’ context when using these products, their motivations, requirements, and goals.  This understanding constantly evolves and informs the development process.
 

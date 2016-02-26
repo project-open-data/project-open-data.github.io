@@ -6,12 +6,11 @@ filename: get-involved.md
 title: Get Involved
 ---
 
-<div class="row">
-    <div class="col-md-12">
-        <h1>Get Involved</h1>
-        <p>Thank you for helping us improve government data. Below are ways you can stay up to date and offer your perspective to enhance government data quality and accessibility.</p>
-    </div>
-</div>
+#Get Involved
+
+Thank you for helping us improve government data. Below are ways you can stay up to date and offer your perspective to enhance government data quality and accessibility.
+
+
 <div class="row get-involved-wrap">
     <div class="col-md-5">
         <div class="panel panel-default everybody">

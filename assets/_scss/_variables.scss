@@ -12,8 +12,19 @@ $h3-font-size:        2.0rem;
 $h4-font-size:        1.7rem;
 $h5-font-size:        1.5rem;
 $h6-font-size:        1.3rem;
-$base-line-height:    1.5;
-$heading-line-height: 1.3;
+
+
+
+// $step-size-heading: 1.067rem;
+
+
+// @mixin heading-size($size) {
+//     font-size: $size * $step-size-heading + rem;
+// }
+
+
+$base-line-height:    2.6rem;
+$heading-line-height: 1.5;
 $lead-line-height:    1.7;
 
 $font-sans:           'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
@@ -93,11 +104,11 @@ $focus-shadow:      0 0 3px $color-focus, 0 0 7px $color-focus;
 $grid-margins:      3rem;
 
 
-
 $gray-line: #b8b7b7;
+
 $headStripe: linear-gradient(to bottom, rgba(white, 0) 49%,
-	$gray-line 49%,
-	$gray-line 52%, rgba(white, 0) 52%);
+$gray-line 49%,
+$gray-line 52%, rgba(white, 0) 52%);
 
 
 @mixin clearfix {
@@ -122,6 +133,18 @@ $headStripe: linear-gradient(to bottom, rgba(white, 0) 49%,
 @mixin headTag($top, $left) {
     top: $top;
     left: $left;
+}
+
+
+@function as-alpha($hex-color,
+$alpha) {
+    $-local-red: red(rgba($hex-color, 1));
+    $-local-green: green(rgba($hex-color, 1));
+    $-local-blue: blue(rgba($hex-color, 1));
+    @return rgba($-local-red,
+    $-local-green,
+    $-local-blue,
+    $alpha);
 }
 
 

@@ -18,20 +18,15 @@ Interconnecting previously disconnected business domain areas, like financial ma
 **The DAIMS contains artifacts that:**
 
 * Help federal agencies understand what data to submit, with layout and context information
-
 * Help the public understand what the data means
 
 
 **The specific DAIMS artifacts include:**
 
 * Reporting Submission Specification (RSS) – contains the specific guidance federal agencies need to submit content and the appropriate format for a submission
-
 * Data Elements Guidance (DEG) – contains a comprehensive listing of the elements with supporting metadata to understand context, relationships, and derivations
-
 * Schema Diagrams – visual representations of how the data elements fit together in context
-
 * Online Data Dictionary – a list of data elements with definitions and minimal metadata, like data type
-
 * XBRL Schema Files – a machine-readable format of the elements that federal agencies submit
 
 
