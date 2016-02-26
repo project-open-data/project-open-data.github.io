@@ -13,6 +13,7 @@ The DATA Act team strives to gain a better understanding of those who will be us
 
 Our user-centered design process starts with user research (learn), applies it to sketches, page designs, and functionality (make), and then returns to users for testing (test). This cycle will continue throughout the design and build phases until project completion.
 
+
 <img class="learn-test-make" src="{{ site.baseurl }}/assets/graphics/learn-test-make.svg">
 
 
