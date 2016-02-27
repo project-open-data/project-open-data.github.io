@@ -4,7 +4,7 @@
       events:
         - title: "2/4 Office Hours."
           popupText: "More about the 2/4 Office Hours."
-        - title: "project-sub1-item2"
+        - title: "2/x Office Hours."
           popupText: "2/11 Sandbox Testing with some longer indormation that goes along with it."
     - month: "March"
       events:

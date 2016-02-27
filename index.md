@@ -26,13 +26,13 @@ page: homepage
         </div>
     </div>
 </div>
-<div class="row row-eq-height mt-40">
+<div class="row mt-40">
     <div class="col-md-12">
         <h2>Our Workstreams and Where to Find Them</h2>
     </div>
     <div class="panel-container">
         <div class="col-md-6">
-            <div class="panel panel-default data-in">
+            <div class="panel panel-default short-col">
                 <div class="panel-heading">
                     <h3>Data In</h3>
                 </div>
@@ -50,7 +50,7 @@ page: homepage
             </div>
         </div>
         <div class="col-md-6">
-            <div class="panel panel-default data-out">
+            <div class="panel panel-default tall-col">
                 <div class="panel-heading">
                     <h3>Data Out</h3>
                 </div>
