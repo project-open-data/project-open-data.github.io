@@ -52,20 +52,6 @@ Finally, we have developed a comprehensive plan for conducting recurring usabili
 
 Usability testing will continue in a regular cadence in sync with the development cycles of our Agile development environment.  More information on our user-centered design process can be found [here]({{ site.baseurl }}/user-centered-design).
 
-
-
-####DATA Act Implementation Team
-
-Project Management Office
-
-Bureau of the Fiscal Service
-
-U.S. Department of the Treasury
-
-Insert Contact information/ phone and email – defined inbox
-
-
-
 ####FAQs
 
-For more information about the DATA Act and the implementation process, visit FAQs. (add link) 
+For more information about the DATA Act and the implementation process, visit [the FAQs]({{site.baseurl}}/faq).
