@@ -13,7 +13,7 @@ page: homepage
     <div class="col-md-8">
         <h2 class="mt-0">About Federal Spending Transparency</h2>
         <p>The federal government has taken huge strides toward increasing the availability, accuracy, and usefulness of federal spending information with enactment of the Digital Accountability and Transparency Act of 2014 (DATA Act). Led by the Treasury Department and the Office of Management and Budget, federal agencies are working to upgrade the data they will provide to an updated USAspending.gov by 2017.</p>
-        <p>This collaboration space is designed to openly share our process for meeting the new data transparency requirements of the DATA Act, and to engage the public and federal agencies in decisionmaking along the way. Visit the <a href="{{ site.baseurl }}/about/" title="About">"About"</a> page to learn more about our Agile work process.</p>
+        <p>This collaboration space is designed to openly share our process for meeting the new data transparency requirements of the DATA Act, and to engage the public and federal agencies in decisionmaking along the way. Visit the <a href="{{ site.baseurl }}/about/" title="About">About</a> page to learn more about our Agile work process.</p>
     </div>
     <div class="col-md-4">
         <div class="panel panel-default">
@@ -21,7 +21,7 @@ page: homepage
                 <h3>Get Involved</h3>
             </div>
             <div class="panel-body">
-                <p>Visit the <a href="{{ site.baseurl }}/get-involved/" title="Get Involved">"Get Involved"</a> page to find out how to comment or participate in different aspects of this project.</p>
+                <p>Visit the <a href="{{ site.baseurl }}/get-involved/" title="Get Involved">Get Involved</a> page to find out how to comment or participate in different aspects of this project.</p>
             </div>
         </div>
     </div>
@@ -42,8 +42,8 @@ page: homepage
                             <span class="glyphicon glyphicon-cloud-upload"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="" title="Data Submission">Data Submission</a>: Getting data uploaded to USA Spending is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
-                            <p>If you are a federal agency employee, click <a href="" title="Learn about format specifications">here</a> to learn about the format specification(s) and how our data broker will enable you to validate and submit data.</p>
+                            <p><a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" title="Data Submission">Data Submission</a>: Getting data uploaded to USA Spending is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
+                            <p>If you are a federal agency employee, click <a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" title="Learn about format specifications">here</a> to learn about the format specification(s) and how our data broker will enable you to validate and submit data.</p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ page: homepage
                             <span class="usaspend-logo"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="" title="USAspending.gov">USAspending.gov</a>: This public website was launched in 2007, and already features robust access to federal spending data mandated by the Federal Funding Accountability and Transparency Act of 2006.</p>
+                            <p><a href="https://www.usaspending.gov/Pages/Default.aspx" title="USAspending.gov">USAspending.gov</a>: This public website was launched in 2007, and already features robust access to federal spending data mandated by the Federal Funding Accountability and Transparency Act of 2006.</p>
                         </div>
                     </div>
                     <div class="media">
@@ -89,7 +89,7 @@ page: homepage
                         <span class="glyphicon glyphicon-list-alt"></span>
                     </div>
                     <div class="media-body">
-                        <p>The new version of USAspending.gov will rely on hundreds of distinct data elements to tell the story of how federal dollars are spent. The DATA Act Information Model Schema organizes these elements into a structure that further defines, groups, and relates them to each other. Learn about the elements and see (and comment on) the schema <a href="">here</a>.</p>
+                        <p>The new version of USAspending.gov will rely on hundreds of distinct data elements to tell the story of how federal dollars are spent. The DATA Act Information Model Schema organizes these elements into a structure that further defines, groups, and relates them to each other. <a href="{{site.baseurl}}/data-model">Learn about the elements and see (and comment on) the schema</a>.</p>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ page: homepage
                         <span class="usability-icon"></span>
                     </div>
                     <div class="media-body">
-                        <p>User research, testing, and design iteration will undergird all parts of the DATA Act implementation. Learn about our user-centered process <a href="{{ site.baseurl }}/data-schema">here</a></p>
+                        <p>User research, testing, and design iteration will undergird all parts of the DATA Act implementation. Learn about our user-centered process <a href="{{ site.baseurl }}/user-centered-design">here</a></p>
                     </div>
                 </div>
             </div>
