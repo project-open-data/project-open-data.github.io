@@ -23,7 +23,9 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         <span class="glyphicon glyphicon-envelope icon"></span>
                         <h5>You're Invited!</h5>
                         <p>External Stakeholder call
-                            <br>Wednesday, March X, 2016 <a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">View Invite</a></p>
+                            <br>Wednesday, March 3, 2016 10 a.m.
+                            <br /><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">View Invite</a>
+                        </p>
                     </div>
                     <div class="media-body">
                         <p><strong>OpenBeta</strong> -- View and give us feedback on the the public beta (test) site for the next release of <a href="https://openbeta.usaspending.gov/" target="_blank">USAspending.gov</a>. Site visitors can manipulate pilot data and comment on usability and visualizations.</p>
@@ -31,7 +33,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         <p><strong>DATA Act JIRA site</strong> -- JIRA is a software development tool that our team uses to plan, track, and close out tasks ("user stories") in an Agile environment. <a href="https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=software" target="_blank">See all the past, current, and proposed tasks for our various workstreams</a>.</p>
                         <p><strong>DATA Act GitHub repositories</strong> -- <a href="https://github.com/fedspendingtransparency" target="_blank">See the code</a> for all the technology we are building to make federal spending more transparent.</p>
                         <p><strong>User Testing</strong> -- Our usability team wants your feedback on designs and workflow. Watch for requests to participate right from your workspace.</p>
-                        <p><strong>Issue Tracker</strong>? way to get in touch with us that is also viewable by other people.</p>
+                        <p><strong>Issue Tracker</strong> -- Have a question or comment on something else? Please <a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues">file an issue</a> and we'll respond as soon as possible.</p>
                     </div>
                 </div>
             </div>
@@ -47,15 +49,16 @@ Thank you for helping us improve government data. Below are ways you can stay up
                     <div class="col-md-6">
                         <div class="media">
                             <div class="media-body">
-                                <p><strong>Sandbox Testing:</strong> -- Each month we host sessions for agencies to test their data files using the prototype broker, and provide feedback. <a href="https://github.com/18f/data-act-pilot/blob/master/docs/HOWTO.md" target="_blank">Contact the DATA Act PMO to participate</a>.</p>
-                                <p><strong>Office Hours Call:</strong> Every Thursday, Treasuy and OMB staff provide updates and take agencies' implementation questions on a massive conference call. Contact the DATA Act PMO for dial-in.</p>
-                                <p><strong>Workshops:</strong> -- Ready for one-on-one help? We will come to your agency to discuss your DATA Act implementation questions and progress. Contact the DATA Act PMO to schedule.</p>
+                                <p><strong>Sandbox Testing:</strong> -- Each month we host sessions for agencies to test their data files using the prototype broker, and provide feedback. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO to participate</a>.</p>
+                                <p><strong>Office Hours Call:</strong> Every Thursday, Treasury and OMB staff provide updates and take agencies' implementation questions on a massive conference call (<a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2">dial-in information</a>).</p>
+                                <p><strong>Workshops:</strong> -- Ready for one-on-one help? We will come to your agency to discuss your DATA Act implementation questions and progress. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO</a> to schedule.</p>
                                 <p><strong>More Resources:</strong></p>
                                 <ul>
-                                    <li><a href="#">Implementation Playbook (needs link)</a></li>
+                                    <li><a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" target="_blank">Data Submission Guide</a></li>
+                                    <li><a href="https://community.max.gov/pages/viewpage.action?pageId=840532717" target="_blank">Implementation Playbook</a></li>
                                     <li><a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2" target="_blank">Data Act Resources Guide</a></li>
                                     <li><a href="https://community.max.gov/pages/viewpage.action?pageId=744690523" target="_blank">SAO Call Notes</a></li>
-                                    <li><a href="https://community.max.gov/display/Management/Interagency+Advisory+Committee" target="_blank">InterAgency Advisory Committee meeting notes and materials</a></li>
+                                    <li><a href="https://community.max.gov/display/Management/Interagency+Advisory+Committee" target="_blank">Interagency Advisory Committee meeting notes and materials</a></li>
                                     <li><a href="https://community.max.gov/pages/viewpage.action?pageId=947192397" target="_blank">Bi-Weekly Digests (Archive)</a></li>
                                 </ul>
                             </div>
@@ -87,7 +90,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h3>Agency Stakeholder Call</h3>
-                <h5>Wednesday, March X, 2016 2pm-4pm EST</h5>
+                <h5>Wednesday, March 3, 2016 10am-11am EST</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
 
                 <ul class="no-bullet">
