@@ -138,7 +138,7 @@ $alpha) {
 
 
 //Flexbox
-@mixin flexbox() {
+@mixin flexbox-display-flex() {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -154,10 +154,28 @@ $alpha) {
   flex:  $values;
 }
 
-@mixin order($val) {
+@mixin flexbox-order($val) {
   -webkit-box-ordinal-group: $val;  
   -moz-box-ordinal-group: $val;     
   -ms-flex-order: $val;     
   -webkit-order: $val;  
   order: $val;
 }
+
+@mixin flex-direction($val) {
+  -webkit-box-ordinal-group: $val;  
+  -moz-box-ordinal-group: $val;     
+  -ms-flex-order: $val;     
+  -webkit-order: $val;  
+  order: $val;
+}
+
+@mixin flexbox-flex($width) {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: $width; // Passing our width value here
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+

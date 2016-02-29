@@ -186,7 +186,7 @@ h2 + .row {
 }
 
 .flex-wrap{
-    @include flexbox();
+    @include flexbox-display-flex();
 }
 
 .modal-sm{
@@ -435,20 +435,19 @@ a.list-group-item {
         & .usability-icon {
             display: block;
             width: 64px;
-            height: 61px;
+            height: 60px;
             padding: 0 3px;
             background-image: url('../img/graphic-sprite.png');
             background-size: 290%;
-            background-position-x: 1px;
+            background-position: 3px 120px
         }
         & .usaspend-openbeta-logo {
-            background-position-x: 126px;
+            background-position: 125px 120px
         }
         & .usability-icon {
             height: 40px;
             background-size: 300%;
-            background-position-x: -127px;
-            background-position-y: -14px;
+            background-position: 65px 114px;
         }
     }
 }
@@ -654,10 +653,10 @@ a.list-group-item {
 
 .persona-block{
     margin:0 0 40px 0;
-    @include flexbox();
+    @include flexbox-display-flex();
     & img{
-        max-width: 150px;
-        max-height: 150px;
+        width: 150px;
+        height: 150px;
         float: left;
         margin: 0 10px 0 0;
     }

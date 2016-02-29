@@ -8,15 +8,15 @@ html, body {
     color: #525252;
 }
 
-.usa-da-body {
-    @include flexbox();
-    flex-direction: column;
-    min-height: 100%;
-}
+// .usa-da-body {
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
+// }
 
-.usa-da-outter-wrap {
-    @include flex(1 0 auto);
-}
+// .usa-da-outter-wrap {
+//     @include flex(1 0 auto);
+// }
 
 
 /* Colors */
