@@ -30,7 +30,7 @@
                 }
                 & h2 {
                     margin: 0 auto;
-                    @include flexbox();
+                    @include flexbox-display-flex();
                     font-size: 1.5rem;
                     font-weight: $font-normal;
                     color: $color-primary-alt-dark;
@@ -124,8 +124,9 @@
         padding: 0 15px;
         font-size: 1.5rem;
         font-weight: $font-normal;
-        @include flexbox();
-        justify-content: flex-start;
+        @include flexbox-display-flex();
+        justify-content: flex-center;
+        -webkit-flex-flow: row wrap;
         -webkit-flex-flow: row wrap;
         & > li {
             margin: 0;
