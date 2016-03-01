@@ -23,7 +23,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         <span class="glyphicon glyphicon-envelope icon"></span>
                         <h5>You're Invited!</h5>
                         <p>External Stakeholder Call
-                            <br>Wednesday, March X, 2016 10 a.m.
+                            <br>Wednesday, March 3, 2016 10 a.m.
                             <br /><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">View Invite</a>
                         </p>
                     </div>
@@ -92,7 +92,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                 <h3>Agency Stakeholder Call</h3>
                 <h5>Wednesday, March 3, 2016 10am-11am EST</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
-                <ul class="no-bullet">
+                <!--<ul class="no-bullet">
                     <li><strong>Dail-In information</strong></li>
                     <li>555-555-5555</li>
                 </ul>
@@ -103,7 +103,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                 <ul class="no-bullet">
                     <li><strong>Webex</strong></li>
                     <li>XXXXXXXXXXXXX</li>
-                </ul>
+                </ul>-->
             </div>
         </div>
     </div>
