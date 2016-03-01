@@ -572,6 +572,7 @@ a.list-group-item {
 
 /***** BLOG PAGE *****/
 .blog {
+    margin: 52px 0 50px 0;
     & h2 {
         & a {
             color: #333;
@@ -610,7 +611,11 @@ a.list-group-item {
     & #timeline {
         border-top: 1px solid #ccc;
         width: 100%;
-        min-height: 400px;
+        min-height: 500px;
+    }
+    & .tl-timegroup-message{
+        color: #666;
+        font-size: 1.4rem;
     }
 }
 
