@@ -22,8 +22,6 @@ The transparency efforts of FFATA were expanded with the enactment of the [Digit
 
 The expanded, linked data submitted by the agencies will be displayed on the future USAspending.gov, which is to go live in May 2017.
 
-{% include timeline.html %}
-
 ##DATA Act Implementation
 
 ####Agile Development Methodology
