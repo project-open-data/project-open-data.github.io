@@ -18,7 +18,6 @@ $(function() {
 });
 
 
-
 // SET HEIGHT OF BLOCKS ON HOMEPAGE
 var shortCol = $('.short-col').outerHeight()
 var tallCol = $('.tall-col').outerHeight()
@@ -56,7 +55,7 @@ function checkSize() {
 
 if ($('#back-to-top').length) {
     var scrollTrigger = 1250, // px
-        backToTop = function () {
+        backToTop = function() {
             var scrollTop = $(window).scrollTop();
             if (scrollTop > scrollTrigger) {
                 $('#back-to-top').addClass('show');
@@ -65,13 +64,35 @@ if ($('#back-to-top').length) {
             }
         };
     backToTop();
-    $(window).on('scroll', function () {
+    $(window).on('scroll', function() {
         backToTop();
     });
-    $('#back-to-top').on('click', function (e) {
+    $('#back-to-top').on('click', function(e) {
         e.preventDefault();
         $('html,body').animate({
             scrollTop: 1250
         }, 700);
     });
 }
+
+
+function placeFooter() {
+    var winHeight = window.innerHeight;
+    var divHeight = $(".usa-da-outter-wrap").height();
+
+    if (winHeight >= divHeight) {
+        $(".usa-da-footer").addClass("place-bottom");
+    } else if (winHeight < divHeight) {
+        $(".usa-da-footer").removeClass("place-bottom");
+    } else if (divHeight > winHeight) {
+        $(".usa-da-footer").removeClass("place-bottom");
+    }
+}
+
+$(window).load(function() {
+    placeFooter()
+});
+
+$(window).resize(function() {
+    placeFooter();
+});
