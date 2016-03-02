@@ -613,9 +613,22 @@ a.list-group-item {
         width: 100%;
         min-height: 500px;
     }
-    & .tl-timegroup-message{
+    & .tl-timegroup .tl-timegroup-message{
         color: #666;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        z-index: 9999;
+        background: #f2f2f2;
+        height: 26.5px;
+        line-height: 28px;
+        text-shadow: none;
+        margin-left: 41px;
+        width: 30%;
+        padding: 0 10px;
+    }
+    & .tl-timegroup.tl-timegroup-alternate{
+        & .tl-timegroup-message{
+            background: #fafafa;
+        }
     }
 }
 
@@ -639,6 +652,9 @@ a.list-group-item {
 //     background: red;
 // }
 
+#agency-testing-with-pilot-sandbox-marker .tl-timemarker-content{
+    background: $color-gray-cool-light;
+}
 
 /***** DATA-ELEMENTS PAGE *****/
 .data-elements {
