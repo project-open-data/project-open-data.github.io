@@ -675,14 +675,17 @@ a.list-group-item {
 .persona-block{
     margin:0 0 40px 0;
     @include flexbox-display-flex();
+    & .cell{
+    max-width: 250px;
+    float: left;
+    margin: 0 15px 0 0;
     & img{
-        width: 150px;
-        height: 150px;
-        float: left;
-        margin: 0 10px 0 0;
+        max-width:100%;
     }
+}
     & p {
         margin: auto;
+        width: 100%;
     }
 }
 
@@ -695,8 +698,6 @@ a.list-group-item {
         margin: 30px 15px;
     }
 }
-
-
 
 /***** CHARTS *****/
 img.learn-test-make{
