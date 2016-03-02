@@ -28,7 +28,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         </p>
                     </div>
                     <div class="media-body">
-                        <p><strong>OpenBeta</strong> -- View and give us feedback on the public beta (test) site for the next release of <a href="https://openbeta.usaspending.gov/" target="_blank">USAspending.gov</a>. Site visitors can manipulate pilot data and comment on usability and visualizations.</p>
+                        <p><strong>OpenBeta</strong> -- View and give us feedback on the <a href="https://openbeta.usaspending.gov/" target="_blank">public beta (test) site</a> for the next release of USAspending.gov. Site visitors can manipulate pilot data and comment on usability and visualizations.</p>
                         <p><strong>DATA Act Schema</strong> -- The DATA Act information Model Schema (DAIMS) organizes all the data elements into a structure that defines, groups, and relates them to one another. <a href="{{ site.baseurl }}/data-model">See and comment on the Schema</a>.</p>
                         <p><strong>DATA Act JIRA site</strong> -- JIRA is a software development tool that our team uses to plan, track, and close out tasks ("user stories") in an Agile environment. <a href="https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=software" target="_blank">See all the past, current, and proposed tasks for our various workstreams</a>.</p>
                         <p><strong>DATA Act GitHub repositories</strong> -- <a href="https://github.com/fedspendingtransparency" target="_blank">See the code</a> for all the technology we are building to make federal spending more transparent.</p>
