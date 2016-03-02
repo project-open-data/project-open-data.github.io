@@ -58,7 +58,7 @@ From that, we have developed a preliminary set of targeted user types, called â€
     </div>
 </div>
 
-As more user research is conducted and designs are tested, our personas will evolve and continuously become more accurate.
+As more user research is conducted and designs are tested, our personas will evolve, expand and continuously become more accurate.
 
 
 ##Make
@@ -68,7 +68,7 @@ As more user research is conducted and designs are tested, our personas will evo
     <div class="col-md-8">
         <p>Based on what we learn from users, our web designers create sketches, layouts, visualizations (e.g., sample graphs) and styling of pages. Our developers (coders) start building the actual functionality. These pieces constantly evolve based on feedback.</p>
         <img src="{{ site.baseurl }}/assets/img/wire-example.jpg" class="img-responsive center-block">
-        <small class='text-center center-block'>A wireframe used to test language, flow, and limited functionality</small>
+        <small class='text-center center-block'>A sample wireframe used to test language, flow, and limited functionality</small>
     </div>
     <div class="col-md-4 alert-block">
     	<img src="{{ site.baseurl }}/assets/img/18f_style.jpg" class="pull-left">

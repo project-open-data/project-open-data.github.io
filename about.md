@@ -22,8 +22,6 @@ The transparency efforts of FFATA were expanded with the enactment of the [Digit
 
 The expanded, linked data submitted by the agencies will be displayed on the future USAspending.gov, which is to go live in May 2017.
 
-{% include timeline.html %}
-
 ##DATA Act Implementation
 
 ####Agile Development Methodology
@@ -46,7 +44,7 @@ Visit [Get Involved]({{ site.baseurl }}/get-involved) for more information.
 
 The DATA Act team strives to have a deep understanding of who will be using the new USAspending.gov site and its related data upload vehicles. This understanding is built on town-hall meetings, workshops, and user interviews reaching the public, industry, and federal agencies. Our aim is to understand the users’ context when using these products, their motivations, requirements, and goals.  This understanding constantly evolves and informs the development process.
 
-To help make our user research digestible and actionable, we have developed a preliminary set of “Personas”: snapshots of user types that capture and organize information that can inform design decisions. Exaamples of our latest personas can be found on the User-Centered Design {add link} page. As more research is conducted and designs are tested, they will evolve and become more accurate.
+To help make our user research digestible and actionable, we have developed a preliminary set of “Personas”: snapshots of user types that capture and organize information that can inform design decisions. Exaamples of our latest personas can be found on the User-Centered Design page. As more research is conducted and designs are tested, they will evolve and become more accurate.
 
 Finally, we have developed a comprehensive plan for conducting recurring usability testing. The plan establishes and validates user performance measures that will help us identify potential design concerns. Initially, usability testing will focus on agency users. Later, the focus will shift to “data consumers” including grant recipients, researchers/reporters, and interested citizens.  Weaknesses identified by participants during testing will be addressed during the course of development and design.
 

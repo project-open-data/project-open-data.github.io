@@ -23,16 +23,16 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         <span class="glyphicon glyphicon-envelope icon"></span>
                         <h5>You're Invited!</h5>
                         <p>External Stakeholder Call
-                            <br>Wednesday, March 3, 2016 10 a.m.
+                            <br>Thursday, April 7, 2016 10 a.m.
                             <br /><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">View Invite</a>
                         </p>
                     </div>
                     <div class="media-body">
-                        <p><strong>OpenBeta</strong> -- View and give us feedback on the public beta (test) site for the next release of <a href="https://openbeta.usaspending.gov/" target="_blank">USAspending.gov</a>. Site visitors can manipulate pilot data and comment on usability and visualizations.</p>
+                        <p><strong>OpenBeta</strong> -- View and give us feedback on the <a href="https://openbeta.usaspending.gov/" target="_blank">public beta (test) site</a> for the next release of USAspending.gov. Site visitors can manipulate sample data and comment on usability and visualizations.</p>
                         <p><strong>DATA Act Schema</strong> -- The DATA Act information Model Schema (DAIMS) organizes all the data elements into a structure that defines, groups, and relates them to one another. <a href="{{ site.baseurl }}/data-model">See and comment on the Schema</a>.</p>
                         <p><strong>DATA Act JIRA site</strong> -- JIRA is a software development tool that our team uses to plan, track, and close out tasks ("user stories") in an Agile environment. <a href="https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=software" target="_blank">See all the past, current, and proposed tasks for our various workstreams</a>.</p>
                         <p><strong>DATA Act GitHub repositories</strong> -- <a href="https://github.com/fedspendingtransparency" target="_blank">See the code</a> for all the technology we are building to make federal spending more transparent.</p>
-                        <p><strong>User Testing</strong> -- Our usability team wants your feedback on designs and workflow. Watch for requests to participate right from your workspace.</p>
+                        <p><strong>User Testing</strong> -- Our usability team wants your feedback on designs and workflow. Coming soon: watch for requests to participate right from your workspace.</p>
                         <p><strong>Issue Tracker</strong> -- Have a question or comment on something else? Please <a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues">file an issue</a> and we'll respond as soon as possible.</p>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         <div class="media">
                             <div class="media-body">
                                 <p><strong>Sandbox Testing</strong> -- Each month we host sessions for agencies to test their data files using the prototype broker, and provide feedback. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO to participate</a>.</p>
-                                <p><strong>Office Hours Call</strong> -- Every Thursday, Treasury and OMB staff provide updates and take agencies' implementation questions on a massive conference call (<a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2">dial-in information</a>).</p>
+                                <p><strong>Office Hours Call</strong> -- Every Thursday, Treasury and OMB staff provide updates and take agencies' implementation questions on a conference call (<a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2">dial-in information</a>).</p>
                                 <p><strong>Workshops</strong> -- Ready for one-on-one help? We will come to your agency to discuss your DATA Act implementation questions and progress. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO</a> to schedule.</p>
                                 <p><strong>More Resources:</strong></p>
                                 <ul>
@@ -90,10 +90,9 @@ Thank you for helping us improve government data. Below are ways you can stay up
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h3>External Stakeholder Call</h3>
-                <h5>Thursday, March 3, 2016<br>10am-11am EST</h5>
-                <p>Each month, on the first Thursday at 10am (EST),  the DATA Act team holds a monthly call with external stakeholders to provide updates on the DATA Act implementation. This forum also provides an opportunity for the public to ask the DATA Act team questions. If you would like to join these calls, please contact: <a href="mailto:DATAPMO@fiscal.treasury.gov">DATAPMO@fiscal.treasury.gov</a>.</p>
+                <h5>Thursday, April 7, 2016<br>10am-11am EST</h5>
+                <p>Each month, on the first Thursday at 10am (EST), the DATA Act team holds a monthly call with external stakeholders to provide updates on the DATA Act implementation. This forum also provides an opportunity for the public to ask the DATA Act team questions. If you would like to join these calls, please contact: <a href="mailto:DATAPMO@fiscal.treasury.gov">DATAPMO@fiscal.treasury.gov</a>.</p>
                 <p>The next call is scheduled for Thursday, April 7, 2016 at 10am (EST).</p>
-
                 <!--<ul class="no-bullet">
                     <li><strong>Dail-In information</strong></li>
                     <li>555-555-5555</li>

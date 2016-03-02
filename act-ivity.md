@@ -11,7 +11,7 @@ title: DATA Act-ivity
         <div class="col-md-8 blog">
             {% for post in site.posts %}
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <cite>By: {{ post.byline }} | Posted on: {{ post.date | date: "%B %-d, %Y" }}</cite>
+            <cite>Posted on: {{ post.date | date: "%B %-d, %Y" }}</cite>
             <p>{{ post.excerpt }}<span class='read-more'> <a href="{{ site.baseurl }}{{ post.url }}">...Read More</a></p>
             {% endfor %}
         </div>

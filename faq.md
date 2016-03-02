@@ -97,10 +97,3 @@ We are cognizant that agencies have established business processes and reporting
 * We will be providing information to agencies later this spring with clear steps for agency implementation and greater detail about how DATA Act standards will interact with current reporting processes.
 
 
-
-<section>
-  <aside>What is it about?</aside>
-  <article>Neat is an open source semantic grid framework built on top of Sass and Bourbon…</article>
-</section>
-
-

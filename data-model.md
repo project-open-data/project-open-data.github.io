@@ -7,7 +7,7 @@ title: Data Model
 page: data-model
 ---
 
-# Data Model
+# Data Model (Draft v0.7)
 
 To provide federal agencies the guidance to meet the requirements of the DATA Act and gain its benefits, we have designed a data model that captures the data elements needed, their relationships, and the overall context of how they fit together.
 
@@ -41,7 +41,7 @@ To provide feedback on our data model (DAIMS), please see our related issue on [
 
 An RSS details what needs to be included in a submission and the appropriate format for a submission. It includes information like which data elements are optional/required, how long a field is, and other metadata to understand what a data element means. The RSS documents contain the specific instructions a federal agency will need to submit data.
 
-Going forward, the RSS will continue to evolve as the DATA Act data model is updated and will continue to reflect the specific instructions for federal agencies. Federal agencies can view [more information about the RSS on MAX](https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf?api=v2). 
+Going forward, the RSS will continue to evolve as the DATA Act data model is updated and will continue to reflect the specific instructions for federal agencies. Federal agencies can view [more information about the RSS on MAX](https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf?api=v2){:target="_blank"}. 
 
 ##Data Elements Guidance (DEG)
 
