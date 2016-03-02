@@ -22,7 +22,7 @@ Below are some specific examples of our work.  For more about the user-centered 
 
 ##Learn (User Research)
 
-Through meetings, workshops, analytics, and user interviews, the DATA Act team has worked to learn about users’ needs, including what they want from the data, their technical environments (e.g., browsers, other software used), and their “pain points” with the current system.  Read some of our findings here. [link to 18F research summary].
+Through meetings, workshops, analytics, and user interviews, the DATA Act team has worked to learn about users’ needs, including what they want from the data, their technical environments (e.g., browsers, other software used), and their “pain points” with the current system. 
 
 From that, we have developed a preliminary set of targeted user types, called “Personas.” Personas are visual encapsulations of research findings that inform the design process. **They capture real user perceptions, experiences, and quotations, which we draw on to build better software.** Photos and personal details, however, are merely representative to help make them more real and relatable.
 
