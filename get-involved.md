@@ -89,9 +89,11 @@ Thank you for helping us improve government data. Below are ways you can stay up
         <div class="modal-content">
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h3>Agency Stakeholder Call</h3>
-                <h5>Wednesday, March 3, 2016 10am-11am EST</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+                <h3>External Stakeholder Call</h3>
+                <h5>Thursday, March 3, 2016<br>10am-11am EST</h5>
+                <p>Each month, on the first Thursday at 10am (EST),  the DATA Act team holds a monthly call with external stakeholders to provide updates on the DATA Act implementation. This forum also provides an opportunity for the public to ask the DATA Act team questions. If you would like to join these calls, please contact: <a href="mailto:DATAPMO@fiscal.treasury.gov">DATAPMO@fiscal.treasury.gov</a>.</p>
+                <p>The next call is scheduled for Thursday, April 7, 2016 at 10am (EST).</p>
+
                 <!--<ul class="no-bullet">
                     <li><strong>Dail-In information</strong></li>
                     <li>555-555-5555</li>
