@@ -50,7 +50,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         <div class="media">
                             <div class="media-body">
                                 <p><strong>Sandbox Testing</strong> -- Each month we host sessions for agencies to test their data files using the prototype broker, and provide feedback. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO to participate</a>.</p>
-                                <p><strong>Office Hours Call</strong> -- Every Thursday, Treasury and OMB staff provide updates and take agencies' implementation questions on a conference call (<a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2">dial-in information</a>).</p>
+                                <p><strong>Office Hours Call</strong> -- Every Thursday, Treasury and OMB staff provide updates and take agencies' implementation questions on a conference call (<a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2" target='_blank'>dial-in information</a>).</p>
                                 <p><strong>Workshops</strong> -- Ready for one-on-one help? We will come to your agency to discuss your DATA Act implementation questions and progress. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO</a> to schedule.</p>
                                 <p><strong>More Resources:</strong></p>
                                 <ul>
