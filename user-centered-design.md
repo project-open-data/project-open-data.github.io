@@ -33,13 +33,13 @@ From that, we have developed a preliminary set of targeted user types, called â€
         <div class="cell">
             <img src="{{ site.baseurl }}/assets/img/user_personas/citizen_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Citizen_user_persona.pdf"><strong>Citizen</strong></a>: Interested taxpayer who wants to see how federal dollars are spent</p>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Citizen_user_persona.pdf" target='_blank'><strong>Citizen</strong></a>: Interested taxpayer who wants to see how federal dollars are spent</p>
     </div>
     <div class="col-md-6 persona-block">
         <div class="cell">
             <img src="{{ site.baseurl }}/assets/img/user_personas/recipient_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Recipient_user_persona.pdf"><strong>Recipient</strong></a>: State/local government, nonprofit, or private company that has received or want to pursue a contract or grant</p>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Recipient_user_persona.pdf" target='_blank'><strong>Recipient</strong></a>: State/local government, nonprofit, or private company that has received or want to pursue a contract or grant</p>
     </div>
 </div>
 
@@ -48,13 +48,13 @@ From that, we have developed a preliminary set of targeted user types, called â€
         <div class="cell">
             <img src="{{ site.baseurl }}/assets/img/user_personas/journalist_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Journalist_user_persona.pdf"><strong>Journalist/Watchdog</strong></a>: Skilled user acting in the public interest to identify potential waste, fraud, or abuse</p>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Journalist_user_persona.pdf" target='_blank'><strong>Journalist/Watchdog</strong></a>: Skilled user acting in the public interest to identify potential waste, fraud, or abuse</p>
     </div>
     <div class="col-md-6 persona-block">
         <div class="cell">
             <img src="{{ site.baseurl }}/assets/img/user_personas/repurposer_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Repurposer_user_persona.pdf"><strong>Repurposer</strong></a>: Technically savvy user who aggregates, translates, and/or resells data for their own purposes</p>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Repurposer_user_persona.pdf" target='_blank'><strong>Repurposer</strong></a>: Technically savvy user who aggregates, translates, and/or resells data for their own purposes</p>
     </div>
 </div>
 
