@@ -11,7 +11,6 @@
     }
 }
 
-
 h1,
 h2,
 h3,
@@ -460,43 +459,6 @@ a.list-group-item {
     & li {
         max-width: 76rem;
     }
-    // & .get-involved-wrap {
-    //     display: flex;
-    //     -webkit-flex-flow: row wrap;
-    //     margin: 0 0 40px;
-    //     & .left-block {
-    //         @include flexbox;
-    //         flex-direction: column;
-    //         justify-content: center;
-    //         background: #ececec;
-    //         & .text-block {
-    //             & h3 {
-    //                 color: #444;
-    //                 margin: 0 0 0.5rem;
-    //                 font-size: 3.5rem;
-    //                 font-weight: 200;
-    //                 margin: 0 0 0.8rem;
-    //                 @include media($x-small-screen) {
-    //                     margin-top: 20px;
-    //                 }
-    //             }
-    //             & p {
-    //                 color: #444;
-    //                 font-size: 1.3rem;
-    //                 line-height: 1.7rem;
-    //             }
-    //         }
-    //     }
-    //     & .right-block {
-    //         flex: 1 auto;
-    //         order: 2;
-    //         border: 1px solid #ececec;
-    //         padding: 30px 20px;
-    //         & p:last-child {
-    //             margin-bottom: 0;
-    //         }
-    //     }
-    // }
 
 
 .get-involved-wrap {
