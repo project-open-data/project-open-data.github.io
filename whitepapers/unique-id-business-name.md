@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/unique-id-business-name/
-layout: hero
+layout: article
 filename: unique-id-business-name.md
 title: Unique Identifier and Legal Entity Name
 ---
@@ -13,11 +13,11 @@ Updated 7/13/2015:
 
 Thank you for contributing your feedback on this data element—-your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.omb.gov/datastandards) to see the data definitions for these elements in their final form.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
-      <th scope ="col">Data Element Name</th>
-      <th scope ="col">Category</th>
+      <th scope="col">Data Element Name</th>
+      <th scope="col">Category</th>
       <th scope="col">Legislation</th>
     </tr>
   </thead>
@@ -42,6 +42,7 @@ Thank you for contributing your feedback on this data element—-your input and 
     <td>FFATA</td>
   </tr>
 </table>
+
 
 July 2015 – Accurate and timely identification of responsible Federal awardees is essential to ensuring the integrity of the Federal procurement and financial assistance processes and the best use of taxpayer funds.  Consistent with efforts to increase competition while maintaining standards for entities receiving taxpayer dollars, the Federal governance communities and managing partners for shared information technology infrastructure will continue to explore options to meet the requirements for standard identification of entities receiving awards.  Changes to standards require significant resources (time and funding) and ongoing analyses will include consideration of these issues.  Efforts to further reduce risk and increase competition are ongoing such as the removal of proprietary references to standard identifiers in the FAR and 2 CFR.
 
@@ -76,13 +77,10 @@ The Federal government is mitigating these risks for taxpayers by using a data s
 
 The definitions and protocol currently used in the Federal government to uniquely identify entities for Federal award purposes are as follows:
 
-* _Awardee/Recipient Unique Identifier_: the Data Universal Numbering System (DUNS®) Number – The 9-digit number assigned by Dun & Bradstreet, Inc. (D&B) to identify unique business entities, which is used as the unique entity identifier for Federal Awardees/Recipients.  
-
-* _Awardee/Recipient Legal Entity Name_:  The name of the awardee/recipient that relates to the Awardee DUNS® Number.  For U.S. based companies, this name is what the business ordinarily files in its formation documents with the individual states (when this is required).
-
-* _Ultimate Parent Unique Identifier_: Awardee/Recipient Parent DUNS® Number – The 9-digit number assigned by Dun & Bradstreet, Inc. (D&B) that uniquely identifies the ultimate parent (as determined by D&B) related to the Awardee/Recipient DUNS® Number; used as the unique parent entity identifier for Federal Awardees/Recipients.
-
-* _Ultimate Parent Legal Entity Name_: The name of the ultimate parent of the awardee/recipient that relates to the Awardee/Recipient Parent DUNS® Number.
+* _**Awardee/Recipient Unique Identifier**_: the Data Universal Numbering System (DUNS®) Number – The 9-digit number assigned by Dun & Bradstreet, Inc. (D&B) to identify unique business entities, which is used as the unique entity identifier for Federal Awardees/Recipients.
+* _**Awardee/Recipient Legal Entity Name**_:  The name of the awardee/recipient that relates to the Awardee DUNS® Number.  For U.S. based companies, this name is what the business ordinarily files in its formation documents with the individual states (when this is required).
+* _**Ultimate Parent Unique Identifier**_: Awardee/Recipient Parent DUNS® Number – The 9-digit number assigned by Dun & Bradstreet, Inc. (D&B) that uniquely identifies the ultimate parent (as determined by D&B) related to the Awardee/Recipient DUNS® Number; used as the unique parent entity identifier for Federal Awardees/Recipients.
+* _**Ultimate Parent Legal Entity Name**_: The name of the ultimate parent of the awardee/recipient that relates to the Awardee/Recipient Parent DUNS® Number.
 
 The “Data Universal Numbering System (DUNS®) number” is currently defined in the FAR as “the 9-digit number assigned by Dun and Bradstreet, Inc. (D&B) to identify unique business entities, which is used as the identification number for Federal Contractors.”  The DUNS® number was, until recently, defined in 2 CFR Part 25 as “the nine-digit number established and assigned by Dun and Bradstreet, Inc. (D&B) to uniquely identify business entities.”  
 
@@ -95,7 +93,7 @@ Going forward, the Federal government will establish a transparent process for e
 
 For the data standardization effort, there are no changes recommended at this time to the existing standard for unique entity identifier.  This mitigates costs to taxpayers as well as risks to the integrity of the Federal awarding process by continuing the use of existing standards while exploring alternatives for both the identifier and other aspects of the award process associated with a unique entity identifier.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Recommended Data Element Name</th>

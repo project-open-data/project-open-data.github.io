@@ -95,3 +95,5 @@ OMB and Treasury are committed to keeping the implementation process transparent
 * We are implementing the DATA Act in a fundamentally different way from past statutes. We are using a data centric approach to minimize costs and effectively utilize 21st century technology.
 We are cognizant that agencies have established business processes and reporting procedures, and we want to minimize the burden of implementation. We have been and will continue to work with federal stakeholders to understand how data standards can best be implemented to leverage existing processes. We are committed to leveraging existing data and infrastructure as much as possible to avoid duplicate investments.
 * We will be providing information to agencies later this spring with clear steps for agency implementation and greater detail about how DATA Act standards will interact with current reporting processes.
+
+

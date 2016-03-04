@@ -1,0 +1,147 @@
+.usa-da-header {
+    margin: 0;
+    & .usa-da-header-container {
+        height: 160px;
+        & .usa-da-masthead-wrap {
+            width: 230px;
+            text-align: right;
+            float: left;
+            a.usa-da-navbar-header {
+                display: block;
+                margin: 29px auto 0;
+                width: -webkit-fit-content;
+                width: -moz-fit-content;
+                width: fit-content;
+                &:hover,
+                &:focus {
+                    text-decoration: none;
+                }
+                & h1,
+                h2 {
+                    text-transform: uppercase;
+                    text-align: right;
+                }
+                & h1 {
+                    font-size: 3.1rem;
+                    font-weight: $font-bold;
+                    color: $color-gray;
+                    line-height: 2.9rem;
+                    margin: auto;
+                }
+                & h2 {
+                    margin: 0 auto;
+                    @include flexbox-display-flex();
+                    font-size: 1.5rem;
+                    font-weight: $font-normal;
+                    color: $color-primary-alt-dark;
+                    line-height: 1.9rem;
+                    float: right;
+                }
+            }
+        }
+        & .seal-block {
+            display: none;
+        }
+    }
+}
+
+.nav-row {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .usa-da-header {
+        background: #fff;
+        border-bottom: none;
+        .usa-da-header-container {
+            height: auto;
+            position: relative;
+            padding: 0 15px;
+            .usa-da-masthead-wrap {
+                width: auto;
+                a.usa-da-navbar-header {
+                    margin: 50px 0;
+                    & h1 {
+                        margin: auto;
+                        text-align: left;
+                    }
+                    & h2 {
+                        float: none;
+                        line-height: 2.8rem;
+                        text-align: right;
+                        &:before {
+                            content: '';
+                            flex: 1;
+                            margin-right: 10px;
+                            background: $headStripe;
+                        }
+                    }
+                }
+            }
+            & .seal-block {
+                position: absolute;
+                right: 15px;
+                top: 31px;
+                display: block;
+                & img.act-logo {
+                    width: 275px;
+                }
+            }
+        }
+    }
+    ul#usa-da-header-link-holder {
+        padding: 0 15px;
+        font-size: 1.5rem;
+        font-weight: $font-normal;
+        @include flexbox-display-flex();
+        justify-content: flex-center;
+        -webkit-flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        & > li {
+            margin: 0;
+            a {
+                color: $color-gray;
+                vertical-align: middle;
+                padding: 1.4rem;
+                font-size: 1.4rem;
+                &:hover {
+                    transition: background-color 0.2s ease;
+                    background-color: #f7f5f2;
+                    color: #000;
+                }
+                &:focus {
+                    outline-style: none;
+                    box-shadow: none;
+                    border-color: transparent;
+                }
+            }
+        }
+        & > li.active > * {
+            background-color: $color-gray;
+            color: #fff;
+        }
+    }
+    .nav-row {
+        background: $color-gray-warm-light;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .usa-da-header > .usa-da-header-container > .usa-da-masthead-wrap > a.usa-da-navbar-header {
+        & h1 {
+            font-size: 2.6rem;
+        }
+        & h2 {
+            font-size: 1.4rem;
+        }
+    }
+    .usa-da-header .usa-da-header-container {
+        & .seal-block {
+            top: 47px;
+            & img.act-logo {
+                width: 180px;
+            }
+        }
+    }
+}

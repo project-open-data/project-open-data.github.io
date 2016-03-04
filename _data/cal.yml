@@ -1,0 +1,18 @@
+- title: "Upcoming Agency Events"
+  subcategories:
+    - month: "March"
+      events:
+        - title: "3/2 Interagency Advisory Committee Meeting"
+          popupText: "A monthly meeting of the IAC. For more information see the <a href='https://community.max.gov/display/Management/Interagency+Advisory+Committee' target='_blank'>meeting notes</a>."
+        - title: "3/3 Office Hours"
+          popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."
+        - title: "3/3 Sandbox Testing"
+          popupText: "Come and test your data submission against the current version of the broker. <a href='mailto:DATAPMO@fiscal.treasury.gov'>Contact the DATA Act PMO to participate</a>"
+        - title: "3/10 Office Hours"
+          popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."
+        - title: "3/17 Office Hours"
+          popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."
+        - title: "3/24 Office Hours"
+          popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."
+        - title: "3/31 Office Hours"
+          popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."

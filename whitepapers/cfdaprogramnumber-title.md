@@ -1,14 +1,14 @@
 ---
 published: true
 permalink: /whitepapers/cfdaprogramnumber-title/
-layout: hero
+layout: article
 filename: cfdaprogramnumber-title.md
 title: CFDA Program Number_Title
 ---
 
 # Element: Catalogue of Federal Domestic Assistance Number and Catalogue of Federal Domestic Assistance Title
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope ="col">Data Element Name</th>
@@ -90,7 +90,7 @@ In addition to the recommended standard data definitions for CFDA for transparen
 ## Final Definitions for Transparency Reporting
 The following data elements are determined to be necessary to communicate the CFDA of a federal award to the public:
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Data Element Name</th>

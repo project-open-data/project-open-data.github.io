@@ -1,0 +1,20 @@
+<div class="timeline-wrap">
+    <div id="timeline"></div>
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/timeline/timeline-min.js"></script>
+
+<script>
+$(document).ready(function() {
+    var additionalOptions = {
+        // timenav_height: 200
+        initial_zoom: '2',
+    }
+    timeline = new TL.Timeline('timeline',
+        '{{ site.baseurl }}/assets/js/timeline/dataAct.json',
+        additionalOptions);
+    window.onresize = function(event) {
+        timeline.updateDisplay();
+    }
+});
+</script>

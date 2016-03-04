@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /whitepapers/naics/
-layout: hero
+layout: article
 filename: naics.md
 title: North American Industrial Classification System
 ---
@@ -10,7 +10,7 @@ title: North American Industrial Classification System
 
 Thank you for contributing your feedback on this data element—your input and insight was helpful as we worked to finalize the standards. Please go [here](https://max.gov/maxportal/assets/public/offm/DataStandardsFinal.htm "Federal Spending Transparency Standards") to see the data definitions for these elements in their final form.
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Number</th>
@@ -48,7 +48,7 @@ There were no concerns or recommended alternatives for the NAICS Code and NAICS 
 
 ## Recommended Definitions for Transparency Reporting
 
-<table>
+<table class='table-bordered'>
   <thead>
     <tr>
       <th scope="col">Recommended Data Element Name</th>

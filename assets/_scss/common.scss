@@ -1,0 +1,171 @@
+/* IMPORT SOURCE SANS PRO FONT FROM GOOGLE FONTS */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic);
+
+html, body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: $font-sans;
+    color: #525252;
+}
+
+// .usa-da-body {
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
+// }
+
+// .usa-da-outter-wrap {
+//     @include flex(1 0 auto);
+// }
+
+
+/* Colors */
+
+$color-darkest: #2C333B;
+
+/* Fonts */
+
+
+@font-face {
+    font-family: "dataact";
+    src: url("../fonts/dataact.eot");
+    src: url("../fonts/dataact.eot?#iefix") format("embedded-opentype"), url("../fonts/dataact.woff") format("woff"), url("../fonts/dataact.ttf") format("truetype"), url("../fonts/dataact.svg#dataact") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:visited,
+a:hover,
+a:active {
+    color: #0071bc;
+}
+
+
+/* Classes */
+.usa-da-text-white {
+    color: white
+}
+
+
+
+/* Icons */
+[class^="usa-da-icon-"]:before,
+[class*=" usa-da-icon-"]:before {
+    font-size: 1em;
+    font-family: "dataact" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -webkit-osx-font-smoothing: grayscale;
+    padding-left: .4em;
+    padding-top: .4em;
+    position: absolute;
+}
+
+.usa-da-icon-lock:before {
+    content: "a";
+}
+
+.usa-da-icon-unlock:before {
+    content: "b";
+}
+
+.usa-da-icon-unlock-alt:before {
+    content: "c";
+}
+
+.usa-da-icon-user:before {
+    content: "d";
+}
+
+
+/* Content */
+.usa-da-content {
+    margin: auto 0;
+    padding-bottom: 1.5em;
+    width: 100%;
+    max-width: 100%;
+    font-weight: $font-normal;
+    h1 {
+        font-weight: $font-light;
+        margin-top: 0;
+    }
+}
+
+.usa-da-content-dark {
+    color: white;
+    background-color: $color-darkest;
+    .row.usa-da-content-landing {
+        background: url('/graphics/bar_bg.png') no-repeat bottom right;
+    }
+    .row.usa-da-content-add-data {
+        background: url('/graphics/line_bg.png') no-repeat bottom right;
+    }
+}
+
+.usa-da-content-light-gray {
+    color: $color-gray-light;
+    background-color: $color-gray-lightest;
+}
+
+
+/* Footer */
+.usa-da-footer {
+    font-family: $font-sans;
+    text-align: center;
+    background-color: $color-darkest;
+    color: $color-white;
+    width: 100%;
+    margin: 60px 0 0;
+    & p {
+        color: #fff;
+        margin: 20px 0;
+    }
+    & .github-btn {
+        margin: 10px 0 -12px;
+        width: 80px;
+        height: 34px;
+        background: #eee;
+        & .github-btn-large {
+            height: 50px;
+        }
+    }
+    & .footer-links {
+        margin: 5px 0 0;
+    }
+}
+
+@media (min-width: 990px) {
+    .usa-da-footer {
+        & p {
+            text-align: left;
+            padding: 0;
+        }
+        & .col-md-push-7.footer-links {
+            text-align: right;
+            padding: 0 10px 0 0;
+        }
+    }
+}
+
+
+.place-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+// SHARPEN TEXT ON RETNA DISPLAY
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx){
+    body{
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+} 

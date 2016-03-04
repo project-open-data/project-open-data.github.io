@@ -1,0 +1,38 @@
+<div id="line-holder">
+    <canvas id="sample-line-data" height="450" width="600"></canvas>
+</div>
+<div id="lineLegend" class="chart-legend"></div>
+
+<script>
+var randomScalingFactor = function() {
+    return Math.round(Math.random() * 100)
+};
+
+//SET COLOR
+var colorOneFull = "rgba(220,220,220,1)";
+var colorTwoFull = "rgba(151,187,205,1)";
+
+var sampleLineChartData = {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [{
+        label: "My First dataset",
+        fillColor: "rgba(220,220,220,0.2)",
+        strokeColor: colorOneFull,
+        pointColor: colorOneFull,
+        pointStrokeColor: "#fff",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: colorOneFull,
+        data: [randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()]
+    }, {
+        label: "My Second dataset",
+        fillColor: "rgba(151,187,205,0.2)",
+        strokeColor: colorTwoFull,
+        pointColor: colorTwoFull,
+        pointStrokeColor: "#fff",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: colorTwoFull,
+        data: [randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()]
+    }]
+
+};
+</script>

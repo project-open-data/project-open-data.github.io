@@ -1,0 +1,181 @@
+// Typography
+$em-base:             10px;
+$base-font-size:      1.6rem;
+$small-font-size:     1.4rem;
+$lead-font-size:      2.0rem;
+$title-font-size:     5.2rem;
+
+$h1-font-size:        5.063rem;
+$h2-font-size:        3.0rem;
+$h3-font-size:        2.0rem;
+$h4-font-size:        1.7rem;
+$h5-font-size:        1.5rem;
+$h6-font-size:        1.3rem;
+
+$base-line-height:    2.6rem;
+$heading-line-height: 1.5;
+$lead-line-height:    1.7;
+
+$font-sans:           'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+$font-serif:          'Merriweather', 'Georgia', 'Times New Roman', serif;
+
+$font-light:		      200;
+$font-normal:         400;
+$font-bold:           700;
+
+
+// Color
+$color-primary:              #0071bc;
+$color-primary-darker:       #205493;
+$color-primary-darkest:      #112e51;
+
+$color-gray-dark:            #323a45;
+$color-gray:                 #5b616b; // lighten($color-gray-dark, 20%)
+$color-gray-light:           #aeb0b5; // lighten($color-gray-dark, 60%)
+$color-gray-lighter:         #d6d7d9; // lighten($color-gray-dark, 80%)
+$color-gray-lightest:        #f1f1f1; // lighten($color-gray-dark, 91%)
+
+$color-primary-alt:          #02bfe7;
+$color-primary-alt-dark:     #00a6d2;
+$color-primary-alt-darkest:  #046b99;
+$color-primary-alt-light:    #9bdaf1; // lighten($color-primary-alt, 60%)
+$color-primary-alt-lightest: #e1f3f8; // lighten($color-primary-alt, 90%)
+
+$color-secondary:            #e31c3d;
+$color-secondary-dark:       #cd2026;
+$color-secondary-darkest:    #981b1e;
+$color-secondary-light:      #e59393; // lighten($color-secondary, 60%)
+$color-secondary-lightest:   #f9dede; // lighten($color-secondary, 90%)
+
+$color-white:                #ffffff;
+$color-base:                 #212121;
+
+$color-gray-warm-dark:       #494440;
+$color-gray-warm-light:      #e4e2e0; // lighten($color-gray-warm-dark, 90%)
+$color-gray-cool-light:      #dce4ef; // lighten($color-primary, 90%)
+
+$color-gold:                 #fdb81e;
+$color-gold-light:           #f9c642; //  lighten($color-gold, 20%)
+$color-gold-lighter:         #fad980; //  lighten($color-gold, 60%)
+$color-gold-lightest:        #fff1d2; //  lighten($color-gold, 83%)
+
+$color-green:                #2e8540;  
+$color-green-light:          #4aa564; // lighten($color-green, 20%)
+$color-green-lighter:        #94bfa2; // lighten($color-green, 60%)
+$color-green-lightest:       #e7f4e4; // lighten($color-green, 60%)
+
+$color-cool-blue:            #205493;
+$color-cool-blue-light:      #4773aa; // lighten($color-cool-blue, 20%)
+$color-cool-blue-lighter:    #8ba6ca; // lighten($color-cool-blue, 60%)
+$color-cool-blue-lightest:   #dce4ef; // lighten($color-cool-blue, 90%)
+
+$color-focus:                #3e94cf;
+$color-visited:              #4c2c92;
+
+
+// Mobile First Breakpoints
+$x-small-screen:    max-width 767px;
+$small-screen:      768px;
+$medium-screen:     992px;
+$large-screen:      1200px;
+
+
+// Magic Numbers
+$text-max-width:    53rem;
+$site-max-width:    90%;
+$site-margins:      3rem;
+$article-max-width: 600px;
+$input-max-width:   46rem;
+$border-radius:     rem(3px);
+$button-border-radius: 0;
+$box-shadow:        0 0 2px rgba(#000, .3);
+$focus-shadow:      0 0 3px $color-focus, 0 0 7px $color-focus;
+$grid-margins:      3rem;
+
+
+$gray-line: #b8b7b7;
+
+$headStripe: linear-gradient(to bottom, rgba(white, 0) 49%,
+$gray-line 49%,
+$gray-line 52%, rgba(white, 0) 52%);
+
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// VENDOR PREFIX
+@mixin vendor-prefix($name, $value) {
+  @each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
+    #{$vendor}#{$name}: #{$value};
+  }
+}
+
+// example of rotated item
+// @include vendor-prefix('transform', 'rotate(10deg)');
+
+
+@mixin headTag($top, $left) {
+    top: $top;
+    left: $left;
+}
+
+
+@function as-alpha($hex-color,
+$alpha) {
+    $-local-red: red(rgba($hex-color, 1));
+    $-local-green: green(rgba($hex-color, 1));
+    $-local-blue: blue(rgba($hex-color, 1));
+    @return rgba($-local-red,
+    $-local-green,
+    $-local-blue,
+    $alpha);
+}
+
+
+//Flexbox
+@mixin flexbox-display-flex() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+
+@mixin flexbox-order($val) {
+  -webkit-box-ordinal-group: $val;  
+  -moz-box-ordinal-group: $val;     
+  -ms-flex-order: $val;     
+  -webkit-order: $val;  
+  order: $val;
+}
+
+@mixin flex-direction($val) {
+  -webkit-box-ordinal-group: $val;  
+  -moz-box-ordinal-group: $val;     
+  -ms-flex-order: $val;     
+  -webkit-order: $val;  
+  order: $val;
+}
+
+@mixin flexbox-flex($width) {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: $width; // Passing our width value here
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+

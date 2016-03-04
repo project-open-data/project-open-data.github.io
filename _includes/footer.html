@@ -1,37 +1,49 @@
-  <hr>
-  <div class="container-fluid" id="footer">
-    <div class="row-fluid">
-      <div class="span12">
-        <a class="btn btn-primary" href="{{ site.baseurl }}/license/">License</a>
-        <a class="btn btn-primary" href="{{ site.baseurl }}/privacy/">Privacy</a>
-        <a class="btn btn-primary" href="mailto:fed-spending-transparency-collaboration@gsa.gov?subject=Federal%20Spending%20Collaboration%20Question">Questions?</a>
-        <div class="pull-right">
-          <iframe src="/assets/ghbtns/github-btn.html?user={{ site.org_name }}&repo={{ site.repo_name }}&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+<div class="container-fluid usa-da-footer">
+    <div class="container" id="footer">
+        <div class="row">
+            <div class="col-xs-12 col-md-5 col-md-push-7 footer-links">
+                <a class="btn btn-primary btn-sm" href="{{ site.baseurl }}/license/">License</a>
+                <a class="btn btn-primary btn-sm" href="{{ site.baseurl }}/privacy/">Privacy</a>
+                <a class="btn btn-primary btn-sm" href="mailto:fed-spending-transparency-collaboration@gsa.gov?subject=Federal%20Spending%20Collaboration%20Question">Questions?</a>
+                <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user={{ site.org_name }}&repo={{ site.repo_name }}&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+            </div>
+            <div class="col-xs-12 col-md-7 col-md-pull-5">
+                <p>{{ site.time | date: '%Y' }} | Federal Spending Transparency Collaboration Space</p>
+            </div>
         </div>
-      </div>
     </div>
-  </div><!-- /container -->
+</div>
+</div>
+<!-- /container -->
+<script src="{{site.baseurl}}/assets/js/jquery-2.2.0.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/mobile-head.js"></script>
+<script src="{{site.baseurl}}/assets/js/chart/Chart.js"></script>
+<script src="{{site.baseurl}}/assets/js/fedSpend_base.js"></script>
+<!-- Google Analytics -->
+<script>
+(function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-48605964-26', 'fedspendingtransparency.github.io');
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="{{ site.root_url }}/assets/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
-  <script src="{{ site.root_url }}/assets/js/bootstrap.min.js"></script>
-  <!-- Google Analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-48605964-26', 'fedspendingtransparency.github.io');
+// anonymize user IPs (chops off the last IP triplet)
+ga('set', 'anonymizeIp', true);
 
-    // anonymize user IPs (chops off the last IP triplet)
-    ga('set', 'anonymizeIp', true);
+// forces SSL even if the page were somehow loaded over http://
+ga('set', 'forceSSL', true);
 
-    // forces SSL even if the page were somehow loaded over http://
-    ga('set', 'forceSSL', true);
-
-    ga('send', 'pageview');
-  </script>
-
+ga('send', 'pageview');
+</script>
 </body>
+
 </html>
 <!-- Generated {{ site.time }} -->
