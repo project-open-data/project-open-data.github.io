@@ -37,20 +37,20 @@ The revision process is part of our user-centric approach that depends on active
 To provide feedback on our data model (DAIMS), please see our related issue on [GitHub](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/126){:target="_blank"}.
 
 
-##Reporting Submission Specification (RSS)
+## Reporting Submission Specification (RSS)
 
 An RSS details what needs to be included in a submission and the appropriate format for a submission. It includes information like which data elements are optional/required, how long a field is, and other metadata to understand what a data element means. The RSS documents contain the specific instructions a federal agency will need to submit data.
 
 Going forward, the RSS will continue to evolve as the DATA Act data model is updated and will continue to reflect the specific instructions for federal agencies. Federal agencies can view [more information about the RSS on MAX](https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf?api=v2){:target="_blank"}. 
 
-##Data Elements Guidance (DEG)
+## Data Elements Guidance (DEG)
 
 In the course of developing and sharing the elements, we have learned that too much detail can be overwhelming. We are working with stakeholders to determine an appropriate balance of detail to provide in the DEG.
 
 The FFATA and DATA Act outline the required information for federal spending transparency reporting. These requirements were translated into core data elements that were standardized with feedback from the federal community and external stakeholders. The finalized definitions of these elements are available on the [Data Elements page]({{ site.baseurl }}/data-elements).
 
 
-##Schema diagrams
+## Schema diagrams
 
 The schema diagrams are visual representations of how the different data elements are related. They show the groupings of elements and attributes.
 
@@ -63,12 +63,12 @@ The schema diagrams are visual representations of how the different data element
 </div>
 
 
-##Online Data Dictionary
+## Online Data Dictionary
 
 The [Data Dictionary]({{ site.baseurl }}/dictionary/){:target="_blank"} is a list of the data elements with definitions and details of associated metadata. Click the link in the information Model Element – Semantic Label column to access the metadata details.
 
 
-##XBRL Schema Files
+## XBRL Schema Files
 
 A data standard contains both a human-readable version of the standard and a machine-readable version of a standard. The XBRL Schema files are the machine-readable version of the DATA Act standard.
 

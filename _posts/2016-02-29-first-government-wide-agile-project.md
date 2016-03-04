@@ -11,7 +11,7 @@ If you've ever worked on a technology project in government, you're probably mos
 
 <img src="{{site.baseurl}}/assets/graphics/learn-test-make.svg" class="learn-test-make" />
 
-You might think, "that may be fine and good for software, but implementing the DATA Act is a lot more complicated!". And you'd be right! The DATA Act requires agency financial data to be reported, validated, and linked to grants, contracts and other awards in a way that has never been done before, in _any_ government. There are a lot of policy decisions that need to be made, a lot of business processes that need to change, a lot of stakeholders, and a LOT of data. It may not seem like it, but the DATA Act implementation is an ideal candidate for agile development.
+You might think, "that may be fine and good for software, but implementing the DATA Act is a lot more complicated!" And you'd be right! The DATA Act requires agency financial data to be reported, validated, and linked to grants, contracts, and other awards in a way that has never been done before, in _any_ government. There are a lot of policy decisions that need to be made, a lot of business processes that need to change, a lot of stakeholders, and a LOT of data. It may not seem like it, but the DATA Act implementation is an ideal candidate for agile development.
 
 ### An iterative schema
 
@@ -27,7 +27,7 @@ Our prototype only had a small fraction of the functionality we'll have when it'
 
 ### Every day I'm pivotin'
 
-One of the tenets of the [Agile Manifesto](http://www.agilemanifesto.org/) is "Responding to change over following a plan", otherwise known as a pivot. Sometimes you have roadblocks that crop up, making it difficult or impossible to move forward in certain areas. In waterfall land, the entire timeline gets pushed out, compounding the risk of failure with each small delay. In agile, you pivot.
+One of the tenets of the [Agile Manifesto](http://www.agilemanifesto.org/) is "Responding to change over following a plan"  otherwise known as a pivot. Sometimes you have roadblocks that crop up, making it difficult or impossible to move forward in certain areas. In waterfall land, the entire timeline gets pushed out, compounding the risk of failure with each small delay. In agile, you pivot.
 
 Implementing the DATA Act requires several policy decisions across different levels of government, resulting in lots of discussions, meetings, drafts, and revisions before a final decision is made. And some parts of the schema or the broker software can't be completed until those decisions are made. Agile helps us reduce our overall risk by pivoting to the next biggest priority in the hierarchy so that we can continue to make rapid forward progress and even help inform those policy discussions with real user feedback. 
 
