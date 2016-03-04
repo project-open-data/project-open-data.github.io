@@ -79,14 +79,16 @@ if ($('#back-to-top').length) {
 function placeFooter() {
     var winHeight = window.innerHeight;
     var divHeight = $(".usa-da-outter-wrap").height();
+    var footerHeight = $(".usa-da-footer").innerHeight() + 20;
 
     if (winHeight >= divHeight) {
-        $(".usa-da-footer").addClass("place-bottom");
-    } else if (winHeight < divHeight) {
+        $(".usa-da-footer").addClass("place-bottom").css("bottom", -footerHeight);
+    } else if (winHeight <= divHeight) {
         $(".usa-da-footer").removeClass("place-bottom");
-    } else if (divHeight > winHeight) {
+    } else if (divHeight >= winHeight) {
         $(".usa-da-footer").removeClass("place-bottom");
     }
+
 }
 
 $(window).load(function() {
