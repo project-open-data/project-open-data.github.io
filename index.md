@@ -44,7 +44,7 @@ page: homepage
                             <span class="glyphicon glyphicon-cloud-upload"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" title="Data Submission" target='_blank'>Data Submission</a>: Getting data uploaded to USA Spending is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
+                            <p><a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" title="Data Submission" target='_blank'>Data Submission</a>: Getting data uploaded to USAspending is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
                             <p>If you are a federal agency employee, click <a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" title="Learn about format specifications">here</a> to learn about the format specification(s) and how our data broker will enable you to validate and submit data.</p>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ page: homepage
                         <span class="usability-icon"></span>
                     </div>
                     <div class="media-body">
-                        <p>User research, testing, and design iteration will undergird all parts of the DATA Act implementation. Learn about our user-centered process <a href="{{ site.baseurl }}/user-centered-design">here</a></p>
+                        <p>User research, testing, and design iteration will undergird all parts of the DATA Act implementation. Learn about our user-centered process <a href="{{ site.baseurl }}/user-centered-design">here</a>.</p>
                     </div>
                 </div>
             </div>
