@@ -7,7 +7,7 @@ title: User-Centered Design
 ---
 
 
-#User-Centered Design
+# User-Centered Design
 
 The DATA Act team strives to gain a better understanding of those who will be using the new USAspending.gov site and those responsible for uploading data to it.
 
@@ -20,13 +20,13 @@ Our user-centered design process starts with user research (learn), applies it t
 Below are some specific examples of our work.  For more about the user-centered design process in general, visit [www.usability.gov](http://www.usability.gov){:target="_blank"}.
 
 
-##Learn (User Research)
+## Learn (User Research)
 
 Through meetings, workshops, analytics, and user interviews, the DATA Act team has worked to learn about users’ needs, including what they want from the data, their technical environments (e.g., browsers, other software used), and their “pain points” with the current system. 
 
 From that, we have developed a preliminary set of targeted user types, called “Personas.” Personas are visual encapsulations of research findings that inform the design process. **They capture real user perceptions, experiences, and quotations, which we draw on to build better software.** Photos and personal details, however, are merely representative to help make them more real and relatable.
 
-####Below are four examples of our current personas:
+#### Below are four examples of our current personas:
 
 <div class="row">
     <div class="col-md-6 persona-block">
@@ -61,7 +61,7 @@ From that, we have developed a preliminary set of targeted user types, called �
 As more user research is conducted and designs are tested, our personas will evolve, expand, and continuously become more accurate.
 
 
-##Make
+## Make
 
 
 <div class="row">
@@ -78,7 +78,7 @@ As more user research is conducted and designs are tested, our personas will evo
 
 
 
-##Test
+## Test
 
 The DATA Act Team developed a comprehensive plan for conducting recurring usability testing to meet our goals for a useful and intuitive site. Usability testing is critical for establishing and validating user performance measures, and identifying potential design concerns. The goal of testing is to improve the efficiency, productivity, and end-user satisfaction for both government agencies and public users.
 
