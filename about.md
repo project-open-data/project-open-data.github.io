@@ -9,7 +9,7 @@ title: about
 
 # About
 
-##Federal Spending Transparency Background 
+## Federal Spending Transparency Background 
 
 The [Federal Funding Accountability and Transparency Act of 2006 (FFATA)](https://www.congress.gov/bill/109th-congress/senate-bill/2590/text){:target="_blank"} was signed into law on September 26, 2006. The legislation required that federal contract, grant, loan, and other financial assistance awards of more than $25,000 be displayed on a publicly accessible and searchable website to give the American public access to information on how their tax dollars are being spent. In 2008, FFATA was amended by the [Government Funding Transparency Act](https://www.gpo.gov/fdsys/pkg/PLAW-109publ282/pdf/PLAW-109publ282.pdf){:target="_blank"}, which required prime recipients to report details on their first-tier sub-recipients for awards made as of October 1, 2010.
 
@@ -22,9 +22,9 @@ The transparency efforts of FFATA were expanded with the enactment of the [Digit
 
 The expanded, linked data submitted by the agencies will be displayed on the future USAspending.gov, which is to go live in May 2017.
 
-##DATA Act Implementation
+## DATA Act Implementation
 
-####Agile Development Methodology
+#### Agile Development Methodology
 
 The DATA Act team is using an Agile development/scrum methodology to build, assess, and iterate the project throughout the development lifecycle. Agile is a software development methodology characterized by short build-cycles, an emphasis on working software, and responsiveness to evolving requirements and solutions.
 
@@ -40,7 +40,7 @@ Operating in the spirit of transparency, we are using Github repositories for al
 
 Visit [Get Involved]({{ site.baseurl }}/get-involved) for more information. 
 
-####User-Centered Design Process
+#### User-Centered Design Process
 
 The DATA Act team strives to have a deep understanding of who will be using the new USAspending.gov site and its related data upload vehicles. This understanding is built on town-hall meetings, workshops, and user interviews reaching the public, industry, and federal agencies. Our aim is to understand the users’ context when using these products, their motivations, requirements, and goals.  This understanding constantly evolves and informs the development process.
 
@@ -50,6 +50,6 @@ Finally, we have developed a comprehensive plan for conducting recurring usabili
 
 Usability testing will continue in a regular cadence in sync with the development cycles of our Agile development environment.  More information on our user-centered design process can be found [here]({{ site.baseurl }}/user-centered-design).
 
-####FAQs
+#### FAQs
 
 For more information about the DATA Act and the implementation process, visit [the FAQs]({{site.baseurl}}/faq).

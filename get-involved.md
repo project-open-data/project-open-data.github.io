@@ -6,7 +6,7 @@ filename: get-involved.md
 title: Get Involved
 ---
 
-#Get Involved
+# Get Involved
 
 Thank you for helping us improve government data. Below are ways you can stay up to date and offer your perspective to enhance government data quality and accessibility.
 
