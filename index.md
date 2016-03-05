@@ -110,6 +110,8 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-22 [DataVizWiz](https://drupal.org/project/datavizwiz) - A [Drupal](http://drupal.org) module that provides a fast way to get data vizualizations online.
 
+4-23 [Tabula](http://tabula.technology/) - Tabula is a tool for liberating data tables locked inside PDF files. researchers use Tabula to turn PDF reports into Excel spreadsheets, CSVs, and JSON files for use in analysis and database applications.
+
 ----------------
 
 ##5. Resources
