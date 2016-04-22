@@ -29,103 +29,31 @@ title: DATA Act Data Dictionary
 
 <h2>DATA Act Schema Data Dictionary (v0.7)</h2>
 
-<table class="table-bordered table-striped mb-40">
+<table id="dictTable" class="tablesorter table-bordered table-striped mb-40" style="word-wrap:break-word; table-layout:fixed;">
     <thead>
         <tr>
-            <th style="width: 30%">Information Model Schema Package</th>
-            <th style="width: 20%">DATA Act Field Name</th>
-            <th style="width: 50%">Information Model Element - Semantic Label</th>
+            <th style="width:6%">file</th>
+            <th> Data Element Label</th>
+            <th style="width:40%;">Definition</th>
+            <th>Use</th>
+            <th style="width:8%">Max Field Length</th>
+            <th>Data Category</th>
         </tr>
     </thead>
     {% for element in site.data.elements %}
     <tr>
-        <td>{{ element.DAIMSPackageContainer }}</td>
+        <td>{{ element.file }}</td>
         <td>
-            {{ element.DATAActFieldName }}
+            {{ element.DataElementLabel }}
         </td>
-        <td><a href="#C{{ forloop.index | plus:1 }}">{{ element.DAIMSSemanticLabel }}</a></td>
+        <!--<td><a href="#C{{ forloop.index | plus:1 }}">{{ element.DAIMSSemanticLabel }}</a></td>-->
+        <td>{{ element.Definition }}</td>
+        <td>{{ element.RequiredOptional }}</td>
+        <td>{{ element.MaxFieldLength }}</td>
+        <td>{{ element.Grouping }}</td>
     </tr>{% endfor %}
 </table>
 
 
-<h2>DATA Act Element Catalog</h2>
 
-{% for element in site.data.elements %}
-<table class="table-bordered table-striped mb-40">
-    <thead>
-        <tr>
-            <th style="width: 35%"><a id="C{{ forloop.index | plus:1 }}"></a>Information Model Element - Semantic Label</th>
-            <th style="width: 65%">{{ element.DAIMSSemanticLabel }}</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <strong>Information Model Schema Package</strong>
-            </td>
-            <td>{{ element.DAIMSPackageContainer }}</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>DATA Act Field Name</strong>
-            </td>
-            <td>{{ element.DATAActFieldName }}</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Reference Field Number</strong>
-            </td>
-            <td>{{ element.referenceFieldNumber }}</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Definition or Description</strong>
-            </td>
-            <td>{{ element.description }}</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>New/Expanded Element Description (Draft)</strong>
-            </td>
-            <td>{{ element.newDescription }} </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Example(s)</strong>
-            </td>
-            <td>{% for example in element.example %}{{ example }}
-                <br/> {% endfor %}</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Primitive Data Type</strong>
-            </td>
-            <td>{{ element.dataType }}</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Definitional Field Length</strong>
-            </td>
-            <td>{{ element.fieldLength }}</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Required</strong>
-            </td>
-            <td>{{ element.required }}</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Business Line(s)</strong>
-            </td>
-            <td>{{ element.businessLine }}</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Domain Values, Derivations or Validations</strong>
-            </td>
-            <td>{{ element.originalValidationRules }}</td>
-        </tr>
-    </tbody>
-</table>
-{% endfor %}
+

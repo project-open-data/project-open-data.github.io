@@ -20,6 +20,7 @@
 <script src="{{site.baseurl}}/assets/js/mobile-head.js"></script>
 <script src="{{site.baseurl}}/assets/js/chart/Chart.js"></script>
 <script src="{{site.baseurl}}/assets/js/fedSpend_base.js"></script>
+<script src="{{site.baseurl}}/assets/js/sortable/jquery.tablesorter.min.js"></script>
 <!-- Google Analytics -->
 <script>
 (function(i, s, o, g, r, a, m) {
@@ -42,6 +43,12 @@ ga('set', 'anonymizeIp', true);
 ga('set', 'forceSSL', true);
 
 ga('send', 'pageview');
+</script>
+
+<script>
+    $(document).ready(function(){
+        $("#dictTable").tablesorter();
+    });
 </script>
 </body>
 
