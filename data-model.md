@@ -54,7 +54,7 @@ The FFATA and DATA Act outline the required information for federal spending tra
 
 The schema diagrams are visual representations of how the different data elements are related. They show the groupings of elements and attributes.
 
-<div class="list-group">
+<div class="list-group" style="width:50%;">
   <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageA_v0.7.pdf" target="_blank" class="list-group-item">Package A</a>
   <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageB_v0.7.pdf" target="_blank" class="list-group-item">Package B</a>
   <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageC_v0.7.pdf" target="_blank" class="list-group-item">Package C</a>
