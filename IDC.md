@@ -1,13 +1,13 @@
 ---
 published: true
 layout: default
-title: Office of Management and Budget Intergrated Data Collection (IDC) Requirements 
+title: Office of Management and Budget Integrated Data Collection (IDC) Requirements 
 permalink: /IDC/
 filename: IDC.md
 id: IDC
 ---
 
-Office of Management and Budget Intergrated Data Collection (IDC) Requirements 
+Office of Management and Budget Integrated Data Collection (IDC) Requirements 
 ---------------------------
 
 ### May 2016 IDC Requirements for Open Data Progress, Use, and Impact
