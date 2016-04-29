@@ -296,7 +296,7 @@ a.list-group-item {
         top: 15px;
         left: 15px;
     }
-}
+} 
 
 .alert-success {
     background: #e7f4e4;
@@ -330,6 +330,8 @@ a.list-group-item {
     border: 1px solid #ccc;
     padding: 15px 15px 0;
 }
+
+
 
 .highlight {
     background: #e9f27c;
@@ -711,6 +713,47 @@ img.learn-test-make{
     opacity: 1;
 }
 
+
+.tableArow{
+    content:' ';
+    height: 22px;
+    width: 15px;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}
+
+@mixin bgArw($bgImg) {
+    background: url($bgImg) no-repeat;
+}
+
+th.header, .headerSortUp, .headerSortDown{
+    position: relative;
+}
+
+th.header{
+    &:hover{
+        cursor: pointer;
+    }
+    &:before {
+        @include bgArw('../graphics/arw_none.png');
+        @extend .tableArow;
+    }
+
+    &.headerSortUp{
+        &:after{
+            @include bgArw('../graphics/arw_up.png');
+            @extend .tableArow;
+        }
+    }
+    
+    &.headerSortDown{
+        &:after{
+            @include bgArw('../graphics/arw_down.png');
+            @extend .tableArow;
+        }
+    }
+}
 
 
 /***** GLOBAL MARGIN AND PADDING *****/
