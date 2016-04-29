@@ -21,6 +21,11 @@ markdown: kramdown
 #   extensions: []
 relative_permalinks: false
 
+gems:
+ - jekyll-redirect-from
+
+whitelist:
+ - jekyll-redirect-from
 
 navigation:
  - title: Home
