@@ -22,9 +22,9 @@ The DAIMS v1.0 gives an overall view of the hundreds of distinct data elements u
  - **Online Data Dictionary** – a comprehensive list of data elements with definitions and minimal metadata, like definition and data category.
  - **XBRL Schema Files** – machine-readable version of the data standard that includes accounting-related and award-related content.
 
-## Data Information Flow
+## Information Flow
 
-The data information model provides an overview of the sources of the data included in the DAIMS and how the data will be submitted to the DATA Act Broker. Treasury will maintain the current cadence for reporting federal awards on a daily and bi-weekly basis and add the quarterly reporting in May 2017. This model shows how the data flows from the agency financial and awards systems to reach the public website.  
+The Information Flow provides an overview of the sources of the data included in the DAIMS and how the data will be submitted to the DATA Act Broker. Treasury will maintain the current cadence for reporting federal awards on a daily and bi-weekly basis and add the quarterly reporting in May 2017. This model shows how the data flows from the agency financial and awards systems to reach the public website.  
 
 <img width="800" src="{{ site.baseurl }}/assets/img/informationflow.png" title="information flow diagram" /> 
 
