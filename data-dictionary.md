@@ -54,7 +54,7 @@ title: DATA Act Data Dictionary
 <table id="dictTable" class="tablesorter table-bordered table-striped mb-40" style="word-wrap:break-word; table-layout:fixed;">
     <thead>
         <tr>
-            <th>File</th>
+            <th>Grouping</th>
             <th>Data Element Label</th>
             <th style="width:40%;">Definition</th>
             <th>Use</th>
