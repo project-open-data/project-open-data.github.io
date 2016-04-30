@@ -55,7 +55,7 @@ title: DATA Act Data Dictionary
     <thead>
         <tr>
             <th>Grouping</th>
-            <th> Data Element Label</th>
+            <th>Data Element Label</th>
             <th style="width:40%;">Definition</th>
             <th>Use</th>
         </tr>
