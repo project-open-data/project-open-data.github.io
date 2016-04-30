@@ -38,7 +38,7 @@ The RSS includes three files that the agencies will submit to Treasury’s Broke
 - File B – Object Class and Program Activity Detail
 - File C – Award Financial Detail 
 
-Federal agencies can view [more information about the RSS on MAX](https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf?api=v2){:target="_blank"}.
+Federal agencies can view [more information about the RSS on MAX](https://community.max.gov/download/attachments/754091528/DAIMS_RSS_v1.0_04292016.xlsx?api=v2){:target="_blank"}.
 
 ## Interface Definition Document (IDD)
 
@@ -51,7 +51,7 @@ The IDD is based on the Data Model (DAIMS) v1.0 and features the elements relate
 - File E – Additional Awardee Attributes
 - File F – Sub-award Attributes
 
-Federal agencies can view more information about the IDD on MAX. [Link is to current file on MAX.gov, link to updated IDD file when available]
+Federal agencies can view more information about [the IDD on MAX](https://community.max.gov/download/attachments/754091528/DAIMS_IDD_v1.0_04292016.xlsx?api=v2){:target="_blank"}. 
 
 ## DAIMS Diagrams
 
@@ -74,7 +74,7 @@ The [Data Dictionary]({{ site.baseurl }}/dictionary/){:target="_blank"} is a lis
 
 A data standard contains both a human-readable version of the standard and a machine-readable version of a standard. The XBRL Schema files are the machine-readable version of the DATA Act standard.
 
-[All Files (zipped)]() [add GitHub link when available]
+[All Files (zipped)]({{site.baseurl}}/assets/docs/DAIMS_XBRL_v1.0_04292016.zip) 
 
 ## Data Definition Standards
 
