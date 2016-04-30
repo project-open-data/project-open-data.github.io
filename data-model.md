@@ -58,13 +58,13 @@ Federal agencies can view more information about [the IDD on MAX](https://commun
 The diagrams are visual representations of how the different data elements are related. They show the groupings of elements and attributes.
 
 <div class="list-group" style="width:50%;">
-  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageA_v0.7.pdf" target="_blank" class="list-group-item">File A – Appropriations Account Detail [add GitHub link when available]</a>
-  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageB_v0.7.pdf" target="_blank" class="list-group-item">File B – Object Class and Program Activity Detail [add GitHub link when available]</a>
-  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageC_v0.7.pdf" target="_blank" class="list-group-item">File C – Award and Financial Detail [add GitHub link when available]</a>
-  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageD_v0.7.pdf" target="_blank" class="list-group-item">File D1 – Award and Awardee Attributes (Procurement) [add GitHub link when available]</a>
-  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageE_v0.7.pdf" target="_blank" class="list-group-item">File D2 – Award and Awardee Attributes (Financial Assistance) [add GitHub link when available]</a>
-  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageE_v0.7.pdf" target="_blank" class="list-group-item">File E – Additional Awardee Attributes [add GitHub link when available]</a>
-  <a href="http://fedspendingtransparency.github.io/assets/docs/DAIMS_Diagram-PackageE_v0.7.pdf" target="_blank" class="list-group-item">File F – Sub-award Attributes [add GitHub link when available]</a>
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_A_v1.0_04292016.pdf" target="_blank" class="list-group-item">File A – Appropriations Account Detail</a>
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_B_v1.0_04292016.pdf" target="_blank" class="list-group-item">File B – Object Class and Program Activity Detail</a>
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_C_v1.0_04292016.pdf" target="_blank" class="list-group-item">File C – Award and Financial Detail</a>
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D1_v1.0_04292016.pdf" target="_blank" class="list-group-item">File D1 – Award and Awardee Attributes (Procurement)</a>
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D2_v1.0_04292016.pdf" target="_blank" class="list-group-item">File D2 – Award and Awardee Attributes (Financial Assistance)</a>
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_E_v1.0_04292016.pdf" target="_blank" class="list-group-item">File E – Additional Awardee Attributes</a>
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_F_v1.0_04292016.pdf" target="_blank" class="list-group-item">File F – Sub-award Attributes</a>
 </div>
 
 ## Online Data Dictionary
