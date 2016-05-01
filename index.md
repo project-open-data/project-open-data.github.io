@@ -139,39 +139,51 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-11 [CIO Council Open Data Prioritization Toolkit](https://cio.gov/cio-council-releases-open-data-prioritization-toolkit/) -  A toolkit to assist agencies with evaluating and prioritizing datasets for release consisting of [guidance](https://cio.gov/wp-content/uploads/filebase/cio_document_library/Open%20Data%20Prioritization%20Toolkit%20Summary.html) and [workbooks](https://cio.gov/wp-content/uploads/filebase/cio_document_library/Open%20Data%20Prioritization%20Toolkit_Workbook.xlsx) to help agencies evaluate datasets on the criteria of value, cost, and risk.
 
-5-12 CIO Council Chief Data Role Survey - Research on the data science and analytic teams across the Federal government, conducted in September 2015. (Download the [Response Data, xlsx](https://github.com/project-open-data/project-open-data.github.io/blob/9eee7b5a1a34ed416765acc0969f11e19566dc89/Chief%20Data%20Roles%20Survey%20Raw%20Data_092815.xlsx))
+----------------
+
+##6. Human Capital
+
+6-1 [Federal Agency Chief Data Officers and Chief Data Scientists](chief-data-officers/) - The Chief Data Officer and Chief Data Scientsit are an emerging roles in US federal government.
+
+6-2 [CFO-Act Agency Open Data Policy Points of Contact](points-of-contact/) - Federal agency staff dedicated to implementing the Federal Open Data Policy requirements are reported to the Office of Management and Budget on a quarterly basis.
+
+6-3 CIO Council Chief Data Role Survey - Research on the data science and analytic teams across the Federal government, conducted in September 2015. (Download the [Response Data, xlsx](https://github.com/project-open-data/project-open-data.github.io/blob/9eee7b5a1a34ed416765acc0969f11e19566dc89/Chief%20Data%20Roles%20Survey%20Raw%20Data_092815.xlsx))
+
+6-4 [Hiring Authorities](hiring/) - Existing hiring authorities and pay flexibilities relevant to data management that agencies may consider for specific projects and needs. *See OPM for official guidance.*
+
+6-5 [Job Description Examples](job-descriptions/) - A growing roundup of job descriptions featuring skills relevant to federal data management and governance.
 
 ----------------
 
-##6. Case Studies
+##7. Case Studies
 
 Case studies of novel or best practices from agencies who are leading in open data help others understand the challenges and opportunities for success.
 
-6-1 [Department of Labor API Program](labor-case-study/) - A department perspective on developing APIs for general use and, in particular, building the case for an ecosystem of users by developing SDKs.
+7-1 [Department of Labor API Program](labor-case-study/) - A department perspective on developing APIs for general use and, in particular, building the case for an ecosystem of users by developing SDKs.
 
-6-2 [Department of Transportation Enterprise Data Inventory](transportation-case-study/) - A review of DOT's strategy and policy when creating a robust data inventory program.
+7-2 [Department of Transportation Enterprise Data Inventory](transportation-case-study/) - A review of DOT's strategy and policy when creating a robust data inventory program.
 
-6-3 [Disaster Assistance Program Coordination](fema-case-study/) - The coordinated campaign led by FEMA has integrated a successful data exchange among 16 agencies to coordinate an important public service.
+7-3 [Disaster Assistance Program Coordination](fema-case-study/) - The coordinated campaign led by FEMA has integrated a successful data exchange among 16 agencies to coordinate an important public service.
 
-6-4 [Environmental Protection Agency Central Data Exchange](epa-case-study/) - The agency's data exchange provides a model for programs that seek to coordinate the flow of data among industry, state, local, and tribal entities.
+7-4 [Environmental Protection Agency Central Data Exchange](epa-case-study/) - The agency's data exchange provides a model for programs that seek to coordinate the flow of data among industry, state, local, and tribal entities.
 
-6-5 [FederalRegister.gov API](https://www.federalregister.gov/uploads/2012/11/FR2-API-Case-Study1.pdf) - A core government program update that has grown into an important public service.
+7-5 [FederalRegister.gov API](https://www.federalregister.gov/uploads/2012/11/FR2-API-Case-Study1.pdf) - A core government program update that has grown into an important public service.
 
-6-6 [National Broadband Map](http://www.scribd.com/doc/109998799/The-National-Broadband-Map-A-Case-Study-on-Open-Innovation-for-National-Policy) - The National Broadband Map, a case study on open innovation for national policy.  Produced by the [Wilson Center](http://www.wilsoncenter.org/).
+7-6 [National Broadband Map](http://www.scribd.com/doc/109998799/The-National-Broadband-Map-A-Case-Study-on-Open-Innovation-for-National-Policy) - The National Broadband Map, a case study on open innovation for national policy.  Produced by the [Wilson Center](http://www.wilsoncenter.org/).
 
-6-7 [National Renewable Energy Laboratory API program](http://developer.nrel.gov/api-case-study/) - An agency perspective on developing APIs for general use and in particular building the case for the internal re-use of the resources.
+7-7 [National Renewable Energy Laboratory API program](http://developer.nrel.gov/api-case-study/) - An agency perspective on developing APIs for general use and in particular building the case for the internal re-use of the resources.
 
-6-8 [USAID Crowdsourcing to Open Data](http://transition.usaid.gov/our_work/economic_growth_and_trade/development_credit/pdfs/2012/USAIDCrowdsourcingCaseStudy.pdf) - A case study that shows how USAID invited the "crowd" to clean and geocode a USAID dataset in order to open and map the data.
+7-8 [USAID Crowdsourcing to Open Data](http://transition.usaid.gov/our_work/economic_growth_and_trade/development_credit/pdfs/2012/USAIDCrowdsourcingCaseStudy.pdf) - A case study that shows how USAID invited the "crowd" to clean and geocode a USAID dataset in order to open and map the data.
 
-6-9 [Centers for Medicare & Medicaid Services (CMS) Data and Information Products](http://www.cms.gov/Research-Statistics-Data-and-Systems/Research/ResearchGenInfo/Downloads/CMS-Data-and-Information-Products.pdf) - a case study of how CMS is transitioning to a data-driven culture, including the creation of a new office for information products and data analytics, the release of open data summarizing provider utilization and payment information, and the responsible disclosure of restricted use data to qualified parties.
+7-9 [Centers for Medicare & Medicaid Services (CMS) Data and Information Products](http://www.cms.gov/Research-Statistics-Data-and-Systems/Research/ResearchGenInfo/Downloads/CMS-Data-and-Information-Products.pdf) - a case study of how CMS is transitioning to a data-driven culture, including the creation of a new office for information products and data analytics, the release of open data summarizing provider utilization and payment information, and the responsible disclosure of restricted use data to qualified parties.
 
-6-10 [Licensing policies, principles, and resources](/licensing-resources) - Some examples of how government has addressed open licensing questions.
+7-10 [Licensing policies, principles, and resources](/licensing-resources) - Some examples of how government has addressed open licensing questions.
 
 **For Developers: [View all appendices](http://github.com/project-open-data/) (and source)**
 
 ----------------
 
-##7. Open Data Engagement
+##8. Open Data Engagement
 
 So you’re opening up government data and making it easier to find and use – to inspire new ideas, spur economic growth, and ultimately make your agency more effective in achieving its mission. But you realize that your agency can’t just supply data – it’s also about getting and acting upon feedback, and catalyzing use of the data from a wide variety of stakeholders.  A community event is a great way to hear ideas and feedback from passionate people, offer your expertise to people with thoughtful questions and evangelize your data assets. This document gives an overview of the main types of open data community events the U.S. Government holds.
 
@@ -199,11 +211,8 @@ An event where developers, designers, and strategists work in teams to solve pro
 
 ## Open Data Stakeholder Contacts
 
-#### Agency Open Data Policy Points of Contact
-Federal agency staff dedicated to implementing the Open Data Policy requirements as reported to the Office of Management and Budget. *See this [list of Agency Points of Contact](points-of-contact/).*
-
-#### Chief Data Officers  
-Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. *See this [growing list of federal Chief Data Officers](chief-data-officers/).*
+#### Agency Chief Data Officers, Chief Data Scientists, and Open Data Points of Contact 
+The Chief Data Role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. *See this [growing list of Federal Agency Chief Data Officers and Chief Data Scientists](chief-data-officers/).* Federal Agency staff dedicated to implementing the Federal Open Data Policy requirements are reported to the Office of Management and Budget on a quarterly basis. *See this [list of CFO-Act Agency Open Data Policy Points of Contact](points-of-contact/).*
 
 **Goal:** To engage sister agencies in open data community events. 
 
