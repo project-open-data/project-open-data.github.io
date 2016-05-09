@@ -112,7 +112,7 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 ----------------
 
-##5. Resources
+## 5. Resources
 
 This section contains programmatic tools, resources, and/or checklists to help programs determine open data requirements.
 
@@ -143,7 +143,7 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 ----------------
 
-##6. Case Studies
+## 6. Case Studies
 
 Case studies of novel or best practices from agencies who are leading in open data help others understand the challenges and opportunities for success.
 
@@ -171,7 +171,7 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 ----------------
 
-##7. Open Data Engagement
+## 7. Open Data Engagement
 
 So you’re opening up government data and making it easier to find and use – to inspire new ideas, spur economic growth, and ultimately make your agency more effective in achieving its mission. But you realize that your agency can’t just supply data – it’s also about getting and acting upon feedback, and catalyzing use of the data from a wide variety of stakeholders.  A community event is a great way to hear ideas and feedback from passionate people, offer your expertise to people with thoughtful questions and evangelize your data assets. This document gives an overview of the main types of open data community events the U.S. Government holds.
 
