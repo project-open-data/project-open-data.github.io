@@ -1,17 +1,5 @@
 - title: "Upcoming Agency Events"
   subcategories:
-    - month: "April"
-      events:
-        - title: "4/6 Interagency Advisory Committee Meeting"
-          popupText: "A monthly meeting of the IAC. For more information see the <a href='https://community.max.gov/display/Management/Interagency+Advisory+Committee' target='_blank'>meeting notes</a>."
-        - title: "4/7 Office Hours"
-          popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."
-        - title: "4/14 Office Hours"
-          popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."
-        - title: "4/21 Office Hours--CANCELLED"
-          popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."
-        - title: "4/28 Office Hours"
-          popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."
     - month: "May"
       events:
         - title: "5/4 Interagency Advisory Committee Meeting"
