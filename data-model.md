@@ -8,7 +8,7 @@ page: data-model
 redirect_from: "/data-exchange-standard/"
 ---
 
-#DATA Act Information Model Schema v1.0
+# DATA Act Information Model Schema v1.0
 
 _Updated April 29, 2016_ -- A core requirement of the DATA Act is the development of government-wide data standards to ensure the reporting of reliable, consistent federal spending data for public use. Last year, OMB and Treasury finalized the 57 data definition standards and Treasury used the data definition standards to develop the initial draft of the DATA Act data exchange standard or Schema in May 2015. Treasury is using the agile development methodology to create the Schema and collected public input and feedback from federal agencies. Treasury issued four draft versions of the DATA Act Information Model Schema (DAIMS) v1.0 that was finalized today. The DAIMS v1.0 was revised over the past year based on hundreds of comments provided by the public and federal agencies. 
 

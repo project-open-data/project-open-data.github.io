@@ -47,7 +47,7 @@ title: DATA Act Data Dictionary
         <li>Derived – Element content is obtained from the content of another element. For example, ZIP code is used to derive city and state.</li>
         <li>Extracted – Element is pulled from another source.</li>
     </ul>
-
+    <strong>Data Category</strong> &mdash; Some elements are part of a category of elements. 
 </p>
 </div>
 
