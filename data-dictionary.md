@@ -21,7 +21,7 @@ title: DATA Act Data Dictionary
 
 <p>
     <strong>Grouping</strong> &mdash; Agencies report data in certain groupings.
-    <ul>
+    <ul style="margin-bottom:0;">
         <li>File A – Appropriations Account Detail</li>
         <li>File B – Object Class and Program Activity Detail</li>
         <li>File C – Award and Financial Detail</li>
@@ -39,7 +39,7 @@ title: DATA Act Data Dictionary
 </p>
 <p>
     <strong>Use</strong> &mdash; Is this element required?
-    <ul>
+    <ul style="margin-bottom:0;">
         <li>Required – Element must be present.</li>
         <li>Optional – Element may be included but is not required.</li>
         <li>Conditional per Validation Rule – Element may be needed based on a validation rule.</li>
@@ -51,8 +51,9 @@ title: DATA Act Data Dictionary
 <p>
     <strong>Data Category</strong> &mdash; Some elements are part of a category of elements. 
 </p>
-</div>
 
+</div>
+<p></p>
 <table id="dictTable" class="tablesorter table-bordered table-striped mb-40" style="word-wrap:break-word; table-layout:fixed;">
     <thead>
         <tr>
