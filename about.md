@@ -15,7 +15,7 @@ The transparency efforts of FFATA were expanded with the enactment of the [Digit
 
 * Expand FFATA by disclosing direct agency expenditures and linking federal contract, loan, and grant spending information to federal agency programs;
 * Establish government-wide data standards for financial data and provide consistent, reliable, and searchable data that is displayed accurately;
-* Simplify reporting, streamlining reporting requirements, and reducing compliance costs, while improving transparency;
+* Simplify reporting, streamline reporting requirements, and reduce compliance costs, while improving transparency;
 * Improve the quality of data submitted to [USAspending.gov](http://www.usaspending.gov){:target="_blank"} by holding agencies accountable.
 
 The expanded, linked data submitted by the agencies will be displayed on the future USAspending.gov, which is to go live in May 2017.
@@ -26,7 +26,7 @@ The expanded, linked data submitted by the agencies will be displayed on the fut
 
 Instead of building the future USAspending.gov and getting reaction from users after the launch, Treasury has taken the innovative approach of releasing [OpenBeta.USAspending.gov](https://openbeta.usaspending.gov/){:target="_blank"}, a public beta site to show (rather than just tell about) progress as we build.  Open Beta exists to gather users’ recommendations and suggestions in real time on real functionality, and then utilize that feedback to evolve the site.  
 
-Everything you see on this Federal Spending Transparency website is contributing directly or indirectly toward something on Open Beta.  As more infrastructure is built out (data model, agency data submission, data storage) more data and functions appear on Open Beta.
+Everything you see on this Federal Spending Transparency website is contributing directly or indirectly toward something on Open Beta.  As more infrastructure is built out (data model, agency data submission, and data storage) more data and functions appear on Open Beta.
 
 #### Agile Development Methodology
 
@@ -40,11 +40,11 @@ In addition, the team participates in a stand-up call every morning to review th
 
 The Agile/scrum process is open and transparent: stakeholders can follow the progress of the tasks in the development and publication work streams on our [JIRA](https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all){:target="_blank"} site.
 
-Operating in the spirit of transparency, we are using Github repositories for all our code. This external communication platform allows both internal and external stakeholders to monitor the progress of the DATA Act implementation processes. To provide feedback on the code, please file an issue on the relevant Github repository. You can find a list of all repositories [here](https://github.com/fedspendingtransparency){:target="_blank"}.
+Operating in the spirit of transparency, we are using GitHub repositories for all our code. This external communication platform allows both internal and external stakeholders to monitor the progress of the DATA Act implementation processes. To provide feedback on the code, please file an issue on the relevant GitHub repository. You can find a list of all repositories [here](https://github.com/fedspendingtransparency){:target="_blank"}.
 
 #### User-Centered Design Process
 
-The DATA Act team strives to have a deep understanding of who will be using the new USAspending.gov site and its related data upload vehicles. This understanding is built on town-hall meetings, workshops, and user interviews reaching the public, industry, and federal agencies. Our aim is to understand the users’ context when using these products, their motivations, requirements, and goals. This understanding constantly evolves and informs the development process.
+The DATA Act team strives to have a deep understanding of who will be using the new USAspending.gov site and its related data upload features. This understanding is built on town-hall meetings, workshops, and user interviews reaching the public, industry, and federal agencies. Our aim is to understand the users’ context when using these products, their motivations, requirements, and goals. This understanding constantly evolves and informs the development process.
 
 To help make our user research digestible and actionable, we have developed a preliminary set of “Personas”: snapshots of user types that capture and organize information that can inform design decisions. Examples of our latest personas can be found on the User-Centered Design page. As more research is conducted and designs are tested, they will evolve and become more accurate.
 
