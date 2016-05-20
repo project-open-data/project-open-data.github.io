@@ -47,6 +47,8 @@ title: DATA Act Data Dictionary
         <li>Derived – Element content is obtained from the content of another element. For example, ZIP code is used to derive city and state.</li>
         <li>Extracted – Element is pulled from another source.</li>
     </ul>
+</p>
+<p>
     <strong>Data Category</strong> &mdash; Some elements are part of a category of elements. 
 </p>
 </div>
@@ -58,6 +60,7 @@ title: DATA Act Data Dictionary
             <th>Data Element Label</th>
             <th style="width:40%;">Definition</th>
             <th>Use</th>
+            <th>Data Category</th>
         </tr>
     </thead>
     {% for element in site.data.elements %}
@@ -69,6 +72,7 @@ title: DATA Act Data Dictionary
         <!--<td><a href="#C{{ forloop.index | plus:1 }}">{{ element.DAIMSSemanticLabel }}</a></td>-->
         <td>{{ element.Definition }}</td>
         <td>{{ element.RequiredOptional }}</td>
+        <td>{{element.DataCategory}}</td>
     </tr>{% endfor %}
 </table>
 
