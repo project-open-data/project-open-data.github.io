@@ -4,11 +4,11 @@ title: "Designing the new USAspending.gov"
 permalink: act-ivity/:year/:month/:day/:title/
 tags: design, user-centered design, testing
 
-excerpt: Greetings federal spending enthusiasts! While our software development team is full steam ahead on building out the ["DATA Act Broker"](https://github.com/fedspendingtransparency/data-act-broker-backend) (which ingests federal spending data into the system), our design team is working hard on new concepts for the future USAspending.gov. 
+excerpt: Greetings federal spending enthusiasts! While our software development team is full steam ahead on building out the DATA Act Broker (which ingests federal spending data into the system), our design team is working hard on new concepts for the future USAspending.gov. 
 ---
 
 
-Greetings federal spending enthusiasts! While our software development team is full steam ahead on building out the "DATA Act Broker" (which ingests federal spending data into the system), our design team is working hard on new concepts for the future USAspending.gov. 
+Greetings federal spending enthusiasts! While our software development team is full steam ahead on building out the [DATA Act Broker](https://github.com/fedspendingtransparency/data-act-broker-backend) (which ingests federal spending data into the system), our design team is working hard on new concepts for the future USAspending.gov. 
 
 Designing the new USAspending.gov is challenging. The site will need to cater to vastly different audiences, from the average citizen to the budget wonk. It must meet the needs of the current users, but not be constrained by what exists already.  And it must make complex data findable and usable.
 
