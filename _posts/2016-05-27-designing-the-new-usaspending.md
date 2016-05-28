@@ -4,16 +4,16 @@ title: "Designing the new USAspending.gov"
 permalink: act-ivity/:year/:month/:day/:title/
 tags: design, user-centered design, testing
 
-excerpt: Greetings federal spending enthusiasts! While our software development team is full steam ahead on building out the “DATA Act Broker” (which ingests federal spending data into the system), our design team is working hard on new concepts for the future USAspending.gov. 
+excerpt: Greetings federal spending enthusiasts! While our software development team is full steam ahead on building out the ["DATA Act Broker"](https://github.com/fedspendingtransparency/data-act-broker-backend) (which ingests federal spending data into the system), our design team is working hard on new concepts for the future USAspending.gov. 
 ---
 
 
-Greetings federal spending enthusiasts! While our software development team is full steam ahead on building out the “DATA Act Broker” (which ingests federal spending data into the system), our design team is working hard on new concepts for the future USAspending.gov. 
+Greetings federal spending enthusiasts! While our software development team is full steam ahead on building out the "DATA Act Broker" (which ingests federal spending data into the system), our design team is working hard on new concepts for the future USAspending.gov. 
 
-Designing the new USAspending.gov is challenging. The site will need to cater to vastly different audiences, from the average citizen to the budget wonk to the high tech federal contractor. It must meet the needs of the current users, but not be constrained by what exists already.  And it must make complex data findable and usable.
+Designing the new USAspending.gov is challenging. The site will need to cater to vastly different audiences, from the average citizen to the budget wonk. It must meet the needs of the current users, but not be constrained by what exists already.  And it must make complex data findable and usable.
 
 
-But does it sound like we’re whining? We love a challenge! 
+But does it sound like we're whining? We love a challenge! 
 
 In this post, we want to share a little about our process for meeting the challenge of making spending data available and accessible to everyone.
 
@@ -23,7 +23,7 @@ Our first step in designing a website is not to find the answers, but rather to 
 
 We have scoured the suggestions from our Town Hall meetings, notes from workshops with federal agencies, analytics, and feedback on the existing usaspending.gov.  We want to learn what you want to learn from USAspending.  
 
-Some questions we’ve found were (these are just a few of the hundreds): 
+Some questions we've found were (these are just a few of the hundreds): 
 
 -	Who is receiving money in my state, county, city?
 -	How are funds being used to address national, state, and local needs?
@@ -34,11 +34,11 @@ We grouped these questions into major themes, keeping track of how many question
 
 ### STEP TWO: Sketching
 
-Next we held a “[design studio]( https://methods.18f.gov/design-studio/).”  A design studio is a sketching session where designers and stakeholders work together to brainstorm and draw solutions to a defined challenge. For us, participants get markers and a spot on a whiteboard to sketch concepts that will answer those predefined questions.
+Next we held a "[design studio]( https://methods.18f.gov/design-studio/)." A design studio is a sketching session where designers and stakeholders work together to brainstorm and draw solutions to a defined challenge. For us, participants get markers and a spot on a whiteboard to sketch concepts that will answer those predefined questions.
 
 Our session on March 23 included folks with deep knowledge of federal spending data and those without.  Some had artistic abilities and others had, well, a deep knowledge of federal spending data.
 
- 
+ <img src="{{site.baseurl}}/assets/img/sketching.jpg" width="600" alt="photo of sketching session" />
 
 After sketching individually, each person then explained their concept to the group and made adjustments and improvements based on feedback.
 
@@ -54,12 +54,12 @@ Wireframes are GREAT tools for testing out designs because they take only minute
 
 Our next step involves you!
 
-We’ve posted our wireframes on the [Open Beta](https://openbeta.usaspending.gov/concepts) site for YOU to comment on.  Simply [click here](https://openbeta.usaspending.gov/concepts) to see the designs, tell us what you like and don’t like, and we’ll continue to iterate and update in response to your feedback.
+We've posted our wireframes on the [Open Beta](https://openbeta.usaspending.gov/concepts) site for YOU to comment on.  Simply [click here](https://openbeta.usaspending.gov/concepts) to see the designs, tell us what you like and don't like, and we'll continue to iterate and update in response to your feedback.
 
 
 ### STEP FIVE:  Mock-ups and Build
 
-Once we feel that we’ve received sufficient feedback on the wireframes, we’ll develop mock-ups of the page: refining the design, adding color and fonts, etc., and hand them off to developers to build out.  Testing will continue on the real pages to make sure they are working as intended.
+Once we feel that we’ve received sufficient feedback on the wireframes, we'll develop mock-ups of the page: refining the design, adding color and fonts, etc., and hand them off to developers to build out.  Testing will continue on the real pages to make sure they are working as intended.
 
 ### It all depends on you
 
