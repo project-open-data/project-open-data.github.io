@@ -13,7 +13,7 @@ Greetings federal spending enthusiasts! While our software development team is f
 Designing the new USAspending.gov is challenging. The site will need to cater to vastly different audiences, from the average citizen to the budget wonk. It must meet the needs of the current users, but not be constrained by what exists already.  And it must make complex data findable and usable.
 
 
-But does it sound like we're whining? We love a challenge! 
+But does it sound like we're complaining? We love a challenge! 
 
 In this post, we want to share a little about our process for meeting the challenge of making spending data available and accessible to everyone.
 
