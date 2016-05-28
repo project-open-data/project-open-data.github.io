@@ -17,7 +17,7 @@ But does it sound like we're whining? We love a challenge!
 
 In this post, we want to share a little about our process for meeting the challenge of making spending data available and accessible to everyone.
 
-### STEP ONE:  Finding the Questions
+### Step 1:  Finding the Questions
 
 Our first step in designing a website is not to find the answers, but rather to find the questions.
 
@@ -32,7 +32,7 @@ Some questions we've found were (these are just a few of the hundreds):
 
 We grouped these questions into major themes, keeping track of how many questions were in each theme. We picked the most popular themes to design for first. 
 
-### STEP TWO: Sketching
+### Step 2: Sketching
 
 Next we held a "[design studio]( https://methods.18f.gov/design-studio/)." A design studio is a sketching session where designers and stakeholders work together to brainstorm and draw solutions to a defined challenge. For us, participants get markers and a spot on a whiteboard to sketch concepts that will answer those predefined questions.
 
@@ -42,7 +42,7 @@ Our session on March 23 included folks with deep knowledge of federal spending d
 
 After sketching individually, each person then explained their concept to the group and made adjustments and improvements based on feedback.
 
-### STEP THREE: Wireframing
+### Step 3: Wireframing
 
 With multiple designs and ideas in hand, we took the best elements and put them into wireframes. Wireframes are like blueprints of a webpage (or mobile screen) that show the layout and primary elements, but lack color and visual design. 
 
@@ -50,14 +50,14 @@ Wireframes are GREAT tools for testing out designs because they take only minute
 
 <img style="margin-left:-300px; margin-bottom:-100px;" src="{{site.baseurl}}/assets/img/publication_site-search-results-01.png" alt="search results wireframe" />
 
-### STEP FOUR:  Testing and Iteration
+### Step 4:  Testing and Iteration
 
 Our next step involves you!
 
 We've posted our wireframes on the [Open Beta](https://openbeta.usaspending.gov/concepts) site for YOU to comment on.  Simply [click here](https://openbeta.usaspending.gov/concepts) to see the designs, tell us what you like and don't like, and we'll continue to iterate and update in response to your feedback.
 
 
-### STEP FIVE:  Mock-ups and Build
+### Step 5:  Mock-ups and Build
 
 Once we feel that we’ve received sufficient feedback on the wireframes, we'll develop mock-ups of the page: refining the design, adding color and fonts, etc., and hand them off to developers to build out.  Testing will continue on the real pages to make sure they are working as intended.
 
