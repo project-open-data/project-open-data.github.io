@@ -139,6 +139,8 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-11 [CIO Council Open Data Prioritization Toolkit](https://cio.gov/cio-council-releases-open-data-prioritization-toolkit/) -  A toolkit to assist agencies with evaluating and prioritizing datasets for release consisting of [guidance](https://cio.gov/wp-content/uploads/filebase/cio_document_library/Open%20Data%20Prioritization%20Toolkit%20Summary.html) and [workbooks](https://cio.gov/wp-content/uploads/filebase/cio_document_library/Open%20Data%20Prioritization%20Toolkit_Workbook.xlsx) to help agencies evaluate datasets on the criteria of value, cost, and risk.
 
+5-12 [Example Public Engagement and Prioritization Schemes](prioritization/) - Collection of resources and tools about creating a process to engage with the public to help facilitate and prioritize data release for reference.
+
 5-12 CIO Council Chief Data Role Survey - Research on the data science and analytic teams across the Federal government, conducted in September 2015. (Download the [Response Data, xlsx](https://github.com/project-open-data/project-open-data.github.io/blob/9eee7b5a1a34ed416765acc0969f11e19566dc89/Chief%20Data%20Roles%20Survey%20Raw%20Data_092815.xlsx))
 
 ----------------
