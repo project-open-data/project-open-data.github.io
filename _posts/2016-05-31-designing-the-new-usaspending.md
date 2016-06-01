@@ -36,7 +36,7 @@ We grouped these questions into major themes, keeping track of how many question
 
 Next we held a "[design studio]( https://methods.18f.gov/design-studio/)." A design studio is a sketching session where designers and stakeholders work together to brainstorm and draw solutions to a defined challenge. For us, participants get markers and a spot on a whiteboard to sketch concepts that will answer those predefined questions.
 
-Our session on March 23 included folks with deep knowledge of federal spending data and those without.  Some had artistic abilities and others had, well, a deep knowledge of federal spending data.
+Our sessions have included folks with deep knowledge of federal spending data and those without.  Some had artistic abilities and others had, well, a deep knowledge of federal spending data.
 
  <img src="{{site.baseurl}}/assets/img/sketching.jpg" width="600" alt="photo of sketching session" />
 
