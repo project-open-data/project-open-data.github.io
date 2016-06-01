@@ -5,3 +5,4 @@ _site
 Staticfile.auth
 #test
 .jekyll*
+.sass-cache*
