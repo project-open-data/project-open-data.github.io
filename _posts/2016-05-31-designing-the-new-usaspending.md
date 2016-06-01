@@ -48,7 +48,7 @@ With multiple designs and ideas in hand, we took the best elements and put them 
 
 Wireframes are GREAT tools for testing out designs because they take only minutes or hours to create instead of the days or weeks it would take to code a real webpage.  
 
-<img style="margin-left:-300px; margin-bottom:-100px;" src="{{site.baseurl}}/assets/img/publication_site-search-results-01.png" alt="search results wireframe" />
+<img style="width: 600px;" src="{{site.baseurl}}/assets/img/publication_site-search-results-01.png" alt="search results wireframe" />
 
 ### Step 4:  Testing and Iteration
 
