@@ -49,13 +49,15 @@ Thank you for helping us improve government data. Below are ways you can stay up
                     <div class="col-md-6">
                         <div class="media">
                             <div class="media-body">
-                                <p><strong>Sandbox Testing</strong> -- Each month we host sessions for agencies to test their data files using the prototype broker, and provide feedback. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO to participate</a>.</p>
+                                <p><a href="https://methods.18f.gov/design-studio/"><strong>Design Studios</strong></a> -- Mondays and Tuesdays from 11am-1pm (every other week), we gather for rapid sketching sessions of particular aspects of the site.  One agency representative may attend each session, held in Washington DC. <a href="https://community.max.gov/display/Management/DATA+Act+User+Engagement">Learn more</a> or <a href="mailto:DATAPMO@fiscal.treasury.gov">contact the DATA Act PMO to participate</a>.</p>
+                                <p><strong>Comment on designs online</strong> -- Visit our <a href="https://openbeta.usaspending.gov/concepts/index.html#active">Open Beta site</a> any time to view and comment on the latest screen designs.</p>
+                                <p><strong>User Interviews/Testing</strong> -- Tuesday mornings and Thursday afternoons, we conduct usability testing. Sessions last one hour and are conducted via Web-Ex. <a href="https://community.max.gov/display/Management/DATA+Act+User+Engagement">Learn more</a> or <a href="mailto:DATAPMO@fiscal.treasury.gov">contact the DATA Act PMO to sign up</a>.</p>
                                 <p><strong>Office Hours Call</strong> -- Every Thursday, Treasury and OMB staff provide updates and take agencies' implementation questions on a conference call (<a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2" target='_blank'>dial-in information</a>).</p>
                                 <p><strong>Workshops</strong> -- Ready for one-on-one help? We will come to your agency to discuss your DATA Act implementation questions and progress. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO</a> to schedule.</p>
                                 <p><strong>More Resources:</strong></p>
                                 <ul>
                                     <li><a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" target="_blank">Data Submission Guide</a></li>
-                                    <li><a href="https://community.max.gov/pages/viewpage.action?pageId=840532717" target="_blank">Implementation Playbook</a></li>
+                                    <li><a href="https://community.max.gov/download/attachments/1083277560/DATA%20Act%20Implementation%20Playbook%20Version%202.0.pdf?api=v2" target="_blank">Implementation Playbook</a></li>
                                     <li><a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2" target="_blank">Data Act Resources Guide</a></li>
                                     <li><a href="https://community.max.gov/pages/viewpage.action?pageId=744690523" target="_blank">SAO Call Notes</a></li>
                                     <li><a href="https://community.max.gov/display/Management/Interagency+Advisory+Committee" target="_blank">Interagency Advisory Committee meeting notes and materials</a></li>
