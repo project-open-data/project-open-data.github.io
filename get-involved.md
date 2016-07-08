@@ -61,7 +61,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                                     <li><a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2" target="_blank">Data Act Resources Guide</a></li>
                                     <li><a href="https://community.max.gov/pages/viewpage.action?pageId=744690523" target="_blank">SAO Call Notes</a></li>
                                     <li><a href="https://community.max.gov/display/Management/Interagency+Advisory+Committee" target="_blank">Interagency Advisory Committee meeting notes and materials</a></li>
-                                    <li><a href="https://community.max.gov/pages/viewpage.action?pageId=947192397" target="_blank">Bi-Weekly Digests (Archive)</a></li>
+                                    <li><a href="https://community.max.gov/pages/viewpage.action?pageId=947192397" target="_blank">DATA Act Digests (Archive)</a></li>
                                 </ul>
                             </div>
                         </div>
