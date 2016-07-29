@@ -23,7 +23,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         <span class="glyphicon glyphicon-envelope icon"></span>
                         <h5>You're Invited!</h5>
                         <p>External Stakeholder Call
-                            <br>Thursday, July 7, 2016 10 a.m.
+                            <br>Thursday, August 4, 2016 10 a.m.
                             <br /><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">View Invite</a>
                         </p>
                     </div>
@@ -49,9 +49,8 @@ Thank you for helping us improve government data. Below are ways you can stay up
                     <div class="col-md-6">
                         <div class="media">
                             <div class="media-body">
-                                <p><a href="https://methods.18f.gov/design-studio/"><strong>Design Studios</strong></a> -- Mondays and Tuesdays from 11am-1pm (every other week), we gather for rapid sketching sessions of particular aspects of the site.  One agency representative may attend each session, held in Washington DC. <a href="https://community.max.gov/display/Management/DATA+Act+User+Engagement">Learn more</a> or <a href="mailto:DATAPMO@fiscal.treasury.gov">contact the DATA Act PMO to participate</a>.</p>
                                 <p><strong>Comment on designs online</strong> -- Visit our <a href="https://openbeta.usaspending.gov/concepts/index.html#active">Open Beta site</a> any time to view and comment on the latest screen designs.</p>
-                                <p><strong>User Interviews/Testing</strong> -- Tuesday mornings and Thursday afternoons, we conduct usability testing. Sessions last one hour and are conducted via Web-Ex. <a href="https://community.max.gov/display/Management/DATA+Act+User+Engagement">Learn more</a> or <a href="mailto:DATAPMO@fiscal.treasury.gov">contact the DATA Act PMO to sign up</a>.</p>
+                                <p><strong>User Interviews/Testing</strong> -- Thursday afternoons and Friday mornings, we conduct usability testing. Sessions last one hour and are conducted via Web-Ex. <a href="https://community.max.gov/display/Management/DATA+Act+User+Engagement">Learn more</a> or <a href="mailto:DATAPMO@fiscal.treasury.gov">contact the DATA Act PMO to sign up</a>.</p>
                                 <p><strong>Office Hours Call</strong> -- Every Thursday, Treasury and OMB staff provide updates and take agencies' implementation questions on a conference call (<a href="https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2" target='_blank'>dial-in information</a>).</p>
                                 <p><strong>Workshops</strong> -- Ready for one-on-one help? We will come to your agency to discuss your DATA Act implementation questions and progress. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO</a> to schedule.</p>
                                 <p><strong>More Resources:</strong></p>
@@ -92,9 +91,9 @@ Thank you for helping us improve government data. Below are ways you can stay up
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h3>External Stakeholder Call</h3>
-                <h5>Thursday, July 7, 2016<br>10am-11am EST</h5>
+                <h5>Thursday, August 4, 2016<br>10am-11am EST</h5>
                 <p>Each month, on the first Thursday at 10am (EST), the DATA Act team holds a monthly call with external stakeholders to provide updates on the DATA Act implementation. This forum also provides an opportunity for the public to ask the DATA Act team questions. If you would like to join these calls, please contact: <a href="mailto:DATAPMO@fiscal.treasury.gov">DATAPMO@fiscal.treasury.gov</a>.</p>
-                <p>The next call is scheduled for Thursday, August 4, 2016 at 10am (EST).</p>
+                <p>The next call is scheduled for Thursday, September 1, 2016 at 10am (EST).</p>
                 <!--<ul class="no-bullet">
                     <li><strong>Dail-In information</strong></li>
                     <li>555-555-5555</li>
