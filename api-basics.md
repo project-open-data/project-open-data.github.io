@@ -29,7 +29,7 @@ DigitalGov University has recorded a [variety of courses](http://18f.github.io/A
 
 ### First Mover
 
-*	[Salesforce](http://apievangelist.com/2011/01/28/history-of-apis--salesforcecom/)
+*	[Salesforce](https://apievangelist.com/2011/01/28/history-of-apis-salesforcecom/)
 
 ### E-Commerce
 
