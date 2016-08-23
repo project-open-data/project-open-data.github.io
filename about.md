@@ -22,6 +22,12 @@ The expanded, linked data submitted by the agencies will be displayed on the fut
 
 ## DATA Act Implementation
 
+#### Agency Implementation
+
+To assist agencies with implementation, OMB and Treasury have created a playbook of eight recommendations that, if followed together, will help agencies fulfill the requirements of the DATA Act by leveraging existing capabilities and streamlining implementation efforts. As federal agencies begin implementation, Treasury and OMB will continue to refine the playbook.
+
+<img width="800" src="{{ site.baseurl }}/assets/img/playbook.png" title="agency implementation playbook summary" /> 
+
 #### Open Beta
 
 Instead of building the future USAspending.gov and getting reaction from users after the launch, Treasury has taken the innovative approach of releasing [OpenBeta.USAspending.gov](https://openbeta.usaspending.gov/){:target="_blank"}, a public beta site to show (rather than just tell about) progress as we build.  Open Beta exists to gather users’ recommendations and suggestions in real time on real functionality, and then utilize that feedback to evolve the site.  
