@@ -7,6 +7,9 @@ url: https://project-open-data.cio.gov
 google_analytics: UA-42145528-3
 enable_dap_analytics: true
 
+#data directory
+data_source: data
+
 #global settings, no need to change these
 root_url: https://project-open-data.cio.gov
 org_name: project-open-data
