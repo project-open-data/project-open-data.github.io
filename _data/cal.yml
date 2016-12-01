@@ -3,7 +3,7 @@
     - month: "December"
       events:
         - title: "12/1 SAO Call"
-          popupText: "Conference call for Senior Accountable Officials. See <a href='https://community.max.gov/pages/viewpage.action?pageId=744690523' target='_blank'>this page</a> for more information.”
+          popupText: "Conference call for Senior Accountable Officials. See <a href='https://community.max.gov/pages/viewpage.action?pageId=744690523' target='_blank'>this page</a> for more information."
         - title: "12/1 Office Hours"
           popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA%20Act%20Resource%20Guide%201-11-2016.pdf?api=v2' target='_blank'>this document</a> for call in information."
         - title: "12/7 Interagency Advisory Committee Meeting"
