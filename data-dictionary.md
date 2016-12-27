@@ -15,7 +15,7 @@ title: DATA Act Data Dictionary
 
 <a href="#" id="back-to-top" title="Back to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
 
-<h2>DATA Act Schema Data Dictionary (v1.0)</h2>
+<h2>DATA Act Schema Data Dictionary (v1.01)</h2>
 
 <h4>Column Headings</h4>
 
