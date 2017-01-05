@@ -51,7 +51,7 @@ The IDD is based on the Data Model (DAIMS) v1.01 and features the elements relat
 - File E – Additional Awardee Attributes
 - File F – Sub-award Attributes
 
-Federal agencies can view more information about [the IDD on MAX](https://community.max.gov/download/attachments/754091528/DAIMS_IDD_v1.0_04292016.xlsx?api=v2){:target="_blank"}.
+Federal agencies can view more information about [the IDD on MAX](https://community.max.gov/x/CIbyL){:target="_blank"}.
 
 ## DAIMS Diagrams
 
