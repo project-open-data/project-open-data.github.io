@@ -9,7 +9,7 @@ title: User-Centered Design
 
 # User-Centered Design
 
-The DATA Act team strives to gain a better understanding of those who will be using the new USAspending.gov site and those responsible for uploading data to it.
+test! The DATA Act team strives to gain a better understanding of those who will be using the new USAspending.gov site and those responsible for uploading data to it.
 
 Our user-centered design process starts with user research (learn), applies it to sketches, page designs, and functionality (make), and then returns to users for testing (test). This cycle will continue throughout the design and build phases until project completion.
 
