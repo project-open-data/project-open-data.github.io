@@ -56,8 +56,8 @@ To help make our user research digestible and actionable, we have developed a pr
 
 Finally, we test. We have developed a comprehensive plan for conducting recurring usability testing to help us identify potential design concerns. Initially, usability testing is focusing on agecy users. Later, the focus will expand to “data consumers,” including grant recipients, researchers/reporters, and interested citizens.
 
-Usability testing will continue in a regular cadence in sync with the development cycles of our Agile development environment.  More information on our user-centered design process can be found [here]({{ site.baseurl }}/user-centered-design).
+Usability testing will continue in a regular cadence in sync with the development cycles of our Agile development environment.  More information on our user-centered design process can be found [here]({{ site.baseurl }}/user-centered-design/).
 
 #### FAQs
 
-For more information about the DATA Act and the implementation process, visit [the FAQs]({{site.baseurl}}/faq).
+For more information about the DATA Act and the implementation process, visit [the FAQs]({{site.baseurl}}/faq/).

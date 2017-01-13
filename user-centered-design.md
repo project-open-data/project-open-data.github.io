@@ -91,4 +91,4 @@ Initially, usability testing is focusing on Agency users to improve the data upl
 
 [Read the current usability test plan]({{ site.baseurl }}/assets/downloads/docs/USASpending_usability-test-plan.docx).
 
-Visit the [Get Involved]({{ site.baseurl }}/get-involved) page for upcoming Sandbox testing dates for Agency users.
+Visit the [Get Involved]({{ site.baseurl }}/get-involved/) page for upcoming Sandbox testing dates for Agency users.
