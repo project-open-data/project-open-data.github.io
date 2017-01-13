@@ -38,7 +38,7 @@ The RSS includes three files that the agencies will submit to Treasury’s Broke
 - File B – Object Class and Program Activity Detail
 - File C – Award Financial Detail
 
-Federal agencies can view [more information about the RSS on MAX](https://community.max.gov/download/attachments/754091528/DAIMS_RSS_v1.0_04292016.xlsx?api=v2){:target="_blank"}.
+Federal agencies can view [more information about the RSS on MAX](https://community.max.gov/x/CIbyL){:target="_blank"}.
 
 ## Interface Definition Document (IDD)
 
