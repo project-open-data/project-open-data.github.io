@@ -47,7 +47,7 @@
                 <ul id="usa-da-header-link-holder" class="nav center-block container">
                     {% for link in site.navigation %} {% assign current = nil %} {% if page.url contains link.url %} {% assign current ='active'%} {% endif %}
                     <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-                        <a href="{{ site.baseurl }}{{ link.url }}/">{{ link.title }}</a>
+                        <a href="{{ site.baseurl }}{{ link.url }}{% unless link.url contains 'html' %}/{% endunless %}">{{ link.title }}</a>
                     </li>
                     {% endfor %}
                 </ul>
