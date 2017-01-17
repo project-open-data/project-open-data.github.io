@@ -91,7 +91,7 @@ page: homepage
                         <span class="glyphicon glyphicon-list-alt"></span>
                     </div>
                     <div class="media-body">
-                        <p>The new version of USAspending.gov will rely on hundreds of distinct data elements to tell the story of how federal dollars are spent. The DATA Act Information Model Schema organizes these elements into a structure that further defines, groups, and relates them to each other. <a href="{{site.baseurl}}/data-model">Learn about the elements</a>.</p>
+                        <p>The new version of USAspending.gov will rely on hundreds of distinct data elements to tell the story of how federal dollars are spent. The DATA Act Information Model Schema organizes these elements into a structure that further defines, groups, and relates them to each other. <a href="{{site.baseurl}}/data-model/">Learn about the elements</a>.</p>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@ page: homepage
                         <span class="usability-icon"></span>
                     </div>
                     <div class="media-body">
-                        <p>User research, testing, and design iteration will support all parts of the DATA Act implementation. Learn about our user-centered process <a href="{{ site.baseurl }}/user-centered-design">here</a>.</p>
+                        <p>User research, testing, and design iteration will support all parts of the DATA Act implementation. Learn about our user-centered process <a href="{{ site.baseurl }}/user-centered-design/">here</a>.</p>
                     </div>
                 </div>
             </div>

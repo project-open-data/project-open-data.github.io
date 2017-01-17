@@ -72,7 +72,7 @@ OMB and Treasury are committed to keeping the implementation process transparent
 
 ## <a name="complete-data-list"></a>When can we expect to have a complete list of data fields that need to be standardized?
 
-* On this site's [data elements page]({{ site.baseurl }}/data-elements), you will find a list of the financial data elements that we are required to standardize under the DATA Act, plus a larger set of data elements that were required under FFATA that we believe are ripe for additional standardization.
+* On this site's [data elements page]({{ site.baseurl }}/data-elements/), you will find a list of the financial data elements that we are required to standardize under the DATA Act, plus a larger set of data elements that were required under FFATA that we believe are ripe for additional standardization.
 * Our engagement with both federal and public stakeholders is ongoing, and we anticipate that this list will evolve over time – standardization is not a single endeavor, but an ongoing commitment to ensure that the data is of high quality and relevant.
 
 ## <a name="data-standards"></a>What is the meaning of “data standards?”
