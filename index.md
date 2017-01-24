@@ -17,7 +17,7 @@ page: homepage
 
         <p>This collaboration space is designed to openly share our <em><strong>process</strong></em> for meeting the new data transparency requirements of the DATA Act. Our sister site — <a href="http://openbeta.usaspending.gov" title="http://openbeta.usaspending.gov">Open Beta</a> — is where you will find the <em><strong>results</strong></em> of this work:  data you can search, view, and download. Both sites invite you--the public and federal agencies--to join in decision-making along the way, so please come back often! </p>
         
-  <a href="https://www.youtube.com/watch?v=X26IGyZ-SUY"><img width="800" src="{{ site.baseurl }}/assets/img/DATA_Act_Video.jpeg" title="DATA Act Video" />      
+     <p><a href="https://www.youtube.com/watch?v=X26IGyZ-SUY"><img src="{{ site.baseurl }}/assets/img/DATA_Act_Video.jpg" title="DATA Act Video" /></p>
     </div>
     <div class="col-md-4">
         <div class="panel panel-default">
