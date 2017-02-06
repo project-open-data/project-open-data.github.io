@@ -60,7 +60,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                                     <li><a href="https://community.max.gov/download/attachments/254050873/DATA_Act_PMO_Resource_Guide_20170104.pdf?api=v2" target="_blank">Data Act Resources Guide</a></li>
                                     <li><a href="https://community.max.gov/x/TQJ1O" target="_blank">DATA Act Digests (Archive)</a></li>
                                     <li><a href="https://community.max.gov/x/WxNjL" target="_blank">Senior Accountable Official Call Notes</a></li>
-                                    <li><a href="https://community.max.gov/x/WxNjL" target="_blank">Interagency Advisory Committee meeting notes and materials</a></li>
+                                    <li><a href="https://community.max.gov/x/WxNjL" target="_blank">Interagency Advisory Committee Notes</a></li>
                                 </ul>
                             </div>
                         </div>
