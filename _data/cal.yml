@@ -1,6 +1,6 @@
 - title: "Upcoming Agency Events"
   subcategories:
-    - month: "February"
+    - month: "January"
       events:
         - title: "2/9 Senior Accountable Official Call"
           popupText: "Conference call for Senior Accountable Officials. See <a href='https://community.max.gov/pages/viewpage.action?pageId=744690523' target='_blank'>this page</a> for more information."
@@ -12,5 +12,3 @@
           popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA_Act_PMO_Resource_Guide_20170104.pdf?api=v2' target='_blank'>this document</a> for call in information."
         - title: "2/23 Office Hours"
           popupText: "A weekly call for agencies to get updates from the DATA Act PMO team and to ask questions. See <a href='https://community.max.gov/download/attachments/254050873/DATA_Act_PMO_Resource_Guide_20170104.pdf?api=v2' target='_blank'>this document</a> for call in information."
-       
-
