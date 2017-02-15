@@ -9,7 +9,7 @@ filename: working-group.md
 
 Anyone with a .gov or .mil email address can join by emailing listserv@listserv.gsa.gov, the message should have no subject and the body should say “subscribe open-data”.
 
-Subscribe to the public mailing list: https://groups.google.com/forum/#!topic/opengovtech/dnyjc6-v41Q
+Subscribe to the public mailing list: <https://groups.google.com/forum/#!topic/opengovtech/dnyjc6-v41Q>
 
 ## Attend Biweekly Implementation Support Meetings
 
