@@ -74,7 +74,7 @@ The [Data Dictionary]({{ site.baseurl }}/dictionary/){:target="_blank"} is a lis
 
 A data standard contains both a human-readable version of the standard and a machine-readable version of a standard. The XBRL Schema files are the machine-readable version of the DATA Act standard.
 
-[All Files (zipped)]({{site.baseurl}}/assets/docs/DAIMS_XBRL_v1.0_04292016.zip)
+[Zipped Files with Release Notes (Updated on February 28, 2017)]({{site.baseurl}}/assets/docs/DAIMS_XBRL_v1.01_02282017.zip)
 
 ## Data Definition Standards
 
