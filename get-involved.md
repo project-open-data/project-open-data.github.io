@@ -23,7 +23,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         <span class="glyphicon glyphicon-envelope icon"></span>
                         <h5>You're Invited!</h5>
                         <p>External Stakeholder Call
-                            <br>Thursday, February 2, 2017 10 a.m.
+                            <br>Thursday, March 2, 2017 10 a.m.
                             <br /><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">View Invite</a>
                         </p>
                     </div>
@@ -52,6 +52,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                                 <p><strong>Comment on designs online</strong> -- Visit our <a href="https://openbeta.usaspending.gov/index.html">Open Beta site</a> any time to view and comment on the latest screen designs.</p>
                                 <p><strong>User Interviews/Testing</strong> -- We conduct usability testing to make sure our content and screen layouts make sense. Sessions last 45-60 minutes and are conducted via Web-Ex. <a href="http://bit.ly/2bueqo2" target="_blank">Sign up here</a> to participate.</p>
                                 <p><strong>Office Hours Call</strong> -- Every Thursday, Treasury and OMB staff provide updates and take agencies' implementation questions on a conference call (<a href="https://community.max.gov/download/attachments/254050873/DATA_Act_PMO_Resource_Guide_20170104.pdf?api=v2" target='_blank'>dial-in information</a>).</p>
+                                <p><strong>Tech Thursdays</strong> -- We hold in-person, informal working sessions once a month for agencies to engage directly with the DATA Act team and ask questions regarding DATA Act implementation. This is a forum for individuals working to implement the DATA Act to meet and collaborate with one another and share best practices. To sign-up, <a href="mailto:DATAPMO@fiscal.treasury.gov">contact the DATA Act PMO</a>.</p>
                                 <p><strong>Workshops</strong> -- Ready for one-on-one help? We will come to your agency to discuss your DATA Act implementation questions and progress. <a href="mailto:DATAPMO@fiscal.treasury.gov">Contact the DATA Act PMO</a> to schedule.</p>
                                 <p><strong>More Resources:</strong></p>
                                 <ul>
@@ -92,9 +93,9 @@ Thank you for helping us improve government data. Below are ways you can stay up
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h3>External Stakeholder Call</h3>
-                <h5>Thursday, February 2, 2017<br>10am-11am EST</h5>
+                <h5>Thursday, March 2, 2017<br>10am-11am EST</h5>
                 <p>Each month, usually on the first Thursday at 10am (EST), the DATA Act team holds a monthly call with external stakeholders to provide updates on the DATA Act implementation. This forum also provides an opportunity for the public to ask the DATA Act team questions. If you would like to join these calls, please contact: <a href="mailto:DATAPMO@fiscal.treasury.gov">DATAPMO@fiscal.treasury.gov</a>.</p>
-                <p>The next call is scheduled for Thursday, March 2, 2017 at 10am (EST).</p>
+                <p>The next call is scheduled for Thursday, April 6, 2017 at 10am (EST).</p>
                 <!--<ul class="no-bullet">
                     <li><strong>Dail-In information</strong></li>
                     <li>555-555-5555</li>
