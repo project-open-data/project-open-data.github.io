@@ -19,7 +19,7 @@ DAIMS  gives an overall view of the hundreds of distinct data elements used to t
  - **Reporting Submission Specification (RSS)** – includes a listing of the data elements with specific instructions for federal agencies to submit content in the appropriate format. The RSS is a human-readable version of the data standard.
  - **Interface Definition Document (IDD)** – contains a listing of the elements, with supporting metadata to understand what data will be pulled from government-wide systems for procurement and from agency financial assistance systems. The IDD is a human-readable version of the data standard for the award related content.
  - **DAIMS Diagrams** – visual representations of how the data elements from the RSS and IDD fit together in context.
- - **Online Data Dictionary** – a comprehensive list of data elements with definitions and some associated metadata
+ - **Online Data Dictionary** – a comprehensive list of data elements with definitions and some associated metadata.
  - **XBRL Schema Files** – machine-readable version of the data standard that includes accounting-related and award-related content.
 
 ## Information Flow
