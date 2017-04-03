@@ -68,7 +68,7 @@ The diagrams are visual representations of how the different data elements are r
 </div>
 
 ## Online Data Dictionary
-The [Data Dictionary]({{ site.baseurl }}/dictionary/){:target="_blank"} is a list of the data elements with definitions and details of associated metadata.
+The [Data Dictionary]({{ site.baseurl }}/dictionary/){:target="_blank"} is a comprehensive list of data elements with definitions and some associated metadata.
 
 ## XBRL Schema Files
 
