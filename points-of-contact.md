@@ -35,11 +35,11 @@ Department of Education | Lily Clark | lily.clark@ed.gov | ODP: Scaling Best Pra
 Department of Education | Michael Hawes | michael.hawes@ed.gov | ODP: Data Privacy and Confidentiality | 
 Department of Education | Michael Hawes | michael.hawes@ed.gov | ODP: Security Risk Assessment | 
 Department of Energy | Atiq Warraich | Atiq.Warraich@hq.doe.gov | ODP: Communicating Strategic Value | 
-Department of Energy | Atiq Warraich | Atiq.Warraich@hq.doe.gov | ODP: Public Data Release | 
+Department of Energy | Brenda Coblentz | Brenda.Coblentz@hq.doe.gov | ODP: Public Data Release | 
 Department of Energy | Atiq Warraich | Atiq.Warraich@hq.doe.gov | ODP: Private/Public Applications and Services | 
-Department of Energy | Peter Tseronis | Peter.Tseronis@hq.doe.gov | ODP: Scaling Best Practices | 
+Department of Energy | Brenda Coblentz | Brenda.Coblentz@hq.doe.gov | ODP: Scaling Best Practices | 
 Department of Energy | Jerry Hanley | Jerry.Hanley@hq.doe.gov | ODP: Data Privacy and Confidentiality | 
-Department of Energy | Cuttie Bacon | Cuttie.Bacon@hq.doe.gov | ODP: Security Risk Assessment | 
+Department of Energy | Brenda Coblentz | Brenda.Coblentz@hq.doe.gov | ODP: Security Risk Assessment | 
 Department of Health and Human Services | Damon Davis | Damon.Davis@hhs.gov | ODP: Communicating Strategic Value | 
 Department of Health and Human Services | Damon Davis | Damon.Davis@hhs.gov | ODP: Public Data Release | 
 Department of Health and Human Services | Damon Davis | Damon.Davis@hhs.gov | ODP: Private/Public Applications and Services | 
