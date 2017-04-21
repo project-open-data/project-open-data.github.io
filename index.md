@@ -6,7 +6,10 @@ filename: index.md
 title: Project Open Data
 ---
 
+
 ## 1. Background
+
+test
 
 Data is a valuable national resource and a strategic asset to the U.S. Government, its partners, and the public.  Managing this data as an asset and making it available, discoverable, and usable – [in a word, open](principles/) – not only strengthens our democracy and promotes efficiency and effectiveness in government, but also has the potential to create economic opportunity and improve citizens’ quality of life.
 
@@ -226,4 +229,3 @@ A website, social networking group and/or listserv where people who use open dat
 *Ex: Listservs for [NICAR](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/), [Code for America Brigade](https://groups.google.com/a/codeforamerica.org/forum/#!forum/brigade), [Sunlight Labs](https://groups.google.com/forum/#!forum/sunlightlabs), the Open Government Facebook and Google+ groups.*
 
 **Goal:** To build and sustain ongoing relationships with media, nonprofits, good government advocates and civic technologists.
-
