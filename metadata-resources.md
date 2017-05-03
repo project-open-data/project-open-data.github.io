@@ -1,11 +1,3 @@
----
-published: true
-layout: default
-title: Metadata Resources
-permalink: "/metadata-resources/"
-filename: "metadata-resources.md"
----
-
 This section provides further background and resources to assist agencies in implementing the [common core metadata schema](/schema/).
 
 In addition to template and sample files we also produce Common Core Metadata schema in JSON schema format. [JSON schema](http://json-schema.org/) describes a JSON data format. It can be used to automatically validate Data.json files and to generate forms for creating JSON.
@@ -65,7 +57,7 @@ C) Utilizing CKAN
 
 D) Using Socrata
 
-[Socrata](http://www.socrata.com/open-data-portal/) is a popular, open data catalog that is run as a service.  Agencies that have not adapted a data catalog yet, can use Socrata without having to install or setup any servers or software.  In addition to providing rich visualizations and data management features, Socrata **natively supports data.json** so any datasets managed through Socrata will be automatically exposed correctly.  Socrata also supports all the extended metadata fields through it's extensible metadata features.
+[Socrata](http://www.socrata.com/open-data-portal/) is a popular open data catalog that is run as a service.  Agencies that have not adapted a data catalog yet, can use Socrata without having to install or setup any servers or software.  In addition to providing rich visualizations and data management features, Socrata **natively supports data.json** so any datasets managed through Socrata will be automatically exposed correctly.  Socrata also supports all the extended metadata fields through it's extensible metadata features.
 
 E) Manual translating a data file from another system
 
@@ -218,8 +210,3 @@ The above XPATHs assume the following namespaces:
 | gml      | http://www.opengis.net/gml |
 | gml32    | http://www.opengis.net/gml/3.2 |
 | srv      | http://www.isotc211.org/2005/srv |
-
-
-
-
-
