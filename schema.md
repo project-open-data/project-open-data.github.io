@@ -390,7 +390,7 @@ Updated every 5 minutes beginning on February 15, 2010 would be represented as: 
 {: .table .table-striped}
 **Field <a class="permalink" href="#webService">#</a>** | **<a name="webService">webService</a>**
 ----- | -----
-**Cardinality** | (0,1)
+**Cardinality** | (0,n)
 **Required** | Yes, if the dataset has an API
 **Accepted Values** | String (URL)
 **Usage Notes** | This field will serve to delineate the web services offered by an agency and will be used to aggregate cross-government API catalogs.
