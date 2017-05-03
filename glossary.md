@@ -119,7 +119,8 @@ JSONP or "JSON with padding" is a JSON extension wherein the name of a callback 
 
 ### Machine-Readable File
 
-Refers to information or data that is in a format that can be easily processed by a computer without human intervention while ensuring no semantic meaning is lost. —*[source](https://www.niem.gov/glossary/Pages/Glossary.aspx?alpha=All)*
+Format in a standard computer language (not English text) that can be read automatically by a web browser or computer system (e.g., xml) as defined in OMB Circular A-11 Section 200. Traditional word processing documents, hypertext markup language (HTML) and portable document format (PDF) files are easily read by humans but typically are difficult for machines to interpret. Other formats such as extensible markup language (XML), JavaScript object notation (JSON), or spreadsheets with header columns that can be exported as comma separated values (CSV) are machine readable formats. It is possible to make traditional word processing documents and other formats machine readable but the documents must include enhanced structural elements.
+—*[source](www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/s200.pdf)*
 
 ### Metadata
 
