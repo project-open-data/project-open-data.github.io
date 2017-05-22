@@ -62,18 +62,18 @@ page: homepage
                 <div class="panel-body">
                     <div class="media">
                         <div class="media-left">
-                            <span class="usaspend-logo"></span>
+                            <span class="beta.usaspend-logo"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="https://www.usaspending.gov/Pages/Default.aspx" title="USAspending.gov">USAspending.gov</a>: This public website launched in 2007 and already features robust access to federal spending data mandated by the Federal Funding Accountability and Transparency Act of 2006.</p>
+                            <p><a href="https://beta.usaspending.gov/" title="Beta.USAspending.gov">Beta.USAspending.gov</a>: This public beta site, in accordance with the DATA Act, i sthe new official source of accessible, searchable and reliable spending data for the U.S. government. This site runs concurrently with the existing version of the USAspending.gov website and will be expanded and improved over the summer to add functionality and features based on user feedback. </p>
                         </div>
                     </div>
                     <div class="media">
                         <div class="media-left">
-                            <span class="usaspend-openbeta-logo"></span>
+                            <span class="usaspend-logo"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="http://openbeta.usaspending.gov" title="http://openbeta.usaspending.gov">Open Beta</a>: This is the public beta site to collect public input for the next release of USAspending.gov. It includes sample data that allows you to test features and give us feedback on designs and visualizations.</p>
+                            <p><a href="https://www.usaspending.gov/Pages/Default.aspx" title="USAspending.gov">USAspending.gov</a>: This public website launched in 2007 and features robust access to federal spending data mandated by the Federal Funding Accountability and Transparency Act of 2006.</p>
                         </div>
                     </div>
                 </div>
