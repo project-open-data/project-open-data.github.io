@@ -18,13 +18,13 @@ The transparency efforts of FFATA were expanded with the enactment of the [Digit
 * Simplify reporting, streamline reporting requirements, and reduce compliance costs, while improving transparency;
 * Improve the quality of data submitted to [USAspending.gov](http://www.usaspending.gov){:target="_blank"} by holding agencies accountable.
 
-The expanded, linked data submitted by the agencies will be displayed on the future USAspending.gov, which is to go live in May 2017.
+The expanded, linked data submitted by the agencies is currently being displayed on [Beta.USAspending.gov](https://beta.usaspending.gov/#/){:target="_blank"}.
 
 ## DATA Act Implementation
 
 #### Agency Implementation
 
-To assist agencies with implementation, OMB and Treasury have created a playbook of eight recommendations that, if followed together, will help agencies fulfill the requirements of the DATA Act by leveraging existing capabilities and streamlining implementation efforts. As federal agencies begin implementation, Treasury and OMB will continue to refine the playbook.
+To assist agencies with implementation, OMB and Treasury created a playbook of eight recommendations that, if followed together, help agencies fulfill the requirements of the DATA Act by leveraging existing capabilities and streamlining implementation efforts. 
 
 <img width="800" src="{{ site.baseurl }}/assets/img/playbook.png" title="agency implementation playbook summary" /> 
 
