@@ -25,4 +25,4 @@ gems:
 sass:
     sass_dir: assets/_sass
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
