@@ -29,4 +29,5 @@ filename: iso8601_guidance.md
 | Semimonthly | R/P0.5M |
 | Three times a year | R/P4M |
 | Weekly | R/P1W |
+| Hourly | R/PT1H |
   

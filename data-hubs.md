@@ -58,7 +58,7 @@ filename: data-hubs.md
 
 ### [Department of the Interior](http://www.doi.gov/data) 
 * [US Fish and Wildlife Service](http://www.fws.gov/data/)
-* [US Geospatial Survey](http://data.usgs.gov/)
+* [US Geological Survey](http://data.usgs.gov/)
 * [USGS Gap Analysis Program](http://gapanalysis.usgs.gov/data/)
 * [USGS Earthquake Hazards Program](http://earthquake.usgs.gov/data/)
 * [USGS National Water Information System](http://water.usgs.gov/data/)
