@@ -62,7 +62,7 @@ page: homepage
                 <div class="panel-body">
                     <div class="media">
                         <div class="media-left">
-                            <span class="beta.usaspend-logo"></span>
+                            <span class="beta-usaspend-logo"></span>
                         </div>
                         <div class="media-body">
                             <p><a href="https://beta.usaspending.gov/" title="Beta.USAspending.gov">Beta.USAspending.gov</a>: This public beta site, in accordance with the DATA Act, is the new official source of accessible, searchable and reliable spending data for the U.S. government. This site runs concurrently with the existing version of the USAspending.gov website and will be expanded and improved over the summer to add functionality and features based on user feedback. </p>
