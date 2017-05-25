@@ -432,23 +432,21 @@ a.list-group-item {
             text-align: center;
         }
         & .usaspend-logo,
-        & .usaspend-openbeta-logo,
+        & .beta-usaspend-logo,
         & .usability-icon {
             display: block;
-            width: 64px;
-            height: 60px;
+            width: 75px;
+            height: 75px;
             padding: 0 3px;
             background-image: url('../img/graphic-sprite.png');
-            background-size: 290%;
-            background-position: 3px 120px
+            background-position: 5px 5px;
         }
-        & .usaspend-openbeta-logo {
-            background-position: 125px 120px
+        & .beta-usaspend-logo {
+            background-position: 0 140px
         }
         & .usability-icon {
             height: 40px;
-            background-size: 300%;
-            background-position: 65px 114px;
+            background-position: 0 61px;
         }
     }
 }

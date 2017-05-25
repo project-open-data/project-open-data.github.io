@@ -15,7 +15,7 @@ page: homepage
 
         <p>In May 2014, President Obama signed the Digital Accountability and Transparency Act of 2014 (DATA Act) (P.L. 113-101) into law. Once implemented, the DATA Act will make federal spending data more accessible, searchable, and reliable. It will not only make it easier to understand how the federal government spends taxpayer dollars but will also serve as a tool for better oversight, data-centric decision-making, and innovation both inside and outside of government. The U.S. Department of the Treasury and the Office of Management and Budget are leading the government-wide implementation of the DATA Act.</p>
 
-        <p>This collaboration space is designed to openly share our <em><strong>process</strong></em> for meeting the new data transparency requirements of the DATA Act. Our sister site — <a href="http://openbeta.usaspending.gov" title="http://openbeta.usaspending.gov">Open Beta</a> — is where you will find the <em><strong>results</strong></em> of this work:  data you can search, view, and download. Both sites invite you--the public and federal agencies--to join in decision-making along the way, so please come back often! </p>
+        <p>This collaboration space is designed to openly share our <em><strong>process</strong></em> for meeting the new data transparency requirements of the DATA Act. Our sister site — <a href="https://beta.usaspending.gov/#/">Beta.USAspending.gov</a> — is where you will find the <em><strong>results</strong></em> of this work:  data you can search, view, and download. We invite you - the public - to interact with our site and share your feedvack and quesitons on our <a href="https://usaspending-help.zendesk.com/hc/en-us/community/topics"> Community Page</a>!</p>
 
         <p><a href="https://www.youtube.com/watch?v=X26IGyZ-SUY"><img style="width:600px;" src="{{ site.baseurl }}/assets/img/DATA_Act_Video.jpg" title="DATA Act Video"  /></a></p>
 
@@ -47,7 +47,7 @@ page: homepage
                             <span class="glyphicon glyphicon-cloud-upload"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" title="Data Submission" target='_blank'>Data Submission</a>: Getting data uploaded to USAspending.gov is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
+                            <p><a href="https://community.max.gov/download/attachments/754091528/Data%20Submission%20Process%2020170509.pdf?api=v2" title="Data Submission" target='_blank'>Data Submission</a>: Getting data uploaded to USAspending.gov is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
                             <p>If you are a federal agency employee, click <a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" title="Learn about format specifications">here</a> to learn about the format specifications and how our data broker will enable you to validate and submit data.</p>
                         </div>
                     </div>
@@ -62,18 +62,18 @@ page: homepage
                 <div class="panel-body">
                     <div class="media">
                         <div class="media-left">
-                            <span class="usaspend-logo"></span>
+                            <span class="beta-usaspend-logo"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="https://www.usaspending.gov/Pages/Default.aspx" title="USAspending.gov">USAspending.gov</a>: This public website launched in 2007 and already features robust access to federal spending data mandated by the Federal Funding Accountability and Transparency Act of 2006.</p>
+                            <p><a href="https://beta.usaspending.gov/" title="Beta.USAspending.gov">Beta.USAspending.gov</a>: This public beta site, in accordance with the DATA Act, is the new official source of accessible, searchable and reliable spending data for the U.S. government. This site runs concurrently with the existing version of the USAspending.gov website and will be expanded and improved over the summer to add functionality and features based on user feedback. </p>
                         </div>
                     </div>
                     <div class="media">
                         <div class="media-left">
-                            <span class="usaspend-openbeta-logo"></span>
+                            <span class="usaspend-logo"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="http://openbeta.usaspending.gov" title="http://openbeta.usaspending.gov">Open Beta</a>: This is the public beta site to collect public input for the next release of USAspending.gov. It includes sample data that allows you to test features and give us feedback on designs and visualizations.</p>
+                            <p><a href="https://www.usaspending.gov/Pages/Default.aspx" title="USAspending.gov">USAspending.gov</a>: This public website launched in 2007 and features robust access to federal spending data mandated by the Federal Funding Accountability and Transparency Act of 2006.</p>
                         </div>
                     </div>
                 </div>
