@@ -91,6 +91,8 @@ From that, we have developed a preliminary set of targeted user types, called â€
         </div>
         <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/repurposer_user_persona.jpg" tartet='_blank'>
 <strong>Repurposer</strong></a>: Technically savvy user who aggregates, translates, and/or resells data for their own purposes</p>
+    </div>
+</div>
    
 As more user research is conducted and designs are tested, our personas will evolve, expand, and continuously become more accurate.
 
