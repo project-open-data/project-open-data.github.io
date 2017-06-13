@@ -56,7 +56,7 @@ From that, we have developed a preliminary set of targeted user types, called â€
         <div class="cell">
             <img src="{{ site.baseurl }}/assets/img/user_personas/data_owner_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/data_owner_user_persona.pdf" target='_blank'><strong>Repurposer</strong></a>: The agency person responsible for the accuracy and completeness of the data</p>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/data_owner_user_persona.pdf" target='_blank'><strong>Data Owner</strong></a>: The agency person responsible for the accuracy and completeness of the data</p>
     </div>
 </div>
 
