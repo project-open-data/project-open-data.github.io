@@ -54,9 +54,9 @@ From that, we have developed a preliminary set of targeted user types, called â€
     </div>
     <div class="col-md-6 persona-block">
         <div class="cell">
-            <img src="{{ site.baseurl }}/assets/img/user_personas/repurposer_mug.jpg" class="img-responsive img-circle">
+            <img src="{{ site.baseurl }}/assets/img/user_personas/data_owner_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Repurposer_user_persona.pdf" target='_blank'><strong>Repurposer</strong></a>: Technically savvy user who aggregates, translates, and/or resells data for their own purposes</p>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/data_owner_user_persona.pdf" target='_blank'><strong>Repurposer</strong></a>: The agency person responsible for the accuracy and completeness of the data</p>
     </div>
 </div>
 
