@@ -1,4 +1,4 @@
-﻿Grouping,Data Element Label,Definition,Use,Data Category
+﻿Grouping,DataElementLabel,Definition,Use,DataCategory
 File C - Award Financial,AgencyIdentifier,The agency code identifies the department or agency that is responsible for the account.,Required,Account Level Information
 File C - Award Financial,AllocationTransferAgencyIdentifier,The allocation agency identifies the department or agency that is receiving funds through an allocation (non-expenditure) transfer.,Conditional per Validation Rule,Account Level Information
 File C - Award Financial,AvailabilityTypeCode,"In appropriations accounts, the availability type code identifies an unlimited period to incur new obligations; this is denoted by the letter ""X"".",Conditional per Validation Rule,Account Level Information
