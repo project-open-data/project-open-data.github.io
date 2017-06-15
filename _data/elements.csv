@@ -1,4 +1,4 @@
-﻿file,DataElementLabel,Definition,RequiredOptional,DataCategory
+file,DataElementLabel,Definition,RequiredOptional,DataCategory
 File C - Award Financial,AgencyIdentifier,The agency code identifies the department or agency that is responsible for the account.,Required,Account Level Information
 File C - Award Financial,AllocationTransferAgencyIdentifier,The allocation agency identifies the department or agency that is receiving funds through an allocation (non-expenditure) transfer.,Conditional per Validation Rule,Account Level Information
 File C - Award Financial,AvailabilityTypeCode,"In appropriations accounts, the availability type code identifies an unlimited period to incur new obligations; this is denoted by the letter ""X"".",Conditional per Validation Rule,Account Level Information
@@ -8,69 +8,69 @@ File C - Award Financial,DeobligationsRecoveriesRefundsOfPriorYearByAward_CPE,"T
 File C - Award Financial,EndingPeriodOfAvailability,"In annual and multi-year funds, the end period of availability identifies the last year of funds availability under law that an appropriation account may incur new obligations.",Conditional per Validation Rule,Account Level Information
 File C - Award Financial,GrossOutlayAmountByAward_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Optional,Account Level Information
 File C - Award Financial,GrossOutlayAmountByAward_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Optional,Account Level Information
 File C - Award Financial,GrossOutlaysDeliveredOrdersPaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Optional,Account Level Information
 File C - Award Financial,GrossOutlaysDeliveredOrdersPaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Optional,Account Level Information
 File C - Award Financial,GrossOutlaysUndeliveredOrdersPrepaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Optional,Account Level Information
 File C - Award Financial,GrossOutlaysUndeliveredOrdersPrepaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Optional,Account Level Information
 File C - Award Financial,MainAccountCode,The main account code identifies the account in statute.,Required,Account Level Information
 File C - Award Financial,ObjectClass,"The definition for this element appears in Section 83 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 Categories in a classification system that presents obligations by the items or services purchased by the Federal Government.",Required,Account Level Information
-File C - Award Financial,ObligationsDeliveredOrdersUnpaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File C - Award Financial,ObligationsDeliveredOrdersUnpaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-A legally binding agreement that will result in outlays, immediately or in the future. 
-
-",Optional,Account Level Information
-File C - Award Financial,ObligationsDeliveredOrdersUnpaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
-
-A legally binding agreement that will result in outlays, immediately or in the future. 
+A legally binding agreement that will result in outlays, immediately or in the future.
 
 ",Optional,Account Level Information
-File C - Award Financial,ObligationsIncurredTotalByAward_CPE,"The definition for this element appears in Appendix F of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File C - Award Financial,ObligationsDeliveredOrdersUnpaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
+
+A legally binding agreement that will result in outlays, immediately or in the future.
+
+",Optional,Account Level Information
+File C - Award Financial,ObligationsIncurredTotalByAward_CPE,"The definition for this element appears in Appendix F of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 For unexpired accounts:
-Amount of obligations incurred from the beginning of the current fiscal year to the end of the reporting period, net of refunds received that pertain to obligations incurred in the current year. Include upward adjustments of prior obligations. 
+Amount of obligations incurred from the beginning of the current fiscal year to the end of the reporting period, net of refunds received that pertain to obligations incurred in the current year. Include upward adjustments of prior obligations.
 
 For expired accounts:
 Amount of upward adjustments of obligations previously incurred. Upward adjustments are limited by the amount available for adjustments. No new obligations may be incurred against expired or canceled accounts.",Optional,Account Level Information
-File C - Award Financial,ObligationsUndeliveredOrdersUnpaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File C - Award Financial,ObligationsUndeliveredOrdersUnpaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 A legally binding agreement that will result in outlays, immediately or in the future.",Optional,Account Level Information
-File C - Award Financial,ObligationsUndeliveredOrdersUnpaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File C - Award Financial,ObligationsUndeliveredOrdersUnpaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 A legally binding agreement that will result in outlays, immediately or in the future.",Optional,Account Level Information
-File C - Award Financial,ProgramActivityCode,"The definition for this element appears in Section 200 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File C - Award Financial,ProgramActivityCode,"The definition for this element appears in Section 200 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 Code of a specific activity or project as listed in the program and financing schedules of the annual budget of the United States Government.  ",Optional,Account Level Information
-File C - Award Financial,ProgramActivityName,"The definition for this element appears in Section 200 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File C - Award Financial,ProgramActivityName,"The definition for this element appears in Section 200 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 Name of a specific activity or project as listed in the program and financing schedules of the annual budget of the United States Government.  ",Optional,Account Level Information
 File C - Award Financial,SubAccountCode,This is a component of the TAS. Identifies a Treasury-defined subdivision of the main account. This field cannot be blank. Subaccount 000 indicates the Parent account.,Required,Account Level Information
-File C - Award Financial,TransactionObligatedAmount,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File C - Award Financial,TransactionObligatedAmount,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 Obligation means a binding agreement that will result in outlays, immediately or in the future. Budgetary resources must be available before obligations can be incurred legally.",Conditional per Validation Rule,Account Level Information
 File C - Award Financial,USSGL480100_UndeliveredOrdersObligationsUnpaid_CPE,"The amount of goods and/or services ordered, which have not been actually or constructively received and for which amounts have not been prepaid or advanced. This includes amounts specified in other contracts or agreements such as grants, program subsidies, undisbursed loans and claims, and similar events for which an advance or prepayment has not occurred. This account does not close at yearend. (Per USSGL TFM Part 2, Section II, Accounts and Definitions.) ",Optional,Account Level Information
@@ -95,7 +95,7 @@ File C - Award Financial,USSGL498100_UpwardAdjustmentsOfPriorYearDeliveredOrders
 File C - Award Financial,USSGL498200_UpwardAdjustmentsOfPriorYearDeliveredOrdersObligationsPaid_CPE,"The amount of upward adjustments that were originally recorded in a prior fiscal year paid/outlayed during the fiscal year to USSGL account 490100, ""Delivered Orders - Obligations, Unpaid,"" or USSGL account 490200, ""Delivered Orders - Obligations, Paid."" (Per USSGL TFM Part 2, Section II, Accounts and Definitions.)",Optional,Account Level Information
 File A - Appropriations Account,BorrowingAuthorityAmountTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Borrowing authority is a type of budget authority that permits obligations and outlays to be financed by borrowing. 
+Borrowing authority is a type of budget authority that permits obligations and outlays to be financed by borrowing.
 
 
 ",Conditional per Validation Rule,Award Amount Information
@@ -134,13 +134,13 @@ File F - Sub-award Attributes,TotalFundingAmount,The sum of the FederalActionObl
 File A - Appropriations Account,DeobligationsRecoveriesRefundsByTAS_CPE,"The amount of downward adjustments to obligations and outlays resulting from deobligations, recoveries, or refunds collected, summarized at the TAS level. The adjustments are to the obligations and outlays which were made in a prior year.",Required,Award Characteristic Information
 File A - Appropriations Account,GrossOutlayAmountByTAS_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Required,Award Characteristic Information
 File A - Appropriations Account,ObligationsIncurredTotalByTAS_CPE,"The definition for this element appears in Appendix F of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 For unexpired accounts:
-Amount of obligations incurred from the beginning of the current fiscal year to the end of the reporting period, net of refunds received that pertain to obligations incurred in the current year. Include upward adjustments of prior obligations. 
+Amount of obligations incurred from the beginning of the current fiscal year to the end of the reporting period, net of refunds received that pertain to obligations incurred in the current year. Include upward adjustments of prior obligations.
 
 For expired accounts:
 Amount of upward adjustments of obligations previously incurred. Upward adjustments are limited by the amount available for adjustments. No new obligations may be incurred against expired or canceled accounts.
@@ -152,53 +152,53 @@ File A - Appropriations Account,StatusOfBudgetaryResourcesTotal_CPE,"This elemen
 File A - Appropriations Account,UnobligatedBalance_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 Unobligated balance means the cumulative amount of budget authority that remains available for obligation under law in unexpired accounts. The term “expired balances available for adjustment only” refers to unobligated amounts in expired accounts.
- 
+
 
 ",Required,Award Characteristic Information
 File B - Object Class and Program Activity,GrossOutlayAmountByProgramObjectClass_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Required,Award Characteristic Information
 File B - Object Class and Program Activity,GrossOutlayAmountByProgramObjectClass_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Required,Award Characteristic Information
 File B - Object Class and Program Activity,GrossOutlaysDeliveredOrdersPaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Required,Award Characteristic Information
 File B - Object Class and Program Activity,GrossOutlaysDeliveredOrdersPaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Required,Award Characteristic Information
 File B - Object Class and Program Activity,GrossOutlaysUndeliveredOrdersPrepaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Required,Award Characteristic Information
 File B - Object Class and Program Activity,GrossOutlaysUndeliveredOrdersPrepaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending. 
+Payments made to liquidate an obligation (other than the repayment of debt principal or other disbursements that are “means of financing” transactions). Outlays generally are equal to cash disbursements but also are recorded for cash-equivalent transactions, such as the issuance of debentures to pay insurance claims, and in a few cases are recorded on an accrual basis such as interest on public issues of the public debt. Outlays are the measure of Government spending.
 
 ",Required,Award Characteristic Information
-File B - Object Class and Program Activity,ObligationsDeliveredOrdersUnpaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File B - Object Class and Program Activity,ObligationsDeliveredOrdersUnpaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-A legally binding agreement that will result in outlays, immediately or in the future. 
-
-",Required,Award Characteristic Information
-File B - Object Class and Program Activity,ObligationsDeliveredOrdersUnpaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
-
-A legally binding agreement that will result in outlays, immediately or in the future. 
+A legally binding agreement that will result in outlays, immediately or in the future.
 
 ",Required,Award Characteristic Information
-File B - Object Class and Program Activity,ObligationsUndeliveredOrdersUnpaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File B - Object Class and Program Activity,ObligationsDeliveredOrdersUnpaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
+
+A legally binding agreement that will result in outlays, immediately or in the future.
+
+",Required,Award Characteristic Information
+File B - Object Class and Program Activity,ObligationsUndeliveredOrdersUnpaidTotal_CPE,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 A legally binding agreement that will result in outlays, immediately or in the future.",Required,Award Characteristic Information
-File B - Object Class and Program Activity,ObligationsUndeliveredOrdersUnpaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File B - Object Class and Program Activity,ObligationsUndeliveredOrdersUnpaidTotal_FYB,"The definition for this element appears in Section 20 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 A legally binding agreement that will result in outlays, immediately or in the future.",Required,Award Characteristic Information
 File B - Object Class and Program Activity,USSGL480200_UndeliveredOrdersObligationsPrepaidAdvanced_CPE,"The amount of cash refunds during the current fiscal year resulting from downward adjustments to obligations that were originally recorded in a prior fiscal year in USSGL account 480200, ""Undelivered Orders - Obligations, Prepaid/Advanced."" (Per USSGL TFM Part 2, Section II, Accounts and Definitions.)",Required,Award Characteristic Information
@@ -263,7 +263,7 @@ File D2 - Award and Awardee Attributes (Financial Assistance),RecordType,Code in
 File D2 - Award and Awardee Attributes (Financial Assistance),URI,Unique Record Identifier. An agency defined identifier that (when provided) is unique for every reported action.,FABS: Conditional per Validation Rule,Award Characteristic Information
 File F - Sub-award Attributes,ActionDate,The date the action being reported was issued / signed by the Government or a binding agreement was reached.,Extracted,Award Characteristic Information
 File F - Sub-award Attributes,AwardDescription,A brief description of the purpose of the award.,Extracted,Award Characteristic Information
-File F - Sub-award Attributes,CFDA_NumberAndTitle,"The number(s) and title(s) assigned to a Federal area of work in the Catalog of Federal Domestic Assistance. 
+File F - Sub-award Attributes,CFDA_NumberAndTitle,"The number(s) and title(s) assigned to a Federal area of work in the Catalog of Federal Domestic Assistance.
 ",Extracted,Award Characteristic Information
 File F - Sub-award Attributes,NAICS,The identifier that represents the North American Industrial Classification System (NAICS) Code assigned to the solicitation and resulting award identifying the industry in which the contract requirements are normally performed.,Extracted,Award Characteristic Information
 File F - Sub-award Attributes,NAICS_Description,The title associated with the NAICS Code.,Extracted,Award Characteristic Information
@@ -277,7 +277,7 @@ File F - Sub-award Attributes,PrimaryPlaceOfPerformanceStateCode,"United States 
 File F - Sub-award Attributes,PrimaryPlaceOfPerformanceZIP+4,"United States ZIP code (five digits) concatenated with the additional +4 digits, identifying where the predominant performance of the award will be accomplished.",Extracted,Award Characteristic Information
 File A - Appropriations Account,AdjustmentsToUnobligatedBalanceBroughtForward_CPE,"The definition for this element appears in Appendix F of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
-Changes to unpaid obligations that occurred in a prior fiscal year and that were not recorded in the unpaid obligations as of October 1 of the current fiscal year. 
+Changes to unpaid obligations that occurred in a prior fiscal year and that were not recorded in the unpaid obligations as of October 1 of the current fiscal year.
 
 ",Required,Awardee and Recipient Entity Information
 File A - Appropriations Account,AgencyIdentifier,The agency code identifies the department or agency that is responsible for the account.,Required,Awardee and Recipient Entity Information
@@ -302,10 +302,10 @@ File B - Object Class and Program Activity,MainAccountCode,The main account code
 File B - Object Class and Program Activity,ObjectClass,"The definition for this element appears in Section 83 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 Categories in a classification system that presents obligations by the items or services purchased by the Federal Government.",Required,Awardee and Recipient Entity Information
-File B - Object Class and Program Activity,ProgramActivityCode,"The definition for this element appears in Section 200 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File B - Object Class and Program Activity,ProgramActivityCode,"The definition for this element appears in Section 200 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 Code of a specific activity or project as listed in the program and financing schedules of the annual budget of the United States Government.  ",Required,Awardee and Recipient Entity Information
-File B - Object Class and Program Activity,ProgramActivityName,"The definition for this element appears in Section 200 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File B - Object Class and Program Activity,ProgramActivityName,"The definition for this element appears in Section 200 of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 Name of a specific activity or project as listed in the program and financing schedules of the annual budget of the United States Government.  ",Required,Awardee and Recipient Entity Information
 File B - Object Class and Program Activity,SubAccountCode,This is a component of the TAS. Identifies a Treasury-defined subdivision of the main account. This field cannot be blank. Subaccount 000 indicates the Parent account.,Required,Awardee and Recipient Entity Information
@@ -407,10 +407,10 @@ File D2 - Award and Awardee Attributes (Financial Assistance),AwardingSubTierAge
 File F - Sub-award Attributes,AwardingSubTierAgencyCode,"Identifier of the level 2 organization that awarded, executed or is otherwise responsible for the transaction.",Extracted,Awarding Entity Information
 File F - Sub-award Attributes,AwardingSubTierAgencyName,"Name of the level 2 organization that awarded, executed or is otherwise responsible for the transaction.",Extracted,Awarding Entity Information
 File B - Object Class and Program Activity,DeobligationsRecoveriesRefundsdOfPriorYearByProgramObjectClass_CPE,"The amount of downward adjustments to obligations and outlays incurred resulting from deobligations, recoveries, or refunds collected, at the TAS / Program Activity / Object Class level. The adjustments are to the obligations and outlays which were made in a prior year.",Required,Funding Entity Information
-File B - Object Class and Program Activity,ObligationsIncurredByProgramObjectClass_CPE,"The definition for this element appears in Appendix F of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below. 
+File B - Object Class and Program Activity,ObligationsIncurredByProgramObjectClass_CPE,"The definition for this element appears in Appendix F of OMB Circular A-11 issued June 2015; a brief summary from A-11 appears below.
 
 For unexpired accounts:
-Amount of obligations incurred from the beginning of the current fiscal year to the end of the reporting period, net of refunds received that pertain to obligations incurred in the current year. Include upward adjustments of prior obligations. 
+Amount of obligations incurred from the beginning of the current fiscal year to the end of the reporting period, net of refunds received that pertain to obligations incurred in the current year. Include upward adjustments of prior obligations.
 
 For expired accounts:
 Amount of upward adjustments of obligations previously incurred. Upward adjustments are limited by the amount available for adjustments. No new obligations may be incurred against expired or canceled accounts.",Required,Funding Entity Information
