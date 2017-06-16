@@ -28,7 +28,7 @@ Through meetings, workshops, analytics, and user interviews, the DATA Act team h
 
 From that, we have developed a preliminary set of targeted user types, called “Personas.” Personas are visual encapsulations of research findings that inform the design process. **They capture real user perceptions, experiences, and quotations, which we draw on to build better software.** Photos and personal details, however, are merely representative to help make them more real and relatable.
 
-#### Below are eight examples of our current personas::
+#### Below are eight examples of our current personas:
 
 <div class="row">
     <div class="col-md-6 persona-block">
