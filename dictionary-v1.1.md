@@ -7,7 +7,7 @@ title: DATA Act Information Model Schema Data Dictionary v1.1
 page: dictionary-v1.1
 ---
 # DATA Act Information Model Schema Data Dictionary v1.1
-_Released June 30, 2017
+_Released June 30, 2017_
 
 ##Background
 
