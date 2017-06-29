@@ -68,7 +68,7 @@ page: dictionary-v1.1
     </thead>
     {% for element in site.data.elementsv1.1%}
     <tr>
-        <td>{{ element.file }}</td>
+        <td>{{ element.grouping }}</td>
         <td>
             {{ element.DataElementLabel }}
         </td>
