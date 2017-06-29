@@ -6,8 +6,9 @@ filename: dictionary-v1.1
 title: DATA Act Information Model Schema Data Dictionary v1.1
 page: dictionary-v1.1
 ---
-# DATA Act Information Model Schema Data Dictionary v1.1
-_Released June 30, 2017_
+<div class="article-wrap">
+<h1> DATA Act Information Model Schema Data Dictionary v1.1 </h1>
+<p>Released June 30, 2017</p>
 
 ##Background
 The DATA Act Information Model Schema (DAIMS; DATA Act Schema) provides an overall view of the hundreds of distinct data elements used to tell the story of how federal dollars are spent. The purpose of the data dictionary is to provide assistance in understanding the data elements within the DATA Act Schema.
@@ -22,5 +23,62 @@ _June 30, 2017_ - DAIMS v1.1 is a minor update to transition financial assistanc
 __Grouping__ -- Agencies report data in certain groupings.
 - File A - Appropriations Account Detail
 
+<p>
+    <strong>Grouping</strong> &mdash; Agencies report data in certain groupings.
+    <ul style="margin-bottom:0;">
+        <li>File A – Appropriations Account Detail</li>
+        <li>File B – Object Class and Program Activity Detail</li>
+        <li>File C – Award and Financial Detail</li>
+        <li>File D1 – Award and Awardee Attributes (Procurement)</li>
+        <li>File D2 – Award and Awardee Attributes (Financial Assistance)</li>
+        <li>File E – Additional Awardee Attributes</li>
+        <li>File F – Sub-award Attributes</li>
+    </ul>
+</p>
+<p>
+    <strong>Data Element Label</strong> &mdash; The name of an element in the DATA Act Schema.
+</p>
+<p>
+    <strong>Definition</strong> &mdash; The business definition for the element.
+</p>
+<p>
+    <strong>Use</strong> &mdash; Is this element required?
+    <ul style="margin-bottom:0;">
+        <li>Required – Element must be present.</li>
+        <li>Optional – Element may be included but is not required.</li>
+        <li>Conditional per Validation Rule – Element may be needed based on a validation rule.</li>
+        <li>Conditional per Award Type – Element may be needed based on the type of award.</li>
+        <li>Derived – Element content is obtained from the content of another element. For example, ZIP code is used to derive city and state.</li>
+        <li>Extracted – Element is pulled from another source.</li>
+    </ul>
+</p>
+<p>
+    <strong>Data Category</strong> &mdash; Some elements are part of a category of elements. 
+</p>
+
+</div>
+<p></p>
+<table id="dictTable" class="tablesorter table-bordered table-striped mb-40" style="word-wrap:break-word; table-layout:fixed;">
+    <thead>
+        <tr>
+            <th>Grouping</th>
+            <th>Data Element Label</th>
+            <th style="width:40%;">Definition</th>
+            <th>Use</th>
+            <th>Data Category</th>
+        </tr>
+    </thead>
+    {% for element in site.data.elementsv1.1%}
+    <tr>
+        <td>{{ element.file }}</td>
+        <td>
+            {{ element.DataElementLabel }}
+        </td>
+        <!--<td><a href="#C{{ forloop.index | plus:1 }}">{{ element.DAIMSSemanticLabel }}</a></td>-->
+        <td>{{ element.Definition }}</td>
+        <td>{{ element.use }}</td>
+        <td>{{element.DataCategory}}</td>
+    </tr>{% endfor %}
+</table>
 
 
