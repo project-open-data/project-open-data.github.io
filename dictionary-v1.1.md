@@ -1,10 +1,9 @@
 ---
 published: true
 permalink: /dictionary-v1.1/
-layout: article
-filename: dictionary-v1.1
+layout: hero
+filename: dictionary-v1.1.md
 title: DATA Act Information Model Schema Data Dictionary v1.1
-page: dictionary-v1.1
 ---
 <div class="article-wrap">
 <h1> DATA Act Information Model Schema Data Dictionary v1.1 </h1>
