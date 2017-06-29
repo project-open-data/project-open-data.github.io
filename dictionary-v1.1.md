@@ -65,7 +65,7 @@ title: DATA Act Information Model Schema Data Dictionary v1.1
             <th>Data Category</th>
         </tr>
     </thead>
-    {% for element in site.data.elementsv1.1%}
+    {% for element in site.data.elementsv1_1%}
     <tr>
         <td>{{ element.Grouping }}</td>
         <td>
