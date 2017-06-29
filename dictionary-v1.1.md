@@ -74,7 +74,7 @@ title: DATA Act Information Model Schema Data Dictionary v1.1
         <!--<td><a href="#C{{ forloop.index | plus:1 }}">{{ element.DAIMSSemanticLabel }}</a></td>-->
         <td>{{ element.Definition }}</td>
         <td>{{ element.Use }}</td>
-        <td>{{element.DataCategory}}</td>
+        <td>{{element.DataCatagory}}</td>
     </tr>{% endfor %}
 </table>
 
