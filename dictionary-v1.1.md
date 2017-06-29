@@ -68,13 +68,13 @@ page: dictionary-v1.1
     </thead>
     {% for element in site.data.elementsv1.1%}
     <tr>
-        <td>{{ element.grouping }}</td>
+        <td>{{ element.Grouping }}</td>
         <td>
             {{ element.DataElementLabel }}
         </td>
         <!--<td><a href="#C{{ forloop.index | plus:1 }}">{{ element.DAIMSSemanticLabel }}</a></td>-->
         <td>{{ element.Definition }}</td>
-        <td>{{ element.use }}</td>
+        <td>{{ element.Use }}</td>
         <td>{{element.DataCategory}}</td>
     </tr>{% endfor %}
 </table>
