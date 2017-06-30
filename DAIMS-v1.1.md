@@ -27,7 +27,7 @@ DAIMS gives an overall view of the hundreds of distinct data elements used to te
 
 The Information Flow provides an overview of the sources of the data included in the DAIMS and how the data will be submitted to the DATA Act Broker. Treasury will maintain the current cadence for reporting federal awards on a daily and twice-monthly basis and added the quarterly reporting of financial data in May 2017. This updated model shows how the data flows from the agency financial and awards systems to the public website and will be implemented in September 2017.  
 
-<img width="800" src="{{ site.baseurl }}/assets/docs/DAIMS_Information_Flow_Diagram_v1.1.pdf" title="information flow diagram" />
+<img width="800" src="{{ site.baseurl }}/assets/docs/DAIMS_Information_Flow_Diagram_v1.1.png" title="information flow diagram" />
 
 ## Reporting Submission Specification (RSS)
 
