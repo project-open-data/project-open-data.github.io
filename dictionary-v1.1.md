@@ -8,7 +8,6 @@ title: DATA Act Information Model Schema Data Dictionary v1.1
 <div class="article-wrap">
 <h1> DATA Act Information Model Schema Data Dictionary v1.1 </h1>
 <p><i>Released June 30, 2017</i></p>
-
 <h2>Background</h2>
 <p>The DATA Act Information Model Schema (DAIMS; DATA Act Schema) provides an overall view of the hundreds of distinct data elements used to tell the story of how federal dollars are spent. The purpose of the data dictionary is to provide assistance in understanding the data elements within the DATA Act Schema.</p>
 
