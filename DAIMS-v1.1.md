@@ -9,7 +9,7 @@ page: DAIMS-v1.1
 
 # DATA Act Information Model Schema v1.1
 
-_Updated June 30, 2017_ – A core requirement of the DATA Act is the development of government-wide data standards to ensure the reporting of reliable, consistent federal spending data for public use. Office of Management and Budget (OMB) and Treasury finalized the data definition standards and Treasury used the data definition standards to develop the initial draft of the DATA Act data exchange standard, or Schema, in May 2015. Treasury collected public input and feedback from federal agencies and implemented an agile development methodology to create the DATA Act Information Model Schema (DAIMS) v1.0. DAIMS v1.1 is a minor update to transition financial assistance reporting to the DATA Act Broker, to better align with another federal government source system, and to provide clarifications for improved usability. DAIMS v1.1 will be implemented in production in fall 2017.
+_Released June 30, 2017_ – A core requirement of the DATA Act is the development of government-wide data standards to ensure the reporting of reliable, consistent federal spending data for public use. Office of Management and Budget (OMB) and Treasury finalized the data definition standards and Treasury used the data definition standards to develop the initial draft of the DATA Act data exchange standard, or Schema, in May 2015. Treasury collected public input and feedback from federal agencies and implemented an agile development methodology to create the DATA Act Information Model Schema (DAIMS) v1.0. DAIMS v1.1 is a minor update to transition financial assistance reporting to the DATA Act Broker, to better align with another federal government source system, and to provide clarifications for improved usability. DAIMS v1.1 will be implemented in production in fall 2017.
 
 DAIMS gives an overall view of the hundreds of distinct data elements used to tell the story of how federal dollars are spent. It includes artifacts that provide technical guidance for federal agencies about what data to report to Treasury including the authoritative sources of the data elements and the submission format. The DAIMS also provides clarity on how the public can better understand the inherent complexity of the data.
 
@@ -21,7 +21,7 @@ DAIMS gives an overall view of the hundreds of distinct data elements used to te
  - **Terse Labels** - provide shortened versions of data element names.
  - **DAIMS Diagrams** – display visual representations of how the data elements from the RSS and IDD fit together in context.
  - **Online Data Dictionary** – contains a comprehensive list of data elements with definitions and some associated metadata.
- - **XBRL Schema Files** – provide a machine-readable version of the data standard that includes accounting-related and award-related content.
+ - **XBRL Schema Files** – provide a machine-readable version of the data standards that include accounting-related and award-related content.
 
 ## Information Flow
 
@@ -38,25 +38,25 @@ The RSS includes three files that the agencies will submit to Treasury’s Broke
 - File A – Appropriations Account Detail
 - File B – Object Class and Program Activity Detail
 - File C – Award Financial Detail
-Download the [RSS v1.1]({{site.baseurl}}/assets/docs/DAIMS_RSS_v1.1.xlsx)
 
-Federal agencies can view [more information about the RSS on MAX](https://community.max.gov/x/CIbyL){:target="_blank"}.
+Download the [RSS v1.1]({{site.baseurl}}/assets/docs/DAIMS_RSS_v1.1.xlsx)
 
 ## Interface Definition Document (IDD)
 
 The Interface Definition Document (IDD) provides an overview of the award specific data elements and explains how the data will be reported or collected. Some data elements will be pulled from government-wide intermediary systems for procurement data, recipient attributes and sub award information.  The IDD also includes data elements submitted by agency systems for financial assistance awards.
 
-The IDD is based on the Data Model (DAIMS) v1.01 and features the elements related to:
+The IDD features the elements related to:
 
 - File D1 – Award and Awardee Attributes (Procurement)
 - File D2 – Award and Awardee Attributes (Financial Assistance)
 - File E – Additional Awardee Attributes
 - File F – Sub-award Attributes
+
 Download the [IDD v1.1]({{site.baseurl}}/assets/docs/DAIMS_IDD_v1.1.xlsx)
 
 ## Domain Values
 
-The [domain values]({{site.baseurl}}/assets/docs/DAIMS_Domain_Values_v1.1) include permissible values for a sub-set of the DAIMS data elements.
+The [domain values]({{site.baseurl}}/assets/docs/DAIMS_Domain_Values_v1.1.xlsx) include permissible values for a sub-set of the DAIMS data elements.
 
 ## Terse Label
 
@@ -83,9 +83,8 @@ The [Data Dictionary v1.1]({{ site.baseurl }}/dictionary-v1.1/){:target="_blank"
 
 A data standard contains both a human-readable version of the standard and a machine-readable version of the standard. The XBRL Schema files are the machine-readable version of the DATA Act standard.
 
-[Zipped Schema Files with Release Notes (Updated on June 30, 2017)]({{site.baseurl}}/assets/docs/daims_v1.01.06_2017-05-31.zip)
+[Zipped Schema Files with Release Notes (Updated on June 30, 2017)]({{site.baseurl}}/assets/docs/daims_v1.1_2017-06-30.zip)
 
-[Zipped Instance Documents with Data for Fiscal Year 2017 Quarter 2 (January to March 2017, Updated on June 30, 2017)](http://da-public-files.s3-website-us-gov-west-1.amazonaws.com/xbrl_files/data-act-xbrl-instance-Q2-2017-05-18.zip)
 
 ## Data Definition Standards
 
