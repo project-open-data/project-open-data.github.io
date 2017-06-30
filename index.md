@@ -47,8 +47,8 @@ page: homepage
                             <span class="glyphicon glyphicon-cloud-upload"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" title="Data Submission" target='_blank'>Data Submission</a>: Getting data uploaded to USAspending.gov is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
-                            <p>If you are a federal agency employee, click <a href="https://community.max.gov/download/attachments/903971114/DataSubmission_page.pdf" title="Learn about format specifications">here</a> to learn about the format specifications and how our data broker will enable you to validate and submit data.</p>
+                            <p><a href="https://community.max.gov/download/attachments/754091528/Data Submission Process 20170509.pdf?api=v2" title="Data Submission" target='_blank'>Data Submission</a>: Getting data uploaded to USAspending.gov is a multi-step process that includes validation to ensure quality, and transmission to the cloud. Agencies will need to package data in a specified format for both these tasks.</p>
+                            <p>If you are a federal agency employee, click <a href="https://community.max.gov/download/attachments/754091528/Data Submission Process 20170509.pdf?api=v2" title="Learn about format specifications">here</a> to learn about the format specifications and how our data broker will enable you to validate and submit data.</p>
                         </div>
                     </div>
                 </div>
