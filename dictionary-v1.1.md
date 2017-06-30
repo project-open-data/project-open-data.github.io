@@ -13,8 +13,6 @@ title: DATA Act Information Model Schema Data Dictionary v1.1
 
 <p>The DATA Act directs the Office of Management and Budget (OMB) and the U.S. Treasury Department (Treasury) to establish government-wide data standards for federal funds and entities receiving such funds. The DAIMS will help to ensure that information is consistent and comparable and ultimately make data more accessible, reusable, and provide the necessary linkages between financial events. By making federal spending data accessible, searchable, reusable, and more reliable, the public can understand government spending. The DATA Act Schema will also reduce the need for massive system changes across federal agencies to collect information and allow agencies to focus on managing data.</p>
 
-<a href="#" id="back-to-top" title="Back to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
-
 <h2>DAIMS v1.1 Release</h2>
 <p><i>June 30, 2017</i> - DAIMS v1.1 is a minor update to transition financial assistance reporting to the DATA Act Broker, to better align with another federal government source system, and to provide clarifications for improved usability. These changes have a minimal impact to the data submissions that agencies make to the DATA Act Broker. DAIMS v1.1 will be implemented in production in fall 2017.</p>
 
