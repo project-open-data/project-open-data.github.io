@@ -52,7 +52,7 @@ The IDD is based on the Data Model (DAIMS) v1.01 and features the elements relat
 - File D2 – Award and Awardee Attributes (Financial Assistance)
 - File E – Additional Awardee Attributes
 - File F – Sub-award Attributes
-Download the [IDD v1.1]({{site.baseurl}}/assets/docs/DAIMS_IDD_v1.1.xlsl)
+Download the [IDD v1.1]({{site.baseurl}}/assets/docs/DAIMS_IDD_v1.1.xlsx)
 
 ## Domain Values
 
