@@ -7,7 +7,7 @@ title: DATA Act Data Dictionary
 ---
 <div class="article-wrap">
 <h2>The Latest</h2>
-<p> June 30, 2017: Treasury released the DATA Act Information Model Schema (DAIMS) v1.1. DAIMS v1.1 is a minor update of the schema and will be implemented in September 2017. Find out more information at DAIMS v1.1 or its Data Dictionary v1.1.</p>
+<p> June 30, 2017: Treasury released the DATA Act Information Model Schema (DAIMS) v1.1. DAIMS v1.1 is a minor update of the schema and will be implemented in September 2017. Find out more information at <a href="{{site.baseurl}}/DAIMSv1.1/">DAIMS v1.1</a> or its <a href="{{site.baseurl}}/dictionary-v1.1/">Data Dictionary v1.1</a>.</p>
 <h1>DATA Act Information Model Schema Data Dictionary</h1>
 <h2>Background</h2>
 <p>The DATA Act Information Model Schema (DAIMS; DATA Act Schema) provides an overall view of the hundreds of distinct data elements used to tell the story of how federal dollars are spent. The purpose of the data dictionary is to provide assistance in understanding the data elements within the DATA Act Schema.</p>
