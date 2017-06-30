@@ -8,7 +8,7 @@ page: data-model
 redirect_from: "/data-exchange-standard/"
 ---
 # The Latest
-_June 30, 2017_: Treasury released the DATA Act Information Model Schema (DAIMS) v1.1. DAIMS v1.1 is a minor update of the schema and will be implemented in September 2017. Find out more information at [DAIMS v1.1](https://fedspendingtransparency.18f.gov/DAIMS-v1.1/).
+_June 30, 2017_: Treasury released the DATA Act Information Model Schema (DAIMS) v1.1. DAIMS v1.1 is a minor update of the schema and will be implemented in fall 2017. Find out more information at [DAIMS v1.1](https://fedspendingtransparency.18f.gov/DAIMS-v1.1/).
 
 # DATA Act Information Model Schema v1.01
 
