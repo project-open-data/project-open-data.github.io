@@ -15,7 +15,7 @@ Subscribe to the public mailing list: <https://groups.google.com/forum/#!topic/o
 
 Biweekly Implementation support meetings are held every Tuesday at GSA for Federal employees and contractors. To receive the most recent meeting information, join the OPEN-DATA listserv managed by GSA.
 
-U.S. Governemnt Open Data meetings are open to the public on a quarterly basis. To receive invitations and join the community, subscribe to the public mailing list.
+U.S. Government  Open Data meetings are open to the public on a quarterly basis. To receive invitations and join the community, subscribe to the public mailing list.
 
 ## Open Data – Data.gov
 
