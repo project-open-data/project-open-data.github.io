@@ -85,18 +85,18 @@ Version 1.1 Update
 
 In the year since the release of the Open Data Policy, agencies and the public have suggested several updates to the metadata schema.  In the interest of stability, these updates have been tied together into a methodical update to a version 1.1 of the metadata schema.  Each issue has been rigorously discussed in its own issue thread and at the [July government-wide offsite session](https://github.com/project-open-data/project-open-data.github.io/issues/325) dedicated to this update.  
 
-####Changes
+#### Changes
 * [Changelog for the version 1.1 schema](/metadata-changelog/).
 *  These updates have been managed through [issues in a single milestone](https://github.com/project-open-data/project-open-data.github.io/milestones/Next%20Version%20of%20Common%20Core%20Metadata%20Schema%20(1.0%20-%3E%201.1.)).  Each issue within the milestone contains the related discussion and a link to the proposed edits.  
 * The proposed edits can also be found bundled in [this combined pull request](https://github.com/project-open-data/project-open-data.github.io/pull/357).
 
-####Resources
+#### Resources
 * [New updated metadata schema page](/v1.1/schema/). 
 * [Field mapping from v1.0 to v1.1 schema](/v1.1/metadata-resources/#field-mappings).
 * [Updated Metadata Schema v 1.1 Diagram](/v1.1/metadata-resources/#schema-object-model-diagram).
 * [Sample data.json files with the version 1.1 schema](/v1.1/metadata-resources/#sample-data-files). 
 
-####Guidance
+#### Guidance
  
 * ["Project Open Data Metadata Updates v 1.1" presentation slides](https://gsa.github.io/datagov-presentations/metadata-v1.1/) and [video](http://www.youtube.com/watch?v=-kpEywSZPw8&feature=youtu.be&list=PLd9b-GuOJ3nFA8rIjFKllLSAJl61IBYKM) from the [October 15th webinar](https://www.digitalgov.gov/event/open-data-policy-common-core-metadata-v-1-1-updates/).
 
