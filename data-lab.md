@@ -94,24 +94,24 @@ title: Data Lab
 <!--Data Science Community-->
   <div class="row mt-50">
     <div class="panel panel-default">
-            <div class="panel-heading">
-              <div class="media">
-                <div class="media-left">
-                  <span class="data-community-logo"></span>
-                </div>
-                <div class="media-header">
-                  <h3>Data Science Community</h3>
-                </div>
-              </div>  
-            </div>
-            <div class="panel-body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit sem tellus, a rutrum nibh lacinia vel. Fusce fermentum odio elit, a mollis ipsum vehicula quis. Suspendisse sit amet neque quis arcu vulputate imperdiet quis quis lacus. Donec ultrices bibendum turpis in condimentum. Fusce et ultricies justo.</p>
-              <p><a href="[insert website url]"><strong>Community Member 1 ></strong></a>
-              <p><a href="[insert website url]"><strong>Community Member 2 ></strong></a>
-              <p><a href="[insert website url]"><strong>Community Member 3 ></strong></a>
-              <p><a href="[insert website url]"><strong>Community Member 4 ></strong></a>
-            </div>
-        </div>
+      <div class="panel-heading">
+        <div class="media">
+          <div class="media-left">
+            <span class="data-community-logo"></span>
+          </div>
+          <div class="media-header">
+            <h3>Data Science Community</h3>
+          </div>
+        </div>  
+      </div>
+
+      <div class="panel-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit sem tellus, a rutrum nibh lacinia vel. Fusce fermentum odio elit, a mollis ipsum vehicula quis. Suspendisse sit amet neque quis arcu vulputate imperdiet quis quis lacus. Donec ultrices bibendum turpis in condimentum. Fusce et ultricies justo.</p>
+        <div><a href="[insert website url]"><strong>Community Member 1 ></strong></a></div>
+        <div><a href="[insert website url]"><strong>Community Member 2 ></strong></a></div>
+        <div><a href="[insert website url]"><strong>Community Member 3 ></strong></a></div>
+        <div><a href="[insert website url]"><strong>Community Member 4 ></strong></a></div>
+      </div>
     </div>
   </div>
 <!--Care to Share Pannel-->
@@ -125,6 +125,7 @@ title: Data Lab
           <div class="media-header">
             <h3>Care to Share? We're Listening.</h3>
           </div>
+        </div>
       </div>
     </div>
   </div>
