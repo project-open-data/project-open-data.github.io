@@ -92,7 +92,7 @@ title: Data Lab
     </div>
   </div>
 <!--Data Science Community-->
-  <div class="row mt-40 ml-2">
+  <div class="row mt-40 mt-10">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="media">
