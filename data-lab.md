@@ -67,9 +67,9 @@ title: Data Lab
   </div>
 </div>
 <!--narrow righthand column-->
-<div class="col-md-4 mt-50">
+<div class="col-md-4 mt-40">
 <!--Data Science Resources-->
-  <div class="row mt-50">
+  <div class="row mt-40">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="media">
@@ -92,7 +92,7 @@ title: Data Lab
     </div>
   </div>
 <!--Data Science Community-->
-  <div class="row mt-50">
+  <div class="row mt-40">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="media">
@@ -115,7 +115,7 @@ title: Data Lab
     </div>
   </div>
 <!--Care to Share Pannel-->
-  <div class="row mt-50">
+  <div class="row mt-40">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="media">
