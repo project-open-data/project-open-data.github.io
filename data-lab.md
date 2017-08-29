@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /data-lab/
-layout: article
+layout: article-right-rail
 filename: data-lab.md
 title: Data Lab
 ---
