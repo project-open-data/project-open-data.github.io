@@ -1,10 +1,11 @@
---
+---
 published: true
 permalink: /data-lab/
 layout: article
 filename: data-lab.md
 title: Data Lab
 ---
+
 <div class="row">
 <!--wider column left side of page-->
   <div class="col-md-8">
