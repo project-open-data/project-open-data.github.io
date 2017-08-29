@@ -67,9 +67,9 @@ title: Data Lab
   </div>
 </div>
 <!--narrow righthand column-->
-<div class="col-md-4 mt-5 ml-4">
+<div class="col-md-4">
 <!--Data Science Resources-->
-  <div class="row">
+  <div class="row mt-20">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="media">
@@ -92,7 +92,7 @@ title: Data Lab
     </div>
   </div>
 <!--Data Science Community-->
-  <div class="row mt-40 mt-10">
+  <div class="row mt-40">
     <div class="panel panel-default">
       <div class="panel-heading">
         <div class="media">
