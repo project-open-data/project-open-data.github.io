@@ -47,7 +47,7 @@ title: Data Lab
         <div class="panel-body">
           <img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard.png" lass="img-responsive">
           <p>Explore</p>
-          <h2>122,452</h2>
+          <h2 style="padding:0px; margin:0px">122,452</h2>
           <div>federal contracts</div>
           <div><strong>Read More ></strong></div>
         </div>
