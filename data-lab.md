@@ -69,29 +69,23 @@ title: Data Lab
 </div>
 <!--narrow righthand column-->
 <div class="col-md-4" style="padding:30px">
-  <div class="panel-container">
+  <<div class="panel-container">
 
   <!--Data Science Resources-->
-    <div class="row mt-30">
+    <div class="row mt-40">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <div class="media">
-            <div class="media-left">
-              <span class="data-resources-logo"></span>
-            </div>
-            <div class="media-header">
-              <h3>Data Science Resources</h3>
-            </div>
-          </div>
+          <h3>Data Science Resource</h3>
         </div>
 
         <div class="panel-body">
-          <p>All of the data collected by Treasury and visualized on this site is open and available to to the public. We are excited for you to conduct research using federal spending data, and have prepared a number of resources to help you get started. </p>
-          <div><a href="[insert website url]"><strong>Code to connect to APIs ></strong></a><div>
-          <div><a href="[insert website url"><strong>Analytics Github></strong ></div>
-          <div><a href="[insert website url"><strong>Analytics User Guide ></strong></div>
+          <p>All of the data collected by Treasury and visualized on this site is open and available to to the public. We are excited for you to conduct research using federal spending data, and have prepared a number of resources to help you get started.</p>
+          <div><a href="[insert website url]"><strong>Code to connect to APIs ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Analytics Github> ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Analytics User Guide ></strong></a></div>
           <div><a href="[insert website url]"><strong>Data.world Projects ></strong></a></div>
         </div>
+
       </div>
     </div>
 
@@ -99,14 +93,7 @@ title: Data Lab
     <div class="row mt-40">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <div class="media">
-            <div class="media-left">
-              <span class="data-community-logo"></span>
-            </div>
-            <div class="media-header">
-              <h3>Data Science Community</h3>
-            </div>
-          </div>  
+          <h3>Data Science Community</h3>
         </div>
 
         <div class="panel-body">
@@ -124,14 +111,7 @@ title: Data Lab
     <div class="row mt-40">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <div class="media">
-            <div class="media-left">
-              <span class="data-share-logo">
-            </div>
-            <div class="media-header">
-              <h3>Care to Share? We're Listening.</h3>
-            </div>
-          </div>
+          <h3>Care to Share? We're Listening.</h3>
         </div>
       </div>
     </div>
