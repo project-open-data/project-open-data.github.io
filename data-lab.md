@@ -15,7 +15,7 @@ title: Data Lab
     <p>Duis elit sapien, lobortis sit amet justo ac, congue tincidunt nisi. Integer sit amet tellus gravida, ornare ligula ut, facilisis libero. Duis a massa maximus, porta erat a, auctor sapien. Suspendisse sed neque et diam consectetur dignissim et semper leo. Integer ac iaculis magna. Aliquam pharetra ullamcorper magna, nec aliquet lacus pulvinar ac. Nunc facilisis non orci egestas dapibus. Vivamus pulvinar orci ac dolor aliquet ultricies vel nec nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sagittis magna in feugiat maximus. Suspendisse potenti.</p>
   </div>
   <!--four panels-->
-  <div class="row mt-40">
+  <div class="row mt-20">
     <div class="panel-container">
       <div class="col-md-6">
         <div class="panel panel-default short-col">
@@ -42,7 +42,7 @@ title: Data Lab
     </div>
   </div>
   <!--second row of boxes-->
-  <div class="row mt-20">      
+  <div class="row mt-10">      
     <div class="col-md-6">
       <div class="panel panel-default short-col">
         <div class="panel-body">
@@ -69,8 +69,7 @@ title: Data Lab
 </div>
 <!--narrow righthand column-->
 <div class="col-md-4" style="padding:30px">
-  <<div class="panel-container">
-
+  <div class="panel-container">
   <!--Data Science Resources-->
     <div class="row mt-40">
       <div class="panel panel-default">
@@ -90,7 +89,7 @@ title: Data Lab
     </div>
 
   <!--Data Science Community-->
-    <div class="row mt-40">
+    <div class="row mt-20">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3>Data Science Community</h3>
@@ -108,13 +107,12 @@ title: Data Lab
     </div>
 
     <!--Care to Share Pannel-->
-    <div class="row mt-40">
+    <div class="row mt-20">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3>Care to Share? We're Listening.</h3>
         </div>
       </div>
     </div>
-
-  </div>
+  </div
 </div>
