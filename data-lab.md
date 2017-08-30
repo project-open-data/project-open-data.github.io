@@ -74,14 +74,7 @@ title: Data Lab
     <div class="row mt-30">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <div class="media">
-            <div class="media-left">
-              <span class="data-resources-logo"></span>
-            </div>
-            <div class="media-header">
-              <h3>Data Science Resources</h3>
-            </div>
-          </div>
+          <h3>Data Science Resources</h3>
         </div>
 
         <div class="panel-body">
@@ -91,6 +84,7 @@ title: Data Lab
           <div><a href="[insert website url"><strong>Analytics User Guide ></strong></div>
           <div><a href="[insert website url]"><strong>Data.world Projects ></strong></a></div>
         </div>
+
       </div>
     </div>
 
@@ -98,14 +92,7 @@ title: Data Lab
     <div class="row mt-40">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <div class="media">
-            <div class="media-left">
-              <span class="data-community-logo"></span>
-            </div>
-            <div class="media-header">
-              <h3>Data Science Community</h3>
-            </div>
-          </div>  
+          <h3>Data Science Community</h3>
         </div>
 
         <div class="panel-body">
@@ -123,14 +110,7 @@ title: Data Lab
     <div class="row mt-40">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <div class="media">
-            <div class="media-left">
-              <span class="data-share-logo">
-            </div>
-            <div class="media-header">
-              <h3>Care to Share? We're Listening.</h3>
-            </div>
-          </div>
+          <h3>Care to Share? We're Listening.</h3>
         </div>
       </div>
     </div>
