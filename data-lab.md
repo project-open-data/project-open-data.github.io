@@ -59,7 +59,7 @@ title: Data Lab
         <div class="panel-body">
           <img src="{{ site.baseurl }}/assets/img/DataLab_Tower_Large.png" class="img-responsive">
           <p style="padding-bottom:0; margin-bottom:0; text-align:center">The federal government provided</p>
-          <h2 style="padding-bottom:0; margin-bottom:0; text-align:center">over $1 million</h2>
+          <h2 style="padding:0; margin:0; text-align:center">over $1 million</h2>
           <div style="text-align:center">in research funding to colleges and universities</div>
           <div style="text-align:center"><strong>Read More ></strong></div>
         </div>
