@@ -21,10 +21,10 @@ title: Data Lab
         <div class="panel panel-default short-col">
           <div class="panel-body">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_Large.png" class="img-responsive">
-            <p>Explore why and how</p>
-            <h2>16 federal</h2>
-            <div>agency expenditure take place</div>
-            <div><strong>Read More ></strong></div>
+            <p style="padding-bottom:0; margin-bottom:0">Explore why and how
+            <h2 style="padding-bottom:0; margin-bottom:0"; display:inline>16 federal</h2>
+            agency expenditure take place
+            <strong>Read More ></strong></p>
           </div>
         </div>
       </div>
@@ -32,8 +32,8 @@ title: Data Lab
         <div class="panel panel-default tall-col">
           <div class="panel-body">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Arc_Large.png" class="img-responsive">
-            <p>Interact with</p>
-            <h2>7,250</h2>
+            <p style="padding-bottom:0; margin-bottom:0">Interact with</p>
+            <h2 style="padding-bottom:0; margin-bottom:0">7,250</h2>
             <div>federal accounts</div>
             <div><strong>Read More ></strong></div>
           </div>
@@ -58,8 +58,8 @@ title: Data Lab
       <div class="panel panel-default tall-col">
         <div class="panel-body">
           <img src="{{ site.baseurl }}/assets/img/DataLab_Tower_Large.png" class="img-responsive">
-          <p>The federal government provided</p>
-          <h2>over $1 million</h2>
+          <p style="padding-bottom:0; margin-bottom:0">The federal government provided</p>
+          <h2 style="padding-bottom:0; margin-bottom:0">over $1 million</h2>
           <div>in research funding to colleges and universities</div>
           <div><strong>Read More ></strong></div>
         </div>
@@ -138,3 +138,4 @@ title: Data Lab
 
   </div>
 </div>
+
