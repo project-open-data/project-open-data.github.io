@@ -79,7 +79,7 @@ title: Data Lab
 
         <div class="panel-body">
           <p>All of the data collected by Treasury and visualized on this site is open and available to to the public. We are excited for you to conduct research using federal spending data, and have prepared a number of resources to help you get started. </p>
-          <div><a href="[insert website url]"><strong>Code to connect to APIs ></strong></a><div>
+          <div><a href="[insert website url]"><strong>Code to connect to APIs ></strong></a></div>
           <div><a href="[insert website url"><strong>Analytics Github></strong ></div>
           <div><a href="[insert website url"><strong>Analytics User Guide ></strong></div>
           <div><a href="[insert website url]"><strong>Data.world Projects ></strong></a></div>
