@@ -19,7 +19,7 @@ title: Data Lab
       <div class="col-md-6">
         <div class="panel panel-default short-col">
           <div class="panel-body">
-            <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol.png" class="img-responsive">
+            <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_Large.png" class="img-responsive">
             <p>Explore why and how</p>
             <h2>16 federal</h2>
             <div>agency expenditure take place</div>
@@ -30,7 +30,7 @@ title: Data Lab
       <div class="col-md-6">
         <div class="panel panel-default tall-col">
           <div class="panel-body">
-            <img src="{{ site.baseurl }}/assets/img/DataLab_Arc.png" lass="img-responsive">
+            <img src="{{ site.baseurl }}/assets/img/DataLab_Arc_Large.png" lass="img-responsive">
             <p>Interact with</p>
             <h2>7,250</h2>
             <div>federal accounts</div>
@@ -45,8 +45,8 @@ title: Data Lab
     <div class="col-md-6">
       <div class="panel panel-default short-col">
         <div class="panel-body">
-          <img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard.png" lass="img-responsive">
-          <p>Explore</p>
+          <img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard_Large.png" lass="img-responsive">
+          <p style="padding-bottom:0; margin-bottom:0">Explore</p>
           <h2 style="padding:0px; margin:0px">122,452</h2>
           <div>federal contracts</div>
           <div><strong>Read More ></strong></div>
@@ -56,7 +56,7 @@ title: Data Lab
     <div class="col-md-6">
       <div class="panel panel-default tall-col">
         <div class="panel-body">
-          <img src="{{ site.baseurl }}/assets/img/DataLab_Tower.png" lass="img-responsive">
+          <img src="{{ site.baseurl }}/assets/img/DataLab_Tower_Large.png" lass="img-responsive">
           <p>The federal government provided</p>
           <h2>over $1 million</h2>
           <div>in research funding to colleges and universities</div>
