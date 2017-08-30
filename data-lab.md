@@ -22,7 +22,7 @@ title: Data Lab
           <div class="panel-body">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_Large.png" class="img-responsive">
             <p style="padding-bottom:0; margin-bottom:0">Explore why and how
-            <h2 style="padding-bottom:0; margin-bottom:0"; display:inline>16 federal</h2>
+            <h2 style="padding-bottom:0; margin-bottom:0; display:inline">16 federal</h2>
             agency expenditure take place
             <strong>Read More ></strong></p>
           </div>
@@ -138,4 +138,3 @@ title: Data Lab
 
   </div>
 </div>
-
