@@ -71,23 +71,23 @@ title: Data Lab
 <div class="col-md-4" style="padding:15px">
 
   <!--Data Science Resources-->
-    <div class="row mt-30">
+    <div class="row mt-40">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3>Data Science Resources</h3>
+          <h3>Data Science Resource</h3>
         </div>
 
         <div class="panel-body">
-          <p>All of the data collected by Treasury and visualized on this site is open and available to to the public. We are excited for you to conduct research using federal spending data, and have prepared a number of resources to help you get started. </p>
-          <div><a href="[insert website url]"><strong>Code to connect to APIs ></strong></a></div>
-          <div><a href="[insert website url"><strong>Analytics Github></strong ></div>
-          <div><a href="[insert website url"><strong>Analytics User Guide ></strong></div>
+          <p>All of the data collected by Treasury and visualized on this site is open and available to to the public. We are excited for you to conduct research using federal spending data, and have prepared a number of resources to help you get started.</p>
+          <div><a href="[insert website url]"><strong>>Code to connect to APIs ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Analytics Github> ></strong></a></div>
+          <div><a href="[insert website url]"><strong>>Analytics User Guide ></strong></a></div>
           <div><a href="[insert website url]"><strong>Data.world Projects ></strong></a></div>
         </div>
 
       </div>
     </div>
-
+    
   <!--Data Science Community-->
     <div class="row mt-40">
       <div class="panel panel-default">
