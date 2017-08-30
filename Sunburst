@@ -320,7 +320,7 @@ img{
 			.attr("transform", "translate(" + (width / 2) + "," + (height / 2-20) + ")");
 
   d3.csv({% site.data.awards_contracts %},function(error,newData){
-    d3.csv('{% site.data.PSC_by_Recip.csv %},function(error,recip){
+    d3.csv({% site.data.PSC_by_Recip.csv %},function(error,recip){
       d3.json({% site.data.Recip_Details.json %},function(error,details){
         d3.csv({% site.data.others.csv %},function(error,other){
 
