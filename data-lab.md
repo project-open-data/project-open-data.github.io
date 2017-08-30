@@ -21,10 +21,10 @@ title: Data Lab
         <div class="panel panel-default short-col">
           <div class="panel-body">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_Large.png" class="img-responsive">
-            <p style="padding-bottom:0; margin-bottom:0">Explore why and how
-            <h2 style="padding-bottom:0; margin-bottom:0; display:inline">16 federal</h2>
-            agency expenditure take place
-            <strong>Read More ></strong></p>
+            <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore why and how</p>
+            <h2 style="padding-bottom:0; margin-bottom:0; text-align:center">16 federal</h2>
+            <div style="text-align:center">agency expenditure take place</div>
+            <div style="text-align:center"><strong>Read More ></strong></div>
           </div>
         </div>
       </div>
