@@ -1,22 +1,5 @@
----
-published: true
-permalink: /data-lab/
-layout: hero
-filename: data-model.md
-title: Data Lab
----
-
-<!--wider column left side of page-->
-<div class="col-md-8" style="padding:15px">
-<!--top paragraph-->    
-  <div class="row mt-40">
-    <h2 class="mt-0">About the Analysis and Research Team</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id sagittis nulla. Aliquam lobortis ipsum eu lacus pharetra sollicitudin. Nulla non purus mauris. Morbi eu sem eget neque auctor pharetra in a urna. Quisque non tincidunt elit. Curabitur id justo vel ante pharetra volutpat. Proin eget pulvinar ante, et fermentum elit. Sed scelerisque nulla in lacus placerat consectetur. Sed tempus nulla in semper vestibulum. Sed feugiat feugiat justo. Proin ut risus a ex auctor sollicitudin dictum non sapien.</p>
-    <p>Duis elit sapien, lobortis sit amet justo ac, congue tincidunt nisi. Integer sit amet tellus gravida, ornare ligula ut, facilisis libero. Duis a massa maximus, porta erat a, auctor sapien. Suspendisse sed neque et diam consectetur dignissim et semper leo. Integer ac iaculis magna. Aliquam pharetra ullamcorper magna, nec aliquet lacus pulvinar ac. Nunc facilisis non orci egestas dapibus. Vivamus pulvinar orci ac dolor aliquet ultricies vel nec nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sagittis magna in feugiat maximus. Suspendisse potenti.</p>
-  </div>
-  <!--four panels-->
-  <div class="row mt-20">
-    <div class="panel-container">
+<div class="row mt-20">
+    <div class="panel-container; margin-left=0">
       <div class="col-md-6">
         <div class="panel panel-default short-col">
           <div class="panel-body">
@@ -68,10 +51,10 @@ title: Data Lab
   </div>
 </div>
 <!--narrow righthand column-->
-<div class="col-md-4" style="padding:30px">
+<div class="col-md-4" style="padding:40px">
   <div class="panel-container">
   <!--Data Science Resources-->
-    <div class="row mt-40">
+    <div class="row mt-20">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3>Data Science Resource</h3>
@@ -89,7 +72,7 @@ title: Data Lab
     </div>
 
   <!--Data Science Community-->
-    <div class="row mt-20">
+    <div class="row mt-10">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3>Data Science Community</h3>
@@ -107,7 +90,7 @@ title: Data Lab
     </div>
 
     <!--Care to Share Pannel-->
-    <div class="row mt-20">
+    <div class="row mt-10">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3>Care to Share? We're Listening.</h3>
