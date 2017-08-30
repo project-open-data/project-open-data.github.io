@@ -5,6 +5,7 @@ layout: hero
 filename: sunburst.md
 title: Q2 FY17 YTD Contract Drilldown
 ---
+<html lang="en">
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <link rel="icon" href="favicon-usaSpend.png" type="image/png" sizes="16x16">
@@ -371,7 +372,7 @@ img{
               })
       		  .on("click", click)
             .append("title")
-              .text(function(d) { return d.name + "\n" + formatNumber(d.value); });
+              .text(function(d) { return d.name + """\n"" + formatNumber(d.value); });
 
           //$('#panel').contents().filter(function(){
             //return this.nodeType === 3;
@@ -527,3 +528,4 @@ img{
 
 	</script>
 </body>
+</html>
