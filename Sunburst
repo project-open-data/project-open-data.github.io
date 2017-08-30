@@ -371,7 +371,7 @@ img{
               })
       		  .on("click", click)
             .append("title")
-              .text(function(d) { return d.name + """\n"" + formatNumber(d.value); });
+              .text(function(d) { return d.name + ""\n"" + formatNumber(d.value); });
 
           //$('#panel').contents().filter(function(){
             //return this.nodeType === 3;
