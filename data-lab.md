@@ -69,7 +69,6 @@ title: Data Lab
 </div>
 <!--narrow righthand column-->
 <div class="col-md-4" style="padding:15px"">
-  <div class="panel-container">
 
   <!--Data Science Resources-->
     <div class="row mt-30">
@@ -136,5 +135,4 @@ title: Data Lab
       </div>
     </div>
 
-  </div>
 </div>
