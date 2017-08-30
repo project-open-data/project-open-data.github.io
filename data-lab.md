@@ -7,7 +7,7 @@ title: Data Lab
 ---
 
 <!--wider column left side of page-->
-<div class="col-md-8">
+<div class="col-md-8" style="padding:15px">
 <!--top paragraph-->    
   <div class="row mt-40">
     <h2 class="mt-0">About the Analysis and Research Team</h2>
@@ -68,8 +68,8 @@ title: Data Lab
   </div>
 </div>
 <!--narrow righthand column-->
-<div class="col-md-4" style="padding-left:10px">
-  <div class="panel-container" style="padding-left:40px">
+<div class="col-md-4" style="padding:15px"">
+  <div class="panel-container">
 
   <!--Data Science Resources-->
     <div class="row mt-30">
