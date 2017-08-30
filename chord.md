@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /data-lab/chord/
-layout: hero
+layout: act-ivity-front
 filename: chord.md
 title: Chord
 ---
@@ -170,8 +170,8 @@ path.chord {
     svg.append("circle")
         .attr("r", outerRadius);
     queue()
-        .defer(d3.json, "{{site.baseurl}}/_data/agencies.json")
-        .defer(d3.json, "{{site.baseurl}}/_data/matrix.json")
+        .defer(d3.json, "{{site.baseurl}}/data/agencies.json")
+        .defer(d3.json, "{{site.baseurl}}/data/matrix.json")
         .await(ready);
     function ready(error, cities, matrix) {
       if (error) throw error;
