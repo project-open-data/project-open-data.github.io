@@ -1,10 +1,11 @@
 ---
 published: true
-permalink: /data-lab/sankey/
+permalink: /data-lab/
 layout: hero
-filename: sankey.md
-title: Budget Function to Object Class Sankey
+filename: data-model.md
+title: Data Lab
 ---
+```html
 <html lang="en">
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
@@ -729,3 +730,4 @@ title: Budget Function to Object Class Sankey
 	</script>
 </body>
 </html>
+```
