@@ -1,7 +1,7 @@
 --
 published: true
 permalink: /sankey/
-filename: data-model.md
+filename: sankey.md
 title: Budget Function → Object Class
 --
 
