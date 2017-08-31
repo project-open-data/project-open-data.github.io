@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+--
+published: true
+permalink: /sankey/
+filename: data-model.md
+title: Budget Function → Object Class
+--
+
 <html lang="en">
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
