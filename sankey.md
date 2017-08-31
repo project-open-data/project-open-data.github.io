@@ -1,9 +1,9 @@
 ---
 published: true
-permalink: /data-lab/
+permalink: /data-lab/sankey/
 layout: hero
-filename: data-model.md
-title: Data Lab
+filename: sankey.md
+title: Budget Function → Object Class Sankey
 ---
 ```html
 <html lang="en">
