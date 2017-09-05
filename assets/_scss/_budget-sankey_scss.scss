@@ -1,0 +1,105 @@
+.sankey-page {
+	#viz_container{
+		overflow: visible;
+		position: absolute;
+		float:left;
+		height: inherit;
+		width:inherit;
+		margin-top: 25px;
+	}
+	.node rect {
+		cursor: move;
+		fill-opacity: .9;
+		shape-rendering: crispEdges;
+	}
+	.node text {
+		pointer-events: none;
+		text-shadow: 0 1px 0 #fff;
+	}
+	.link {
+		fill: none;
+		stroke: #000;
+		stroke-opacity: .1;
+	}
+	#panel {
+		position: relative;
+		float: right;
+		text-align:left;
+		margin-top: 15px;
+		left:730px;
+		padding-right:20px;
+		padding-left:40px;
+		width: 550px;
+		height: 600px;
+		background-color: inherit;
+	}
+	.panel_desc{
+		margin-top: 10px;
+	}
+	#tab{
+		margin-top: -20px;
+		margin-bottom: 25px;
+	}
+
+	#tab_2 > table > tbody > tr > td.val{
+		width: 150px;
+	}
+
+	#panel h1 {
+		font-size: 2em;
+		font-style: inherit;
+		font-weight: lighter;
+		margin: 0;
+		padding: 0;
+		color: #0071BC;
+		#panel h2 {
+			font-size: 2.1em;
+			font-style: inherit;
+			font-weight: ultra-light;
+			margin: 0;
+			padding: 0;
+			color: #666666;
+		}
+		#panel h3 {
+			font-size: 1.4em;
+			margin: 0;
+			padding: 0;
+			text-transform: capitalize;
+			/*font-variant:small-caps;*/
+			color: #555555;
+		}
+		#panel h4 {
+			font-size: 1.5em;
+			text-transform: capitalize;
+			/*font-variant:small-caps;*/
+			font-style: inherit;
+			color: #555555;
+		}
+		#panel p {
+			font-style: inherit;
+			font-size: .8em;
+			/*margin-top: -3px;
+			text-transform: capitalize;
+			font-variant:small-caps;*/
+			color: #555555;
+		}
+		#tite_text {
+			margin-left: 40px;
+			width: 800px;
+		}
+		#tite_text > p.headline {
+			position: relative;
+			font-size: 2em;
+		}
+		#tite_text > p.body_text {
+			position: relative;
+			font-size: 1.1em;
+			margin-top: -15px;
+		}
+		#description > p.body_text {
+			position: relative;
+			font-size: 1.1em;
+			margin-top: -15px;
+		}
+	}
+}
