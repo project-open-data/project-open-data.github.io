@@ -1,0 +1,20 @@
+---
+published: true
+permalink: /data-lab/budget-sankey/
+layout: default
+filename: budget-sankey.md
+title: Sankey Page
+---
+
+<div class="sankey-page">
+	<div id="tite_text">
+		<h2>Budget function and object class</h2>
+		<p class="body_text">This visualization shows how federal funds were spent by budget function, which describes the type of activities carried out, as well as object class, which describes what the government purchased with those funds. Hovering over nodes on each end of the visualization shows the relationship to the opposite side.</p>
+	</div>
+  <div id="viz_container"></div>
+	<div id="panel"></div>
+
+	<!-- d3 -->
+		<script src="{{site.baseurl}}/assets/js/vendor/d3.v3.min.js"></script>
+		<script src="{{site.baseurl}}/assets/js/budget-sankey.js"></script>
+</div>
