@@ -162,7 +162,7 @@ h2 + .row {
 
 
 .panel{
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .panel, .panel-heading {
@@ -296,7 +296,7 @@ a.list-group-item {
         top: 15px;
         left: 15px;
     }
-} 
+}
 
 .alert-success {
     background: #e7f4e4;
@@ -451,6 +451,73 @@ a.list-group-item {
     }
 }
 
+/***** Data-Lab *****/
+
+.data-lab {
+  /*  & .usa-alert {
+        margin: 50px 0;
+    }
+    & .row p:last-child {
+        margin-bottom: 0;
+    }*/
+    @include media($x-small-screen) {
+    /*    & .col-md-8 {
+            & p:last-child {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    & .panel-container {
+        margin-top: 20px;
+        @include clearfix;
+        & .col-md-6 .panel {}*/
+    }
+
+    & .media {
+        margin-bottom: 30px;
+        & .resources-icon {
+            display: block;
+            width: 75px;
+            height: 75px;
+            padding: 0 3px;
+            background-image: url('../img/DataLab_Resources_Icon.png');
+            background-position: 5px 5px;
+        }
+        & .community-icon {
+            display: block;
+            width: 75px;
+            height: 75px;
+            padding: 0 3px;
+            background-image: url('../img/DataLab_Community_Icon.png');
+            background-position: 5px 5px;
+        }
+        & .community-icon {
+            display: block;
+            width: 75px;
+            height: 75px;
+            padding: 0 3px;
+            background-image: url('../img/DataLab_Chat_Icon.png');
+            background-position: 5px 5px;
+        }
+    }
+}
+
+/***** Sunburst page *****/
+.contract-sunburst{
+    @import 'contract-sunburst_scss';
+
+}
+
+/***** Budget Sankey page *****/
+.budget-sankey{
+    @import 'budget-sankey_scss'
+}
+
+/***** dendrogram page *****/
+.federal-accounts{
+    @import 'dendrogram_scss'
+}
+
 /***** ARTICLE PAGE *****/
 .article-wrap {
     margin-top: $base-line-height * 2;
@@ -512,7 +579,7 @@ a.list-group-item {
         & h6{
             margin-bottom: 0;
         }
-        
+
         & ul {
             list-style-type: none;
             padding: 0;
@@ -744,7 +811,7 @@ th.header{
             @extend .tableArow;
         }
     }
-    
+
     &.headerSortDown{
         &:after{
             @include bgArw('../graphics/arw_down.png');
@@ -788,4 +855,3 @@ th.header{
 .mb-40 {
     margin-bottom: 40px;
 }
-
