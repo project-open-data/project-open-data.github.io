@@ -1,4 +1,3 @@
-.sankey-page {
 	#viz_container{
 		overflow: visible;
 		position: absolute;
@@ -52,6 +51,7 @@
 		margin: 0;
 		padding: 0;
 		color: #0071BC;
+		}
 		#panel h2 {
 			font-size: 2.1em;
 			font-style: inherit;
@@ -101,5 +101,4 @@
 			font-size: 1.1em;
 			margin-top: -15px;
 		}
-	}
-}
+
