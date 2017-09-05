@@ -1,0 +1,123 @@
+---
+title: "updating dendro hierarchy"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+rm(list=ls())
+options(stringsAsFactors = FALSE, scipen = 9999, digits =2)
+library(dplyr)
+library(tidyr)
+library(data.table)
+library(jsonlite)
+library(stringr)
+setwd("/Users/lpowel06/Documents/Hierarchy Projects/")
+```
+
+```{r}
+#get treasury federal accounts hierarchy
+dat<-read.csv("omb_hierarchy.csv",na.strings = c(""," ","NA","NaN"), strip.white=TRUE)
+
+# eliminate duplicate accounts
+dat2<-unique(dat[complete.cases(dat),])
+
+write.csv(dat2, "treasury_accounts_active_unique.csv")
+
+```
+
+```{r}
+#get tas balances data
+tas_bal<-read.csv("W:\\Data Act\\16 Data analytics\\G) API Data\\2017_07_11\\tasbalances_data.csv",na.strings=c("NA",""," "))
+
+#select just columns for account code and obligation amounts
+tas_bal_small<-tas_bal[,c("treasury_account_identifier.agency_id","treasury_account_identifier.federal_account.main_account_code","treasury_account_identifier.funding_toptier_agency.fpds_code", "obligations_incurred_total_by_tas_cpe", "treasury_account_identifier.federal_account.id", "treasury_account_identifier.federal_account.account_title")]
+
+```
+
+```{r}
+#drop last 2 digits in FPDS code column
+tas_bal_small$treasury_account_identifier.funding_toptier_agency.fpds_code <-  substr(tas_bal_small$treasury_account_identifier.funding_toptier_agency.fpds_code,0,nchar(tas_bal_small$treasury_account_identifier.funding_toptier_agency.fpds_code)-2)
+
+#use FPDS code if agency id is more than 2 digits long (seems to be following a different numbering convention for those agencies, but the first 2 digits of the FPDS code are what matches with the other data)
+
+tas_bal_small<-tas_bal_small %>% mutate(NewCode = ifelse(treasury_account_identifier.agency_id < 100, treasury_account_identifier.agency_id, treasury_account_identifier.funding_toptier_agency.fpds_code))
+
+tas_bal_small<-tas_bal_small[!is.na(tas_bal_small$NewCode),]
+
+tas_bal_small$NewCode<-str_pad(tas_bal_small$NewCode, 2, pad = "0")
+tas_bal_small$treasury_account_identifier.federal_account.main_account_code<-str_pad(tas_bal_small$treasury_account_identifier.federal_account.main_account_code, 4, pad = "0")
+
+tas_bal_small$TAS.Account.Number <-
+paste(tas_bal_small$NewCode, tas_bal_small$treasury_account_identifier.federal_account.main_account_code, sep = "-")
+
+tas_bal_small<-tas_bal_small[,c("obligations_incurred_total_by_tas_cpe", "TAS.Account.Number", "treasury_account_identifier.federal_account.id", "treasury_account_identifier.federal_account.account_title")]
+
+```
+
+```{r}
+# group tas balances data by account number
+accounts_grouped<-group_by(tas_bal_small, TAS.Account.Number,treasury_account_identifier.federal_account.id, treasury_account_identifier.federal_account.account_title)
+
+obligations_grouped<-summarise(accounts_grouped,sum(obligations_incurred_total_by_tas_cpe))
+names(obligations_grouped)[names(obligations_grouped) == "sum(obligations_incurred_total_by_tas_cpe)"] <- "Obligations"
+
+names(obligations_grouped)[names(obligations_grouped) == "treasury_account_identifier.federal_account.id"] <- "Account ID"
+```
+
+```{r}
+#merge tas balances data with treas/omb linked data
+merged_dat_full<-left_join(dat2, obligations_grouped, by = c("Treasury.Account.Number" = "TAS.Account.Number"))
+
+# correct naming differences
+merged_dat_full$Agency.Title[merged_dat_full$Agency.Title=="Department of Defense--Military Programs" |merged_dat_full$Agency.Title=="Other Defense Civil Programs"]<-"Department of Defense"
+merged_dat_full<-merged_dat_full %>% mutate(Agency.Title = ifelse(Bureau.Title == "Agency for International Development", "Agency for International Development", Agency.Title))
+```
+
+# create list of CFO act agencies and replace
+```{r}
+
+CFO_list<-c("Department of Agriculture","Department of Commerce","Department of Defense","Department of Education","Department of Energy","Department of Health and Human Services","Department of Homeland Security",
+"Department of Housing and Urban Development","Department of the Interior","Department of Justice","Department of Labor","Department of State","Department of Transportation","Department of the Treasury","Department of Veterans Affairs","Environmental Protection Agency","National Aeronautics and Space Administration","Agency for International Development","General Services Administration","National Science Foundation","Nuclear Regulatory Commission","Office of Personnel Management","Small Business Administration","Social Security Administration")
+```
+
+```{r}
+#isolate non-CFO Act accounts to see how many have obligation info
+nonCFO_dat<-subset(merged_dat_full, !(merged_dat_full$Agency.Title %in% CFO_list))
+#unique(nonCFO_dat$Agency.Title)
+nonCFO_dat<-nonCFO_dat[!is.na(nonCFO_dat$Obligations),]
+#View(nonCFO_dat)
+#unique(nonCFO_dat$Agency.Title)
+nonCFO_subs<- nonCFO_dat[nonCFO_dat$Agency.Title == "Legislative Branch" | nonCFO_dat$Agency.Title == "Judicial Branch" |nonCFO_dat$Agency.Title == "Executive Office of the President"|nonCFO_dat$Agency.Title == "International Assistance Programs" | nonCFO_dat$Agency.Title == "District of Columbia" |  nonCFO_dat$Agency.Title == "Federal Deposit Insurance Corporation",  ]
+```
+
+```{r}
+merged_dat<-merged_dat_full[!is.na(merged_dat_full$Obligations),]
+
+merged_dat<-merged_dat[,c(1,2,4,5,6)]
+
+```
+
+# replace first level for non-CFO act agencies 
+```{r}
+
+merged_dat2<-merged_dat %>% mutate(Bureau.Title =
+  ifelse(Agency.Title %in% CFO_list, Bureau.Title,
+  ifelse(Agency.Title!=Bureau.Title, paste(Agency.Title, Bureau.Title, sep=", "),
+  Agency.Title)))
+    
+
+merged_dat2<-merged_dat2 %>% mutate(Agency.Title = ifelse(Agency.Title %in% CFO_list, Agency.Title, "US Agencies - Non-CFO Act"))
+```
+
+```{r}
+colnames(merged_dat2)<-c("Agency", "Subagency", "accountID", "Title", "Obligation")
+write.csv(merged_dat2, "accounts_obligations_revisednonCFO.csv", row.names = FALSE)
+
+```
+
+
+
