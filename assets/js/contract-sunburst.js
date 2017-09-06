@@ -20,8 +20,8 @@ d3.select("#legend_scaleKey").append("circle")
   .attr('cy', 65);
 
 
- var width = 300,
-    height = 300,
+ var width = 700,
+    height = 700,
     radius = (Math.min(width, height) / 2) - 30; //change 2 to a larger number to make burst smaller
 
   var formatNumber = d3.format("$,f");
@@ -120,13 +120,13 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
             .attrTween("d", function(d) { return function() { return arc(d); }; });
         }
 
-        var legend = d3.select("#panel");
+        var legend = d3.select("#sunburst-panel");
 
         function update_legend(d)
           {
             // Create central node panel --- Top 10 Agencies
             if (d.depth === 0){
-              $("#panel").empty();
+              $("#sunburst-panel").empty();
               legend.append("div")
                 .attr("id","tab")
                 .attr("height",200)
@@ -149,7 +149,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
 
             }else if (d.depth === 3 && d.name != "Other"){
               // Contractors
-              $("#panel").empty();
+              $("#sunburst-panel").empty();
               for(var i=0; i<details.length; i++){
                 if(d.name === details[i].name){
                   legend.html("<h2 class='title'>"+d.name.toLowerCase()+"</h2>"+
@@ -164,7 +164,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
                         var g = legend.append("div")
                                       .attr("id","psc_panel")
                                       .attr("height",200)
-                                      .attr("width",125)
+                                      .attr("width",600)
                                       .style("margin","[0,0,0,0]");
 
                         g.append("img")
@@ -189,7 +189,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
 
                     }}
             }else if(d.depth === 3 && d.name == "Other"){
-              $("#panel").empty();
+              $("#sunburst-panel").empty();
               //Contractors < $1,000,000
               legend.append("div")
                 .attr("id","tab")
@@ -215,7 +215,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
 
             }else{
               // Agencies & Subagencies
-                $("#panel").empty();
+                $("#sunburst-panel").empty();
                 legend.append("div")
                   .attr("id","tab")
                   .attr("height",200)
