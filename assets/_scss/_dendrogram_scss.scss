@@ -1,7 +1,7 @@
 .dendrogram {
 
   #container{
-    position:absolute;
+    position:relative;
     background-color: inherit;
     font-family: inherit;
     width:1300px;
@@ -9,7 +9,7 @@
     overflow: visible;
   }
   #tree-container{
-    position: absolute;
+    position: relative;
     height: inherit;
     width:inherit;
     background-color: rgba(243,246,255,0);
