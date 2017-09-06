@@ -1,4 +1,8 @@
 @import './common';
+@import './budget-sankey_scss';
+@import './dendrogram_scss';
+@import './contract-sunburst_scss';
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -454,14 +458,14 @@ a.list-group-item {
 /***** Data-Lab *****/
 
 .data-lab {
-  /*  & .usa-alert {
+  & .usa-alert {
         margin: 50px 0;
     }
     & .row p:last-child {
         margin-bottom: 0;
-    }*/
+    }
     @include media($x-small-screen) {
-    /*    & .col-md-8 {
+    & .col-md-8 {
             & p:last-child {
                 margin-bottom: 40px;
             }
@@ -470,8 +474,16 @@ a.list-group-item {
     & .panel-container {
         margin-top: 20px;
         @include clearfix;
-        & .col-md-6 .panel {}*/
+        & .col-md-6 .panel {}
+        & .panel-default {
+          & .panel-heading{
+            border-color: #ddd;
+            border-width: 2px;
+            background-color: inherit;
+        }
+      }
     }
+
 
     & .media {
         margin-bottom: 30px;
@@ -503,15 +515,12 @@ a.list-group-item {
 }
 
 /***** Sunburst page *****/
-.contract-sunburst{
-    @import 'contract-sunburst_scss';
 
-}
 
 /***** Budget Sankey page *****/
-.budget-sankey{
+/*****.budget-sankey{
     @import 'budget-sankey_scss'
-}
+}*****/
 
 /***** dendrogram page *****/
 .federal-accounts{
