@@ -17,7 +17,7 @@
     background-color: #FFFFFF;
   }
   #circ{
-    position:absolute;
+    position: relative;
     top: 660px;
     margin-top: -18px;
     width: 700px;
@@ -26,19 +26,19 @@
   }
   #sunburst {
     float: right ;
-    position:fixed;
+    position: relative;
     padding-right:20px;
     padding-left:20px;
     top: 0px;
     left: 660px;
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 650px;
     text-align: center;
     background-color: inherit;
    }
-  #panel {
+  #-sunburst-panel {
     position:relative;
-    top:30px;
+    /***top:30px;***/
     float: left;
     text-align:left;
     padding-right:20px;
@@ -51,7 +51,7 @@
     text-transform: capitalize;
     /*font-variant: small-caps;*/
   }
-  #panel h1{
+  #sunburst-panel h1{
     font-size:3em;
     font-style:inherit;
     font-weight: lighter;
@@ -59,7 +59,7 @@
     padding: 0;
     color:#0071BC;
   }
-  #panel h2{
+  #sunburst-panel h2{
     font-size:2.1em;
     font-style:inherit;
     font-weight: ultra-light;
@@ -67,7 +67,7 @@
     padding: 0;
     color:#666666;
   }
-  #panel h3{
+  #sunburst-panel h3{
 
     font-size:1.5em;
     margin: 0;
@@ -76,7 +76,7 @@
     /*font-variant:small-caps;*/
     color:#555555;
   }
-  #panel h4{
+  #sunburst-panel h4{
     margin-top: 10px;
     margin-bottom: 0px;
     font-size:1.5em;
@@ -85,7 +85,7 @@
     font-style:inherit;
     color:#555555;
   }
-  #panel p{
+  #sunburst-panel p{
     font-style:inherit;
     font-size:1.5em;
     margin-top: -3px;
@@ -94,7 +94,7 @@
     color:#555555;
   }
   #legend_colorKey {
-    position: fixed;
+    position: relative;
     top: 560px;
     left: 575px;
     width: 200px;
@@ -104,7 +104,7 @@
     overflow: visible;
   }
   .legend_circleKeyLabel {
-    position: absolute;
+    position: relative;
     border-top: solid 1px #DDD;
     width: 70px;
   }
@@ -131,17 +131,17 @@
   #legend_sizeKey, .legend_circleKeyLabel span {
     font-size: 10px;
     color: #999;
-    position: absolute;
+    position: relative;
     display: block;
-    left: 45px;
-    top: -8px;
+    /***left: 45px;
+    top: -8px;***/
     width: 90px;
     z-index: 100;
   }
   #legend_scaleKey {
     width: 225px;
     height: 130px;
-    position: absolute;
+    position: relative;
   }
   .legend_scaleKeyCircle {
     stroke-width:1;
@@ -178,7 +178,7 @@
   }
   .img{
     top: 33px;
-    position:absolute;
+    position: relative;
   }
   #tab{
     margin-top: -20px;
