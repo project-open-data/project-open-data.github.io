@@ -78,7 +78,9 @@ A data standard contains both a human-readable version of the standard and a mac
 
 [Zipped Schema Files with Release Notes (Updated on May 31, 2017)]({{site.baseurl}}/assets/docs/daims_v1.01.06_2017-05-31.zip)
 
-[Zipped Instance Documents with Data for Fiscal Year 2017 Quarter 2 (January to March 2017)](http://da-public-files.s3-website-us-gov-west-1.amazonaws.com/xbrl_files/data-act-xbrl-instance-Q2-2017-05-18.zip)
+[Zipped Instance Documents with Data for Fiscal Year 2017 Quarter 2 (January to March 2017)](https://hyperlink.services.treasury.gov/?origin=https://s3-us-gov-west-1.amazonaws.com/da-public-files/xbrl_files/data-act-xbrl-instance-Q2-2017-06-30.zip)
+
+[Zipped Instance Documents with Data for Fiscal Year 2017 Quarter 3 (April to June 2017)](https://hyperlink.services.treasury.gov/?origin=https://s3-us-gov-west-1.amazonaws.com/da-public-files/xbrl_files/data-act-xbrl-instance-Q3-2017-09-01.zip)
 
 ## Data Definition Standards
 
