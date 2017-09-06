@@ -1,12 +1,11 @@
 .budget-sankey {
 	#viz_container{
 		overflow: visible;
-		position: absolute;
+		position: relative;
 		float:left;
-		height: 1200px;
+		height: inherit;
 		width:inherit;
-		margin-top: 0px;
-		padding-top: 0px;
+		margin-top: 15px;
 	}
 	.node rect {
 		cursor: move;
