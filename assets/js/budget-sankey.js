@@ -291,7 +291,7 @@ d3.sankey = function() {
     return sankey;
 };
 
-var margin = {top: 170, right: 10, bottom: 10, left: 40},
+var margin = {top: 30, right: 0, bottom: 10, left: 0},
     width = 800 - margin.left - margin.right,
     height = 750 - margin.top - margin.bottom;
 
