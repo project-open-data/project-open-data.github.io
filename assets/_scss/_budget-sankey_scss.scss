@@ -1,10 +1,12 @@
+.budget-sankey {
 	#viz_container{
 		overflow: visible;
 		position: absolute;
 		float:left;
-		height: inherit;
+		height: 1200px;
 		width:inherit;
-		margin-top: 25px;
+		margin-top: 0px;
+		padding-top: 0px;
 	}
 	.node rect {
 		cursor: move;
@@ -20,11 +22,11 @@
 		stroke: #000;
 		stroke-opacity: .1;
 	}
-	#panel {
+	#sankey-panel {
 		position: relative;
 		float: right;
 		text-align:left;
-		margin-top: 15px;
+		margin-top: 0px;
 		left:730px;
 		padding-right:20px;
 		padding-left:40px;
@@ -44,15 +46,14 @@
 		width: 150px;
 	}
 
-	#panel h1 {
+	#sankey-panel h1 {
 		font-size: 2em;
 		font-style: inherit;
 		font-weight: lighter;
 		margin: 0;
 		padding: 0;
 		color: #0071BC;
-		}
-		#panel h2 {
+		#sankey-panel h2 {
 			font-size: 2.1em;
 			font-style: inherit;
 			font-weight: ultra-light;
@@ -60,7 +61,7 @@
 			padding: 0;
 			color: #666666;
 		}
-		#panel h3 {
+		#sankey-panel h3 {
 			font-size: 1.4em;
 			margin: 0;
 			padding: 0;
@@ -68,14 +69,14 @@
 			/*font-variant:small-caps;*/
 			color: #555555;
 		}
-		#panel h4 {
+		#sankey-panel h4 {
 			font-size: 1.5em;
 			text-transform: capitalize;
 			/*font-variant:small-caps;*/
 			font-style: inherit;
 			color: #555555;
 		}
-		#panel p {
+		#sankey-panel p {
 			font-style: inherit;
 			font-size: .8em;
 			/*margin-top: -3px;
@@ -101,4 +102,5 @@
 			font-size: 1.1em;
 			margin-top: -15px;
 		}
-
+	}
+}
