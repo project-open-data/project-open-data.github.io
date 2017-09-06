@@ -20,8 +20,8 @@ d3.select("#legend_scaleKey").append("circle")
   .attr('cy', 65);
 
 
- var width = 700,
-    height = 700,
+ var width = 300,
+    height = 300,
     radius = (Math.min(width, height) / 2) - 30; //change 2 to a larger number to make burst smaller
 
   var formatNumber = d3.format("$,f");
