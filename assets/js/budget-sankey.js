@@ -323,7 +323,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
     d3.csv("/data-lab-data/descriptions.csv", function(error, descriptions) {
         console.log(data);
 
-        var legend = d3.select("#panel")
+        var legend = d3.select("#sankey-panel")
 
         //set up graph in same style as original example but empty
         graph = {"nodes" : [], "links" : []};
