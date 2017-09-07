@@ -4,7 +4,8 @@
 		position: relative;
 		float:left;
 		height: inherit;
-		width:60%;
+		width:40%;
+		margin-left:-75px;
 		/*margin-top: 15px;*/
 	}
 	.node rect {
@@ -22,6 +23,7 @@
 		stroke-opacity: .1;
 	}
 	#sankey-panel {
+		overflow: visible;
 		position: relative;
 		float: right;
 		text-align:left;
@@ -29,8 +31,9 @@
 		left:730px;
 		padding-right:20px;
 		padding-left:40px;*/
-		width: 40%;
+		width: 60%;
 		height: inherit;
+		margin-right:-75px;
 		background-color: inherit;
 	}
 	.panel_desc{
