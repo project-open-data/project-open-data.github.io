@@ -462,8 +462,8 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
                 if(data[k].target===node.name){
                     legend.append("div")
                         .attr("id","tab_2")
-                        .attr("height",50)
-                        .attr("width",500)
+                        //.attr("height",50)
+                        //.attr("width",500)
                         .style("margin-bottom","2px")
                         .html("<table class ='icon'>"
                             +"<tr>"+"<td class='val'>"+formatNumber(data[k].value)+"</td>"+"<td>"+"  "+"</td>"+
@@ -478,8 +478,8 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
                 if(data[i].source===node.name){
                     legend.append("div")
                         .attr("id","tab_2")
-                        .attr("height",50)
-                        .attr("width",500)
+                        //.attr("height",50)
+                        //.attr("width",500)
                         .style("margin-bottom","2px")
                         .html("<table class ='icon'>"
                             +"<tr>"+"<td class='val'>"+formatNumber(data[i].value)+"</td>"+"<td>"+"  "+"</td>"+
