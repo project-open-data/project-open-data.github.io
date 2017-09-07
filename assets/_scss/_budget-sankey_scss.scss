@@ -33,7 +33,7 @@
 		padding-left:40px;*/
 		width: 60%;
 		height: inherit;
-		margin-left:60px;
+		margin-left:100px;
 		margin-right:-100px;
 		background-color: inherit;
 	}
@@ -42,13 +42,15 @@
 	}
 	#tab{
 		margin-top: -20px;
-		margin-bottom: -15px;
+		margin-bottom: 25px;
 	}
 
 	#tab_2 > table > tbody > tr > td.val{
 		width: 150px;
 	}
-
+	#tab_2 > table > tbody > tr > td{
+		margin-bottom:-10px;
+	}
 	#sankey-panel h1 {
 		font-size: 2em;
 		font-style: inherit;
