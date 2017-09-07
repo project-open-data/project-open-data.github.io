@@ -4,8 +4,8 @@
 		position: relative;
 		float:left;
 		height: inherit;
-		width:inherit;
-		margin-top: 15px;
+		width:60%;
+		/*margin-top: 15px;*/
 	}
 	.node rect {
 		cursor: move;
@@ -25,12 +25,12 @@
 		position: relative;
 		float: right;
 		text-align:left;
-		margin-top: 0px;
+		/*margin-top: 0px;
 		left:730px;
 		padding-right:20px;
-		padding-left:40px;
-		width: 550px;
-		height: 600px;
+		padding-left:40px;*/
+		width: 40%;
+		height: inherit;
 		background-color: inherit;
 	}
 	.panel_desc{
@@ -52,54 +52,54 @@
 		margin: 0;
 		padding: 0;
 		color: #0071BC;
-		#sankey-panel h2 {
-			font-size: 2.1em;
-			font-style: inherit;
-			font-weight: ultra-light;
-			margin: 0;
-			padding: 0;
-			color: #666666;
 		}
-		#sankey-panel h3 {
-			font-size: 1.4em;
-			margin: 0;
-			padding: 0;
-			text-transform: capitalize;
-			/*font-variant:small-caps;*/
-			color: #555555;
-		}
-		#sankey-panel h4 {
-			font-size: 1.5em;
-			text-transform: capitalize;
-			/*font-variant:small-caps;*/
-			font-style: inherit;
-			color: #555555;
-		}
-		#sankey-panel p {
-			font-style: inherit;
-			font-size: .8em;
-			/*margin-top: -3px;
-			text-transform: capitalize;
-			font-variant:small-caps;*/
-			color: #555555;
-		}
-		#tite_text {
-			margin-left: 40px;
-			width: 800px;
-		}
-		#tite_text > p.headline {
-			position: relative;
-			font-size: 2em;
-		}
-		#tite_text > p.body_text {
-			position: relative;
-			font-size: 1.1em;
-			margin-top: -15px;
-		}
-		#description > p.body_text {
-			position: relative;
-			font-size: 1.1em;
-			margin-top: -15px;
-		}
+	#sankey-panel h2 {
+		font-size: 2.1em;
+		font-style: inherit;
+		font-weight: ultra-light;
+		margin: 0;
+		padding: 0;
+		color: #666666;
+	}
+	#sankey-panel h3 {
+		font-size: 1.4em;
+		margin: 0;
+		padding: 0;
+		text-transform: capitalize;
+		/*font-variant:small-caps;*/
+		color: #555555;
+	}
+	#sankey-panel h4 {
+		font-size: 1.5em;
+		text-transform: capitalize;
+		/*font-variant:small-caps;*/
+		font-style: inherit;
+		color: #555555;
+	}
+	#sankey-panel p {
+		font-style: inherit;
+		font-size: .8em;
+		/*margin-top: -3px;
+		text-transform: capitalize;
+		font-variant:small-caps;*/
+		color: #555555;
+	}
+	#tite_text {
+		margin-left: 40px;
+		width: 800px;
+	}
+	#tite_text > p.headline {
+		position: relative;
+		font-size: 2em;
+	}
+	#tite_text > p.body_text {
+		position: relative;
+		font-size: 1.1em;
+		margin-top: -15px;
+	}
+	#description > p.body_text {
+		position: relative;
+		font-size: 1.1em;
+		margin-top: -15px;
 	}
 }
