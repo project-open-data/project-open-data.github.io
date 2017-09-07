@@ -292,7 +292,7 @@ d3.sankey = function() {
 };
 
 var margin = {top: 30, right: 0, bottom: 10, left: 0},
-    width = 700 - margin.left - margin.right,
+    width = 675 - margin.left - margin.right,
     height = 750 - margin.top - margin.bottom;
 
 var formatNumber = d3.format("$,.0f"),    // zero decimal places
