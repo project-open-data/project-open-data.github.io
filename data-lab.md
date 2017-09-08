@@ -114,7 +114,9 @@ page: data-lab
               </div> 
             </div>
             <div class="col-sm-8">
-              <h3>Data Science Community</h3>
+              <div class="media-heading">
+                <h3>Data Science Community</h3>
+              </div>
             </div>
           </div>
         </div>
