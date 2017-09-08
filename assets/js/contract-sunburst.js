@@ -46,7 +46,7 @@ d3.select("#legend_scaleKey").append("circle")
     .attr("width", width)
     .attr("height", height)
     .append("g")
-    .attr("transform", "translate(" + (width / 2) + "," + (height / 2) + ")");
+    .attr("transform", "translate(" + (width / 2) + "," + (height / 2-25) + ")");
 
 d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
   d3.csv('/data-lab-data/PSC_by_Recip.csv',function(error,recip){
