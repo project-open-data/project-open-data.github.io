@@ -4,6 +4,7 @@ permalink: /data-lab/
 layout: hero
 filename: data-model.md
 title: Data Lab
+page: data-lab
 ---
 
 <!--wider column left side of page-->
