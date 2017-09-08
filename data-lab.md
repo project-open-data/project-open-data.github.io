@@ -108,7 +108,7 @@ page: data-lab
       
         <div class="panel-heading">
           <div class="row">
-            <div class="col-sm-4>
+            <div class="col-sm-4">
               <div class="media">
                 <span class="community-icon"></span>
               </div> 
