@@ -82,9 +82,7 @@ page: data-lab
           
           <div class="col-sm-4">
             <div class="media">
-                <div class="media-left">
-                  <span class="resources-icon"></span> 
-                </div>
+               <span class="resources-icon"></span> 
             </div>
           </div>
   
