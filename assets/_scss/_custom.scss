@@ -2,7 +2,6 @@
 @import './budget-sankey_scss';
 @import './dendrogram_scss';
 @import './contract-sunburst_scss';
-
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -486,12 +485,12 @@ a.list-group-item {
 
 
     & .media {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         & .resources-icon {
             display: block;
             width: 75px;
             height: 75px;
-            padding: 0 3px;
+            padding: 0 0px;
             background-image: url('../img/DataLab_Resources_Icon.png');
             background-position: 5px 5px;
         }
@@ -503,7 +502,7 @@ a.list-group-item {
             background-image: url('../img/DataLab_Community_Icon.png');
             background-position: 5px 5px;
         }
-        & .community-icon {
+        & .chat-icon {
             display: block;
             width: 75px;
             height: 75px;
