@@ -78,7 +78,7 @@ page: data-lab
     <div class="row mt-20">
       <div class="panel panel-default">
       
-        <div class="panel-heading">
+        <div class="panel-heading" style="padding:0, margin:10px, border-width:10px, background-color:orange">
           <div class="row">
             <div class="col-sm-4">
               <div class="media">
