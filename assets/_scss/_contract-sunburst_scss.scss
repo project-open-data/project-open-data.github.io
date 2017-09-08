@@ -27,6 +27,7 @@
   #sunburst {
     float: right ;
     position: relative;
+    left-margin:-50px;
     /*top: 0px;
     left: 660px;*/
     width: 40%;
@@ -196,14 +197,14 @@
     font-size: .85em;
   }
   #psc_panel{
-    margin: 25px 30px 0px 0px;
+    margin: 25px 0px 0px 0px;
     float:left;
     position: relative;
     height:150px;
     width:150px;
   }
   #psc_panel > div > table > tbody > tr > td{
-    width:100px;
+    width:125px;
     height:40px;
     text-align: left;
   }
