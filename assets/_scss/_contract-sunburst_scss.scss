@@ -43,6 +43,7 @@
     text-align:left;
     padding-right:20px;
     padding-left:40px;
+    padding-top:40px;
     width: 60%;
     margin-left:-180px;
     overflow:scroll;
@@ -179,7 +180,6 @@
     color:#6B7687;
   }
   .img{
-    top: 33px;
     position: relative;
   }
   #tab{
@@ -224,7 +224,7 @@
     text-align: center;
   }
   .icon_x{
-    margin-top: -20px;
+    margin-top: 0px;
     margin-bottom: 25px;
   }
 }
