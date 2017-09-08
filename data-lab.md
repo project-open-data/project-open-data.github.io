@@ -79,17 +79,16 @@ page: data-lab
       <div class="panel panel-default">
       
         <div class="panel-heading">
-          
-          <div class="col-sm-4">
-            <div class="media">
-               <span class="resources-icon"></span> 
+          <div class="row"
+            <div class="col-sm-4">
+              <div class="media">
+                 <span class="resources-icon"></span> 
+              </div>
             </div>
-          </div>
-  
-          <div class="col-sm-8">
-            <h3>Data Science Resource</h3>
-          </div>
-          
+            <div class="col-sm-8">
+              <h3>Data Science Resource</h3>
+            </div>
+         </div> 
         </div>
         
         <div class="panel-body">
