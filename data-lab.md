@@ -107,16 +107,14 @@ page: data-lab
       <div class="panel panel-default">
       
         <div class="panel-heading">
-          <div class="row">
+          <div class="row" style="border-color:#dddd; border-width=3px">
             <div class="col-sm-4">
               <div class="media">
                 <span class="community-icon"></span>
               </div> 
             </div>
             <div class="col-sm-8">
-              <div class="media media-heading">
-                <h3>Data Science Community</h3>
-              </div>
+               <h3>Data Science Community</h3>
             </div>
           </div>
         </div>
