@@ -11,7 +11,7 @@
   }
   .path {
     stroke: #fff;
-    stroke-width:.8px;
+    stroke-width:1;
   }
   .body{
     background-color: #FFFFFF;
@@ -27,7 +27,6 @@
   #sunburst {
     float: right ;
     position: relative;
-    left-margin:-50px;
     /*top: 0px;
     left: 660px;*/
     width: 40%;
@@ -71,7 +70,6 @@
     color:#666666;
   }
   #sunburst-panel h3{
-
     font-size:1.5em;
     margin: 0;
     padding: 0;
@@ -187,7 +185,7 @@
     margin-bottom: 25px;
   }
   #tab_2 > table > tbody > tr > td.val{
-    width:115px;
+    width:125px;
   }
 
   #obligation > table > tbody > tr > td{
