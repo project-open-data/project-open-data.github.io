@@ -77,6 +77,11 @@ page: data-lab
     <div class="row mt-20">
       <div class="panel panel-default">
         <div class="panel-heading">
+          <div class="media">
+              <div class="media-left">
+                <span class="resources-icon"></span>
+              </div>
+          </div>
           <h3>Data Science Resource</h3>
         </div>
 
