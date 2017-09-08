@@ -106,8 +106,8 @@ page: data-lab
     <div class="row mt-10">
       <div class="panel panel-default">
       
-        <div class="panel-heading">
-          <div class="row" style="border-color:#dddd; border-width=3px">
+        <div class="panel-heading" style="border-color:#dddd; border-width=5px">
+          <div class="row">
             <div class="col-sm-4">
               <div class="media">
                 <span class="community-icon"></span>
