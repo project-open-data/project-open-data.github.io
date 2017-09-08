@@ -79,7 +79,7 @@ page: data-lab
       <div class="panel panel-default">
       
         <div class="panel-heading">
-          <div class="row"
+          <div class="row">
             <div class="col-sm-4">
               <div class="media">
                  <span class="resources-icon"></span> 
@@ -88,7 +88,7 @@ page: data-lab
             <div class="col-sm-8">
               <h3>Data Science Resource</h3>
             </div>
-         </div> 
+          </div> 
         </div>
         
         <div class="panel-body">
