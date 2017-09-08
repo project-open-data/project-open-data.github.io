@@ -105,6 +105,7 @@ page: data-lab
   <!--Data Science Community-->
     <div class="row mt-10">
       <div class="panel panel-default">
+      
         <div class="panel-heading">
           <div class="row">
             <div class="col-sm-4>
@@ -112,11 +113,12 @@ page: data-lab
                 <span class="community-icon"></span>
               </div> 
             </div>
-            <div class="col-sm-8>
+            <div class="col-sm-8">
               <h3>Data Science Community</h3>
             </div>
           </div>
         </div>
+                                 
         <div class="panel-body">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit sem tellus, a rutrum nibh lacinia vel. Fusce fermentum odio elit, a mollis ipsum vehicula quis. Suspendisse sit amet neque quis arcu vulputate imperdiet quis quis lacus. Donec ultrices bibendum turpis in condimentum. Fusce et ultricies justo.</p>
           <div><a href="[insert website url]"><strong>Community Member 1 ></strong></a></div>
