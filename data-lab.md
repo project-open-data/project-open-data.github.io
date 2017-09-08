@@ -88,7 +88,7 @@ page: data-lab
             </div>
           </div>
   
-          <div class="col-sm-6">
+          <div class="col-sm-8">
             <h3>Data Science Resource</h3>
           </div>
           
