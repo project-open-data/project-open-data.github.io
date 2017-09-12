@@ -77,8 +77,8 @@ page: data-lab
     <div class="row mt-10">
       <div class="panel panel-default">
       
-        <div class="panel-heading" style="border-color:#dddd; border-width=5px">
-          <div class="row">
+        <div class="panel-heading" style="background-color: #dfdfdf">
+          <div class="row" style="background-color: #ffffff; padding: 8px">
             <div class="col-sm-4">
               <div class="media">
                 <span class="community-icon"></span>
