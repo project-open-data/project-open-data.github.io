@@ -78,7 +78,7 @@ page: data-lab
       <div class="panel panel-default">
       
         <div class="panel-heading" style="background-color: #dfdfdf">
-          <div class="row" style="background-color: #ffffff; padding: 8px">
+          <div class="row" style="background-color: #ffffff; padding: 8px; margin-left: 0px; margin-right: 0px">
             <div class="col-sm-4">
               <div class="media">
                 <span class="community-icon"></span>
