@@ -2,7 +2,7 @@
 published: true
 permalink: /data-lab/
 layout: hero
-filename: data-lab.html
+filename: data-lab.md
 title: Data Lab
 page: data-lab
 ---
