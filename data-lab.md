@@ -105,8 +105,8 @@ page: data-lab
     <div class="row mt-20">
       <div class="panel panel-default">
       
-        <div class="panel-heading" style="padding:0, margin:10px, border-width:10px, background-color:orange">
-          <div class="row">
+        <div class="panel-heading" style="background-color: #f5f5f5">
+          <div class="row" style="background-color: #ffffff; padding: 6px; margin: 0px">
             <div class="col-sm-4">
               <div class="media">
                  <span class="resources-icon"></span> 
