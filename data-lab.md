@@ -11,9 +11,8 @@ page: data-lab
 <div class="col-md-8" style="padding:15px">
 <!--top paragraph-->    
   <div class="row mt-40">
-    <h2 class="mt-0">About the Analysis and Research Team</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id sagittis nulla. Aliquam lobortis ipsum eu lacus pharetra sollicitudin. Nulla non purus mauris. Morbi eu sem eget neque auctor pharetra in a urna. Quisque non tincidunt elit. Curabitur id justo vel ante pharetra volutpat. Proin eget pulvinar ante, et fermentum elit. Sed scelerisque nulla in lacus placerat consectetur. Sed tempus nulla in semper vestibulum. Sed feugiat feugiat justo. Proin ut risus a ex auctor sollicitudin dictum non sapien.</p>
-    <p>Duis elit sapien, lobortis sit amet justo ac, congue tincidunt nisi. Integer sit amet tellus gravida, ornare ligula ut, facilisis libero. Duis a massa maximus, porta erat a, auctor sapien. Suspendisse sed neque et diam consectetur dignissim et semper leo. Integer ac iaculis magna. Aliquam pharetra ullamcorper magna, nec aliquet lacus pulvinar ac. Nunc facilisis non orci egestas dapibus. Vivamus pulvinar orci ac dolor aliquet ultricies vel nec nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sagittis magna in feugiat maximus. Suspendisse potenti.</p>
+    <h2 class="mt-0">Data Lab at USAspending.gov</h2>
+    <p>Welcome to the alpha release of the Data Lab at USASpending.gov, an initiative by the U.S. Department of the Treasury to create visualizations and analysis using federal financial data. This initiative is aimed at helping members of the public, researchers, and government entities access, understand, and use federal financial data. The alpha release contains interactive visualizations built by Treasury, as well as information and resources for conducting analysis using federal financial data. We are exploring new analyses as we look forward to a beta release on USAspending.gov, so please send us your ideas and feedback, and sign up for our newsletter to keep in touch.</p>
   </div>
   <!--four panels-->
   <div class="row mt-20">
@@ -74,35 +73,7 @@ page: data-lab
 <div class="col-md-4" style="padding-left:40px; padding-top:30px; padding-right=10px; padding-bottom:0px">
   <div class="panel-container">
   
-  <!--Data Science Resources-->
-    <div class="row mt-20">
-      <div class="panel panel-default">
-      
-        <div class="panel-heading" style="padding:0, margin:10px, border-width:10px, background-color:orange">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="media">
-                 <span class="resources-icon"></span> 
-              </div>
-            </div>
-            <div class="col-sm-8">
-              <h3>Data Science Resource</h3>
-            </div>
-          </div> 
-        </div>
-        
-        <div class="panel-body">
-          <p>All of the data collected by Treasury and visualized on this site is open and available to to the public. We are excited for you to conduct research using federal spending data, and have prepared a number of resources to help you get started.</p>
-          <div><a href="[insert website url]"><strong>Code to connect to APIs ></strong></a></div>
-          <div><a href="[insert website url]"><strong>Analytics Github> </strong></a></div>
-          <div><a href="[insert website url]"><strong>Analytics User Guide ></strong></a></div>
-          <div><a href="[insert website url]"><strong>Data.world Projects ></strong></a></div>
-        </div>
-        
-      </div>
-    </div>
-
-  <!--Data Science Community-->
+    <!--Data Science Community-->
     <div class="row mt-10">
       <div class="panel panel-default">
       
@@ -129,7 +100,35 @@ page: data-lab
 
       </div>
     </div>
-
+    
+    <!--Data Science Resources-->
+    <div class="row mt-20">
+      <div class="panel panel-default">
+      
+        <div class="panel-heading" style="padding:0, margin:10px, border-width:10px, background-color:orange">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="media">
+                 <span class="resources-icon"></span> 
+              </div>
+            </div>
+            <div class="col-sm-8">
+              <h3>Data Science Resource</h3>
+            </div>
+          </div> 
+        </div>
+        
+        <div class="panel-body">
+          <p>All of the data collected by Treasury and visualized on this site is open and available to to the public. We are excited for you to conduct research using federal spending data, and have prepared a number of resources to help you get started.</p>
+          <div><a href="[insert website url]"><strong>Code to connect to APIs ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Analytics Github> </strong></a></div>
+          <div><a href="[insert website url]"><strong>Analytics User Guide ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Data.world Projects ></strong></a></div>
+        </div>
+        
+      </div>
+    </div>
+    
     <!--Care to Share Pannel-->
     <div class="row mt-10">
       <div class="panel panel-default">
