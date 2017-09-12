@@ -131,7 +131,7 @@ page: data-lab
     
     <!--Care to Share Pannel-->
     <div class="row mt-10">
-      <div class="panel panel-default" style="border-width:4px; border-color:#d6d7d9">
+      <div class="panel panel-default" style="border-width:4px; border-color:#d6d7d9; background-color:#f5f5f5">
         <div class="panel-heading">
           <div class="row">
             <div class="col-sm-4">
