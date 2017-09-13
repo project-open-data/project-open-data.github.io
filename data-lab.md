@@ -19,22 +19,22 @@ page: data-lab
     <div class="panel-container; margin-left=0">
       <div class="col-md-6">
         <div class="panel panel-default short-col">
-          <div class="panel-body">
+          <div class="panel-body" style="min-height:281.33px">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_XL.png" class="img-responsive">
-            <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore why and how</p>
-            <h2 style="padding:0; margin:0; text-align:center">16 federal</h2>
-            <div style="text-align:center">agency expenditure take place</div>
+            <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore data on the</p>
+            <h2 style="padding:0; margin:0; text-align:center">16 functions</h2>
+            <div style="text-align:center">supported by federal spending</div>
             <div style="text-align:center"><strong>Read More ></strong></div>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="panel panel-default tall-col">
-          <div class="panel-body">
+          <div class="panel-body" style="min-height:281.33px">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Arc_XL.png" class="img-responsive">
-            <p style="padding-bottom:0; margin-bottom:0; text-align:center">Interact with</p>
-            <h2 style="padding:0; margin:0; text-align:center">7,250</h2>
-            <div style="text-align:center">federal accounts</div>
+            <p style="padding-bottom:0; margin-bottom:0; text-align:center">See the structure of</p>
+            <h2 style="padding:0; margin:0; text-align:center">17,25</h2>
+            <div style="text-align:center">federal spending accounts</div>
             <div style="text-align:center"><strong>Read More ></strong></div>
           </div>
         </div>
@@ -46,7 +46,7 @@ page: data-lab
   <div class="row">      
     <div class="col-md-6">
       <div class="panel panel-default short-col">
-        <div class="panel-body">
+        <div class="panel-body" style="min-height:281.33px">
           <img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard_XL.png" class="img-responsive">
           <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore</p>
           <h2 style="padding:0px; margin:0px; text-align:center">122,452</h2>
@@ -59,9 +59,9 @@ page: data-lab
       <div class="panel panel-default tall-col">
         <div class="panel-body">
           <img src="{{ site.baseurl }}/assets/img/DataLab_Tower_XL.png" class="img-responsive">
-          <p style="padding-bottom:0; margin-bottom:0; text-align:center">The federal government provided</p>
-          <h2 style="padding:0; margin:0; text-align:center">over $1 million</h2>
-          <div style="text-align:center">in research funding to colleges and universities</div>
+          <p style="padding-bottom:0; margin-bottom:0; text-align:center">In 2015,</p>
+          <h2 style="padding:0; margin:0; text-align:center">#,###</h2>
+          <div style="text-align:center">colleges and universities recieved research funding</div>
           <div style="text-align:center"><strong>Read More ></strong></div>
         </div>
       </div>
@@ -72,63 +72,64 @@ page: data-lab
 <!--narrow righthand column-->
 <div class="col-md-4" style="padding-left:40px; padding-top:30px; padding-right=10px; padding-bottom:0px">
   <div class="panel-container">
-  
+
+    <!--Data Science Resources-->
+    <div class="row mt-20">
+      <div class="panel panel-default">
+
+        <div class="panel-heading" style="background-color: #f5f5f5">
+          <div class="row" style="background-color: #ffffff; padding: 6px; margin: 0px">
+            <div class="col-sm-4">
+              <div class="media">
+                 <span class="resources-icon"></span>
+              </div>
+            </div>
+            <div class="col-sm-8">
+              <h3>Resource</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-body">
+          <p>AThe Data Lab at USAspending.gov has collected a number of resources to make it easier to conduct analysis and develop tools using federal spending data.</p>
+          <div><a href="[insert website url]"><strong>Analytics user guide ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Data Dictionary > </strong></a></div>
+          <div><a href="[insert website url]"><strong>Code to extract data from APIs ></strong></a></div>
+          <div><a href="[insert website url]"><strong>DData Lab Github repository ></strong></a></div>
+        </div>
+
+      </div>
+    </div>
+
     <!--Data Science Community-->
     <div class="row mt-10">
       <div class="panel panel-default">
-      
+
         <div class="panel-heading" style="background-color: #f5f5f5">
           <div class="row" style="background-color: #ffffff; padding: 6px; margin: 0px">
             <div class="col-sm-4">
               <div class="media">
                 <span class="community-icon"></span>
-              </div> 
+              </div>
             </div>
             <div class="col-sm-8">
-               <h3>Data Science Community</h3>
+               <h3>Community</h3>
             </div>
           </div>
         </div>
-                                 
+
         <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit sem tellus, a rutrum nibh lacinia vel. Fusce fermentum odio elit, a mollis ipsum vehicula quis. Suspendisse sit amet neque quis arcu vulputate imperdiet quis quis lacus. Donec ultrices bibendum turpis in condimentum. Fusce et ultricies justo.</p>
-          <div><a href="[insert website url]"><strong>Community Member 1 ></strong></a></div>
-          <div><a href="[insert website url]"><strong>Community Member 2 ></strong></a></div>
-          <div><a href="[insert website url]"><strong>Community Member 3 ></strong></a></div>
-          <div><a href="[insert website url]"><strong>Community Member 4 ></strong></a></div>
+          <p>Treasury is not the only place where analysis of federal spending data is taking place. This list includes a sampling of projects from other stakeholders looking for insights into spending data.</p>
+          <div><a href="[insert website url]"><strong>Partnership with Connecticut ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Syracuse University Pilot ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Opportunity Project ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Data.world projects ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Hackathon presentations ></strong></a></div>
         </div>
 
       </div>
     </div>
-    
-    <!--Data Science Resources-->
-    <div class="row mt-20">
-      <div class="panel panel-default">
-      
-        <div class="panel-heading" style="background-color: #f5f5f5">
-          <div class="row" style="background-color: #ffffff; padding: 6px; margin: 0px">
-            <div class="col-sm-4">
-              <div class="media">
-                 <span class="resources-icon"></span> 
-              </div>
-            </div>
-            <div class="col-sm-8">
-              <h3>Data Science Resource</h3>
-            </div>
-          </div> 
-        </div>
-        
-        <div class="panel-body">
-          <p>All of the data collected by Treasury and visualized on this site is open and available to to the public. We are excited for you to conduct research using federal spending data, and have prepared a number of resources to help you get started.</p>
-          <div><a href="[insert website url]"><strong>Code to connect to APIs ></strong></a></div>
-          <div><a href="[insert website url]"><strong>Analytics Github> </strong></a></div>
-          <div><a href="[insert website url]"><strong>Analytics User Guide ></strong></a></div>
-          <div><a href="[insert website url]"><strong>Data.world Projects ></strong></a></div>
-        </div>
-        
-      </div>
-    </div>
-    
+
     <!--Care to Share Pannel-->
     <div class="row mt-10">
       <div class="panel panel-default" style="border-width:4px; border-color:#d6d7d9; background-color:#f5f5f5">
@@ -146,7 +147,6 @@ page: data-lab
         </div>
       </div>
     </div>
-    
+
   </div>
 </div>
-
