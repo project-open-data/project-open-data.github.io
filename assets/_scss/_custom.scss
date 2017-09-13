@@ -492,24 +492,24 @@ a.list-group-item {
         margin-bottom: 0px;
         & .resources-icon {
             display: block;
-            width: 75px;
-            height: 75px;
+            width: 100%;
+            height: auto;
             padding: 0 0px;
             background-image: url('../img/DataLab_Resources_Icon.png');
             background-position: 5px 5px;
         }
         & .community-icon {
             display: block;
-            width: 75px;
-            height: 75px;
+            width: 100%;
+            height: auto;
             padding: 0 0px;
             background-image: url('../img/DataLab_Community_Icon.png');
             background-position: 5px 5px;
         }
         & .chat-icon {
             display: block;
-            width: 75px;
-            height: 75px;
+            width: 100%;
+            height: auto;
             padding: 0 0px;
             background-image: url('../img/DataLab_Chat_Icon.png');
             background-position: 5px 5px;
