@@ -492,8 +492,7 @@ a.list-group-item {
         margin-bottom: 0px;
         & .resources-icon {
             display: block;
-            width: 100%;
-            height: auto;
+            background-size: 100%;
             padding: 0 0px;
             background-image: url('../img/DataLab_Resources_Icon.png');
             background-position: 5px 5px;
