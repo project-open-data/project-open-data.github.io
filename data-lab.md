@@ -80,9 +80,7 @@ page: data-lab
         <div class="panel-heading" style="background-color: #f5f5f5">
           <div class="row" style="background-color: #ffffff; padding: 6px; margin: 0px">
             <div class="col-sm-4">
-              <div class="media">
-                 <span class="resources-icon"></span>
-              </div>
+              <img src="{{ site.baseurl }}/assets/img/DataLab_Resources_Icon" class="img-responsive">
             </div>
             <div class="col-sm-8">
               <h3>Resource</h3>
