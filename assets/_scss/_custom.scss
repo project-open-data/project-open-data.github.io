@@ -492,9 +492,10 @@ a.list-group-item {
         margin-bottom: 0px;
         & .resources-icon {
             display: block;
-            background-size: 100%;
+            background-size: cover;
             padding: 0 0px;
             background-image: url('../img/DataLab_Resources_Icon.png');
+            background-size: cover;
             background-position: 5px 5px;
         }
         & .community-icon {
