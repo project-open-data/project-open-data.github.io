@@ -19,7 +19,7 @@ page: data-lab
     <div class="panel-container; margin-left=0">
       <div class="col-md-6">
         <div class="panel panel-default short-col">
-          <div class="panel-body" style="min-height:281.33px">
+          <div class="panel-body" style="min-height:274.14px">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_XL.png" class="img-responsive">
             <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore data on the</p>
             <h2 style="padding:0; margin:0; text-align:center">16 functions</h2>
@@ -30,7 +30,7 @@ page: data-lab
       </div>
       <div class="col-md-6">
         <div class="panel panel-default tall-col">
-          <div class="panel-body" style="min-height:281.33px">
+          <div class="panel-body" style="min-height:274.14px">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Arc_XL.png" class="img-responsive">
             <p style="padding-bottom:0; margin-bottom:0; text-align:center">See the structure of</p>
             <h2 style="padding:0; margin:0; text-align:center">17,25</h2>
@@ -46,7 +46,7 @@ page: data-lab
   <div class="row">      
     <div class="col-md-6">
       <div class="panel panel-default short-col">
-        <div class="panel-body" style="min-height:281.33px">
+        <div class="panel-body" style="min-height:274.14px">
           <img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard_XL.png" class="img-responsive">
           <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore</p>
           <h2 style="padding:0px; margin:0px; text-align:center">122,452</h2>
