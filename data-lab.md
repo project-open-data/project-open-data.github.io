@@ -19,7 +19,7 @@ page: data-lab
     <div class="panel-container; margin-left=0">
       <div class="col-md-6">
         <div class="panel panel-default short-col">
-          <div class="panel-body" style="min-height:274.14px">
+          <div class="panel-body" style="min-height:281.33px">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_XL.png" class="img-responsive">
             <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore data on the</p>
             <h2 style="padding:0; margin:0; text-align:center">16 functions</h2>
@@ -30,7 +30,7 @@ page: data-lab
       </div>
       <div class="col-md-6">
         <div class="panel panel-default tall-col">
-          <div class="panel-body" style="min-height:274.14px">
+          <div class="panel-body" style="min-height:281.33px">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Arc_XL.png" class="img-responsive">
             <p style="padding-bottom:0; margin-bottom:0; text-align:center">See the structure of</p>
             <h2 style="padding:0; margin:0; text-align:center">17,25</h2>
@@ -46,7 +46,7 @@ page: data-lab
   <div class="row">      
     <div class="col-md-6">
       <div class="panel panel-default short-col">
-        <div class="panel-body" style="min-height:274.14px">
+        <div class="panel-body" style="min-height:281.33px">
           <img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard_XL.png" class="img-responsive">
           <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore</p>
           <h2 style="padding:0px; margin:0px; text-align:center">122,452</h2>
@@ -83,13 +83,13 @@ page: data-lab
               <img src="{{ site.baseurl }}/assets/img/DataLab_Resources_Icon.png" class="img-responsive">
             </div>
             <div class="col-sm-8">
-              <h3>Resource</h3>
+              <h3>Resources</h3>
             </div>
           </div>
         </div>
 
         <div class="panel-body">
-          <p>AThe Data Lab at USAspending.gov has collected a number of resources to make it easier to conduct analysis and develop tools using federal spending data.</p>
+          <p>The Data Lab at USAspending.gov has collected a number of resources to make it easier to conduct analysis and develop tools using federal spending data.</p>
           <div><a href="[insert website url]"><strong>Analytics user guide ></strong></a></div>
           <div><a href="[insert website url]"><strong>Data Dictionary > </strong></a></div>
           <div><a href="[insert website url]"><strong>Code to extract data from APIs ></strong></a></div>
@@ -106,9 +106,7 @@ page: data-lab
         <div class="panel-heading" style="background-color: #f5f5f5">
           <div class="row" style="background-color: #ffffff; padding: 6px; margin: 0px">
             <div class="col-sm-4">
-              <div class="media">
-                <span class="community-icon"></span>
-              </div>
+              <img src="{{ site.baseurl }}/assets/img/DataLab_Community_Icon.png" class="img-responsive">
             </div>
             <div class="col-sm-8">
                <h3>Community</h3>
@@ -134,9 +132,7 @@ page: data-lab
         <div class="panel-heading">
           <div class="row">
             <div class="col-sm-4">
-              <div class="media">
-                <span class="chat-icon"></span>
-              </div>
+              <img src="{{ site.baseurl }}/assets/img/DataLab_Chat_Icon.png" class="img-responsive">
             </div>
             <div class="col-sm-8">
               <h3>Care to Share? We're Listening.</h3>
