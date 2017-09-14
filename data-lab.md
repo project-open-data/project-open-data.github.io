@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: /data-lab/
-layout: hero
+layout: visualization
 filename: data-model.md
 title: Data Lab
 page: data-lab
