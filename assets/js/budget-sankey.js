@@ -292,8 +292,8 @@ d3.sankey = function() {
 };
 
 var margin = {top: 30, right: 0, bottom: 10, left: 0},
-    width = 675 - margin.left - margin.right,
-    height = 750 - margin.top - margin.bottom;
+    width = 548 - margin.left - margin.right,
+    height = 608 - margin.top - margin.bottom;
 
 var formatNumber = d3.format("$,.0f"),    // zero decimal places
     format = function(d) { return formatNumber(d); };
