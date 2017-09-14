@@ -19,23 +19,23 @@ page: data-lab
     <div class="panel-container; margin-left=0">
       <div class="col-md-6">
         <div class="panel panel-default short-col">
-          <div class="panel-body" style="min-height:281.33px">
+          <div class="panel-body" style="min-height:274.14px">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_XL.png" class="img-responsive">
             <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore data on the</p>
             <h2 style="padding:0; margin:0; text-align:center">16 functions</h2>
             <div style="text-align:center">supported by federal spending</div>
-            <div style="text-align:center"><strong>Read More ></strong></div>
+            <div style="text-align:center"><a href="{{site.baseurl}}/data-lab/budget-sankey/"><strong>Read More ></strong></a></div>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="panel panel-default tall-col">
-          <div class="panel-body" style="min-height:281.33px">
+          <div class="panel-body" style="min-height:274.14px">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Arc_XL.png" class="img-responsive">
             <p style="padding-bottom:0; margin-bottom:0; text-align:center">See the structure of</p>
             <h2 style="padding:0; margin:0; text-align:center">17,25</h2>
             <div style="text-align:center">federal spending accounts</div>
-            <div style="text-align:center"><strong>Read More ></strong></div>
+            <div style="text-align:center"><a href="{{site.baseurl}}/data-lab/federal-accounts/"><strong>Read More ></strong></a></div>
           </div>
         </div>
       </div>
@@ -46,23 +46,23 @@ page: data-lab
   <div class="row">      
     <div class="col-md-6">
       <div class="panel panel-default short-col">
-        <div class="panel-body" style="min-height:281.33px">
+        <div class="panel-body" style="min-height:274.14px">
           <img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard_XL.png" class="img-responsive">
           <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore</p>
           <h2 style="padding:0px; margin:0px; text-align:center">122,452</h2>
           <div style="text-align:center">federal contracts</div>
-          <div style="text-align:center"><strong>Read More ></strong></div>
+          <div style="text-align:center"><a href="{{site.baseurl}}/data-lab/contract-sunburst/"<strong>Read More ></strong></a></div>
         </div>
       </div>
     </div>
     <div class="col-md-6">
       <div class="panel panel-default tall-col">
-        <div class="panel-body">
-          <img src="{{ site.baseurl }}/assets/img/DataLab_Tower_XL.png" class="img-responsive">
-          <p style="padding-bottom:0; margin-bottom:0; text-align:center">In 2015,</p>
-          <h2 style="padding:0; margin:0; text-align:center">#,###</h2>
-          <div style="text-align:center">colleges and universities recieved research funding</div>
-          <div style="text-align:center"><strong>Read More ></strong></div>
+        <div class="panel-body" style="min-height:274.14px">
+          <img src="{{ site.baseurl }}/assets/img/DataLab_Tower_XL.png" class="img-responsive" style="alighn:center">
+          <p style="padding-bottom:0; margin-bottom:0; text-align:center">[text-decoration]</p>
+          <h2 style="padding:0; margin:0; text-align:center">[]#,###]</h2>
+          <div style="text-align:center">Federal Employees</div>
+          <div style="text-align:center"><a=href="{{site.baseurl}}/data-lab/fedscope-tool/"">strong>Read More ></strong></a></div>
         </div>
       </div>
     </div>
@@ -75,12 +75,12 @@ page: data-lab
 
     <!--Data Science Resources-->
     <div class="row mt-20">
-      <div class="panel panel-default">
+      <div class="panel panel-default" style="margin-bottom:20px">
 
         <div class="panel-heading" style="background-color: #f5f5f5">
           <div class="row" style="background-color: #ffffff; padding: 6px; margin: 0px">
             <div class="col-sm-4">
-              <img src="{{ site.baseurl }}/assets/img/DataLab_Resources_Icon.png" class="img-responsive">
+              <img src="{{ site.baseurl }}/assets/img/DataLab_Resources_Icon.png" class="img-responsive" style="min-height:55.63px">
             </div>
             <div class="col-sm-8">
               <h3>Resources</h3>
@@ -93,7 +93,7 @@ page: data-lab
           <div><a href="[insert website url]"><strong>Analytics user guide ></strong></a></div>
           <div><a href="[insert website url]"><strong>Data Dictionary > </strong></a></div>
           <div><a href="[insert website url]"><strong>Code to extract data from APIs ></strong></a></div>
-          <div><a href="[insert website url]"><strong>DData Lab Github repository ></strong></a></div>
+          <div><a href="[insert website url]"><strong>Data Lab Github repository ></strong></a></div>
         </div>
 
       </div>
@@ -101,12 +101,12 @@ page: data-lab
 
     <!--Data Science Community-->
     <div class="row mt-10">
-      <div class="panel panel-default">
+      <div class="panel panel-default" style="margin-bottom:20px">
 
         <div class="panel-heading" style="background-color: #f5f5f5">
           <div class="row" style="background-color: #ffffff; padding: 6px; margin: 0px">
             <div class="col-sm-4">
-              <img src="{{ site.baseurl }}/assets/img/DataLab_Community_Icon.png" class="img-responsive">
+              <img src="{{ site.baseurl }}/assets/img/DataLab_Community_Icon.png" class="img-responsive" style="min-height:55.63px">
             </div>
             <div class="col-sm-8">
                <h3>Community</h3>
@@ -128,11 +128,11 @@ page: data-lab
 
     <!--Care to Share Pannel-->
     <div class="row mt-10">
-      <div class="panel panel-default" style="border-width:4px; border-color:#d6d7d9; background-color:#f5f5f5">
+      <div class="panel panel-default" style="border-width:4px; border-color:#d6d7d9; background-color:#f5f5f5; margin-bottom:20px">
         <div class="panel-heading">
           <div class="row">
             <div class="col-sm-4">
-              <img src="{{ site.baseurl }}/assets/img/DataLab_Chat_Icon.png" class="img-responsive">
+              <img src="{{ site.baseurl }}/assets/img/DataLab_Chat_Icon.png" class="img-responsive" style="min-height:55.63px">
             </div>
             <div class="col-sm-8">
               <h3>Care to Share? We're Listening.</h3>
