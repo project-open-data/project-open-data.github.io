@@ -20,9 +20,9 @@ d3.select("#legend_scaleKey").append("circle")
   .attr('cy', 65);
 
 
- var width = 700,
+ var width = 550,
     height = 700,
-    radius = (Math.min(width, height) / 2.5) - 30; //change 2 to a larger number to make burst smaller
+    radius = (Math.max(width, height) / 2.5) - 30; //change 2 to a larger number to make burst smaller
 
   var formatNumber = d3.format("$,f");
 
@@ -46,7 +46,7 @@ d3.select("#legend_scaleKey").append("circle")
     .attr("width", width)
     .attr("height", height)
     .append("g")
-    .attr("transform", "translate(" + (width / 2) + "," + (height / 2-20) + ")");
+    .attr("transform", "translate(" + (width / 2) + "," + (height / 2-85) + ")");
 
 d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
   d3.csv('/data-lab-data/PSC_by_Recip.csv',function(error,recip){
