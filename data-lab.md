@@ -16,7 +16,7 @@ page: data-lab
   </div>
   <!--four panels-->
   <div class="row mt-20">
-    <div class="panel-container; margin-left=0">
+    <div class="panel-container; margin-left=0; padding-left=0">
       <div class="col-md-6">
         <div class="panel panel-default short-col">
           <div class="panel-body" style="min-height:274.14px">
@@ -33,7 +33,7 @@ page: data-lab
           <div class="panel-body" style="min-height:274.14px">
             <img src="{{ site.baseurl }}/assets/img/DataLab_Arc_XL.png" class="img-responsive">
             <p style="padding-bottom:0; margin-bottom:0; text-align:center">See the structure of</p>
-            <h2 style="padding:0; margin:0; text-align:center">17,25</h2>
+            <h2 style="padding:0; margin:0; text-align:center">1,725</h2>
             <div style="text-align:center">federal spending accounts</div>
             <div style="text-align:center"><a href="{{site.baseurl}}/data-lab/federal-accounts/"><strong>Read More ></strong></a></div>
           </div>
