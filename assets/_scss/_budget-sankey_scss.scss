@@ -1,12 +1,9 @@
 .budget-sankey {
+
 	#viz_container{
 		overflow: visible;
 		position: relative;
-		float:left;
 		height: inherit;
-		width:50%;
-		margin-left:-180px;
-		/*margin-top: 15px;*/
 	}
 	.node rect {
 		cursor: move;
@@ -30,11 +27,9 @@
 		/*left:730px;
 		padding-right:20px;
 		padding-left:40px;*/
-		width: 50%;
 		height: inherit;
 		margin-top: 40px;
 		margin-left:0px;
-		margin-right:-45px;
 		background-color: inherit;
 	}
 	.panel_desc{
@@ -46,23 +41,27 @@
 	}
 
 	#tab_2 > table > tbody > tr > td.val{
-		width: 150px;
+		width: 116px;
 	}
 	#tab_2 > table > tbody > tr > td.name{
-		width: 350px;
+		width: 270px;
 	}
 	#tab_2 {
 		height:25px;
-		width:500px;
+		width:385px;
 		margin-bottom:-20px;
 	}
 	#sankey-panel h1 {
 		font-size: 2em;
 		font-style: inherit;
 		font-weight: lighter;
-		margin: 0;
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 10px;
 		padding: 0;
 		color: #0071BC;
+		line-height:110%;
 		}
 	#sankey-panel h2 {
 		font-size: 2.1em;
@@ -90,6 +89,7 @@
 	#sankey-panel p {
 		font-style: inherit;
 		font-size: .8em;
+		line-height: 110%;
 		/*margin-top: -3px;
 		text-transform: capitalize;
 		font-variant:small-caps;*/
