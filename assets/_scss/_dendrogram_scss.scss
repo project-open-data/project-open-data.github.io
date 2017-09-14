@@ -4,15 +4,15 @@
     position:relative;
     background-color: inherit;
     font-family: inherit;
-    width:1300px;
+    width:1024px;
     height:100%;
-    overflow: visible;
   }
   #tree-container{
     position: relative;
-    height: inherit;
-    width:inherit;
+    max-height:1000px;
+    max-width:1024px;
     background-color: rgba(243,246,255,0);
+    overflow: scroll;
   }
   .node {
     cursor: pointer;
