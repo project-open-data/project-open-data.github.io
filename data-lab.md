@@ -51,7 +51,7 @@ page: data-lab
           <p style="padding-bottom:0; margin-bottom:0; text-align:center">Explore</p>
           <h2 style="padding:0px; margin:0px; text-align:center">122,452</h2>
           <div style="text-align:center">federal contracts</div>
-          <div style="text-align:center"><a href="{{site.baseurl}}/data-lab/contract-sunburst/"<strong>Read More ></strong></a></div>
+          <div style="text-align:center"><a href="{{site.baseurl}}/data-lab/contract-sunburst/"><strong>Read More ></strong></a></div>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@ page: data-lab
           <p style="padding-bottom:0; margin-bottom:0; text-align:center">[text-decoration]</p>
           <h2 style="padding:0; margin:0; text-align:center">[]#,###]</h2>
           <div style="text-align:center">Federal Employees</div>
-          <div style="text-align:center"><a=href="{{site.baseurl}}/data-lab/fedscope-tool/"">strong>Read More ></strong></a></div>
+          <div style="text-align:center"><a=href="{{site.baseurl}}/data-lab/fedscope-tool/"><strong>Read More ></strong></a></div>
         </div>
       </div>
     </div>
