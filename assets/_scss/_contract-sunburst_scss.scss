@@ -20,33 +20,29 @@
     position: relative;
     top:0px;
     margin-top: -5px;
-    width: 700px;
+    width: 465px;
     height: 15px;
     background-color: inherit;
   }
   #sunburst {
     overflow: visible;
-    float: right ;
     position: relative;
-    right-margin:-100px;
     /*top: 0px;
     left: 660px;*/
-    width: 550px;
-    height: 650px;
+    width: 465px;
+    height: 700px;
     text-align: center;
     background-color: inherit;
    }
   #sunburst-panel {
     position:relative;
     /***top:30px;***/
-    float: left;
     text-align:left;
     padding-top:30px;
-    width: 550px;
+    width: 465px;
     margin-right:0px;
-    margin-left:-180px;
-    overflow:scroll;
-    height: 725px;
+    overflow:visible;
+    height: 613px;
     background-color: inherit;
   }
   .title{
@@ -96,8 +92,8 @@
   }
   #legend_colorKey {
     position: absolute;
-    top: 810px;
-    left: 595px;
+    top: 615px;
+    left: 15px;
     width: 200px;
     height: 130px;
     margin: 0;
@@ -105,7 +101,7 @@
     overflow: visible;
   }
   .legend_circleKeyLabel {
-    position: absolute;
+    position: relative;
     border-top: solid 1px #DDD;
     width: 70px;
   }
@@ -125,7 +121,7 @@
     height: 100%;
   }
   #legend_sizeKey{
-    position: relative;
+    position: absolute;
     height: 100px;
     width: 300px;
   }
