@@ -258,7 +258,7 @@ function change() {
       x = -source.y0;
       y = -source.x0;
       x = x * scale + viewerWidth / 4;
-      y = y * scale + viewerHeight / 3;
+      y = y * scale + viewerHeight / 2.6;
       d3.select('g').transition()
           .duration(duration)
           .attr("transform", "translate(" + x + "," + y + ")scale(" + scale + ")");
