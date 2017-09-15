@@ -25,7 +25,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 // Get csv data
 
-d3.csv('/data-lab-data/accounts_obligations_revisednonCFO_2.csv',function(error,newData){
+d3.csv('accounts_obligations_revised_v7.csv',function(error,newData){
 
 console.log("Hierarchy: ",newData);
 
@@ -138,13 +138,13 @@ function change() {
   });
 
 
-  // sort the tree according to the node names
+  // sort the tree according to the node names & numerically for obligation amounts
 
   function sortTree() {
 
       tree.sort(function(a, b) {
         if(a.depth===3 & b.depth===3){
-          return b.size < a.size ? -1 : 1;
+            return b.size - a.size;
         }else if(a.depth<3 & b.depth<3){
           return b.name.toLowerCase() < a.name.toLowerCase() ? 1 : -1;
         }
@@ -152,7 +152,6 @@ function change() {
   }
   // Sort the tree initially incase the JSON isn't in a sorted order.
   sortTree();
-
 
 
   function pan(domNode, direction) {
@@ -287,13 +286,8 @@ function change() {
       centerNode(d);
       update(d);
       getLink(d);
-      console.log("d", d);
-      console.log("in if");
+
     }else{
-    //  console.log(d);
-    //  console.log(d.depth);
-    console.log("d", d);  console.log("in else");
-      //if (d3.event.defaultPrevented) return; // click suppressed
       d = toggleChildren(d);
       update(d);
       centerNode(d);
@@ -306,6 +300,7 @@ function change() {
     window.open(base_url+acct_num);
     console.log("in getLink");
   }
+
 
 
   function update(source) {
@@ -334,7 +329,7 @@ function change() {
 
       // Set widths between levels based on maxLabelLength.
     nodes.forEach(function(d) {
-         d.y = (d.depth * (maxLabelLength * 2)); //maxLabelLength * 10px
+         d.y = (d.depth * (maxLabelLength * 3)); //maxLabelLength * 10px
           // alternatively to keep a fixed scale one can set a fixed depth per level
           // Normalize for fixed-depth by commenting out below line
           //d.y = (d.depth * 500); //500px per level.
@@ -346,6 +341,12 @@ function change() {
               return d.id || (d.id = ++i);
           });
 
+      // Append Div for tooltip to SVG
+      var div = d3.select("#tree-container")
+              .append("div")
+              .attr("class", "tooltip")
+              .style("opacity", 0);
+
       // Enter any new nodes at the parent's previous position.
       var nodeEnter = node.enter().append("g")
           //.call(dragListener)
@@ -353,7 +354,44 @@ function change() {
           .attr("transform", function(d) {
               return "translate(" + source.y0 + "," + source.x0 + ")";
           })
-          .on('click', click);
+          .on('click', click)
+          .on("mouseover", createHover)
+          .on("mouseout", removeHover);
+
+      function createHover(d) {
+        if(d.depth===3 ){
+          div.transition()
+               .duration(200)
+               .style("opacity", 1);
+               div.text("Click to view federal account page")
+               .style("left", (d3.event.pageX) + "px")
+               .style("top", (d3.event.pageY)-270 + "px");
+
+             } else if(d.depth===2 ){
+                 div.transition()
+                      .duration(200)
+                      .style("opacity", 1);
+                      div.text("Click to view federal accounts")
+                      .style("left", (d3.event.pageX) + "px")
+                      .style("top", (d3.event.pageY)-270 + "px");
+
+                    } else if(d.depth===1 ){
+                        div.transition()
+                             .duration(200)
+                             .style("opacity", 1);
+                             div.text("Click for agency breakdown")
+                             .style("left", (d3.event.pageX) + "px")
+                             .style("top", (d3.event.pageY)-270 + "px");
+        }
+}
+
+
+
+      function removeHover() {
+        div.transition()
+           .duration(500)
+           .style("opacity", 0);
+      }
 
       nodeEnter.append("circle")
           .attr('class', 'nodeCircle')
@@ -378,7 +416,7 @@ function change() {
           .style("fill-opacity", 0);
 
       // phantom node to give us mouseover in a radius around it
-      nodeEnter.append("circle")
+      /*nodeEnter.append("circle")
           .attr('class', 'ghostCircle')
           .attr("r", 30)
           .attr("opacity", 0.2) // change this to zero to hide the target area
@@ -389,7 +427,8 @@ function change() {
           })
           .on("mouseout", function(node) {
               outCircle(node);
-          });
+
+          });*/
 
       var formatNumber = d3.format("$,.0f");
 
