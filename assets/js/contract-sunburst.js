@@ -98,6 +98,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
             else if (d.depth === 1) {for(i=0; i<color.length; i++){if(d.name===color[i].name){return color[i].color;}}}  //Agency
             else if (d.depth === 2) {for(i=0; i<color.length; i++){if(d.parent.name===color[i].name){return d3.rgb(color[i].color).darker(-.75);}}} //Subagency
             else if (d.depth === 3) {for(i=0; i<color.length; i++){if(d.parent.parent.name===color[i].name){return d3.rgb(color[i].color).darker(-1.25);}}}    //Contractors
+            else{ return "#F78F64";}
             })
           .on("click", click)
           .append("title")
