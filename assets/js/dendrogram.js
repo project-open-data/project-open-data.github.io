@@ -25,7 +25,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 // Get csv data
 
-d3.csv('accounts_obligations_revised_v7.csv',function(error,newData){
+d3.csv('/data-lab-data/accounts_obligations_revised_v7.csv',function(error,newData){
 
 console.log("Hierarchy: ",newData);
 
