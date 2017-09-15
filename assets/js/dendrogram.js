@@ -364,24 +364,24 @@ function change() {
                .duration(700)
                .style("opacity", 1);
                div.text("Click to view federal account page")
-               .style("left", (d3.event.pageX)-115 + "px")
-               .style("top", (d3.event.pageY)-485 + "px");
+               .style("left", (d3.event.pageX)-135 + "px")
+               .style("top", (d3.event.pageY)-470 + "px");
 
          } else if(d.depth===2 ){
              div.transition()
                   .duration(700)
                   .style("opacity", 1);
                   div.text("Click to view federal accounts")
-                  .style("left", (d3.event.pageX)-115 + "px")
-                  .style("top", (d3.event.pageY)-485 + "px");
+                  .style("left", (d3.event.pageX)-135 + "px")
+                  .style("top", (d3.event.pageY)-470 + "px");
 
           } else if(d.depth===1 ){
               div.transition()
                    .duration(700)
                    .style("opacity", 1);
                    div.text("Click for agency breakdown")
-                   .style("left", (d3.event.pageX)-115 + "px")
-                   .style("top", (d3.event.pageY)-485 + "px");
+                   .style("left", (d3.event.pageX)-135 + "px")
+                   .style("top", (d3.event.pageY)-470 + "px");
           }
 }
 
