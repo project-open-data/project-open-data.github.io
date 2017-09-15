@@ -325,7 +325,7 @@ function change() {
           }
       };
       childCount(0, root);
-      var newHeight = d3.max(levelWidth) * 10; // 25 pixels per line
+      var newHeight = d3.max(levelWidth) * 26; // 25 pixels per line
       tree = tree.size([newHeight, viewerWidth]);
 
       // Compute the new tree layout.
@@ -334,7 +334,7 @@ function change() {
 
       // Set widths between levels based on maxLabelLength.
     nodes.forEach(function(d) {
-         d.y = (d.depth * (maxLabelLength * 3)); //maxLabelLength * 10px
+         d.y = (d.depth * (maxLabelLength * 2)); //maxLabelLength * 10px
           // alternatively to keep a fixed scale one can set a fixed depth per level
           // Normalize for fixed-depth by commenting out below line
           //d.y = (d.depth * 500); //500px per level.
