@@ -213,14 +213,40 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
                 }
               }
 
-            }else{
-              // Agencies & Subagencies
+            }else if(d.depth === 1){
+              //Agencies
                 $("#sunburst-panel").empty();
                 legend.append("div")
                   .attr("id","tab")
                   .attr("height",169)
                   .attr("width",465)
-                  .html("<h2 class='title'>"+d.name+"</h2><h1>"+formatNumber(d.value)+"</h1>"+"<h4>"+"Contractors</h4>");
+                  .html("<h2 class='title'>"+d.name+"</h2><h1>"+formatNumber(d.value)+"</h1>"+"<h4>"+"Agencies"+"</h4>");
+
+                  if(d.children.length<=5){
+                    var t=d.children.length;
+                  }else{
+                    var t=5;
+                  }
+
+                  for(var k=0; k < t; k++){
+                    legend.append("div")
+                      .attr("id","tab_2")
+                      .attr("height",169)
+                      .attr("width",465)
+                      .style("margin-bottom","2px")
+                      .html("<table class ='icon'>"
+                      +"<tr>"+"<td class='val'>"+formatNumber(d.children[k].value)+"</td>"+
+                      "<td class='name'>"+d.children[k].name+"</td>"+"</tr>"+"</table>");
+                      }
+                legend.transition().duration(500).style("opacity","1");
+            }else{
+              //Subagencies
+                $("#sunburst-panel").empty();
+                legend.append("div")
+                  .attr("id","tab")
+                  .attr("height",169)
+                  .attr("width",465)
+                  .html("<h2 class='title'>"+d.name+"</h2><h1>"+formatNumber(d.value)+"</h1>"+"<h4>"+"Contractors"+"</h4>");
 
                   if(d.children.length<=5){
                     var t=d.children.length;
