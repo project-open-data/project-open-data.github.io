@@ -42,9 +42,13 @@
 
 	#tab_2 > table > tbody > tr > td.val{
 		width: 116px;
+		height:15px;
+		overflow:visible;
 	}
 	#tab_2 > table > tbody > tr > td.name{
 		width: 270px;
+		height:15px;
+		overflow:visible;
 	}
 	#tab_2 {
 		/*height:40px;*/
