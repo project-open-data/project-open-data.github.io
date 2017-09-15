@@ -384,8 +384,8 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
             .enter().append("g")
             .attr("class", "node")
             .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-            .on("click",highlight_node_links)
-            //.on("click",remove_highlight)
+            .on("hoverover",highlight_node_links)
+            .on("hoverout",remove_highlight)
             .call(d3.behavior.drag()
                 .origin(function(d) { return d; })
                 // interfering with click .on("dragstart", function() { this.parentNode.appendChild(this); })
@@ -422,8 +422,6 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
         }
 
         function highlight_node_links(node,i){
-            
-            remove_highlight();
             
             var remainingNodes=[],
                 nextNodes=[];
