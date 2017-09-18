@@ -363,7 +363,7 @@ function change() {
             div.transition()
                .duration(700)
                .style("opacity", 1);
-               div.text("Click to view federal account page")
+               div.text("Visit federal account page")
                .style("left", (d3.event.pageX)-135 + "px")
                .style("top", (d3.event.pageY)-470 + "px");
 
@@ -371,7 +371,7 @@ function change() {
              div.transition()
                   .duration(700)
                   .style("opacity", 1);
-                  div.text("Click to view federal accounts")
+                  div.text("View federal accounts")
                   .style("left", (d3.event.pageX)-135 + "px")
                   .style("top", (d3.event.pageY)-470 + "px");
 
@@ -379,7 +379,7 @@ function change() {
               div.transition()
                    .duration(700)
                    .style("opacity", 1);
-                   div.text("Click for agency breakdown")
+                   div.text("View agency breakdown")
                    .style("left", (d3.event.pageX)-135 + "px")
                    .style("top", (d3.event.pageY)-470 + "px");
           }
