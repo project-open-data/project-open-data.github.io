@@ -48,6 +48,30 @@ d3.select("#legend_scaleKey").append("circle")
     .append("g")
     .attr("transform", "translate(" + (width / 2-20) + "," + (height / 2-100) + ")");
 
+// new
+var opts = {
+  lines: 9, // The number of lines to draw
+  length: 9, // The length of each line
+  width: 5, // The line thickness
+  radius: 14, // The radius of the inner circle
+  color: '#EE3124', // #rgb or #rrggbb or array of colors
+  speed: 1.9, // Rounds per second
+  trail: 40, // Afterglow percentage
+  className: 'spinner', // The CSS class to assign to the spinner
+};
+//
+
+// new
+var target = document.getElementById("sunburst");
+//
+
+// new
+function init() {
+
+    // trigger loader
+    var spinner = new Spinner(opts).spin(target);
+//
+  
 d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
   d3.csv('/data-lab-data/PSC_by_Recip.csv',function(error,recip){
     d3.json('/data-lab-data/Recip_Details.json',function(error,details){
@@ -302,3 +326,8 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
 });
 
   d3.select(self.frameElement).style("height", height + "px");
+//new
+} 
+
+init();
+//
