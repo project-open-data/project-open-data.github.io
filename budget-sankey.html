@@ -6,17 +6,41 @@ filename: budget-sankey.html
 title: Budget Function and Object Class
 page: budget-sankey
 ---
-<h2>Explore data on the 16 functions supported by federal spending</h2>
-<p>This visualization shows how federal funds were spent by budget function, which describes the type of activities carried out, as well as object class, which describes what the government purchased with those funds. Clicking the nodes on each end of the visualization shows the relationship to the opposite side and provides a brief introduction to what programs each budget function or object class includes.</p>
-    
-<div class="col-md-7" style="padding:10px">
-	<div id="viz_container"></div>
-</div>
+<h2 style="margin-bottom:10px">Connecting Budget Function to Object Class</h2>
+<p class="subheading">Exploring “the what” and “the why” of government spending</p>
+<p>Do you know what the government spends money on and why? Budget functions are categories that describe the purpose of federal spending, or “the why.” Object classes are categories that describe what goods and services were purchased, or “the what.”</p>
+<p style="margin-bottom:5px"><strong>How to use this tool:</strong></p>
+<p>Hover over each color bar to highlight how each budget function relates to object class categories, and vice versa.</p>
 
-<div class="col-md-5" style="padding:10px">
-	<div id="sankey-panel"></div>
-</div>
+<div class="row mt-0">
+	<div class="col-md-7" style="padding:10px">
+		<div class="row mt-0">
+			<div id="axis-label">
+				<div class="col-md-6">
+					<h6>Budget Function</h6>
+				</div>
+				<div class="col-md-6">
+					<h6 style="text-align:right">Object Class</h6>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-0">
+			<div id="viz_container"></div>
+		</div>
+	</div>
 
+	<div class="col-md-5" style="padding:10px">
+		<div id="sankey-panel"></div>
+	</div>
+</div>
+<div class="row mt-0">
+	<div id="references">
+		<p><strong>References</strog></p>
+		<p>End point(s) used: TAS Categories</p>
+		<p>From this endpoint, the fields: obligations_incurred_by_program_object_class_cpe, object_class.major_object_class_name, and treasury_account.budget_function_title are grouped and aggregated. </p>
+		<p>The twenty official congressional budget functions are rolled up into sixteen budget function categories. Smaller budget functions are combined with others with similar missions. The five major object classes are broken down into eleven more specific classes, to provide descriptive and meaningful information than major object class categories alone. Information on object classes are available here.</p>
+	</div>
+</div>
 <!-- d3 -->
 <script src="{{site.baseurl}}/assets/js/vendor/d3.v3.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/budget-sankey.js"></script>
