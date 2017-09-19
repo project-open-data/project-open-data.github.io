@@ -101,7 +101,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
             })
           .on("click", click)
           .append("title")
-            .text(if(d.depth===0){ function(d) { return d.name + "\n" + formatNumber(d.value); }}else{"Click to zoom in"});
+            .text( function(d){if(d.depth===0){ function(d) { return d.name + "\n" + formatNumber(d.value); }}else{return "Click to zoom"}});
 
         //$('#panel').contents().filter(function(){
           //return this.nodeType === 3;
