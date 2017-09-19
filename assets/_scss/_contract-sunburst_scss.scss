@@ -1,5 +1,5 @@
 .contract-sunburst {
- #sunburst > .circle {
+ #sunburst > circle {
     fill: none;
     stroke: black;
     stroke-width: 1px;
@@ -9,8 +9,8 @@
  
   #sunburst > svg > g > path {
     stroke: #fff;
-    stroke-width:.5px;
-     cursor: pointer;
+    stroke-width:.4px;
+    cursor: pointer;
   }
   .body{
     background-color: #FFFFFF;
