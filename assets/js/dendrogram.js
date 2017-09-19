@@ -438,7 +438,7 @@ function change() {
               return d.children || d._children ? -10 : 10;
           })
           .attr("text-anchor", function(d) {
-              return d.children || d._children ? "middle" : "start";
+              return d.children || d._children ? "start" : "start";
           })
           .attr("alignment-baseline",function(d) {
               return d.children || d._children ? "hanging" : "baseline";
