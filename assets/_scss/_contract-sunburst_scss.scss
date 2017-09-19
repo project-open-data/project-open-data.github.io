@@ -7,7 +7,7 @@
     cursor: pointer;
   }
  
-  #sunburst > .path {
+  #sunburst > svg > g > path {
     stroke: #fff;
     stroke-width:1px;
      cursor: pointer;
