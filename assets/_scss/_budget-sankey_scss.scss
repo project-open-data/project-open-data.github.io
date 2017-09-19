@@ -1,9 +1,26 @@
 .budget-sankey {
-
+	& p.subheading {
+		font-size: 1.75rem;
+		color: #525252;
+		font-style:italic;
+	}
+	#axis-label{
+		margin-right: 76px;
+		& .col-md-6{
+			padding:3px;
+			& h6{
+				margin-bottom: 0px;
+				margin-top:0px;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+		}
+	}
 	#viz_container{
 		overflow: visible;
 		position: relative;
 		height: inherit;
+		margin-top:20px;
 	}
 	.node rect {
 		cursor: move;
@@ -120,5 +137,10 @@
 		position: relative;
 		font-size: 1.1em;
 		margin-top: -15px;
+	}
+	#references{
+		.p {
+				margin-bottom: 1.5rem;
+		}
 	}
 }
