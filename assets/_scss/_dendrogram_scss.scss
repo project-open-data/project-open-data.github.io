@@ -1,5 +1,9 @@
 .dendrogram {
-
+  & p.subheading {
+		font-size: 1.75rem;
+		color: #525252;
+		font-style:italic;
+	}
   #container{
     position:relative;
     background-color: inherit;
@@ -8,10 +12,13 @@
   }
   #tree-container{
     position: relative;
-    max-height:1000px;
-    max-width:1024px;
+    max-height:1025px;
+    max-width:1016px;
     background-color: rgba(243,246,255,0);
-    overflow: scroll;
+    overflow: hidden;
+    border-color: #d6d7d9;
+    border-width:2px;
+    border-style:solid;
   }
   .node {
     cursor: pointer;
@@ -29,7 +36,7 @@
   }
   .link {
     fill: none;
-    stroke: #708090;
+    stroke: #000000;
     opacity: .3;
     stroke-width: 1.5px;
   }
@@ -49,6 +56,8 @@
     height:47px;
     width: 115px;
     margin-left: 40px;
+    padding-bottom: 20px;
+    vertical-align: middle;
   }
   .button {
      border: 1px solid #0071bc;
