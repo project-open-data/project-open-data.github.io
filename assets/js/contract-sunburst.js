@@ -121,7 +121,31 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
         }
 
         var legend = d3.select("#sunburst-panel");
+        
+        function intialize_legend(d){
+          $("#sunburst-panel").empty();
+              legend.append("div")
+                .attr("id","tab")
+                .attr("height",169)
+                .attr("width",422)
+                .html("<h1 class='panel_title'>"+d.name+"</h1>"+
+                "<h3 class='panel_desc'>"+formatNumber(d.value)+
+                "<br />"+"</h3>");
 
+              for(var k=0; k < 10; k++){
+                legend.append("div")
+                  .attr("id","tab_2")
+                  .attr("height",169)
+                  .attr("width",422)
+                  .style("margin-bottom","2px")
+                  .html("<table class ='icon'>"
+                  +"<tr>"+"<td class='val'>"+formatNumber(d.children[k].value)+"</td>"+
+                  "<td class='name'>"+d.children[k].name+"</td>"+"</tr>"+"</table>");
+                  }
+        }
+        
+        intialize_legend(root);
+        
         function update_legend(d)
           {
             // Create central node panel --- Top 10 Agencies
