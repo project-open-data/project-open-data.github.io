@@ -6,12 +6,26 @@ filename: dendrogram.md
 Title: Federal Accounts
 page: dendrogram
 ---
-  <h1>See the structure of 1,735 federal spending accounts</h1>
-  <p>This tool visualizes 1,735 accounts that the federal government uses to spend money, including the amount of spending this fiscal year through the end of the second quarter (March 31, 2017). The “highest”, or left-most, tier represents agencies that you may be familiar with, such as the Department of Treasury or Transportation. Selecting each node reveals sub-agencies and their associated accounts. Clicking on the account node will direct you to the USAspending page associated with that account and provide the most current details on the state of that account. </p>
-  <div id="button_holder">
-    <input type="button" name="xAxis" class="button" value="Reset Tree">
+  <h2 style="margin-bottom:10px">Federal Account Explorer</h2>
+  <p class="subheading">See an all-in-one view of federal accounts</p>
+  <p>Did you know that the government has almost 2,000 “accounts,” similar to bank accounts, which it uses to spend money? This visualization allows you to explore those accounts and which agencies they are associated with.</p>
+  <div style="margin-top:10px">
+    <div class="col-md-3">
+      <div id="button_holder">
+        <input type="button" name="xAxis" class="button" value="Reset Tree">
+      </div>
+    </div>
+    <div>
+      <div class="col-md-9">
+        <h6 style="margin-bottom: 10px; padding-bottom: 0px; margin-top:0; padding-top:0">How to use this tool:</h6>
+        <p style="margin-top:0; padding-top:0px">Click any circle to expand and reveal an agency’s structure. Continue to click to see federal accounts, and the level of spending associated with each account. Click and drag the visualization to re-center.</p>
+      </div>
+    </div>
   </div>
   <div id="tree-container"></div>
+  <div>
+    <h5 style= "margin-top:26px" >References</h5>
+  </div>
 <!-- d3 -->
 <script src="{{site.baseurl}}/assets/js/vendor/d3.v3.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/dendrogram.js"></script>
