@@ -52,7 +52,7 @@ page: data-lab
         <div class="panel panel-default short-col">
           <div class="panel-body" style="min-height:278.86px">
             <a href="{{site.baseurl}}/data-lab/contract-sunburst/"><img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard_XL.png" class="img-responsive">
-            <h5 style="padding:10px; margin-bottom:0px; text-align:center: color: #525252">Contract Explorer</h5></a>
+            <h5 style="padding:10px; margin-bottom:0px; text-align:center; color: #525252">Contract Explorer</h5></a>
             <p class="subheading">Explore federal agencies and their contracts</p>
           </div>
         </div>
