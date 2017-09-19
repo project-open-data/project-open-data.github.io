@@ -1,155 +1,173 @@
 source,target,value
-Social Security,Insurance Claims And Indemnities,4.63862E+11
-Medicare,Insurance Claims And Indemnities,3.34741E+11
-Income Security,"Grants, Subsidies, And Contributions",3.1812E+11
-Health,"Grants, Subsidies, And Contributions",2.53086E+11
-Net Interest,Interest And Dividends,2.27237E+11
-National Defense,Personnel Compensation And Benefits,1.99133E+11
-General Government,Refunds,1.85906E+11
-National Defense,"Advisory, R&D, Medical, And Other Contracts",1.29864E+11
-Medicare,"Grants, Subsidies, And Contributions",1.24891E+11
-Income Security,Insurance Claims And Indemnities,98746542336
-National Defense,Acquisition Of Assets,61503373905
-Agriculture,Insurance Claims And Indemnities,59271579019
-National Defense,Printing And Supplies,50602886007
-Medicare,Other,46610657113
-"Education, Training, Employment, And Social Services","Grants, Subsidies, And Contributions",43534861273
-Veterans Benefits And Services,Insurance Claims And Indemnities,42728717905
-Health,"Advisory, R&D, Medical, And Other Contracts",34192087438
-National Defense,Other,29587012179
-Health,Insurance Claims And Indemnities,28771040207
-"Regional Development, Commerce, And Housing","Grants, Subsidies, And Contributions",25968984761
-Agriculture,"Advisory, R&D, Medical, And Other Contracts",25202931665
-Social Security,Other,24439747858
-Health,Personnel Compensation And Benefits,24302538188
-General Government,Personnel Compensation And Benefits,23403790190
-Natural Resources And Environment,Personnel Compensation And Benefits,21542083373
-Natural Resources And Environment,"Advisory, R&D, Medical, And Other Contracts",19809724457
-Veterans Benefits And Services,Personnel Compensation And Benefits,18365149441
-International Affairs,"Advisory, R&D, Medical, And Other Contracts",18105840751
-Administration Of Justice,Personnel Compensation And Benefits,17826853486
-Transportation,"Grants, Subsidies, And Contributions",16268188424
-Veterans Benefits And Services,Other,16207136188
-International Affairs,"Grants, Subsidies, And Contributions",16118352714
-Agriculture,Personnel Compensation And Benefits,15709394086
-Natural Resources And Environment,"Grants, Subsidies, And Contributions",13700726808
-Veterans Benefits And Services,"Advisory, R&D, Medical, And Other Contracts",13687031809
-"Energy, Science, Space, And Technology","Advisory, R&D, Medical, And Other Contracts",13251189118
-Administration Of Justice,"Advisory, R&D, Medical, And Other Contracts",11698717000
-General Government,"Advisory, R&D, Medical, And Other Contracts",10615449873
-National Defense,Travel And Transportation,10417478372
-Transportation,Personnel Compensation And Benefits,9902393510
-Veterans Benefits And Services,"Grants, Subsidies, And Contributions",9248308755
-National Defense,"Rent, Communications, And Utilities",8714116018
-"Regional Development, Commerce, And Housing",Personnel Compensation And Benefits,7096425341
-Veterans Benefits And Services,Printing And Supplies,5975259406
-Agriculture,"Grants, Subsidies, And Contributions",5974149109
-Income Security,Printing And Supplies,5174602409
-"Regional Development, Commerce, And Housing","Advisory, R&D, Medical, And Other Contracts",5143805734
-Transportation,Other,4622595860
-International Affairs,Personnel Compensation And Benefits,4118789223
-General Government,"Rent, Communications, And Utilities",4099359803
-Veterans Benefits And Services,Acquisition Of Assets,3925922722
-Transportation,"Advisory, R&D, Medical, And Other Contracts",3912928363
-Health,Printing And Supplies,3849934664
-Natural Resources And Environment,Acquisition Of Assets,3801483011
-Income Security,"Advisory, R&D, Medical, And Other Contracts",3788145308
-General Government,"Grants, Subsidies, And Contributions",3693618726
-"Regional Development, Commerce, And Housing",Insurance Claims And Indemnities,3528288565
-Social Security,Personnel Compensation And Benefits,3292020243
-"Energy, Science, Space, And Technology","Grants, Subsidies, And Contributions",2852098121
-General Government,Printing And Supplies,2746581508
-International Affairs,Acquisition Of Assets,2645387953
-"Energy, Science, Space, And Technology",Personnel Compensation And Benefits,2528895663
-Administration Of Justice,"Rent, Communications, And Utilities",2422140855
-Social Security,"Advisory, R&D, Medical, And Other Contracts",2201118971
-Veterans Benefits And Services,"Rent, Communications, And Utilities",2167117495
-General Government,Insurance Claims And Indemnities,2163936162
-Income Security,Personnel Compensation And Benefits,1994798077
-National Defense,"Grants, Subsidies, And Contributions",1782158918
-"Education, Training, Employment, And Social Services","Advisory, R&D, Medical, And Other Contracts",1538588745
-Net Interest,"Grants, Subsidies, And Contributions",1314156291
-Administration Of Justice,Insurance Claims And Indemnities,1246138005
-Natural Resources And Environment,Printing And Supplies,1192717789
-"Energy, Science, Space, And Technology",Travel And Transportation,1191396830
-"Education, Training, Employment, And Social Services",Personnel Compensation And Benefits,1182662177
-General Government,Acquisition Of Assets,1130805189
-Natural Resources And Environment,"Rent, Communications, And Utilities",1119529352
-International Affairs,"Rent, Communications, And Utilities",1109439950
-Natural Resources And Environment,Travel And Transportation,1008113199
-Transportation,Acquisition Of Assets,904859993.7
-Administration Of Justice,Refunds,849421796.9
-National Defense,Insurance Claims And Indemnities,842612800.7
-Transportation,Printing And Supplies,839087709.2
-Administration Of Justice,Printing And Supplies,826744829.6
-Agriculture,Printing And Supplies,825424728.5
-"Energy, Science, Space, And Technology",Acquisition Of Assets,764093197.9
-Social Security,"Grants, Subsidies, And Contributions",743495559.7
-Veterans Benefits And Services,Travel And Transportation,739511748.8
-Medicare,"Advisory, R&D, Medical, And Other Contracts",687998842.9
-Administration Of Justice,Travel And Transportation,627211116.6
-International Affairs,Travel And Transportation,625850016.8
-Transportation,"Rent, Communications, And Utilities",622472143.6
-Health,"Rent, Communications, And Utilities",611279036
-Social Security,"Rent, Communications, And Utilities",553843446.6
-Agriculture,Travel And Transportation,526258981.5
-"Regional Development, Commerce, And Housing","Rent, Communications, And Utilities",503444303
-Administration Of Justice,Acquisition Of Assets,502540385.8
-Administration Of Justice,"Grants, Subsidies, And Contributions",490726777.9
-Agriculture,Acquisition Of Assets,469454068.2
-Transportation,Travel And Transportation,463533451.1
-"Regional Development, Commerce, And Housing",Acquisition Of Assets,437268356.7
-National Defense,Refunds,426968333
-International Affairs,Printing And Supplies,422498393.6
-Agriculture,"Rent, Communications, And Utilities",388521346
-Health,Travel And Transportation,381104816.9
-General Government,Interest And Dividends,351131058.1
-"Regional Development, Commerce, And Housing",Travel And Transportation,329657092.9
-"Regional Development, Commerce, And Housing",Printing And Supplies,241397825.6
-"Regional Development, Commerce, And Housing",Interest And Dividends,198546972.7
-Income Security,Refunds,185719087.8
-"Education, Training, Employment, And Social Services",Other,180296657.9
-"Energy, Science, Space, And Technology","Rent, Communications, And Utilities",176569915.2
-Income Security,Interest And Dividends,175996602.5
-Income Security,"Rent, Communications, And Utilities",171059741
-"Education, Training, Employment, And Social Services","Rent, Communications, And Utilities",156459324.4
-Health,Acquisition Of Assets,149761069.7
-General Government,Travel And Transportation,123188769
-"Energy, Science, Space, And Technology",Printing And Supplies,103380590.8
-Income Security,Acquisition Of Assets,90258321.41
-Health,Refunds,84766529.1
-"Education, Training, Employment, And Social Services",Acquisition Of Assets,61881130.66
-"Energy, Science, Space, And Technology",Interest And Dividends,59146641.3
-Social Security,Acquisition Of Assets,52446298.62
-Medicare,Personnel Compensation And Benefits,51656097.95
-Income Security,Travel And Transportation,44708011.29
-Social Security,Printing And Supplies,33011736.55
-"Education, Training, Employment, And Social Services",Insurance Claims And Indemnities,27588056.2
-Natural Resources And Environment,Insurance Claims And Indemnities,27341968.35
-International Affairs,Refunds,23247091.94
-"Education, Training, Employment, And Social Services",Travel And Transportation,22627740.37
-"Energy, Science, Space, And Technology",Refunds,18348700.52
-International Affairs,Insurance Claims And Indemnities,14462434.81
-Social Security,Travel And Transportation,10893973.9
-National Defense,Interest And Dividends,8314837.25
-"Education, Training, Employment, And Social Services",Printing And Supplies,6679132.17
-Transportation,Insurance Claims And Indemnities,5826542.29
-Transportation,Interest And Dividends,4543165.31
-Administration Of Justice,Interest And Dividends,2678215.14
-Agriculture,Interest And Dividends,2548706.04
-Medicare,"Rent, Communications, And Utilities",2438803.25
-"Regional Development, Commerce, And Housing",Refunds,2366509.19
-Natural Resources And Environment,Interest And Dividends,2166605.57
-Medicare,Refunds,1283940.3
-"Energy, Science, Space, And Technology",Other,632830.59
-Health,Interest And Dividends,506722.53
-Net Interest,"Advisory, R&D, Medical, And Other Contracts",443251
-"Energy, Science, Space, And Technology",Insurance Claims And Indemnities,419279.61
-Medicare,Travel And Transportation,233876.65
-Veterans Benefits And Services,Interest And Dividends,101675.5
-Medicare,Acquisition Of Assets,93835.31
-Agriculture,Refunds,58928.75
-International Affairs,Interest And Dividends,45819.66
-"Education, Training, Employment, And Social Services",Interest And Dividends,36996.35
-Medicare,Printing And Supplies,19634.15
-Medicare,Interest And Dividends,87
+Income Security,"Grants, Subsidies, And Contributions",635309591976.07
+Net Interest,Interest And Dividends,609288697390.20
+Health,"Grants, Subsidies, And Contributions",608459794493.92
+General Government,Refunds,474837638947.91
+Social Security,Insurance Claims And Indemnities,463894356383.41
+Medicare,Insurance Claims And Indemnities,398942660329.19
+Medicare,"Grants, Subsidies, And Contributions",318527048266.78
+National Defense,Personnel Compensation And Benefits,200754741994.18
+National Defense,"Advisory, R&D, Medical, And Other Contracts",136727221991.65
+Income Security,Insurance Claims And Indemnities,129024353326.85
+Medicare,Other,118406209148.98
+"Education, Training, Employment, And Social Services","Grants, Subsidies, And Contributions",108417360476.40
+Health,Insurance Claims And Indemnities,70222143290.99
+Veterans Benefits And Services,Insurance Claims And Indemnities,65749018701.14
+National Defense,Acquisition Of Assets,62577631635.72
+Social Security,Other,62231597811.43
+Health,"Advisory, R&D, Medical, And Other Contracts",60909904259.55
+Agriculture,Insurance Claims And Indemnities,59611857873.77
+Transportation,"Grants, Subsidies, And Contributions",50826152995.42
+National Defense,Printing And Supplies,50644343978.97
+"Regional Development, Commerce, And Housing","Grants, Subsidies, And Contributions",39556176899.94
+Administration Of Justice,Personnel Compensation And Benefits,37460761647.24
+Health,Personnel Compensation And Benefits,37228784589.43
+General Government,Personnel Compensation And Benefits,37152092294.32
+Veterans Benefits And Services,Personnel Compensation And Benefits,30056524502.89
+National Defense,Other,29586021359.95
+International Affairs,"Grants, Subsidies, And Contributions",27892023104.69
+Agriculture,"Advisory, R&D, Medical, And Other Contracts",24346235212.46
+International Affairs,"Advisory, R&D, Medical, And Other Contracts",23593049290.95
+Natural Resources And Environment,Personnel Compensation And Benefits,22173350299.76
+"Energy, Science, Space, And Technology","Advisory, R&D, Medical, And Other Contracts",20815613966.86
+Transportation,Personnel Compensation And Benefits,19300832290.52
+Agriculture,Personnel Compensation And Benefits,18788973588.41
+Veterans Benefits And Services,"Advisory, R&D, Medical, And Other Contracts",18440679979.49
+Administration Of Justice,"Advisory, R&D, Medical, And Other Contracts",17684873319.69
+Natural Resources And Environment,"Advisory, R&D, Medical, And Other Contracts",16914496777.97
+General Government,"Advisory, R&D, Medical, And Other Contracts",15756237768.79
+Veterans Benefits And Services,"Grants, Subsidies, And Contributions",12666429145.77
+Natural Resources And Environment,"Grants, Subsidies, And Contributions",11918247993.95
+"Regional Development, Commerce, And Housing",Personnel Compensation And Benefits,10678855031.06
+National Defense,Travel And Transportation,10484134417.85
+International Affairs,Personnel Compensation And Benefits,9654982256.70
+National Defense,"Rent, Communications, And Utilities",9156669869.26
+Transportation,"Advisory, R&D, Medical, And Other Contracts",9054292610.27
+Veterans Benefits And Services,Printing And Supplies,8879552350.67
+Health,Printing And Supplies,8867778601.98
+"Regional Development, Commerce, And Housing","Advisory, R&D, Medical, And Other Contracts",8396011422.93
+Social Security,Personnel Compensation And Benefits,8297645891.14
+General Government,"Rent, Communications, And Utilities",8153124765.06
+General Government,"Grants, Subsidies, And Contributions",8021419442.70
+"Energy, Science, Space, And Technology","Grants, Subsidies, And Contributions",6311286994.31
+International Affairs,Acquisition Of Assets,5853584851.84
+Income Security,Printing And Supplies,5762301767.33
+Social Security,"Advisory, R&D, Medical, And Other Contracts",5462458742.04
+Income Security,"Advisory, R&D, Medical, And Other Contracts",5279357482.65
+"Regional Development, Commerce, And Housing",Insurance Claims And Indemnities,4879630597.65
+Administration Of Justice,"Rent, Communications, And Utilities",4813210626.92
+Agriculture,"Grants, Subsidies, And Contributions",4812786283.19
+General Government,Insurance Claims And Indemnities,4771952562.34
+Transportation,Other,4432488534.79
+General Government,Printing And Supplies,4077759481.67
+"Energy, Science, Space, And Technology",Personnel Compensation And Benefits,3767638509.22
+General Government,Acquisition Of Assets,3667203323.46
+Net Interest,"Grants, Subsidies, And Contributions",3290635883.59
+Income Security,Personnel Compensation And Benefits,2791929415.15
+International Affairs,"Rent, Communications, And Utilities",2726425690.62
+Veterans Benefits And Services,Acquisition Of Assets,2706358266.49
+Veterans Benefits And Services,"Rent, Communications, And Utilities",2581362857.93
+Natural Resources And Environment,Acquisition Of Assets,2400829182.90
+Transportation,Acquisition Of Assets,2321020396.87
+"Education, Training, Employment, And Social Services","Advisory, R&D, Medical, And Other Contracts",2260089458.83
+Administration Of Justice,Refunds,2158389760.25
+National Defense,"Grants, Subsidies, And Contributions",2128172921.88
+Transportation,Printing And Supplies,2029245732.83
+Medicare,"Advisory, R&D, Medical, And Other Contracts",1762085977.49
+Administration Of Justice,Acquisition Of Assets,1575578023.71
+"Energy, Science, Space, And Technology",Travel And Transportation,1568907083.14
+"Education, Training, Employment, And Social Services",Personnel Compensation And Benefits,1553932937.93
+International Affairs,Travel And Transportation,1503567425.74
+Administration Of Justice,Printing And Supplies,1492767788.39
+Health,"Rent, Communications, And Utilities",1417746279.96
+Social Security,"Rent, Communications, And Utilities",1402874422.23
+Administration Of Justice,Travel And Transportation,1368301511.36
+Natural Resources And Environment,"Rent, Communications, And Utilities",1261667670.38
+Transportation,"Rent, Communications, And Utilities",1220019117.79
+Natural Resources And Environment,Printing And Supplies,1206651322.10
+International Affairs,Printing And Supplies,1098490036.32
+Veterans Benefits And Services,Travel And Transportation,1059728397.96
+Transportation,Travel And Transportation,1050758886.38
+"Regional Development, Commerce, And Housing","Rent, Communications, And Utilities",954243820.29
+General Government,Interest And Dividends,951497445.92
+Administration Of Justice,"Grants, Subsidies, And Contributions",924429585.46
+"Regional Development, Commerce, And Housing",Acquisition Of Assets,901590343.13
+Administration Of Justice,Insurance Claims And Indemnities,899818380.12
+Agriculture,Printing And Supplies,896438450.89
+National Defense,Insurance Claims And Indemnities,857782942.84
+"Energy, Science, Space, And Technology",Acquisition Of Assets,855962571.81
+Natural Resources And Environment,Travel And Transportation,820636796.62
+Agriculture,Acquisition Of Assets,811203874.15
+Social Security,"Grants, Subsidies, And Contributions",771186053.11
+Agriculture,"Rent, Communications, And Utilities",759866683.63
+Income Security,Interest And Dividends,719730263.75
+Health,Travel And Transportation,656644980.82
+"Regional Development, Commerce, And Housing",Travel And Transportation,645857181.59
+Agriculture,Travel And Transportation,580916702.78
+"Regional Development, Commerce, And Housing",Interest And Dividends,491469456.12
+"Regional Development, Commerce, And Housing",Printing And Supplies,449975254.42
+National Defense,Refunds,426968333.05
+Health,Acquisition Of Assets,426381856.08
+Income Security,"Rent, Communications, And Utilities",323245494.22
+Administration Of Justice,Other,294322151.78
+Income Security,Refunds,293692797.03
+"Energy, Science, Space, And Technology","Rent, Communications, And Utilities",289661048.31
+"Education, Training, Employment, And Social Services",Other,273314533.12
+General Government,Travel And Transportation,233364304.70
+"Education, Training, Employment, And Social Services","Rent, Communications, And Utilities",195675920.26
+Social Security,Acquisition Of Assets,189935099.61
+Health,Refunds,171836854.84
+Income Security,Acquisition Of Assets,163439481.11
+"Energy, Science, Space, And Technology",Interest And Dividends,163163216.50
+"Energy, Science, Space, And Technology",Printing And Supplies,153549506.45
+Medicare,Personnel Compensation And Benefits,129792831.22
+"Education, Training, Employment, And Social Services",Acquisition Of Assets,94618006.91
+Social Security,Printing And Supplies,83171097.47
+Natural Resources And Environment,Insurance Claims And Indemnities,77243615.12
+Income Security,Travel And Transportation,64059197.99
+International Affairs,Refunds,45260487.14
+Transportation,Insurance Claims And Indemnities,43347557.83
+"Education, Training, Employment, And Social Services",Insurance Claims And Indemnities,33600098.43
+Social Security,Travel And Transportation,30248356.24
+"Education, Training, Employment, And Social Services",Travel And Transportation,29066553.84
+Veterans Benefits And Services,Other,24742099.20
+"Energy, Science, Space, And Technology",Refunds,20555841.62
+International Affairs,Insurance Claims And Indemnities,19363217.61
+Transportation,Interest And Dividends,8762391.77
+National Defense,Interest And Dividends,8314745.59
+"Education, Training, Employment, And Social Services",Printing And Supplies,8294544.20
+Medicare,"Rent, Communications, And Utilities",5987606.50
+Natural Resources And Environment,Interest And Dividends,3702532.71
+Medicare,Refunds,3242691.62
+"Regional Development, Commerce, And Housing",Refunds,3130319.75
+Agriculture,Interest And Dividends,2786181.35
+Net Interest,"Advisory, R&D, Medical, And Other Contracts",924764.00
+Health,Interest And Dividends,892065.25
+"Energy, Science, Space, And Technology",Insurance Claims And Indemnities,784419.69
+Medicare,Travel And Transportation,671106.89
+Medicare,Acquisition Of Assets,187670.62
+Administration Of Justice,Interest And Dividends,136329.21
+Veterans Benefits And Services,Interest And Dividends,101675.50
+International Affairs,Interest And Dividends,77254.76
+Agriculture,Refunds,55637.86
+Medicare,Printing And Supplies,47586.23
+"Education, Training, Employment, And Social Services",Interest And Dividends,38975.36
+Medicare,Interest And Dividends,87.00
+"Education, Training, Employment, And Social Services",Refunds,0.00
+Veterans Benefits And Services,Refunds,0.00
+Social Security,Interest And Dividends,-475.56
+Transportation,Refunds,-2613325.73
+Natural Resources And Environment,Refunds,-28107087.54
+"Energy, Science, Space, And Technology",Other,-135496170.14
+General Government,Other,-583879903.38
+International Affairs,Other,-655510120.83
+"Regional Development, Commerce, And Housing",Other,-2512033347.84
+Health,Other,-2577327428.03
+Natural Resources And Environment,Other,-29543783658.32
+Agriculture,Other,-99185357998.87
+Income Security,Other,-221514449230.92
+,,
+,,
+,,
+,,
+,,
