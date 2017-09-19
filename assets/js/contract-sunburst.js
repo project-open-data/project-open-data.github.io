@@ -120,7 +120,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
           .attr("d", arc)
           .on("mouseover",update_legend)
           .on("mouseout",remove_legend)
-          .style("stroke","2px")
+          .style("stroke","4px")
           .style("fill", function(d) {
             //console.log("d: ",d.name);
             if (d.depth === 0){return "#FFFFFF";}        //Root
