@@ -1,8 +1,8 @@
 .contract-sunburst {
  #sunburst > circle {
     fill: none;
-    stroke: black;
-    stroke-width: 1px;
+    stroke: #000000;
+    stroke-width: 2px;
     pointer-events: all;
     cursor: pointer;
   }
