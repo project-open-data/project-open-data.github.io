@@ -3,9 +3,14 @@
 		font-size: 1.75rem;
 		color: #525252;
 		font-style:italic;
+		padding-left: 20px;
+	}
+	& .row.mt-0{
+		margin-left:0;
+		margin-right:0;
 	}
 	#axis-label{
-		margin-right: 76px;
+		margin-right: 30px;
 		& .col-md-6{
 			padding:3px;
 			& h6{
