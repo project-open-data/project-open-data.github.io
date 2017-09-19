@@ -77,6 +77,10 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
     d3.json('/data-lab-data/Recip_Details.json',function(error,details){
       d3.csv('/data-lab-data/others.csv',function(error,other){
 
+        //new
+        spinner.stop();
+        //
+        
         console.log("Hierarchy: ",newData);
         console.log("recip: ",recip);
         console.log("details: ",details);
