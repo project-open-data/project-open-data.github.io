@@ -515,6 +515,12 @@ a.list-group-item {
             background-position: 5px 5px;
         }
     }
+    & p.subheading {
+            font-size: 1.75rem;
+            color: #525252;
+            font-style: italic;
+            text-align:center;
+          }
 }
 
 /***** Sunburst page *****/
