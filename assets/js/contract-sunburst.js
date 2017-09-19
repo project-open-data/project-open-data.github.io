@@ -62,7 +62,7 @@ var opts = {
 //
 
 // new
-var target = document.getElementById("sunburst");
+var target = document.getElementByClass("container contract-sunburst");
 //
 
 // new
