@@ -1,4 +1,9 @@
 .contract-sunburst {
+  & p.subheading {
+		font-size: 1.75rem;
+		color: #525252;
+		font-style:italic;
+	}
  #sunburst > circle {
     fill: none;
     stroke: #000000;
@@ -6,7 +11,7 @@
     pointer-events: all;
     cursor: pointer;
   }
- 
+
   #sunburst > svg > g > path {
     stroke: #fff;
     stroke-width:.4px;
