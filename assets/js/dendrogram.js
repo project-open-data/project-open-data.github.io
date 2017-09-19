@@ -438,10 +438,10 @@ function change() {
               return d.children || d._children ? -10 : 10;
           })
           .attr("text-anchor", function(d) {
-              return d.children || d._children ? "start" : "start";
+              return d.children || d._children ? "end" : "start";
           })
           .attr("alignment-baseline",function(d) {
-              return d.children || d._children ? "hanging" : "baseline";
+              return d.children || d._children ? "baseline" : "baseline";
           })
           .style("font-weight","900")
           .text(function(d) {
