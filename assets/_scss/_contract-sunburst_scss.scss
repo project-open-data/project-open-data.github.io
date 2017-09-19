@@ -1,17 +1,16 @@
 .contract-sunburst {
-  .circle {
+ #sunburst > .circle {
     fill: none;
     stroke: black;
-    stroke-width: 2px;
+    stroke-width: 1px;
     pointer-events: all;
-  }
-  .circle,
-  .path {
     cursor: pointer;
   }
-  .path {
+ 
+  #sunburst > .path {
     stroke: #fff;
-    stroke-width:2px;
+    stroke-width:1px;
+     cursor: pointer;
   }
   .body{
     background-color: #FFFFFF;
