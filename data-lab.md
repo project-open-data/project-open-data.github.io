@@ -25,9 +25,10 @@ page: data-lab
         <div class="col-md-6">
           <div class="panel panel-default short-col">
             <div class="panel-body" style="min-height:278.86px">
-              <a href="{{site.baseurl}}/data-lab/budget-sankey/"><img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_XL.png" class="img-responsive">
-              <h5 style="padding-bottom:10px; margin-bottom:0; text-align:center; color: #525252">Connecting Budget Function to Object Class</h5></a>
-              <p class="subheading">Exploring "the what" and "the why" of government spending</p>
+              <a href="{{site.baseurl}}/data-lab/federal-accounts/">
+              <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_XL.png" class="img-responsive">
+              <h5 style="padding-bottom:10px; margin-bottom:0; text-align:center; color: #525252">Federal Spending Accounts</h5></a>
+              <p class="subheading">See an all-in-one view of the accounts used to pay the government’s bills</p>
             </div>
           </div>
         </div>
@@ -35,9 +36,9 @@ page: data-lab
         <div class="col-md-6">
           <div class="panel panel-default tall-col">
             <div class="panel-body" style="min-height:278.86px">
-              <a href="{{site.baseurl}}/data-lab/federal-accounts/"><img src="{{ site.baseurl }}/assets/img/DataLab_Arc_XL.png" class="img-responsive">
-              <h5 style="padding-bottom:10px; margin-bottom:0; text-align:center; color: #525252">Federal Account Explorer</h5></a>
-              <p class="subheading">See an all-in-one view of federal accounts</p>
+              <a href="{{site.baseurl}}/data-lab/contract-sunburst/"><img src="{{ site.baseurl }}/assets/img/DataLab_Arc_XL.png" class="img-responsive">
+              <h5 style="padding-bottom:10px; margin-bottom:0; text-align:center; color: #525252">Government Contractors</h5></a>
+              <p class="subheading">Explore federal agencies and their contractors</p>
             </div>
           </div>
         </div>
@@ -51,9 +52,9 @@ page: data-lab
       <div class="col-md-6">
         <div class="panel panel-default short-col">
           <div class="panel-body" style="min-height:278.86px">
-            <a href="{{site.baseurl}}/data-lab/contract-sunburst/"><img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard_XL.png" class="img-responsive">
-            <h5 style="padding:10px; margin-bottom:0px; text-align:center; color: #525252">Contract Explorer</h5></a>
-            <p class="subheading">Explore federal agencies and their contracts</p>
+            <a href="{{site.baseurl}}/data-lab/budget-sankey/"><img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard_XL.png" class="img-responsive">
+            <h5 style="padding-bottom:10px; margin-bottom:0px; text-align:center; color: #525252">“The what” and “the why” of government spending</h5></a>
+            <p class="subheading">Connecting Object Class and Budget Function</p>
           </div>
         </div>
       </div>
@@ -92,10 +93,10 @@ page: data-lab
 
           <div class="panel-body">
             <p>The Data Lab at USAspending.gov has collected a number of resources to make it easier to conduct analysis and develop tools using federal spending data.</p>
-            <div><a href="[insert website url]"><strong>Analytics user guide ></strong></a></div>
-            <div><a href="[insert website url]"><strong>Data Dictionary > </strong></a></div>
-            <div><a href="[insert website url]"><strong>Code to extract data from APIs ></strong></a></div>
-            <div><a href="[insert website url]"><strong>Data Lab Github repository ></strong></a></div>
+            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/User_Guide"><strong>Analytics user guide ></strong></a></div>
+            <div><a href="{{site.baseurl}}/dictionary/"><strong>Data Dictionary > </strong></a></div>
+            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/USAspending_API"><strong>Code to extract data from APIs ></strong></a></div>
+            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website"><strong>Data Lab GitHub repository ></strong></a></div>
           </div>
 
         </div>
@@ -111,18 +112,15 @@ page: data-lab
                 <img src="{{ site.baseurl }}/assets/img/DataLab_Community_Icon.png" class="img-responsive" style="min-height:55.63px">
               </div>
               <div class="col-sm-8">
-                 <h3>Community</h3>
+                 <h3>More Projects</h3>
               </div>
             </div>
           </div>
 
           <div class="panel-body">
-            <p>Treasury is not the only place where analysis of federal spending data is taking place. This list includes a sampling of projects from other stakeholders looking for insights into spending data.</p>
-            <div><a href="[insert website url]"><strong>Partnership with Connecticut ></strong></a></div>
-            <div><a href="[insert website url]"><strong>Syracuse University Pilot ></strong></a></div>
-            <div><a href="[insert website url]"><strong>Opportunity Project ></strong></a></div>
-            <div><a href="[insert website url]"><strong>Data.world projects ></strong></a></div>
-            <div><a href="[insert website url]"><strong>Hackathon presentations ></strong></a></div>
+            <p>This is the growing list of new projects from other stakeholders looking for insights into federal spending data.</p>
+            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/Connecticut_Partnership"><strong>Partnership with Connecticut ></strong></a></div>
+            <div><a href="https://data.world/usaspending"><strong>Data.world projects ></strong></a></div>
           </div>
 
         </div>
@@ -137,7 +135,7 @@ page: data-lab
                 <img src="{{ site.baseurl }}/assets/img/DataLab_Chat_Icon.png" class="img-responsive" style="min-height:55.63px">
               </div>
               <div class="col-sm-8">
-                <h3>Care to Share? We're Listening.</h3>
+                <a href="https://airtable.com/shrNO3BREEFIhUhdz/embed"><h3>Care to Share? We're Listening.</h3></a>
               </div>
             </div>
           </div>
