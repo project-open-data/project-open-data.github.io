@@ -7,38 +7,43 @@ title: Contract Sunburst
 page: contract-sunburst
 ---
 <div id="burst_container";style="height:100%; padding:0; margin:0">
-  <h2>Contract Explorer</h2>
-  <p class="subheading">Explore 122,452 federal contracts</p>
-  <p>Ever wonder who’s getting federal contracts, and what agencies are awarding them? This data visualization tool allows you to see to whom federal contracts are being awarded and what product or services they are being awarded for. Selecting each layer of this chart provides an additional level of detail, starting from major agency to any associated sub-agencies, and to the contractors that receive funding from the federal government. <strong>How to use this tool:</strong> Click the inner rings to begin exploring agencies, their offices, and largest contractors. </p>
-
-  <div class="col-md-6" style="padding: 0px">
-    <div id="sunburst-panel"></div>
+  <div class="row mt-0">
+    <h2 style="margin-bottom:10px">Contract Explorer</h2>
+    <p class="subheading">Explore 122,452 federal contracts</p>
+    <p>Ever wonder who’s getting federal contracts, and what agencies are awarding them? This data visualization tool allows you to see to whom federal contracts are being awarded and what product or services they are being awarded for. Selecting each layer of this chart provides an additional level of detail, starting from major agency to any associated sub-agencies, and to the contractors that receive funding from the federal government. <strong>How to use this tool:</strong> Click the inner rings to begin exploring agencies, their offices, and largest contractors. </p>
   </div>
-
-  <div class="col-md-6" style="padding: 0px">
-    <div id="sunburst">
-      <div id="circ"></div>
+  <div class="row mt-0">
+    <div class="col-md-6" style="padding: 0px">
+      <div id="sunburst-panel"></div>
     </div>
-    <div style="background-color:#d6d7d9">
-      <div style="background-color: #ffffff; padding: 6px">
-        <div class="col-md-6" style="padding-left:0; padding-right:0">
-          <div id="legend_colorKey">
-            <div style="left:65px;top:14px;width:70px;" class="legend_circleKeyLabel"><span style="left:75px;">Contractor</span></div>
-            <div style="left:65px;top:25px;" class="legend_circleKeyLabel"><span style="left:75px;">Funding Subagency</span></div>
-            <div style="left:65px;top:36px;" class="legend_circleKeyLabel"><span style="left:75px;">Funding Agency</span></div>
-            <div style="left:65px;top:65px;" class="legend_circleKeyLabel"><span style="left:75px;">2017 Q2 Total Contracts</span></div>
-            <svg id="legend_scaleKey"></svg>
+
+    <div class="col-md-6" style="padding: 0px; height:100%">
+      <div id="sunburst">
+        <div id="circ"></div>
+      </div>
+      <div style="background-color:#d6d7d9">
+        <div style="background-color: #ffffff; padding: 6px">
+          <div class="col-md-6" style="padding-left:0; padding-right:0">
+            <div id="legend_colorKey">
+              <div style="left:65px;top:14px;width:70px;" class="legend_circleKeyLabel"><span style="left:75px;">Contractor</span></div>
+              <div style="left:65px;top:25px;" class="legend_circleKeyLabel"><span style="left:75px;">Funding Subagency</span></div>
+              <div style="left:65px;top:36px;" class="legend_circleKeyLabel"><span style="left:75px;">Funding Agency</span></div>
+              <div style="left:65px;top:65px;" class="legend_circleKeyLabel"><span style="left:75px;">2017 Q2 Total Contracts</span></div>
+              <svg id="legend_scaleKey"></svg>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6" style="padding:0">
-          <h5><i>Click the Center Node to Return to a Higher Level of Abstraction</i></h5>
+          <div class="col-md-6" style="padding:0">
+            <h5><i>Click the Center Node to Return to a Higher Level of Abstraction</i></h5>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div>
-    <h5 style="margin-bottom:1.3rem">How the Analysis was conducted</h5>
-    <p>[Insert Text]</p>
+  <div class="row mt-0">
+    <div>
+      <h5 style="margin-bottom:1.3rem">How the Analysis was conducted</h5>
+      <p>[Insert Text]</p>
+    </div>
   </div>
 </div>
 <!-- d3 -->
