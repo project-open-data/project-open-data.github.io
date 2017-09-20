@@ -202,9 +202,10 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
 
             }else if (d.depth === 3 && d.name != "Other"){
               // Contractors
-              $("#sunburst-panel").empty();
+              //$("#sunburst-panel").empty();
               for(var i=0; i<details.length; i++){
                 if(d.name === details[i].name){
+                  $("#sunburst-panel").empty(); //new
                   legend.append("div") //new
                     .attr("id","tab") //new
                     .attr("height",169) //new
