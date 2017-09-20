@@ -6,25 +6,25 @@ filename: dendrogram.md
 Title: Federal Accounts
 page: dendrogram
 ---
-  <h2 style="margin-bottom:10px">Federal Account Explorer</h2>
-  <p class="subheading">See an all-in-one view of federal accounts</p>
-  <p>Did you know that the government has almost 2,000 “accounts,” similar to bank accounts, which it uses to spend money? This visualization allows you to explore those accounts and which agencies they are associated with.</p>
-  <div style="margin-top:10px">
-    <div class="col-md-3">
-      <div id="button_holder">
-        <input type="button" name="xAxis" class="button" value="Reset Tree">
-      </div>
-    </div>
-    <div>
-      <div class="col-md-9">
-        <h6 style="margin-bottom: 10px; padding-bottom: 0px; margin-top:0; padding-top:0">How to use this tool:</h6>
-        <p style="margin-top:0; padding-top:0px">Click any circle to expand and reveal an agency’s structure. Continue to click to see federal accounts, and the level of spending associated with each account. Click and drag the visualization to re-center.</p>
-      </div>
+  <h2 style="margin-bottom:10px">Federal Spending Accounts</h2>
+  <p class="subheading">See an all-in-one view of the accounts used to pay the government’s bills</p>
+  <div class="col-md-8" style="margin-left:0; padding-left:0; padding-right:30px">
+    <p>Did you know that the government has almost 2,000 “accounts,” similar to bank accounts, which it uses to spend money? This visualization allows you to explore those accounts and which agencies they are associated with.</p>
+    <div id="button_holder">
+      <input type="button" name="xAxis" class="button" value="Reset Tree">
     </div>
   </div>
+  <div class="col-md-4" style="padding-left:0; padding-right:2">
+    <div style="border-color:#d6d7d9; border-width: 1px; border-style: solid; padding:10px; margin-bottom:40px">
+      <h6 style="margin-top:0; margin-bottom:5px">How to use this tool:</h6>
+      <p style="margin-bottom:0">Click any circle to expand and reveal an agency’s structure. Continue to click to see federal accounts, and the level of spending associated with each account. Click and drag the visualization to re-center.</p>
+    </div>
+  </div>
+
   <div id="tree-container"></div>
   <div>
-    <h5 style= "margin-top:26px" >References</h5>
+    <h5 style= "margin-top:26px; margin-bottom:1.3rem">How the Analysis was conducted</h5>
+    <p>This analysis was conducted by organizing spending data reported to USAspending.gov according to the structure of the federal government presented in government-wide budget documents. To accomplish this, federal accounts were matched with the Office of Management and Budget's Master Account File, which contains Treasury accounts and their corresponding agency, as presented in the government-wide budget. This structure was matched to federal account obligations data reported by agencies to show both the size and relationships of agencies and accounts.</p>
   </div>
 <!-- d3 -->
 <script src="{{site.baseurl}}/assets/js/vendor/d3.v3.min.js"></script>
