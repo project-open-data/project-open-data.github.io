@@ -26,7 +26,7 @@ page: data-lab
           <div class="panel panel-default short-col">
             <div class="panel-body" style="min-height:278.86px">
               <a href="{{site.baseurl}}/data-lab/federal-accounts/">
-              <img src="{{ site.baseurl }}/assets/img/DataLab_Capitol_XL.png" class="img-responsive">
+              <img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_federal-accounts.png" class="img-responsive">
               <h5 style="padding-bottom:10px; margin-bottom:0; text-align:center; color: #525252">Federal Spending Accounts</h5></a>
               <p class="subheading">See an all-in-one view of the accounts used to pay the government’s bills</p>
             </div>
@@ -36,7 +36,7 @@ page: data-lab
         <div class="col-md-6">
           <div class="panel panel-default tall-col">
             <div class="panel-body" style="min-height:278.86px">
-              <a href="{{site.baseurl}}/data-lab/contract-sunburst/"><img src="{{ site.baseurl }}/assets/img/DataLab_Arc_XL.png" class="img-responsive">
+              <a href="{{site.baseurl}}/data-lab/contract-sunburst/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_contract-sunburst.png" class="img-responsive">
               <h5 style="padding-bottom:10px; margin-bottom:0; text-align:center; color: #525252">Government Contractors</h5></a>
               <p class="subheading">Explore federal agencies and their contractors</p>
             </div>
@@ -52,7 +52,7 @@ page: data-lab
       <div class="col-md-6">
         <div class="panel panel-default short-col">
           <div class="panel-body" style="min-height:278.86px">
-            <a href="{{site.baseurl}}/data-lab/budget-sankey/"><img src="{{ site.baseurl }}/assets/img/DataLab_Keyboard_XL.png" class="img-responsive">
+            <a href="{{site.baseurl}}/data-lab/budget-sankey/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_budget-sankey.png" class="img-responsive">
             <h5 style="padding-bottom:10px; margin-bottom:0px; text-align:center; color: #525252">“The what” and “the why” of government spending</h5></a>
             <p class="subheading">Connecting Object Class and Budget Function</p>
           </div>
@@ -62,7 +62,7 @@ page: data-lab
       <div class="col-md-6">
         <div class="panel panel-default tall-col">
           <div class="panel-body" style="min-height:278.86px">
-            <a href="{{site.baseurl}}/data-lab/fedscope-tool/"><img src="{{ site.baseurl }}/assets/img/DataLab_Tower_XL.png" class="img-responsive" style="alighn:center">
+            <a href="{{site.baseurl}}/data-lab/fedscope-tool/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_fedscope-tool.png" class="img-responsive" style="alighn:center">
             <h5 style="padding-bottom:10px; margin-bottom:0; text-align:center; color: #525252">Federal Staffing Snapshot</h5></a>
             <p class="subheading">Explore federal occupations across the United States</p>
           </div>
