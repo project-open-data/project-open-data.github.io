@@ -207,6 +207,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
               for(var i=0; i<details.length; i++){
                 if(d.name === details[i].name){
                   $("#sunburst-panel").empty(); //new
+                  $("#disclaimer").empty();
                   legend.append("div") //new
                     .attr("id","tab") //new
                     .attr("height",169) //new
