@@ -36,7 +36,7 @@ page: data-lab
         <div class="col-md-6">
           <div class="panel panel-default tall-col">
             <div class="panel-body" style="min-height:278.86px">
-              <a href="{{site.baseurl}}/data-lab/contract-sunburst/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_contract-sunburst.png" class="img-responsive">
+              <a href="{{site.baseurl}}/data-lab/contract-sunburst/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_budget-sankey.png" class="img-responsive">
               <h5 style="padding-bottom:10px; margin-bottom:0; text-align:center; color: #525252">Government Contractors</h5></a>
               <p class="subheading">Explore federal agencies and their contractors</p>
             </div>
@@ -52,7 +52,7 @@ page: data-lab
       <div class="col-md-6">
         <div class="panel panel-default short-col">
           <div class="panel-body" style="min-height:278.86px">
-            <a href="{{site.baseurl}}/data-lab/budget-sankey/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_budget-sankey.png" class="img-responsive">
+            <a href="{{site.baseurl}}/data-lab/budget-sankey/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_contract-sunburst.png" class="img-responsive">
             <h5 style="padding-bottom:10px; margin-bottom:0px; text-align:center; color: #525252">“The what” and “the why” of government spending</h5></a>
             <p class="subheading">Connecting Object Class and Budget Function</p>
           </div>
@@ -70,8 +70,8 @@ page: data-lab
       </div>
 
     </div>
+    <p style="text-align:center; margin-bottom:0">Please continue to check back, as new analyses are coming soon!</p>
   </div>
-
   <!--narrow righthand column-->
   <div class="col-md-4" style="padding-left:40px; padding-top:0px; padding-right=10px; padding-bottom:0px">
     <div class="panel-container">
@@ -135,7 +135,7 @@ page: data-lab
                 <img src="{{ site.baseurl }}/assets/img/DataLab_Chat_Icon.png" class="img-responsive" style="min-height:55.63px">
               </div>
               <div class="col-sm-8">
-                <a href="https://airtable.com/shrNO3BREEFIhUhdz/embed"><h3>Care to Share? We're Listening.</h3></a>
+                <a href="https://airtable.com/shrNO3BREEFIhUhdz"><h3>Care to Share? We're Listening.</h3></a>
               </div>
             </div>
           </div>
