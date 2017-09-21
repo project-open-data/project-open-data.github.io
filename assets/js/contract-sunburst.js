@@ -337,6 +337,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
 
           function remove_legend(d){
              legend.transition().duration(1000).style("opacity","1");
+             disclaim.transition().duration(1000).style("opacity","1");
            }
 
       });
