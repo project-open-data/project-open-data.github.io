@@ -45,10 +45,7 @@ page: budget-sankey
 <div class="row mt-0">
 	<div id="references">
 		<h5> How the Analysis
-		<p><strong>References</strog></p>
-		<p>End point(s) used: TAS Categories</p>
-		<p>From this endpoint, the fields: obligations_incurred_by_program_object_class_cpe, object_class.major_object_class_name, and treasury_account.budget_function_title are grouped and aggregated. </p>
-		<p>The twenty official congressional budget functions are rolled up into sixteen budget function categories. Smaller budget functions are combined with others with similar missions. The five major object classes are broken down into eleven more specific classes, to provide descriptive and meaningful information than major object class categories alone. Information on object classes are available here.</p>
+		<p>This analysis was conducted using agency account obligation data reported to USAspending.gov, which is available to the public. Each reported account is aligned to a single Budget Function and is further broken out by the dollars obligated under each Object Class (data can be found via the tas/categories endpoint within the DATA Act API). Summarizing across all agency accounts can provide the total dollars obligated under each unique combination of a Budget Function and an Object Class which populates the visualization above.</p>
 	</div>
 </div>
 <!-- d3 -->
