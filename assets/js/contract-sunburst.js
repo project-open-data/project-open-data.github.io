@@ -249,9 +249,9 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
                 }}
                 
               $("#disclaimer").remove();
-               legend.append("div")
+              /* legend.append("div")
                       .attr("id","disclaimer")
-                      .html("<p>"+"Note: The total amount represents the dollar value awarded during the period, including adjustments made by contract modifications. Downward adjustments in contract value are not depicted with icons in this alpha release, so icons may not always sum to the top level amount."+"</p>");
+                      .html("<p>"+"Note: The total amount represents the dollar value awarded during the period, including adjustments made by contract modifications. Downward adjustments in contract value are not depicted with icons in this alpha release, so icons may not always sum to the top level amount."+"</p>");*/
          
             }else if(d.depth === 3 && d.name == "Other"){
               $("#sunburst-panel").empty();
