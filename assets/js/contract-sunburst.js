@@ -204,7 +204,6 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
 
             }else if (d.depth === 3 && d.name != "Other"){
               // Contractors
-              //$("#sunburst-panel").empty();
               for(var i=0; i<details.length; i++){
                 if(d.name === details[i].name){
                   $("#sunburst-panel").empty(); //new
@@ -247,11 +246,13 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
                             +"<tr>"+"<td class='val'>"+formatNumber(recip[q].Obligation)+"</td>"+"</tr>"+"</table>");
                       
                       }}
-                      //$("#disclaimer").empty();
+                      
+                }}
+                $("#disclaimer").empty();
                       disclaim.append("div")
                             .attr("id","disclaimer")
                             .html("<p>"+"Note: The total amount represents the dollar value awarded during the period, including adjustments made by contract modifications. Downward adjustments in contract value are not depicted with icons in this alpha release, so icons may not always sum to the top level amount."+"</p>");
-                    }}
+         
             }else if(d.depth === 3 && d.name == "Other"){
               $("#sunburst-panel").empty();
               $("#disclaimer").empty();
