@@ -150,7 +150,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
         }
 
         var legend = d3.select("#sunburst-panel");
-        var disclaim = d3.select("#sunburst");
+        var disclaim = d3.select("#disclaim");
         
         function intialize_legend(d){
           $("#sunburst-panel").empty();
@@ -243,13 +243,13 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
                             .attr("height",10)
                             .attr("width",50)
                             .html("<table class ='icon_x'>"
-                            +"<tr>"+"<td class='val'>"+formatNumber(recip[q].Obligation)+"</td>"+"</tr>"+"</table>");
-                      
+                            +"<tr>"+"<td class='val'>"+formatNumber(recip[q].Obligation)+"</td>"+"</tr>"+"</table>");  
                       }}
                       
                 }}
-                $("#disclaimer").remove();
-                disclaim.append("div")
+                
+              $("#disclaimer").remove();
+               legend.append("div")
                       .attr("id","disclaimer")
                       .html("<p>"+"Note: The total amount represents the dollar value awarded during the period, including adjustments made by contract modifications. Downward adjustments in contract value are not depicted with icons in this alpha release, so icons may not always sum to the top level amount."+"</p>");
          
