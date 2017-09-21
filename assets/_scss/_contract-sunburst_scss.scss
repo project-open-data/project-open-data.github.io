@@ -209,10 +209,11 @@
     height:15px;
   }
   #disclaimer{
+   height:200px;
    width:465px;
-   margin-top:30px;
-   position:absolute;
-   bottom:10px;
+   min-width:465px;
+   font-size:.6em;
+   margin-top:60px;
   }
   #psc{
     margin-top: 15px;
