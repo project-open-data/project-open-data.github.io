@@ -209,12 +209,15 @@
   #psc_panel > div > table{
     height:15px;
   }
+  #disclaim{
+   height:100%;
+  }
   #disclaimer{
    position:relative;
    height:200px;
    min-width:465px;
    font-size:.3em;
-   margin-top:60%;
+   /*margin-top:60%;*/
   }
   #psc{
     margin-top: 15px;
