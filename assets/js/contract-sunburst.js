@@ -181,7 +181,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
             // Create central node panel --- Top 10 Agencies
             if (d.depth === 0){
               $("#sunburst-panel").empty();
-              $("#disclaimer").empty();
+              $("#disclaim").empty();
               legend.append("div")
                 .attr("id","tab")
                 .attr("height",169)
@@ -208,7 +208,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
               for(var i=0; i<details.length; i++){
                 if(d.name === details[i].name){
                   $("#sunburst-panel").empty(); //new
-                  $("#disclaimer").empty();
+                  $("#disclaim").empty();
                   legend.append("div") //new
                     .attr("id","tab") //new
                     .attr("height",169) //new
@@ -254,7 +254,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
                     }}
             }else if(d.depth === 3 && d.name == "Other"){
               $("#sunburst-panel").empty();
-              $("#disclaimer").empty();
+              $("#disclaim").empty();
               //Contractors < $1,000,000
               legend.append("div")
                 .attr("id","tab")
@@ -281,7 +281,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
             }else if(d.depth === 1){
               //Agencies
                 $("#sunburst-panel").empty();
-                $("#disclaimer").empty();
+                $("#disclaim").empty();
                 legend.append("div")
                   .attr("id","tab")
                   .attr("height",169)
@@ -308,7 +308,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
             }else{
               //Subagencies
                 $("#sunburst-panel").empty();
-                $("#disclaimer").empty();
+                $("#disclaim").empty();
                 legend.append("div")
                   .attr("id","tab")
                   .attr("height",169)
@@ -336,8 +336,8 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
         }
 
           function remove_legend(d){
-             legend.transition().duration(1000).style("opacity","1");
-             disclaim.transition().duration(1000).style("opacity","1");
+             legend.transition().duration(1000).style("opacity","0");
+             disclaim.transition().duration(1000).style("opacity","0");
            }
 
       });
