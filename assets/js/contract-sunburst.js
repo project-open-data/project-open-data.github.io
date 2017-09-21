@@ -150,7 +150,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
         }
 
         var legend = d3.select("#sunburst-panel");
-        var diclaim = d3.select("#disclaim");
+        var disclaim = d3.select("#disclaim");
         
         function intialize_legend(d){
           $("#sunburst-panel").empty();
