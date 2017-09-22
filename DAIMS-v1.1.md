@@ -6,6 +6,8 @@ filename: DAIMS-v1.1.md
 title: DATA Act Information Model Schema v1.1
 page: DAIMS-v1.1
 ---
+# The Latest
+_September 22, 2017_: Treasury released the DATA Act Overview and Architecture documents. Please submit any questions or feedback to [Community](https://usaspending-help.zendesk.com/hc/en-us/community/topics/).
 
 # DATA Act Information Model Schema v1.1
 
@@ -14,6 +16,7 @@ _Released June 30, 2017_ – A core requirement of the DATA Act is the developme
 DAIMS gives an overall view of the hundreds of distinct data elements used to tell the story of how federal dollars are spent. It includes artifacts that provide technical guidance for federal agencies about what data to report to Treasury including the authoritative sources of the data elements and the submission format. The DAIMS also provides clarity on how the public can better understand the inherent complexity of the data.
 
 ##### DAIMS includes:
+ - **Overview and Architecture** – provides an overview of the data standard and its architecture.
  - **Information Flow** – provides an overview of the reporting timeframes and sources of the data included in the DAIMS across the federal enterprise.
  - **Reporting Submission Specification (RSS)** – includes a listing of the data elements with specific instructions for federal agencies to submit content in the appropriate format. The RSS is a human-readable version of the data standard.
  - **Interface Definition Document (IDD)** – contains a listing of the elements, with supporting metadata to understand what data will be pulled from government-wide systems for procurement and from agency financial assistance systems. The IDD is a human-readable version of the data standard for the award related content.
@@ -22,6 +25,10 @@ DAIMS gives an overall view of the hundreds of distinct data elements used to te
  - **DAIMS Diagrams** – display visual representations of how the data elements from the RSS and IDD fit together in context.
  - **Online Data Dictionary** – contains a comprehensive list of data elements with definitions and some associated metadata.
  - **XBRL Schema Files** – provide a machine-readable version of the data standards that include accounting-related and award-related content.
+
+## Overview and Architecture
+
+The [DAIMS Overview]("{{site.baseurl}}/assets/docs/DAIMS_Overview.pdf") describes the scope and value of the data standard. The [DAIMS Architecture]("{{site.baseurl}}/assets/docs/DAIMS_Architecture.pdf") details the data standard conceptual model, specifications, and schema management. The DAIMS architecture is designed to meet the needs of the business users and technical systems. It serves as the foundation for the DAIMS data standard. It is extensible through domain, component, element, and metadata. Additional descriptive content on the DAIMS architecture will be released as necessary. Please submit any questions or feedback to [Community](https://usaspending-help.zendesk.com/hc/en-us/community/topics).
 
 ## Information Flow
 
