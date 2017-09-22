@@ -28,7 +28,7 @@ DAIMS gives an overall view of the hundreds of distinct data elements used to te
 
 ## Overview and Architecture
 
-The [DAIMS Overview]("{{site.baseurl}}/assets/docs/DAIMS_Overview.pdf") describes the scope and value of the data standard. The [DAIMS Architecture]("{{site.baseurl}}/assets/docs/DAIMS_Architecture.pdf") details the data standard conceptual model, specifications, and schema management. The DAIMS architecture is designed to meet the needs of the business users and technical systems. It serves as the foundation for the DAIMS data standard. It is extensible through domain, component, element, and metadata. Additional descriptive content on the DAIMS architecture will be released as necessary. Please submit any questions or feedback to [Community](https://usaspending-help.zendesk.com/hc/en-us/community/topics).
+The [DAIMS Overview]({{site.baseurl}}/assets/docs/DAIMS_Overview.pdf) describes the scope and value of the data standard. The [DAIMS Architecture]({{site.baseurl}}/assets/docs/DAIMS_Architecture.pdf) details the data standard conceptual model, specifications, and schema management. The DAIMS architecture is designed to meet the needs of the business users and technical systems. It serves as the foundation for the DAIMS data standard. It is extensible through domain, component, element, and metadata. Additional descriptive content on the DAIMS architecture will be released as necessary. Please submit any questions or feedback to [Community](https://usaspending-help.zendesk.com/hc/en-us/community/topics).
 
 ## Information Flow
 
