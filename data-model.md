@@ -8,7 +8,7 @@ page: data-model
 redirect_from: "/data-exchange-standard/"
 ---
 # The Latest
-_September 22, 2017_: Treasury released the DATA Act Overview and Architecture documents. Please submit any questions or feedback to [Community](https://usaspending-help.zendesk.com/hc/en-us/community/topics/).
+_September 22, 2017_: Treasury released the DATA Act Overview and Architecture documents. Please submit any questions or feedback to [Community](https://usaspending-help.zendesk.com/hc/en-us/community/topics/){:target="_blank"}.
 
 _June 30, 2017_: Treasury released the DATA Act Information Model Schema (DAIMS) v1.1. DAIMS v1.1 is a minor update of the schema and will be implemented in fall 2017. Find out more information at [DAIMS v1.1](https://fedspendingtransparency.github.io/DAIMS-v1.1/).
 
@@ -29,7 +29,7 @@ DAIMS gives an overall view of the hundreds of distinct data elements used to te
 
 ## Overview and Architecture
 
-The [DAIMS Overview]({{site.baseurl}}/assets/docs/DAIMS_Overview.pdf) describes the scope and value of the data standard. The [DAIMS Architecture]({{site.baseurl}}/assets/docs/DAIMS_Architecture.pdf) details the data standard conceptual model, specifications, and schema management. The DAIMS architecture is designed to meet the needs of the business users and technical systems. It serves as the foundation for the DAIMS data standard. It is extensible through domain, component, element, and metadata. Additional descriptive content on the DAIMS architecture will be released as necessary. Please submit any questions or feedback to [Community](https://usaspending-help.zendesk.com/hc/en-us/community/topics).
+The [DAIMS Overview]({{site.baseurl}}/assets/docs/DAIMS_Overview.pdf){:target="_blank"} describes the scope and value of the data standard. The [DAIMS Architecture]({{site.baseurl}}/assets/docs/DAIMS_Architecture.pdf){:target="_blank"} details the data standard conceptual model, specifications, and schema management. The DAIMS architecture is designed to meet the needs of the business users and technical systems. It serves as the foundation for the DAIMS data standard. It is extensible through domain, component, element, and metadata. Additional descriptive content on the DAIMS architecture will be released as necessary. Please submit any questions or feedback to [Community](https://usaspending-help.zendesk.com/hc/en-us/community/topics){:target="_blank"}.
 
 ## Information Flow
 
