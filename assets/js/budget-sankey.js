@@ -97,8 +97,8 @@ d3.sankey = function() {
     function computeNodeValues() {
         nodes.forEach(function(node) {
             node.value = Math.max(
-                Math.abs(d3.sum(node.sourceLinks, value)),      // added Math.abs()
-                Math.abs(d3.sum(node.targetLinks, value))
+                d3.sum(node.sourceLinks, Math.abs(value)),      // added Math.abs()
+                d3.sum(node.targetLinks, Math.abs(value))
             );
         });
     }
@@ -171,7 +171,7 @@ d3.sankey = function() {
 
         function initializeNodeDepth() {
             var ky = d3.min(nodesByBreadth, function(nodes) {
-                return (size[1] - (nodes.length - 1) * nodePadding) / d3.sum(nodes, value);
+                return (size[1] - (nodes.length - 1) * nodePadding) / d3.sum(nodes, Math.abs(value));
             });
 
             nodesByBreadth.forEach(function(nodes) {
@@ -190,7 +190,7 @@ d3.sankey = function() {
             nodesByBreadth.forEach(function(nodes, breadth) {
                 nodes.forEach(function(node) {
                     if (node.targetLinks.length) {
-                        var y = d3.sum(node.targetLinks, weightedSource) / Math.abs(d3.sum(node.targetLinks, value));
+                        var y = d3.sum(node.targetLinks, weightedSource) / d3.sum(node.targetLinks, Math.abs(value));
                         // added Math.abs()
                         node.y += (y - center(node)) * alpha;
                     }
@@ -206,7 +206,7 @@ d3.sankey = function() {
             nodesByBreadth.slice().reverse().forEach(function(nodes) {
                 nodes.forEach(function(node) {
                     if (node.sourceLinks.length) {
-                        var y = d3.sum(node.sourceLinks, weightedTarget) / Math.abs(d3.sum(node.sourceLinks, value));
+                        var y = d3.sum(node.sourceLinks, weightedTarget) / d3.sum(node.sourceLinks, Math.abs(value));
                         // added Math.abs()
                         node.y += (y - center(node)) * alpha;
                     }
