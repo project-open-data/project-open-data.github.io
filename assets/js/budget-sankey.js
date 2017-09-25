@@ -320,10 +320,12 @@ var path = sankey.link();
 
 // load the data (using the timelyportfolio csv method)
 d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
-  d3.csv("/data-lab-data/sankey_panel.csv",function(error, s_panel){
-    d3.csv("/data-lab-data/descriptions.csv", function(error, descriptions) {
+ d3.csv("/data-lab-data/sankey_panel.csv",function(error, s_panel){
+  d3.csv("/data-lab-data/sankey_titles.csv",function(error, s_title){
+   d3.csv("/data-lab-data/descriptions.csv", function(error, descriptions) {
         console.log("data: ",data);
         console.log("s_panel: ",s_panel);
+        console.log("s_title: ",s_title);
 
         var legend = d3.select("#sankey-panel")
 
@@ -402,9 +404,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
                         return color[i].color;
                     }
                 }
-            })
-            .append("title")
-            .text(function(d) { return d.name + "\n" + format(d.value); });
+            });
 
         node.append("text")
             .attr("x", -6)
@@ -431,14 +431,16 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
             //console.log("NODE: ",node);
             //console.log("LINK: ",link);
 
+          for(var j=0; j < s_title.length; j++){
+              if(s_title[j].name===node.name){
             legend.append("div")
                 .attr("id","tab")
                 .attr("height",200)
                 .attr("width",500)
-                .html("<h1 class='panel_title'>"+node.name+"</h1>"+
-                    "<h3 class='panel_desc'>"+formatNumber(node.value)+
+                .html("<h1 class='panel_title'>"+s_title.name+"</h1>"+
+                    "<h3 class='panel_desc'>"+formatNumber(s_title.value)+
                     "<br />"+"</h3>");
-
+           }}
             for(var j=0; j < descriptions.length; j++){
                 if(descriptions[j].name===node.name){
                     legend.append("div")
@@ -576,7 +578,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
             d3.select("#link-"+id).style("stroke-opacity", .1);
         }
 
-
+      });
     });
   });
 });
