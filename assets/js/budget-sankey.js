@@ -155,7 +155,7 @@ d3.sankey = function() {
     function computeNodeDepths(iterations) {
         var nodesByBreadth = d3.nest()
             .key(function(d) { return d.x; })
-            .sortKeys(d3.descending)
+            .sortKeys(d3.ascending)
             .entries(nodes)
             .map(function(d) { return d.values; }); 
 
@@ -408,7 +408,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
 
         node.append("text")
             .attr("x", -6)
-            .attr("y", function(d) { return d.dy / 2; })
+            .attr("y", function(d) { return d.dy / 3; })
             .attr("dy", ".35em")
             .attr("text-anchor", "end")
             .attr("transform", null)
