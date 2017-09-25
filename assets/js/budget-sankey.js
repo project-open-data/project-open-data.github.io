@@ -157,7 +157,7 @@ d3.sankey = function() {
             .key(function(d) { return d.x; })
             .sortKeys(d3.ascending)
             .entries(nodes)
-            .map(function(d) { return Math.abs(d.values); }); // added Math.abs()
+            .map(function(d) { return d.values; }); 
 
         //
         initializeNodeDepth();
