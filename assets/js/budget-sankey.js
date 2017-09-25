@@ -320,9 +320,10 @@ var path = sankey.link();
 
 // load the data (using the timelyportfolio csv method)
 d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
-  d3.csv("/data-lab-data/sankey_panel.csv",function(error, panel){
+  d3.csv("/data-lab-data/sankey_panel.csv",function(error, s_panel){
     d3.csv("/data-lab-data/descriptions.csv", function(error, descriptions) {
-        console.log(data);
+        console.log("data: ",data);
+        console.log("s_panel: ",s_panel);
 
         var legend = d3.select("#sankey-panel")
 
@@ -457,34 +458,34 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
                 stroke_opacity = 0.3;
             }
 
-            for(var k=0; k < panel.length; k++){
+            for(var k=0; k < s_panel.length; k++){
                 //console.log(data[k]);
                 //console.log(node.name);
-                if(panel[k].target===node.name){
+                if(s_panel[k].target===node.name){
                     legend.append("div")
                         .attr("id","tab_2")
                         //.attr("height",50)
                         //.attr("width",500)
                         .style("margin-bottom","2px")
                         .html("<table class ='icon'>"
-                            +"<tr>"+"<td class='val'>"+formatNumber(panel[k].value)+"</td>"+"<td>"+"  "+"</td>"+
-                            "<td class='name'>"+panel[k].source+"</td>"+"</tr>"+
+                            +"<tr>"+"<td class='val'>"+formatNumber(s_panel[k].value)+"</td>"+"<td>"+"  "+"</td>"+
+                            "<td class='name'>"+s_panel[k].source+"</td>"+"</tr>"+
                             "</table>");
                 }
             }
 
-            for(var i=0; i < panel.length;i++){
+            for(var i=0; i < s_panel.length;i++){
                 //console.log(data[i]);
                 //console.log(node.name);
-                if(panel[i].source===node.name){
+                if(s_panel[i].source===node.name){
                     legend.append("div")
                         .attr("id","tab_2")
                         //.attr("height",50)
                         //.attr("width",500)
                         .style("margin-bottom","2px")
                         .html("<table class ='icon'>"
-                            +"<tr>"+"<td class='val'>"+formatNumber(panel[i].value)+"</td>"+"<td>"+"  "+"</td>"+
-                            "<td class='name'>"+panel[i].target+"</td>"+"</tr>"+
+                            +"<tr>"+"<td class='val'>"+formatNumber(s_panel[i].value)+"</td>"+"<td>"+"  "+"</td>"+
+                            "<td class='name'>"+s_panel[i].target+"</td>"+"</tr>"+
                             "</table>");
                 }
             }
