@@ -97,8 +97,8 @@ d3.sankey = function() {
     function computeNodeValues() {
         nodes.forEach(function(node) {
             node.value = Math.max(
-                Math.abs(d3.sum(node.sourceLinks, value)),      // added Math.abs()
-                Math.abs(d3.sum(node.targetLinks, value))
+                d3.sum(node.sourceLinks, value),      
+                d3.sum(node.targetLinks, value)
             );
         });
     }
@@ -320,6 +320,7 @@ var path = sankey.link();
 
 // load the data (using the timelyportfolio csv method)
 d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
+  d3.csv("/data-lab-data/sankey_panel.csv",function(error, panel){
     d3.csv("/data-lab-data/descriptions.csv", function(error, descriptions) {
         console.log(data);
 
@@ -456,34 +457,34 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
                 stroke_opacity = 0.3;
             }
 
-            for(var k=0; k < data.length; k++){
+            for(var k=0; k < panel.length; k++){
                 //console.log(data[k]);
                 //console.log(node.name);
-                if(data[k].target===node.name){
+                if(panel[k].target===node.name){
                     legend.append("div")
                         .attr("id","tab_2")
                         //.attr("height",50)
                         //.attr("width",500)
                         .style("margin-bottom","2px")
                         .html("<table class ='icon'>"
-                            +"<tr>"+"<td class='val'>"+formatNumber(data[k].value)+"</td>"+"<td>"+"  "+"</td>"+
-                            "<td class='name'>"+data[k].source+"</td>"+"</tr>"+
+                            +"<tr>"+"<td class='val'>"+formatNumber(panel[k].value)+"</td>"+"<td>"+"  "+"</td>"+
+                            "<td class='name'>"+panel[k].source+"</td>"+"</tr>"+
                             "</table>");
                 }
             }
 
-            for(var i=0; i < data.length;i++){
+            for(var i=0; i < panel.length;i++){
                 //console.log(data[i]);
                 //console.log(node.name);
-                if(data[i].source===node.name){
+                if(panel[i].source===node.name){
                     legend.append("div")
                         .attr("id","tab_2")
                         //.attr("height",50)
                         //.attr("width",500)
                         .style("margin-bottom","2px")
                         .html("<table class ='icon'>"
-                            +"<tr>"+"<td class='val'>"+formatNumber(data[i].value)+"</td>"+"<td>"+"  "+"</td>"+
-                            "<td class='name'>"+data[i].target+"</td>"+"</tr>"+
+                            +"<tr>"+"<td class='val'>"+formatNumber(panel[i].value)+"</td>"+"<td>"+"  "+"</td>"+
+                            "<td class='name'>"+panel[i].target+"</td>"+"</tr>"+
                             "</table>");
                 }
             }
@@ -576,4 +577,5 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
 
 
     });
+  });
 });
