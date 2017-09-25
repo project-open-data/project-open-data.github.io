@@ -364,7 +364,7 @@ function change() {
                .duration(700)
                .style("opacity", 1);
                div.text("Visit federal account page")
-               .style("left", (d3.event.pageX)-300 + "px")
+               .style("left", (d3.event.pageX)-340 + "px")
                .style("top", (d3.event.pageY)-570 + "px");
 
          } else if(d.depth===2 ){
