@@ -150,7 +150,6 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
         }
 
         var legend = d3.select("#sunburst-panel");
-        var disclaim = d3.select("#disclaim");
         
         function intialize_legend(d){
           $("#sunburst-panel").empty();
@@ -181,7 +180,6 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
             // Create central node panel --- Top 10 Agencies
             if (d.depth === 0){
               $("#sunburst-panel").empty();
-              $("#disclaimer").remove();
               legend.append("div")
                 .attr("id","tab")
                 .attr("height",169)
@@ -207,7 +205,6 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
               for(var i=0; i<details.length; i++){
                 if(d.name === details[i].name){
                   $("#sunburst-panel").empty(); //new
-                   $("#disclaimer").remove();
                   legend.append("div") //new
                     .attr("id","tab") //new
                     .attr("height",169) //new
@@ -244,18 +241,11 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
                             .attr("width",50)
                             .html("<table class ='icon_x'>"
                             +"<tr>"+"<td class='val'>"+formatNumber(recip[q].Obligation)+"</td>"+"</tr>"+"</table>");  
-                      }}
-                      
+                      }}    
                 }}
-                
-              $("#disclaimer").remove();
-              legend.append("div")
-                      .attr("id","disclaimer")
-                      .html("<p>"+"Note: The total amount represents the dollar value awarded during the period, including adjustments made by contract modifications. Downward adjustments in contract value are not depicted with icons in this alpha release, so icons may not always sum to the top level amount."+"</p>");
          
             }else if(d.depth === 3 && d.name == "Other"){
               $("#sunburst-panel").empty();
-              $("#disclaimer").remove();
               //Contractors < $1,000,000
               legend.append("div")
                 .attr("id","tab")
@@ -282,7 +272,6 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
             }else if(d.depth === 1){
               //Agencies
                 $("#sunburst-panel").empty();
-                $("#disclaimer").remove();
                 legend.append("div")
                   .attr("id","tab")
                   .attr("height",169)
@@ -309,7 +298,6 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
             }else{
               //Subagencies
                 $("#sunburst-panel").empty();
-                $("#disclaimer").remove();
                 legend.append("div")
                   .attr("id","tab")
                   .attr("height",169)
@@ -338,7 +326,6 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
 
           function remove_legend(d){
              legend.transition().duration(1000).style("opacity","1");
-             //disclaim.transition().duration(1000).style("opacity","1");
            }
 
       });
