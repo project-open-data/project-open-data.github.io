@@ -157,7 +157,7 @@ d3.sankey = function() {
             .key(function(d) { return d.x; })
             .sortKeys(d3.ascending)
             .entries(nodes)
-            .map(function(d) { return d.values; });
+            .map(function(d) { return Math.abs(d.values); }); // added Math.abs()
 
         //
         initializeNodeDepth();
@@ -190,7 +190,8 @@ d3.sankey = function() {
             nodesByBreadth.forEach(function(nodes, breadth) {
                 nodes.forEach(function(node) {
                     if (node.targetLinks.length) {
-                        var y = d3.sum(node.targetLinks, weightedSource) / d3.sum(node.targetLinks, value);
+                        var y = d3.sum(node.targetLinks, weightedSource) / Math.abs(d3.sum(node.targetLinks, value));
+                        // added Math.abs()
                         node.y += (y - center(node)) * alpha;
                     }
                 });
@@ -205,7 +206,8 @@ d3.sankey = function() {
             nodesByBreadth.slice().reverse().forEach(function(nodes) {
                 nodes.forEach(function(node) {
                     if (node.sourceLinks.length) {
-                        var y = d3.sum(node.sourceLinks, weightedTarget) / d3.sum(node.sourceLinks, value);
+                        var y = d3.sum(node.sourceLinks, weightedTarget) / Math.abs(d3.sum(node.sourceLinks, value));
+                        // added Math.abs()
                         node.y += (y - center(node)) * alpha;
                     }
                 });
@@ -285,7 +287,7 @@ d3.sankey = function() {
     }
 
     function value(link) {
-        return link.value;
+        return Math.abs(link.value);
     }
 
     return sankey;
