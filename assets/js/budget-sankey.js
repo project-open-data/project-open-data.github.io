@@ -431,16 +431,17 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
             //console.log("NODE: ",node);
             //console.log("LINK: ",link);
 
-          for(var j=0; j < s_title.length; j++){
+            for(var j=0; j < s_title.length; j++){
               if(s_title[j].name===node.name){
-            legend.append("div")
-                .attr("id","tab")
-                .attr("height",200)
-                .attr("width",500)
-                .html("<h1 class='panel_title'>"+s_title.name+"</h1>"+
-                    "<h3 class='panel_desc'>"+formatNumber(s_title.value)+
-                    "<br />"+"</h3>");
-           }}
+                legend.append("div")
+                    .attr("id","tab")
+                    .attr("height",200)
+                    .attr("width",500)
+                    .html("<h1 class='panel_title'>"+s_title[j].name+"</h1>"+
+                        "<h3 class='panel_desc'>"+formatNumber(s_title[j].value)+
+                        "<br />"+"</h3>");
+                }
+            }
             for(var j=0; j < descriptions.length; j++){
                 if(descriptions[j].name===node.name){
                     legend.append("div")
