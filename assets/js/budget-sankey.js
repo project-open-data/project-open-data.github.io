@@ -494,6 +494,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
             }
 
             legend.append("div")
+                .attr("id","tab_3")
                 .style("margin-top","10px")
                 .html("<table class ='icon'>"+"<tr>"+"<td>"+"Negative values are not included in the visualization."+"</td>"+"</tr>"+"</table>");
             
@@ -572,6 +573,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
             //d3.selectAll(".panel_desc").remove();
             d3.selectAll("#tab").remove();
             d3.selectAll("#tab_2").remove();
+            d3.selectAll("#tab_3").remove();
             d3.selectAll("#description").remove();
         }
 
