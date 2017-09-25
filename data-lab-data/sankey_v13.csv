@@ -1,15 +1,15 @@
 source,target,value
-Social Security,Insurance Claims And Indemnities,6.97509E+11
-Income Security,"Grants, Subsidies, And Contributions",5.17522E+11
-Medicare,Insurance Claims And Indemnities,5.06975E+11
-Net Interest,Interest And Dividends,3.82051E+11
-Health,"Grants, Subsidies, And Contributions",3.55684E+11
-General Government,Refunds,2.88931E+11
-National Defense,Personnel Compensation And Benefits,2.0076E+11
-Medicare,"Grants, Subsidies, And Contributions",1.93636E+11
-National Defense,"Advisory, R&D, Medical, And Other Contracts",1.36494E+11
-Income Security,Insurance Claims And Indemnities,1.34384E+11
-"Education, Training, Employment, And Social Services","Grants, Subsidies, And Contributions",1.00872E+11
+Social Security,Insurance Claims And Indemnities,6.98E+11
+Income Security,"Grants, Subsidies, And Contributions",5.18E+11
+Medicare,Insurance Claims And Indemnities,5.07E+11
+Net Interest,Interest And Dividends,3.82E+11
+Health,"Grants, Subsidies, And Contributions",3.56E+11
+General Government,Refunds,2.89E+11
+National Defense,Personnel Compensation And Benefits,2.01E+11
+Medicare,"Grants, Subsidies, And Contributions",1.94E+11
+National Defense,"Advisory, R&D, Medical, And Other Contracts",1.36E+11
+Income Security,Insurance Claims And Indemnities,1.34E+11
+"Education, Training, Employment, And Social Services","Grants, Subsidies, And Contributions",1.01E+11
 Medicare,Other,72753540117
 Veterans Benefits And Services,Insurance Claims And Indemnities,65749018701
 National Defense,Acquisition Of Assets,62561962161
@@ -155,14 +155,3 @@ International Affairs,Interest And Dividends,52248.91
 Water Transportation,Travel And Transportation,32000
 Medicare,Printing And Supplies,27952.08
 Medicare,Interest And Dividends,87
-Social Security,Interest And Dividends,-9.41
-Transportation,Refunds,-273980.5
-Natural Resources And Environment,Refunds,-43569241.37
-"Energy, Science, Space, And Technology",Other,-135496170.1
-International Affairs,Other,-485346485.2
-General Government,Other,-945653355.3
-"Regional Development, Commerce, And Housing",Other,-2675559198
-Health,Other,-3163411269
-Natural Resources And Environment,Other,-29881129207
-Agriculture,Other,-99190357892
-Income Security,Other,-2.24616E+11
