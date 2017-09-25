@@ -157,7 +157,7 @@ d3.sankey = function() {
             .key(function(d) { return d.x; })
             .sortKeys(d3.ascending)
             .entries(nodes)
-            .map(function(d) { return Math.abs(d.values); }); // added Math.abs()
+            .map(function(d) { return d.values; }); 
 
         //
         initializeNodeDepth();
@@ -171,7 +171,7 @@ d3.sankey = function() {
 
         function initializeNodeDepth() {
             var ky = d3.min(nodesByBreadth, function(nodes) {
-                return (size[1] - (nodes.length - 1) * nodePadding) / d3.sum(nodes, Math.abs(value));
+                return (size[1] - (nodes.length - 1) * nodePadding) / d3.sum(nodes, value);
             });
 
             nodesByBreadth.forEach(function(nodes) {
@@ -190,7 +190,7 @@ d3.sankey = function() {
             nodesByBreadth.forEach(function(nodes, breadth) {
                 nodes.forEach(function(node) {
                     if (node.targetLinks.length) {
-                        var y = d3.sum(node.targetLinks, weightedSource) / d3.sum(node.targetLinks, Math.abs(value));
+                        var y = d3.sum(node.targetLinks, weightedSource) / d3.sum(node.targetLinks, value);
                         // added Math.abs()
                         node.y += (y - center(node)) * alpha;
                     }
@@ -206,7 +206,7 @@ d3.sankey = function() {
             nodesByBreadth.slice().reverse().forEach(function(nodes) {
                 nodes.forEach(function(node) {
                     if (node.sourceLinks.length) {
-                        var y = d3.sum(node.sourceLinks, weightedTarget) / d3.sum(node.sourceLinks, Math.abs(value));
+                        var y = d3.sum(node.sourceLinks, weightedTarget) / d3.sum(node.sourceLinks, value);
                         // added Math.abs()
                         node.y += (y - center(node)) * alpha;
                     }
@@ -287,7 +287,7 @@ d3.sankey = function() {
     }
 
     function value(link) {
-        return Math.abs(link.value);
+        return link.value;
     }
 
     return sankey;
