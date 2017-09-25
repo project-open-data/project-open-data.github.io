@@ -12,12 +12,14 @@ page: data-lab
 </div>
 <div style="margin:0; padding:0">
   <!--wider column left side of page-->
+  <h2 class="mt-0" style="margin-bottom: 25px">Data Lab at USAspending.gov</h2>
+  <p>Welcome to the initial release of the Data Lab at USASpending.gov! The Data Lab is an initiative by the U.S. Department of the Treasury to create visualizations and analyses using federal spending data to help the public, researchers, government entities  and others understand, and use the data from USAspending.gov.</p>
+
   <div class="col-md-8" style="padding:15px">
   <!--top paragraph-->
-    <div class="row mt-10">
-      <h2 class="mt-0">Data Lab at USAspending.gov</h2>
+    <!--<div class="row mt-10">
       <p>Welcome to the initial release of the Data Lab at USASpending.gov! The Data Lab is an initiative by the U.S. Department of the Treasury to create visualizations and analyses using federal spending data to help the public, researchers, government entities  and others understand, and use the data from USAspending.gov.</p>
-    </div>
+    </div>-->
     <!--four panels-->
     <div class="row mt-20">
       <div class="panel-container; margin-left=0; padding-left=0">
@@ -73,7 +75,7 @@ page: data-lab
     <p style="text-align:center; margin-bottom:0">Please continue to check back, as new analyses are coming soon!</p>
   </div>
   <!--narrow righthand column-->
-  <div class="col-md-4" style="padding-left:40px; padding-top:0px; padding-right=10px; padding-bottom:0px">
+  <div class="col-md-4" style="padding-left:40px; padding-top:15px; padding-right=10px; padding-bottom:0px">
     <div class="panel-container">
 
       <!--Data Science Resources-->
