@@ -372,8 +372,8 @@ function change() {
                   .duration(700)
                   .style("opacity", 1);
                   div.text("View federal accounts")
-                  .style("left", (d3.event.pageX)-135 + "px")
-                  .style("top", (d3.event.pageY)-470 + "px");
+                  .style("left", (d3.event.pageX)-155 + "px")
+                  .style("top", (d3.event.pageY)-570 + "px");
 
           } else if(d.depth===1 ){
               div.transition()
