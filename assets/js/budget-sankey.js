@@ -493,6 +493,10 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
                 }
             }
 
+            legend.append("div")
+                .style("margin-top","10px")
+                .html("<table class ='icon'>"+"<tr>"+"<td>"+"Negative values are not included in the visualization."+"</td>"+"</tr>"+"</table>");
+            
             var traverse = [{
                 linkType : "sourceLinks",
                 nodeType : "target"
