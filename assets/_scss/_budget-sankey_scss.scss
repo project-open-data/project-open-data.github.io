@@ -1,0 +1,150 @@
+.budget-sankey {
+	& p.subheading {
+		font-size: 1.75rem;
+		color: #525252;
+		font-style:italic;
+	}
+	& .row.mt-0{
+		margin-left:0;
+		margin-right:0;
+	}
+	#axis-label{
+		margin-right: 30px;
+		& .col-md-6{
+			padding:3px;
+			& h6{
+				margin-bottom: 0px;
+				margin-top:0px;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+		}
+	}
+	#viz_container{
+		overflow: visible;
+		position: relative;
+		height: inherit;
+		margin-top:20px;
+	}
+	.node rect {
+		cursor: move;
+		fill-opacity: .9;
+		shape-rendering: crispEdges;
+	}
+	.node text {
+		pointer-events: none;
+		text-shadow: 0 1px 0 #fff;
+	}
+	.link {
+		fill: none;
+		stroke: #000;
+		stroke-opacity: .1;
+	}
+	#sankey-panel {
+		overflow: visible;
+		position: relative;
+		float: right;
+		text-align:left;
+		/*left:730px;
+		padding-right:20px;
+		padding-left:40px;*/
+		height: inherit;
+		margin-top: 0px;
+		margin-left:0px;
+		background-color: inherit;
+	}
+	.panel_desc{
+		margin-top: 10px;
+	}
+	#tab{
+		margin-top: -20px;
+		margin-bottom: 25px;
+	}
+
+	#tab_2 > table.icon{
+		margin-bottom: 3.5px;
+	}
+	#tab_2 > table > tbody > tr > td.val{
+		width: 116px;
+		height:15px;
+		overflow:visible;
+	}
+	#tab_2 > table > tbody > tr > td.name{
+		width: 270px;
+		height:15px;
+		overflow:visible;
+	}
+	#tab_2 {
+		/*height:40px;*/
+		width:385px;
+		margin-top:2px;
+		margin-bottom:-15px;
+	}
+	#sankey-panel h1 {
+		font-size: 2em;
+		font-style: inherit;
+		font-weight: lighter;
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 10px;
+		padding: 0;
+		color: #0071BC;
+		line-height:110%;
+		}
+	#sankey-panel h2 {
+		font-size: 2.1em;
+		font-style: inherit;
+		font-weight: ultra-light;
+		margin: 0;
+		padding: 0;
+		color: #666666;
+	}
+	#sankey-panel h3 {
+		font-size: 1.4em;
+		margin: 0;
+		padding: 0;
+		text-transform: capitalize;
+		/*font-variant:small-caps;*/
+		color: #555555;
+	}
+	#sankey-panel h4 {
+		font-size: 1.5em;
+		text-transform: capitalize;
+		/*font-variant:small-caps;*/
+		font-style: inherit;
+		color: #555555;
+	}
+	#sankey-panel p {
+		font-style: inherit;
+		font-size: .8em;
+		line-height: 110%;
+		/*margin-top: -3px;
+		text-transform: capitalize;
+		font-variant:small-caps;*/
+		color: #555555;
+	}
+	#tite_text {
+		margin-top: 10px;
+		width: 800px;
+	}
+	#tite_text > p.headline {
+		position: relative;
+		font-size: 2em;
+	}
+	#tite_text > p.body_text {
+		position: relative;
+		font-size: 1.1em;
+		margin-top: -15px;
+	}
+	#description > p.body_text {
+		position: relative;
+		font-size: 1.1em;
+		margin-top: -15px;
+	}
+	#references{
+		.p {
+				margin-bottom: 1.5rem;
+		}
+	}
+}

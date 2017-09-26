@@ -1,0 +1,53 @@
+---
+published: true
+permalink: /data-lab/budget-sankey/
+layout: visualization
+filename: budget-sankey.html
+title: Budget Function and Object Class
+page: budget-sankey
+---
+<img src="{{site.baseurl}}/assets/img/BFS_DataLab_Alpha_icon.png" style="width: 50.5px; height: 19.5px; margin-top:3rem">
+<h2 style="margin-top:0; margin-bottom:10px">“The what” and “the why” of government spending </h2>
+<p class="subheading">Connecting Object Class and Budget Function (as of Q3 FY2017)</p>
+<div class="row mt-0">
+	<div class="col-md-8" style="margin-left:0; padding-left:0; padding-right:30px">
+		<p>Do you know what the government spends money on and why? Budget functions are categories that describe the purpose of federal spending, or “the why.” Object classes are categories that describe what goods and services were purchased, or “the what.”</p>
+	</div>
+	<div class="col-md-4" style="padding-left:0">
+		<div style="border-color:#d6d7d9; border-width: 1px; border-style: solid; padding:10px; margin-bottom:40px">
+			<h6 style="margin-top:0; margin-bottom:5px">How to use this tool:</h6>
+			<p style="margin-bottom:0">Hover over each color bar to highlight how each budget function relates to object class categories, and vice versa.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row mt-0">
+	<div class="col-md-7" style="padding:10px">
+		<div class="row mt-0">
+			<div id="axis-label">
+				<div class="col-md-6">
+					<h6>Budget Function:</h6>
+				</div>
+				<div class="col-md-6">
+					<h6 style="text-align:right">Object Class:</h6>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-0">
+			<div id="viz_container"></div>
+		</div>
+	</div>
+
+	<div class="col-md-5" style="padding:10px">
+		<div id="sankey-panel"></div>
+	</div>
+</div>
+<div class="row mt-0">
+	<div id="references">
+		<h5> How this analysis was conducted</h5>
+		<p>This analysis was conducted using agency account obligation data reported to USAspending.gov, which is available to the public. Each reported account is aligned to a single Budget Function and is further broken out by the dollars obligated under each Object Class (data can be found via the TAS/categories endpoint within the DATA Act API). Summarizing across all agency accounts can provide the total dollars obligated under each unique combination of Budget Function and Object Class which populates the visualization above.The data used in this tool was pulled as of September 22, 2017.</p>
+	</div>
+</div>
+<!-- d3 -->
+<script src="{{site.baseurl}}/assets/js/vendor/d3.v3.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/budget-sankey.js"></script>

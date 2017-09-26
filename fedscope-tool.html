@@ -1,0 +1,50 @@
+---
+published: true
+permalink: /data-lab/fedscope-tool/
+layout: hero
+filename: fedscope-tool.html
+title: Fedscope Tool
+page: fedscope-tool
+---
+<img src="{{site.baseurl}}/assets/img/BFS_DataLab_Alpha_icon.png" style="width: 50.5px; height: 19.5px; margin-top:3rem">
+<h2 style="margin-bottom:1.3rem; margin-top:0">Federal Staffing Snapshot</h2>
+<p>Connecting USAspending and federal employment data to visualize how personnel obligations across the federal government's budget translate to staffing across the government.</p>
+
+<div style="margin-top:3.5rem; margin-bottom:0px">
+  <h5 style="margin-bottom:1.3rem">How does agency spending on personnel compare?</h5>
+  <p style="margin-bottom:2rem">In the first two quarters of fiscal year 2017 (FY17), a total of $115 million dollars in personnel compensation was obligated by the largest 24 federal agencies (referred to as CFO Act Agencies*). Figure 1 shows how government-wide personnel compensation and benefits spending is distributed across these agencies, with the largest amount of personnel spending dedicated to the Department of Defense followed by the Department of Agriculture.</p>
+  <p style="margin-bottom: 0px"><i>Figure 1: Personnel Budgets Across Government</i></p>
+</div>
+
+<div>
+    <a href="https://plot.ly/~usaspending/31/?share_key=BUTicuy4T7cAsK6tsNUnEK" target="_blank" title="Personnel_Spending_Visualization" style="display: block; text-align: center;"><img src="https://plot.ly/~usaspending/31.png?share_key=BUTicuy4T7cAsK6tsNUnEK" alt="Personnel_Spending_Visualization" style="max-width: 100%;width: 900px;"  width="900" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="usaspending:31" sharekey-plotly="BUTicuy4T7cAsK6tsNUnEK?showlink=false" src="https://plot.ly/embed.js" async></script>
+</div>
+
+<div style="margin-bottom:0px">
+  <h5 style="margin-bottom:1.3rem">Where are employees located?</h5>
+  <p style="margin-bottom:2rem">CFO Act Agencies employ 1.9 million people across the nation, with the largest number of employees located in the District of Columbia, California, Virginia, Maryland, and Texas. Twenty three percent, or 407 thousand, CFO Act Agency employees are located in either the District of Columbia, Maryland, or Virginia.</p>
+  <p style="margin-bottom: 0px"><i>Figure 2: CFO Act Agency Employees by State</i></p>
+</div>
+
+<div>
+    <a href="https://plot.ly/~usaspending/17/?share_key=AkGIGL2zOeNaclHAZwq32l" target="_blank" title="Govwide_Choropleth" style="display: block; text-align: center;"><img src="https://plot.ly/~usaspending/17.png?share_key=AkGIGL2zOeNaclHAZwq32l" alt="Govwide_Choropleth" style="max-width: 100%;width: 750px;"  width="750" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="usaspending:17" sharekey-plotly="AkGIGL2zOeNaclHAZwq32l?showlink=false" src="https://plot.ly/embed.js" async></script>
+</div>
+
+<div style="margin-bottom:0px">
+  <h5 style="margin-bottom:1.3rem">What do employees do?</h5>
+  <p style="margin-bottom:2rem">Figure 3 illustrates how these agency’s employees include diverse types of employees. Government employees consisting of a mix of various type of staff across these agencies, including administrative, medical, legal, and engineering staff. This is shown by separating each agency’s workforce by occupational category, which groups related occupations by function. The largest proportion of employees across CFO Act agencies are employed in administrative and clerical, or medical, hospital, dental, and public health occupations.</p>
+  <p style="margin-bottom: 0px"><i>Figure 3: Government Employees by Occupation</i></p>
+</div>
+
+<div>
+  <img src="{{site.baseurl}}/assets/img/occupationtreemap.png" class="img-responsive" style="style:block;margin:auto">
+</div>
+
+<div style="margin-top:3.5rem; margin-bottom:0px">
+  <h5 style="margin-bottom:1.3rem">How this analysis was conducted:</h5>
+  <p style="margin-bottom:2rem">These analyses were conducted using federal agency obligations data reported to USAspending.gov, which is available to the public, and agency employment data made available by the Office of Personnel Management (OPM) at FedScope.OPM.gov. Personnel compensation obligations data for all CFO Act agencies were used to identify the cost of personnel compensation for each agency through the end of quarter two for the current fiscal year, 2017. This excludes any military compensation and benefits spending, such as housing allowances, health insurance, and retirement account contributions. FedScope employment data was used to verify the personnel data reported to USAspending by each CFO Act agency and evaluate the distribution of employees across the country. Employee location and occupational series data reflect the information made available by OPM in Fedscope as of March 2017. Employee information includes all full-time, and other than full-time employees reported to OPM, who were reported as being located within the United States.</p>
+  <p style="margin-bottom:2rem">* Chief Financial Officers (CFO) Act of 1993 established the CFO Council and the member agencies, more information on these agencies can be found here: https://cfo.gov/about/.</p>
+</div>
+<p><strong>Analysis Resources:</strong> <a href="https://www.Fedscope.opm.gov">Fedscope.opm.gov</a></p>

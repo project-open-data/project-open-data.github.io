@@ -1,0 +1,23 @@
+[
+  {"name": "The Judicial Branch", "color": "#0086c8"},
+  {"name": "Executive Office of the President", "color": "#00caec"},
+  {"name": "Department of Agriculture", "color": "#2869a4"},
+  {"name": "Department of the Interior", "color": "#aae1f4"},
+  {"name": "Department of State", "color": "#b5cdd4"},
+  {"name": "Department of Veterans Affairs", "color": "#416878"},
+  {"name": "Department of the Air Force", "color": "#ffa852"},
+  {"name": "Department of Transportation", "color": "#d8edf2"},
+  {"name": "Agency for International Development", "color": "#a4c9b1"},
+  {"name": "Department of Health and Human Services", "color": "#379451"},
+  {"name": "Department of Energy", "color": "#6e747e"},
+  {"name": "Appalachian Regional Commission", "color": "#024558"},
+  {"name": "Department of Justice", "color": "#bcbec2"},
+  {"name": "Department of the Navy", "color": "#fcdf92"},
+  {"name": "Department of the Army", "color": "#007faa"},
+  {"name": "Department of Defense", "color": "#58b177"},
+  {"name": "Environmental Protection Agency", "color": "#0f767f"},
+  {"name": "Corps of Engineers - Civil Works", "color": "#6b8a97"},
+  {"name": "Millenium Challenge Corporation", "color": "#414b57"},
+  {"name": "Department of Commerce", "color": "#ffd1a4"},
+  {"name": "Department of Housing and Urban Development", "color": "#007faa"}
+]

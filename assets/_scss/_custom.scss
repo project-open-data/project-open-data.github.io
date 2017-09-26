@@ -1,4 +1,10 @@
 @import './common';
+@import './budget-sankey_scss';
+@import './dendrogram_scss';
+@import './contract-sunburst_scss';
+@import './sankey_scss';
+@import './sunburst-2';
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -162,7 +168,7 @@ h2 + .row {
 
 
 .panel{
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .panel, .panel-heading {
@@ -296,7 +302,7 @@ a.list-group-item {
         top: 15px;
         left: 15px;
     }
-} 
+}
 
 .alert-success {
     background: #e7f4e4;
@@ -451,6 +457,85 @@ a.list-group-item {
     }
 }
 
+/***** Data-Lab *****/
+
+.data-lab {
+  & .usa-alert {
+        margin: 50px 0;
+    }
+    & .row p:last-child {
+        margin-bottom: 0;
+    }
+    @include media($x-small-screen) {
+    & .col-md-8 {
+            & p:last-child {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    & .panel-container {
+        margin-top: 20px;
+        @include clearfix;
+        & .col-md-6 .panel {}
+        & .panel-default {
+          & .panel-heading{
+            border-color: #ddd;
+            border-width: 1px;
+            background-color: inherit;
+            padding: 10px 10px;
+        }
+      }
+    }
+
+
+    & .media {
+        margin-bottom: 0px;
+        & .resources-icon {
+            display: block;
+            background-size: cover;
+            padding: 0 0px;
+            background-image: url('../img/DataLab_Resources_Icon.png');
+            background-size: cover;
+            background-position: 5px 5px;
+        }
+        & .community-icon {
+            display: block;
+            width: 100%;
+            height: auto;
+            padding: 0 0px;
+            background-image: url('../img/DataLab_Community_Icon.png');
+            background-position: 5px 5px;
+        }
+        & .chat-icon {
+            display: block;
+            width: 100%;
+            height: auto;
+            padding: 0 0px;
+            background-image: url('../img/DataLab_Chat_Icon.png');
+            background-position: 5px 5px;
+        }
+    }
+    & p.subheading {
+            font-size: 1.75rem;
+            color: #525252;
+            font-style: italic;
+            text-align:center;
+          }
+}
+
+/***** Sunburst page *****/
+
+
+/***** Budget Sankey page *****/
+/*****.budget-sankey{
+    @import 'budget-sankey_scss'
+}*****/
+
+/***** dendrogram page *****/
+.federal-accounts{
+    @import 'dendrogram_scss'
+}
+
 /***** ARTICLE PAGE *****/
 .article-wrap {
     margin-top: $base-line-height * 2;
@@ -512,7 +597,7 @@ a.list-group-item {
         & h6{
             margin-bottom: 0;
         }
-        
+
         & ul {
             list-style-type: none;
             padding: 0;
@@ -744,7 +829,7 @@ th.header{
             @extend .tableArow;
         }
     }
-    
+
     &.headerSortDown{
         &:after{
             @include bgArw('../graphics/arw_down.png');
@@ -788,4 +873,3 @@ th.header{
 .mb-40 {
     margin-bottom: 40px;
 }
-

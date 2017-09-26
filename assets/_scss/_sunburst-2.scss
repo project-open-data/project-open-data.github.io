@@ -1,0 +1,224 @@
+.sunburst-2 {
+  .circle {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+    pointer-events: all;
+  }
+  .circle,
+  .path {
+    cursor: pointer;
+  }
+  .path {
+    stroke: #fff;
+    stroke-width:1;
+  }
+  .body{
+    background-color: #FFFFFF;
+  }
+  #circ{
+    position: relative;
+    top:0px;
+    margin-top: -5px;
+    width: 465px;
+    height: 15px;
+    background-color: inherit;
+  }
+  #sunburst {
+    overflow: visible;
+    position: relative;
+    /*top: 0px;
+    left: 660px;*/
+    width: 465px;
+    height: 700px;
+    text-align: center;
+    background-color: inherit;
+   }
+  #sunburst-panel {
+    position:relative;
+    /***top:30px;***/
+    text-align:left;
+    padding-top:30px;
+    width: 465px;
+    margin-right:0px;
+    overflow:visible;
+    height: 613px;
+    background-color: inherit;
+  }
+  .title{
+    text-transform: capitalize;
+    /*font-variant: small-caps;*/
+  }
+  #sunburst-panel h1{
+    font-size:3em;
+    font-style:inherit;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color:#0071BC;
+  }
+  #sunburst-panel h2{
+    font-size:2.1em;
+    font-style:inherit;
+    font-weight: ultra-light;
+    margin: 0;
+    padding: 0;
+    color:#666666;
+  }
+  #sunburst-panel h3{
+    font-size:1.5em;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    /*font-variant:small-caps;*/
+    color:#555555;
+  }
+  #sunburst-panel h4{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size:1.5em;
+    text-transform: capitalize;
+    /*font-variant:small-caps;*/
+    font-style:inherit;
+    color:#555555;
+  }
+  #sunburst-panel p{
+    font-style:inherit;
+    font-size:1.5em;
+    margin-top: -3px;
+    text-transform: capitalize;
+    /*font-variant:small-caps;*/
+    color:#555555;
+  }
+  #legend_colorKey {
+    position: absolute;
+    top: 615px;
+    left: 15px;
+    width: 200px;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+  }
+  .legend_circleKeyLabel {
+    position: relative;
+    border-top: solid 1px #DDD;
+    width: 70px;
+  }
+  #legend_colorKey ul {
+    margin: 0;
+    padding: 0;
+  }
+  #legend_colorKey p {
+    margin-bottom: 8px;
+  }
+  #legend_colorKey li{
+    background-image: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: block;
+    height: 100%;
+  }
+  #legend_sizeKey{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+  }
+  #legend_sizeKey, .legend_circleKeyLabel span {
+    font-size: 10px;
+    color: #999;
+    position: absolute;
+    display: block;
+    left: 45px;
+    top: -8px;
+    width: 90px;
+    z-index: 100;
+  }
+  #legend_scaleKey {
+    width: 225px;
+    height: 130px;
+    position: absolute;
+  }
+  .legend_scaleKeyCircle {
+    stroke-width:1;
+    stroke:#999;
+    stroke-dasharray:2 2;
+    fill:none;
+  }
+  .table{
+    margin-top: -25px;
+    width:100%;
+    text-align: left;
+  }
+  .icon{
+    position:relative;
+    margin: 0px 0px 0px 0px;
+  }
+  .icon_svg{
+    position:relative;
+    height: 80px;
+    width: 80px;
+    margin:30px 25px 10px 18px;
+  }
+  .val{
+    font-size:1.3em;
+    color:#205493;
+    font-weight: bolder;
+  }
+  .name{
+    text-transform: capitalize;
+    /*font-variant:small-caps;*/
+    font-size:1.3em;
+    font-weight: lighter;
+    color:#6B7687;
+  }
+  .img{
+    position: relative;
+  }
+  #tab{
+    margin-top: -20px;
+    margin-bottom: 25px;
+  }
+  #tab_2 > table > tbody > tr > td.val{
+    width:125px;
+  }
+
+  #obligation > table > tbody > tr > td{
+    font-size: 1.3em;
+  }
+  #psc > table > tbody > tr > td{
+    font-size: .85em;
+  }
+  #psc_panel{
+    margin: 25px 0px 0px 0px;
+    float:left;
+    position: relative;
+    height:150px;
+    width:150px;
+  }
+  #psc_panel > div > table > tbody > tr > td{
+    width:125px;
+    height:40px;
+    text-align: left;
+  }
+  #psc_panel > div > table{
+    height:15px;
+  }
+  #psc{
+    margin-top: 15px;
+    width:150px;
+    height: 25px;
+    text-align: center;
+  }
+  #obligation{
+    margin: 38px 0px 40px 0px;
+    width:150px;
+    height: 25px;
+    text-align: center;
+  }
+  .icon_x{
+    margin-top: -20px;
+    margin-bottom: 25px;
+  }
+}

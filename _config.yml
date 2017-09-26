@@ -43,7 +43,9 @@ navigation:
  - title: Get Involved
    url: "/get-involved"
  - title: DATA Act-ivity
-   url: "/act-ivity"  
+   url: "/act-ivity" 
+ - title: Data Lab
+   url: "/data-lab"
 
  # - title: Discuss
  #   url: "https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues"

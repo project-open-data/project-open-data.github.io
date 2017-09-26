@@ -1,0 +1,114 @@
+.dendrogram {
+  & p.subheading {
+		font-size: 1.75rem;
+		color: #525252;
+		font-style:italic;
+	}
+  #container{
+    position:relative;
+    background-color: inherit;
+    font-family: inherit;
+    width:1024px;
+  }
+  #tree-container{
+    position: relative;
+    max-height:1025px;
+    max-width:1016px;
+    background-color: rgba(243,246,255,0);
+    overflow: hidden;
+    border-color: #d6d7d9;
+    border-width:2px;
+    border-style:solid;
+  }
+  .node {
+    cursor: pointer;
+  }
+  .overlay{
+    background-color:inherit;
+  }
+  .node circle {
+    fill: #F3F6FF;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+  .node text {
+    font-size:12px;
+  }
+  .link {
+    fill: none;
+    stroke: #848482;
+    opacity: .3;
+    stroke-width: 1.5px;
+  }
+  .templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+  }
+  .ghostCircle.show{
+      display:block;
+  }
+  .ghostCircle, .activeDrag .ghostCircle{
+       display: none;
+  }
+  #button_holder{
+    position: sticky;
+    height:47px;
+    width: 115px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+  }
+  .button {
+     border: 1px solid #0071bc;
+     background: #ffffff;
+     padding: 12.5px 25px;
+     border-radius: 1px;
+     color: #0071bc;
+     font-size: 15px;
+     font-family: inherit;
+     text-decoration: none;
+     vertical-align: middle;
+     }
+  .button:hover {
+     border-top-color: #0071bc;
+     background: #0071bc;
+     color: #ffffff;
+     }
+  .button:active {
+     border-top-color: #0071bc;
+     background: #0071bc;
+     }
+   #tite_text{
+       width:800px;
+     }
+   #tite_text > p.headline{
+       position: relative;
+       margin-left: 40px;
+       margin-top: 30px;
+       font-size: 2em;
+     }
+   #tite_text > p.body_text{
+       position: relative;
+       margin-left: 40px;
+       margin-top: -15px;
+       font-size: 1.1em;
+     }
+
+
+   /* Tooltip container*/
+   div.tooltip {
+    position: absolute;
+   	text-align: center;
+   	/*width: 60px;
+   	height: 28px;*/
+   	width: auto;
+   	height: auto;
+   	padding: 3px;
+   	background: #6e747e;
+     color: white;
+   	border: 0px;
+   	border-radius: 4px;
+   	pointer-events: none;
+   }
+}
