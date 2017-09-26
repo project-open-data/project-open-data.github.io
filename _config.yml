@@ -34,8 +34,8 @@ navigation:
    url: /about
  - title: Data Model
    url: /data-model
- - title: DAIMS v1.1
-   url: /DAIMS-v1.1
+ #- title: DAIMS v1.1
+ #  url: /DAIMS-v1.1
  # - title: Data Broker
  #   url: /data-broker
  - title: User-Centered Design
