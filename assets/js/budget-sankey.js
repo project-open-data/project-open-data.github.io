@@ -97,7 +97,7 @@ d3.sankey = function() {
     function computeNodeValues() {
         nodes.forEach(function(node) {
             node.value = Math.max(
-                d3.sum(node.sourceLinks, value),      
+                d3.sum(node.sourceLinks, value),
                 d3.sum(node.targetLinks, value)
             );
         });
@@ -157,7 +157,7 @@ d3.sankey = function() {
             .key(function(d) { return d.x; })
             .sortKeys(d3.ascending)
             .entries(nodes)
-            .map(function(d) { return d.values; }); 
+            .map(function(d) { return d.values; });
 
         //
         initializeNodeDepth();
@@ -300,7 +300,7 @@ var margin = {top: 0, right: 0, bottom: 10, left: 0},
 var formatNumber = d3.format("$,.0f"),    // zero decimal places
     format = function(d) { return formatNumber(d); };
 
-var color = [{"name":"Social Security","color":"#143e64"},{"name":"Medicare","color":"#2869a4"},{"name":"Income Security","color":"#0086c8"},{"name":"Health","color":"#29e0ff"},{"name":"Net Interest","color":"#00b5db"},{"name":"National Defense","color":"#aae1f4"},{"name":"General Government","color":"#143e64"},{"name":"Agriculture","color":"#2869a4"},{"name":"Education, Training, Employment, And Social Services","color":"#0086c8"},{"name":"Veterans Benefits And Services","color":"#29e0ff"},{"name":"Regional Development, Commerce, And Housing","color":"#00b5db"},{"name":"Natural Resources And Environment","color":"#aae1f4"},{"name":"Administration Of Justice","color":"#143e64"},{"name":"Transportation","color":"#2869a4"},{"name":"International Affairs","color":"#0086c8"},{"name":"Energy, Science, Space, And Technology","color":"#29e0ff"},{"name":"Insurance Claims And Indemnities","color":"#461e45"},{"name":"Grants, Subsidies, And Contributions","color":"#783877"},{"name":"Interest And Dividends","color":"#b56db4"},{"name":"Personnel Compensation And Benefits","color":"#e0b1df"},{"name":"Refunds","color":"#f8dbf8"},{"name":"Advisory, R&D, Medical, And Other Contracts","color":"#783877"},{"name":"Acquisition Of Assets","color":"#783877"},{"name":"Printing And Supplies","color":"#b56db4"},{"name":"Other","color":"#e0b1df"},{"name":"Travel And Transportation","color":"#f8dbf8"},{"name":"Rent, Communications, And Utilities","color":"#461e45"}];
+var color = [{"name":"Social Security","color":"#143e64"},{"name":"Medicare","color":"#2869a4"},{"name":"Income Security","color":"#0086c8"},{"name":"Health","color":"#29e0ff"},{"name":"Net Interest","color":"#00b5db"},{"name":"National Defense","color":"#aae1f4"},{"name":"General Government","color":"#143e64"},{"name":"Agriculture","color":"#2869a4"},{"name":"Education, Training, Employment, and Social Services","color":"#0086c8"},{"name":"Veterans Benefits and Services","color":"#29e0ff"},{"name":"Regional Development, Commerce, and Housing","color":"#00b5db"},{"name":"Natural Resources and Environment","color":"#aae1f4"},{"name":"Administration of Justice","color":"#143e64"},{"name":"Transportation","color":"#2869a4"},{"name":"International Affairs","color":"#0086c8"},{"name":"Energy, Science, Space, and Technology","color":"#29e0ff"},{"name":"Insurance Claims and Indemnities","color":"#461e45"},{"name":"Grants, Subsidies, and Contributions","color":"#783877"},{"name":"Interest and Dividends","color":"#b56db4"},{"name":"Personnel Compensation and Benefits","color":"#e0b1df"},{"name":"Refunds","color":"#f8dbf8"},{"name":"Advisory, R&D, Medical, and Other Contracts","color":"#783877"},{"name":"Acquisition of Assets","color":"#783877"},{"name":"Printing and Supplies","color":"#b56db4"},{"name":"Other","color":"#e0b1df"},{"name":"Travel and Transportation","color":"#f8dbf8"},{"name":"Rent, Communications, and Utilities","color":"#461e45"}];
 
 // append the svg canvas to the page
 var svg = d3.select("#viz_container").append("svg")
@@ -424,7 +424,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
         }
 
         function highlight_node_links(node,i){
-            
+
             var remainingNodes=[],
                 nextNodes=[];
 
@@ -497,7 +497,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
                 .attr("id","tab_3")
                 .style("margin-top","10px")
                 .html("<table class ='icon'>"+"<tr>"+"<td>"+"Negative values are not included in the visualization."+"</td>"+"</tr>"+"</table>");
-            
+
             var traverse = [{
                 linkType : "sourceLinks",
                 nodeType : "target"
