@@ -1,27 +1,25 @@
 ---
 published: true
-permalink: /dictionary/
+permalink: /data-dictionary/
 layout: hero
 filename: data-dictionary.md
-title: DATA Act Data Dictionary
+title: DATA Act Information Model Schema Data Dictionary v1.1
 ---
 <div class="article-wrap">
-<h2>The Latest</h2>
-<p> June 30, 2017: Treasury released the DATA Act Information Model Schema (DAIMS) v1.1. DAIMS v1.1 is a minor update of the schema and will be implemented in September 2017. Find out more information at <a href="{{site.baseurl}}/DAIMSv1.1/">DAIMS v1.1</a> or its <a href="{{site.baseurl}}/dictionary-v1.1/">Data Dictionary v1.1</a>.</p>
-<h1>DATA Act Information Model Schema Data Dictionary</h1>
+<h1> DATA Act Information Model Schema Data Dictionary v1.1 </h1>
+<p><i>Released June 30, 2017</i></p>
 <h2>Background</h2>
 <p>The DATA Act Information Model Schema (DAIMS; DATA Act Schema) provides an overall view of the hundreds of distinct data elements used to tell the story of how federal dollars are spent. The purpose of the data dictionary is to provide assistance in understanding the data elements within the DATA Act Schema.</p>
 
-<p>The DATA Act directs the Office of Management and Budget (OMB) and the U.S. Treasury Department (Treasury) to establish government-wide data standards for federal funds and entities receiving such funds. The DAIMS will help to ensure that information is consistent and comparable and ultimately make data more accessible, reusable, and provide the necessary linkages between financial events. By making federal spending data accessible, searchable, reusable, and more reliable, the public can understand how government spending impacts their communities. The DATA Act Schema will also reduce the need for massive system changes across federal agencies to collect information and allow agencies to focus on managing data.</p>
+<p>The DATA Act directs the Office of Management and Budget (OMB) and the U.S. Treasury Department (Treasury) to establish government-wide data standards for federal funds and entities receiving such funds. The DAIMS will help to ensure that information is consistent and comparable and ultimately make data more accessible, reusable, and provide the necessary linkages between financial events. By making federal spending data accessible, searchable, reusable, and more reliable, the public can understand government spending. The DATA Act Schema will also reduce the need for massive system changes across federal agencies to collect information and allow agencies to focus on managing data.</p>
 
+<h2>DAIMS v1.1 Release</h2>
+<p><i>June 30, 2017</i> - DAIMS v1.1 is a minor update to transition financial assistance reporting to the DATA Act Broker, to better align with another federal government source system, and to provide clarifications for improved usability. These changes have a minimal impact to the data submissions that agencies make to the DATA Act Broker. DAIMS v1.1 will be implemented in production in fall 2017.</p>
 <a href="#" id="back-to-top" title="Back to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
 
-<h2>DATA Act Schema Data Dictionary (v1.01)</h2>
-
-<h4>Column Headings</h4>
-
-<p>
-    <strong>Grouping</strong> &mdash; Agencies report data in certain groupings.
+<h2>DAIMS Data Dictionary (v1.1)</h2>
+<h4> Column Headings</h4>
+<p><strong>Grouping</strong>&mdash; Agencies report data in certain groupings.
     <ul style="margin-bottom:0;">
         <li>File A – Appropriations Account Detail</li>
         <li>File B – Object Class and Program Activity Detail</li>
@@ -50,7 +48,7 @@ title: DATA Act Data Dictionary
     </ul>
 </p>
 <p>
-    <strong>Data Category</strong> &mdash; Some elements are part of a category of elements. 
+    <strong>Data Category</strong> &mdash; Some elements are part of a category of elements.
 </p>
 
 </div>
@@ -65,19 +63,15 @@ title: DATA Act Data Dictionary
             <th>Data Category</th>
         </tr>
     </thead>
-    {% for element in site.data.elements %}
+    {% for element in site.data.elementsv1_1%}
     <tr>
-        <td>{{ element.file }}</td>
+        <td>{{ element.Grouping }}</td>
         <td>
             {{ element.DataElementLabel }}
         </td>
         <!--<td><a href="#C{{ forloop.index | plus:1 }}">{{ element.DAIMSSemanticLabel }}</a></td>-->
         <td>{{ element.Definition }}</td>
-        <td>{{ element.RequiredOptional }}</td>
-        <td>{{element.DataCategory}}</td>
+        <td>{{ element.Use }}</td>
+        <td>{{element.DataCatagory}}</td>
     </tr>{% endfor %}
 </table>
-
-
-
-
