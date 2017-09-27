@@ -92,7 +92,9 @@ The [Data Dictionary]({{ site.baseurl }}/data-dictionary/){:target="_blank"} is 
 A data standard contains both a human-readable version of the standard and a machine-readable version of the standard. The XBRL Schema files are the machine-readable version of the DATA Act standard.
 
 [Zipped Schema Files with Release Notes (Updated on June 30, 2017)]({{site.baseurl}}/assets/docs/daims_v1.1_2017-06-30.zip)
+
 [Zipped Instance Documents with Data for Fiscal Year 2017 Quarter 2 (January to March 2017)](https://s3-us-gov-west-1.amazonaws.com/da-public-files/xbrl_files/data-act-xbrl-instance-Q2-2017-06-30.zip)
+
 [Zipped Instance Documents with Data for Fiscal Year 2017 Quarter 3 (April to June 2017)](https://s3-us-gov-west-1.amazonaws.com/da-public-files/xbrl_files/data-act-xbrl-instance-Q3-2017-09-01.zip)
 
 ## Data Definition Standards
