@@ -59,10 +59,10 @@ Thank you for helping us improve government data. Below are ways you can stay up
                                     <li><a href="https://community.max.gov/x/7YIZMg" target="_blank">Agency Reporting Resources</a></li>
                                     <li><a href="https://community.max.gov/download/attachments/1083277560/DATA%20Act%20Implementation%20Playbook%20Version%202.0.pdf?api=v2" target="_blank">Implementation Playbook</a></li>
                                     <li><a href="https://community.max.gov/download/attachments/254050873/DATA_Act_PMO_Resource_Guide_20170104.pdf?api=v2" target="_blank">Data Act Resources Guide</a></li>
-                                   <li><a href="https://community.max.gov/x/TQJ1O" target="_blank">DATA Act Digests (Archive)</a></li> 
+                                   <li><a href="https://community.max.gov/x/TQJ1O" target="_blank">DATA Act Digests (Archive)</a></li>
                                     <li><a href="https://community.max.gov/x/WxNjL" target="_blank">Senior Accountable Official Call Notes</a></li>
                                     <li><a href="https://community.max.gov/x/WxNjL" target="_blank">Interagency Advisory Committee Notes</a></li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -73,13 +73,6 @@ Thank you for helping us improve government data. Below are ways you can stay up
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="alert alert-info clearfix" role="alert">
-                <h5 class="text-center">Still want more? <a href="https://gsa.us9.list-manage.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=5cee0e93aa" target="_blank">Sign up for updates.</a></h5>
             </div>
         </div>
     </div>
@@ -112,5 +105,3 @@ Thank you for helping us improve government data. Below are ways you can stay up
         </div>
     </div>
 </div>
-
-
