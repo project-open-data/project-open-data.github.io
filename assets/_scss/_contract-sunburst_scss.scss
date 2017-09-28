@@ -195,7 +195,7 @@
     font-size: .85em;
   }
   #psc_panel{
-    margin: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     float:left;
     position: relative;
     height:150px;
@@ -203,7 +203,7 @@
   }
   #psc_panel > div > table > tbody > tr > td{
     width:125px;
-    height:40px;
+    /*height:40px;*/
     text-align: left;
   }
   #psc_panel > div > table{
@@ -216,9 +216,9 @@
     text-align: center;
   }
   #obligation{
-    margin: 38px 0px 40px 0px;
+    margin: 0px 0px 0px 0px;
     width:150px;
-    height: 25px;
+    /*height: 25px;*/
     text-align: center;
   }
   .icon_x{
