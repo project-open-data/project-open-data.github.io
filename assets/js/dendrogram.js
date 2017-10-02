@@ -375,6 +375,9 @@ function change() {
           .on("mouseout", removeHover);
 
       function createHover(d) {
+        var matrix = this.getScreenCTM()
+                         .translate(+ this.getAttribute("cx"), + this.getAttribute("cy"));
+        
          if(d.depth===3 ){
             div.transition()
                .duration(700)
@@ -396,8 +399,8 @@ function change() {
                    .duration(700)
                    .style("opacity", 1);
                    div.text("View agency breakdown")
-                   .style("left", d.x + "px")     
-                   .style("top", d.y + "px");
+                   .style("left", (window.pageXOffset + matrix.e + 15) + "px")
+                   .style("top", (window.pageYOffset + matrix.f - 30) + "px");
           }
 }
 
