@@ -294,7 +294,7 @@ function change() {
       d._children.forEach(expand);
       d = toggleChildren(d);
       update(d);
-      centerNode(d._children[0]);
+      centerNode(d.children[0]);
     }else if(d.depth===3 ){
       centerNode(d);
       update(d);
