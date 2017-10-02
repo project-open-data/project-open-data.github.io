@@ -284,7 +284,7 @@ function change() {
 
   function click(d) {
     if(d.depth===1 & d._children.length===1 ){
-      d.children.forEach(expand);
+      d._children.forEach(expand);
       d = toggleChildren(d);
       update(d);
       centerNode(d);
