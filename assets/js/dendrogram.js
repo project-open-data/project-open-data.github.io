@@ -283,7 +283,12 @@ function change() {
   // Toggle children on click.
 
   function click(d) {
-    if(d.depth===3 ){
+    if(d.depth===1 & d.children===1 ){
+      d = toggleChildren(d);
+      toggleChildren(d._children);
+      update(d);
+      centerNode(d);
+    }else if(d.depth===3 ){
       centerNode(d);
       update(d);
       getLink(d);
