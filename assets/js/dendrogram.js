@@ -283,7 +283,7 @@ function change() {
   // Toggle children on click.
 
   function click(d) {
-    if(d.depth===1 & d._children.length===1 ){
+    if(d.depth===1 & d._children & d._children.length===1 ){
       d._children.forEach(expand);
       d = toggleChildren(d);
       update(d);
@@ -370,24 +370,24 @@ function change() {
                .duration(700)
                .style("opacity", 1);
                div.text("Visit federal account page")
-               .style("left", (d3.event.pageX)-370 + "px")
-               .style("top", (d3.event.pageY)-570 + "px");
+               .style("left", (d3.event.pageX) + "px") //-370
+               .style("top", (d3.event.pageY) + "px"); //-570
 
          } else if(d.depth===2 ){
              div.transition()
                   .duration(700)
                   .style("opacity", 1);
                   div.text("View federal accounts")
-                  .style("left", (d3.event.pageX)-175 + "px")
-                  .style("top", (d3.event.pageY)-570 + "px");
+                  .style("left", (d3.event.pageX) + "px") //-175
+                  .style("top", (d3.event.pageY) + "px");
 
           } else if(d.depth===1 ){
               div.transition()
                    .duration(700)
                    .style("opacity", 1);
                    div.text("View agency breakdown")
-                   .style("left", (d3.event.pageX)-175 + "px")
-                   .style("top", (d3.event.pageY)-570 + "px");
+                   .style("left", (d3.event.pageX) + "px") //-175
+                   .style("top", (d3.event.pageY) + "px");
           }
 }
 
