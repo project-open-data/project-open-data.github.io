@@ -295,9 +295,9 @@ function change() {
       update(d);
       getLink(d);
     }else if(d.depth===2 ){
-      centerNode(d);
+      d = toggleChildren(d);
       update(d);
-      getLink(d);
+      centerNode(d);
     }else if(d.depth===1 & d._children !== null & d._children.length===1 ){
       d._children.forEach(expand);
       d = toggleChildren(d);
@@ -399,8 +399,8 @@ function change() {
                    .duration(700)
                    .style("opacity", 1);
                    div.text("View agency breakdown")
-                   .style("left", (window.pageXOffset + matrix.e + 15) + "px")
-                   .style("top", (window.pageYOffset + matrix.f - 30) + "px");
+                   .style("left", (window.pageXOffset + matrix.e) + "px")
+                   .style("top", (window.pageYOffset + matrix.f) + "px");
           }
 }
 
