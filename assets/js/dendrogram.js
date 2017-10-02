@@ -294,6 +294,10 @@ function change() {
       //centerNode(d);
       update(d);
       getLink(d);
+    }else if(d.depth===2 ){
+      centerNode(d);
+      update(d);
+      getLink(d);
     }else if(d.depth===1 & d._children !== null & d._children.length===1 ){
       d._children.forEach(expand);
       d = toggleChildren(d);
