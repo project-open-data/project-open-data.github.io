@@ -22,6 +22,11 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
+// Append Div for tooltip to SVG
+    var div = d3.select("#tree-container")
+              .append("div")
+              .attr("class", "tooltip")
+              .style("opacity", 0);
 
 // Get csv data
 
@@ -356,12 +361,7 @@ function change() {
               return d.id || (d.id = ++i);
           });
 
-      // Append Div for tooltip to SVG
-      var div = d3.select(".overlay")
-              .append("div")
-              .attr("class", "tooltip")
-              .style("opacity", 0);
-
+      
       // Enter any new nodes at the parent's previous position.
       var nodeEnter = node.enter().append("g")
           //.call(dragListener)
