@@ -283,7 +283,7 @@ function change() {
   // Toggle children on click.
 
   function click(d) {
-    if(d.depth===1 & d._children & d._children.length===1 ){
+    if(d.depth===1 & d._children != 'null' & d._children.length===1 ){
       d._children.forEach(expand);
       d = toggleChildren(d);
       update(d);
