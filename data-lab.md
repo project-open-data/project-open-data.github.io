@@ -115,13 +115,29 @@ page: data-lab
                 <img src="{{ site.baseurl }}/assets/img/DataLab_Chat_Icon.png" class="img-responsive" style="min-height:55.63px">
               </div>
               <div class="col-sm-8">
-                <a href="https://airtable.com/shrNO3BREEFIhUhdz"><h3>Care to Share? We're Listening.</h3></a>
+                <a href="https://airtable.com/shrNO3BREEFIhUhdz"><h3>Send Us Your Feedback.</h3></a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+      <!--User Testing Panel-->
+        <div class="row mt-10">
+          <div class="panel panel-default" style="border-width:4px; border-color:#d6d7d9; background-color:#f5f5f5; margin-bottom:20px">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="{{ site.baseurl }}/assets/img/DataLab_UserTesting_Icon.png" class="img-responsive" style="min-height:55.63px">
+                </div>
+                <div class="col-sm-8">
+                  <a href="https://airtable.com/shrVMcNncc32AEum7"><h3>Sign Up to be a User Tester.</h3></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
     </div>
   </div>
 </div>
