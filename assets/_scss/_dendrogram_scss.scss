@@ -98,15 +98,14 @@
 
    /* Tooltip container*/
    div.tooltip {
-    position: absolute;
+    	position: absolute;
    	text-align: center;
-   	/*width: 60px;
-   	height: 28px;*/
+   	z-index:200;
    	width: auto;
    	height: auto;
    	padding: 3px;
    	background: #6e747e;
-     color: white;
+        color: white;
    	border: 0px;
    	border-radius: 4px;
    	pointer-events: none;
