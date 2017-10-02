@@ -269,7 +269,7 @@ function change() {
   // Toggle children function
 
   function toggleChildren(d) {
-    console.log("d: ",d);
+    console.log("In toggleChildren(d): ",d);
       if (d.children) {
           d._children = d.children;
           d.children = null;
@@ -283,7 +283,12 @@ function change() {
   // Toggle children on click.
 
   function click(d) {
-    if(d.depth===1 & d._children != 'null' & d._children.length===1 ){
+    console.log("In click(d): ",d);
+    if(d.depth===1 & d._children == 'null'){
+      d = toggleChildren(d);
+      update(d);
+      centerNode(d);
+    }else if(d.depth===1 & d._children != 'null' & d._children.length===1 ){
       d._children.forEach(expand);
       d = toggleChildren(d);
       update(d);
@@ -292,7 +297,6 @@ function change() {
       centerNode(d);
       update(d);
       getLink(d);
-
     }else{
       d = toggleChildren(d);
       update(d);
