@@ -113,7 +113,7 @@ function change() {
   toggleAll(root);
   toggle(root);
   update(root);
-  centerNode(root);
+  centerRootNode(root);
   zoomListener.scale(1);
 };
 
@@ -259,6 +259,19 @@ function change() {
   // Function to center node when clicked/dropped so node doesn't get lost when collapsing/moving with large amount of children.
 
   function centerNode(source) {
+      scale = zoomListener.scale();
+      x = -source.y0;
+      y = -source.x0;
+      x = x * scale + viewerWidth / 2;
+      y = y * scale + viewerHeight / 2;
+      d3.select('g').transition()
+          .duration(duration)
+          .attr("transform", "translate(" + x + "," + y + ")scale(" + scale + ")");
+      zoomListener.scale(scale);
+      zoomListener.translate([x, y]);
+  }
+    
+    function centerRootNode(source) {
       scale = zoomListener.scale();
       x = -source.y0;
       y = -source.x0;
@@ -556,5 +569,5 @@ function change() {
   toggleAll(root);
   toggle(root);
   update(root);
-  centerNode(root);
+  centerRootNode(root);
 });
