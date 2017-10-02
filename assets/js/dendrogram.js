@@ -283,15 +283,14 @@ function change() {
   // Toggle children on click.
 
   function click(d) {
-    console.log("In click(d): ",d);
+    /*console.log("In click(d): ",d);
     console.log("In click(d)--->d.depth: ",d.depth);
-    console.log("In click(d)--->d._children: ",d._children);
+    console.log("In click(d)--->d._children: ",d._children);*/
     if(d.depth===1 & d._children === null){
       d = toggleChildren(d);
       update(d);
       centerNode(d);
     }else if(d.depth===3 ){
-      //centerNode(d);
       update(d);
       getLink(d);
     }else if(d.depth===2 ){
@@ -375,9 +374,6 @@ function change() {
           .on("mouseout", removeHover);
 
       function createHover(d) {
-        var matrix = this.getScreenCTM()
-                         .translate(+ this.getAttribute("cx"), + this.getAttribute("cy"));
-        
          if(d.depth===3 ){
             div.transition()
                .duration(700)
@@ -399,8 +395,8 @@ function change() {
                    .duration(700)
                    .style("opacity", 1);
                    div.text("View agency breakdown")
-                   .style("left", (window.pageXOffset + matrix.e) + "px")
-                   .style("top", (window.pageYOffset + matrix.f) + "px");
+                   .style("left", d3.select(this).attr("x") + "px")     
+                   .style("top", d3.select(this).attr("y") + "px");
           }
 }
 
