@@ -284,15 +284,17 @@ function change() {
 
   function click(d) {
     console.log("In click(d): ",d);
-    if(d.depth===1 & d._children == 'null'){
+    console.log("In click(d)--->d.depth: ",d.depth);
+    console.log("In click(d)--->d._children: ",d._children);
+    if(d.depth===1 & d._children === null){
       d = toggleChildren(d);
       update(d);
       centerNode(d);
-    }else if(d.depth===1 & d._children != 'null' & d._children.length===1 ){
+    }else if(d.depth===1 & d._children !== null & d._children.length===1 ){
       d._children.forEach(expand);
       d = toggleChildren(d);
       update(d);
-      centerNode(d);
+      centerNode(d._children[0]);
     }else if(d.depth===3 ){
       centerNode(d);
       update(d);
