@@ -285,7 +285,10 @@ function change() {
   function click(d) {
     if(d.depth===1 & d.children===1 ){
       d = toggleChildren(d);
-      toggleChildren(d._children);
+      update(d);
+      console.log("new d: ",d);
+      console.log("new d.children: ",d.children);
+      toggleChildren(d.children);
       update(d);
       centerNode(d);
     }else if(d.depth===3 ){
