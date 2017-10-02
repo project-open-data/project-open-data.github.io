@@ -393,7 +393,7 @@ function change() {
                .style("opacity", 1);
                div.text("Visit federal account page")
                .style("left", (d3.event.pageX) + "px")     
-               .style("top", (d3.event.pageY) + "px");
+               .style("top", (d3.event.pageY-570) + "px");
 
          } else if(d.depth===2 ){
              div.transition()
@@ -401,7 +401,7 @@ function change() {
                   .style("opacity", 1);
                   div.text("View federal accounts")
                   .style("left", (d3.event.pageX) + "px")     
-                  .style("top", (d3.event.pageY) + "px");
+                  .style("top", (d3.event.pageY-570) + "px");
 
           } else if(d.depth===1 ){
               div.transition()
@@ -409,7 +409,7 @@ function change() {
                    .style("opacity", 1);
                    div.text("View agency breakdown")
                    .style("left", (d3.event.pageX) + "px")     
-                   .style("top", (d3.event.pageY) + "px");
+                   .style("top", (d3.event.pageY-570) + "px");
           }
 }
 
