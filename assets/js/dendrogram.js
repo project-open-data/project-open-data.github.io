@@ -269,6 +269,7 @@ function change() {
   // Toggle children function
 
   function toggleChildren(d) {
+    console.log("d: ",d);
       if (d.children) {
           d._children = d.children;
           d.children = null;
