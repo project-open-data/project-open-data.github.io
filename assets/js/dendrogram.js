@@ -291,7 +291,7 @@ function change() {
       update(d);
       centerNode(d);
     }else if(d.depth===3 ){
-      centerNode(d);
+      //centerNode(d);
       update(d);
       getLink(d);
     }else if(d.depth===1 & d._children !== null & d._children.length===1 ){
