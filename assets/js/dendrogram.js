@@ -397,8 +397,8 @@ function change() {
               return "translate(" + source.y0 + "," + source.x0 + ")";
           })
           .on('click', click)
-          .on("mouseover", createHover)
-          .on("mouseout", removeHover);
+          .on("click", createHover)
+          .on("click", removeHover);
 
       function createHover(d) {
         d3.select(this).append("title")
@@ -408,12 +408,11 @@ function change() {
                 else if (d.depth === 2 | d.depth===1){ return 'translate(10, -10)';}
         })
         .text(function(d){
-            if(d.depth===3){ return "Visit federal account page";}
-            else if (d.depth === 2 | d.depth===1){ return "View federal accounts";}
+            if(d.depth===3){ return "Visit Federal Account Page";}
+            else if (d.depth === 2 | d.depth===1){ return "View Federal Accounts";}
         });
       }
       
-
       function removeHover() {
         d3.select(this).select("title.hover").remove();
       }
