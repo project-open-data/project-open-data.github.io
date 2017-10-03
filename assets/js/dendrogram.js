@@ -397,8 +397,8 @@ function change() {
               return "translate(" + source.y0 + "," + source.x0 + ")";
           })
           .on('click', click)
-          .on("click", createHover);
-         // .on("mouseout", removeHover);
+          .on("click", createHover)
+          .on("mouseout", removeHover);
 
       function createHover(d) {
         d3.select(this).append("title")
@@ -415,7 +415,8 @@ function change() {
       
 
       function removeHover() {
-        d3.select(this).select("text.hover").remove();
+//        d3.select(this).select("text.hover").remove();
+        d3.select(this).remove();
       }
 
       nodeEnter.append("circle")
