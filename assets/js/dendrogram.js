@@ -396,7 +396,8 @@ function change() {
         .text(function(d){
             if(d.depth===3){ return "Visit federal account page";}
             else if (d.depth === 2 | d.depth===1){ return "View federal accounts";}
-        });
+        })
+            .style("font-weight","bold");
       }
       
       /*function createHover(d) {
