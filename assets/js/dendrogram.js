@@ -263,7 +263,7 @@ function change() {
           scale = zoomListener.scale();
           x = -source.y0;
           y = -source.x0;
-          x = x * scale + viewerWidth / 4;
+          x = x * scale + viewerWidth / 4.2;
           y = y * scale + viewerHeight / 2;
           d3.select('g').transition()
               .duration(duration)
