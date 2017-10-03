@@ -396,15 +396,12 @@ function change() {
           .attr("transform", function(d) {
               return "translate(" + source.y0 + "," + source.x0 + ")";
           })
-          .append("title")
-            .text(function(d) { if(d.depth===3){ return "Visit federal account page";}
-                                else if (d.depth === 2 | d.depth===1){ return "View federal accounts";}})
           .on('click', click);
-//          .on("click", createHover);
-//          .on("mouseout", removeHover);
+          .on("click", createHover);
+         // .on("mouseout", removeHover);
 
       function createHover(d) {
-        d3.select(this).append("div:text")
+        d3.select(this).append("title")
             .attr("class", "hover")
             .attr('transform', function(d){ 
                 if(d.depth===3){ return 'translate(-145, -10)';}
@@ -416,42 +413,10 @@ function change() {
         });
       }
       
-      /*function createHover(d) {
-         if(d.depth===3 ){
-            div.transition()
-               .duration(700)
-               .style("opacity", 1);
-               div.text("Visit federal account page")
-               .style("left", (d3.event.pageX-100) + "px")     
-               .style("top", (d3.event.pageY-570) + "px");
-
-         } else if(d.depth===2 ){
-             div.transition()
-                  .duration(700)
-                  .style("opacity", 1);
-                  div.text("View federal accounts")
-                  .style("left", (d3.event.pageX-100) + "px")     
-                  .style("top", (d3.event.pageY-570) + "px");
-
-          } else if(d.depth===1 ){
-              div.transition()
-                   .duration(700)
-                   .style("opacity", 1);
-                   div.text("View agency breakdown")
-                   .style("left", (d3.event.pageX-100) + "px")     
-                   .style("top", (d3.event.pageY-570) + "px");
-          }
-        }*/
 
       function removeHover() {
         d3.select(this).select("text.hover").remove();
       }
-      
-      /*function removeHover() {
-        div.transition()
-           .duration(500)
-           .style("opacity", 0);
-      }*/
 
       nodeEnter.append("circle")
           .attr('class', 'nodeCircle')
