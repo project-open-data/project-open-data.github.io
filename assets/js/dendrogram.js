@@ -399,7 +399,7 @@ function change() {
           .on('click', click)
           .on("mouseover", createHover)
           .on("mouseout", removeHover);
-
+/*
       function createHover(d) {
         d3.select(this).append("html")
             .attr("class", "hover")
@@ -416,7 +416,38 @@ function change() {
       function removeHover() {
         d3.select(this).select("html.hover").remove();
       }
-
+*/
+       function createHover(d) {
+         if(d.depth===3 ){
+            div.transition()
+               .duration(700)
+               .style("opacity", 1);
+               div.text("Visit federal account page")
+               .style("left", (d3.event.layerX) + "px")     
+               .style("top", (d3.event.layerY) + "px");
+         } else if(d.depth===2 ){
+             div.transition()
+                  .duration(700)
+                  .style("opacity", 1);
+                  div.text("View federal accounts")
+                  .style("left", (d3.event.layerX) + "px")     
+                  .style("top", (d3.event.layerY) + "px");
+          } else if(d.depth===1 ){
+              div.transition()
+                   .duration(700)
+                   .style("opacity", 1);
+                   div.text("View agency breakdown")
+                   .style("left", (d3.event.layerX) + "px")     
+                   .style("top", (d3.event.layerY) + "px");
+          }
+       }
+      
+      function removeHover() {
+        div.transition()
+           .duration(500)
+           .style("opacity", 0);
+      }
+      
       nodeEnter.append("circle")
           .attr('class', 'nodeCircle')
           .attr("r", 0)
