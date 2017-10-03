@@ -415,8 +415,7 @@ function change() {
       
 
       function removeHover() {
-//        d3.select(this).select("text.hover").remove();
-        d3.select(this).remove();
+        d3.select(this).select("title.hover").remove();
       }
 
       nodeEnter.append("circle")
