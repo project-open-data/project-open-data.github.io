@@ -396,7 +396,7 @@ function change() {
           .attr("transform", function(d) {
               return "translate(" + source.y0 + "," + source.x0 + ")";
           })
-          .append("svg:title")
+          .append("title")
             .text(function(d) { if(d.depth===3){ return "Visit federal account page";}
                                 else if (d.depth === 2 | d.depth===1){ return "View federal accounts";}})
           .on('click', click);
