@@ -396,7 +396,7 @@ function change() {
           .attr("transform", function(d) {
               return "translate(" + source.y0 + "," + source.x0 + ")";
           })
-          .on('click', click);
+          .on('click', click)
           .on("click", createHover);
          // .on("mouseout", removeHover);
 
