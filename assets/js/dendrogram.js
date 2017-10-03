@@ -391,7 +391,7 @@ function change() {
             .attr("class", "hover")
             .attr('transform', function(d){ 
                 if(d.depth===3){ return 'translate(-145, -10)';}
-                else if (d.depth === 2 | d.depth===1){ return 'translate(5, -10)';}
+                else if (d.depth === 2 | d.depth===1){ return 'translate(10, -10)';}
         })
         .text(function(d){
             if(d.depth===3){ return "Visit federal account page";}
