@@ -397,24 +397,24 @@ function change() {
               return "translate(" + source.y0 + "," + source.x0 + ")";
           })
           .on('click', click)
-          .on("click", createHover);
-//          .on("mouseout", removeHover);
+          .on("mouseover", createHover)
+          .on("mouseout", removeHover);
 
       function createHover(d) {
-        d3.select(this).append("title")
+        d3.select(this).append("html")
             .attr("class", "hover")
             .attr('transform', function(d){ 
                 if(d.depth===3){ return 'translate(-145, -10)';}
                 else if (d.depth === 2 | d.depth===1){ return 'translate(10, -10)';}
         })
-        .text(function(d){
-            if(d.depth===3){ return "Visit Federal Account Page";}
-            else if (d.depth === 2 | d.depth===1){ return "View Federal Accounts";}
+        .html(function(d){
+            if(d.depth===3){ return "<h1>"+"Visit Federal Account Page"+"</h1>";}
+            else if (d.depth === 2 | d.depth===1){ return "<h1>"+"View Federal Accounts"+"</h1>";}
         });
       }
       
       function removeHover() {
-        d3.select(this).select("title.hover").remove();
+        d3.select(this).select("html.hover").remove();
       }
 
       nodeEnter.append("circle")
