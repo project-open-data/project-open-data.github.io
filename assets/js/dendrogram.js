@@ -22,11 +22,7 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
-// Append Div for tooltip to SVG
-    var div = d3.select("#tree-container")
-              .append("div")
-              .attr("class", "tooltip")
-              .style("opacity", 0);
+
 
 // Get csv data
 
@@ -34,7 +30,12 @@ d3.csv('/data-lab-data/accounts_obligations_revised_v7.csv',function(error,newDa
 
 console.log("Hierarchy: ",newData);
 
-
+// Append Div for tooltip to SVG
+    var div = d3.select("#tree-container")
+              .append("div")
+              .attr("class", "tooltip")
+              .style("opacity", 0);
+    
 var root = { name :"Federal Accounts", children : [] },
 levels = ["Agency","Subagency"];
 
@@ -396,11 +397,11 @@ function change() {
               return "translate(" + source.y0 + "," + source.x0 + ")";
           })
           .on('click', click)
-          .on("mouseover", createHover)
+          .on("click", createHover)
           .on("mouseout", removeHover);
 
       function createHover(d) {
-        d3.select(this).append("text")
+        d3.select(this).append("div:text")
             .attr("class", "hover")
             .attr('transform', function(d){ 
                 if(d.depth===3){ return 'translate(-145, -10)';}
