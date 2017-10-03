@@ -97,7 +97,19 @@
 
 
    /* Tooltip container*/
-   div.tooltip {
+  /* div.tooltip {
+    	position: absolute;
+   	text-align: center;
+   	width: auto;
+   	height: auto;
+   	padding: 3px;
+   	background: #6e747e;
+        color: white;
+   	border: 0px;
+   	border-radius: 4px;
+   	pointer-events: none;
+   }*/
+.hover{
     	position: absolute;
    	text-align: center;
    	width: auto;
