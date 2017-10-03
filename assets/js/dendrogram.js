@@ -262,7 +262,7 @@ function change() {
       scale = zoomListener.scale();
       x = -source.y0;
       y = -source.x0;
-      x = x * scale + viewerWidth / 3;
+      x = x * scale + viewerWidth / 3.5;
       y = y * scale + viewerHeight / 2;
       d3.select('g').transition()
           .duration(duration)
@@ -399,7 +399,9 @@ function change() {
         })
             .style("font-weight","bold")
             .style("font-size","110%")
-            .style("border","1px solid red");
+            .style("background-color","#2E5894")
+            .style("color","white")
+            .style("border-color","white");
       }
       
       /*function createHover(d) {
