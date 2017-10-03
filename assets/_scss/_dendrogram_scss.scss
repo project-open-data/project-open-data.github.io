@@ -110,7 +110,8 @@
    	pointer-events: none;
    }
 text.hover {
-     border-top-color: #0071bc;
+     border: 1px solid;
+     border-color: #0071bc;
      background: #0071bc;
      color: #ffffff;
      font-weight: bold;
