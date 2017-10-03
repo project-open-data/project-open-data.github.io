@@ -423,7 +423,7 @@ function change() {
                .duration(700)
                .style("opacity", 1);
                div.text("Visit Federal Account Page")
-               .style("left", (d3.event.layerX -160) + "px")     
+               .style("left", (d3.event.layerX -167) + "px")     
                .style("top", (d3.event.layerY -10) + "px");
          } else if(d.depth===2 ){
              div.transition()
