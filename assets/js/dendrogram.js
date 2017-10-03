@@ -397,7 +397,9 @@ function change() {
             if(d.depth===3){ return "Visit federal account page";}
             else if (d.depth === 2 | d.depth===1){ return "View federal accounts";}
         })
-            .style("font-weight","bold");
+            .style("font-weight","bold")
+            .style("font-size","110%")
+            .style("border","1px solid red");
       }
       
       /*function createHover(d) {
