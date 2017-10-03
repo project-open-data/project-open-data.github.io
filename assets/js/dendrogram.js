@@ -399,24 +399,24 @@ function change() {
           .on('click', click)
           .on("mouseover", createHover)
           .on("mouseout", removeHover);
-/*
+
       function createHover(d) {
-        d3.select(this).append("html")
+        d3.select(this).append("text")
             .attr("class", "hover")
             .attr('transform', function(d){ 
                 if(d.depth===3){ return 'translate(-145, -10)';}
                 else if (d.depth === 2 | d.depth===1){ return 'translate(10, -10)';}
         })
-        .html(function(d){
-            if(d.depth===3){ return "<h1>"+"Visit Federal Account Page"+"</h1>";}
-            else if (d.depth === 2 | d.depth===1){ return "<h1>"+"View Federal Accounts"+"</h1>";}
+        .text(function(d){
+            if(d.depth===3){ return "Visit Federal Account Page";}
+            else if (d.depth === 2 | d.depth===1){ return "View Federal Accounts";}
         });
       }
       
       function removeHover() {
-        d3.select(this).select("html.hover").remove();
+        d3.select(this).select("text.hover").remove();
       }
-*/
+/*
        function createHover(d) {
          if(d.depth===3 ){
             div.transition()
@@ -447,6 +447,8 @@ function change() {
            .duration(500)
            .style("opacity", 0);
       }
+*/      
+      
       
       nodeEnter.append("circle")
           .attr('class', 'nodeCircle')
