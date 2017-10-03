@@ -109,7 +109,7 @@
    	border-radius: 4px;
    	pointer-events: none;
    }
-.node.hover {
+.node > .hover {
      border-top-color: #0071bc;
      background: #0071bc;
      color: #ffffff;
