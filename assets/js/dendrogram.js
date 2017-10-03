@@ -397,7 +397,7 @@ function change() {
               return "translate(" + source.y0 + "," + source.x0 + ")";
           })
           .on('click', click)
-          .on("click", createHover)
+          .on("mouseover", createHover)
           .on("mouseout", removeHover);
 
       function createHover(d) {
