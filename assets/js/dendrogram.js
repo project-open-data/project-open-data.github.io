@@ -259,7 +259,7 @@ function change() {
   // Function to center node when clicked/dropped so node doesn't get lost when collapsing/moving with large amount of children.
 
   function centerNode(source) {
-      if(source.depth===2{
+      if(source.depth===2){
           scale = zoomListener.scale();
           x = -source.y0;
           y = -source.x0;
