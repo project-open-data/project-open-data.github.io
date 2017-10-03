@@ -388,7 +388,7 @@ function change() {
 
       function createHover(d) {
         d3.select(this).append("text")
-            .attr("class", "hover")
+            .attr("class", "tooltip")
             .attr('transform', function(d){ 
                 if(d.depth===3){ return 'translate(-145, -10)';}
                 else if (d.depth === 2 | d.depth===1){ return 'translate(10, -10)';}
@@ -396,12 +396,12 @@ function change() {
         .text(function(d){
             if(d.depth===3){ return "Visit federal account page";}
             else if (d.depth === 2 | d.depth===1){ return "View federal accounts";}
-        })
-            .style("font-weight","bold")
+        });
+            /*.style("font-weight","bold")
             .style("font-size","110%")
             .style("background-color","#2E5894")
             .style("color","white")
-            .style("border-color","white");
+            .style("border-color","white");*/
       }
       
       /*function createHover(d) {
@@ -432,7 +432,7 @@ function change() {
         }*/
 
       function removeHover() {
-        d3.select(this).select("text.hover").remove();
+        d3.select(this).select("text.tooltip").remove();
       }
       
       /*function removeHover() {
