@@ -23,13 +23,19 @@ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 
+
 // Get csv data
 
 d3.csv('/data-lab-data/accounts_obligations_revised_v7.csv',function(error,newData){
 
 console.log("Hierarchy: ",newData);
 
-
+// Append Div for tooltip to SVG
+    var div = d3.select("#tree-container")
+              .append("div")
+              .attr("class", "tooltip")
+              .style("opacity", 0);
+    
 var root = { name :"Federal Accounts", children : [] },
 levels = ["Agency","Subagency"];
 
@@ -108,7 +114,7 @@ function change() {
   toggleAll(root);
   toggle(root);
   update(root);
-  centerNode(root);
+  centerRootNode(root);
   zoomListener.scale(1);
 };
 
@@ -254,6 +260,32 @@ function change() {
   // Function to center node when clicked/dropped so node doesn't get lost when collapsing/moving with large amount of children.
 
   function centerNode(source) {
+      if(source.depth===2){
+          scale = zoomListener.scale();
+          x = -source.y0;
+          y = -source.x0;
+          x = x * scale + viewerWidth / 4.2;
+          y = y * scale + viewerHeight / 2;
+          d3.select('g').transition()
+              .duration(duration)
+              .attr("transform", "translate(" + x + "," + y + ")scale(" + scale + ")");
+          zoomListener.scale(scale);
+          zoomListener.translate([x, y]);
+    }else{
+          scale = zoomListener.scale();
+          x = -source.y0;
+          y = -source.x0;
+          x = x * scale + viewerWidth / 3;
+          y = y * scale + viewerHeight / 2;
+          d3.select('g').transition()
+              .duration(duration)
+              .attr("transform", "translate(" + x + "," + y + ")scale(" + scale + ")");
+          zoomListener.scale(scale);
+          zoomListener.translate([x, y]);
+    }
+  }
+    
+    function centerRootNode(source) {
       scale = zoomListener.scale();
       x = -source.y0;
       y = -source.x0;
@@ -269,6 +301,7 @@ function change() {
   // Toggle children function
 
   function toggleChildren(d) {
+    console.log("In toggleChildren(d): ",d);
       if (d.children) {
           d._children = d.children;
           d.children = null;
@@ -282,11 +315,25 @@ function change() {
   // Toggle children on click.
 
   function click(d) {
-    if(d.depth===3 ){
+    /*console.log("In click(d): ",d);
+    console.log("In click(d)--->d.depth: ",d.depth);
+    console.log("In click(d)--->d._children: ",d._children);*/
+    if(d.depth===1 & d._children === null){
+      d = toggleChildren(d);
+      update(d);
       centerNode(d);
+    }else if(d.depth===3 ){
       update(d);
       getLink(d);
-
+    }else if(d.depth===2 ){
+      d = toggleChildren(d);
+      update(d);
+      centerNode(d);
+    }else if(d.depth===1 & d._children !== null & d._children.length===1 ){
+      d._children.forEach(expand);
+      d = toggleChildren(d);
+      update(d);
+      centerNode(d.children[0]);
     }else{
       d = toggleChildren(d);
       update(d);
@@ -341,12 +388,7 @@ function change() {
               return d.id || (d.id = ++i);
           });
 
-      // Append Div for tooltip to SVG
-      var div = d3.select("#tree-container")
-              .append("div")
-              .attr("class", "tooltip")
-              .style("opacity", 0);
-
+      
       // Enter any new nodes at the parent's previous position.
       var nodeEnter = node.enter().append("g")
           //.call(dragListener)
@@ -359,40 +401,55 @@ function change() {
           .on("mouseout", removeHover);
 
       function createHover(d) {
+        d3.select(this).append("text")
+            .attr("class", "hover")
+            .attr('transform', function(d){ 
+                if(d.depth===3){ return 'translate(-145, -10)';}
+                else if (d.depth === 2 | d.depth===1){ return 'translate(10, -10)';}
+        })
+        .text(function(d){
+            if(d.depth===3){ return "Visit Federal Account Page";}
+            else if (d.depth === 2 | d.depth===1){ return "View Federal Accounts";}
+        });
+      }
+      
+      function removeHover() {
+        d3.select(this).select("text.hover").remove();
+      }
+/*
+       function createHover(d) {
          if(d.depth===3 ){
             div.transition()
                .duration(700)
                .style("opacity", 1);
-               div.text("Visit federal account page")
-               .style("left", (d3.event.pageX)-370 + "px")
-               .style("top", (d3.event.pageY)-570 + "px");
-
+               div.text("Visit Federal Account Page")
+               .style("left", (d3.event.layerX -167) + "px")     
+               .style("top", (d3.event.layerY -10) + "px");
          } else if(d.depth===2 ){
              div.transition()
                   .duration(700)
                   .style("opacity", 1);
-                  div.text("View federal accounts")
-                  .style("left", (d3.event.pageX)-175 + "px")
-                  .style("top", (d3.event.pageY)-570 + "px");
-
+                  div.text("View Federal Accounts")
+                  .style("left", (d3.event.layerX +10) + "px")     
+                  .style("top", (d3.event.layerY -10) + "px");
           } else if(d.depth===1 ){
               div.transition()
                    .duration(700)
                    .style("opacity", 1);
-                   div.text("View agency breakdown")
-                   .style("left", (d3.event.pageX)-175 + "px")
-                   .style("top", (d3.event.pageY)-570 + "px");
+                   div.text("View Agency Breakdown")
+                   .style("left", (d3.event.layerX +10) + "px")     
+                   .style("top", (d3.event.layerY -10) + "px");
           }
-}
-
-
-
+       }
+      
       function removeHover() {
         div.transition()
            .duration(500)
            .style("opacity", 0);
       }
-
+*/      
+      
+      
       nodeEnter.append("circle")
           .attr('class', 'nodeCircle')
           .attr("r", 0)
@@ -541,5 +598,5 @@ function change() {
   toggleAll(root);
   toggle(root);
   update(root);
-  centerNode(root);
+  centerRootNode(root);
 });

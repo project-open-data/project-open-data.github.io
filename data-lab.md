@@ -98,9 +98,9 @@ page: data-lab
           <div class="panel-body">
             <p>The Data Lab at USAspending.gov has collected a number of resources to make it easier to conduct analysis and develop tools using federal spending data.</p>
             <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/User_Guide"><strong>Analytics user guide</strong></a></div>
-            <div><a href="{{site.baseurl}}/dictionary/"><strong>Data Dictionary</strong></a></div>
-            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/USAspending_API"><strong>Code to extract data from APIs</strong></a></div>
-            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website"><strong>Data Lab GitHub repository</strong></a></div>
+            <div><a href="{{site.baseurl}}/dictionary/" target="_blank"><strong>Data Dictionary</strong></a></div>
+            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/USAspending_API" target="_blank"><strong>Code to extract data from APIs</strong></a></div>
+            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website" target="_blank"><strong>Data Lab GitHub repository</strong></a></div>
           </div>
 
         </div>
@@ -115,13 +115,29 @@ page: data-lab
                 <img src="{{ site.baseurl }}/assets/img/DataLab_Chat_Icon.png" class="img-responsive" style="min-height:55.63px">
               </div>
               <div class="col-sm-8">
-                <a href="https://airtable.com/shrNO3BREEFIhUhdz"><h3>Care to Share? We're Listening.</h3></a>
+                <a href="https://airtable.com/shrNO3BREEFIhUhdz" target="_blank"><h3>Send Us Your Feedback.</h3></a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+      <!--User Testing Panel-->
+        <div class="row mt-10">
+          <div class="panel panel-default" style="border-width:4px; border-color:#d6d7d9; background-color:#f5f5f5; margin-bottom:20px">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="{{ site.baseurl }}/assets/img/DataLab_UserTesting_Icon.png" class="img-responsive" style="min-height:55.63px">
+                </div>
+                <div class="col-sm-8">
+                  <a href="https://airtable.com/shrVMcNncc32AEum7" target="_blank"><h3>Sign Up to be a User Tester.</h3></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
     </div>
   </div>
 </div>
