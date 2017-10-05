@@ -121,11 +121,16 @@ function change() {
     
 function explode(){
   zoomListener.scale(1);
-  toggleAll(root);
-  //toggle(root);
+  root.children.forEach(expand);
+  d = root.children;
+  console.log("root.children: ",d);
+  d._children.forEach(expand);
+  d = d._children;
+  console.log("d.children: ",d);
+  d._children.forEach(expand); 
   update(root);
   centerRootNode(root);
-  zoomListener.scale(.5);
+  zoomListener.scale(.1);
 };
 
   // A recursive helper function for performing some setup by walking through all nodes
