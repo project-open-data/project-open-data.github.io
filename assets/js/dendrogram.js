@@ -142,12 +142,12 @@ function change() {
 };
     
 function explode(){
-  zoomListener.scale(.15);
+  zoomListener.scale(.6);
   blowUp(root);
   toggle(root)
   update(root);
   centerRootNode(root);
-  zoomListener.scale(.15);
+  zoomListener.scale(.6);
 };
 
   // A recursive helper function for performing some setup by walking through all nodes
