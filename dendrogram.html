@@ -1,3 +1,4 @@
+
 ---
 published: true
 permalink: /data-lab/federal-accounts/
@@ -26,6 +27,8 @@ page: dendrogram
   <div>
     <h5 style= "margin-top:26px; margin-bottom:1.3rem">How this analysis was conducted</h5>
     <p>This analysis was conducted by organizing spending data reported to USAspending.gov according to the structure of the federal government presented in government-wide budget documents. To accomplish this, federal accounts were matched with the Office of Management and Budget's Master Account File, which contains Treasury accounts and their corresponding agency, as presented in the government-wide budget. This structure was matched to federal account obligations data reported by agencies to show both the size and relationships of agencies and accounts. The data used in this tool was pulled as of September 22, 2017.</p>
+    <button id="zoom_in">+</button>
+    <button id="zoom_out">-</button>  
   </div>
 <!-- d3 -->
 <script src="{{site.baseurl}}/assets/js/vendor/d3.v3.min.js"></script>
