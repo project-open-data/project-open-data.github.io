@@ -347,8 +347,8 @@ d3.selectAll('button').on('click', zoomClick);
       d3.select('g').transition()
           .duration(duration)
           .attr("transform", "translate(" + x + "," + y + ")");
-      zoomListener.scale(scale);
-      zoomListener.translate([x, y]);
+      //zoomListener.scale(scale);
+      //zoomListener.translate([x, y]);
   }
 
   // Toggle children function
