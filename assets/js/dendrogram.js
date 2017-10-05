@@ -107,7 +107,8 @@ console.log("root:",root);
   }
 };
 
-d3.select("input").on("click", change);
+d3.select("#xAxis").on("click", change);
+d3.select("#Explode").on("click", explode);
 
 function change() {
   zoomListener.scale(1);
@@ -116,6 +117,15 @@ function change() {
   update(root);
   centerRootNode(root);
   zoomListener.scale(1);
+};
+    
+function explode(){
+  zoomListener.scale(1);
+  toggleAll(root);
+  //toggle(root);
+  update(root);
+  centerRootNode(root);
+  zoomListener.scale(.5);
 };
 
   // A recursive helper function for performing some setup by walking through all nodes
