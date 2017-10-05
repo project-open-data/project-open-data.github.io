@@ -92,14 +92,14 @@ console.log("root:",root);
     
   function toggleBack(d) {
     if (d.children) {
-      d.children.forEach(blowUp);
+      d.children.forEach(toggleBack);
       toggle(d);
     }
   };
   
   function blowUp(d) {
     if (d.children) {
-      d.children.forEach(blowUp);
+      d.children.forEach(toggleBack);
       expand(d);
     }
   };  
@@ -135,8 +135,8 @@ function change() {
 };
     
 function explode(){
-  toggleBack(root);
-  toggle(root)
+  blowUp(root);
+  //toggle(root)
   update(root);
   centerRootNode(root);
   zoomListener.scale(.1);
