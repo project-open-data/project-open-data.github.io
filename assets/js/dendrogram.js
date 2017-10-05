@@ -102,7 +102,12 @@ console.log("root:",root);
       d.children.forEach(blowUp);
       d.children.forEach(expand);
       d = toggleChildren(d);
-      update(d);
+      //update(d);
+    }else if(d._children){
+      d._children.forEach(blowUp);
+      d._children.forEach(expand);
+      d = toggleChildren(d);
+      //update(d); 
     }
   };  
     
