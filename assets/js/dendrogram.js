@@ -194,7 +194,7 @@ function change() {
 var zoom = d3.behavior.zoom().scaleExtent([.1, 3]).on("zoom", zoomed);   
 
     function zoomed() {
-    svg.attr("transform",
+    baseSvg.attr("transform",
         "translate(" + zoom.translate() + ")" +
         "scale(" + zoom.scale() + ")"
     );
