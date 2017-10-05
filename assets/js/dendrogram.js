@@ -202,7 +202,7 @@ function change() {
       .attr("width", viewerWidth)
       .attr("height", viewerHeight)
       .attr("class", "overlay")
-      .call(zoom);
+      .call(zoomListener);
 
   // Helper functions for collapsing and expanding nodes.
 
