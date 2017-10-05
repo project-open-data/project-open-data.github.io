@@ -425,7 +425,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
 
         function highlight_node_links(node,i){
             console.log("this: ",this);
-            //remove_highlight(node,i);
+            remove_highlight(this);
             //d3.select("#sankey-panel").remove();
 // REMOVE_NODE_LINKS ***************************************************************************************************************
            /* var remainingNodes=[],
@@ -464,12 +464,12 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
                     });
                     remainingNodes = nextNodes;
                 }
-            });*/
+            });
             
             d3.selectAll("#tab").remove();
             d3.selectAll("#tab_2").remove();
             d3.selectAll("#tab_3").remove();
-            d3.selectAll("#description").remove();
+            d3.selectAll("#description").remove();*/
 // *********************************************************************************************************************************
 
             var remainingNodes=[],
