@@ -120,6 +120,7 @@ function change() {
 };
     
 function explode(){
+  console.log("In Explode!");
   zoomListener.scale(1);
   root.children.forEach(expand);
   d = root.children;
