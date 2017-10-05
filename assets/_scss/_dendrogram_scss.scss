@@ -59,7 +59,7 @@
   #button_holder{
     position: sticky;
     height:47px;
-    width: 330px;
+    width:245px;
     /*margin-left: 40px;*/
     padding-bottom: 20px;
     vertical-align: middle;
@@ -74,6 +74,7 @@
      font-family: inherit;
      text-decoration: none;
      vertical-align: middle;
+     width:120px;
      }
   .button:hover {
      border-top-color: #0071bc;
