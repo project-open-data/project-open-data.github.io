@@ -100,7 +100,7 @@ console.log("root:",root);
   function blowUp(d) {
     if (d.children) {
       d.children.forEach(blowUp);
-      d._children.forEach(expand);
+      d.children.forEach(expand);
       d = toggleChildren(d);
       update(d);
     }
