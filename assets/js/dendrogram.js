@@ -89,7 +89,13 @@ console.log("root:",root);
       .projection(function(d) {
           return [d.y, d.x];
       });
-
+function toggleBack(d) {
+    if (d.children) {
+      d.children.forEach(toggleAll);
+      toggle(d);
+    }
+  };
+    
   function toggleAll(d) {
     if (d.children) {
       d.children.forEach(toggleAll);
@@ -112,7 +118,7 @@ d3.select("#button2 > p > input").on("click", explode);
 
 function change() {
   zoomListener.scale(1);
-  //toggleAll(root);
+  toggleBack(root);
   toggle(root);
   update(root);
   centerRootNode(root);
@@ -122,12 +128,8 @@ function change() {
 function explode(){
   console.log("In Explode!");
   zoomListener.scale(1);
-  /*root.children.forEach(expand);
-  d = root.children;
-  console.log("root.children: ",d);
-  d.forEach(expand);
-  d.forEach(d.children.forEach(expand));*/
   toggleAll(root);
+  toggle(root)
   update(root);
   centerRootNode(root);
   zoomListener.scale(.1);
