@@ -141,7 +141,7 @@ function explode(){
   toggle(root)
   update(root);
   centerRootNode(root);
-  zoomListener.scale(.1);
+  zoomListener.scale(.5);
 };
 
   // A recursive helper function for performing some setup by walking through all nodes
