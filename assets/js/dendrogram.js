@@ -91,7 +91,7 @@ console.log("root:",root);
       });
 function toggleBack(d) {
     if (d.children) {
-      d.children.forEach(toggleAll);
+      d.children.forEach(toggleBack);
       toggle(d);
     }
   };
