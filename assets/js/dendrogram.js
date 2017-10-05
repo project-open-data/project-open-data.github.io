@@ -93,7 +93,7 @@ console.log("root:",root);
   function toggleAll(d) {
     if (d.children) {
       d.children.forEach(toggleAll);
-      toggle(d);
+      expand(d);
     }
   };
   // Toggle children.
@@ -112,7 +112,7 @@ d3.select("#button2 > p > input").on("click", explode);
 
 function change() {
   zoomListener.scale(1);
-  toggleAll(root);
+  //toggleAll(root);
   toggle(root);
   update(root);
   centerRootNode(root);
@@ -122,13 +122,12 @@ function change() {
 function explode(){
   console.log("In Explode!");
   zoomListener.scale(1);
-  root.children.forEach(expand);
+  /*root.children.forEach(expand);
   d = root.children;
   console.log("root.children: ",d);
-  d._children.forEach(expand);
-  d = d._children;
-  console.log("d.children: ",d);
-  d._children.forEach(expand); 
+  d.forEach(expand);
+  d.forEach(d.children.forEach(expand));*/
+  toggleAll(root);
   update(root);
   centerRootNode(root);
   zoomListener.scale(.1);
