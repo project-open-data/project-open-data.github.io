@@ -89,10 +89,11 @@ console.log("root:",root);
       .projection(function(d) {
           return [d.y, d.x];
       });
-function toggleBack(d) {
+    
+  function toggleBack(d) {
     if (d.children) {
       d.children.forEach(toggleAll);
-      toggle(d);
+      expand(d);
     }
   };
     
