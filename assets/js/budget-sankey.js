@@ -472,8 +472,8 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
             d3.selectAll("#description").remove();
 // *********************************************************************************************************************************
 
-            var remainingNodes=[],
-                nextNodes=[];
+            //var remainingNodes=[],
+              //  nextNodes=[];
 
             //console.log("NODE: ",node);
             //console.log("LINK: ",link);
