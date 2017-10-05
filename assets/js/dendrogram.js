@@ -107,8 +107,8 @@ console.log("root:",root);
   }
 };
 
-d3.select("#xAxis").on("click", change);
-d3.select("#Explode").on("click", explode);
+d3.select("#button1 > p > input").on("click", change);
+d3.select("#button2 > p > input").on("click", explode);
 
 function change() {
   zoomListener.scale(1);
