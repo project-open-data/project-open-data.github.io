@@ -25,6 +25,11 @@
   }
   .overlay{
     background-color:inherit;
+    fill: none;
+    pointer-events: all;
+  }
+  button {
+    padding: 10px 20px;
   }
   .node circle {
     fill: #F3F6FF;
