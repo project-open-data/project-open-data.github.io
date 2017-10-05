@@ -424,8 +424,8 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
         }
 
         function highlight_node_links(node,i){
-            
-            d3.select("#sankey-panel").remove();
+            remove_highlight(node,i);
+            //d3.select("#sankey-panel").remove();
             
 
             var remainingNodes=[],
