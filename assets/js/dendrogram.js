@@ -92,10 +92,17 @@ console.log("root:",root);
     
   function toggleBack(d) {
     if (d.children) {
-      d.children.forEach(toggleAll);
-      expand(d);
+      d.children.forEach(blowUp);
+      toggle(d);
     }
   };
+  
+  function blowUp(d) {
+    if (d.children) {
+      d.children.forEach(blowUp);
+      expand(d);
+    }
+  };  
     
   function toggleAll(d) {
     if (d.children) {
@@ -103,6 +110,7 @@ console.log("root:",root);
       toggle(d);
     }
   };
+    
   // Toggle children.
   function toggle(d) {
   if (d.children) {
@@ -127,8 +135,6 @@ function change() {
 };
     
 function explode(){
-  console.log("In Explode!");
-  zoomListener.scale(1);
   toggleBack(root);
   toggle(root)
   update(root);
