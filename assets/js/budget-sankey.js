@@ -428,7 +428,7 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
             //remove_highlight(node,i);
             //d3.select("#sankey-panel").remove();
 // REMOVE_NODE_LINKS ***************************************************************************************************************
-            var remainingNodes=[],
+           /* var remainingNodes=[],
                 nextNodes=[];
 
             var stroke_opacity = 0;
@@ -469,11 +469,11 @@ d3.csv("/data-lab-data/sankey_v13.csv",function(error, data){
             d3.selectAll("#tab").remove();
             d3.selectAll("#tab_2").remove();
             d3.selectAll("#tab_3").remove();
-            d3.selectAll("#description").remove();
+            d3.selectAll("#description").remove();*/
 // *********************************************************************************************************************************
 
-            //var remainingNodes=[],
-              //  nextNodes=[];
+            var remainingNodes=[],
+                nextNodes=[];
 
             //console.log("NODE: ",node);
             //console.log("LINK: ",link);
