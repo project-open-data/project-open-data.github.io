@@ -93,12 +93,12 @@ console.log("root:",root);
   function blowUp(d) {
     if (d.children) {
       d.children.forEach(blowUp);
-      d.children.forEach(toggleChildren(d));
+      //d.children.forEach(expand);
       d = toggleChildren(d);
       //update(d);
     }else if(d._children){
       d._children.forEach(blowUp);
-      d._children.forEach(toggleChildren(d));
+      //d._children.forEach(expand);
       d = toggleChildren(d);
       //update(d); 
     }
