@@ -340,7 +340,7 @@ function centerNode(source) {
   // Toggle children function
 
   function toggleChildren(d) {
-    console.log("In toggleChildren(d): ",d);
+    //console.log("In toggleChildren(d): ",d);
       if (d.children) {
           d._children = d.children;
           d.children = null;
