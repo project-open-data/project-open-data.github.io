@@ -31,10 +31,10 @@ d3.csv('/data-lab-data/accounts_obligations_revised_v7.csv',function(error,newDa
 console.log("Hierarchy: ",newData);
 
 // Append Div for tooltip to SVG
-    var div = d3.select("#tree-container")
+ /*   var div = d3.select("#tree-container")
               .append("div")
               .attr("class", "tooltip")
-              .style("opacity", 0);
+              .style("opacity", 0);*/
     
 var root = { name :"Federal Accounts", children : [] },
 levels = ["Agency","Subagency"];
@@ -91,14 +91,13 @@ console.log("root:",root);
       });
     
   function blowUp(d) {
-   // if (d.children) {
-      //d.children.forEach(blowUp);
+  if (d.children) {
+      d.children.forEach(blowUp);
       d = toggleChildren(d);
-   // }
-      /*else if(d._children){
+   }else if(d._children){
       d._children.forEach(blowUp);
       d = toggleChildren(d);
-    }*/
+    }
   };  
     
   function toggleAll(d) {
@@ -231,7 +230,7 @@ function explode(){
   function collapse(d) {
       if (d.children) {
           d._children = d.children;
-          //d._children.forEach(collapse);
+          d._children.forEach(collapse);
           d.children = null;
       }
   }
@@ -239,7 +238,7 @@ function explode(){
   function expand(d) {
       if (d._children) {
           d.children = d._children;
-          //d.children.forEach(expand);
+          d.children.forEach(expand);
           d._children = null;
       }
   }
