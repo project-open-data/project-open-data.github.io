@@ -91,6 +91,7 @@ console.log("root:",root);
       });
     
   function blowUp(d) {
+   console.log("blowUp-->d: ",d);
    if (d.children) {
       d.children.forEach(blowUp);
       d = toggleChildren(d);
