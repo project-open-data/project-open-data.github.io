@@ -146,7 +146,7 @@ function explode(){
   blowUp(root);
   toggle(root)
   update(root);
-  centerRootNode(root);
+  centerExplode(root);
   zoomListener.scale(.6);
 };
 
@@ -331,6 +331,19 @@ function centerNode(source) {
       zoomListener.scale(scale);
       zoomListener.translate([x, y]);
   }
+    function centerExplode(source) {
+      scale = zoomListener.scale();
+      x = -source.y0;
+      y = -source.x0;
+      x = x * scale + viewerWidth / 8;
+      y = y * scale + viewerHeight / 2;
+      d3.select('g').transition()
+          .duration(duration)
+          .attr("transform", "translate(" + x + "," + y + ")scale(" + scale + ")");
+      zoomListener.scale(scale);
+      zoomListener.translate([x, y]);
+  }
+
 
 
   // Toggle children function
