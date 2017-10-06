@@ -90,13 +90,6 @@ console.log("root:",root);
           return [d.y, d.x];
       });
     
-  /*function toggleBack(d) {
-    if (d.children) {
-      d.children.forEach(toggleBack);
-      toggle(d);
-    }
-  };*/
-  
   function blowUp(d) {
     if (d.children) {
       d.children.forEach(blowUp);
@@ -145,7 +138,7 @@ function explode(){
   zoomListener.scale(.7);
   blowUp(root);
   toggle(root)
-  update(root);
+  //update(root);
   centerExplode(root);
   zoomListener.scale(.7);
 };
