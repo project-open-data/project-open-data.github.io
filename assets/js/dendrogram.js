@@ -94,11 +94,9 @@ console.log("root:",root);
     if (d.children) {
       d.children.forEach(blowUp);
       d = toggleChildren(d);
-      update(d);
     }else if(d._children){
       d._children.forEach(blowUp);
       d = toggleChildren(d);
-      update(d); 
     }
   };  
     
