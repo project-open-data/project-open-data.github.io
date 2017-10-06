@@ -94,10 +94,11 @@ console.log("root:",root);
     if (d.children) {
       d.children.forEach(blowUp);
       d = toggleChildren(d);
-    }else if(d._children){
+    }
+      /*else if(d._children){
       d._children.forEach(blowUp);
       d = toggleChildren(d);
-    }
+    }*/
   };  
     
   function toggleAll(d) {
