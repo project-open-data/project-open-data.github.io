@@ -142,12 +142,12 @@ function change() {
 };
     
 function explode(){
-  zoomListener.scale(.8);
+  zoomListener.scale(.7);
   blowUp(root);
   toggle(root)
   update(root);
   centerExplode(root);
-  zoomListener.scale(.8);
+  zoomListener.scale(.7);
 };
 
   // A recursive helper function for performing some setup by walking through all nodes
@@ -335,7 +335,7 @@ function centerNode(source) {
       scale = zoomListener.scale();
       x = -source.y0;
       y = -source.x0;
-      x = x * scale + viewerWidth / 8;
+      x = x * scale + viewerWidth / 10;
       y = y * scale + viewerHeight / 2;
       d3.select('g').transition()
           .duration(duration)
