@@ -137,9 +137,8 @@ function change() {
 function explode(){
   zoomListener.scale(.7);
   blowUp(root);
-  
+//  toggle(root);  
   update(root);
-  toggle(root);
   centerExplode(root);
   zoomListener.scale(.7);
 };
