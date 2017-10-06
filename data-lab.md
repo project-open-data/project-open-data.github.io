@@ -98,7 +98,7 @@ page: data-lab
           <div class="panel-body">
             <p>The Data Lab at USAspending.gov has collected a number of resources to make it easier to conduct analysis and develop tools using federal spending data.</p>
             <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/User_Guide"><strong>Analytics user guide</strong></a></div>
-            <div><a href="{{site.baseurl}}/dictionary/" target="_blank"><strong>Data Dictionary</strong></a></div>
+            <div><a href="{{site.baseurl}}/data-dictionary/" target="_blank"><strong>Data Dictionary</strong></a></div>
             <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/USAspending_API" target="_blank"><strong>Code to extract data from APIs</strong></a></div>
             <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website" target="_blank"><strong>Data Lab GitHub repository</strong></a></div>
           </div>
