@@ -335,7 +335,7 @@ function centerNode(source) {
       scale = zoomListener.scale();
       x = -source.y0;
       y = -source.x0;
-      x = x * scale + viewerWidth / 10;
+      x = x * scale + viewerWidth / 14;
       y = y * scale + viewerHeight / 2;
       d3.select('g').transition()
           .duration(duration)
