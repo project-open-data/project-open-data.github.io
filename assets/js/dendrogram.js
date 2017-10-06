@@ -92,7 +92,7 @@ console.log("root:",root);
     
   function blowUp(d) {
    // if (d.children) {
-      d.children.forEach(blowUp);
+      //d.children.forEach(blowUp);
       d = toggleChildren(d);
    // }
       /*else if(d._children){
