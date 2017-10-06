@@ -93,12 +93,12 @@ console.log("root:",root);
   function blowUp(d) {
     if (d.children) {
       d.children.forEach(blowUp);
-      d.children.forEach(expand);
+      d.children.forEach(toggleChildren(d));
       d = toggleChildren(d);
       //update(d);
     }else if(d._children){
       d._children.forEach(blowUp);
-      d._children.forEach(expand);
+      d._children.forEach(toggleChildren(d));
       d = toggleChildren(d);
       //update(d); 
     }
@@ -137,7 +137,7 @@ function change() {
 function explode(){
   zoomListener.scale(.7);
   blowUp(root);
-//  toggle(root);  
+  toggle(root);  
   update(root);
   centerExplode(root);
   zoomListener.scale(.7);
