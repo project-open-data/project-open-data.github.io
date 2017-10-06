@@ -91,7 +91,6 @@ console.log("root:",root);
       });
     
   function blowUp(d) {
-   collapse(d);
    if (d.children) {
       d.children.forEach(expand);
       d.children.forEach(blowUp);
@@ -135,12 +134,12 @@ function change() {
 };
     
 function explode(){
-  zoomListener.scale(.7);
+  zoomListener.scale(1);
   blowUp(root);
   toggle(root);  
   update(root);
   centerExplode(root);
-  zoomListener.scale(.7);
+  zoomListener.scale(1);
 };
 
   // A recursive helper function for performing some setup by walking through all nodes
