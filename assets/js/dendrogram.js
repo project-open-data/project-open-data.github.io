@@ -107,6 +107,7 @@ console.log("root:",root);
       d.children.forEach(toggleAll);
       toggle(d);
     }
+    return d;
   };
     
   // Toggle children.
@@ -118,6 +119,7 @@ console.log("root:",root);
     d.children = d._children;
     d._children = null;
   }
+  return d;
 };
 
 d3.select("#button1 > p > input").on("click", change);
