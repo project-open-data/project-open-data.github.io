@@ -91,7 +91,7 @@ console.log("root:",root);
       });
     
   function blowUp(d) {
-   console.log("blowUp-->d: ",d);
+   //console.log("blowUp-->d: ",d);
    if (d.children) {
       d.children.forEach(blowUp);
       d = toggleChildren(d);
@@ -437,6 +437,7 @@ function centerNode(source) {
           .on('click', click)
           .on("mouseover", createHover)
           .on("mouseout", removeHover);
+     console.log("nodeEnter: ",nodeEnter);
 
       function createHover(d) {
         d3.select(this).append("text")
