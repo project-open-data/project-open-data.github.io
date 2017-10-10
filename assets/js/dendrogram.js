@@ -122,7 +122,9 @@ function zoomButtonUp(){
   console.log("scale: ",zoomListener.scale());
   var scale = zoomListener.scale() + .25;
   console.log("new-scale: ",scale);
-  update(root);
+  d3.select('g').transition()
+          .duration(duration)
+          .attr("transform", "scale(" + scale + ")");
   zoomListener.scale(scale);
 };
   
@@ -130,6 +132,9 @@ function zoomButtonDn(){
   console.log("scale: ",zoomListener.scale());
   var scale = zoomListener.scale() - .25;
   console.log("new-scale: ",scale);
+  d3.select('g').transition()
+          .duration(duration)
+          .attr("transform", "scale(" + scale + ")");
   zoomListener.scale(scale);
 };
   
