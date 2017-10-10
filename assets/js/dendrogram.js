@@ -113,61 +113,15 @@ console.log("root:",root);
   }
 };
 
-d3.select("#zoom_in").on("click", zoomClick);
-d3.select("#zoom_out").on("click", zoomClick);
+d3.select("#zoom_in").on("click", zoomButton);
+d3.select("#zoom_out").on("click", zoomButton);
 d3.select("#button1 > p > input").on("click", change);
 d3.select("#button2 > p > input").on("click", explode);
-
-function zoomed() {
-    baseSvg.attr("transform",
-        "translate(" + zoomListener.translate() + ")" +
-        "scale(" + zoomListener.scale() + ")"
-    );
-}
-
-function interpolateZoom (translate, scale) {
-    var self = this;
-    return d3.transition().duration(350).tween("zoom", function () {
-        var iTranslate = d3.interpolate(zoomListener.translate(), translate),
-            iScale = d3.interpolate(zoomListener.scale(), scale);
-        return function (t) {
-            zoomListener
-                .scale(iScale(t))
-                .translate(iTranslate(t));
-            zoomed();
-        };
-    });
-}
-
-function zoomClick() {
-    var clicked = d3.event.target,
-        direction = 1,
-        factor = 0.2,
-        target_zoom = 1,
-        center = [viewerWidth / 20, viewerHeight / 4],
-        extent = zoomListener.scaleExtent(),
-        translate = zoomListener.translate(),
-        translate0 = [],
-        l = [],
-        view = {x: translate[0], y: translate[1], k: zoomListener.scale()};
-
-    d3.event.preventDefault();
-    direction = (this.id === 'zoom_in') ? 1 : -1;
-    target_zoom = zoomListener.scale() * (1 + factor * direction);
-
-    if (target_zoom < extent[0] || target_zoom > extent[1]) { return false; }
-
-    translate0 = [(center[0] - view.x) / view.k, (center[1] - view.y) / view.k];
-    view.k = target_zoom;
-    l = [translate0[0] * view.k - view.x, translate0[1] * view.k - view.y];
-
-    view.x += center[0] - l[0];
-    view.y += center[1] - l[1];
-
-    interpolateZoom([view.x, view.y], view.k);
-} 
  
- 
+function zoomButton(){
+
+};
+  
 function change() {
   zoomListener.scale(1);
   toggleAll(root);
