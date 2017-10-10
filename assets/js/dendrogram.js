@@ -451,7 +451,8 @@ function centerNode(source) {
         })
         .text(function(d){
             if(d.depth===3){ return "Visit Federal Account Page";}
-            else if (d.depth === 2 | d.depth===1){ return "View Federal Accounts";}
+            else if (d.depth === 2){ return "View Federal Accounts";}
+            else if (d.depth===1){ return "View Agencies";}
         });
       }
       
