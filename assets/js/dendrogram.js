@@ -119,9 +119,8 @@ d3.select("#button1 > p > input").on("click", change);
 d3.select("#button2 > p > input").on("click", explode);
  
 function zoomButtonUp(){
-  console.log("scale: ",zoomListener.scale());
+  console.log("zoomListener",zoomListener);
   var scale = zoomListener.scale() + .1;
-  console.log("new-scale: ",scale);
   d3.select('g').transition()
           .duration(duration)
           .attr("transform", "scale(" + scale + ")");
@@ -129,9 +128,7 @@ function zoomButtonUp(){
 };
   
 function zoomButtonDn(){
-  console.log("scale: ",zoomListener.scale());
   var scale = zoomListener.scale() - .1;
-  console.log("new-scale: ",scale);
   d3.select('g').transition()
           .duration(duration)
           .attr("transform", "scale(" + scale + ")");
