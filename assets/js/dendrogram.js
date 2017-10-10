@@ -120,23 +120,24 @@ d3.select("#button2 > p > input").on("click", explode);
  
 function zoomButtonUp(){
   console.log("translate: ",zoomListener.translate());
-  var scale = zoomListener.scale() + .1;
+  var scale = zoomListener.scale() + .1.
+      translate = zoomListener.translate();
   d3.select('g').transition()
           .duration(duration)
           .attr("transform", "scale(" + scale + ")");
   console.log("translate-new: ",zoomListener.translate());
-  update(root);
   zoomListener.scale(scale);
-  
+  zoomListener.translate(translate);
 };
   
 function zoomButtonDn(){
-  var scale = zoomListener.scale() - .1;
+  var scale = zoomListener.scale() - .1,
+      translate = zoomListener.translate();
   d3.select('g').transition()
           .duration(duration)
           .attr("transform", "scale(" + scale + ")");
-  update(root);
   zoomListener.scale(scale);
+  zoomListener.translate(translate);
 };
   
 function change() {
@@ -233,8 +234,8 @@ function explode(){
   }
 
   // define the zoomListener which calls the zoom function on the "zoom" event constrained within the scaleExtents
-  var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoom);
-  //var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]);
+  //var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoom);
+  var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]);
 
   // define the baseSvg, attaching a class for styling and the zoomListener
   var baseSvg = d3.select("#tree-container").append("svg")
