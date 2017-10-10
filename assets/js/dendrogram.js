@@ -135,10 +135,10 @@ function change() {
 };
     
 function explode(){
-  change();
   zoomListener.scale(0.7);
   //blowUp(root);
   //toggle(root);  
+  toggleAll(root);
   update(root);
   centerExplode(root);
   zoomListener.scale(0.7);
