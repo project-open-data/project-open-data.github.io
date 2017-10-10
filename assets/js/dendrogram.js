@@ -229,7 +229,7 @@ function explode(){
   }
 
   // define the zoomListener which calls the zoom function on the "zoom" event constrained within the scaleExtents
-  var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("drag", zoom);
+  var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoom);
   //var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]);
 
   // define the baseSvg, attaching a class for styling and the zoomListener
