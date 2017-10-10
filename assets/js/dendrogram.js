@@ -94,12 +94,11 @@ console.log("root:",root);
    console.log("blowUp-->d: ",d);
    if (d.children) {
       d.children.forEach(blowUp);
-      d = click(d); //toggleChildren(d);
+      d = toggleChildren(d);
    }else if(d._children){
       d._children.forEach(blowUp);
-      d = click(d);
+      d = toggleChildren(d);
     }
-   
   };  
     
   function toggleAll(d) {
@@ -107,7 +106,6 @@ console.log("root:",root);
       d.children.forEach(toggleAll);
       toggle(d);
     }
-    return d;
   };
     
   // Toggle children.
@@ -119,7 +117,6 @@ console.log("root:",root);
     d.children = d._children;
     d._children = null;
   }
-  return d;
 };
 
 d3.select("#button1 > p > input").on("click", change);
@@ -458,40 +455,7 @@ function centerNode(source) {
       function removeHover() {
         d3.select(this).select("text.hover").remove();
       }
-/*
-       function createHover(d) {
-         if(d.depth===3 ){
-            div.transition()
-               .duration(700)
-               .style("opacity", 1);
-               div.text("Visit Federal Account Page")
-               .style("left", (d3.event.layerX -167) + "px")     
-               .style("top", (d3.event.layerY -10) + "px");
-         } else if(d.depth===2 ){
-             div.transition()
-                  .duration(700)
-                  .style("opacity", 1);
-                  div.text("View Federal Accounts")
-                  .style("left", (d3.event.layerX +10) + "px")     
-                  .style("top", (d3.event.layerY -10) + "px");
-          } else if(d.depth===1 ){
-              div.transition()
-                   .duration(700)
-                   .style("opacity", 1);
-                   div.text("View Agency Breakdown")
-                   .style("left", (d3.event.layerX +10) + "px")     
-                   .style("top", (d3.event.layerY -10) + "px");
-          }
-       }
-      
-      function removeHover() {
-        div.transition()
-           .duration(500)
-           .style("opacity", 0);
-      }
-*/      
-      
-      
+
       nodeEnter.append("circle")
           .attr('class', 'nodeCircle')
           .attr("r", 0)
@@ -513,21 +477,6 @@ function centerNode(source) {
               return d.name;
           })
           .style("fill-opacity", 0);
-
-      // phantom node to give us mouseover in a radius around it
-      /*nodeEnter.append("circle")
-          .attr('class', 'ghostCircle')
-          .attr("r", 30)
-          .attr("opacity", 0.2) // change this to zero to hide the target area
-      .style("fill", "red")
-          .attr('pointer-events', 'mouseover')
-          .on("mouseover", function(node) {
-              overCircle(node);
-          })
-          .on("mouseout", function(node) {
-              outCircle(node);
-
-          });*/
 
       var formatNumber = d3.format("$,.0f");
 
