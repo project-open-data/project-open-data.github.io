@@ -113,13 +113,19 @@ console.log("root:",root);
   }
 };
 
-d3.select("#zoom_in").on("click", zoomButton);
-d3.select("#zoom_out").on("click", zoomButton);
+d3.select("#zoom_in").on("click", zoomButtonUp);
+d3.select("#zoom_out").on("click", zoomButtonDn);
 d3.select("#button1 > p > input").on("click", change);
 d3.select("#button2 > p > input").on("click", explode);
  
-function zoomButton(){
-
+function zoomButtonUp(){
+  scale = zoomListener.scale();
+  zoomListener.scale(scale+.1);
+};
+  
+function zoomButtonDn(){
+  scale = zoomListener.scale();
+  zoomListener.scale(scale-.1);
 };
   
 function change() {
