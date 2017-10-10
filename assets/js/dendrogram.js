@@ -120,7 +120,7 @@ d3.select("#button2 > p > input").on("click", explode);
  
 function zoomButtonUp(){
   console.log("translate: ",zoomListener.translate());
-  var scale = zoomListener.scale() + .1.
+  var scale = zoomListener.scale() + .1,
       translate = zoomListener.translate();
   d3.select('g').transition()
           .duration(duration)
