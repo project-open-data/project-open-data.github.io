@@ -119,12 +119,16 @@ d3.select("#button1 > p > input").on("click", change);
 d3.select("#button2 > p > input").on("click", explode);
  
 function zoomButtonUp(){
-  var scale = zoomListener.scale() + .1;
+  console.log("scale: ",scale);
+  var scale = zoomListener.scale() + .25;
+  console.log("new-scale: ",scale);
   zoomListener.scale(scale);
 };
   
 function zoomButtonDn(){
-  var scale = zoomListener.scale() - .1;
+  console.log("scale: ",scale);
+  var scale = zoomListener.scale() - .25;
+  console.log("new-scale: ",scale);
   zoomListener.scale(scale);
 };
   
