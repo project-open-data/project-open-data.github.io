@@ -118,12 +118,12 @@ d3.select("#zoom_out").on("click", zoomClick);
 d3.select("#button1 > p > input").on("click", change);
 d3.select("#button2 > p > input").on("click", explode);
 
-function zoomed() {
+/*function zoomed() {
     baseSvg.attr("transform",
         "translate(" + zoomListener.translate() + ")" +
         "scale(" + zoomListener.scale() + ")"
     );
-}
+}*/
 
 function interpolateZoom (translate, scale) {
     var self = this;
@@ -134,7 +134,7 @@ function interpolateZoom (translate, scale) {
             zoomListener
                 .scale(iScale(t))
                 .translate(iTranslate(t));
-            zoomed();
+            zoom();
         };
     });
 }
