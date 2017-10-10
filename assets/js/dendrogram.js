@@ -30,12 +30,6 @@ d3.csv('/data-lab-data/accounts_obligations_revised_v7.csv',function(error,newDa
 
 console.log("Hierarchy: ",newData);
 
-// Append Div for tooltip to SVG
- /*   var div = d3.select("#tree-container")
-              .append("div")
-              .attr("class", "tooltip")
-              .style("opacity", 0);*/
-    
 var root = { name :"Federal Accounts", children : [] },
 levels = ["Agency","Subagency"];
 
@@ -119,9 +113,61 @@ console.log("root:",root);
   }
 };
 
+d3.select("#zoom_in").on("click", zoomClick);
+d3.select("#zoom_out").on("click", zoomClick);
 d3.select("#button1 > p > input").on("click", change);
 d3.select("#button2 > p > input").on("click", explode);
 
+function zoomed() {
+    baseSvg.attr("transform",
+        "translate(" + zoom.translate() + ")" +
+        "scale(" + zoom.scale() + ")"
+    );
+}
+
+function interpolateZoom (translate, scale) {
+    var self = this;
+    return d3.transition().duration(350).tween("zoom", function () {
+        var iTranslate = d3.interpolate(zoom.translate(), translate),
+            iScale = d3.interpolate(zoom.scale(), scale);
+        return function (t) {
+            zoom
+                .scale(iScale(t))
+                .translate(iTranslate(t));
+            zoomed();
+        };
+    });
+}
+
+function zoomClick() {
+    var clicked = d3.event.target,
+        direction = 1,
+        factor = 0.2,
+        target_zoom = 1,
+        center = [width / 2, height / 2],
+        extent = zoom.scaleExtent(),
+        translate = zoom.translate(),
+        translate0 = [],
+        l = [],
+        view = {x: translate[0], y: translate[1], k: zoom.scale()};
+
+    d3.event.preventDefault();
+    direction = (this.id === 'zoom_in') ? 1 : -1;
+    target_zoom = zoom.scale() * (1 + factor * direction);
+
+    if (target_zoom < extent[0] || target_zoom > extent[1]) { return false; }
+
+    translate0 = [(center[0] - view.x) / view.k, (center[1] - view.y) / view.k];
+    view.k = target_zoom;
+    l = [translate0[0] * view.k + view.x, translate0[1] * view.k + view.y];
+
+    view.x += center[0] - l[0];
+    view.y += center[1] - l[1];
+
+    interpolateZoom([view.x, view.y], view.k);
+} 
+ 
+ 
 function change() {
   zoomListener.scale(1);
   toggleAll(root);
@@ -171,7 +217,6 @@ function explode(){
   // sort the tree according to the node names & numerically for obligation amounts
 
   function sortTree() {
-
       tree.sort(function(a, b) {
         if(a.depth===3 & b.depth===3){
             return b.size - a.size;
@@ -180,6 +225,7 @@ function explode(){
         }
       });
   }
+ 
   // Sort the tree initially incase the JSON isn't in a sorted order.
   sortTree();
 
@@ -214,9 +260,6 @@ function explode(){
   function zoom() {
       svgGroup.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   }
-
-
-
 
   // define the zoomListener which calls the zoom function on the "zoom" event constrained within the scaleExtents
   var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoom);
@@ -323,6 +366,7 @@ function centerNode(source) {
       zoomListener.scale(scale);
       zoomListener.translate([x, y]);
   }
+ 
     function centerExplode(source) {
       scale = zoomListener.scale();
       x = -source.y0;
@@ -335,8 +379,6 @@ function centerNode(source) {
       zoomListener.scale(scale);
       zoomListener.translate([x, y]);
   }
-
-
 
   // Toggle children function
 
@@ -353,11 +395,7 @@ function centerNode(source) {
   }
 
   // Toggle children on click.
-
   function click(d) {
-    /*console.log("In click(d): ",d);
-    console.log("In click(d)--->d.depth: ",d.depth);
-    console.log("In click(d)--->d._children: ",d._children);*/
     if(d.depth===1 & d._children === null){
       d = toggleChildren(d);
       update(d);
@@ -387,8 +425,6 @@ function centerNode(source) {
     window.open(base_url+acct_num);
     console.log("in getLink");
   }
-
-
 
   function update(source) {
       // Compute the new height, function counts total children of root node and sets tree height accordingly.
