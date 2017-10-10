@@ -124,6 +124,7 @@ function zoomButtonUp(){
   d3.select('g').transition()
           .duration(duration)
           .attr("transform", "scale(" + scale + ")");
+  console.log("translate-new: ",zoomListener.translate());
   zoomListener.scale(scale);
 };
   
