@@ -120,18 +120,18 @@ d3.select("#button2 > p > input").on("click", explode);
 
 function zoomed() {
     baseSvg.attr("transform",
-        "translate(" + zoom.translate() + ")" +
-        "scale(" + zoom.scale() + ")"
+        "translate(" + zoomListener.translate() + ")" +
+        "scale(" + zoomListener.scale() + ")"
     );
 }
 
 function interpolateZoom (translate, scale) {
     var self = this;
     return d3.transition().duration(350).tween("zoom", function () {
-        var iTranslate = d3.interpolate(zoom.translate(), translate),
-            iScale = d3.interpolate(zoom.scale(), scale);
+        var iTranslate = d3.interpolate(zoomListener.translate(), translate),
+            iScale = d3.interpolate(zoomListener.scale(), scale);
         return function (t) {
-            zoom
+            zoomListener
                 .scale(iScale(t))
                 .translate(iTranslate(t));
             zoomed();
@@ -145,15 +145,15 @@ function zoomClick() {
         factor = 0.2,
         target_zoom = 1,
         center = [viewerWidth / 2, viewerHeight / 2],
-        extent = zoom.scaleExtent(),
-        translate = zoom.translate(),
+        extent = zoomListener.scaleExtent(),
+        translate = zoomListener.translate(),
         translate0 = [],
         l = [],
         view = {x: translate[0], y: translate[1], k: zoom.scale()};
 
     d3.event.preventDefault();
     direction = (this.id === 'zoom_in') ? 1 : -1;
-    target_zoom = zoom.scale() * (1 + factor * direction);
+    target_zoom = zoomListener.scale() * (1 + factor * direction);
 
     if (target_zoom < extent[0] || target_zoom > extent[1]) { return false; }
 
