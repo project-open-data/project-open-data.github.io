@@ -590,4 +590,5 @@ function centerNode(source) {
   toggle(root);
   update(root);
   centerRootNode(root);
+  console.log("root after initialization: ",root);
 });
