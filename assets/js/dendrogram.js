@@ -144,7 +144,12 @@ function zoomClick() {
         direction = 1,
         factor = 0.2,
         target_zoom = 1,
-        //center = [viewerWidth / 3, viewerHeight / 2],
+        scale = zoomListener.scale();
+        x = -source.y0;
+        y = -source.x0;
+        x = x * scale + viewerWidth / 4.2;
+        y = y * scale + viewerHeight / 2;
+        center = [x, y],
         extent = zoomListener.scaleExtent(),
         translate = zoomListener.translate(),
         translate0 = [],
