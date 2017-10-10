@@ -119,7 +119,7 @@ d3.select("#button1 > p > input").on("click", change);
 d3.select("#button2 > p > input").on("click", explode);
  
 function zoomButtonUp(){
-  console.log("zoomListener",zoomListener);
+  console.log("translate: ",zoomListener.translate());
   var scale = zoomListener.scale() + .1;
   d3.select('g').transition()
           .duration(duration)
@@ -229,8 +229,8 @@ function explode(){
   }
 
   // define the zoomListener which calls the zoom function on the "zoom" event constrained within the scaleExtents
-  // var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoom);
-  var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]);
+  var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("drag", zoom);
+  //var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]);
 
   // define the baseSvg, attaching a class for styling and the zoomListener
   var baseSvg = d3.select("#tree-container").append("svg")
