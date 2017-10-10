@@ -94,10 +94,10 @@ console.log("root:",root);
    console.log("blowUp-->d: ",d);
    if (d.children) {
       d.children.forEach(blowUp);
-      d = toggleChildren(d);
+      d = toggle(d); //toggleChildren(d);
    }else if(d._children){
       d._children.forEach(blowUp);
-      d = toggleChildren(d);
+      d = toggle(d);
     }
    
   };  
@@ -636,8 +636,7 @@ function centerNode(source) {
   root.y0 = 0;
 
   // Layout the tree initially and center on the root node.
-  //toggleAll(root);
-  toggle(root);
+  toggleAll(root);
   toggle(root);
   update(root);
   centerRootNode(root);
