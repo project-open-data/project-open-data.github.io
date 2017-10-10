@@ -149,7 +149,7 @@ function zoomClick() {
         translate = zoomListener.translate(),
         translate0 = [],
         l = [],
-        view = {x: translate[0], y: translate[1], k: zoom.scale()};
+        view = {x: translate[0], y: translate[1], k: zoomListener.scale()};
 
     d3.event.preventDefault();
     direction = (this.id === 'zoom_in') ? 1 : -1;
