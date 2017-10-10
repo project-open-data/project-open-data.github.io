@@ -232,10 +232,14 @@ function explode(){
   function zoom() {
       svgGroup.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   }
+  
+  function zoomed() {
+      svgGroup.attr("transform", "translate(" + d3.event.translate + ")");
+  }
 
   // define the zoomListener which calls the zoom function on the "zoom" event constrained within the scaleExtents
-  //var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoom);
-  var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]);
+  var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoomed);
+  //var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]);
 
   // define the baseSvg, attaching a class for styling and the zoomListener
   var baseSvg = d3.select("#tree-container").append("svg")
