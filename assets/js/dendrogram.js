@@ -125,7 +125,9 @@ function zoomButtonUp(){
           .duration(duration)
           .attr("transform", "scale(" + scale + ")");
   console.log("translate-new: ",zoomListener.translate());
+  update(root);
   zoomListener.scale(scale);
+  
 };
   
 function zoomButtonDn(){
@@ -133,6 +135,7 @@ function zoomButtonDn(){
   d3.select('g').transition()
           .duration(duration)
           .attr("transform", "scale(" + scale + ")");
+  update(root);
   zoomListener.scale(scale);
 };
   
