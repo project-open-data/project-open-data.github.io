@@ -94,10 +94,10 @@ console.log("root:",root);
    console.log("blowUp-->d: ",d);
    if (d.children) {
       d.children.forEach(blowUp);
-      d = toggle(d); //toggleChildren(d);
+      d = click(d); //toggleChildren(d);
    }else if(d._children){
       d._children.forEach(blowUp);
-      d = toggle(d);
+      d = click(d);
     }
    
   };  
@@ -137,8 +137,7 @@ function change() {
 function explode(){
   zoomListener.scale(0.7);
   blowUp(root);
-  //toggle(root);  
-  toggleAll(root);
+  toggle(root);  
   update(root);
   centerExplode(root);
   zoomListener.scale(0.7);
