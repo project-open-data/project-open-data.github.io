@@ -200,7 +200,7 @@ function explode(){
   // Sort the tree initially incase the JSON isn't in a sorted order.
   sortTree();
 
-
+/*
   function pan(domNode, direction) {
       var speed = panSpeed;
       if (panTimer) {
@@ -225,7 +225,7 @@ function explode(){
           }, 50);
       }
   }
-
+*/
   // Define the zoom function for the zoomable tree
 
   function zoom() {
