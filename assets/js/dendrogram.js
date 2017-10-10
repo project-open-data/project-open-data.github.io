@@ -636,8 +636,8 @@ function centerNode(source) {
   root.y0 = 0;
 
   // Layout the tree initially and center on the root node.
-  toggleAll(root);
-  toggle(root);
+  //toggleAll(root);
+  //toggle(root);
   update(root);
   centerRootNode(root);
 });
