@@ -144,7 +144,7 @@ function zoomClick() {
         direction = 1,
         factor = 0.2,
         target_zoom = 1,
-        center = [viewerWidth / 2, viewerHeight / 2],
+        center = [viewerWidth / 3, viewerHeight / 2],
         extent = zoomListener.scaleExtent(),
         translate = zoomListener.translate(),
         translate0 = [],
@@ -157,12 +157,12 @@ function zoomClick() {
 
     if (target_zoom < extent[0] || target_zoom > extent[1]) { return false; }
 
-    translate0 = [(center[0] - view.x) / view.k, (center[1] - view.y) / view.k];
+    translate0 = [(center[0] + view.x) / view.k, (center[1] + view.y) / view.k];
     view.k = target_zoom;
     l = [translate0[0] * view.k + view.x, translate0[1] * view.k + view.y];
 
-    view.x += center[0] - l[0];
-    view.y += center[1] - l[1];
+    view.x += center[0] + l[0];
+    view.y += center[1] + l[1];
 
     interpolateZoom([view.x, view.y], view.k);
 } 
