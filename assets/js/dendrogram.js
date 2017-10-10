@@ -129,6 +129,7 @@ function change() {
   update(root);
   centerRootNode(root);
   zoomListener.scale(1);
+  console.log("root after reset: ",root);
 };
     
 function explode(){
@@ -138,6 +139,7 @@ function explode(){
   update(root);
   centerExplode(root);
   zoomListener.scale(0.7);
+  console.log("root after explode: ",root);
 };
 
   // A recursive helper function for performing some setup by walking through all nodes
