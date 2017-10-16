@@ -84,7 +84,7 @@ console.log("root:",root);
           return [d.y, d.x];
       });
     
-  function blowUp(d) {
+  /*function blowUp(d) {
    //console.log("blowUp-->d: ",d);
    if (d.children) {
       d.children.forEach(blowUp);
@@ -93,7 +93,7 @@ console.log("root:",root);
       d._children.forEach(blowUp);
       d = toggleChildren(d);
     }
-  };  
+  };*/  
     
   function toggleAll(d) {
     if (d.children) {
@@ -113,12 +113,12 @@ console.log("root:",root);
   }
 };
 
-d3.select("#zoom_in").on("click", zoomButtonUp);
-d3.select("#zoom_out").on("click", zoomButtonDn);
+/*d3.select("#zoom_in").on("click", zoomButtonUp);
+d3.select("#zoom_out").on("click", zoomButtonDn);*/
 d3.select("#button1 > p > input").on("click", change);
-d3.select("#button2 > p > input").on("click", explode);
+//d3.select("#button2 > p > input").on("click", explode);
  
-function zoomButtonUp(){
+/*function zoomButtonUp(){
   console.log("translate: ",zoomListener.translate());
   var scale = zoomListener.scale() + .1,
       translate = zoomListener.translate();
@@ -138,7 +138,7 @@ function zoomButtonDn(){
           .attr("transform", "scale(" + scale + ")");
   zoomListener.scale(scale);
   zoomListener.translate(translate);
-};
+};*/
   
 function change() {
   zoomListener.scale(1);
@@ -150,7 +150,7 @@ function change() {
   console.log("root after reset: ",root);
 };
     
-function explode(){
+/*function explode(){
   zoomListener.scale(0.7);
   blowUp(root);
   toggle(root);  
@@ -158,7 +158,7 @@ function explode(){
   centerExplode(root);
   zoomListener.scale(0.7);
   console.log("root after explode: ",root);
-};
+};*/
 
   // A recursive helper function for performing some setup by walking through all nodes
 
@@ -233,9 +233,9 @@ function explode(){
       svgGroup.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   }
   
-  function zoomed() {
+  /*function zoomed() {
       svgGroup.attr("transform", "translate(" + d3.event.translate + ")");
-  }
+  }*/
 
   // define the zoomListener which calls the zoom function on the "zoom" event constrained within the scaleExtents
   var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoomed);
