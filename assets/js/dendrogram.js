@@ -30,12 +30,6 @@ d3.csv('/data-lab-data/accounts_obligations_revised_v7.csv',function(error,newDa
 
 console.log("Hierarchy: ",newData);
 
-// Append Div for tooltip to SVG
-    var div = d3.select("#tree-container")
-              .append("div")
-              .attr("class", "tooltip")
-              .style("opacity", 0);
-    
 var root = { name :"Federal Accounts", children : [] },
 levels = ["Agency","Subagency"];
 
@@ -89,13 +83,25 @@ console.log("root:",root);
       .projection(function(d) {
           return [d.y, d.x];
       });
-
+    
+  /*function blowUp(d) {
+   //console.log("blowUp-->d: ",d);
+   if (d.children) {
+      d.children.forEach(blowUp);
+      d = toggleChildren(d);
+   }else if(d._children){
+      d._children.forEach(blowUp);
+      d = toggleChildren(d);
+    }
+  };*/  
+    
   function toggleAll(d) {
     if (d.children) {
       d.children.forEach(toggleAll);
       toggle(d);
     }
   };
+    
   // Toggle children.
   function toggle(d) {
   if (d.children) {
@@ -107,8 +113,33 @@ console.log("root:",root);
   }
 };
 
-d3.select("input").on("click", change);
-
+/*d3.select("#zoom_in").on("click", zoomButtonUp);
+d3.select("#zoom_out").on("click", zoomButtonDn);*/
+d3.select("#button1 > p > input").on("click", change);
+//d3.select("#button2 > p > input").on("click", explode);
+ 
+/*function zoomButtonUp(){
+  console.log("translate: ",zoomListener.translate());
+  var scale = zoomListener.scale() + .1,
+      translate = zoomListener.translate();
+  d3.select('g').transition()
+          .duration(duration)
+          .attr("transform", "scale(" + scale + ")");
+  console.log("translate-new: ",zoomListener.translate());
+  zoomListener.scale(scale);
+  zoomListener.translate(translate);
+};
+  
+function zoomButtonDn(){
+  var scale = zoomListener.scale() - .1,
+      translate = zoomListener.translate();
+  d3.select('g').transition()
+          .duration(duration)
+          .attr("transform", "scale(" + scale + ")");
+  zoomListener.scale(scale);
+  zoomListener.translate(translate);
+};*/
+  
 function change() {
   zoomListener.scale(1);
   toggleAll(root);
@@ -116,7 +147,18 @@ function change() {
   update(root);
   centerRootNode(root);
   zoomListener.scale(1);
+  console.log("root after reset: ",root);
 };
+    
+/*function explode(){
+  zoomListener.scale(0.7);
+  blowUp(root);
+  toggle(root);  
+  update(root);
+  centerExplode(root);
+  zoomListener.scale(0.7);
+  console.log("root after explode: ",root);
+};*/
 
   // A recursive helper function for performing some setup by walking through all nodes
 
@@ -147,7 +189,6 @@ function change() {
   // sort the tree according to the node names & numerically for obligation amounts
 
   function sortTree() {
-
       tree.sort(function(a, b) {
         if(a.depth===3 & b.depth===3){
             return b.size - a.size;
@@ -156,10 +197,11 @@ function change() {
         }
       });
   }
+ 
   // Sort the tree initially incase the JSON isn't in a sorted order.
   sortTree();
 
-
+/*
   function pan(domNode, direction) {
       var speed = panSpeed;
       if (panTimer) {
@@ -184,16 +226,20 @@ function change() {
           }, 50);
       }
   }
-
+*/
   // Define the zoom function for the zoomable tree
 
   function zoom() {
       svgGroup.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
   }
-
+  
+  /*function zoomed() {
+      svgGroup.attr("transform", "translate(" + d3.event.translate + ")");
+  }*/
 
   // define the zoomListener which calls the zoom function on the "zoom" event constrained within the scaleExtents
   var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoom);
+  //var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]);
 
   // define the baseSvg, attaching a class for styling and the zoomListener
   var baseSvg = d3.select("#tree-container").append("svg")
@@ -207,7 +253,7 @@ function change() {
   function collapse(d) {
       if (d.children) {
           d._children = d.children;
-          //d._children.forEach(collapse);
+          d._children.forEach(collapse);
           d.children = null;
       }
   }
@@ -215,7 +261,7 @@ function change() {
   function expand(d) {
       if (d._children) {
           d.children = d._children;
-          //d.children.forEach(expand);
+          d.children.forEach(expand);
           d._children = null;
       }
   }
@@ -259,7 +305,7 @@ function change() {
 
   // Function to center node when clicked/dropped so node doesn't get lost when collapsing/moving with large amount of children.
 
-  function centerNode(source) {
+function centerNode(source) {
       if(source.depth===2){
           scale = zoomListener.scale();
           x = -source.y0;
@@ -297,11 +343,24 @@ function change() {
       zoomListener.scale(scale);
       zoomListener.translate([x, y]);
   }
+ 
+    function centerExplode(source) {
+      scale = zoomListener.scale();
+      x = -source.y0;
+      y = -source.x0;
+      x = x * scale + viewerWidth / 19;
+      y = y * scale + viewerHeight / 2;
+      d3.select('g').transition()
+          .duration(duration)
+          .attr("transform", "translate(" + x + "," + y + ")scale(" + scale + ")");
+      zoomListener.scale(scale);
+      zoomListener.translate([x, y]);
+  }
 
   // Toggle children function
 
   function toggleChildren(d) {
-    console.log("In toggleChildren(d): ",d);
+    //console.log("In toggleChildren(d): ",d);
       if (d.children) {
           d._children = d.children;
           d.children = null;
@@ -313,11 +372,7 @@ function change() {
   }
 
   // Toggle children on click.
-
   function click(d) {
-    /*console.log("In click(d): ",d);
-    console.log("In click(d)--->d.depth: ",d.depth);
-    console.log("In click(d)--->d._children: ",d._children);*/
     if(d.depth===1 & d._children === null){
       d = toggleChildren(d);
       update(d);
@@ -347,8 +402,6 @@ function change() {
     window.open(base_url+acct_num);
     console.log("in getLink");
   }
-
-
 
   function update(source) {
       // Compute the new height, function counts total children of root node and sets tree height accordingly.
@@ -399,6 +452,7 @@ function change() {
           .on('click', click)
           .on("mouseover", createHover)
           .on("mouseout", removeHover);
+     console.log("nodeEnter: ",nodeEnter);
 
       function createHover(d) {
         d3.select(this).append("text")
@@ -409,47 +463,15 @@ function change() {
         })
         .text(function(d){
             if(d.depth===3){ return "Visit Federal Account Page";}
-            else if (d.depth === 2 | d.depth===1){ return "View Federal Accounts";}
+            else if (d.depth === 2){ return "View Federal Accounts";}
+            else if (d.depth===1){ return "View Agencies";}
         });
       }
       
       function removeHover() {
         d3.select(this).select("text.hover").remove();
       }
-/*
-       function createHover(d) {
-         if(d.depth===3 ){
-            div.transition()
-               .duration(700)
-               .style("opacity", 1);
-               div.text("Visit Federal Account Page")
-               .style("left", (d3.event.layerX -167) + "px")     
-               .style("top", (d3.event.layerY -10) + "px");
-         } else if(d.depth===2 ){
-             div.transition()
-                  .duration(700)
-                  .style("opacity", 1);
-                  div.text("View Federal Accounts")
-                  .style("left", (d3.event.layerX +10) + "px")     
-                  .style("top", (d3.event.layerY -10) + "px");
-          } else if(d.depth===1 ){
-              div.transition()
-                   .duration(700)
-                   .style("opacity", 1);
-                   div.text("View Agency Breakdown")
-                   .style("left", (d3.event.layerX +10) + "px")     
-                   .style("top", (d3.event.layerY -10) + "px");
-          }
-       }
-      
-      function removeHover() {
-        div.transition()
-           .duration(500)
-           .style("opacity", 0);
-      }
-*/      
-      
-      
+
       nodeEnter.append("circle")
           .attr('class', 'nodeCircle')
           .attr("r", 0)
@@ -471,21 +493,6 @@ function change() {
               return d.name;
           })
           .style("fill-opacity", 0);
-
-      // phantom node to give us mouseover in a radius around it
-      /*nodeEnter.append("circle")
-          .attr('class', 'ghostCircle')
-          .attr("r", 30)
-          .attr("opacity", 0.2) // change this to zero to hide the target area
-      .style("fill", "red")
-          .attr('pointer-events', 'mouseover')
-          .on("mouseover", function(node) {
-              overCircle(node);
-          })
-          .on("mouseout", function(node) {
-              outCircle(node);
-
-          });*/
 
       var formatNumber = d3.format("$,.0f");
 
@@ -599,4 +606,5 @@ function change() {
   toggle(root);
   update(root);
   centerRootNode(root);
+  console.log("root after initialization: ",root);
 });

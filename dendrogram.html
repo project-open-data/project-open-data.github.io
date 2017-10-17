@@ -2,7 +2,7 @@
 published: true
 permalink: /data-lab/federal-accounts/
 layout: visualization
-filename: dendrogram.md
+filename: dendrogram.html
 Title: Federal Accounts
 page: dendrogram
 ---
@@ -12,7 +12,12 @@ page: dendrogram
   <div class="col-md-8" style="margin-left:0; padding-left:0; padding-right:30px">
     <p>Did you know that the government has almost 2,000 “accounts,” similar to bank accounts, which it uses to spend money? This visualization allows you to explore those accounts based on the agency structure.</p>
     <div id="button_holder">
-      <input type="button" name="xAxis" class="button" value="Reset Tree">
+      <div id="button1" style="float:left; position:relative">
+      <p>
+        <label for="xAxis"></label>
+        <input type="button" name="xAxis" class="button" value="Reset Tree">
+      </p>
+      </div>
     </div>
   </div>
   <div class="col-md-4" style="padding-left:0; padding-right:2">
@@ -22,7 +27,8 @@ page: dendrogram
     </div>
   </div>
 
-  <div id="tree-container"></div>
+  <div id="tree-container">
+  </div>
   <div>
     <h5 style= "margin-top:26px; margin-bottom:1.3rem">How this analysis was conducted</h5>
     <p>This analysis was conducted by organizing spending data reported to USAspending.gov according to the structure of the federal government presented in government-wide budget documents. To accomplish this, federal accounts were matched with the Office of Management and Budget's Master Account File, which contains Treasury accounts and their corresponding agency, as presented in the government-wide budget. This structure was matched to federal account obligations data reported by agencies to show both the size and relationships of agencies and accounts. The data used in this tool was pulled as of September 22, 2017.</p>
