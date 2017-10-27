@@ -1,6 +1,7 @@
 #document settings
 title: Federal Spending Transparency
-desc: "DATA Act Collaboration Space"
+desc: "The Federal Spending Transparency GitHub page is a collaboration space for stakeholders inside and outside government to stay informed on Digital Accountability and Transparency Act of 2014 (DATA Act) Implementation. The DATA Act makes federal spending data more accessible, searchable, and reliable. It makes it easier to understand how the federal government spends taxpayer dollars and serves as a tool for better oversight, data-centric decision-making, and innovation both inside and outside of government. The U.S. Department of the Treasury and the Office of Management and Budget are lead the government-wide implementation of the DATA Act.
+Additionally, the page hosts the alpha version of the Data Lab at USAspending.gov, an initiative by the U.S. Department of the Treasury to create visualizations and analyses using federal spending data to help the public, researchers, government entities and others understand, and use the data from USAspending.gov."
 url: //fedspendingtransparency.github.io/
 repo_name: fedspendingtransparency.github.io
 branch: master
