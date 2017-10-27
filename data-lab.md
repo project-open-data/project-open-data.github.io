@@ -100,7 +100,7 @@ page: data-lab
             <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/User_Guide"><strong>Analytics user guide</strong></a></div>
             <div><a href="{{site.baseurl}}/data-dictionary/" target="_blank"><strong>Data Dictionary</strong></a></div>
             <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/USAspending_API" target="_blank"><strong>Code to extract data from APIs</strong></a></div>
-            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website" target="_blank"><strong>Data Lab GitHub repository</strong></a></div>
+            <div><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io" target="_blank"><strong>Data Lab GitHub repository</strong></a></div>
           </div>
 
         </div>
