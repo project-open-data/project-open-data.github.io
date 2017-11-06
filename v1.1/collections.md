@@ -8,6 +8,7 @@ filename: collections.md
 
 Agencies should enrich their Enterprise Data Inventory and Public Data Listing data.json files by ensuring all data assets (including databases and web applications) include metadata for the individual datasets contained within. Including metadata for the individual datasets containted within a larger data asset makes that data more discoverable improving searchability, facilitating use, and providing a comprehensive reference for data management and coordination. The original v1.0 schema did not accommodate data collections, but with the [v1.1 schema](/v1.1/schema/), datasets that belong to a larger collection of data should now use the `isPartOf` field to reference the `identifier` of a parent dataset. The parent dataset acts as a container for all the datasets in the collection so it may not have any distributions associated with it, but it can also be used to list distributions that provide consolidated or merged versions of the datasets in the collection for bulk download.  
 
+When deciding what datasets should be organized into collections, agencies should consider: user testing results, temporal and spatial patterns (e.g. datasets that are released repeatedly each month should be organized into a collection), existing hierarchies and schemes (including Bureau and Program Code), cross-agency duplication mitigation, and emerging best practices. 
 
 Project Open Data Standard Metadata Usage Notes for Data Collections
 --------------------------------------------------
@@ -74,3 +75,23 @@ Example of a data asset collection in a data.json file
             ]
         },
 ~~~~
+
+Geospatial Metadata Usage Notes for Data Collections
+--------------------------------------------------
+
+Currently Data.gov [does not support collections via geospatial harvest sources](https://github.com/GSA/data.gov/issues/708) without registering an individual WAF harvest sources for the collection. For now the only option is manually registering collections via a separate WAF source (or via Project Open Data Metadata). The fix to support collections in geospatial metadata will focus on ISO 19115 via a CSW. Support for collections from CSDGM metadata is more uncertain since no mapping for the field has been defined.
+
+Supportive Tools
+--------------------------------------------------
+
+[Inventory.data.gov](https:/inventory.data.gov) is a data management tool managed by the Data.gov PMO to assit agencies with generating, maintaining, and merging Enterprise Data Inventory and Public Data Listing JSON files. The [Inventory.data.gov Guide](http://www.digitalgov.gov/resources/inventory-data-gov-guide/) provides guidance on how to log collections, see the pertitent lanuage below:
+
+> The last two fields are to indicate if this dataset is part of a collection or if you want to designate this dataset as the “parent” of a collection.
+
+ > **Is parent.** Yes or No. If you want to make this dataset the “parent” of a collection, choose yes. Otherwise choose no.
+
+> ![600-x-130-parent-options](https://cloud.githubusercontent.com/assets/1725454/11702210/e6b69194-9ea2-11e5-8507-69c3e63d8ea9.jpg)
+
+> Note that once you make a dataset a “parent” dataset, it cannot be a “child” dataset, or part of another collection of datasets.   After a dataset is selected as parent, this dataset will be available for the subsequent datasets in this organization to choose a parent dataset (for isPartOf)
+
+> If you chose No and made the dataset a non-parent dataset, you would then be able to choose in the next field (Parent dataset) – the datasets that you want to make this dataset as part of a collection, note that this field is optional and can be left empty if you would like the dataset to be  an independent dataset.`
