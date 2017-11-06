@@ -613,7 +613,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,n)
 **Required** | Yes, for United States Federal Government Agencies
 **Accepted Values** | Array of strings
-**Usage Notes** | Provide an array of programs related to this data asset, from the [Federal Program Inventory](http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls).
+**Usage Notes** | Provide an array of programs related to this data asset, from the [Federal Program Inventory](/data/FederalProgramInventory_FY13_MachineReadable_091613.csv).
 **Example** |  `{"programCode":["015:001"]}` or if multiple programs, `{"programCode":["015:001","015:002"]}`
 
 {: .table .table-striped #publisher}
