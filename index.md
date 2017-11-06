@@ -175,9 +175,21 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 ## 7. Open Data Engagement
 
-So you’re opening up government data and making it easier to find and use – to inspire new ideas, spur economic growth, and ultimately make your agency more effective in achieving its mission. But you realize that your agency can’t just supply data – it’s also about getting and acting upon feedback, and catalyzing use of the data from a wide variety of stakeholders.  A community event is a great way to hear ideas and feedback from passionate people, offer your expertise to people with thoughtful questions and evangelize your data assets. This document gives an overview of the main types of open data community events the U.S. Government holds.
+So you’re opening up government data and making it easier to find and use – to inspire new ideas, spur economic growth, and ultimately make your agency more effective in achieving its mission. But you realize that your agency can’t just supply data – it’s also about getting and acting upon feedback, and catalyzing use of the data from a wide variety of stakeholders.  
+
+## Open Data Online Engagement 
+
+In addition to comprehensive Enterprise Data Inventories and comprehensive metadata, there are many ways you can make your open data more discoverable and engage in a democratic diagloue online. 
+
+#### [Press Release Guidance](press/) 
+
+Include any relevant data in your Agency Press Releases as open data hyperlinked to Data.gov. 
+
+**Goal:** To communicate open by default is the new standard for government data and to engage with the community as soon as possible on timely relevant data that affects your agency mission. 
 
 ## Open Data Community Events 
+
+A community event is a great way to hear ideas and feedback from passionate people, offer your expertise to people with thoughtful questions and evangelize your data assets. This document gives an overview of the main types of open data community events the U.S. Government holds.
 
 #### Data Jam
 
