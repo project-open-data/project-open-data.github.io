@@ -16,7 +16,7 @@ The Chief Data Officer and Chief Data Scientist are an emerging roles in US Fede
 CFO Act Agencies                                |  Agency / Bureau                            |  Chief Data Officer             
 --------------                                  | --------------                              | --------------                  
 Department of Agriculture                       |                                             | Bobby Jones, Acting
-Department of Commerce                          |                                             | Ian Kalin
+Department of Commerce                          |                                             | Ian Kalin, Tyrone Grandison (deputy), Jeff Chen (Chief Data Scientist)
 Department of Defense                           |                                             |
 Department of Education                         |                                             |
 Department of Energy                            |                                             | 
