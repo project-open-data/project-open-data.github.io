@@ -25,12 +25,11 @@ page: data-lab
       <div class="panel-container; margin-left=0; padding-left=0">
 
         <div class="col-md-6">
-          <div class="panel panel-default short-col">
+          <div class="panel panel-default tall-col">
             <div class="panel-body" style= "min-height: 286.86px">
-              <a href="{{site.baseurl}}/data-lab/federal-accounts/">
-              <img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_federal-accounts.png" class="img-responsive">
-              <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Federal Spending Accounts</h5></a>
-              <p class="subheading">See an all-in-one view of the accounts used to pay the government’s bills</p>
+              <a href="{{site.baseurl}}/data-lab/fedscope-tool/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_fedscope-tool.png" class="img-responsive" style="alighn:center">
+              <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Who works in Government?</h5></a>
+              <p class="subheading" style="padding-bottom: 10px">Explore federal occupations across the United States</p>
             </div>
           </div>
         </div>
@@ -62,11 +61,12 @@ page: data-lab
       </div>
 
       <div class="col-md-6">
-        <div class="panel panel-default tall-col">
+        <div class="panel panel-default short-col">
           <div class="panel-body" style= "min-height: 286.86px">
-            <a href="{{site.baseurl}}/data-lab/fedscope-tool/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_fedscope-tool.png" class="img-responsive" style="alighn:center">
-            <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Federal Staffing Snapshot</h5></a>
-            <p class="subheading" style="padding-bottom: 10px">Explore federal occupations across the United States</p>
+            <a href="{{site.baseurl}}/data-lab/federal-accounts/">
+            <img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_federal-accounts.png" class="img-responsive">
+            <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Federal Spending Accounts</h5></a>
+            <p class="subheading">See an all-in-one view of the accounts used to pay the government’s bills</p>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ page: data-lab
             <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/User_Guide"><strong>Analytics user guide</strong></a></div>
             <div><a href="{{site.baseurl}}/data-dictionary/" target="_blank"><strong>Data Dictionary</strong></a></div>
             <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website/tree/master/USAspending_API" target="_blank"><strong>Code to extract data from APIs</strong></a></div>
-            <div><a href="https://github.com/fedspendingtransparency/analytics-usaspending-website" target="_blank"><strong>Data Lab GitHub repository</strong></a></div>
+            <div><a href="https://github.com/fedspendingtransparency/fedspendingtransparency.github.io" target="_blank"><strong>Data Lab GitHub repository</strong></a></div>
           </div>
 
         </div>
