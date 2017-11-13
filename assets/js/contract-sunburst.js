@@ -74,7 +74,7 @@ function init() {
   
 d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
   d3.csv('/data-lab-data/PSC_by_Recip.csv',function(error,recip){
-    d3.json('/data-lab-data/Recip_Details.json',function(error,details){
+    d3.csv('/data-lab-data/Recip_Details.csv',function(error,details){
       d3.csv('/data-lab-data/others.csv',function(error,other){
 
         //new
