@@ -86,7 +86,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
         console.log("details: ",details);
         console.log("other: ",other);
 
-        var root = { name :"FY17 Q2 Contract Awards", children : [] },
+        var root = { name :"FY17 Q3 Contract Awards", children : [] },
             levels = ["Agency","Subagency"];
 
         newData.forEach(function(d){
