@@ -32,7 +32,6 @@ d3.select("#legend_scaleKey").append("circle")
   var y = d3.scale.sqrt()
     .range([0, radius]);
 
-  var color = [{"name":"Department of Health and Human Services","color":"#702550"},{"name":"Department of Veterans Affairs","color":"#553A50"},{"name":"National Aeronautics and Space Administration","color":"#4E4861"},{"name":"Department of Energy","color":"#3F566E"},{"name":"Department of Homeland Security","color":"#2C6473"},{"name":"Department of Defense","color":"#1D7170"},{"name":"Department of Commerce","color":"#277D67"},{"name":"Department of State","color":"#438659"},{"name":"Agency for International Development","color":"#648D4A"},{"name":"Department of Justice","color":"#88923E"},{"name":"General Services Administration","color":"#AE933C"},{"name":"Department of the Treasury","color":"#D39248"},{"name":"Department of Transportation","color":"#D7924A"},{"name":"Department of Agriculture","color":"#DA914C"},{"name":"Department of Education","color":"#DE914E"},{"name":"Department of Housing and Urban Development","color":"#E19151"},{"name":"Department of the Interior","color":"#E49153"},{"name":"Environmental Protection Agency","color":"#E89056"},{"name":"Department of Labor","color":"#EB9058"},{"name":"Office of Personnel Management","color":"#EE905B"},{"name":"Social Security Administration","color":"#F1905E"},{"name":"National Science Foundation","color":"#F48F61"},{"name":"Securities and Exchange Commission","color":"#F78F64"},{"name":"Nuclear Regulatory Commission","color":"#F78F64"},{"name":"Executive Office of the President","color":"#F78F64"},{"name":"National Archives and Records Administration","color":"#F78F64"},{"name":"Broadcasting Board of Governors","color":"#F78F64"},{"name":"The Judicial Branch","color":"#F78F64"},{"name":"Federal Communications Commission","color":"#F78F64"},{"name":"Consumer Financial Protection Bureau","color":"#F78F64"},{"name":"Railroad Retirement Board","color":"#F78F64"},{"name":"Federal Trade Commission","color":"#F78F64"},{"name":"Small Business Administration","color":"#F78F64"},{"name":"Commodity Futures Trading Commission","color":"#F78F64"},{"name":"Export-Import Bank of the United States","color":"#F78F64"},{"name":"Consumer Product Safety Commission","color":"#F78F64"},{"name":"Government Accountability Office","color":"#F78F64"},{"name":"Court Services and Offender Supervision Agency","color":"#F78F64"},{"name":"Equal Employment Opportunity Commission","color":"#F78F64"},{"name":"Corporation for National and Community Service","color":"#F78F64"},{"name":"Federal Election Commission","color":"#F78F64"},{"name":"Armed Forces Retirement Home","color":"#F78F64"},{"name":"National Labor Relations Board","color":"#F78F64"},{"name":"International Trade Commission","color":"#F78F64"},{"name":"Federal Mediation and Conciliation Service","color":"#F78F64"},{"name":"Merit Systems Protection Board","color":"#F78F64"},{"name":"Federal Mine Safety and Health Review Commission","color":"#F78F64"},{"name":"U.S. Postal Service","color":"#F78F64"},{"name":"National Transportation Safety Board","color":"#F78F64"},{"name":"Defense Nuclear Facilities Safety Board","color":"#F78F64"},{"name":"Institute of Museum and Library Services","color":"#F78F64"},{"name":"National Endowment for the Arts","color":"#F78F64"},{"name":"Denali Commission","color":"#F78F64"},{"name":"Election Assistance Commission","color":"#F78F64"},{"name":"The Council of the Inspectors General on Integrity and Efficiency","color":"#F78F64"},{"name":"Gulf Coast Ecosystem Restoration Council","color":"#F78F64"},{"name":"Morris K. Udall and Stewart L. Udall Foundation","color":"#F78F64"},{"name":"Federal Labor Relations Authority","color":"#F78F64"},{"name":"Access Board","color":"#F78F64"},{"name":"United States Chemical Safety Board","color":"#F78F64"},{"name":"Office of Special Counsel","color":"#F78F64"},{"name":"Office of Government Ethics","color":"#F78F64"},{"name":"Federal Maritime Commission","color":"#F78F64"},{"name":"National Mediation Board","color":"#F78F64"},{"name":"Library of Congress","color":"#F78F64"},{"name":"Millennium Challenge Corporation","color":"#F78F64"},{"name":"The Legislative Branch","color":"#F78F64"}];
   var partition = d3.layout.partition()
     .value(function(d) { return d.size; });
 
@@ -76,6 +75,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
   d3.csv('/data-lab-data/PSC_by_Recip.csv',function(error,recip){
     d3.csv('/data-lab-data/Recip_Details.csv',function(error,details){
       d3.csv('/data-lab-data/others.csv',function(error,other){
+        d3.csv('/data-lab-data/colors.csv',function(error,color){
 
         //new
         spinner.stop();
@@ -85,6 +85,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
         console.log("recip: ",recip);
         console.log("details: ",details);
         console.log("other: ",other);
+        console.log("color: ",color);
 
         var root = { name :"FY17 Q3 Contract Awards", children : [] },
             levels = ["Agency","Subagency"];
@@ -328,6 +329,7 @@ d3.csv('/data-lab-data/awards_contracts.csv',function(error,newData){
              legend.transition().duration(1000).style("opacity","1");
            }
 
+        });
       });
     });
   });
