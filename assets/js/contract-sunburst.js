@@ -214,7 +214,7 @@ function createSunburst(newData, recip, details, other, colors) {
               "<h1>" + formatNumber(d.value) + "</h1>" +
               "<p>" + details[i].city.toLowerCase() + ', ' + details[i].state.toLowerCase() + '</p>' +
               '<h3> has been awarded a net total of ' +
-              formatNumber(details[i].size) + ' in contracts in Q2 2017</h3>');
+              formatNumber(details[i].size) + ' in contracts in Q3 2017</h3>');
 
           for (var q = 0; q < recip.length; q++) {
             if (d.parent.name === recip[q].Subagency && d.name === recip[q].Recipient) {
