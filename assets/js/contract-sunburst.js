@@ -71,6 +71,17 @@ function createFillTableRow(legend, child, amt, k) {
     .html("<table class ='icon'>" +
       "<tr>" + "<td class='val'>" + formatNumber(child[k][amt]) + "</td>" +
       "<td class='name'>" + child[k].name + "</td>" + "</tr>" + "</table>");
+  
+  $("td").each(function() {
+    var text = $(this).text();
+    if (/[+-]?\d+(\.\d+)?/.test(text)) {
+      var num = parseFloat(text);
+      if (num < 0) {
+        $(this).addClass("negative");
+      }
+    }
+  });
+  
 }
 
 // trigger loader
