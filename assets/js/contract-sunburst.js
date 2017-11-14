@@ -63,8 +63,6 @@ function createFillTable(legend, d) {
 }
 
 function createFillTableRow(legend, child, amt, k) {
-  console.log("child[k][amt]: ",child[k][amt]);
-  if(child[k][amt] >= 0){
     legend.append("div")
       .attr("id", "tab_2")
       .attr("height", 169)
@@ -73,16 +71,6 @@ function createFillTableRow(legend, child, amt, k) {
       .html("<table class ='icon'>" +
         "<tr>" + "<td class='val'>" + formatNumber(child[k][amt]) + "</td>" +
         "<td class='name'>" + child[k].name + "</td>" + "</tr>" + "</table>");
-  }else{
-    legend.append("div")
-      .attr("id", "tab_2")
-      .attr("height", 169)
-      .attr("width", 422)
-      .style("margin-bottom", "2px")
-      .html("<table class ='icon'>" +
-        "<tr>" + "<td class='neg_val'>" + formatNumber(child[k][amt]) + "</td>" +
-        "<td class='name'>" + child[k].name + "</td>" + "</tr>" + "</table>");
-  }
 }
 
 // trigger loader
@@ -239,12 +227,21 @@ function createSunburst(newData, recip, details, other, colors) {
                 .html("<table class ='icon_x'>" +
                   "<tr>" + "<td class='name'>" + recip[q].PSC + "</td>" + "</tr>" + "</table>");
 
-              g.append("div")
-                .attr("id", "obligation")
-                .attr("height", 10)
-                .attr("width", 50)
-                .html("<table class ='icon_x'>" +
-                  "<tr>" + "<td class='val'>" + formatNumber(recip[q].Obligation) + "</td>" + "</tr>" + "</table>");
+              if(recip[q].Obligation >= 0){
+                g.append("div")
+                  .attr("id", "obligation")
+                  .attr("height", 10)
+                  .attr("width", 50)
+                  .html("<table class ='icon_x'>" +
+                    "<tr>" + "<td class='val'>" + formatNumber(recip[q].Obligation) + "</td>" + "</tr>" + "</table>");
+              }else{
+                g.append("div")
+                  .attr("id", "obligation")
+                  .attr("height", 10)
+                  .attr("width", 50)
+                  .html("<table class ='icon_x'>" +
+                    "<tr>" + "<td class='neg_val'>" + formatNumber(recip[q].Obligation) + "</td>" + "</tr>" + "</table>");
+              }
             }
           }
         }
