@@ -80,7 +80,7 @@ function createSunburst(newData, recip, details, other, colors) {
   spinner.stop();
 
   var root = {
-      name: "FY17 Q2 Contract Awards",
+      name: "FY17 Q3 Contract Awards",
       children: []
     },
     levels = ["Agency", "Subagency"];
