@@ -4,9 +4,6 @@
 		color: #525252;
 		font-style:italic;
 	}
- td.negative { 
-	 color: red; 
- }
 	
  #sunburst > circle {
     fill: none;
@@ -172,6 +169,11 @@
   .val{
     font-size:1.3em;
     color:#205493;
+    font-weight: bolder;
+  }
+  .neg_val{
+    font-size:1.3em;
+    color:#AF002A;
     font-weight: bolder;
   }
   .name{
