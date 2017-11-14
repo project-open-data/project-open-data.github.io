@@ -63,6 +63,7 @@ function createFillTable(legend, d) {
 }
 
 function createFillTableRow(legend, child, amt, k) {
+  console.log("child[k][amt]: ",child[k][amt]);
   if(child[k][amt] >= 0){
     legend.append("div")
       .attr("id", "tab_2")
