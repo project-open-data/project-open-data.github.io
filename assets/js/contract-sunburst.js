@@ -63,25 +63,25 @@ function createFillTable(legend, d) {
 }
 
 function createFillTableRow(legend, child, amt, k) {
-  legend.append("div")
-    .attr("id", "tab_2")
-    .attr("height", 169)
-    .attr("width", 422)
-    .style("margin-bottom", "2px")
-    .html("<table class ='icon'>" +
-      "<tr>" + "<td class='val'>" + formatNumber(child[k][amt]) + "</td>" +
-      "<td class='name'>" + child[k].name + "</td>" + "</tr>" + "</table>");
-  
-  $("td").each(function() {
-    var text = $(this).text();
-    if (/[+-]?\d+(\.\d+)?/.test(text)) {
-      var num = parseFloat(text);
-      if (num < 0) {
-        $(this).addClass("negative");
-      }
-    }
-  });
-  
+  if(child[k][amt] >= 0){
+    legend.append("div")
+      .attr("id", "tab_2")
+      .attr("height", 169)
+      .attr("width", 422)
+      .style("margin-bottom", "2px")
+      .html("<table class ='icon'>" +
+        "<tr>" + "<td class='val'>" + formatNumber(child[k][amt]) + "</td>" +
+        "<td class='name'>" + child[k].name + "</td>" + "</tr>" + "</table>");
+  }else{
+    legend.append("div")
+      .attr("id", "tab_2")
+      .attr("height", 169)
+      .attr("width", 422)
+      .style("margin-bottom", "2px")
+      .html("<table class ='icon'>" +
+        "<tr>" + "<td class='neg_val'>" + formatNumber(child[k][amt]) + "</td>" +
+        "<td class='name'>" + child[k].name + "</td>" + "</tr>" + "</table>");
+  }
 }
 
 // trigger loader
