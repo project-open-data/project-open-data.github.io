@@ -287,7 +287,7 @@ d3.csv('/data-lab-data/awards_contracts.csv', function(error, newData) {
   d3.csv('/data-lab-data/PSC_by_Recip.csv', function(error, recip) {
     d3.csv('/data-lab-data/Recip_Details.csv', function(error, details) {
       d3.csv('/data-lab-data/others.csv', function(error, other) {
-        d3.csv('/data-lab-data/colors.json', function(error, colors) {
+        d3.csv('/data-lab-data/colors.csv', function(error, colors) {
           createSunburst(newData, recip, details, other, colors);
         });
       });
