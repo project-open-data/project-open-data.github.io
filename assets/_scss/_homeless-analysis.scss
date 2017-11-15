@@ -1,4 +1,6 @@
 .homeless-analysis{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #FFFFFF;
   & p.subheading {
     font-size: 1.75rem;
     color: #525252;
@@ -8,9 +10,342 @@
     margin-left:0;
     margin-right:0;
   }
-  & #funding-map{
+ #funding-map{
     height:100px;
   }
+  #container{
+    position:relative;
+    background-color: inherit;
+    font-family: inherit;
+    width:1024px;
+    height:800px;
+    overflow-y: scroll;
+  }
+  #container2, #container3{
+    position:relative;
+    background-color: inherit;
+    font-family: inherit;
+    width:1024px;
+    height:700px;
+    overflow: visible;
+  }
+  #viz_container{
+    position: relative;
+    height: 700px;;
+    width:1024px;
+    background-color: rgba(243,246,255,0);
+  }
+  #legend{
+    position:relative;
+    height:100px;
+    width:1024px;
+  }
+  .zip {
+      stroke: #FFF;
+      stroke-width: .15px;
+    }
+  .legendTitle {
+      	font-size: 16px;
+      	fill: #4F4F4F;
+      	font-weight: 500;
+    }
+  .tick {
+      	font-size: 16px;
+      	fill: #4F4F4F;
+      	font-weight: 500;
+    }
+    #edu-tooltipContainer {
+      position: absolute;
+      bottom: 0;
+      width: 230px;
+      left: -125px;
+      font-size: 12px;
+      line-height: 16px;
+      padding: 10px;
+      border-radius: 3px;
+      background: rgba(255,255,255,0.9);
+      color: #000;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+      -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+      border:1px solid rgba(200,200,200,0.85);
+      text-align:center;
+    }
 
+    #edu-tooltip {
+     text-align:center;
+      z-index: 1000;
+      position: absolute;
+      display: none;
+    }
+
+    #edu-tooltip .edu-tail {
+      position: absolute;
+      bottom: -8px;
+      left: 105px;
+      width: 40px;
+      height: 8px;
+      background: url(https://static01.nyt.com/packages/images/newsgraphics/2012/0202-federal-budget/tail_white.png) 50% 0%;
+    }
+    #edu-tooltip .edu-department {
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 10px;
+      margin-bottom: 2px;
+      color:#666;
+      text-align:center;
+
+    }
+    #edu-tooltip .edu-rule{
+      height:1px;
+      margin:1px auto 3px;
+      background:#ddd;
+      width:130px;
+    }
+
+    #edu-tooltip .edu-discretion{
+      color:#666;
+    /*   text-transform:uppercase;*/
+      font-size: 11px;
+      text-align:center;
+      font-style:italic;
+    }
+    #edu-tooltip .edu-name {
+      text-align: left;
+      font-size: 13px;
+    /*  width:170px;*/
+     text-align:center;
+    }
+    #edu-tooltip .edu-value {
+    /*  position:absolute;*/
+     text-align:center;
+      right:10px;
+      top:28px;
+      font-size: 16px;
+    /*  width:100px;*/
+     text-align:center;
+      overflow:hidden;
+      font-weight:bold;
+    }
+    #edu-tooltip .edu-value2 {
+      padding-left:10px;
+    /*  width:110px;  */
+      font-size: 16px;
+      text-align:right;
+      overflow:hidden;
+    /*  position:absolute;*/
+      font-weight:bold;
+      color:#666;
+     text-align:center;
+     display:inline;
+    }
+    #edu-tooltip .edu-valuesContainer {
+      padding-top:7px;
+
+    }
+    .control {
+        font-family: inherit;
+        display: block;
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 5px;
+        padding-top: 3px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .control input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    .control_indicator {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background: #e6e6e6;
+        border: 0px solid #000000;
+    }
+    .control-radio .control_indicator {
+        border-radius: 50%;
+    }
+
+    .control:hover input ~ .control_indicator,
+    .control input:focus ~ .control_indicator {
+        background: #cccccc;
+    }
+
+    .control input:checked ~ .control_indicator {
+        background: #2aa1c0;
+    }
+    .control:hover input:not([disabled]):checked ~ .control_indicator,
+    .control input:checked:focus ~ .control_indicator {
+        background: #0e6647;
+    }
+    .control input:disabled ~ .control_indicator {
+        background: #e6e6e6;
+        opacity: 0.6;
+        pointer-events: none;
+    }
+    .control_indicator:after {
+        box-sizing: unset;
+        content: '';
+        position: absolute;
+        display: none;
+    }
+    .control input:checked ~ .control_indicator:after {
+        display: block;
+    }
+    .control-radio .control_indicator:after {
+        left: 7px;
+        top: 7px;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background: #ffffff;
+    }
+    .control-radio input:disabled ~ .control_indicator:after {
+        background: #7b7b7b;
+    }
+    .SearchBar {
+      display: inline;
+      position: relative;
+      left: 1%;
+    }
+    .SearchBar input {
+      position: relative;
+      left: 2%;
+    }
+    table {
+      position: absolute;
+      top: 85px;
+      left: 20px;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    table a:link, a:visited { text-decoration: none; }
+    table a:hover, a:active { text-decoration: underline; }
+    table, th, td { border: 1px solid black; }
+    td, th {
+      padding: 5px;
+      text-align: center;
+      height: 20px;
+    }
+    th {
+      background-color: #4393c3;
+      color: #d9f0a3;
+    }
+    td { background-color: #cccccc; }
+    tr:hover td { background-color: #edf8b1; }
+    #scatter{
+      position: relative;
+      float:left;
+    }
+    #panel{
+      margin-top: 125px;
+      margin-left: 15px;
+      position: relative;
+      float:left;
+      height:550px;
+      width:309px;
+    }
+    #panel h2{
+      font-size:2em;
+      font-family: inherit;
+      font-weight: lighter;
+      margin: 0;
+      padding: 0;
+      color:#666666;
+    }
+    #panel p{
+      font-size:1.2em;
+      font-family: inherit;
+      margin-top: 15px;
+      padding: 0;
+    }
+    .axis path,
+    .axis line {
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.1);
+    shape-rendering: crispEdges;
+    }
+
+    .axisLine {
+    fill: none;
+    shape-rendering: crispEdges;
+    stroke: rgba(0, 0, 0, 0.8);
+    stroke-width: 2px;
+    }
+
+    .dot {
+    fill-opacity: .5;
+    }
+
+    .d3-tip {
+    font-weight: lighter;
+    line-height: 160%;
+    padding: 12px;
+    background: rgba(0,0,0, 0.8);
+    color: #FFF;
+    border-radius: 2px;
+    }
+    .d3-tip b{
+    font-weight: bolder;
+    font-size: 1em;
+    }
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 200%;
+    color: rgba(0, 0, 0, 0.6);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+    }
+    /* Style northward tooltips differently */
+    .d3-tip.n:after {
+    line-height: 200%;
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    }
+    #button_holder{
+      position: relative;
+      height:100px;
+      width: 150px;
+      left:345px;
+    }
+    .button {
+       border: 1px solid #0071bc;
+       background: #ffffff;
+       padding: 12.5px 25px;
+       border-radius: 1px;
+       color: #0071bc;
+       font-size: 15px;
+       font-family: inherit;
+       text-decoration: none;
+       vertical-align: middle;
+       }
+    .button:hover {
+       border-top-color: #0071bc;
+       background: #0071bc;
+       color: #ffffff;
+       }
+    .button:active {
+       border-top-color: #0071bc;
+       background: #0071bc;
+       }
+   rect {
+   fill: transparent;
+   shape-rendering: crispEdges;
+   }
+   .text-stuff{
+     width:1024px;
+     font-family: inherit;
+     font-size: 14;
+   }
 
 }
