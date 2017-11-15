@@ -20,11 +20,73 @@ page: homeless-analysis
 		</div>
 	</div>
 </div>
-<div class="row">
-  <h3>Map of Homeless Funding</h3>
-  <div id="funding-map">
+
+<div id="container">
+    <div class="control-group">
+      <label class="control control-radio">
+          Map
+              <input type="radio" name="radio" value="Map" checked="checked" />
+          <div class="control_indicator"></div>
+      </label>
+      <label class="control control-radio">
+          Table
+              <input type="radio" name="radio" value="Table"/>
+          <div class="control_indicator"></div>
+      </label>
+    </div>
   </div>
-</div>
+  <div class="text-stuff">
+    <h4>Some subheading...</h4>
+    <p>
+      Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <br />
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+  <div id="container2"></div>
+  <div class="text-stuff">
+    <h4>Some subheading...</h4>
+    <p>
+      Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <br />
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+  <div id="container3">
+    <div id="scatter"></div>
+    <div id="panel">
+      <h2>Some Title...</h2>
+      <p>
+        Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.<br /><br />
+        <b>Use your mouse to zoom in and explore the visualization</b>
+      </p>
+    </div>
+  </div>
+  <div id="button_holder">
+    <input type="button" name="xAxis" class="button" value="Reset Graph">
+  </div>
+  <div class="text-stuff">
+    <h4>Some subheading...</h4>
+    <p>
+      Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <br />
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="http://colorbrewer2.org/export/colorbrewer.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
 <div class="row">
   <p>Bespoke blue bottle occupy irony cloud bread, YOLO four loko banjo. Forage prism beard everyday carry typewriter jean shorts. Echo park kale chips pinterest schlitz aesthetic, af iPhone fanny pack cloud bread. 90's copper mug hexagon, etsy aesthetic green juice synth health goth marfa chambray jean shorts pour-over. Echo park tofu sartorial distillery direct trade knausgaard, paleo irony. Pitchfork post-ironic snackwave squid. Chartreuse tattooed snackwave godard you probably haven't heard of them knausgaard, twee put a bird on it. Forage salvia pabst, try-hard flannel single-origin coffee whatever seitan viral pug +1 typewriter next level flexitarian unicorn. Letterpress wayfarers farm-to-table vaporware VHS twee leggings slow-carb paleo intelligentsia ugh drinking vinegar photo booth. Bushwick pickled vice coloring book, glossier marfa everyday carry photo booth offal woke. Church-key photo booth vice, poke knausgaard edison bulb farm-to-table you probably haven't heard of them green juice iPhone. Tofu meh fam edison bulb, lumbersexual pop-up jean shorts flexitarian whatever pickled iceland godard keytar fanny pack. Mlkshk post-ironic cloud bread poutine gastropub small batch brunch. Af williamsburg kale chips photo booth.</p>
 </div>
