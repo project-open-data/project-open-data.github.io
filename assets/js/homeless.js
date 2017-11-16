@@ -659,8 +659,8 @@ GenMap();
                                 var ypos = (el.attr('cy') - d.radius - 10)
                                 el.style("stroke","#000").style("stroke-width",.25);
                                 d3.select("#edu-tooltip")
-                                .style("left", (d3.event.pageX-5) + "px")
-                                .style("top", (d3.event.pageY-20) + "px")
+                                .style("left", (d3.event.pageX) + "px")
+                                .style("top", (d3.event.pageY) + "px")
                                 .style('display','block')
                                   .classed('edu-plus', (d.changeCategory > 0))
                                   .classed('edu-minus', (d.changeCategory < 0));
