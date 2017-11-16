@@ -8,7 +8,7 @@ for (let i = 0; i < 4; i++) {
 
 var width = 550,
   height = 700,
-  radius = (Math.max(width, height) / 2) - 30; //change 2 to a larger number to make burst smaller
+  radius = (Math.max(width, height) / 2.5) - 30; //change 2 to a larger number to make burst smaller
 
 var formatNumber = d3.format("$,f");
 
