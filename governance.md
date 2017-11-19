@@ -13,7 +13,7 @@ Project Open Data is an online collection of code, best practices, and case stud
 
 As the Project founders, the Office of Management and Budget and the Office of Science and Technology Policy, components of the Executive Office of the President, are dedicated to maximizing openness, participation, and collaboration while ensuring the integrity of the resources hosted within the Project. This page provides information on ways to participate in the Project and how the OMB and OSTP will govern it.
 
-##Contributing
+## Contributing
 Project Open Data is a collaborative, open source project.  Both Federal employees and members of the public are strongly encouraged to improve the project by contributing.  Fortunately, contributing only takes a few steps. Log into GitHub, click the “Edit this Page” button at the top of any page on this website, follow the instructions to “Fork this repository and propose changes”, make your edit, and fill out the form at the bottom of the page to “Propose file change.” Your changes will appear once they are approved. Ultimately, the goal is for users to contribute to the project by suggesting changes to code/content (making “[pull requests](https://help.github.com/articles/using-pull-requests)”).
 However, there are many ways to participate:
 
