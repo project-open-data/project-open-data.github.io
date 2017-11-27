@@ -27,26 +27,203 @@ GenMap();
   });
 
   function GenPlaceholder(){
-    var svg = d3.select('#container2').append('svg')
-                .attr("width","950px")
-                .attr("height","650")
-                .style("background-color","rgba(0, 0, 0, 0.7)")
-                .attr("x","50")
-                .attr("y","20")
-                .attr("rx","20")
-                .attr("ry","20")
-                .text("PLACEHOLDER")
-                .style("fill","#FFF");
+    var formatNumber = d3.format("$,");
 
-    svg.append("svg:image")
-    .attr('x', 275)
-    .attr('y', 150)
-    .attr('width', 400)
-    .attr('height', 450)
-    .attr("xlink:href", "GRUMPYCAT.png")
+    var xAxis = d3.svg.axis()
+        .orient("top")
+        .ticks(0);
 
-  }
+    var yAxis = d3.svg.axis()
+        .orient("left")
+        .ticks(0);
 
+    var tip = d3.tip()
+        .attr("class", "d3-tip")
+        .offset([-10, 0])
+        .html(function(d) {
+          return "<b>"+ "@@ CFDA Title Here @@" + "</b>" + "<br>"
+          + "2106 Grant award: " + "<b>" +formatNumber(100000) + "</b>" +"<br>"
+          + "Number of full-time staff: "+ "<b>" + 1234 + "</b>" +"<br>"
+          + "Number of part-time staff: "+ "<b>" + 867 + "</b>" + "<br>"
+          + "Grant $s per individual: "+ "<b>" +formatNumber(9999) + "</b>" +"<br>"
+          + "<b>" + "CFDA description here... "+ "</b>";
+        });
+
+    var abs_width = 1024,
+        abs_height = 550,
+        margin = { top: 100, right:50, bottom: 15, left: 100 },
+        panel_2_width = abs_width - margin.left - margin.right,
+        panel_2_height = abs_height - margin.top - margin.bottom,
+        matrix_width = abs_width/1.85 - margin.left - margin.right,
+        matrix_height = abs_height - margin.top - margin.bottom,
+        map_width = panel_2_width-matrix_width - margin.left - margin.right,
+        map_height = panel_2_height/3,
+        info_width = panel_2_width-matrix_width - margin.left - margin.right,
+        info_height = panel_2_height/3;
+
+    var svg = d3.select("#panel_matrix").append("svg")
+        .attr("width", matrix_width + margin.left + margin.right)
+        .attr("height", matrix_height + margin.top + margin.bottom)
+        .style("margin-left", -margin.left/2.5 + "px")
+      .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var projection = d3.geo.albersUsa()
+               .translate([map_width/1.5, map_height/1.1])    // translate to center of screen
+               .scale([500]);          // scale things down so see entire US ---1455
+
+    // Define path generator
+    var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
+             .projection(projection);  // tell path generator to use albersUsa projection
+
+    svg.append("g")
+        .classed("x axis", true)
+        .attr("transform", "translate(0,0)")
+        .call(xAxis)
+      .append("text")
+        .classed("label", true)
+        .attr("x", matrix_width/2)
+        .attr("y", -80)
+        .style("text-anchor", "middle")
+        .text("Homeless Population Categories");
+
+    svg.append("g")
+        .classed("y axis", true)
+        .call(yAxis)
+      .append("text")
+        .classed("label", true)
+        .attr("transform", "rotate(-90)")
+        .attr("x",-100)
+        .attr("y",-margin.left+10)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("CFDA Programs");
+
+    var svg_1 = d3.select("#panel_map")
+        .append("svg")
+        .attr("width", map_width + margin.left + margin.right)
+        .attr("height", map_height + margin.top + margin.bottom);
+
+    var svg_2 = d3.select("#panel_info")
+        .append("svg")
+        .attr("width", info_width + margin.left + margin.right)
+        .attr("height", info_height + margin.top + margin.bottom);
+
+    svg.append("rect")
+        .attr("class", "background")
+        .attr("width", matrix_width)
+        .attr("height", matrix_height)
+        .style("stroke","#FFF")
+        .style("stroke-width","1px");
+
+    var numrows = 15;
+    var numcols = 10;
+
+  //Dummy Data *****************************
+    var matrix = new Array(numrows);
+    for (var i = 0; i < numrows; i++) {
+      matrix[i] = new Array(numcols);
+      for (var j = 0; j < numcols; j++) {
+        matrix[i][j] = Math.random()*2 - 1;
+      }
+    }
+  //****************************************
+
+    var x = d3.scale.ordinal()
+        .domain(d3.range(numcols))
+        .rangeBands([0, matrix_width]);
+
+    var y = d3.scale.ordinal()
+        .domain(d3.range(numrows))
+        .rangeBands([0, matrix_height]);
+
+    var rowLabels = new Array(numrows);
+    for (var i = 0; i < numrows; i++) {
+      rowLabels[i] = "Row "+(i+1);
+    }
+
+    var columnLabels = new Array(numcols);
+    for (var i = 0; i < numcols; i++) {
+      columnLabels[i] = "Column "+(i+1);
+    }
+
+  console.log("x: ",x.rangeBand());
+  console.log("y: ",y.rangeBand());
+  console.log("rowLabels: ",rowLabels);
+  console.log("columnLabels: ",columnLabels);
+
+    var colorMap = d3.scale.linear()
+        .domain([-1, 0, 1])
+        .range(["red", "white", "blue"]);
+
+    svg.call(tip);
+
+    var row = svg.selectAll(".row")
+        .data(matrix)
+      .enter().append("g")
+        .attr("class", "row")
+        .attr("transform", function(d, i) { return "translate(0," + y(i) + ")"; });
+
+    row.selectAll(".cell")
+        .data(function(d) { return d; })
+      .enter().append("rect")
+        .attr("class", "cell")
+        .attr("x", function(d, i) { return x(i); })
+        .attr("width", x.rangeBand())
+        .attr("height", y.rangeBand())
+        .attr("rx",20)
+        .on("mouseover", tip.show)
+        .on("mouseout", tip.hide);;
+
+  /*  row.append("line")
+        .attr("x2", matrix);*/
+
+    row.append("text")
+        .attr("x", -10)
+        .attr("y", y.rangeBand() / 2)
+        .attr("dy", ".32em")
+        .attr("text-anchor", "end")
+        .text(function(d, i) { return rowLabels[i]; });
+
+    var column = svg.selectAll(".column")
+        .data(columnLabels)
+      .enter().append("g")
+        .attr("class", "column")
+        .attr("transform", function(d, i) { return "translate(" + (x(i)-15) + ")rotate(-45)"; });
+
+    column.append("text")
+        .attr("x", 30)
+        .attr("y", y.rangeBand() / 2)
+        .attr("dy", ".32em")
+        .attr("text-anchor", "start")
+        .text(function(d, i) { return d; });
+
+    row.selectAll(".cell")
+        .data(function(d, i) { return matrix[i]; })
+        .style("fill","#FFF")
+        .style("stroke-width","1px")
+        .style("stroke","#006599");
+
+
+    d3.json("us-states.json", function(json) {
+
+      var g = svg_1.append("g");
+
+      g.selectAll("path")
+        .data(json.features)
+        .enter()
+        .append("path")
+        .attr("d", path)
+        .style("stroke", "#fff")
+        .style("stroke-width", "1")
+        .style("fill","#414b57");
+
+    });   
+  }   
+    
+    
+    
+    
   function GenScatter(){
     var formatNumber = d3.format("$,");
     var formatNumberNew = d3.format("$,.2");
