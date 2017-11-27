@@ -205,7 +205,7 @@ GenMap();
         .style("stroke","#006599");
 
 
-    d3.json("us-states.json", function(json) {
+    d3.json("/data-lab-data/us-states.json", function(json) {
 
       var g = svg_1.append("g");
 
