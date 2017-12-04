@@ -236,14 +236,14 @@ GenMap();
     var y = d3.scale.linear()
         .range([height, 0]).nice();
 
-    var xCat = "No_Staff",
-        yCat = "Amount",
+    var xCat = "total_homeless",
+        yCat = "value",
         colorCat = "Bin";
 
-    d3.csv("/data-lab-data/binned_V2.csv", function(data) {
+    d3.csv("pop-award.csv", function(data) {
       data.forEach(function(d) {
-        d.Amount = +d.Amount;
-        d.No_Staff = +d.No_Staff;
+        d.total_homeless = +d.total_homeless;
+        d.value = +d.value;
       });
 
       var xMax = d3.max(data, function(d) { return d[xCat]; }) * 1.08,
@@ -274,11 +274,13 @@ GenMap();
           .offset([-10, 0])
           .html(function(d) {
             var per = d[yCat]/d[xCat];
-            return "<b>"+ d["Recipient"] + "</b>" + "<br>"
-            + "2015 Project grants awarded: " + "<b>" +formatNumber(d[yCat]) + "</b>" +"<br>"
-            + "Number of full-time Research staff: "+ "<b>" + d["Research_number"] + "</b>" +"<br>"
-            + "Number of Instructional staff: "+ "<b>" +d["No_Staff"] + "</b>" + "<br>"
-            + "Grant $s per Instructor: "+ "<b>" +formatNumber(Math.floor(d[yCat]/d[xCat])) + "</b>" +"<br>"
+
+            return d["coc_number"] + "<br>"
+            /*+ "Continuum of Care Number: "+  d["coc_number"] +"<br>"*/
+            + "2017 CFDA Program Funds Related to Homelessness Awarded: " + formatNumber(d[yCat]) + "<br>"
+            + "Total Homeless: "+ d["total_homeless"] +"<br>"
+          /*  + "Number of Instructional staff: "+ "<b>" +d["No_Staff"] + "</b>" + "<br>"
+            + "Grant $s per Instructor: "+ "<b>" +formatNumber(Math.floor(d[yCat]/d[xCat])) + "</b>" +"<br>"*/
             + "<b>" + d["Type"] + "</b>";
           });
 
