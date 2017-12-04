@@ -852,7 +852,7 @@ GenMap();
 
     var formatNumber = d3.format("$,f");
 
-  d3.json("/data-lab-data/2017_CoC_Grantee_Areas.json",function(us){
+  d3.json("/data-lab-data/2017_CoC_Grantee_Areas_2.json",function(us){
     d3.json("/data-lab-data/us-states.json", function(json) {
       d3.csv("/data-lab-data/coc-pop.csv",function(d){return{ zip: d.coc_number,pop: +d.pop }},function(data){
         d3.csv("/data-lab-data/State_crosswalk.csv",function(states){
