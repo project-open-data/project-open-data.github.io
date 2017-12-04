@@ -240,7 +240,7 @@ GenMap();
         yCat = "value",
         colorCat = "Bin";
 
-    d3.csv("pop-award.csv", function(data) {
+    d3.csv("/data-lab-data/pop-award.csv", function(data) {
       data.forEach(function(d) {
         d.total_homeless = +d.total_homeless;
         d.value = +d.value;
