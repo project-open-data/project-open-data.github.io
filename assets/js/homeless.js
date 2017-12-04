@@ -1,4 +1,3 @@
-
 GenMap();
   GenPlaceholder();
   GenScatter();
@@ -215,12 +214,12 @@ GenMap();
         .style("stroke-width", "1")
         .style("fill","#414b57");
 
-    });   
-  }   
-    
-    
-    
-    
+    });
+  }
+
+
+
+
   function GenScatter(){
     var formatNumber = d3.format("$,");
     var formatNumberNew = d3.format("$,.2");
@@ -391,15 +390,15 @@ GenMap();
 
   function GenTable(){
 
-    var column_names = ["Title","Views","Created On","URL"];
-    var clicks = {title: 0, views: 0, created_on: 0, url: 0};
+    var column_names = ["CoC Number","COC Name","Total Homeless", "Sheltered Homeless", "Unsheltered Homeless", "Chronically Homeless","Homeless Veterans", "Homeless People in Families", "Homeless Unaccompanied Youth (Under 25)"];
+    var clicks = {coc_number: 0, coc_name: 0, total_homeless: 0, chronically_homeless: 0, sheltered_homeless: 0, unsheltered_homeless: 0, homeless_veterans: 0, homeless_people_in_families: 0, homeless_unaccompanied_youth: 0};
 
     d3.select("#container").append('div').attr("id","viz_container");
 
     d3.select("#viz_container").append("h3")
       .attr("id", "title")
       .style("text-align","center")
-      .text("Continuum of Care Funding")
+      .text("Continuum of Care 2016 Homeless Population")
 
     d3.select("#viz_container").append("div")
       .attr("class", "SearchBar")
@@ -427,14 +426,14 @@ GenMap();
 
     var rows, row_entries, row_entries_no_anchor, row_entries_with_anchor;
 
-    d3.json("/data-lab-data/data.json", function(data) { // loading data from server
-
+    d3.json("/data-lab-data/coc-pop-type.json", function(data) { // loading data from server
+      console.log("pop_type: ",data);
       // draw table body with rows
       table.append("tbody")
 
       // data bind
       rows = table.select("tbody").selectAll("tr")
-        .data(data, function(d){ return d.id; });
+        .data(data, function(d){ return d.coc_number; });
 
       // enter the rows
       rows.enter()
@@ -449,7 +448,7 @@ GenMap();
     		    arr.push(d[k]);
               }
             }
-            return [arr[3],arr[1],arr[2],arr[0]];
+            return [arr[0],arr[1],arr[2],arr[4],arr[5],arr[3], arr[6],arr[7],arr[8]];
           })
         .enter()
           .append("td")
@@ -501,7 +500,7 @@ GenMap();
 
             // data bind with new data
     		rows = table.select("tbody").selectAll("tr")
-    		  .data(searched_data, function(d){ return d.id; })
+    		  .data(searched_data, function(d){ return d.coc_number; })
 
             // enter the rows
             rows.enter()
@@ -516,7 +515,7 @@ GenMap();
     		          arr.push(d[k]);
                     }
                   }
-                  return [arr[3],arr[1],arr[2],arr[0]];
+                  return [arr[0],arr[1],arr[2],arr[4],arr[5],arr[3], arr[6],arr[7],arr[8]];
                 })
               .enter()
                 .append("td")
@@ -542,28 +541,29 @@ GenMap();
           })
 
       /**  sort functionality **/
+      /**  sort functionality **/
       headers.on("click", function(d) {
-          if (d == "Title") {
-            clicks.title++;
+          if (d == "CoC Number") {
+            clicks.coc_number++;
             // even number of clicks
-            if (clicks.title % 2 == 0) {
+            if (clicks.coc_number % 2 == 0) {
               // sort ascending: alphabetically
               rows.sort(function(a,b) {
-                if (a.title.toUpperCase() < b.title.toUpperCase()) {
+                if (a.coc_number.toUpperCase() < b.coc_number.toUpperCase()) {
                   return -1;
-                } else if (a.title.toUpperCase() > b.title.toUpperCase()) {
+                } else if (a.coc_number.toUpperCase() > b.coc_number.toUpperCase()) {
                   return 1;
                 } else {
                   return 0;
                 }
               });
             // odd number of clicks
-            } else if (clicks.title % 2 != 0) {
+          } else if (clicks.coc_number % 2 != 0) {
               // sort descending: alphabetically
               rows.sort(function(a,b) {
-                if (a.title.toUpperCase() < b.title.toUpperCase()) {
+                if (a.coc_number.toUpperCase() < b.coc_number.toUpperCase()) {
                   return 1;
-                } else if (a.title.toUpperCase() > b.title.toUpperCase()) {
+                } else if (a.coc_number.toUpperCase() > b.coc_number.toUpperCase()) {
                   return -1;
                 } else {
                   return 0;
@@ -571,15 +571,15 @@ GenMap();
               });
             }
           }
-          if (d == "Views") {
-    	    clicks.views++;
+          if (d == "CoC Name") {
+    	    clicks.coc_name++;
             // even number of clicks
-            if (clicks.views % 2 == 0) {
+            if (clicks.coc_name % 2 == 0) {
               // sort ascending: numerically
               rows.sort(function(a,b) {
-                if (+a.views < +b.views) {
+                if (+a.coc_name < +b.coc_name) {
                   return -1;
-                } else if (+a.views > +b.views) {
+                } else if (+a.coc_name > +b.coc_name) {
                   return 1;
                 } else {
                   return 0;
@@ -589,9 +589,9 @@ GenMap();
             } else if (clicks.views % 2 != 0) {
               // sort descending: numerically
               rows.sort(function(a,b) {
-                if (+a.views < +b.views) {
+                if (+a.coc_name < +b.coc_name) {
                   return 1;
-                } else if (+a.views > +b.views) {
+                } else if (+a.coc_name > +b.coc_name) {
                   return -1;
                 } else {
                   return 0;
@@ -599,80 +599,55 @@ GenMap();
               });
             }
           }
-          if (d == "Created On") {
-            clicks.created_on++;
-            if (clicks.created_on % 2 == 0) {
-              // sort ascending: by date
-              rows.sort(function(a,b) {
-                // grep date and time, split them apart, make Date objects for comparing
-    	        var date = /[\d]{4}-[\d]{2}-[\d]{2}/.exec(a.created_on);
-    	        date = date[0].split("-");
-    	        var time = /[\d]{2}:[\d]{2}:[\d]{2}/.exec(a.created_on);
-    	        time = time[0].split(":");
-    	        var a_date_obj = new Date(+date[0],(+date[1]-1),+date[2],+time[0],+time[1],+time[2]);
-
-                date = /[\d]{4}-[\d]{2}-[\d]{2}/.exec(b.created_on);
-    	        date = date[0].split("-");
-    	        time = /[\d]{2}:[\d]{2}:[\d]{2}/.exec(b.created_on);
-    	        time = time[0].split(":");
-    	        var b_date_obj = new Date(+date[0],(+date[1]-1),+date[2],+time[0],+time[1],+time[2]);
-
-                if (a_date_obj < b_date_obj) {
-                  return -1;
-                } else if (a_date_obj > b_date_obj) {
-                  return 1;
-                } else {
-                  return 0;
-                }
-              });
-            // odd number of clicks
-            } else if (clicks.created_on % 2 != 0) {
-              // sort descending: by date
-              rows.sort(function(a,b) {
-                // grep date and time, split them apart, make Date objects for comparing
-    	        var date = /[\d]{4}-[\d]{2}-[\d]{2}/.exec(a.created_on);
-    	        date = date[0].split("-");
-    	        var time = /[\d]{2}:[\d]{2}:[\d]{2}/.exec(a.created_on);
-    	        time = time[0].split(":");
-    	        var a_date_obj = new Date(+date[0],(+date[1]-1),+date[2],+time[0],+time[1],+time[2]);
-
-                date = /[\d]{4}-[\d]{2}-[\d]{2}/.exec(b.created_on);
-    	        date = date[0].split("-");
-    	        time = /[\d]{2}:[\d]{2}:[\d]{2}/.exec(b.created_on);
-    	        time = time[0].split(":");
-    	        var b_date_obj = new Date(+date[0],(+date[1]-1),+date[2],+time[0],+time[1],+time[2]);
-
-                if (a_date_obj < b_date_obj) {
-                  return 1;
-                } else if (a_date_obj > b_date_obj) {
-                  return -1;
-                } else {
-                  return 0;
-                }
-              });
+          if (d == "Total Homeless") {
+            clicks.total_homeless++;
+              // even number of clicks
+              if (clicks.total_homeless % 2 == 0) {
+                // sort ascending: numerically
+                rows.sort(function(a,b) {
+                  if (+a.total_homeless < +b.total_homeless) {
+                    return -1;
+                  } else if (+a.total_homeless > +b.total_homeless) {
+                    return 1;
+                  } else {
+                    return 0;
+                  }
+                });
+              // odd number of clicks
+            } else if (clicks.total_homeless % 2 != 0) {
+                // sort descending: numerically
+                rows.sort(function(a,b) {
+                  if (+a.total_homeless < +b.total_homeless) {
+                    return 1;
+                  } else if (+a.total_homeless > +b.total_homeless) {
+                    return -1;
+                  } else {
+                    return 0;
+                  }
+                });
+              }
             }
-          }
-          if (d == "URL") {
-            clicks.url++;
+          if (d == "Chronically Homeless") {
+            clicks.chronically_homeless++;
     	    // even number of clicks
-            if (clicks.url % 2 == 0) {
+            if (clicks.chronically_homeless % 2 == 0) {
               // sort ascending: alphabetically
               rows.sort(function(a,b) {
-                if (a.thumb_url_default.toUpperCase() < b.thumb_url_default.toUpperCase()) {
+                if (a.chronically_homeless.toUpperCase() < b.chronically_homeless.toUpperCase()) {
                   return -1;
-                } else if (a.thumb_url_default.toUpperCase() > b.thumb_url_default.toUpperCase()) {
+                } else if (a.chronically_homeless.toUpperCase() > b.chronically_homeless.toUpperCase()) {
                   return 1;
                 } else {
                   return 0;
                 }
               });
             // odd number of clicks
-            } else if (clicks.url % 2 != 0) {
+            } else if (clicks.chronically_homeless % 2 != 0) {
               // sort descending: alphabetically
               rows.sort(function(a,b) {
-                if (a.thumb_url_default.toUpperCase() < b.thumb_url_default.toUpperCase()) {
+                if (a.chronically_homeless.toUpperCase() < b.chronically_homeless.toUpperCase()) {
                   return 1;
-                } else if (a.thumb_url_default.toUpperCase() > b.thumb_url_default.toUpperCase()) {
+                } else if (a.chronically_homeless.toUpperCase() > b.chronically_homeless.toUpperCase()) {
                   return -1;
                 } else {
                   return 0;
@@ -680,6 +655,146 @@ GenMap();
               });
             }
           }
+          if (d == "Sheltered Homeless") {
+            clicks.sheltered_homeless++;
+              // even number of clicks
+              if (clicks.sheltered_homeless % 2 == 0) {
+                // sort ascending: numerically
+                rows.sort(function(a,b) {
+                  if (+a.sheltered_homeless < +b.sheltered_homeless) {
+                    return -1;
+                  } else if (+a.sheltered_homeless > +b.sheltered_homeless) {
+                    return 1;
+                  } else {
+                    return 0;
+                  }
+                });
+              // odd number of clicks
+              } else if (clicks.sheltered_homeless % 2 != 0) {
+                // sort descending: numerically
+                rows.sort(function(a,b) {
+                  if (+a.sheltered_homeless < +b.sheltered_homeless) {
+                    return 1;
+                  } else if (+a.sheltered_homeless > +b.sheltered_homeless) {
+                    return -1;
+                  } else {
+                    return 0;
+                  }
+                });
+              }
+            }
+            if (d == "Unsheltered Homeless") {
+              clicks.unsheltered_homeless++;
+                // even number of clicks
+                if (clicks.unsheltered_homeless % 2 == 0) {
+                  // sort ascending: numerically
+                  rows.sort(function(a,b) {
+                    if (+a.unsheltered_homeless < +b.unsheltered_homeless) {
+                      return -1;
+                    } else if (+a.unsheltered_homeless > +b.unsheltered_homeless) {
+                      return 1;
+                    } else {
+                      return 0;
+                    }
+                  });
+                // odd number of clicks
+                } else if (clicks.unsheltered_homeless % 2 != 0) {
+                  // sort descending: numerically
+                  rows.sort(function(a,b) {
+                    if (+a.unsheltered_homeless < +b.unsheltered_homeless) {
+                      return 1;
+                    } else if (+a.unsheltered_homeless > +b.unsheltered_homeless) {
+                      return -1;
+                    } else {
+                      return 0;
+                    }
+                  });
+                }
+              }
+              if (d == "Homeless Veterans") {
+                clicks.homeless_veterans++;
+                  // even number of clicks
+                  if (clicks.homeless_veterans % 2 == 0) {
+                    // sort ascending: numerically
+                    rows.sort(function(a,b) {
+                      if (+a.homeless_veterans < +b.homeless_veterans) {
+                        return -1;
+                      } else if (+a.homeless_veterans > +b.homeless_veterans) {
+                        return 1;
+                      } else {
+                        return 0;
+                      }
+                    });
+                  // odd number of clicks
+                  } else if (clicks.homeless_veterans % 2 != 0) {
+                    // sort descending: numerically
+                    rows.sort(function(a,b) {
+                      if (+a.homeless_veterans < +b.homeless_veterans) {
+                        return 1;
+                      } else if (+a.homeless_veterans > +b.homeless_veterans) {
+                        return -1;
+                      } else {
+                        return 0;
+                      }
+                    });
+                  }
+                }
+                if (d == "Homeless People in Families") {
+                  clicks.homeless_people_in_families++;
+                    // even number of clicks
+                    if (clicks.homeless_people_in_families % 2 == 0) {
+                      // sort ascending: numerically
+                      rows.sort(function(a,b) {
+                        if (+a.homeless_people_in_families < +b.homeless_people_in_families) {
+                          return -1;
+                        } else if (+a.homeless_people_in_families > +b.homeless_people_in_families) {
+                          return 1;
+                        } else {
+                          return 0;
+                        }
+                      });
+                    // odd number of clicks
+                    } else if (clicks.homeless_people_in_families % 2 != 0) {
+                      // sort descending: numerically
+                      rows.sort(function(a,b) {
+                        if (+a.homeless_people_in_families < +b.homeless_people_in_families) {
+                          return 1;
+                        } else if (+a.homeless_people_in_families > +b.homeless_people_in_families) {
+                          return -1;
+                        } else {
+                          return 0;
+                        }
+                      });
+                    }
+                  }
+                  if (d == "Homeless Unacompanied Youth (Under 25)") {
+                    clicks.homeless_unaccompanied_youth++;
+                      // even number of clicks
+                      if (clicks.homeless_unaccompanied_youth % 2 == 0) {
+                        // sort ascending: numerically
+                        rows.sort(function(a,b) {
+                          if (+a.homeless_unaccompanied_youth < +b.homeless_unaccompanied_youth) {
+                            return -1;
+                          } else if (+a.homeless_unaccompanied_youth > +b.homeless_unaccompanied_youth) {
+                            return 1;
+                          } else {
+                            return 0;
+                          }
+                        });
+                      // odd number of clicks
+                      } else if (clicks.homeless_unaccompanied_youth % 2 != 0) {
+                        // sort descending: numerically
+                        rows.sort(function(a,b) {
+                          if (+a.homeless_unaccompanied_youth < +b.homeless_unaccompanied_youth) {
+                            return 1;
+                          } else if (+a.homeless_unaccompanied_youth > +b.homeless_unaccompanied_youth) {
+                            return -1;
+                          } else {
+                            return 0;
+                          }
+                        });
+                      }
+                    }
         }) // end of click listeners
     });
     d3.select(self.frameElement).style("height", "700px").style("width", "1024px");
@@ -737,9 +852,9 @@ GenMap();
 
     var formatNumber = d3.format("$,f");
 
-  d3.json("/data-lab-data/zips_us_topo.json",function(us){
+  d3.json("/data-lab-data/2017_CoC_Grantee_Areas.json",function(us){
     d3.json("/data-lab-data/us-states.json", function(json) {
-      d3.csv("/data-lab-data/zips_2.csv",function(d){return{ zip: d.zip,value: +d.value }},function(data){
+      d3.csv("/data-lab-data/coc-pop.csv",function(d){return{ zip: d.coc_number,pop: +d.pop }},function(data){
         d3.csv("/data-lab-data/State_crosswalk.csv",function(states){
 
           spinner.stop();
@@ -787,7 +902,7 @@ GenMap();
               	.attr("x", 512)
               	.attr("y", 60)
               	.style("text-anchor", "middle")
-              	.text("Continuum of Care Funding");
+              	.text("Continuum of Care Homeless Population");
 
                 var min = d3.min(data, function(d) { return d.value; });
                 var max = d3.max(data, function(d) { return d.value; });
@@ -822,10 +937,10 @@ GenMap();
             var g = svg.append("g")
                         .attr("class", "counties")
                         .selectAll("path")
-                        .data(topojson.feature(us, us.objects.zip_codes_for_the_usa).features)
+                        .data(us.features)
                         .enter().append("path")
-                        .attr("class", "zip")
-                        .attr("data-zip", function(d) {return d.properties.zip; })
+                        .attr("class", "coc")
+                        .attr("data-zip", function(d) {return d.properties.coc_number; })
                         .attr("data-state", function(d) {return d.properties.state; })
                         .attr("data-name", function(d) {return d.properties.name; })
                         .attr("d", path)
@@ -844,8 +959,8 @@ GenMap();
                                   .classed('edu-minus', (d.changeCategory < 0));
                                 d3.select("#edu-tooltip .edu-name").html(d.properties.name)
 
-                                d3.select("#edu-tooltip .edu-discretion").text("text goes here")
-                                d3.select("#edu-tooltip .edu-department").text(getState(d))
+                                d3.select("#edu-tooltip .edu-discretion").text("Total homeless:")
+                                d3.select("#edu-tooltip .edu-department").text(d.properties.coc_number)
                                 d3.select("#edu-tooltip .edu-value").text(getValue(d))
                               })
                         .on("mouseout",function(d,i) {
@@ -908,23 +1023,23 @@ GenMap();
 
             function getColor(d){
               for(var i=0; i<data.length;i++){
-                if(d.properties.zip===data[i].zip){
-                  return color(data[i].value);
+                if(d.properties.coc_number===data[i].coc_number){
+                  return color(data[i].pop);
                 }
               }
             }
 
             function getValue(d){
               for(var i=0; i<data.length;i++){
-                if(d.properties.zip===data[i].zip){
-                  return formatNumber(data[i].value);
+                if(d.properties.coc_number===data[i].coc_number){
+                  return (data[i].pop);
                 }
               }
             }
 
             function getState(d){
               for(var i=0; i<states.length;i++){
-                if(d.properties.state===states[i].Abbrv){
+                if(d.properties.stusab===states[i].Abbrv){
                   return states[i].State;
                 }
               }
