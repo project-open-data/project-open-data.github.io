@@ -934,13 +934,13 @@ GenMap();
                                 .range(["#FFF600","#960018"]);
 
 
-            var g = svg.append("g")
+                        var g = svg.append("g")
                         .attr("class", "counties")
                         .selectAll("path")
                         .data(us.features)
                         .enter().append("path")
                         .attr("class", "coc")
-                        .attr("data-zip", function(d) {return d.properties.coc_number; })
+                        .attr("data-coc", function(d) {return d.properties.coc_number; })
                         .attr("data-state", function(d) {return d.properties.state; })
                         .attr("data-name", function(d) {return d.properties.name; })
                         .attr("d", path)
