@@ -23,26 +23,6 @@ GenMap();
   function GenPlaceholder(){
     var formatNumber = d3.format("$,");
 
-    var xAxis = d3.svg.axis()
-        .orient("top")
-        .ticks(0);
-
-    var yAxis = d3.svg.axis()
-        .orient("left")
-        .ticks(0);
-
-    var tip = d3.tip()
-        .attr("class", "d3-tip")
-        .offset([-10, 0])
-        .html(function(d) {
-          return "<b>"+ "@@ CFDA Title Here @@" + "</b>" + "<br>"
-          + "2106 Grant award: " + "<b>" +formatNumber(100000) + "</b>" +"<br>"
-          + "Number of full-time staff: "+ "<b>" + 1234 + "</b>" +"<br>"
-          + "Number of part-time staff: "+ "<b>" + 867 + "</b>" + "<br>"
-          + "Grant $s per individual: "+ "<b>" +formatNumber(9999) + "</b>" +"<br>"
-          + "<b>" + "CFDA description here... "+ "</b>";
-        });
-
     var abs_width = 1024,
         abs_height = 550,
         margin = { top: 100, right:50, bottom: 15, left: 100 },
