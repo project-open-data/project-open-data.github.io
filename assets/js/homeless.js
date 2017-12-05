@@ -1024,10 +1024,24 @@ GenMap();
                        }
                      }
 
-            function getColor(d){
+            /*function getColor(d){
               for(var i=0; i<data.length;i++){
                 if(d.properties.coc_number===data[i].coc_number){
                   return color(data[i].pop);
+                }
+              }
+            }*/
+          function getColor(d){
+              for(var i=0; i< data.length; i++){
+                if(d.properties.coc_number===data[i].coc_number){
+                  if(data[i].pop<=500){return color("#004d00");}
+                  else if(data[i].pop<=1000){return color("#004d26");}
+                  else if(data[i].pop<=2000){return color("#004d4d");}
+                  else if(data[i].pop<=4000){return color("#00264d");}
+                  else if(data[i].pop<=6000){return color("#00004d");}
+                  else if(data[i].pop<=8000){return color("#26004d");}
+                  else if(data[i].pop<=12000){return color("#4d004d");}
+                  else{return color("#4d0026")}
                 }
               }
             }
