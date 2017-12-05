@@ -388,5 +388,15 @@
      font-family: inherit;
      font-size: 14;
    }
+  .bar {
+        fill-opacity: .9;
+    }
+    .axisHorizontal path{
+        fill: none;
+    }
+    .axisHorizontal .tick line {
+        stroke-width: 1;
+        stroke: rgba(0, 0, 0, 0.2);
+    }
 
 }
