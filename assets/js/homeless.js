@@ -428,7 +428,7 @@ GenMap();
 
     var rows, row_entries, row_entries_no_anchor, row_entries_with_anchor;
 
-    d3.json("/data-lab-data/coc-pop-type.json", function(data) { // loading data from server
+    d3.json("/data-lab-data/coc-pop-type.json", function(d){return{ coc_number: d.coc_number, total_homeless: +d.total_homeless, d.sheltered_homeless: +d.sheltered_homeless, d.unsheltered_homeless: +d.unsheltered_homeless, d.chronically_homeless: +d.chronically_homeless, d.homeless_people_in_families: +d.homeless_people_in_families, d.homeless_veterans: +d.homeless_veterans, d.homeless_unaccompanied_youth: +d.homeless_unaccompanied_youth}} function(data) { // loading data from server
       console.log("pop_type: ",data);
       // draw table body with rows
       table.append("tbody")
@@ -804,7 +804,8 @@ GenMap();
   }
 
   function GenMap(){
-
+    var formatNumber2 = d3.format(",");
+    
     var opts = {
       lines: 9, // The number of lines to draw
       length: 16, // The length of each line
@@ -906,8 +907,8 @@ GenMap();
               	.style("text-anchor", "middle")
               	.text("Continuum of Care Homeless Population");
 
-                var min = d3.min(data, function(d) { return d.value; });
-                var max = d3.max(data, function(d) { return d.value; });
+                var min = d3.min(data, function(d) { return d.pop; });
+                var max = d3.max(data, function(d) { return d.pop; });
 
               //Set scale for x-axis
               var xScale = d3.scale.linear()
@@ -1034,7 +1035,7 @@ GenMap();
             function getValue(d){
               for(var i=0; i<data.length;i++){
                 if(d.properties.coc_number===data[i].coc_number){
-                  return (data[i].pop);
+                  return formatNumber2(data[i].pop);
                 }
               }
             }
