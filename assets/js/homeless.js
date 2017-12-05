@@ -75,7 +75,7 @@ GenMap();
   console.log("svg: ", svg);
   console.log("width: ",svg[0][0].attributes[0].nodeValue);
 
-  d3.csv("test_v2.csv",function(bar_chrt){
+  d3.csv("/data-lab-data/test_v2.csv",function(bar_chrt){
 
         bar_chrt.forEach(function(d) {
           d.amount = +d.amount;
@@ -168,7 +168,7 @@ GenMap();
     var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
              .projection(projection);  // tell path generator to use albersUsa projection
 
-    d3.json("us-states.json", function(json) {
+    d3.json("/data-lab-data/us-states.json", function(json) {
 
       var g = svg_1.append("g");
 
