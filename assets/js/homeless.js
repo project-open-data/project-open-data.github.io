@@ -428,7 +428,7 @@ GenMap();
 
     var rows, row_entries, row_entries_no_anchor, row_entries_with_anchor;
 
-    d3.json("/data-lab-data/coc-pop-type.json", function(d){return{ coc_number: d.coc_number, total_homeless: +d.total_homeless, d.sheltered_homeless: +d.sheltered_homeless, d.unsheltered_homeless: +d.unsheltered_homeless, d.chronically_homeless: +d.chronically_homeless, d.homeless_people_in_families: +d.homeless_people_in_families, d.homeless_veterans: +d.homeless_veterans, d.homeless_unaccompanied_youth: +d.homeless_unaccompanied_youth}} function(data) { // loading data from server
+    d3.json("/data-lab-data/coc-pop-type.json", function(d){return{ coc_number: d.coc_number, total_homeless: +d.total_homeless, sheltered_homeless: +d.sheltered_homeless, unsheltered_homeless: +d.unsheltered_homeless, chronically_homeless: +d.chronically_homeless, homeless_people_in_families: +d.homeless_people_in_families, homeless_veterans: +d.homeless_veterans, homeless_unaccompanied_youth: +d.homeless_unaccompanied_youth}} function(data) { // loading data from server
       console.log("pop_type: ",data);
       // draw table body with rows
       table.append("tbody")
