@@ -16,8 +16,6 @@ GenMap();
                d3.select("#edu-tooltip").remove();
                d3.select("svg").remove();
                GenTable();
-               GenPlaceholder();
-
              }
        });
   });
@@ -57,44 +55,6 @@ GenMap();
         info_width = panel_2_width-matrix_width - margin.left - margin.right,
         info_height = panel_2_height/3;
 
-    var svg = d3.select("#panel_matrix").append("svg")
-        .attr("width", matrix_width + margin.left + margin.right)
-        .attr("height", matrix_height + margin.top + margin.bottom)
-        .style("margin-left", -margin.left/2.5 + "px")
-      .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-    var projection = d3.geo.albersUsa()
-               .translate([map_width/1.5, map_height/1.1])    // translate to center of screen
-               .scale([500]);          // scale things down so see entire US ---1455
-
-    // Define path generator
-    var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
-             .projection(projection);  // tell path generator to use albersUsa projection
-
-    svg.append("g")
-        .classed("x axis", true)
-        .attr("transform", "translate(0,0)")
-        .call(xAxis)
-      .append("text")
-        .classed("label", true)
-        .attr("x", matrix_width/2)
-        .attr("y", -80)
-        .style("text-anchor", "middle")
-        .text("Homeless Population Categories");
-
-    svg.append("g")
-        .classed("y axis", true)
-        .call(yAxis)
-      .append("text")
-        .classed("label", true)
-        .attr("transform", "rotate(-90)")
-        .attr("x",-100)
-        .attr("y",-margin.left+10)
-        .attr("dy", ".71em")
-        .style("text-anchor", "end")
-        .text("CFDA Programs");
-
     var svg_1 = d3.select("#panel_map")
         .append("svg")
         .attr("width", map_width + margin.left + margin.right)
@@ -105,103 +65,110 @@ GenMap();
         .attr("width", info_width + margin.left + margin.right)
         .attr("height", info_height + margin.top + margin.bottom);
 
-    svg.append("rect")
-        .attr("class", "background")
-        .attr("width", matrix_width)
-        .attr("height", matrix_height)
-        .style("stroke","#FFF")
-        .style("stroke-width","1px");
-
-    var numrows = 15;
-    var numcols = 10;
-
-  //Dummy Data *****************************
-    var matrix = new Array(numrows);
-    for (var i = 0; i < numrows; i++) {
-      matrix[i] = new Array(numcols);
-      for (var j = 0; j < numcols; j++) {
-        matrix[i][j] = Math.random()*2 - 1;
-      }
-    }
-  //****************************************
-
-    var x = d3.scale.ordinal()
-        .domain(d3.range(numcols))
-        .rangeBands([0, matrix_width]);
-
-    var y = d3.scale.ordinal()
-        .domain(d3.range(numrows))
-        .rangeBands([0, matrix_height]);
-
-    var rowLabels = new Array(numrows);
-    for (var i = 0; i < numrows; i++) {
-      rowLabels[i] = "Row "+(i+1);
-    }
-
-    var columnLabels = new Array(numcols);
-    for (var i = 0; i < numcols; i++) {
-      columnLabels[i] = "Column "+(i+1);
-    }
-
-  console.log("x: ",x.rangeBand());
-  console.log("y: ",y.rangeBand());
-  console.log("rowLabels: ",rowLabels);
-  console.log("columnLabels: ",columnLabels);
-
-    var colorMap = d3.scale.linear()
-        .domain([-1, 0, 1])
-        .range(["red", "white", "blue"]);
-
-    svg.call(tip);
-
-    var row = svg.selectAll(".row")
-        .data(matrix)
-      .enter().append("g")
-        .attr("class", "row")
-        .attr("transform", function(d, i) { return "translate(0," + y(i) + ")"; });
-
-    row.selectAll(".cell")
-        .data(function(d) { return d; })
-      .enter().append("rect")
-        .attr("class", "cell")
-        .attr("x", function(d, i) { return x(i); })
-        .attr("width", x.rangeBand())
-        .attr("height", y.rangeBand())
-        .attr("rx",20)
-        .on("mouseover", tip.show)
-        .on("mouseout", tip.hide);;
-
-  /*  row.append("line")
-        .attr("x2", matrix);*/
-
-    row.append("text")
-        .attr("x", -10)
-        .attr("y", y.rangeBand() / 2)
-        .attr("dy", ".32em")
-        .attr("text-anchor", "end")
-        .text(function(d, i) { return rowLabels[i]; });
-
-    var column = svg.selectAll(".column")
-        .data(columnLabels)
-      .enter().append("g")
-        .attr("class", "column")
-        .attr("transform", function(d, i) { return "translate(" + (x(i)-15) + ")rotate(-45)"; });
-
-    column.append("text")
-        .attr("x", 30)
-        .attr("y", y.rangeBand() / 2)
-        .attr("dy", ".32em")
-        .attr("text-anchor", "start")
-        .text(function(d, i) { return d; });
-
-    row.selectAll(".cell")
-        .data(function(d, i) { return matrix[i]; })
-        .style("fill","#FFF")
-        .style("stroke-width","1px")
-        .style("stroke","#006599");
+    var svg = d3.select("#panel_matrix").append("svg")
+        .attr("width", matrix_width + margin.left + margin.right)
+        .attr("height", matrix_height + margin.top + margin.bottom)
+        .style("margin-left", -margin.left/2.5 + "px")
+        .attr("transform", "translate(" + 40 + ","+ 10 +")");
 
 
-    d3.json("/data-lab-data/us-states.json", function(json) {
+  console.log("svg: ", svg);
+  console.log("width: ",svg[0][0].attributes[0].nodeValue);
+
+  d3.csv("test_v2.csv",function(bar_chrt){
+
+        bar_chrt.forEach(function(d) {
+          d.amount = +d.amount;
+        });
+
+        bar_chrt = bar_chrt.sort(function(x, y){
+           return d3.descending(x.amount, y.amount);
+        });
+
+        var initial_bar =  bar_chrt.slice(0,20);
+
+        var formatNumber = d3.format("$,");
+
+        var axisMargin = 5,
+                x_width = parseInt(d3.select('svg').style('width'), 10),
+                barHeight = 18,
+                barPadding = 5,
+                bar, scale, xAxis, labelWidth = 0;
+
+        console.log("x_width: ",x_width);
+
+        max = d3.max(initial_bar, function(d) { return d.amount; });
+
+        bar = svg.selectAll("g")
+                .data(initial_bar)
+                .enter()
+                .append("g");
+
+        bar.attr("class", "bar")
+           .attr("cx",0)
+           .style("fill",function(d){
+             if(d.category == 1){return "#3D3A4F"}
+             else if(d.category == 2){return "#1D545C"}
+             else if(d.category == 3){return "#29684D"}
+             else if(d.category == 4){return "#657532"}
+             else if(d.category == 5){return "#A97538"}
+           })
+           .attr("transform", function(d, i) {
+                    return "translate(0," + (i * (barHeight + barPadding)) + ")";
+                });
+
+        bar.append("text")
+                .attr("class", "label")
+                .attr("x",0)
+                .attr("y", barHeight / 2)
+                .attr("dy", ".35em") //vertical align middle
+                .text(function(d){
+                    return d.cfda;
+                }).each(function() {
+            labelWidth = Math.ceil(Math.max(labelWidth, this.getBBox().width))+2;
+        });
+
+        scale = d3.scale.linear()
+                .domain([0, max])
+                .range([0, x_width - labelWidth]);
+
+        xAxis = d3.svg.axis()
+                //.orient("bottom")
+                .scale(scale)
+                .tickSize(-svg[0][0].attributes[1].nodeValue  + axisMargin);
+
+        bar.append("rect")
+                .attr("transform", "translate("+(labelWidth)+", 0)")
+                .attr("margin-left",5)
+                //.attr("rx","30")
+                .attr("height", barHeight)
+                .attr("width", function(d){
+                    return scale(d.amount);
+                });
+
+        svg.insert("g",":first-child")
+            .attr("class", "axisHorizontal")
+            .attr("transform", "translate(" +labelWidth+ ","+ 475 +")")
+            .call(xAxis)
+          .selectAll("text")
+            .attr("y", 10)
+            .attr("x", 0)
+            .attr("dy", ".35em")
+            .attr("transform", "rotate(-35)")
+            .style("text-anchor", "end");
+
+    });
+
+//MAP
+    var projection = d3.geo.albersUsa()
+               .translate([map_width/1.5, map_height/1.1])    // translate to center of screen
+               .scale([500]);          // scale things down so see entire US ---1455
+
+    // Define path generator
+    var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
+             .projection(projection);  // tell path generator to use albersUsa projection
+
+    d3.json("us-states.json", function(json) {
 
       var g = svg_1.append("g");
 
@@ -211,8 +178,8 @@ GenMap();
         .append("path")
         .attr("d", path)
         .style("stroke", "#fff")
-        .style("stroke-width", "1")
-        .style("fill","#414b57");
+      	.style("stroke-width", "1")
+      	.style("fill","#414b57");
 
     });
   }
