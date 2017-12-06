@@ -1,12 +1,17 @@
-GenMap();
-  GenPlaceholder();
+// GenMap starts on line 766
+// GenTable starts on line 352
+// GenPanelTwo starts on line 27
+// GenScatter starts on line 179
+// *****************************
+  GenMap();
+  GenPanelTwo();
   GenScatter();
 
   $(document).ready(function () {
-      $("input[type='radio']").on('change', function () {
+    $("input[type='radio']").on('change', function () {
            var selectedValue = $("input[name='radio']:checked").val();
 
-           if (selectedValue === 'Map') {
+           if(selectedValue === 'Map') {
                d3.selectAll('#viz_container').remove();
                GenMap();
 
@@ -18,13 +23,13 @@ GenMap();
                d3.select("svg_1").remove()
                d3.select("svg_2").remove()
                GenTable()
-               GenPlaceholder()
-               GenScatter();
+               GenPanelTwo()
+               GenScatter()
              }
-       });
-  });
+    })
+  })
 
-  function GenPlaceholder(){
+  function GenPanelTwo(){
     var formatNumber = d3.format("$,");
 
     var abs_width = 1024,
