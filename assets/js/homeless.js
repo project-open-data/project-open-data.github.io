@@ -11,11 +11,14 @@ GenMap();
                GenMap();
 
              }else if(selectedValue === 'Table'){
-               d3.selectAll("#viz_container").remove();
-               d3.selectAll("#legend").remove();
-               d3.select("#edu-tooltip").remove();
-               d3.select("svg").remove();
-               GenTable();
+               d3.selectAll("#viz_container").remove()
+               d3.selectAll("#legend").remove()
+               d3.select("#edu-tooltip").remove()
+               d3.selectAll("svg").remove()
+               d3.select("svg_1").remove()
+               d3.select("svg_2").remove()
+               GenTable()
+               GenPlaceholder();
              }
        });
   });
