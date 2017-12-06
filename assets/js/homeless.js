@@ -774,7 +774,7 @@ GenMap();
 
     d3.select("#container").append('div').attr("id","legend");
     d3.select("#container").append('div').attr("id","viz_container");
-    d3.select("#container").append('div').attr("id","edu-tooltip");
+    d3.select("#viz_container").append('div').attr("id","edu-tooltip");
     d3.select("#edu-tooltip").append('div').attr("id","edu-tooltipContainer");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-department");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-rule");
