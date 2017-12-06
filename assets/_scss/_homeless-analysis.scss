@@ -56,7 +56,8 @@
     }
     #edu-tooltipContainer {
       position: absolute;
-      bottom: 0;
+      /*bottom: 0;*/
+      z-index: 1;
       width: 230px;
       left: -125px;
       font-size: 12px;
