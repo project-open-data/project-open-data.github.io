@@ -310,10 +310,10 @@ GenMap();
       d3.select("input[type=button]").on("click", change);
 
       function change() {
-        xCat = "No_Staff";
+        xCat = "total_homeless";
         xMax = d3.max(data, function(d) { return d[xCat]; });
         xMin = d3.min(data, function(d) { return d[xCat]; });
-        yCat = "Amount"
+        yCat = "value"
         yMax = d3.max(data, function(d) { return d[yCat]; });
         yMin = d3.min(data, function(d) { return d[yCat]; });
         zoomBeh.x(x.domain([0, xMax*1.05])).y(y.domain([0, yMax*1.05]));
