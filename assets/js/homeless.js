@@ -115,7 +115,8 @@ GenMap();
         xAxis = d3.svg.axis()
                 //.orient("bottom")
                 .scale(scale)
-                .tickSize(-svg[0][0].attributes[1].nodeValue  + axisMargin);
+                .tickSize(-svg[0][0].attributes[1].nodeValue  + axisMargin)
+                .tickFormat(function(d) { return formatNumber(d); });
 
         bar.append("rect")
                 .attr("transform", "translate("+(labelWidth)+", 0)")
