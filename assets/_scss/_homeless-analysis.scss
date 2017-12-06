@@ -379,8 +379,8 @@
        border-top-color: #0071bc;
        background: #0071bc;
        }
-   rect {
-   /*fill: transparent;*/
+   .scatter rect {
+   fill: ; rgba(70,	75,	71,.5);/*transparent;*/
    shape-rendering: crispEdges;
    }
    .text-stuff{
