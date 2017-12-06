@@ -249,6 +249,7 @@ GenMap();
       svg.call(tip);
 
       svg.append("rect")
+          .attr("class","scatter")
           .attr("width", width)
           .attr("height", height);
 
