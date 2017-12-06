@@ -982,19 +982,29 @@ GenMap();
               }
             }*/
           function getColor(d){
-              for(var i=0; i< data.length; i++){
-                if(d.properties.coc_number===data[i].coc_number){
-                  if(data[i].pop<=500){return ("#004d00");}
-                  else if(data[i].pop<=1000){return ("#004d26");}
-                  else if(data[i].pop<=2000){return ("#004d4d");}
-                  else if(data[i].pop<=4000){return ("#00264d");}
-                  else if(data[i].pop<=6000){return ("#00004d");}
-                  else if(data[i].pop<=8000){return ("#26004d");}
-                  else if(data[i].pop<=12000){return ("#4d004d");}
-                  else{return ("#4d0026")}
+                for(var i=0; i< data.length; i++){
+                  if(d.properties.coc_number===data[i].coc_number){
+                    if(data[i].pop<=100){return ("#ffffe5");}
+                    else if(data[i].pop<=200){return ("#ffffb2");}
+                    else if(data[i].pop<=300){return ("#ffff7f");}
+                    else if(data[i].pop<=500){return ("#FFfa00");}
+                    else if(data[i].pop<=700){return ("#FFe600");}
+                    else if(data[i].pop<=1000){return ("#FFd200");}
+                    else if(data[i].pop<=1500){return ("FFbe00");}
+                    else if(data[i].pop<=2000){return ("#FFaa00");}
+                    else if(data[i].pop<=2500){return ("#FF9600");}
+                    else if(data[i].pop<=3000){return ("#FF5a00");}
+                    else if(data[i].pop<=3500){return ("#FF3c00");}
+                    else if(data[i].pop<=4000){return ("#FF1e00");}
+                    else if(data[i].pop<=5000){return ("#FF0000");}
+                    else if(data[i].pop<=6000){return ("#eb0000");}
+                    else if(data[i].pop<=7000){return ("#b90000");}
+                    else if(data[i].pop<=8000){return ("#550000");}
+                    else if(data[i].pop<=12000){return ("#bf0000");}
+                    else{return ("#800000")}
+                  }
                 }
               }
-            }
 
             function getValue(d){
               for(var i=0; i<data.length;i++){
