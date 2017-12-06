@@ -251,7 +251,8 @@ GenMap();
       svg.append("rect")
           .attr("class","scatter")
           .attr("width", width)
-          .attr("height", height);
+          .attr("height", height)
+          .style("fill","#ddd");
 
       svg.append("g")
           .classed("x axis", true)
