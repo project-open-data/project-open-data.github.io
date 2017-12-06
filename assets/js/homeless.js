@@ -342,7 +342,7 @@ GenMap();
 
   function GenTable(){
 
-    var column_names = ["CoC Number","COC Name","Total Homeless", "Sheltered Homeless", "Unsheltered Homeless", "Chronically Homeless","Homeless Veterans", "Homeless People in Families", "Homeless Unaccompanied Youth (Under 25)"];
+    var column_names = ["CoC Number","CoC Name","Total Homeless", "Sheltered Homeless", "Unsheltered Homeless", "Chronically Homeless","Homeless Veterans", "Homeless People in Families", "Homeless Unaccompanied Youth (Under 25)"];
     var clicks = {coc_number: 0, coc_name: 0, total_homeless: 0, chronically_homeless: 0, sheltered_homeless: 0, unsheltered_homeless: 0, homeless_veterans: 0, homeless_people_in_families: 0, homeless_unaccompanied_youth: 0};
 
     d3.select("#container").append('div').attr("id","viz_container");
@@ -356,7 +356,7 @@ GenMap();
       .attr("class", "SearchBar")
       .append("p")
         .attr("class", "SearchBar")
-        .text("Search By Zip Code:");
+        .text("Search By CoC Name:");
 
     d3.select(".SearchBar")
       .append("input")
@@ -453,6 +453,7 @@ GenMap();
             // data bind with new data
     		rows = table.select("tbody").selectAll("tr")
     		  .data(searched_data, function(d){ return d.coc_number; })
+          .attr("class","panel_1_table");
 
             // enter the rows
             rows.enter()
@@ -755,7 +756,7 @@ GenMap();
 
   function GenMap(){
     var formatNumber2 = d3.format(",");
-    
+
     var opts = {
       lines: 9, // The number of lines to draw
       length: 16, // The length of each line
