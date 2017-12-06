@@ -56,7 +56,7 @@
     }
     #edu-tooltipContainer {
       position: absolute;
-      /*bottom: 0;*/
+      bottom: 0;
       z-index: 1;
       width: 230px;
       left: -125px;
@@ -73,8 +73,8 @@
     }
 
     #edu-tooltip {
-     text-align:center;
-      z-index: 1000;
+      text-align:center;
+      z-index: 1;
       position: absolute;
       display: none;
     }
