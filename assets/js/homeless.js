@@ -70,7 +70,7 @@ GenMap();
         var formatNumber = d3.format("$,");
 
         var axisMargin = 5,
-                x_width = parseInt(d3.select('svg').style('width'), 10),
+                x_width = 100,
                 barHeight = 18,
                 barPadding = 5,
                 bar, scale, xAxis, labelWidth = 0;
