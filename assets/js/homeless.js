@@ -18,7 +18,8 @@ GenMap();
                d3.select("svg_1").remove()
                d3.select("svg_2").remove()
                GenTable()
-               GenPlaceholder();
+               GenPlaceholder()
+               GenScatter();
              }
        });
   });
