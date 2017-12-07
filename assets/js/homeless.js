@@ -802,7 +802,7 @@
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-chart");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-tail");
 
-    var width = 1000,
+    var width = 950,
         height = 600,
         centered = null;
 
