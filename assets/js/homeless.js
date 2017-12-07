@@ -766,7 +766,6 @@
                     }
         }) // end of click listeners
     });
-    //d3.select(self.frameElement).style("height", "700px").style("width", "1024px");
 
   }
 
@@ -791,16 +790,6 @@
 
     d3.select("#container").append('div').attr("id","legend").attr("width","1024px");
     d3.select("#container").append('div').attr("id","viz_container");
-    /*d3.select("#viz_container").append('div').attr("id","edu-tooltip");
-    d3.select("#edu-tooltip").append('div').attr("id","edu-tooltipContainer");
-    d3.select("#edu-tooltipContainer").append('div').attr("class","edu-department");
-    d3.select("#edu-tooltipContainer").append('div').attr("class","edu-rule");
-    d3.select("#edu-tooltipContainer").append('div').attr("class","edu-name");
-    d3.select("#edu-tooltipContainer").append('div').attr("class","edu-discretion");
-    d3.select("#edu-tooltipContainer").append('div').attr("class","edu-valuesContainer");
-    d3.select(".edu-valuesContainer").append('span').attr("class","edu-value");
-    d3.select("#edu-tooltipContainer").append('div').attr("class","edu-chart");
-    d3.select("#edu-tooltipContainer").append('div').attr("class","edu-tail");*/
 
     var width = 1000,
         height = 600,
@@ -911,45 +900,24 @@
 
 
             var g = svg.append("g")
-                        .attr("class", "counties")
-                        .selectAll("path")
-                        .data(us.features)
-                        .enter().append("path")
-                        .attr("class", "coc")
-                        .attr("data-coc", function(d) {return d.properties.coc_number; })
-                        .attr("data-state", function(d) {return d.properties.state; })
-                        .attr("data-name", function(d) {return d.properties.name; })
-                        .attr("d", path)
-                        .on("click", clicked)
-                        .style("fill",getColor);
-                        /*.on("mouseover",function(d,i) {
-                                var el = d3.select(this)
-                                var xpos = Number(el.attr('cx'))
-                                var ypos = (el.attr('cy') - d.radius - 10)
-                                el.style("stroke","#000").style("stroke-width",.25);
-                                d3.select("#edu-tooltip")
-                                .style("left", (d3.event.pageX) + "px")
-                                .style("top", (d3.event.pageY) + "px")
-                                .style('display','block')
-                                  .classed('edu-plus', (d.changeCategory > 0))
-                                  .classed('edu-minus', (d.changeCategory < 0));
-                                d3.select("#edu-tooltip .edu-name").html(d.properties.name)
+                      .attr("class", "counties")
+                      .selectAll("path")
+                      .data(us.features)
+                      .enter().append("path")
+                      .attr("class", "coc")
+                      .attr("data-coc", function(d) {return d.properties.coc_number; })
+                      .attr("data-state", function(d) {return d.properties.state; })
+                      .attr("data-name", function(d) {return d.properties.name; })
+                      .attr("d", path)
+                      .on("click", clicked)
+                      .style("fill",getColor);
 
-                                d3.select("#edu-tooltip .edu-discretion").text("Total homeless:")
-                                d3.select("#edu-tooltip .edu-department").text(d.properties.coc_number)
-                                d3.select("#edu-tooltip .edu-value").text(getValue(d))
-                              })
-                        .on("mouseout",function(d,i) {
-                          d3.select(this)
-                          .style("stroke-width",.15)
-                          .style("stroke","#FFF")
-                          d3.select("#edu-tooltip").style('display','none')});*/
 
             function clicked(d) {
                      var x, y, k;
 
                      for(var i=0; i<states.length; i++){
-                       if(d.properties.state==states[i].Abbrv){
+                       if(d.properties.STUSAB==states[i].Abbrv){
                          for(var h=0; h<json.features.length; h++){
                            if(states[i].State==json.features[h].properties.NAME){
                              var n = json.features[h];
