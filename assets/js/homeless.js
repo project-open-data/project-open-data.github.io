@@ -802,7 +802,7 @@
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-chart");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-tail");
 
-    var width = 950,
+    var width = 900,
         height = 600,
         centered = null;
 
@@ -904,7 +904,7 @@
                                 .range(["#FFF600","#960018"]);
 
 
-                        var g = svg.append("g")
+            var g = svg.append("g")
                         .attr("class", "counties")
                         .selectAll("path")
                         .data(us.features)
