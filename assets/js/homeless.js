@@ -766,7 +766,7 @@
                     }
         }) // end of click listeners
     });
-    d3.select(self.frameElement).style("height", "700px").style("width", "1024px");
+    //d3.select(self.frameElement).style("height", "700px").style("width", "1024px");
 
   }
 
@@ -789,7 +789,7 @@
     var spinner = new Spinner(opts).spin(target);
 
 
-    d3.select("#container").append('div').attr("id","legend");
+    d3.select("#container").append('div').attr("id","legend").attr("width","1024px");
     d3.select("#container").append('div').attr("id","viz_container");
     d3.select("#viz_container").append('div').attr("id","edu-tooltip");
     d3.select("#edu-tooltip").append('div').attr("id","edu-tooltipContainer");
@@ -803,12 +803,12 @@
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-tail");
 
     var width = 1000,
-        height = 700,
+        height = 600,
         centered = null;
 
     // D3 Projection
     var projection = d3.geo.albersUsa()
-               .translate([width/2, height/2.5])    // translate to center of screen
+               .translate([width/2, height/2])    // translate to center of screen
                .scale([1200]);          // scale things down so see entire US ---1455
 
     // Define path generator
@@ -834,7 +834,7 @@
           console.log("States: ",states);
           console.log("Data: ",data);
 
-          var legendWidth = "1024px";
+          var legendWidth = "1000px";
 
           var legend = d3.select("#legend")
                          .append("svg")
@@ -915,8 +915,8 @@
                         .attr("data-name", function(d) {return d.properties.name; })
                         .attr("d", path)
                         .on("click", clicked)
-                        .style("fill",getColor)
-                        .on("mouseover",function(d,i) {
+                        .style("fill",getColor);
+                        /*.on("mouseover",function(d,i) {
                                 var el = d3.select(this)
                                 var xpos = Number(el.attr('cx'))
                                 var ypos = (el.attr('cy') - d.radius - 10)
@@ -937,7 +937,7 @@
                           d3.select(this)
                           .style("stroke-width",.15)
                           .style("stroke","#FFF")
-                          d3.select("#edu-tooltip").style('display','none')});
+                          d3.select("#edu-tooltip").style('display','none')});*/
 
             function clicked(d) {
                      var x, y, k;
