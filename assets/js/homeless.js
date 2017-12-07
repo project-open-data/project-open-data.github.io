@@ -802,7 +802,7 @@
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-chart");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-tail");
 
-    var width = 950,
+    var width = 1000,
         height = 600,
         centered = null;
 
@@ -815,10 +815,16 @@
     var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
              .projection(projection);  // tell path generator to use albersUsa projection
 
-    var svg = d3.select("#viz_container")
+    var div = d3.select("#viz_container")
+               .append("div")
+               .attr("id","map_container")
+               .attr("width", width)
+               .attr("height", height);
+
+    var svg = d3.select("#map_container")
                 .append("svg")
-                .attr("width", width)
-                .attr("height", height);
+                .attr("width", '950px')
+                .attr("height", '575px');
 
     var formatNumber = d3.format("$,f");
 
