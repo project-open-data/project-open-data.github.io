@@ -791,7 +791,7 @@
 
     d3.select("#container").append('div').attr("id","legend").attr("width","1024px");
     d3.select("#container").append('div').attr("id","viz_container");
-    d3.select("#viz_container").append('div').attr("id","edu-tooltip");
+    /*d3.select("#viz_container").append('div').attr("id","edu-tooltip");
     d3.select("#edu-tooltip").append('div').attr("id","edu-tooltipContainer");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-department");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-rule");
@@ -800,7 +800,7 @@
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-valuesContainer");
     d3.select(".edu-valuesContainer").append('span').attr("class","edu-value");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-chart");
-    d3.select("#edu-tooltipContainer").append('div').attr("class","edu-tail");
+    d3.select("#edu-tooltipContainer").append('div').attr("class","edu-tail");*/
 
     var width = 1000,
         height = 600,

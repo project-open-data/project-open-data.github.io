@@ -33,7 +33,11 @@
     height: 600px;;
     width:950px;
     background-color: rgba(243,246,255,0);
-    overflow-y: scroll;
+    overflow: scroll;
+  }
+  #map_container{
+    position:relative;
+    overflow: hidden;
   }
   #legend{
     position:relative;
