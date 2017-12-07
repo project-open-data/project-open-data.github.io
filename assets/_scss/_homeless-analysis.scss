@@ -19,7 +19,6 @@
     font-family: inherit;
     width:1024px;
     height:800px;
-    overflow-y: scroll;
   }
   #container2, #container3{
     position:relative;
@@ -34,6 +33,7 @@
     height: 600px;;
     width:950px;
     background-color: rgba(243,246,255,0);
+    overflow-y: scroll;
   }
   #legend{
     position:relative;
