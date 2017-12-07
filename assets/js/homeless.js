@@ -354,7 +354,14 @@
     var column_names = ["CoC Number","CoC Name","Total Homeless", "Sheltered Homeless", "Unsheltered Homeless", "Chronically Homeless","Homeless Veterans", "Homeless People in Families", "Homeless Unaccompanied Youth (Under 25)"];
     var clicks = {coc_number: 0, coc_name: 0, total_homeless: 0, chronically_homeless: 0, sheltered_homeless: 0, unsheltered_homeless: 0, homeless_veterans: 0, homeless_people_in_families: 0, homeless_unaccompanied_youth: 0};
 
-    d3.select("#container").append('div').attr("id","viz_container");
+    d3.select("#container")
+      .attr("height","700px")
+      .attr("width","1024px");
+
+    d3.select("#container").append('div')
+      .attr("id","viz_container")
+      .attr("height","700px")
+      .attr("width","1000px");
 
     d3.select("#viz_container").append("h3")
       .attr("id", "title")
@@ -795,7 +802,7 @@
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-chart");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-tail");
 
-    var width = 1024,
+    var width = 1000,
         height = 700,
         centered = null;
 
