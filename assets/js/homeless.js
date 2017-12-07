@@ -802,7 +802,7 @@
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-chart");
     d3.select("#edu-tooltipContainer").append('div').attr("class","edu-tail");
 
-    var width = 900,
+    var width = 950,
         height = 600,
         centered = null;
 
@@ -834,7 +834,7 @@
           console.log("States: ",states);
           console.log("Data: ",data);
 
-          var legendWidth = "1000px";
+          var legendWidth = "950px";
 
           var legend = d3.select("#legend")
                          .append("svg")
