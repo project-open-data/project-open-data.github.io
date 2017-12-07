@@ -12,13 +12,17 @@
            var selectedValue = $("input[name='radio']:checked").val();
 
            if(selectedValue === 'Map') {
-               d3.selectAll('#viz_container').remove();
-               GenMap();
+               d3.selectAll('#viz_container').remove()
+               d3.selectAll("svg").remove()
+               d3.select("svg_1").remove()
+               d3.select("svg_2").remove()
+               GenMap()
+               GenPanelTwo()
+               GenScatter();
 
              }else if(selectedValue === 'Table'){
                d3.selectAll("#viz_container").remove()
                d3.selectAll("#legend").remove()
-               d3.select("#edu-tooltip").remove()
                d3.selectAll("svg").remove()
                d3.select("svg_1").remove()
                d3.select("svg_2").remove()
@@ -812,6 +816,7 @@
 
     var svg = d3.select("#map_container")
                 .append("svg")
+                .attr("id","svg")
                 .attr("width", '950px')
                 .attr("height", '575px');
 
