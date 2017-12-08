@@ -387,7 +387,10 @@
         .style("font-family","inherit")
         .style("font-size","16");
 
-    d3.select("#viz_container").append("div").attr("id","table_container")
+    d3.select("#viz_container").append("div")
+      .attr("id","table_container")
+      .attr("width", '950px')
+      .attr("height", '575px');
 
     var table = d3.select("#table_container").append("table");
     table.append("thead").append("tr");
