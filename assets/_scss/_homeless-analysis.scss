@@ -38,6 +38,7 @@
   #map_container{
     position:relative;
     overflow: visible;
+    background-color: #ddd;
   }
   #table_container{
     position:relative;
@@ -63,95 +64,6 @@
       	font-size: 16px;
       	fill: #4F4F4F;
       	font-weight: 500;
-    }
-    #edu-tooltipContainer {
-      position: absolute;
-      bottom: 0;
-      z-index: 1;
-      width: 230px;
-      left: -125px;
-      font-size: 12px;
-      line-height: 16px;
-      padding: 10px;
-      border-radius: 3px;
-      background: rgba(255,255,255,0.9);
-      color: #000;
-      box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-      -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-      border:1px solid rgba(200,200,200,0.85);
-      text-align:center;
-    }
-
-    #edu-tooltip {
-      text-align:center;
-      z-index: 1;
-      position: absolute;
-      display: none;
-    }
-
-    #edu-tooltip .edu-tail {
-      position: absolute;
-      bottom: -8px;
-      left: 105px;
-      width: 40px;
-      height: 8px;
-      background: url(https://static01.nyt.com/packages/images/newsgraphics/2012/0202-federal-budget/tail_white.png) 50% 0%;
-    }
-    #edu-tooltip .edu-department {
-      text-transform: uppercase;
-      text-align: left;
-      font-size: 10px;
-      margin-bottom: 2px;
-      color:#666;
-      text-align:center;
-
-    }
-    #edu-tooltip .edu-rule{
-      height:1px;
-      margin:1px auto 3px;
-      background:#ddd;
-      width:130px;
-    }
-
-    #edu-tooltip .edu-discretion{
-      color:#666;
-    /*   text-transform:uppercase;*/
-      font-size: 11px;
-      text-align:center;
-      font-style:italic;
-    }
-    #edu-tooltip .edu-name {
-      text-align: left;
-      font-size: 13px;
-    /*  width:170px;*/
-     text-align:center;
-    }
-    #edu-tooltip .edu-value {
-    /*  position:absolute;*/
-     text-align:center;
-      right:10px;
-      top:28px;
-      font-size: 16px;
-    /*  width:100px;*/
-     text-align:center;
-      overflow:hidden;
-      font-weight:bold;
-    }
-    #edu-tooltip .edu-value2 {
-      padding-left:10px;
-    /*  width:110px;  */
-      font-size: 16px;
-      text-align:right;
-      overflow:hidden;
-    /*  position:absolute;*/
-      font-weight:bold;
-      color:#666;
-     text-align:center;
-     display:inline;
-    }
-    #edu-tooltip .edu-valuesContainer {
-      padding-top:7px;
-
     }
     .control {
         font-family: inherit;
