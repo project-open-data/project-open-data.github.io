@@ -783,7 +783,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
 
                 bar.append("text")
                         .attr("class", "label")
-                        .attr("x",0)
+                        .attr("x",15)
                         .attr("y", barHeight / 2)
                         .attr("dy", ".35em") //vertical align middle
                         .text(function(d){
@@ -819,14 +819,14 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                     .attr("transform", "translate(" +labelWidth+ ","+ 475 +")")
                     .call(xAxis)
                   .selectAll("text")
-                    .attr("y", 3)
-                    .attr("x", 10)
+                    .attr("y", 10)
+                    .attr("x", 0)
                     .attr("dy", ".35em")
                     .attr("transform", "rotate(-35)")
                     .style("font-size","12")
                     .style("text-anchor", "end");
 
-                /*svg.insert("g",":first-child")
+                svg.insert("g",":first-child")
                     .classed("y axis", true)
                     .call(yAxis)
                   .append("text")
@@ -836,7 +836,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                     .attr("y",0)
                     .attr("dy", ".71em")
                     .style("text-anchor", "end")
-                    .text("Homeless CFDA Programs");*/
+                    .text("Homeless CFDA Programs");
 
 
 
@@ -1065,11 +1065,11 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
 
                 function change() {
                   xCat = "total_homeless";
-                  xMax = d3.max(data, function(d) { return d[xCat]; });
-                  xMin = d3.min(data, function(d) { return d[xCat]; });
+                  xMax = d3.max(scatter_data, function(d) { return d[xCat]; });
+                  xMin = d3.min(scatter_data, function(d) { return d[xCat]; });
                   yCat = "value"
-                  yMax = d3.max(data, function(d) { return d[yCat]; });
-                  yMin = d3.min(data, function(d) { return d[yCat]; });
+                  yMax = d3.max(scatter_data, function(d) { return d[yCat]; });
+                  yMin = d3.min(scatter_data, function(d) { return d[yCat]; });
                   zoomBeh.x(x.domain([0, xMax*1.05])).y(y.domain([0, yMax*1.05]));
 
                   var svg = d3.select("#scatter").transition();
