@@ -387,7 +387,9 @@
         .style("font-family","inherit")
         .style("font-size","16");
 
-    var table = d3.select("#viz_container").append("table");
+    d3.select("#viz_container").append("div").attr("id","table_container")
+
+    var table = d3.select("#table_container").append("table");
     table.append("thead").append("tr");
 
     var headers = table.select("tr").selectAll("th")

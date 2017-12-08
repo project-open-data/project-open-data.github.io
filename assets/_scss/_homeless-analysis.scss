@@ -39,6 +39,10 @@
     position:relative;
     overflow: visible;
   }
+  #map_container{
+    position:relative;
+    overflow-y: scroll;
+  }
   #legend{
     position:relative;
     height:100px;
