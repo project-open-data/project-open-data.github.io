@@ -22,7 +22,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
   d3.json('/data-lab-data/us-states.json', function (json) {
     d3.csv('/data-lab-data/coc-pop.csv', function (d) { return { coc_number: d.coc_number, pop: +d.pop }}, function (data) {
       d3.csv('/data-lab-data/State_crosswalk.csv', function (states) {
-        d3.csv('/data-lab-data/CFDACOCaward.csv', function (bar_chrt) {
+        d3.csv('/data-lab-data/CFDACOCAward.csv', function (bar_chrt) {
           d3.csv('/data-lab-data/pop-award.csv', function(d) { return { total_homeless: +d.total_homeless, value: +d.value}}, function (scatter_data) {
             d3.json('/data-lab-data/coc-pop-type.json', function (table_data) {
 
@@ -61,30 +61,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
               })
 
               // **************************************************************
-              function change() {
-                xCat = "total_homeless";
-                xMax = d3.max(data, function(d) { return d[xCat]; });
-                xMin = d3.min(data, function(d) { return d[xCat]; });
-                yCat = "value"
-                yMax = d3.max(data, function(d) { return d[yCat]; });
-                yMin = d3.min(data, function(d) { return d[yCat]; });
-                zoomBeh.x(x.domain([0, xMax*1.05])).y(y.domain([0, yMax*1.05]));
-
-                var svg = d3.select("#scatter").transition();
-
-                svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Number of Homeless");
-                svg.select(".y.axis").duration(750).call(yAxis).select(".label").text("Homeless CFDA Program Funds $");
-
-                objects.selectAll(".dot").transition().duration(1000).attr("transform", transform);
-              }
-
-              function zoom() {
-                svg.select(".x.axis").call(xAxis);
-                svg.select(".y.axis").call(yAxis);
-
-                svg.selectAll(".dot")
-                    .attr("transform", transform);
-              }
 
               function getColor(d){
                   for(var i=0; i< data.length; i++){
@@ -727,7 +703,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                 spinner_panel2.stop();
 
                 var abs_width = 1024,
-                    abs_height = 550,
+                    abs_height = 575,
                     margin = { top: 100, right:50, bottom: 15, left: 100 },
                     panel_2_width = abs_width - margin.left - margin.right,
                     panel_2_height = abs_height - margin.top - margin.bottom,
@@ -826,8 +802,11 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                         .tickSize(-svg[0][0].attributes[1].nodeValue  + axisMargin)
                         .tickFormat(function(d) { return formatNumber(d); });
 
+                yAxis = d3.svg.axis()
+                        .orient("left");
+
                 bar.append("rect")
-                        .attr("transform", "translate("+(labelWidth)+", 0)")
+                        .attr("transform", "translate("+(labelWidth)+",0)")
                         .attr("margin-left",5)
                         //.attr("rx","30")
                         .attr("height", barHeight)
@@ -840,11 +819,26 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                     .attr("transform", "translate(" +labelWidth+ ","+ 475 +")")
                     .call(xAxis)
                   .selectAll("text")
-                    .attr("y", 10)
-                    .attr("x", 0)
+                    .attr("y", 3)
+                    .attr("x", 10)
                     .attr("dy", ".35em")
                     .attr("transform", "rotate(-35)")
+                    .style("font-size","12")
                     .style("text-anchor", "end");
+
+                /*svg.insert("g",":first-child")
+                    .classed("y axis", true)
+                    .call(yAxis)
+                  .append("text")
+                    .classed("label", true)
+                    .attr("transform", "rotate(-90)")
+                    .attr("x",-80)
+                    .attr("y",0)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end")
+                    .text("Homeless CFDA Programs");*/
+
+
 
             //MAP
                 var projection = d3.geo.albersUsa()
@@ -1068,6 +1062,31 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                     .style("fill", function(d) { return color(d[colorCat]); })
                     .on("mouseover", tip.show)
                     .on("mouseout", tip.hide);
+
+                function change() {
+                  xCat = "total_homeless";
+                  xMax = d3.max(data, function(d) { return d[xCat]; });
+                  xMin = d3.min(data, function(d) { return d[xCat]; });
+                  yCat = "value"
+                  yMax = d3.max(data, function(d) { return d[yCat]; });
+                  yMin = d3.min(data, function(d) { return d[yCat]; });
+                  zoomBeh.x(x.domain([0, xMax*1.05])).y(y.domain([0, yMax*1.05]));
+
+                  var svg = d3.select("#scatter").transition();
+
+                  svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Number of Homeless");
+                  svg.select(".y.axis").duration(750).call(yAxis).select(".label").text("Homeless CFDA Program Funds $");
+
+                  objects.selectAll(".dot").transition().duration(1000).attr("transform", transform);
+                }
+
+                function zoom() {
+                  svg.select(".x.axis").call(xAxis);
+                  svg.select(".y.axis").call(yAxis);
+
+                  svg.selectAll(".dot")
+                      .attr("transform", transform);
+                }
 
                 d3.select("input[type=button]").on("click", change);
               }
