@@ -22,7 +22,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
   d3.json('/data-lab-data/us-states.json', function (json) {
     d3.csv('/data-lab-data/coc-pop.csv', function (d) { return { coc_number: d.coc_number, pop: +d.pop }}, function (data) {
       d3.csv('/data-lab-data/State_crosswalk.csv', function (states) {
-        d3.csv('/data-lab-data/test_v2.csv', function (bar_chrt) {
+        d3.csv('/data-lab-data/CFDACOCaward.csv', function (bar_chrt) {
           d3.csv('/data-lab-data/pop-award.csv', function(d) { return { total_homeless: +d.total_homeless, value: +d.value}}, function (scatter_data) {
             d3.json('/data-lab-data/coc-pop-type.json', function (table_data) {
 
@@ -763,7 +763,19 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                    return d3.descending(x.amount, y.amount);
                 });
 
-                var initial_bar =  bar_chrt.slice(0,20);
+
+                function filter_cocNum(bar_chrt) {
+                  return bar_chrt.COC_Number == "CA-600";
+                }
+
+                function filter_cfdaAmount(x){
+                    return x.amount > 0;
+                }
+
+                var initial =  bar_chrt.filter(filter_cocNum);
+                var initial_bar = initial.filter(filter_cfdaAmount);
+
+                console.log("initial_bar: ", initial_bar)
 
                 var formatNumber = d3.format("$,");
 
@@ -799,7 +811,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                         .attr("y", barHeight / 2)
                         .attr("dy", ".35em") //vertical align middle
                         .text(function(d){
-                            return d.cfda;
+                            return d.cfda_program_num;
                         }).each(function() {
                     labelWidth = Math.ceil(Math.max(labelWidth, this.getBBox().width))+2;
                 });
