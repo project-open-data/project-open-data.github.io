@@ -162,16 +162,57 @@
     var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
              .projection(projection);  // tell path generator to use albersUsa projection
 
-    d3.json("/data-lab-data/2017_CoC_Grantee_Areas_2.json",function(us){
+ d3.json("/data-lab-data/2017_CoC_Grantee_Areas_2.json",function(us){
+   d3.json("/data-lab-data/us-states.json", function(json) {
+     d3.csv("/data-lab-data/coc-pop.csv",function(d){return{ coc_number: d.coc_number,pop: +d.pop }},function(data){
+       d3.csv("/data-lab-data/State_crosswalk.csv",function(states){
 
-      var g = svg_1.append("g");
+        var g = svg_1.append("g");
 
-      g.selectAll("path")
-        .data(us.features)
-        .enter().append("path")
-        .attr("d", path)
-        .attr("class","counties");
+        g.selectAll("path")
+          .data(us.features)
+          .enter().append("path")
+          .attr("d", path)
+          .attr("class","counties")
+          .attr("data-coc", function(d) {return d.properties.coc_number; })
+          .attr("data-state", function(d) {return d.properties.state; })
+          .attr("data-name", function(d) {return d.properties.name; })
+          .attr("d", path)
+          //.on("click", clicked)
+          .style("fill",getColor);
 
+          function getColor(d){
+                for(var i=0; i< data.length; i++){
+                  if(d.properties.coc_number===data[i].coc_number){
+                    if(data[i].pop<=100){return ("#ffffe5");}
+                    else if(data[i].pop<=200){return ("#ffffb2");}
+                    else if(data[i].pop<=300){return ("#ffff7f");}
+                    else if(data[i].pop<=500){return ("#FFfa00");}
+                    else if(data[i].pop<=700){return ("#FFe600");}
+                    else if(data[i].pop<=1000){return ("#FFd200");}
+                    else if(data[i].pop<=1500){return ("FFbe00");}
+                    else if(data[i].pop<=2000){return ("#FFaa00");}
+                    else if(data[i].pop<=2500){return ("#FF9600");}
+                    else if(data[i].pop<=3000){return ("#FF5a00");}
+                    else if(data[i].pop<=3500){return ("#FF3c00");}
+                    else if(data[i].pop<=4000){return ("#FF1e00");}
+                    else if(data[i].pop<=5000){return ("#FF0000");}
+                    else if(data[i].pop<=6000){return ("#eb0000");}
+                    else if(data[i].pop<=7000){return ("#b90000");}
+                    else if(data[i].pop<=8000){return ("#550000");}
+                    else if(data[i].pop<=12000){return ("#bf0000");}
+                    else{return ("#800000")}
+                  }
+              }
+          }
+
+
+
+
+
+          });
+        });
+      });
     });
   }
 
