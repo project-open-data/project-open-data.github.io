@@ -1,3 +1,11 @@
+
+//GenMap begins on line 114
+//GenTable begins on line 283
+//GenPanelTwo begins on line 757
+//GenScatter begins on line 980
+
+
+
 // Spinner loading controls
 var opts = {
   lines: 9, // The number of lines to draw
@@ -265,16 +273,11 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                              .duration(750)
                              .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
                              .style("stroke-width", .25 / k + "px");
-
-
-
-
                          }
                        }
                      }
                    }
                  }
-
               } //end of GenMap()
 
               function GenTable(){
