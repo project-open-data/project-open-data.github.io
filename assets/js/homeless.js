@@ -155,25 +155,22 @@
 
 //MAP
     var projection = d3.geo.albersUsa()
-               .translate([map_width/1.5, map_height/1.1])    // translate to center of screen
+               .translate([map_width/1.35, map_height/1.1])    // translate to center of screen
                .scale([500]);          // scale things down so see entire US ---1455
 
     // Define path generator
     var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
              .projection(projection);  // tell path generator to use albersUsa projection
 
-    d3.json("/data-lab-data/us-states.json", function(json) {
+    d3.json("/data-lab-data/2017_CoC_Grantee_Areas_2.json",function(us){
 
       var g = svg_1.append("g");
 
       g.selectAll("path")
-        .data(json.features)
-        .enter()
-        .append("path")
+        .data(us.features)
+        .enter().append("path")
         .attr("d", path)
-        .style("stroke", "#fff")
-      	.style("stroke-width", "1")
-      	.style("fill","#414b57");
+        .attr("class","counties");
 
     });
   }
@@ -969,6 +966,10 @@
                                  .duration(750)
                                  .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
                                  .style("stroke-width", .25 / k + "px");
+
+
+
+
                              }
                            }
                          }
