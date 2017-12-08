@@ -1,3 +1,4 @@
+// APPROXIMATIONS *************
 // GenMap starts on line 766
 // GenTable starts on line 352
 // GenPanelTwo starts on line 27
@@ -162,6 +163,8 @@
     var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
              .projection(projection);  // tell path generator to use albersUsa projection
 
+    var centered = null;
+
  d3.json("/data-lab-data/2017_CoC_Grantee_Areas_2.json",function(us){
    d3.json("/data-lab-data/us-states.json", function(json) {
      d3.csv("/data-lab-data/coc-pop.csv",function(d){return{ coc_number: d.coc_number,pop: +d.pop }},function(data){
@@ -173,13 +176,15 @@
           .data(us.features)
           .enter().append("path")
           .attr("d", path)
-          .attr("class","counties")
+          .attr("class","counties_mini")
           .attr("data-coc", function(d) {return d.properties.coc_number; })
           .attr("data-state", function(d) {return d.properties.state; })
           .attr("data-name", function(d) {return d.properties.name; })
           .attr("d", path)
-          //.on("click", clicked)
+          .on("click", clicked)
           .style("fill",getColor);
+
+          console.log("g: ",g)
 
           function getColor(d){
                 for(var i=0; i< data.length; i++){
@@ -205,6 +210,59 @@
                   }
               }
           }
+
+          function clicked(d) {
+             var x, y, k;
+
+             for(var i=0; i<states.length; i++) {
+               if(d.properties.STUSAB==states[i].Abbrv ){
+                 for(var h=0; h<json.features.length; h++) {
+                   if(states[i].State==json.features[h].properties.NAME) {
+                     var n = json.features[h]
+                     //console.log("clicked n: ",n);
+                     if (n && centered !== n) {
+                       var centroid = path.centroid(n)
+                                  x = centroid[0]
+                                  y = centroid[1]
+
+                       //console.log("d: ",d.properties.NAME);
+                       if(n.properties.NAME === "Florida"){ k = 5.0}
+                       else if(n.properties.NAME === "Michigan"){ k = 5.5}
+                       else if(n.properties.NAME === "Idaho"){ k = 3.25}
+                       else if(n.properties.NAME === "Alaska"){ k = 5.0}
+                       else if(n.properties.NAME === "Hawaii"){ k = 7.0}
+                       else if(n.properties.CENSUSAREA <= 15000){ k = 11.0 }
+                       else if(n.properties.CENSUSAREA > 15000  &&  n.properties.CENSUSAREA <= 30000) { k = 9.0 }
+                       else if(n.properties.CENSUSAREA > 30000 &&  n.properties.CENSUSAREA <= 50000) { k = 8.0 }
+                       else if(n.properties.CENSUSAREA > 50000 &&  n.properties.CENSUSAREA <= 70000 ) { k = 6.5 }
+                       else if(n.properties.CENSUSAREA > 70000 && n.properties.CENSUSAREA <= 90000) { k = 6.0 }
+                       else if(n.properties.CENSUSAREA > 90000 && n.properties.CENSUSAREA <= 110000 ) { k = 5.0 }
+                       else if(n.properties.CENSUSAREA > 110000 && n.properties.CENSUSAREA <= 130000) { k = 4.0 }
+                       else if(n.properties.CENSUSAREA > 130000 && n.properties.CENSUSAREA <= 150000 ) { k = 3.5 }
+                       else{ k = 2.75 };
+                       centered = n;
+
+                     } else {
+                       x = map_width / 1.35;
+                       y = map_height / 1.1;
+                       k = 1;
+                       centered = null;
+
+                     }
+
+                     g.selectAll("path")
+                         .classed("active", centered && function(d) { return d === centered; });
+
+                     g.transition()
+                         .duration(750)
+                         .attr("transform", "translate(" + map_width / 1.35 + "," + map_height / 1.1 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+                         .style("stroke-width", .15 / k + "px");
+
+                     }
+                   }
+                 }
+               }
+             }
 
 
 
