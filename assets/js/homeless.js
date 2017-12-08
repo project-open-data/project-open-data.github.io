@@ -926,16 +926,16 @@
             function clicked(d) {
                      var x, y, k;
 
-                     for(var i=0; i<states.length; i++){
-                       if(d.properties.STUSAB==states[i].Abbrv){
-                         for(var h=0; h<json.features.length; h++){
-                           if(states[i].State==json.features[h].properties.NAME){
-                             var n = json.features[h];
+                     for(var i=0; i<states.length; i++) {
+                       if(d.properties.STUSAB==states[i].Abbrv ){
+                         for(var h=0; h<json.features.length; h++) {
+                           if(states[i].State==json.features[h].properties.NAME) {
+                             var n = json.features[h]
                              //console.log("clicked n: ",n);
                              if (n && centered !== n) {
-                               var centroid = path.centroid(n);
-                                          x = centroid[0];
-                                          y = centroid[1];
+                               var centroid = path.centroid(n)
+                                          x = centroid[0]
+                                          y = centroid[1]
 
                                //console.log("d: ",d.properties.NAME);
                                if(n.properties.NAME === "Florida"){ k = 5.0}
@@ -968,7 +968,7 @@
                              g.transition()
                                  .duration(750)
                                  .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-                                 .style("stroke-width", .15 / k + "px");
+                                 .style("stroke-width", .25 / k + "px");
                              }
                            }
                          }
