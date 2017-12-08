@@ -279,6 +279,57 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
 
               function GenTable(){
 
+                  (function ($) {
+                   $.fn.scrollbarTable = function (i) {
+                       var o = {};
+                       if (typeof (i) == 'number') o.height = i;
+                       else if (typeof (i) == 'object') o = i;
+                       else if (typeof (i) == 'undefined') o = {
+                           height: 550
+                       }
+                       return this.each(function () {
+                           var $t = $(this);
+                           var w = $t.width();
+                           $t.width(w - function (width) {
+                               var parent, child;
+                               if (width === undefined) {
+                                   parent = $('<div style="width:50px;height:50px;overflow:auto"><div style="height:50px;"></div></div>').appendTo('viz_container');
+                                   child = parent.children();
+                                   width = child.innerWidth() - child.height(99).innerWidth();
+                                   parent.remove();
+                               }
+                               return width;
+                           }());
+                           var cols = [];
+                           var tableCols = [];
+                           $t.find('thead th,thead td').each(function () {
+                               cols.push($(this).width());
+                           });
+                           $t.find('tr:eq(1) th,thead td').each(function () {
+                               tableCols.push($(this).width());
+                           });
+                           var $firstRow = $t.clone();
+                           $firstRow.find('tbody').remove();
+                           $t.find('thead').remove();
+                           $t.before($firstRow);
+                           $firstRow.find('thead th,thead td').each(function (i) {
+                               $(this).attr('width', cols[i]);
+                           });
+                           $t.find('tr:first th,tr:first td').each(function (i) {
+                               $(this).attr('width', tableCols[i]);
+                           });
+                           var $wrap = $('<div>');
+                           $wrap.css({
+                               width: w,
+                               height: o.height,
+                               overflow: 'auto'
+                           });
+                           $t.wrap($wrap);
+                       })
+                   };
+                }(jQuery));
+
+
                 var column_names = ["CoC Number","CoC Name","Total Homeless", "Sheltered Homeless", "Unsheltered Homeless", "Chronically Homeless","Homeless Veterans", "Homeless People in Families", "Homeless Unaccompanied Youth (Under 25)"];
                 var clicks = {coc_number: 0, coc_name: 0, total_homeless: 0, chronically_homeless: 0, sheltered_homeless: 0, unsheltered_homeless: 0, homeless_veterans: 0, homeless_people_in_families: 0, homeless_unaccompanied_youth: 0};
 
@@ -316,7 +367,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                   .attr("width", '950px')
                   .attr("height", '575px');
 
-                var table = d3.select("#table_container").append("table");
+                var table = d3.select("#table_container").append("table").attr("id","tab");
                 table.append("thead").append("tr");
 
                 var headers = table.select("tr").selectAll("th")
@@ -368,7 +419,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                   .attr("href", function(d) { return d; })
                   .attr("target", "_blank")
                 .text(function(d) { return d; })
-
 
                 /**  search functionality **/
                   d3.select("#search")
@@ -696,6 +746,9 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                                 }
                               }
                   }) // end of click listeners
+                  $(document).ready(function(){
+                      $('table').scrollbarTable();
+                  })
               } // end of GenTable()
 
               function GenPanelTwo(){
@@ -837,8 +890,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                     .attr("dy", ".71em")
                     .style("text-anchor", "end")
                     .text("Homeless CFDA Programs");
-
-
 
             //MAP
                 var projection = d3.geo.albersUsa()
