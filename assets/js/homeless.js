@@ -33,8 +33,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
         d3.csv('/data-lab-data/CFDACOCAward.csv', function (bar_chrt) {
           d3.csv('/data-lab-data/pop-award.csv', function(d) { return { total_homeless: +d.total_homeless, value: +d.value}}, function (scatter_data) {
             d3.json('/data-lab-data/coc-pop-type.json', function (table_data) {
-
-              console.log("bar_chrt: ", bar_chrt)
+              d3.csv('/data-lab-data/coc_by_value.csv', function (map_data) {
 
               // Initialize visualization
               GenMap()
@@ -696,11 +695,13 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                                 }
                               }
                   }) // end of click listeners
+
+                  //Scrollable body, frozen headers
                   document.getElementById("table_container").addEventListener("scroll", function(){
                      var translate = "translate(0,"+this.scrollTop+"px)";
                      this.querySelector("thead").style.transform = translate;
                   });
-              } // end of GenTable()
+                } // end of GenTable()
 
               function GenPanelTwo(){
 
@@ -739,6 +740,10 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                   d.amount = +d.amount;
                 });
 
+                map_data.forEach(function(d) {
+                  d.amount = +d.amount;
+                });
+
                 bar_chrt = bar_chrt.sort(function(x, y){
                    return d3.descending(x.amount, y.amount);
                 });
@@ -755,7 +760,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                 var initial =  bar_chrt.filter(filter_cocNum);
                 var initial_bar = initial.filter(filter_cfdaAmount);
 
-                console.log("initial_bar: ", initial_bar)
+                //console.log("initial_bar: ", initial_bar)
 
                 var formatNumber = d3.format("$,");
 
@@ -853,11 +858,9 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
 
                 var centered = null;
 
-                var g = svg_1.append("g");
+                console.log("Map_Data: ",map_data)
 
-                var w = 1.35,
-                    h = 1.1,
-                    p = .15;
+                var g = svg_1.append("g");
 
                 g.selectAll("path")
                   .data(us.features)
@@ -923,6 +926,30 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                    }
                  }
 
+                 function getColor(d){
+                     for(var i=0; i< map_data.length; i++){
+                       if(d.properties.coc_number===map_data[i].COC_Number){
+                         if(map_data[i].amount<=500000){return ("#8EC6F6");}
+                         else if(map_data[i].amount<=1000000){return ("#87BBE9");}
+                         else if(map_data[i].amount<=2000000){return ("#81B0DC");}
+                         else if(map_data[i].amount<=3000000){return ("#7AA5CF");}
+                         else if(map_data[i].amount<=4000000){return ("#739BC2");}
+                         else if(map_data[i].amount<=5000000){return ("#6C90B6");}
+                         else if(map_data[i].amount<=7500000){return ("#6686A9");}
+                         else if(map_data[i].amount<=10000000){return ("#5F7C9D");}
+                         else if(map_data[i].amount<=20000000){return ("#587291");}
+                         else if(map_data[i].amount<=30000000){return ("#516885");}
+                         else if(map_data[i].amount<=40000000){return ("#4A5E79");}
+                         else if(map_data[i].amount<=50000000){return ("#43556E");}
+                         else if(map_data[i].amount<=60000000){return ("#3C4C62");}
+                         else if(map_data[i].amount<=70000000){return ("#364357");}
+                         else if(map_data[i].amount<=80000000){return ("#2F3A4C");}
+                         else if(map_data[i].amount<=90000000){return ("#283142");}
+                         else if(map_data[i].amount<=100000000){return ("#212937");}
+                         else{return ("#1B212D")}
+                       }
+                     }
+                 }
               } // end of GenPanelTwo
 
               function GenScatter(){
@@ -1092,6 +1119,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
 
                 d3.select("input[type=button]").on("click", change);
               }
+              })
             })
           })
         })
