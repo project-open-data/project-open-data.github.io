@@ -35,6 +35,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
             d3.json('/data-lab-data/coc-pop-type.json', function (table_data) {
               d3.csv('/data-lab-data/coc_by_value.csv', function (map_data) {
 
+console.log("bar_chrt: ", bar_chrt)
+
               // Initialize visualization
               GenMap()
               GenPanelTwo()
@@ -798,7 +800,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                         .text(function(d){
                             return d.cfda_program_num;
                         }).each(function() {
-                    labelWidth = Math.ceil(Math.max(labelWidth, this.getBBox().width))+2;
+                    labelWidth = 50;
                 });
 
                 scale = d3.scale.linear()
@@ -872,7 +874,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                   .attr("data-name", function(d) {return d.properties.name; })
                   .attr("d", path)
                   .on("click", clicked)
-                  .style("fill",getColor);
+                  .style("fill",getColor)
+                  .on("mouseover",BarChart);
 
                 function clicked(d) {
                  var x, y, k;
@@ -950,6 +953,110 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                        }
                      }
                  }
+
+                 function BarChart(d){
+                   d3.select('#panel_matrix > svg').remove()
+                   console.log("In HoverBarChart: d -> ",d)
+                   var svg = d3.select("#panel_matrix").append("svg")
+                       .attr("width", matrix_width + margin.left + margin.right)
+                       .attr("height", matrix_height + margin.top + margin.bottom)
+                       .style("margin-left", -margin.left/2.5 + "px")
+                       .attr("transform", "translate(" + 40 + ","+ 10 +")");
+
+                   function filter_cocNum(bar_chrt) {
+                     return bar_chrt.COC_Number == d.properties.coc_number;
+                   }
+                   function filter_cfdaAmount(x){
+                       return x.amount > 0;
+                   }
+
+                   var initial =  bar_chrt.filter(filter_cocNum);
+                   var initial_bar = initial.filter(filter_cfdaAmount);
+                   var formatNumber = d3.format("$,");
+
+                   var axisMargin = 5,
+                       x_width = 470,
+                       barHeight = 18,
+                       barPadding = 5,
+                       bar, scale, xAxis, labelWidth = 0;
+
+                   max = d3.max(initial_bar, function(d) { return d.amount; });
+
+                   bar = svg.selectAll("g")
+                           .data(initial_bar)
+                           .enter()
+                           .append("g");
+
+                   bar.attr("class", "bar")
+                      .attr("cx",0)
+                      .style("fill",function(d){
+                        if(d.category == 1){return "#3D3A4F"}
+                        else if(d.category == 2){return "#1D545C"}
+                        else if(d.category == 3){return "#29684D"}
+                        else if(d.category == 4){return "#657532"}
+                        else if(d.category == 5){return "#A97538"}
+                      })
+                      .attr("transform", function(d, i) {
+                               return "translate(0," + (i * (barHeight + barPadding)) + ")";
+                           });
+
+                   bar.append("text")
+                           .attr("class", "label")
+                           .attr("x",15)
+                           .attr("y", barHeight / 2)
+                           .attr("dy", ".35em") //vertical align middle
+                           .text(function(d){
+                               return d.cfda_program_num;
+                           }).each(function() {
+                       labelWidth = 50;
+                   });
+
+                   scale = d3.scale.linear()
+                           .domain([0, max])
+                           .range([0, x_width - labelWidth]);
+
+                   xAxis = d3.svg.axis()
+                           //.orient("bottom")
+                           .scale(scale)
+                           .tickSize(-svg[0][0].attributes[1].nodeValue  + axisMargin)
+                           .tickFormat(function(d) { return formatNumber(d); });
+
+                   yAxis = d3.svg.axis()
+                           .orient("left");
+
+                   bar.append("rect")
+                           .attr("transform", "translate("+(labelWidth)+",0)")
+                           .attr("margin-left",5)
+                           //.attr("rx","30")
+                           .attr("height", barHeight)
+                           .attr("width", function(d){
+                               return scale(d.amount);
+                           });
+
+                   svg.insert("g",":first-child")
+                       .attr("class", "axisHorizontal")
+                       .attr("transform", "translate(" +labelWidth+ ","+ 475 +")")
+                       .call(xAxis)
+                     .selectAll("text")
+                       .attr("y", 10)
+                       .attr("x", 0)
+                       .attr("dy", ".35em")
+                       .attr("transform", "rotate(-35)")
+                       .style("font-size","12")
+                       .style("text-anchor", "end");
+
+                   svg.insert("g",":first-child")
+                       .classed("y axis", true)
+                       .call(yAxis)
+                     .append("text")
+                       .classed("label", true)
+                       .attr("transform", "rotate(-90)")
+                       .attr("x",-80)
+                       .attr("y",0)
+                       .attr("dy", ".71em")
+                       .style("text-anchor", "end")
+                       .text("Homeless CFDA Programs");
+                  }
               } // end of GenPanelTwo
 
               function GenScatter(){
