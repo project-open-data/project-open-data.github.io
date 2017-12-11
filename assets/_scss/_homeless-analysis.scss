@@ -42,7 +42,7 @@
   }
   #table_container{
     position:relative;
-    //overflow-y: scroll;
+    overflow: auto;
     height:575px;
     width:950px;
   }
@@ -163,6 +163,7 @@
     th {
       background-color: #4393c3;
       color: #d9f0a3;
+      border-collapse: collapse;
     }
     td { background-color: #cccccc; }
     tr:hover td { background-color: #edf8b1; }

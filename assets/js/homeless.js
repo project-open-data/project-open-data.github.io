@@ -210,9 +210,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
               var color = d3.scale.linear()
                                   .domain([min,max])
                                   .range(["#FFF600","#960018"]);
-              var w = 2,
-                  h = 2,
-                  p = .25;
 
               var g = svg.append("g")
                         .attr("class", "counties")
@@ -281,56 +278,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
               } //end of GenMap()
 
               function GenTable(){
-
-                  (function ($) {
-                   $.fn.scrollbarTable = function (i) {
-                       var o = {};
-                       if (typeof (i) == 'number') o.height = i;
-                       else if (typeof (i) == 'object') o = i;
-                       else if (typeof (i) == 'undefined') o = {
-                           height: 550
-                       }
-                       return this.each(function () {
-                           var $t = $(this);
-                           var w = $t.width();
-                           $t.width(w - function (width) {
-                               var parent, child;
-                               if (width === undefined) {
-                                   parent = $('<div style="width:50px;height:50px;overflow:auto"><div style="height:50px;"></div></div>').appendTo('viz_container');
-                                   child = parent.children();
-                                   width = child.innerWidth() - child.height(99).innerWidth();
-                                   parent.remove();
-                               }
-                               return width;
-                           }());
-                           var cols = [];
-                           var tableCols = [];
-                           $t.find('thead th,thead td').each(function () {
-                               cols.push($(this).width());
-                           });
-                           $t.find('tr:eq(1) th,thead td').each(function () {
-                               tableCols.push($(this).width());
-                           });
-                           var $firstRow = $t.clone();
-                           $firstRow.find('tbody').remove();
-                           $t.find('thead').remove();
-                           $t.before($firstRow);
-                           $firstRow.find('thead th,thead td').each(function (i) {
-                               $(this).attr('width', cols[i]);
-                           });
-                           $t.find('tr:first th,tr:first td').each(function (i) {
-                               $(this).attr('width', tableCols[i]);
-                           });
-                           var $wrap = $('<div>');
-                           $wrap.css({
-                               width: w,
-                               height: o.height,
-                               overflow: 'auto'
-                           });
-                           $t.wrap($wrap);
-                       })
-                   };
-                }(jQuery));
 
 
                 var column_names = ["CoC Number","CoC Name","Total Homeless", "Sheltered Homeless", "Unsheltered Homeless", "Chronically Homeless","Homeless Veterans", "Homeless People in Families", "Homeless Unaccompanied Youth (Under 25)"];
@@ -749,9 +696,10 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
                                 }
                               }
                   }) // end of click listeners
-                  $(document).ready(function(){
-                      $('table').scrollbarTable();
-                  })
+                  document.getElementById("table_container").addEventListener("scroll", function(){
+                     var translate = "translate(0,"+this.scrollTop+"px)";
+                     this.querySelector("thead").style.transform = translate;
+                  });
               } // end of GenTable()
 
               function GenPanelTwo(){
