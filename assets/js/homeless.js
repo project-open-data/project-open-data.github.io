@@ -850,7 +850,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
             //MAP
                 var projection = d3.geo.albersUsa()
                            .translate([map_width/1.35, map_height/1.1])    // translate to center of screen
-                           .scale([500]);          // scale things down so see entire US ---1455
+                           .scale([575]);          // scale things down so see entire US ---1455
 
                 // Define path generator
                 var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
