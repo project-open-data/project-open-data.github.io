@@ -362,6 +362,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   });
 
                   var column_names = ["CoC Number", "CoC Name", "Total Homeless", "Sheltered Homeless", "Unsheltered Homeless", "Chronically Homeless", "Homeless Veterans", "Homeless People in Families", "Homeless Unaccompanied Youth (Under 25)"];
+
                   var clicks = {
                     coc_number: 0,
                     coc_name: 0,
@@ -558,7 +559,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                             return a.coc_number.localeCompare(b.coc_number);
                           })
                         } else
-                      if (clicks.coc_number % 2 != 0) {
+                      if (clicks.coc_number % 2 !== 0) {
                         rows.sort(function(a, b) {
                           return b.coc_number.localeCompare(a.coc_number);
                         })
@@ -594,7 +595,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                           }
                         });
                         // odd number of clicks
-                      } else if (clicks.total_homeless % 2 != 0) {
+                      } else if (clicks.total_homeless % 2 !== 0) {
                         // sort descending: numerically
                         rows.sort(function(a, b) {
                           if (+b.total_homeless > +a.total_homeless) {
@@ -614,19 +615,19 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       if (clicks.chronically_homeless % 2 == 0) {
                         // sort ascending: alphabetically
                         rows.sort(function(a, b) {
-                          if (a.chronically_homeless.toUpperCase() < b.chronically_homeless.toUpperCase()) {
+                          if (a.chronically_homeless < b.chronically_homeless) {
                             return -1;
-                          } else if (a.chronically_homeless.toUpperCase() > b.chronically_homeless.toUpperCase()) {
+                          } else if (a.chronically_homeless > b.chronically_homeless) {
                             return 1;
                           }
                         });
                         // odd number of clicks
-                      } else if (clicks.chronically_homeless % 2 != 0) {
+                      } else if (clicks.chronically_homeless % 2 !== 0) {
                         // sort descending: alphabetically
                         rows.sort(function(a, b) {
-                          if (a.chronically_homeless.toUpperCase() < b.chronically_homeless.toUpperCase()) {
+                          if (a.chronically_homeless < b.chronically_homeless) {
                             return 1;
-                          } else if (a.chronically_homeless.toUpperCase() > b.chronically_homeless.toUpperCase()) {
+                          } else if (a.chronically_homeless > b.chronically_homeless) {
                             return -1;
                           }
                         });
@@ -645,7 +646,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                           }
                         });
                         // odd number of clicks
-                      } else if (clicks.sheltered_homeless % 2 != 0) {
+                      } else if (clicks.sheltered_homeless % 2 !== 0) {
                         // sort descending: numerically
                         rows.sort(function(a, b) {
                           if (+a.sheltered_homeless < +b.sheltered_homeless) {
@@ -669,7 +670,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                           }
                         });
                         // odd number of clicks
-                      } else if (clicks.unsheltered_homeless % 2 != 0) {
+                      } else if (clicks.unsheltered_homeless % 2 !== 0) {
                         // sort descending: numerically
                         rows.sort(function(a, b) {
                           if (+a.unsheltered_homeless < +b.unsheltered_homeless) {
@@ -693,7 +694,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                           }
                         });
                         // odd number of clicks
-                      } else if (clicks.homeless_veterans % 2 != 0) {
+                      } else if (clicks.homeless_veterans % 2 !== 0) {
                         // sort descending: numerically
                         rows.sort(function(a, b) {
                           if (+a.homeless_veterans < +b.homeless_veterans) {
@@ -717,7 +718,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                           }
                         });
                         // odd number of clicks
-                      } else if (clicks.homeless_people_in_families % 2 != 0) {
+                      } else if (clicks.homeless_people_in_families % 2 !== 0) {
                         // sort descending: numerically
                         rows.sort(function(a, b) {
                           if (+a.homeless_people_in_families < +b.homeless_people_in_families) {
@@ -728,7 +729,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                         });
                       }
                     }
-                    if (d == "Homeless Unacompanied Youth (Under 25)") {
+                    if (d == "Homeless Unaccompanied Youth (Under 25)") {
                       clicks.homeless_unaccompanied_youth++;
                       // even number of clicks
                       if (clicks.homeless_unaccompanied_youth % 2 == 0) {
@@ -741,7 +742,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                           }
                         });
                         // odd number of clicks
-                      } else if (clicks.homeless_unaccompanied_youth % 2 != 0) {
+                      } else if (clicks.homeless_unaccompanied_youth % 2 !== 0) {
                         // sort descending: numerically
                         rows.sort(function(a, b) {
                           if (+a.homeless_unaccompanied_youth < +b.homeless_unaccompanied_youth) {
