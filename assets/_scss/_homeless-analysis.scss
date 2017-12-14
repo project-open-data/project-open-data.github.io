@@ -253,7 +253,7 @@
     stroke: #FFF;
     stroke-width: 2px;
     }
-    .d3-tip {
+    .d3-tip .n {
     line-height: 1;
     font-weight: bold;
     padding: 12px;
@@ -262,7 +262,9 @@
     border-radius: 2px;
     pointer-events: none;
   }
-
+  .d3-tip span {
+      color: #ff00c7;
+    }
   /* Creates a small triangle extender for the tooltip */
   .d3-tip:after {
     box-sizing: border-box;

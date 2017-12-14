@@ -811,24 +811,24 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   svg_1.call(tip)
 
                   bar_chrt.forEach(function(d) {
-                    d.amount = +d.amount;
+                    d.fed_funding = +d.fed_funding;
                   });
 
                   map_data.forEach(function(d) {
-                    d.amount = +d.amount;
+                    d.fed_funding = +d.fed_funding;
                   });
 
                   bar_chrt = bar_chrt.sort(function(x, y) {
-                    return d3.descending(x.amount, y.amount);
+                    return d3.descending(x.fed_funding, y.fed_funding);
                   });
 
 
                   function filter_cocNum(bar_chrt) {
-                    return bar_chrt.COC_Number == "CA-600";
+                    return bar_chrt.coc_number == "CA-600";
                   }
 
                   function filter_cfdaAmount(x) {
-                    return x.amount > 0;
+                    return x.fed_funding > 0;
                   }
 
                   var initial = bar_chrt.filter(filter_cocNum);
@@ -845,7 +845,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     bar, scale, xAxis, labelWidth = 0;
 
                   max = d3.max(initial_bar, function(d) {
-                    return d.amount;
+                    return d.fed_funding;
                   });
 
                   bar = svg.selectAll("g")
@@ -856,16 +856,24 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   bar.attr("class", "bar")
                     .attr("cx", 0)
                     .style("fill", function(d) {
-                      if (d.category == 1) {
-                        return "#3D3A4F"
-                      } else if (d.category == 2) {
-                        return "#1D545C"
-                      } else if (d.category == 3) {
-                        return "#29684D"
-                      } else if (d.category == 4) {
-                        return "#657532"
-                      } else if (d.category == 5) {
-                        return "#A97538"
+                      if (d.category == "Housing") {
+                        return "#7B4C66"
+                      } else if (d.category == "Housing/Education") {
+                        return "#C98845"
+                      } else if (d.category == "Services") {
+                        return "#695C7C"
+                      } else if (d.category == "Health") {
+                        return "#297B84"
+                      } else if (d.category == "Support Services") {
+                        return "#4A8D5B"
+                      } else if (d.category == "Housing/Services") {
+                        return "#759043"
+                      } else if (d.category == "Health/Housing") {
+                        return "#A08E39"
+                      } else if (d.category == "Education/Servicess") {
+                        return "#4A6C87"
+                      } else if (d.category == "Housing/Research") {
+                        return "#278673"
                       }
                     })
                     .attr("transform", function(d, i) {
@@ -878,7 +886,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("y", barHeight / 2)
                     .attr("dy", ".35em") //vertical align middle
                     .text(function(d) {
-                      return d.cfda_program_num;
+                      return d.cfda_number;
                     }).each(function() {
                       labelWidth = 50;
                     });
@@ -904,7 +912,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     //.attr("rx","30")
                     .attr("height", barHeight)
                     .attr("width", function(d) {
-                      return scale(d.amount);
+                      return scale(d.fed_funding);
                     });
 
                   svg.insert("g", ":first-child")
@@ -1104,11 +1112,11 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       .attr("transform", "translate(" + 40 + "," + 10 + ")");
 
                     function filter_cocNum(bar_chrt) {
-                      return bar_chrt.COC_Number == d.properties.coc_number;
+                      return bar_chrt.coc_number == d.properties.coc_number;
                     }
 
                     function filter_cfdaAmount(x) {
-                      return x.amount > 0;
+                      return x.fed_funding > 0;
                     }
 
                     var initial = bar_chrt.filter(filter_cocNum);
@@ -1122,7 +1130,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       bar, scale, xAxis, labelWidth = 0;
 
                     max = d3.max(initial_bar, function(d) {
-                      return d.amount;
+                      return d.fed_funding;
                     });
 
                     bar = svg.selectAll("g")
@@ -1133,16 +1141,24 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     bar.attr("class", "bar")
                       .attr("cx", 0)
                       .style("fill", function(d) {
-                        if (d.category == 1) {
-                          return "#3D3A4F"
-                        } else if (d.category == 2) {
-                          return "#1D545C"
-                        } else if (d.category == 3) {
-                          return "#29684D"
-                        } else if (d.category == 4) {
-                          return "#657532"
-                        } else if (d.category == 5) {
-                          return "#A97538"
+                        if (d.category == "Housing") {
+                          return "#7B4C66"
+                        } else if (d.category == "Housing/Education") {
+                          return "#C98845"
+                        } else if (d.category == "Services") {
+                          return "#695C7C"
+                        } else if (d.category == "Health") {
+                          return "#297B84"
+                        } else if (d.category == "Support Services") {
+                          return "#4A8D5B"
+                        } else if (d.category == "Housing/Services") {
+                          return "#759043"
+                        } else if (d.category == "Health/Housing") {
+                          return "#A08E39"
+                        } else if (d.category == "Education/Servicess") {
+                          return "#4A6C87"
+                        } else if (d.category == "Housing/Research") {
+                          return "#278673"
                         }
                       })
                       .attr("transform", function(d, i) {
@@ -1155,7 +1171,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       .attr("y", barHeight / 2)
                       .attr("dy", ".35em") //vertical align middle
                       .text(function(d) {
-                        return d.cfda_program_num;
+                        return d.cfda_number;
                       }).each(function() {
                         labelWidth = 50;
                       });
@@ -1181,7 +1197,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       //.attr("rx","30")
                       .attr("height", barHeight)
                       .attr("width", function(d) {
-                        return scale(d.amount);
+                        return scale(d.fed_funding);
                       });
 
                     svg.insert("g", ":first-child")
