@@ -349,7 +349,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                 function GenTable() {
 
-                  //console.log("table data: ", table_data)
+
 
                   table_data.forEach(function(d) {
                     d.total_homeless = +d.total_homeless
@@ -360,6 +360,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     d.homeless_people_in_families = +d.homeless_people_in_families
                     d.homeless_unaccompanied_youth = +d.homeless_unaccompanied_youth
                   });
+                  console.log("table data: ", table_data)
 
                   var column_names = ["CoC Number", "CoC Name", "Total Homeless", "Sheltered Homeless", "Unsheltered Homeless", "Chronically Homeless", "Homeless Veterans", "Homeless People in Families", "Homeless Unaccompanied Youth (Under 25)"];
 
