@@ -35,7 +35,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function (us) {
             d3.json('/data-lab-data/coc-pop-type.json', function (table_data) {
               d3.csv('/data-lab-data/coc_by_value.csv', function (map_data) {
 
-console.log("bar_chrt: ", bar_chrt)
+              //console.log("bar_chrt: ", bar_chrt)
 
               // Initialize visualization
               GenMap()
@@ -208,9 +208,18 @@ console.log("bar_chrt: ", bar_chrt)
               	.attr("transform", "translate(0," + 22 + ")")
               	.call(xAxis);
 
+              var tip = d3.tip()
+                          .attr("class", "d3-tip")
+                          .offset([-10, 0])
+                          .html(function(d) {
+                            return d.properties.COCNAME + "<br>" + "Continuum of Care Number: "+  d.properties.coc_number;
+                          });
+
               var color = d3.scale.linear()
                                   .domain([min,max])
                                   .range(["#FFF600","#960018"]);
+
+              svg.call(tip);
 
               var g = svg.append("g")
                         .attr("class", "counties")
@@ -223,6 +232,8 @@ console.log("bar_chrt: ", bar_chrt)
                         .attr("data-name", function(d) {return d.properties.name; })
                         .attr("d", path)
                         .on("click",clicked)
+                        .on("mouseover", tip.show)
+                        .on("mouseout", tip.hide)
                         .style("fill", getColor);
 
               function clicked(d) {
@@ -280,6 +291,17 @@ console.log("bar_chrt: ", bar_chrt)
 
               function GenTable(){
 
+                console.log("table data: ",table_data)
+
+                table_data.forEach(function(d) {
+                  d.total_homeless = +d.total_homeless
+                  d.chronically_homeless = +d.chronically_homeless
+                  d.sheltered_homeless = +d.sheltered_homeless
+                  d.unsheltered_homeless = +d.unsheltered_homeless
+                  d.homeless_veterans = +d.homeless_veterans
+                  d.homeless_people_in_families = +d.homeless_people_in_families
+                  d.homeless_unaccompanied_youth = +d.homeless_unaccompanied_youth
+                });
 
                 var column_names = ["CoC Number","CoC Name","Total Homeless", "Sheltered Homeless", "Unsheltered Homeless", "Chronically Homeless","Homeless Veterans", "Homeless People in Families", "Homeless Unaccompanied Youth (Under 25)"];
                 var clicks = {coc_number: 0, coc_name: 0, total_homeless: 0, chronically_homeless: 0, sheltered_homeless: 0, unsheltered_homeless: 0, homeless_veterans: 0, homeless_people_in_families: 0, homeless_unaccompanied_youth: 0};
@@ -329,7 +351,6 @@ console.log("bar_chrt: ", bar_chrt)
 
                 var rows, row_entries, row_entries_no_anchor, row_entries_with_anchor;
 
-
                 // draw table body with rows
                 table.append("tbody")
 
@@ -378,9 +399,9 @@ console.log("bar_chrt: ", bar_chrt)
                           text = this.value.trim();
 
                       var searchResults = searched_data.map(function(r) {
-                        var regex = new RegExp("^" + text + ".*", "i");
-                        if (regex.test(r.title)) { // if there are any results
-                          return regex.exec(r.title)[0]; // return them to searchResults
+                        var regex = new RegExp("^" + text, "i");
+                        if (regex.test(r.coc_name)) { // if there are any results
+                          return regex.exec(r.coc_name)[0]; // return them to searchResults
                         }
                       })
 
@@ -391,8 +412,8 @@ console.log("bar_chrt: ", bar_chrt)
 
                       // filter dataset with searchResults
                       searched_data = searchResults.map(function(r) {
-                         return data.filter(function(p) {
-                          return p.title.indexOf(r) != -1;
+                         return table_data.filter(function(p) {
+                          return p.coc_name.indexOf(r) != -1;
                         })
                       })
 
@@ -445,89 +466,52 @@ console.log("bar_chrt: ", bar_chrt)
                 /**  sort functionality **/
                 headers.on("click", function(d) {
                     if (d == "CoC Number") {
-                      clicks.coc_number++;
-                      // even number of clicks
+                      clicks.coc_number++
                       if (clicks.coc_number % 2 == 0) {
-                        // sort ascending: alphabetically
-                        rows.sort(function(a,b) {
-                          if (a.coc_number.toUpperCase() < b.coc_number.toUpperCase()) {
-                            return -1;
-                          } else if (a.coc_number.toUpperCase() > b.coc_number.toUpperCase()) {
-                            return 1;
-                          } else {
-                            return 0;
-                          }
-                        });
-                      // odd number of clicks
-                    } else if (clicks.coc_number % 2 != 0) {
-                        // sort descending: alphabetically
-                        rows.sort(function(a,b) {
-                          if (a.coc_number.toUpperCase() < b.coc_number.toUpperCase()) {
-                            return 1;
-                          } else if (a.coc_number.toUpperCase() > b.coc_number.toUpperCase()) {
-                            return -1;
-                          } else {
-                            return 0;
-                          }
-                        });
+                        rows.sort(function(a,b){return a.coc_number.localeCompare(b.coc_number);})
+                      }else if (clicks.coc_number % 2 != 0) {
+                        rows.sort(function(a,b){return b.coc_number.localeCompare(a.coc_number);})
                       }
                     }
+
                     if (d == "CoC Name") {
-                    clicks.coc_name++;
-                      // even number of clicks
+                      clicks.coc_name++
                       if (clicks.coc_name % 2 == 0) {
-                        // sort ascending: numerically
-                        rows.sort(function(a,b) {
-                          if (+a.coc_name < +b.coc_name) {
-                            return -1;
-                          } else if (+a.coc_name > +b.coc_name) {
-                            return 1;
-                          } else {
-                            return 0;
-                          }
-                        });
-                      // odd number of clicks
-                      } else if (clicks.views % 2 != 0) {
-                        // sort descending: numerically
-                        rows.sort(function(a,b) {
-                          if (+a.coc_name < +b.coc_name) {
-                            return 1;
-                          } else if (+a.coc_name > +b.coc_name) {
-                            return -1;
-                          } else {
-                            return 0;
-                          }
-                        });
+                        rows.sort(function(a,b){return a.coc_name.localeCompare(b.coc_name);})
+                      }else if (clicks.coc_name % 2 !== 0) {
+                        rows.sort(function(a,b){return b.coc_name.localeCompare(a.coc_name);})
                       }
                     }
+
                     if (d == "Total Homeless") {
                       clicks.total_homeless++;
-                        // even number of clicks
-                        if (clicks.total_homeless % 2 == 0) {
-                          // sort ascending: numerically
-                          rows.sort(function(a,b) {
-                            if (+a.total_homeless < +b.total_homeless) {
-                              return -1;
-                            } else if (+a.total_homeless > +b.total_homeless) {
-                              return 1;
-                            } else {
-                              return 0;
-                            }
-                          });
-                        // odd number of clicks
+                      console.log("rows.total_homeless: ",rows.total_homeless)
+                      if (clicks.total_homeless % 2 == 0) {
+                        // sort ascending: numerically
+                        rows.sort(function(a,b) {
+                          if (+a.total_homeless < +b.total_homeless) {
+                            return -1;
+                          } else if (+a.total_homeless > +b.total_homeless) {
+                            return 1;
+                          } else {
+                            return 0;
+                          }
+                        });
+                      // odd number of clicks
                       } else if (clicks.total_homeless % 2 != 0) {
-                          // sort descending: numerically
-                          rows.sort(function(a,b) {
-                            if (+a.total_homeless < +b.total_homeless) {
-                              return 1;
-                            } else if (+a.total_homeless > +b.total_homeless) {
-                              return -1;
-                            } else {
-                              return 0;
-                            }
-                          });
-                        }
+                        // sort descending: numerically
+                        rows.sort(function(a,b) {
+                          if (+b.total_homeless > +a.total_homeless) {
+                            return 1;
+                          } else if (+b.total_homeless < +a.total_homeless) {
+                            return -1;
+                          } else {
+                            return 0;
+                          }
+                        });
                       }
+                    }
+
                     if (d == "Chronically Homeless") {
                       clicks.chronically_homeless++;
                     // even number of clicks
@@ -538,8 +522,6 @@ console.log("bar_chrt: ", bar_chrt)
                             return -1;
                           } else if (a.chronically_homeless.toUpperCase() > b.chronically_homeless.toUpperCase()) {
                             return 1;
-                          } else {
-                            return 0;
                           }
                         });
                       // odd number of clicks
@@ -550,8 +532,6 @@ console.log("bar_chrt: ", bar_chrt)
                             return 1;
                           } else if (a.chronically_homeless.toUpperCase() > b.chronically_homeless.toUpperCase()) {
                             return -1;
-                          } else {
-                            return 0;
                           }
                         });
                       }
@@ -566,8 +546,6 @@ console.log("bar_chrt: ", bar_chrt)
                               return -1;
                             } else if (+a.sheltered_homeless > +b.sheltered_homeless) {
                               return 1;
-                            } else {
-                              return 0;
                             }
                           });
                         // odd number of clicks
@@ -578,8 +556,6 @@ console.log("bar_chrt: ", bar_chrt)
                               return 1;
                             } else if (+a.sheltered_homeless > +b.sheltered_homeless) {
                               return -1;
-                            } else {
-                              return 0;
                             }
                           });
                         }
@@ -594,8 +570,6 @@ console.log("bar_chrt: ", bar_chrt)
                                 return -1;
                               } else if (+a.unsheltered_homeless > +b.unsheltered_homeless) {
                                 return 1;
-                              } else {
-                                return 0;
                               }
                             });
                           // odd number of clicks
@@ -606,8 +580,6 @@ console.log("bar_chrt: ", bar_chrt)
                                 return 1;
                               } else if (+a.unsheltered_homeless > +b.unsheltered_homeless) {
                                 return -1;
-                              } else {
-                                return 0;
                               }
                             });
                           }
@@ -622,8 +594,6 @@ console.log("bar_chrt: ", bar_chrt)
                                   return -1;
                                 } else if (+a.homeless_veterans > +b.homeless_veterans) {
                                   return 1;
-                                } else {
-                                  return 0;
                                 }
                               });
                             // odd number of clicks
@@ -634,8 +604,6 @@ console.log("bar_chrt: ", bar_chrt)
                                   return 1;
                                 } else if (+a.homeless_veterans > +b.homeless_veterans) {
                                   return -1;
-                                } else {
-                                  return 0;
                                 }
                               });
                             }
@@ -650,8 +618,6 @@ console.log("bar_chrt: ", bar_chrt)
                                     return -1;
                                   } else if (+a.homeless_people_in_families > +b.homeless_people_in_families) {
                                     return 1;
-                                  } else {
-                                    return 0;
                                   }
                                 });
                               // odd number of clicks
@@ -662,8 +628,6 @@ console.log("bar_chrt: ", bar_chrt)
                                     return 1;
                                   } else if (+a.homeless_people_in_families > +b.homeless_people_in_families) {
                                     return -1;
-                                  } else {
-                                    return 0;
                                   }
                                 });
                               }
@@ -678,8 +642,6 @@ console.log("bar_chrt: ", bar_chrt)
                                       return -1;
                                     } else if (+a.homeless_unaccompanied_youth > +b.homeless_unaccompanied_youth) {
                                       return 1;
-                                    } else {
-                                      return 0;
                                     }
                                   });
                                 // odd number of clicks
@@ -690,8 +652,6 @@ console.log("bar_chrt: ", bar_chrt)
                                       return 1;
                                     } else if (+a.homeless_unaccompanied_youth > +b.homeless_unaccompanied_youth) {
                                       return -1;
-                                    } else {
-                                      return 0;
                                     }
                                   });
                                 }
@@ -737,6 +697,16 @@ console.log("bar_chrt: ", bar_chrt)
                     .attr("height", matrix_height + margin.top + margin.bottom)
                     .style("margin-left", -margin.left/2.5 + "px")
                     .attr("transform", "translate(" + 40 + ","+ 10 +")");
+
+
+                var tip = d3.tip()
+                            .attr("class", "d3-tip")
+                            .offset([-10, 0])
+                            .html(function(d) {
+                              return d.properties.COCNAME + "<br>" + "Continuum of Care Number: "+  d.properties.coc_number;
+                            });
+
+                svg_1.call(tip)
 
                 bar_chrt.forEach(function(d) {
                   d.amount = +d.amount;
@@ -860,9 +830,11 @@ console.log("bar_chrt: ", bar_chrt)
 
                 var centered = null;
 
-                console.log("Map_Data: ",map_data)
+                //console.log("Map_Data: ",map_data)
 
                 var g = svg_1.append("g");
+
+                //var OnMouseOver = "BarChart; tip.show"
 
                 g.selectAll("path")
                   .data(us.features)
@@ -875,7 +847,12 @@ console.log("bar_chrt: ", bar_chrt)
                   .attr("d", path)
                   .on("click", clicked)
                   .style("fill",getColor)
-                  .on("mouseover",BarChart);
+                  .on("mouseover", function(d){
+                    tip.show(d);
+                    BarChart(d);
+                  })
+                  .on("mouseout", tip.hide);
+
 
                 function clicked(d) {
                  var x, y, k;
@@ -955,6 +932,8 @@ console.log("bar_chrt: ", bar_chrt)
                  }
 
                  function BarChart(d){
+
+
                    d3.select('#panel_matrix > svg').remove()
                    console.log("In HoverBarChart: d -> ",d)
                    var svg = d3.select("#panel_matrix").append("svg")
@@ -1114,7 +1093,6 @@ console.log("bar_chrt: ", bar_chrt)
                     .offset([-10, 0])
                     .html(function(d) {
                       var per = d[yCat]/d[xCat];
-
                       return d["coc_number"] + "<br>"
                       /*+ "Continuum of Care Number: "+  d["coc_number"] +"<br>"*/
                       + "2017 CFDA Program Funds Related to Homelessness Awarded: " + formatNumber(d[yCat]) + "<br>"
