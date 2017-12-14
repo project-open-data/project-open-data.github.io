@@ -149,6 +149,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     centered = null;
 
                   var formatNumber = d3.format("$,");
+                  var OtherformatNumber = d3.format(",");
 
                   // D3 Projection
                   var projection = d3.geo.albersUsa()
@@ -228,7 +229,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .orient("bottom")
                     .ticks(4)
                     .tickFormat(function(d) {
-                      return formatNumber(d);
+                      return OtherformatNumber(d);
                     })
                     .tickSize([6, 0])
                     .scale(xScale);
@@ -269,13 +270,15 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       return d.properties.name;
                     })
                     .attr("d", path)
-                    .on("click", clicked)
                     .on("mouseover", tip.show)
                     .on("mouseout", tip.hide)
+                    .on("click", clicked)
                     .style("fill", getColor);
 
                   function clicked(d) {
                     var x, y, k;
+
+                    //console.log("Panel 1 clicked, d: ",d);
 
                     for (var i = 0; i < states.length; i++) {
                       if (d.properties.STUSAB == states[i].Abbrv) {
@@ -346,7 +349,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                 function GenTable() {
 
-                  console.log("table data: ", table_data)
+                  //console.log("table data: ", table_data)
 
                   table_data.forEach(function(d) {
                     d.total_homeless = +d.total_homeless
@@ -971,7 +974,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   function clicked(d) {
                     var x, y, k;
 
-                    console.log("d: ", d)
+                    //console.log("In panel 2 clicked, d: ", d);
 
                     for (var i = 0; i < states.length; i++) {
                       if (d.properties.STUSAB == states[i].Abbrv) {
@@ -1091,9 +1094,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                   function BarChart(d) {
 
-
                     d3.select('#panel_matrix > svg').remove()
-                    console.log("In HoverBarChart: d -> ", d)
+
                     var svg = d3.select("#panel_matrix").append("svg")
                       .attr("width", matrix_width + margin.left + margin.right)
                       .attr("height", matrix_height + margin.top + margin.bottom)
