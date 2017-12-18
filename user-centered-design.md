@@ -82,14 +82,14 @@ From that, we have developed a preliminary set of targeted user types, called â€
         <div class="cell">
            <img src="{{ site.baseurl }}/assets/img/user_personas/omb_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{site.baseurl }}/assets/downloads/user_personas/Budget_Analyst_user_persona.jpg" target='_blank'>
+        <p><a href="{{site.baseurl }}/assets/downloads/user_personas/Budget_Analyst_user_persona.pdf" target='_blank'>
 <strong>Budget Analyst</strong></a>: Data reviewers with oversight across the government</p>
     </div>
     <div class="col-md-6 persona-block"> 
         <div class="cell">
            <img src="{{ site.baseurl }}/assets/img/user_personas/repurposer_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Repurposer_user_persona.jpg" tartet='_blank'>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Repurposer_user_persona.pdf" tartet='_blank'>
 <strong>Repurposer</strong></a>: Technically savvy user who aggregates, translates, and/or resells data for their own purposes</p>
     </div>
 </div>
