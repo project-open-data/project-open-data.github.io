@@ -166,17 +166,20 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("width", width)
                     .attr("height", height);
 
-                  // Append Div for tooltip to SVG
-                  var tip = d3.select("#map_container")
-                    .append("div")
-                    .attr("class", "tooltip")
-                    .style("opacity", 0);
-
                   var svg = d3.select("#map_container")
                     .append("svg")
                     .attr("id", "svg")
                     .attr("width", '950px')
                     .attr("height", '575px');
+
+									var tip = d3.tip()
+                    .attr("class", "homeless-analysis d3-tip")
+                    .offset([-10, 0])
+                    .html(function(d) {
+                      return d.properties.COCNAME + "<br>" + "Continuum of Care Number: " + d.properties.coc_number;
+                    });
+
+                  svg.call(tip)
 
                   var legendWidth = "950px";
 
@@ -257,20 +260,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       return d.properties.name;
                     })
                     .attr("d", path)
-                    /*.on("mouseover", function(d) {
-                    		tip.transition()
-                    				 .duration(200)
-                    				 .style("opacity", 1);
-                    				 div.html(d.properties.COCNAME + "<br>" + "Continuum of Care Number: " + d.properties.coc_number)
-                    				 .style("left", (d3.event.pageX) + "px")
-                    				 .style("top", (d3.event.pageY) + "px");
-                    })
-                    	// fade out tooltip on mouse out
-                    	.on("mouseout", function(d) {
-                    			tip.transition()
-                    				 .duration(500)
-                    				 .style("opacity", 0);
-                    	})*/
+                    .on("mouseover",tip.show)
+                    .on("mouseout",tip.hide)
                     .on("click", clicked)
                     .style("fill", getColor);
 
