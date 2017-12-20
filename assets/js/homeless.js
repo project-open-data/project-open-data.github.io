@@ -828,7 +828,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     /*.attr("width", matrix_width + margin.left + margin.right)
                     .attr("height", matrix_height + margin.top + margin.bottom)*/
 										.attr("width", map_width + margin.left + margin.right)
-										.attr("height", map_height + margin.top + margin.bottom+30)
+										.attr("height", map_height + margin.top + margin.bottom+40)
 										.style("margin-left", -margin.left / 2.5 + "px")
                     .attr("transform", "translate(" + 40 + "," + 10 + ")");
 
