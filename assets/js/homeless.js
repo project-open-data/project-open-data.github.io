@@ -47,7 +47,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                 // Initialize visualization
                 GenMap()
                 GenPanelTwo()
-                GenScatter()
+                //**GenScatter()**//
 
                 // Radio button control Panel 1
                 $(document).ready(function() {
