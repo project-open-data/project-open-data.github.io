@@ -48,7 +48,7 @@
   }
   #legend{
     position:relative;
-    height:100px;
+    height:130px;
     width:1024px;
   }
   .counties {
@@ -246,71 +246,50 @@
     stroke: #FFF;
     shape-rendering: crispEdges;
     }
+    #legend_key #key #key_value{
+      position:relative;
+    }
+    #legend_key{
+      height:50px;
+      width:105.555px;
+      margin: 0px 0px 0px 0px;
+      float:left;
+    }
+    #key{
+      height:40px;
+      width:105.555px;
+      margin: 3px 3px 0px 0px;
+    }
+    #key_value{
+      height:10px;
+      width:80px;
+      text-align: center;
+      margin: 0px 3px 3px 0px;
 
+    }
+    #key_value > p{
+      font-size:1.2rem;
+    }
     .axisLine {
     fill: none;
     shape-rendering: crispEdges;
     stroke: #FFF;
     stroke-width: 2px;
     }
-    .d3-tip.n{
-      background-color: rgba(0,0,0,0.8);
-      color:#FFF;
+    .tooltip {
+     	position: absolute;
+    	text-align: center;
+    	/*width: 60px;
+    	height: 28px;*/
+    	width: auto;
+    	height: auto;
+    	padding: 3px;
+    	background: #6e747e;
+      color: white;
+    	border: 0px;
+    	border-radius: 4px;
+    	pointer-events: none;
     }
-    .d3-tip{
-    line-height: 1;
-    font-weight: bold;
-    padding: 12px;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border-radius: 2px;
-    pointer-events: none;
-  }
-  /* Creates a small triangle extender for the tooltip */
-  .d3-tip:after {
-    box-sizing: border-box;
-    display: inline;
-    font-size: 10px;
-    width: 100%;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    pointer-events: none;
-  }
-
-  /* Northward tooltips */
-  .d3-tip.n:after {
-    content: "\25BC";
-    margin: -1px 0 0 0;
-    top: 100%;
-    left: 0;
-    text-align: center;
-  }
-
-  /* Eastward tooltips */
-  .d3-tip.e:after {
-    content: "\25C0";
-    margin: -4px 0 0 0;
-    top: 50%;
-    left: -8px;
-  }
-
-  /* Southward tooltips */
-  .d3-tip.s:after {
-    content: "\25B2";
-    margin: 0 0 1px 0;
-    top: -8px;
-    left: 0;
-    text-align: center;
-  }
-
-  /* Westward tooltips */
-  .d3-tip.w:after {
-    content: "\25B6";
-    margin: -4px 0 0 -1px;
-    top: 50%;
-    left: 100%;
-  }
     #button_holder{
       position: relative;
       height:100px;

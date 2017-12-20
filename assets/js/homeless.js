@@ -166,6 +166,12 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("width", width)
                     .attr("height", height);
 
+                  // Append Div for tooltip to SVG
+                  var tip = d3.select("#map_container")
+                  		    .append("div")
+                      		.attr("class", "tooltip")
+                      		.style("opacity", 0);
+
                   var svg = d3.select("#map_container")
                     .append("svg")
                     .attr("id", "svg")
@@ -175,37 +181,47 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   var legendWidth = "950px";
 
                   var legend = d3.select("#legend")
-                    .append("svg")
-                    .attr("width", "1024px")
+                    .append("div")
+                    .attr("width", "950px")
                     .attr("height", "100px")
                     .attr("padding", "50px 0 0 50px");
 
-                  var linearGradient = legend.append("linearGradient")
-                    .attr("id", "linear-gradient")
-                    .attr("transform", "translate(" + 0 + "," + 70 + ")");
+                  var color = ["#E8E6E6","#D8D4D5","#C0B9BB","#C4CBBC","#A3A99C",
+                  "#8D8F8B","#A3A99C","#8D8F8B","#989496","#A28E94","#887A7E",
+                  "#8A6F78","#A96585","#A365A9","#744A78","#7F6B81","#614463","#291C2A"]
 
-                  linearGradient.attr("x1", "0%")
-                    .attr("y1", "0%")
-                    .attr("x2", "100%")
-                    .attr("y2", "0%");
+                  var legend_key_values = ["< 100","100-200","200-300","300-500","500-700","700-1,000","1,000-1,500",
+                                          "1,500-2,000","2,000-2,500","2,500-3,000","3,000-3,500","3,500-4,000","4,000-5,000",
+                                          "5,000-6,000","6,000-7,000","7,000-8,000","8,000-12,000","> 12,000"];
 
-                  //Set the color for the start (0%)
-                  linearGradient.append("stop")
-                    .attr("offset", "0%")
-                    .attr("stop-color", "#FFF600");
+                  for(var i=0; i<18; i++){
 
-                  //Set the color for the end (100%)
-                  linearGradient.append("stop")
-                    .attr("offset", "100%")
-                    .attr("stop-color", "#960018");
+                    var g = legend.append("div")
+                      .attr("id", "legend_key");
 
-                  legend.append("rect")
-                    .attr("width", legendWidth)
-                    .attr("height", 20)
-                    .style("fill", "url(#linear-gradient)");
+                    var key = g.append("div")
+                      .attr("id", "key")
+                      .style("position","relative")
+                        .append("svg")
+                        .attr("height", "40px")
+                        .attr("width", "105.555px")
+                          .append("rect")
+                            .attr("x",26)
+                            .attr("y",10)
+                            .attr("height", 30)
+                            .attr("width", 30)
+                            .style("fill",function(d){ return color[i]; });
+
+
+                    g.append("div")
+                      .attr("id", "key_value")
+                      .style("position","relative")
+                      .style("color","blue")
+                      .html("<p>"+legend_key_values[i]+"</p>");
+                  }
 
                   //Append title
-                  legend.append("text")
+                  /*legend.append("text")
                     .attr("class", "legendTitle")
                     .attr("x", 512)
                     .attr("y", 60)
@@ -217,42 +233,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   });
                   var max = d3.max(data, function(d) {
                     return d.pop;
-                  });
+                  });*/
 
-                  //Set scale for x-axis
-                  var xScale = d3.scale.linear()
-                    .range([0, 1024])
-                    .domain([min, max]);
-
-                  //Define x-axis
-                  var xAxis = d3.svg.axis()
-                    .orient("bottom")
-                    .ticks(4)
-                    .tickFormat(function(d) {
-                      return OtherformatNumber(d);
-                    })
-                    .tickSize([6, 0])
-                    .scale(xScale);
-
-
-                  //Set up X axis
-                  legend.append("g")
-                    .attr("class", "axis")
-                    .attr("transform", "translate(0," + 22 + ")")
-                    .call(xAxis);
-
-                  var tip = d3.tip()
-                    .attr("class", "d3-tip")
-                    .offset([-10, 0])
-                    .html(function(d) {
-                      return d.properties.COCNAME + "<br>" + "Continuum of Care Number: " + d.properties.coc_number;
-                    });
-
-                  var color = d3.scale.linear()
-                    .domain([min, max])
-                    .range(["#FFF600", "#960018"]);
-
-                  svg.call(tip);
 
                   var g = svg.append("g")
                     .attr("class", "counties")
@@ -270,8 +252,20 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       return d.properties.name;
                     })
                     .attr("d", path)
-                    .on("mouseover", tip.show)
-                    .on("mouseout", tip.hide)
+                    /*.on("mouseover", function(d) {
+                      	tip.transition()
+                        	   .duration(200)
+                             .style("opacity", 1);
+                             div.html(d.properties.COCNAME + "<br>" + "Continuum of Care Number: " + d.properties.coc_number)
+                             .style("left", (d3.event.pageX) + "px")
+                             .style("top", (d3.event.pageY) + "px");
+                  	})
+                      // fade out tooltip on mouse out
+                      .on("mouseout", function(d) {
+                          tip.transition()
+                             .duration(500)
+                             .style("opacity", 0);
+                      })*/
                     .on("click", clicked)
                     .style("fill", getColor);
 
