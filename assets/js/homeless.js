@@ -141,7 +141,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                 function GenMap() {
                   spinner_panel1.stop();
 
-                  d3.select("#container").append('div').attr("id", "legend").attr("width", "1024px");
+                  d3.select("#container").append('div').attr("id", "legend");
                   d3.select("#container").append('div').attr("id", "viz_container");
 
                   var width = 1000,
@@ -191,9 +191,9 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     "#8A6F78", "#A96585", "#A365A9", "#744A78", "#7F6B81", "#614463", "#291C2A"
                   ]
 
-                  var legend_key_values = ["< 100", "100-200", "200-300", "300-500", "500-700", "700-1,000", "1,000-1,500",
-                    "1,500-2,000", "2,000-2,500", "2,500-3,000", "3,000-3,500", "3,500-4,000", "4,000-5,000",
-                    "5,000-6,000", "6,000-7,000", "7,000-8,000", "8,000-12,000", "> 12,000"
+                  var legend_key_values = ["< 100", "100-200", "200-300", "300-500", "500-700", "700-1k", "1k-1.5k",
+                    "1.5k-2k", "2k-2.5k", "2.5k-3k", "3k-3.5k", "3.5k-4k", "4k-5k",
+                    "5k-6k", "6k-7k", "7k-8k", "8k-12k", "> 12k"
                   ];
 
                   for (var i = 0; i < 18; i++) {
@@ -206,9 +206,9 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       .style("position", "relative")
                       .append("svg")
                       .attr("height", "40px")
-                      .attr("width", "105.555px")
+                      .attr("width", "53px")
                       .append("rect")
-                      .attr("x", 26)
+                      .attr("x", 10)
                       .attr("y", 10)
                       .attr("height", 30)
                       .attr("width", 30)

@@ -48,8 +48,8 @@
   }
   #legend{
     position:relative;
-    height:130px;
-    width:1024px;
+    height:100px;
+    width:955px;
   }
   .counties {
       stroke: #FFF;
@@ -251,21 +251,26 @@
     }
     #legend_key{
       height:50px;
-      width:105.555px;
-      margin: 0px 0px 0px 0px;
-      float:left;
+      width:53px;
+      margin: 0px -7px 0px -15px;
+      float:right;
     }
     #key{
       height:40px;
-      width:105.555px;
+      width:53px;
       margin: 3px 3px 0px 0px;
     }
     #key_value{
       height:10px;
-      width:80px;
-      text-align: center;
-      margin: 0px 3px 3px 0px;
-
+      width:50px;
+      margin: 14px 3px 3px -14px;
+      text-align: right;
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      -sand-transform: rotate(-45deg);
+      transform: rotate(-45deg);
     }
     #key_value > p{
       font-size:1.2rem;
