@@ -213,7 +213,7 @@
 
     #panel_matrix{
       position:relative;
-      float:right;
+      float:left;
       overflow: visible;
     }
     #panel_map{
@@ -229,12 +229,22 @@
     }
     #panel_info{
       position:relative;
-      float:left;
       margin-top: 5px;
       overflow: visible;
       background-color:inherit;
       border-style: solid;
       border-width: .5px;
+      float:right;
+      border-color: #414b57;
+    }
+    #panel_coc{
+      position:relative;
+      margin-top: 5px;
+      overflow: visible;
+      background-color:inherit;
+      border-style: solid;
+      border-width: .5px;
+      float:right;
       border-color: #414b57;
     }
     .background{

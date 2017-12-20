@@ -819,10 +819,17 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("width", info_width + margin.left + margin.right)
                     .attr("height", info_height + margin.top + margin.bottom);
 
+									var svg_3 = d3.select("#panel_coc")
+                    .append("svg")
+                    .attr("width", info_width + margin.left + margin.right)
+                    .attr("height", info_height + margin.top + margin.bottom);
+
                   var svg = d3.select("#panel_matrix").append("svg")
-                    .attr("width", matrix_width + margin.left + margin.right)
-                    .attr("height", matrix_height + margin.top + margin.bottom)
-                    .style("margin-left", -margin.left / 2.5 + "px")
+                    /*.attr("width", matrix_width + margin.left + margin.right)
+                    .attr("height", matrix_height + margin.top + margin.bottom)*/
+										.attr("width", map_width + margin.left + margin.right)
+										.attr("height", map_height + margin.top + margin.bottom+30)
+										.style("margin-left", -margin.left / 2.5 + "px")
                     .attr("transform", "translate(" + 40 + "," + 10 + ")");
 
 
@@ -942,7 +949,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                   svg.insert("g", ":first-child")
                     .attr("class", "axisHorizontal")
-                    .attr("transform", "translate(" + labelWidth + "," + 475 + ")")
+                    .attr("transform", "translate(" + labelWidth + "," + 255 + ")")
                     .call(xAxis)
                     .selectAll("text")
                     .attr("y", 10)
@@ -1227,7 +1234,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                     svg.insert("g", ":first-child")
                       .attr("class", "axisHorizontal")
-                      .attr("transform", "translate(" + labelWidth + "," + 475 + ")")
+                      .attr("transform", "translate(" + labelWidth + "," + 255 + ")")
                       .call(xAxis)
                       .selectAll("text")
                       .attr("y", 10)
