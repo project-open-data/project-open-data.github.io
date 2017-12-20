@@ -235,8 +235,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     return d.pop;
                   });*/
 
-<<<<<<< HEAD
-=======
                   //Set scale for x-axis
                   var xScale = d3.scale.linear()
                     .range([0, 1024])
