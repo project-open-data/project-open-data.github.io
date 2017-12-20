@@ -1415,8 +1415,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .style("fill", function(d) {
                       return color(d[colorCat]);
                     })
-                    .on("mouseover", tip.show)
-                    .on("mouseout", tip.hide);
+                    .on("mouseover", tip.show);
+                    /*.on("mouseout", tip.hide);*/
 
                   function change() {
                     xCat = "total_homeless";
