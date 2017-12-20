@@ -47,7 +47,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                 // Initialize visualization
                 GenMap()
                 GenPanelTwo()
-                GenScatter()
+                //**GenScatter()**//
 
                 // Radio button control Panel 1
                 $(document).ready(function() {
@@ -61,7 +61,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       d3.select('svg_2').remove()
                       GenMap()
                       GenPanelTwo()
-                      GenScatter();
+                      //GenScatter();
 
                     } else if (selectedValue === 'Table') {
                       d3.selectAll('#viz_container').remove()
@@ -71,7 +71,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       d3.select('svg_2').remove()
                       GenTable()
                       GenPanelTwo()
-                      GenScatter()
+                      //GenScatter()
                     }
                   })
                 })
@@ -235,6 +235,43 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     return d.pop;
                   });*/
 
+<<<<<<< HEAD
+=======
+                  //Set scale for x-axis
+                  var xScale = d3.scale.linear()
+                    .range([0, 1024])
+                    .domain([min, max]);
+
+                  //Define x-axis
+                  var xAxis = d3.svg.axis()
+                    .orient("bottom")
+                    .ticks(4)
+                    .tickFormat(function(d) {
+                      return OtherformatNumber(d);
+                    })
+                    .tickSize([6, 0])
+                    .scale(xScale);
+
+
+                  //Set up X axis
+                  legend.append("g")
+                    .attr("class", "axis")
+                    .attr("transform", "translate(0," + 22 + ")")
+                    .call(xAxis);
+
+                  var tip = d3.tip()
+                    .attr("class", "d3-tip")
+                    .offset([-10, 0])
+                    .html(function(d) {
+                      return d.properties.COCNAME + "<br>" + "Continuum of Care Number: " + d.properties.coc_number +"<br>" + "Total Homeless: " + d.properties.total_homeless;
+                    });
+
+                  var color = d3.scale.linear()
+                    .domain([min, max])
+                    .range(["#FFF600", "#960018"]);
+
+                  svg.call(tip);
+>>>>>>> b86e2bc54a784cb5885c93d23cc10568c0c3709b
 
                   var g = svg.append("g")
                     .attr("class", "counties")
