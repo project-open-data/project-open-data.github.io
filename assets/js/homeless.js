@@ -141,6 +141,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                 function GenMap() {
                   spinner_panel1.stop();
 
+									d3.select("#container").append('div').attr("id", "legend_title");
                   d3.select("#container").append('div').attr("id", "legend");
                   d3.select("#container").append('div').attr("id", "viz_container");
 
@@ -181,13 +182,20 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                   svg.call(tip)
 
-                  var legendWidth = "950px";
+									var legend_title = d3.select("#legend_title")
+										.append("div")
+										.attr("class","legend_title")
+										.attr("height","15px")
+										.attr("width","950px")
+										.html("<h5>Contiuum of Care Area Homeless Population</h5>")
+										.style("text-anchor","middle");
 
                   var legend = d3.select("#legend")
                     .append("div")
                     .attr("width", "950px")
                     .attr("height", "100px")
                     .attr("padding", "50px 0 0 50px");
+
 
                   var color = ["#E8E6E6", "#D8D4D5", "#C0B9BB", "#C4CBBC", "#A3A99C",
                     "#8D8F8B", "#A3A99C", "#8D8F8B", "#989496", "#A28E94", "#887A7E",
@@ -226,23 +234,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       .style("color", "blue")
                       .html("<p>" + legend_key_values[i] + "</p>");
                   }
-
-                  //Append title
-                  /*legend.append("text")
-                  	.attr("class", "legendTitle")
-                  	.attr("x", 512)
-                  	.attr("y", 60)
-                  	.style("text-anchor", "middle")
-                  	.text("Continuum of Care Homeless Population");
-
-                  var min = d3.min(data, function(d) {
-                  	return d.pop;
-                  });
-                  var max = d3.max(data, function(d) {
-                  	return d.pop;
-                  });*/
-
-
 
                   var g = svg.append("g")
                     .attr("class", "counties")
@@ -330,6 +321,9 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                               .duration(750)
                               .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
                               .style("stroke-width", .25 / k + "px");
+
+														g.on("mouseover",tip.show)
+														 .on("mouseout",tip.hide)
                           }
                         }
                       }
