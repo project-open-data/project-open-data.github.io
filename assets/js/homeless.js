@@ -1137,11 +1137,13 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                     d3.select('#panel_matrix > svg').remove()
 
-                    var svg = d3.select("#panel_matrix").append("svg")
-                      .attr("width", matrix_width + margin.left + margin.right)
-                      .attr("height", matrix_height + margin.top + margin.bottom)
-                      .style("margin-left", -margin.left / 2.5 + "px")
-                      .attr("transform", "translate(" + 40 + "," + 10 + ")");
+										var svg = d3.select("#panel_matrix").append("svg")
+	                    /*.attr("width", matrix_width + margin.left + margin.right)
+	                    .attr("height", matrix_height + margin.top + margin.bottom)*/
+											.attr("width", map_width + margin.left + margin.right)
+											.attr("height", map_height + margin.top + margin.bottom+40)
+											.style("margin-left", -margin.left / 2.5 + "px")
+	                    .attr("transform", "translate(" + 40 + "," + 10 + ")");
 
                     function filter_cocNum(bar_chrt) {
                       return bar_chrt.coc_number == d.properties.coc_number;
