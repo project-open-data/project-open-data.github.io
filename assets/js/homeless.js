@@ -1002,7 +1002,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       tip.show(d);
                       BarChart(d);
                     })
-                    .on("mouseout", tip.hide);
+                   /*.on("mouseout", tip.hide);*/
 
 
                   function clicked(d) {
