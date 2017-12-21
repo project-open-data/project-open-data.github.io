@@ -177,8 +177,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("class", "homeless-analysis d3-tip")
                     .offset([-10, -10])
                     .html(function(d) {
-                      return "<b>" + d.properties.COCNAME + "</b>" + "<br>" 
-                      + "Continuum of Care Number: " + d.properties.coc_number + "<br>" 
+                      return "<b>" + d.properties.COCNAME + "</b>" + "<br>"
+                      + "Continuum of Care Number: " + d.properties.coc_number + "<br>"
                       + "Total Homeless: " + d.properties.pop;
                     });
 
@@ -1062,8 +1062,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 										for(var i=0; i < initial.length; i++){
 											info_panel.append("div")
 	                      .attr("id", "cfda_info")
-	                      .attr("height", info_height + margin.top + margin.bottom)
-	                      .attr("width", info_width + margin.left + margin.right+60)
+	                      //.attr("height", info_height + margin.top + margin.bottom)
+	                      //.attr("width", info_width + margin.left + margin.right+60)
 	                      .style("margin-bottom", "2px")
 	                      .html("<table class ='icon'>" +
 	                        "<tr>" + "<td class='val'>" + initial[i].cfda_number + "</td>" +
