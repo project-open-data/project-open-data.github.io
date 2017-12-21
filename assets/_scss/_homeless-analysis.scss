@@ -309,6 +309,7 @@
     overflow: visible;
     background-color: inherit;
     min-height: 255px;
+    margin-left: -65px;
   }
 
   #panel_coc {
@@ -317,6 +318,7 @@
     overflow: visible;
     background-color: inherit;
     min-height: 255px;
+    margin-left: -50px;
   }
 
   .panel_title {
@@ -347,21 +349,24 @@
     color: #555555;
   }
 
-  #cfda_info > table > tbody > tr > td.val {
-    min-width: 20%
-  }
-
-  #cfda_info > table > tbody > tr > td.name {
-    min-width: 80%
-  }
   #cfda_info > table{
     min-width: 100%
   }
 
-  .val {
-    font-size: 1.3em;
+  #cfda_info > table > tbody > tr > td.val {
+    font-size: 1em;
     color: #205493;
-    font-weight: bolder;
+    //font-weight: bolder;
+    min-width: 70px;
+    margin:5px 0px 0px 0px;
+  }
+
+  #cfda_info > table > tbody > tr > td.name {
+    font-size: 1em;
+    color: #555555;
+    text-align: left;
+    width:500px;
+    margin:5px 0px 0px 0px;
   }
 
   .icon {

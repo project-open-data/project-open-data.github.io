@@ -141,7 +141,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                 function GenMap() {
                   spinner_panel1.stop();
 
-									d3.select("#container").append('div').attr("id", "legend_title");
+                  d3.select("#container").append('div').attr("id", "legend_title");
                   d3.select("#container").append('div').attr("id", "legend");
                   d3.select("#container").append('div').attr("id", "viz_container");
 
@@ -173,7 +173,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("width", '950px')
                     .attr("height", '575px');
 
-									var tip = d3.tip()
+                  var tip = d3.tip()
                     .attr("class", "homeless-analysis d3-tip")
                     .offset([-10, -10])
                     .html(function(d) {
@@ -182,13 +182,13 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                   svg.call(tip)
 
-									var legend_title = d3.select("#legend_title")
-										.append("div")
-										.attr("class","legend_title")
-										.attr("height","15px")
-										.attr("width","950px")
-										.html("<h5>Contiuum of Care Area Homeless Population</h5>")
-										.style("text-anchor","middle");
+                  var legend_title = d3.select("#legend_title")
+                    .append("div")
+                    .attr("class", "legend_title")
+                    .attr("height", "15px")
+                    .attr("width", "950px")
+                    .html("<h5>Contiuum of Care Area Homeless Population</h5>")
+                    .style("text-anchor", "middle");
 
                   var legend = d3.select("#legend")
                     .append("div")
@@ -251,8 +251,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       return d.properties.name;
                     })
                     .attr("d", path)
-                    .on("mouseover",tip.show)
-                    .on("mouseout",tip.hide)
+                    .on("mouseover", tip.show)
+                    .on("mouseout", tip.hide)
                     .on("click", clicked)
                     .style("fill", getColor);
 
@@ -317,9 +317,9 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                                 return d === centered;
                               });
 
-														g.selectAll("path.coc")
-															.on("mouseover",tip.show)
-															.on("mouseout",tip.hide);
+                            g.selectAll("path.coc")
+                              .on("mouseover", tip.show)
+                              .on("mouseout", tip.hide);
 
                             g.transition()
                               .duration(750)
@@ -777,13 +777,13 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                   spinner_panel2.stop();
 
-									d3.select("#container2").append("div").attr("id","p2_left")
-									d3.select("#container2").append("div").attr("id","p2_right")
+                  d3.select("#container2").append("div").attr("id", "p2_left")
+                  d3.select("#container2").append("div").attr("id", "p2_right")
 
-									d3.select("#p2_left").append("div").attr("id","panel_map")
-									d3.select("#p2_left").append("div").attr("id","panel_matrix")
-									d3.select("#p2_right").append("div").attr("id","panel_coc")
-									d3.select("#p2_right").append("div").attr("id","panel_info")
+                  d3.select("#p2_left").append("div").attr("id", "panel_map")
+                  d3.select("#p2_left").append("div").attr("id", "panel_matrix")
+                  d3.select("#p2_right").append("div").attr("id", "panel_coc")
+                  d3.select("#p2_right").append("div").attr("id", "panel_info")
 
                   var abs_width = 1024,
                     abs_height = 575,
@@ -812,16 +812,16 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("width", info_width + margin.left + margin.right)
                     .attr("height", info_height + margin.top + margin.bottom);
 
-									var coc_panel = d3.select("#panel_coc")
+                  var coc_panel = d3.select("#panel_coc")
                     .attr("width", info_width + margin.left + margin.right)
                     .attr("height", info_height + margin.top + margin.bottom);
 
                   var svg = d3.select("#panel_matrix").append("svg")
                     /*.attr("width", matrix_width + margin.left + margin.right)
                     .attr("height", matrix_height + margin.top + margin.bottom)*/
-										.attr("width", map_width + margin.left + margin.right)
-										.attr("height", map_height + margin.top + margin.bottom+40)
-										.style("margin-left", -margin.left / 2.5 + "px")
+                    .attr("width", map_width + margin.left + margin.right)
+                    .attr("height", map_height + margin.top + margin.bottom + 40)
+                    .style("margin-left", -margin.left / 2.5 + "px")
                     .attr("transform", "translate(" + 40 + "," + 10 + ")");
 
                   var tip = d3.tip()
@@ -997,52 +997,77 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .on("click", clicked)
                     .style("fill", getColor)
                     .on("mouseover", function(d) {
-											console.log("d: ",d)
+                      console.log("d: ", d)
                       tip.show(d);
                       BarChart(d);
-											createCoCTable(d)
+                      createCoCTable(d);
+											createCFDATableHover(d);
                     })
-                   .on("mouseout", tip.hide);
+                    .on("mouseout", tip.hide);
 
-									 function createCoCTable(d) {
-									 	$("#panel_coc").empty();
-									 		coc_panel.append("div")
-									 		.attr("id", "coc_info")
-									 		.attr("height",info_height + margin.top + margin.bottom )
-									 		.attr("width",info_width + margin.left + margin.right)
-									 		.html("<h1 class='panel_title'>" + d.properties.COCNAME + "</h1>" +
-									 			"<h3 class='panel_desc'>" + d.properties.CONTACT_TY +
-									 			"<br />" + "</h3>"+"<p class='panel_text'>"+d.properties.FIRST_NAME+" "+
-											d.properties.LAST_NAME+"<br />"+d.properties.TITLE+"<br /><br />"+"Email: "+
-										d.properties.EMAIL_ADDR+"<br />"+"Phone: "+d.properties.PRIMARY_PH +"</p>");
-									 }
+                  function createCoCTable(d) {
+                    $("#panel_coc").empty();
+                    coc_panel.append("div")
+                      .attr("id", "coc_info")
+                      .attr("height", info_height + margin.top + margin.bottom)
+                      .attr("width", info_width + margin.left + margin.right)
+                      .html("<h1 class='panel_title'>" + d.properties.COCNAME + "</h1>" +
+                        "<h3 class='panel_desc'>" + d.properties.CONTACT_TY +
+                        "<br />" + "</h3>" + "<p class='panel_text'>" + d.properties.FIRST_NAME + " " +
+                        d.properties.LAST_NAME + "<br />" + d.properties.TITLE + "<br /><br />" + "Email: " +
+                        d.properties.EMAIL_ADDR + "<br />" + "Phone: " + d.properties.PRIMARY_PH + "</p>");
+                  }
 
 
-									 for(var i=0; i<us.features.length;i++){
-										if(us.features[i].properties.coc_number == "CA-600"){
-											var initial_coc = us.features[i];
-										}
-									 }
+                  for (var i = 0; i < us.features.length; i++) {
+                    if (us.features[i].properties.coc_number == "CA-600") {
+                      var initial_coc = us.features[i];
+                    }
+                  }
 
-									 createCoCTable(initial_coc);
+                  createCoCTable(initial_coc);
 
-									 console.log("initial_bar: ",initial_bar);
-									 console.log("bar_chart: ",bar_chrt);
+                  console.log("initial_bar: ", initial_bar);
+                  console.log("bar_chart: ", bar_chrt);
 
-									 function createCFDATable(d) {
-									 	$("#panel_info").empty();
-									 		info_panel.append("div")
-									 		.attr("id", "cfda_info")
-									 		.attr("height",info_height + margin.top + margin.bottom )
-									 		.attr("width",info_width + margin.left + margin.right)
-											.style("margin-bottom", "2px")
-											.html("<table class ='icon'>" +
-												"<tr>" + "<td class='val'>" + "TEST" + "</td>" +
-												"<td class='name'>" + "TEST"+ "</td>" + "</tr>" + "</table>")
-									 }
-					
+                  function createCFDATable(d) {
+                    //$("#panel_info").empty();
+                    info_panel.append("div")
+                      .attr("id", "cfda_info")
+                      .attr("height", info_height + margin.top + margin.bottom)
+                      .attr("width", info_width + margin.left + margin.right+60)
+                      .style("margin-bottom", "2px")
+                      .html("<table class ='icon'>" +
+                        "<tr>" + "<td class='val'>" + d.cfda_number + "</td>" +
+                        "<td class='name'>" + d.program_title + "</td>" + "</tr>" + "</table>")
+                  }
 
-									createCFDATable(initial_bar);
+									for(var i=0; i<initial_bar.length;i++){
+											createCFDATable(initial_bar[i]);
+									}
+
+									function createCFDATableHover(d) {
+                    $("#panel_info").empty();
+
+										var coc = d.properties.coc_number;
+										//console.log("coc: ",coc)
+										function filter_cocNum(bar_chrt) {
+	                    return bar_chrt.coc_number == coc;
+	                  }
+
+	                  var initial = bar_chrt.filter(filter_cocNum);
+										//console.log("initial: ",initial);
+										for(var i=0; i < initial.length; i++){
+											info_panel.append("div")
+	                      .attr("id", "cfda_info")
+	                      .attr("height", info_height + margin.top + margin.bottom)
+	                      .attr("width", info_width + margin.left + margin.right+60)
+	                      .style("margin-bottom", "2px")
+	                      .html("<table class ='icon'>" +
+	                        "<tr>" + "<td class='val'>" + initial[i].cfda_number + "</td>" +
+	                        "<td class='name'>" + initial[i].program_title + "</td>" + "</tr>" + "</table>")
+                  	}
+									}
 
                   function clicked(d) {
                     var x, y, k;
@@ -1169,13 +1194,13 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                     d3.select('#panel_matrix > svg').remove()
 
-										var svg = d3.select("#panel_matrix").append("svg")
-	                    /*.attr("width", matrix_width + margin.left + margin.right)
-	                    .attr("height", matrix_height + margin.top + margin.bottom)*/
-											.attr("width", map_width + margin.left + margin.right)
-											.attr("height", map_height + margin.top + margin.bottom+40)
-											.style("margin-left", -margin.left / 2.5 + "px")
-	                    .attr("transform", "translate(" + 40 + "," + 10 + ")");
+                    var svg = d3.select("#panel_matrix").append("svg")
+                      /*.attr("width", matrix_width + margin.left + margin.right)
+                      .attr("height", matrix_height + margin.top + margin.bottom)*/
+                      .attr("width", map_width + margin.left + margin.right)
+                      .attr("height", map_height + margin.top + margin.bottom + 40)
+                      .style("margin-left", -margin.left / 2.5 + "px")
+                      .attr("transform", "translate(" + 40 + "," + 10 + ")");
 
                     function filter_cocNum(bar_chrt) {
                       return bar_chrt.coc_number == d.properties.coc_number;
@@ -1448,7 +1473,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       return color(d[colorCat]);
                     })
                     .on("mouseover", tip.show);
-                    /*.on("mouseout", tip.hide);*/
+                  /*.on("mouseout", tip.hide);*/
 
                   function change() {
                     xCat = "total_homeless";
