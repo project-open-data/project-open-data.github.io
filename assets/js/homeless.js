@@ -1013,7 +1013,7 @@ console.log("us: ",us.features);
 									 		.attr("width",info_width + margin.left + margin.right)
 									 		.html("<h1 class='panel_title'>" + d.properties.COCNAME + "</h1>" +
 									 			"<h3 class='panel_desc'>" + d.properties.CONTACT_TY +
-									 			"<br />" + "</h3>"+"<p>"+d.properties.FIRST_NAME+" "+
+									 			"<br />" + "</h3>"+"<p class='panel_text'>"+d.properties.FIRST_NAME+" "+
 											d.properties.LAST_NAME+"<br />"+d.properties.TITLE+"<br />"+
 										d.properties.EMAIL_ADDR+"<br />"+d.properties.PRIMARY_PH +"</p>");
 									 }

@@ -478,18 +478,11 @@
     font-size:2em;
     font-style:inherit;
     font-weight: lighter;
-    margin: -10px 0px 0px 0px;
+    margin: -15px 0px 0px 0px;
     padding: 0;
     color:#0071BC;
   }
-  #coc_panel h2{
-    font-size:2.1em;
-    font-style:inherit;
-    font-weight: ultra-light;
-    margin: 0;
-    padding: 0;
-    color:#666666;
-  }
+
   .panel_desc{
     font-size:1.5em;
     margin: 0;
@@ -498,20 +491,12 @@
     font-variant:small-caps;*/
     color:#555555;
   }
-  #coc_panel h4{
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size:1.5em;
-    text-transform: capitalize;
-    /*font-variant:small-caps;*/
-    font-style:inherit;
-    color:#555555;
-  }
-  #coc_panel p{
+
+  .panel_text{
     font-style:inherit;
     font-size:1.5em;
-    margin-top: -3px;
-    text-transform: capitalize;
+    //margin-top: -3px;
+    //text-transform: capitalize;
     /*font-variant:small-caps;*/
     color:#555555;
   }
