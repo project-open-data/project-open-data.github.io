@@ -314,7 +314,34 @@
     margin-top: 5px;
     overflow: visible;
     background-color: inherit;
-    min-height: 267.3333px;
+    min-height: 255px;
+  }
+  .panel_title{
+    font-size:2em;
+    font-style:inherit;
+    font-weight: lighter;
+    margin: -7px 0px 20px 0px;
+    padding: 0;
+    color:#0071BC;
+    line-height:30px;
+  }
+
+  .panel_desc{
+    font-size:1.5em;
+    margin: 0;
+    padding: 0;
+    /*text-transform: capitalize;
+    font-variant:small-caps;*/
+    color:#555555;
+  }
+
+  .panel_text{
+    font-style:inherit;
+    font-size:1.5em;
+    //margin-top: -3px;
+    //text-transform: capitalize;
+    /*font-variant:small-caps;*/
+    color:#555555;
   }
 
   .background {
@@ -473,32 +500,5 @@
   .axisHorizontal .tick line {
     stroke-width: 1;
     stroke: rgba(0, 0, 0, 0.2);
-  }
-  .panel_title{
-    font-size:2em;
-    font-style:inherit;
-    font-weight: lighter;
-    margin: 0px 0px 0px 0px;
-    padding: 0;
-    color:#0071BC;
-    line-height:30px;
-  }
-
-  .panel_desc{
-    font-size:1.5em;
-    margin: 0;
-    padding: 0;
-    /*text-transform: capitalize;
-    font-variant:small-caps;*/
-    color:#555555;
-  }
-
-  .panel_text{
-    font-style:inherit;
-    font-size:1.5em;
-    //margin-top: -3px;
-    //text-transform: capitalize;
-    /*font-variant:small-caps;*/
-    color:#555555;
   }
 }

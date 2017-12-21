@@ -1004,7 +1004,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 											createTableTitle(d)
                     })
                    .on("mouseout", tip.hide);
-console.log("us: ",us.features);
+
 									 function createTableTitle(d) {
 									 	$("#panel_coc").empty();
 									 		coc_panel.append("div")
@@ -1014,8 +1014,8 @@ console.log("us: ",us.features);
 									 		.html("<h1 class='panel_title'>" + d.properties.COCNAME + "</h1>" +
 									 			"<h3 class='panel_desc'>" + d.properties.CONTACT_TY +
 									 			"<br />" + "</h3>"+"<p class='panel_text'>"+d.properties.FIRST_NAME+" "+
-											d.properties.LAST_NAME+"<br />"+d.properties.TITLE+"<br />"+
-										d.properties.EMAIL_ADDR+"<br />"+d.properties.PRIMARY_PH +"</p>");
+											d.properties.LAST_NAME+"<br />"+d.properties.TITLE+"<br /><br />"+"Email: "+
+										d.properties.EMAIL_ADDR+"<br />"+"Phone: "+d.properties.PRIMARY_PH +"</p>");
 									 }
 
 
