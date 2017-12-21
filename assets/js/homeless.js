@@ -808,8 +808,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("width", map_width + margin.left + margin.right)
                     .attr("height", map_height + margin.top + margin.bottom);
 
-                  var svg_2 = d3.select("#panel_info")
-                    .append("svg")
+                  var info_panel = d3.select("#panel_info")
                     .attr("width", info_width + margin.left + margin.right)
                     .attr("height", info_height + margin.top + margin.bottom);
 
@@ -1001,11 +1000,11 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 											console.log("d: ",d)
                       tip.show(d);
                       BarChart(d);
-											createTableTitle(d)
+											createCoCTable(d)
                     })
                    .on("mouseout", tip.hide);
 
-									 function createTableTitle(d) {
+									 function createCoCTable(d) {
 									 	$("#panel_coc").empty();
 									 		coc_panel.append("div")
 									 		.attr("id", "coc_info")
@@ -1025,8 +1024,25 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 										}
 									 }
 
-									 createTableTitle(initial_coc);
-									 console.log("initial_coc: ",initial_coc)
+									 createCoCTable(initial_coc);
+
+									 console.log("initial_bar: ",initial_bar);
+									 console.log("bar_chart: ",bar_chrt);
+
+									 function createCFDATable(d) {
+									 	$("#panel_info").empty();
+									 		info_panel.append("div")
+									 		.attr("id", "cfda_info")
+									 		.attr("height",info_height + margin.top + margin.bottom )
+									 		.attr("width",info_width + margin.left + margin.right)
+											.style("margin-bottom", "2px")
+											.html("<table class ='icon'>" +
+												"<tr>" + "<td class='val'>" + "TEST" + "</td>" +
+												"<td class='name'>" + "TEST"+ "</td>" + "</tr>" + "</table>")
+									 }
+					
+
+									createCFDATable(initial_bar);
 
                   function clicked(d) {
                     var x, y, k;

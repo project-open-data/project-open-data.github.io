@@ -77,8 +77,8 @@
     position: relative;
   }
 
-  .legend_title > h5{
-    width:950px;
+  .legend_title > h5 {
+    width: 950px;
     text-align: center;
     color: #4F4F4F;
     font-weight: 500;
@@ -178,7 +178,7 @@
     left: 2%;
   }
 
-  table {
+  #tab {
     top: 85px;
     left: 20px;
     border-collapse: collapse;
@@ -186,40 +186,41 @@
     margin-bottom: 0;
   }
 
-  a:visited,
-  table a:link {
+  #tab a:link,
+  #tab a:visited {
     text-decoration: none;
   }
 
-  a:active,
-  table a:hover {
+  #tab a:hover,
+  a:active {
     text-decoration: underline;
   }
 
-  table,
-  td,
-  th {
+  #tab,
+  #tab > tbody > tr > td,
+  #tab > tbody > tr > th {
     border: 1px solid black;
   }
 
-  td,
-  th {
+  #tab > tbody > tr > td,
+  #tab > tbody > tr > th {
     padding: 5px;
     text-align: center;
     height: 20px;
   }
 
-  th {
+  #tab > thead > tr > th {
     background-color: #1C2C46;
     color: #D3D2D8;
     border-collapse: collapse;
+    text-align: center;
   }
 
-  td {
+  #tab > tbody > tr > td {
     background-color: #cccccc;
   }
 
-  tr:hover td {
+  #tab > tbody > tr:hover td {
     background-color: #edf8b1;
   }
 
@@ -270,18 +271,21 @@
   .dot {
     fill-opacity: 0.5;
   }
-  #p2_left{
+
+  #p2_left {
     float: left;
-    position:relative;
-    width:470px;
-    height:600px;
+    position: relative;
+    width: 470px;
+    height: 600px;
   }
-  #p2_right{
+
+  #p2_right {
     float: right;
-    position:relative;
-    width:470px;
-    height:600px;
+    position: relative;
+    width: 470px;
+    height: 600px;
   }
+
   #panel_matrix {
     position: relative;
     float: left;
@@ -304,9 +308,7 @@
     margin-top: 5px;
     overflow: visible;
     background-color: inherit;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: #414b57;
+    min-height: 255px;
   }
 
   #panel_coc {
@@ -316,32 +318,55 @@
     background-color: inherit;
     min-height: 255px;
   }
-  .panel_title{
-    font-size:2em;
-    font-style:inherit;
+
+  .panel_title {
+    font-size: 2em;
+    font-style: inherit;
     font-weight: lighter;
-    margin: -7px 0px 20px 0px;
+    margin: -7px 0 20px;
     padding: 0;
-    color:#0071BC;
-    line-height:30px;
+    color: #0071BC;
+    line-height: 30px;
   }
 
-  .panel_desc{
-    font-size:1.5em;
+  .panel_desc {
+    font-size: 1.5em;
     margin: 0;
     padding: 0;
     /*text-transform: capitalize;
     font-variant:small-caps;*/
-    color:#555555;
+    color: #555555;
   }
 
-  .panel_text{
-    font-style:inherit;
-    font-size:1.5em;
+  .panel_text {
+    font-style: inherit;
+    font-size: 1.5em;
     //margin-top: -3px;
     //text-transform: capitalize;
     /*font-variant:small-caps;*/
-    color:#555555;
+    color: #555555;
+  }
+
+  #cfda_info > table > tbody > tr > td.val {
+    min-width: 20%
+  }
+
+  #cfda_info > table > tbody > tr > td.name {
+    min-width: 80%
+  }
+  #cfda_info > table{
+    min-width: 100%
+  }
+
+  .val {
+    font-size: 1.3em;
+    color: #205493;
+    font-weight: bolder;
+  }
+
+  .icon {
+    position: relative;
+    margin: 0;
   }
 
   .background {
@@ -401,7 +426,7 @@
     font-weight: bold;
     padding: 12px;
     background: rgba(0, 0, 0, 0.8);
-    color:#FFF;
+    color: #FFF;
     border-radius: 2px;
     pointer-events: none;
   }
@@ -413,7 +438,7 @@
     width: 100%;
     line-height: 1;
     background: rgba(0, 0, 0, 0.8);
-    color:#FFF;
+    color: #FFF;
     position: absolute;
     pointer-events: none;
   }
