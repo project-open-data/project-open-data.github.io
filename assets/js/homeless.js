@@ -1040,8 +1040,9 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       .attr("width", info_width + margin.left + margin.right+60)
                       .style("margin-bottom", "2px")
                       .html("<table class ='icon'>" +
-                        "<tr>" + "<td class='val'>" + d.cfda_number + "</td>" +
-                        "<td class='name'>" + d.program_title + "</td>" + "</tr>" + "</table>")
+												"<tr>" + "<td class='val'>" + d.cfda_number + "</td>" +
+												"<td class='name'>" +"<a href=" + d.program_website + ">" +
+												d.program_title + "</a>" + "</td>" + "</tr>" + "</table>")
                   }
 
 									for(var i=0; i<initial_bar.length;i++){
@@ -1058,16 +1059,18 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 	                  }
 
 	                  var initial = bar_chrt.filter(filter_cocNum);
+										var initial_coc_poss = initial.filter(filter_cfdaAmount)
 										//console.log("initial: ",initial);
-										for(var i=0; i < initial.length; i++){
+										for(var i=0; i < initial_coc_poss.length; i++){
 											info_panel.append("div")
 	                      .attr("id", "cfda_info")
 	                      //.attr("height", info_height + margin.top + margin.bottom)
 	                      //.attr("width", info_width + margin.left + margin.right+60)
 	                      .style("margin-bottom", "2px")
 	                      .html("<table class ='icon'>" +
-	                        "<tr>" + "<td class='val'>" + initial[i].cfda_number + "</td>" +
-	                        "<td class='name'>" + initial[i].program_title + "</td>" + "</tr>" + "</table>")
+	                        "<tr>" + "<td class='val'>" + initial_coc_poss[i].cfda_number + "</td>" +
+	                        "<td class='name'>" +"<a href=" + initial_coc_poss[i].program_website + ">" +
+													initial_coc_poss[i].program_title + "</a>" + "</td>" + "</tr>" + "</table>")
                   	}
 									}
 
