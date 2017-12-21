@@ -42,7 +42,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
             d3.json('/data-lab-data/coc-pop-type.json', function(table_data) {
               d3.csv('/data-lab-data/coc_by_value.csv', function(map_data) {
 
-                //console.log("bar_chrt: ", bar_chrt)
+                ////console.log("bar_chrt: ", bar_chrt)
 
                 // Initialize visualization
                 GenMap()
@@ -175,7 +175,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
 									var tip = d3.tip()
                     .attr("class", "homeless-analysis d3-tip")
-                    .offset([-10, 0])
+                    .offset([-10, -10])
                     .html(function(d) {
                       return d.properties.COCNAME + "<br>" + "Continuum of Care Number: " + d.properties.coc_number;
                     });
@@ -259,20 +259,20 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   function clicked(d) {
                     var x, y, k;
 
-                    //console.log("Panel 1 clicked, d: ",d);
+                    ////console.log("Panel 1 clicked, d: ",d);
 
                     for (var i = 0; i < states.length; i++) {
                       if (d.properties.STUSAB == states[i].Abbrv) {
                         for (var h = 0; h < json.features.length; h++) {
                           if (states[i].State == json.features[h].properties.NAME) {
                             var n = json.features[h]
-                            //console.log("clicked n: ",n);
+                            ////console.log("clicked n: ",n);
                             if (n && centered !== n) {
                               var centroid = path.centroid(n)
                               x = centroid[0]
                               y = centroid[1]
 
-                              //console.log("d: ",d.properties.NAME);
+                              ////console.log("d: ",d.properties.NAME);
                               if (n.properties.NAME === "Florida") {
                                 k = 5.0
                               } else if (n.properties.NAME === "Michigan") {
@@ -317,13 +317,14 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                                 return d === centered;
                               });
 
+														g.selectAll("path.coc")
+															.on("mouseover",tip.show)
+															.on("mouseout",tip.hide);
+
                             g.transition()
                               .duration(750)
                               .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
                               .style("stroke-width", .25 / k + "px");
-
-														g.on("mouseover",tip.show)
-														 .on("mouseout",tip.hide)
                           }
                         }
                       }
@@ -333,7 +334,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                 function GenTable() {
 
-                  //console.log("table data: ", table_data)
+                  ////console.log("table data: ", table_data)
 
                   table_data.forEach(function(d) {
                     d.total_homeless = +d.total_homeless
@@ -568,7 +569,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                     if (d == "Total Homeless") {
                       clicks.total_homeless++;
-                      console.log("rows.total_homeless: ", rows.total_homeless)
+                      //console.log("rows.total_homeless: ", rows.total_homeless)
                       if (clicks.total_homeless % 2 == 0) {
                         // sort ascending: numerically
                         rows.sort(function(a, b) {
@@ -776,6 +777,14 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                   spinner_panel2.stop();
 
+									d3.select("#container2").append("div").attr("id","p2_left")
+									d3.select("#container2").append("div").attr("id","p2_right")
+
+									d3.select("#p2_left").append("div").attr("id","panel_map")
+									d3.select("#p2_left").append("div").attr("id","panel_matrix")
+									d3.select("#p2_right").append("div").attr("id","panel_coc")
+									d3.select("#p2_right").append("div").attr("id","panel_info")
+
                   var abs_width = 1024,
                     abs_height = 575,
                     margin = {
@@ -791,8 +800,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     map_width = panel_2_width - matrix_width - margin.left - margin.right,
                     map_height = panel_2_height / 3,
                     info_width = panel_2_width - matrix_width - margin.left - margin.right,
-                    info_height = panel_2_height / 3
-                  centered = null;
+                    info_height = panel_2_height / 3,
+                    centered = null;
 
                   var svg_1 = d3.select("#panel_map")
                     .append("svg")
@@ -804,8 +813,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("width", info_width + margin.left + margin.right)
                     .attr("height", info_height + margin.top + margin.bottom);
 
-									var svg_3 = d3.select("#panel_coc")
-                    .append("svg")
+									var coc_panel = d3.select("#panel_coc")
                     .attr("width", info_width + margin.left + margin.right)
                     .attr("height", info_height + margin.top + margin.bottom);
 
@@ -816,7 +824,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 										.attr("height", map_height + margin.top + margin.bottom+40)
 										.style("margin-left", -margin.left / 2.5 + "px")
                     .attr("transform", "translate(" + 40 + "," + 10 + ")");
-
 
                   var tip = d3.tip()
                     .attr("class", "homeless-analysis d3-tip")
@@ -851,7 +858,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   var initial = bar_chrt.filter(filter_cocNum);
                   var initial_bar = initial.filter(filter_cfdaAmount);
 
-                  //console.log("initial_bar: ", initial_bar)
+                  //console.log("initial_bar: ", initial)
 
                   var formatNumber = d3.format("$,");
 
@@ -967,7 +974,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                   var centered = null;
 
-                  //console.log("Map_Data: ",map_data)
+                  ////console.log("Map_Data: ",map_data)
 
                   var g = svg_1.append("g");
 
@@ -991,29 +998,51 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .on("click", clicked)
                     .style("fill", getColor)
                     .on("mouseover", function(d) {
+											console.log("d: ",d)
                       tip.show(d);
                       BarChart(d);
+											createTableTitle(d)
                     })
-                   /*.on("mouseout", tip.hide);*/
+                   .on("mouseout", tip.hide);
+console.log("us: ",us.features);
+									 function createTableTitle(d) {
+									 	$("#panel_coc").empty();
+									 		coc_panel.append("div")
+									 		.attr("id", "coc_info")
+									 		.attr("height",info_height + margin.top + margin.bottom )
+									 		.attr("width",info_width + margin.left + margin.right)
+									 		.html("<h1 class='panel_title'>" + d.properties.COCNAME + "</h1>" +
+									 			"<h3 class='panel_desc'>" + d.properties.CONTACT_TY +
+									 			"<br />" + "</h3>");
+									 }
 
+
+									 for(var i=0; i<us.features.length;i++){
+										if(us.features[i].properties.coc_number == "CA-600"){
+											var initial_coc = us.features[i];
+										}
+									 }
+
+									 createTableTitle(initial_coc);
+									 console.log("initial_coc: ",initial_coc)
 
                   function clicked(d) {
                     var x, y, k;
 
-                    //console.log("In panel 2 clicked, d: ", d);
+                    ////console.log("In panel 2 clicked, d: ", d);
 
                     for (var i = 0; i < states.length; i++) {
                       if (d.properties.STUSAB == states[i].Abbrv) {
                         for (var h = 0; h < json.features.length; h++) {
                           if (states[i].State == json.features[h].properties.NAME) {
                             var n = json.features[h]
-                            //console.log("clicked n: ",n);
+                            ////console.log("clicked n: ",n);
                             if (n && centered !== n) {
                               var centroid = path.centroid(n)
                               x = centroid[0]
                               y = centroid[1]
 
-                              //console.log("d: ",d.properties.NAME);
+                              ////console.log("d: ",d.properties.NAME);
                               if (n.properties.NAME === "Florida") {
                                 k = 5.0
                               } else if (n.properties.NAME === "Michigan") {

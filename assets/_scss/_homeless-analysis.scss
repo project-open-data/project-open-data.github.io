@@ -270,7 +270,18 @@
   .dot {
     fill-opacity: 0.5;
   }
-
+  #p2_left{
+    float: left;
+    position:relative;
+    width:470px;
+    height:600px;
+  }
+  #p2_right{
+    float: right;
+    position:relative;
+    width:470px;
+    height:600px;
+  }
   #panel_matrix {
     position: relative;
     float: left;
@@ -280,7 +291,6 @@
   #panel_map {
     margin-top: 5px;
     position: relative;
-    float: left;
     overflow: visible;
     background-color: inherit;
     border-style: solid;
@@ -296,7 +306,6 @@
     background-color: inherit;
     border-style: solid;
     border-width: 0.5px;
-    float: right;
     border-color: #414b57;
   }
 
@@ -305,10 +314,7 @@
     margin-top: 5px;
     overflow: visible;
     background-color: inherit;
-    border-style: solid;
-    border-width: 0.5px;
-    float: right;
-    border-color: #414b57;
+    min-height: 267.3333px;
   }
 
   .background {
@@ -467,5 +473,46 @@
   .axisHorizontal .tick line {
     stroke-width: 1;
     stroke: rgba(0, 0, 0, 0.2);
+  }
+  .panel_title{
+    font-size:2em;
+    font-style:inherit;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color:#0071BC;
+  }
+  #coc_panel h2{
+    font-size:2.1em;
+    font-style:inherit;
+    font-weight: ultra-light;
+    margin: 0;
+    padding: 0;
+    color:#666666;
+  }
+  .panel_desc{
+    font-size:1.5em;
+    margin: 0;
+    padding: 0;
+    /*text-transform: capitalize;
+    font-variant:small-caps;*/
+    color:#555555;
+  }
+  #coc_panel h4{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size:1.5em;
+    text-transform: capitalize;
+    /*font-variant:small-caps;*/
+    font-style:inherit;
+    color:#555555;
+  }
+  #coc_panel p{
+    font-style:inherit;
+    font-size:1.5em;
+    margin-top: -3px;
+    text-transform: capitalize;
+    /*font-variant:small-caps;*/
+    color:#555555;
   }
 }
