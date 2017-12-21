@@ -430,6 +430,10 @@
     border-radius: 2px;
     pointer-events: none;
   }
+  .d3-tip b{
+    font-weight: bolder;
+    font-size: 1em;
+  }
   /* Creates a small triangle extender for the tooltip */
   .d3-tip:after {
     box-sizing: border-box;
