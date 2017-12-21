@@ -58,7 +58,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       d3.selectAll('#viz_container').remove()
                       d3.selectAll('svg').remove()
                       d3.select('svg_1').remove()
-                      d3.select('svg_2').remove()
+                      d3.select('#p2_right').remove()
+											d3.select('#p2_left').remove()
                       GenMap()
                       GenPanelTwo()
                       //GenScatter();
@@ -66,9 +67,11 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     } else if (selectedValue === 'Table') {
                       d3.selectAll('#viz_container').remove()
                       d3.selectAll('#legend').remove()
+											d3.selectAll('#legend_title').remove()
                       d3.selectAll('svg').remove()
                       d3.select('svg_1').remove()
-                      d3.select('svg_2').remove()
+											d3.select('#p2_right').remove()
+											d3.select('#p2_left').remove()
                       GenTable()
                       GenPanelTwo()
                       //GenScatter()
