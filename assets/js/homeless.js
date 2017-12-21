@@ -1032,15 +1032,22 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   console.log("initial_bar: ", initial_bar);
                   console.log("bar_chart: ", bar_chrt);
 
+									info_panel.append("div")
+										.attr("id", "cfda_info_header")
+										.attr("height", info_height + margin.top + margin.bottom)
+										.attr("width", info_width + margin.left + margin.right+60)
+										.html("<table class ='icon'>" + "<th class='head_val'>CFDA</th>" +
+										"<th class='head_name'>Program Title</th>"+"</table>")
+
                   function createCFDATable(d) {
                     //$("#panel_info").empty();
+
                     info_panel.append("div")
                       .attr("id", "cfda_info")
                       .attr("height", info_height + margin.top + margin.bottom)
                       .attr("width", info_width + margin.left + margin.right+60)
                       .style("margin-bottom", "2px")
-                      .html("<table class ='icon'>" +
-												"<tr>" + "<td class='val'>" + d.cfda_number + "</td>" +
+                      .html("<table class ='icon'>"  + "<td class='val'>" + d.cfda_number + "</td>" +
 												"<td class='name'>" +"<a href=" + d.program_website + ">" +
 												d.program_title + "</a>" + "</td>" + "</tr>" + "</table>")
                   }
@@ -1061,6 +1068,14 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 	                  var initial = bar_chrt.filter(filter_cocNum);
 										var initial_coc_poss = initial.filter(filter_cfdaAmount)
 										//console.log("initial: ",initial);
+
+										info_panel.append("div")
+                      .attr("id", "cfda_info_header")
+                      .attr("height", info_height + margin.top + margin.bottom)
+                      .attr("width", info_width + margin.left + margin.right+60)
+                      .html("<table class ='icon'>" + "<th class='head_val'>CFDA</th>" +
+											"<th class='head_name'>Program Title</th>"+"</table>")
+
 										for(var i=0; i < initial_coc_poss.length; i++){
 											info_panel.append("div")
 	                      .attr("id", "cfda_info")

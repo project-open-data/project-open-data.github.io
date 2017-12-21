@@ -310,6 +310,7 @@
     background-color: inherit;
     min-height: 255px;
     margin-left: -65px;
+    margin-top: -25px;
   }
 
   #panel_coc {
@@ -368,10 +369,25 @@
     width:465px;
     margin:5px 0px 0px 0px;
   }
+  .head_val{
+    color: #555555;
+    font-size: 1.1em;
+    min-width: 70px;
+  }
+
+  .head_name{
+    color: #555555;
+    font-size: 1.1em;
+    width: 200px;
+  }
 
   .icon {
     position: relative;
     margin: 0;
+  }
+
+  #cfda_info_header{
+    margin-bottom: 13px;
   }
 
   .background {
