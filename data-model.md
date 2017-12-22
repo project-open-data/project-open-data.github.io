@@ -83,7 +83,7 @@ The diagrams are visual representations of how the different data elements are r
   
 
 ## Online Data Dictionary
-The [Data Dictionary]({{ site.baseurl }}/data-dictionary/){:target="_blank"} is a comprehensive list of data elements with definitions and some associated metadata.
+The [Data Dictionary]({{ site.baseurl }}/dictionary-v1.1/){:target="_blank"} is a comprehensive list of data elements with definitions and some associated metadata.
 
 ## XBRL Schema and Data Files
 A data standard contains both a human-readable version of the standard and a machine-readable version of the standard. The XBRL Schema files are the machine-readable version of the DATA Act standard.
