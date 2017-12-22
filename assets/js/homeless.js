@@ -892,7 +892,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       } else if (d.category == "Housing/Education") {
                         return "#C98845"
                       } else if (d.category == "Services") {
-                        return "#695C7C"
+                        return "#CC5500"
                       } else if (d.category == "Health") {
                         return "#297B84"
                       } else if (d.category == "Support Services") {
@@ -904,7 +904,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       } else if (d.category == "Education/Servicess") {
                         return "#4A6C87"
                       } else if (d.category == "Housing/Research") {
-                        return "#278673"
+                        return "#A9B2C3"
                       }
                     })
                     .attr("transform", function(d, i) {
@@ -1257,7 +1257,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                         } else if (d.category == "Housing/Education") {
                           return "#C98845"
                         } else if (d.category == "Services") {
-                          return "#695C7C"
+                          return "#CC5500"
                         } else if (d.category == "Health") {
                           return "#297B84"
                         } else if (d.category == "Support Services") {
@@ -1269,7 +1269,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                         } else if (d.category == "Education/Servicess") {
                           return "#4A6C87"
                         } else if (d.category == "Housing/Research") {
-                          return "#278673"
+                          return "#A9B2C3"
                         }
                       })
                       .attr("transform", function(d, i) {
@@ -1361,8 +1361,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 										.attr("height", "100px")
 										.attr("padding", "50px 0 0 50px");
 
-									var color = ["#7B4C66","#C98845","#695C7C","#297B84","#4A8D5B","#759043",
-										"#A08E39","#4A6C87","#278673"
+									var color = ["#7B4C66","#C98845","#CC5500","#297B84","#4A8D5B","#759043",
+										"#A08E39","#4A6C87","#A9B2C3"
 										]
 
 									var legend_key_values = ["Housing","Housing & Education","Services","Health",
