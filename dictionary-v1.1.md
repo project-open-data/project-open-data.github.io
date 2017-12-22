@@ -6,7 +6,7 @@ filename: dictionary-v1.1.md
 title: DATA Act Information Model Schema Data Dictionary v1.1
 ---
 <div class="article-wrap">
-<p><i>December 22, 2017:</i> Treasury released the DATA Act Information Model Schema (DAIMS) v1.2. DAIMS v1.2 is a minor update of the schema and will be implemented with the submission of fiscal year 2018 quarter 3 data. Find out more information at [DAIMS v1.2]({{site.baseurl}}/DAIMS-v1.2/) or its [Data Dictionary v1.2]({{site.baseurl}}/dictionary-v1.2/).</p>
+<p><i>December 22, 2017:</i> Treasury released the DATA Act Information Model Schema (DAIMS) v1.2. DAIMS v1.2 is a minor update of the schema and will be implemented with the submission of fiscal year 2018 quarter 3 data. Find out more information at [DAIMS v1.2]({{site.baseurl}}/DAIMS-v1.2/) or its [Data Dictionary v1.2]({{site.baseurl }}/dictionary-v1.2/).</p>
 
 <h1> DATA Act Information Model Schema Data Dictionary v1.1 </h1>
 <p><i>Released June 30, 2017 (Updated December 22, 2017)</i></p>
@@ -20,6 +20,7 @@ title: DATA Act Information Model Schema Data Dictionary v1.1
 <a href="#" id="back-to-top" title="Back to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
 
 <h2>DAIMS Data Dictionary (v1.1)</h2>
+
 <h4> Column Headings</h4>
 <p><strong>Grouping</strong>&mdash; Agencies report data in certain groupings.    
   <ul style="margin-bottom:0;">
@@ -38,7 +39,7 @@ title: DATA Act Information Model Schema Data Dictionary v1.1
 <p>
   <strong>Definition</strong> &mdash; The business definition for the element.
 </p>
-<p>    
+<p>
   <strong>Use</strong> &mdash; Is this element required?
   <ul style="margin-bottom:0;">
     <li>Required – Element must be present.</li>
