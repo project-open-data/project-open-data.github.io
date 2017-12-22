@@ -84,6 +84,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                 })
 
                 // **************************************************************
+								var zoom = d3.behavior.zoom();
 
                 function getColor(d) {
                   for (var i = 0; i < data.length; i++) {
@@ -262,7 +263,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("d", path)
                     .on("mouseover", tip.show)
                     .on("mouseout", tip.hide)
-                    .on("click", clicked)
+                    .on("click",clicked)
                     .style("fill", getColor);
 
                   function clicked(d) {
@@ -325,10 +326,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                               .classed("active", centered && function(d) {
                                 return d === centered;
                               });
-
-                            /*g.selectAll("path.coc")
-                              .on("mouseover", tip.show)
-                              .on("mouseout", tip.hide);*/
 
                             g.transition()
                               .duration(750)
@@ -1002,8 +999,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       return d.properties.name;
                     })
                     .attr("d", p2_path)
-                    .on("click", clicked)
-                    .style("fill", getColor)
+                    .on("click", p2_clicked)
+                    .style("fill", p2_getColor)
                     .on("mouseover", function(d) {
                       //console.log("d: ", d)
                       p2_tip.show(d);
@@ -1095,7 +1092,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   	}
 									}
 
-									function clicked(d) {
+									function p2_clicked(d) {
 										var x, y, k;
 
 										//console.log("Panel 2 clicked, d: ",d);
@@ -1166,7 +1163,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 										}
 									}
 
-                  function getColor(d) {
+                  function p2_getColor(d) {
                     for (var i = 0; i < map_data.length; i++) {
                       if (d.properties.coc_number === map_data[i].COC_Number) {
                         if (map_data[i].amount <= 500000) {
