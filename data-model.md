@@ -1,4 +1,13 @@
----published: truepermalink: /data-model/layout: articlefilename: data-model.mdtitle: Data Modelpage: data-modelredirect_from: "/data-exchange-standard/"---# The Latest_December 22, 2017_: Treasury released the DATA Act Information Model Schema (DAIMS) v1.2. DAIMS v1.2 is a minor update of the schema and will be implemented with the submission of fiscal year 2018 quarter 3 data. Find out more at the [DAIMS v1.2]({{site.baseurl}}/DAIMS-v1.2/).
+----
+ -published: true
+ -permalink: /data-model/
+ -layout: article
+ -filename: data-model.md
+ -title: Data Model
+ -page: data-model
+ -redirect_from: "/data-exchange-standard/"
+ ----
+ # The Latest_December 22, 2017_: Treasury released the DATA Act Information Model Schema (DAIMS) v1.2. DAIMS v1.2 is a minor update of the schema and will be implemented with the submission of fiscal year 2018 quarter 3 data. Find out more at the [DAIMS v1.2]({{site.baseurl}}/DAIMS-v1.2/).
 # DATA Act Information Model Schema v1.1
 _Released June 30, 2017_ – A core requirement of the DATA Act is the development of government-wide data standards to ensure the reporting of reliable, consistent federal spending data for public use. Office of Management and Budget (OMB) and Treasury finalized the data definition standards and Treasury used the data definition standards to develop the initial draft of the DATA Act data exchange standard, or Schema, in May 2015. Treasury collected public input and feedback from federal agencies and implemented an agile development methodology to create the DATA Act Information Model Schema (DAIMS) v1.0. DAIMS v1.1 is a minor update to transition financial assistance reporting to the DATA Act Broker, to better align with another federal government source system, and to provide clarifications for improved usability.
 DAIMS gives an overall view of the hundreds of distinct data elements used to tell the story of how federal dollars are spent. It includes artifacts that provide technical guidance for federal agencies about what data to report to Treasury including the authoritative sources of the data elements and the submission format. The DAIMS also provides clarity on how the public can better understand the inherent complexity of the data.
