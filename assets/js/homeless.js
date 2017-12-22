@@ -85,41 +85,41 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   for (var i = 0; i < data.length; i++) {
                     if (d.properties.coc_number === data[i].coc_number) {
                       if (data[i].pop <= 100) {
-                        return ("#F4677B");
+                        return ("#E6F4EC");
                       } else if (data[i].pop <= 200) {
-                        return ("#F59AA4");
+                        return ("#C2F2DF");
                       } else if (data[i].pop <= 300) {
-                        return ("#C17281");
+                        return ("#8FEFCA");
                       } else if (data[i].pop <= 500) {
-                        return ("#744A99");
+                        return ("#80DCC9");
                       } else if (data[i].pop <= 700) {
-                        return ("#4B3B72");
+                        return ("#84D1B9");
                       } else if (data[i].pop <= 1000) {
-                        return ("#8E8AC7");
+                        return ("#78CEC2");
                       } else if (data[i].pop <= 1500) {
-                        return ("#4369A7");
+                        return ("#59B2AA");
                       } else if (data[i].pop <= 2000) {
-                        return ("#6A8CC4");
+                        return ("#6DB5B4");
                       } else if (data[i].pop <= 2500) {
-                        return ("#2F4B77");
+                        return ("#5DA098");
                       } else if (data[i].pop <= 3000) {
-                        return ("#2B7A87");
+                        return ("#62959D");
                       } else if (data[i].pop <= 3500) {
-                        return ("#3CA4BC");
+                        return ("#597A87");
                       } else if (data[i].pop <= 4000) {
-                        return ("#2F5068");
+                        return ("#546D7B");
                       } else if (data[i].pop <= 5000) {
-                        return ("#62E8BE");
+                        return ("#4F606F");
                       } else if (data[i].pop <= 6000) {
-                        return ("#209E6E");
+                        return ("#495462");
                       } else if (data[i].pop <= 7000) {
-                        return ("#146643");
+                        return ("#414553");
                       } else if (data[i].pop <= 8000) {
-                        return ("#489181");
+                        return ("#383C49");
                       } else if (data[i].pop <= 12000) {
-                        return ("#385E58");
+                        return ("#35333D");
                       } else {
-                        return ("#1B3630")
+                        return ("#2C2730")
                       }
                     }
                   }
@@ -202,9 +202,9 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("padding", "50px 0 0 50px");
 
 
-                  var color = ["#E8E6E6", "#D8D4D5", "#C0B9BB", "#C4CBBC", "#A3A99C",
-                    "#8D8F8B", "#A3A99C", "#8D8F8B", "#989496", "#A28E94", "#887A7E",
-                    "#8A6F78", "#A96585", "#A365A9", "#744A78", "#7F6B81", "#614463", "#291C2A"
+                  var color = ["#E6F4EC", "#C2F2DF", "#8FEFCA", "#80DCC9", "#84D1B9",
+                    "#78CEC2", "#59B2AA", "#6DB5B4", "#5DA098", "#62959D", "#597A87",
+                    "#546D7B", "#4F606F", "#495462", "#414553", "#383C49", "#35333D", "#2C2730"
                   ]
 
                   var legend_key_values = ["< 100", "100-200", "200-300", "300-500", "500-700", "700-1k", "1k-1.5k",
