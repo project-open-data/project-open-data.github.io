@@ -1,4 +1,4 @@
-File,Data Element Label,Definition,Use,Grouping
+File,DataElementLabel,Definition,Use,Grouping
 File A - Appropriations Account,AllocationTransferAgencyIdentifier,The allocation agency identifies the department or agency that is receiving funds through an allocation (non-expenditure) transfer.,Conditional per Validation Rule,TAS Component
 File A - Appropriations Account,AgencyIdentifier,The agency code identifies the department or agency that is responsible for the account.,Required,TAS Component
 File A - Appropriations Account,BeginningPeriodOfAvailability,"In annual and multi-year funds, the beginning period of availability identifies the first year of availability under law that an appropriation account may incur new obligations.",Conditional per Validation Rule,TAS Component
