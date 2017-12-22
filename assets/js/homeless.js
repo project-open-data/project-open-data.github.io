@@ -89,41 +89,41 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   for (var i = 0; i < data.length; i++) {
                     if (d.properties.coc_number === data[i].coc_number) {
                       if (data[i].pop <= 100) {
-                        return ("#E6F4EC");
+                        return ("#ecf2a4");
                       } else if (data[i].pop <= 200) {
-                        return ("#C2F2DF");
+                        return ("#e8f095");
                       } else if (data[i].pop <= 300) {
-                        return ("#8FEFCA");
+                        return ("#DFE969");
                       } else if (data[i].pop <= 500) {
-                        return ("#80DCC9");
+                        return ("#CFE469");
                       } else if (data[i].pop <= 700) {
-                        return ("#84D1B9");
+                        return ("#C0DF6A");
                       } else if (data[i].pop <= 1000) {
-                        return ("#78CEC2");
+                        return ("#B1D96C");
                       } else if (data[i].pop <= 1500) {
-                        return ("#59B2AA");
+                        return ("#A3D46D");
                       } else if (data[i].pop <= 2000) {
-                        return ("#6DB5B4");
+                        return ("#95CE6F");
                       } else if (data[i].pop <= 2500) {
-                        return ("#5DA098");
+                        return ("#88C771");
                       } else if (data[i].pop <= 3000) {
-                        return ("#62959D");
+                        return ("#7BC172");
                       } else if (data[i].pop <= 3500) {
-                        return ("#597A87");
+                        return ("#64B475");
                       } else if (data[i].pop <= 4000) {
-                        return ("#546D7B");
+                        return ("#4FA677");
                       } else if (data[i].pop <= 5000) {
-                        return ("#4F606F");
+                        return ("#3C9877");
                       } else if (data[i].pop <= 6000) {
-                        return ("#495462");
+                        return ("#2E8A75");
                       } else if (data[i].pop <= 7000) {
-                        return ("#414553");
+                        return ("#247C71");
                       } else if (data[i].pop <= 8000) {
-                        return ("#383C49");
+                        return ("#1F6E6C");
                       } else if (data[i].pop <= 12000) {
-                        return ("#35333D");
+                        return ("#205860");
                       } else {
-                        return ("#2C2730")
+                        return ("#21313E")
                       }
                     }
                   }
