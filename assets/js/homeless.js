@@ -1167,41 +1167,41 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     for (var i = 0; i < map_data.length; i++) {
                       if (d.properties.coc_number === map_data[i].COC_Number) {
                         if (map_data[i].amount <= 500000) {
-                          return ("#8EC6F6");
+                          return ("#281F2C");
                         } else if (map_data[i].amount <= 1000000) {
-                          return ("#87BBE9");
+                          return ("#324154");
                         } else if (map_data[i].amount <= 2000000) {
-                          return ("#81B0DC");
+                          return ("#2C616F");
                         } else if (map_data[i].amount <= 3000000) {
-                          return ("#7AA5CF");
+                          return ("#26797C");
                         } else if (map_data[i].amount <= 4000000) {
-                          return ("#739BC2");
+                          return ("#288A81");
                         } else if (map_data[i].amount <= 5000000) {
-                          return ("#6C90B6");
+                          return ("#349A83");
                         } else if (map_data[i].amount <= 7500000) {
-                          return ("#6686A9");
+                          return ("#48AA82");
                         } else if (map_data[i].amount <= 10000000) {
-                          return ("#5F7C9D");
+                          return ("#61BA7E");
                         } else if (map_data[i].amount <= 20000000) {
-                          return ("#587291");
+                          return ("#7DC878");
                         } else if (map_data[i].amount <= 30000000) {
-                          return ("#516885");
+                          return ("#26797C");
                         } else if (map_data[i].amount <= 40000000) {
-                          return ("#4A5E79");
+                          return ("#288A81");
                         } else if (map_data[i].amount <= 50000000) {
-                          return ("#43556E");
+                          return ("#349A83");
                         } else if (map_data[i].amount <= 60000000) {
-                          return ("#3C4C62");
+                          return ("#48AA82");
                         } else if (map_data[i].amount <= 70000000) {
-                          return ("#364357");
+                          return ("#61BA7E");
                         } else if (map_data[i].amount <= 80000000) {
-                          return ("#2F3A4C");
+                          return ("#7DC878");
                         } else if (map_data[i].amount <= 90000000) {
-                          return ("#283142");
+                          return ("#8DCF75");
                         } else if (map_data[i].amount <= 100000000) {
-                          return ("#212937");
+                          return ("#E7ED69");
                         } else {
-                          return ("#1B212D")
+                          return ("#ecf187")
                         }
                       }
                     }
