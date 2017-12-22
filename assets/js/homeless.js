@@ -1352,7 +1352,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 										.attr("class", "p2_legend_title")
 										.attr("height", "15px")
 										.attr("width", map_width + margin.left + margin.right)
-										.html("<h5>CFDA Service Category</h5>")
+										.html("<h5>CFDA Program Category</h5>")
 										.style("text-anchor", "center");
 
 									var legend = d3.select("#p2_legend")
@@ -1362,15 +1362,15 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 										.attr("padding", "50px 0 0 50px");
 
 									var color = ["#7B4C66","#C98845","#CC5500","#297B84","#4A8D5B","#759043",
-										"#A08E39","#4A6C87","#A9B2C3"
+										"#A08E39","#4A6C87","#A9B2C3","#006A4E"
 										]
 
 									var legend_key_values = ["Housing","Housing & Education","Services","Health",
 										"Support Services","Housing & Services","Health & Housing","Education & Services",
-										"Housing & Research"
+										"Housing & Research","Employment"
 										];
 
-									for (var i = 0; i < 9; i++) {
+									for (var i = 0; i < 10; i++) {
 
 										var l = legend.append("div")
 											.attr("id", "p2_legend_key");
