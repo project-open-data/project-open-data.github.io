@@ -35,7 +35,6 @@ The Information Flow provides an overview of the sources of the data included in
 <img width="800" src="{{ site.baseurl }}/assets/docs/DAIMS_Information_Flow_Diagram_v1.1.png" title="information flow diagram" />
 
 ## Reporting Submission Specification (RSS)
-
 The RSS provides details on what data needs to be submitted from an agency’s financial system.  The RSS contains prescriptive guidance to report appropriations account, object class, program activity, and award financial data.  The award financial data contains instructions to link the data between the financial systems and the award systems using the award identification number.  The RSS  includes information about optional/required data, field length,  and other metadata to ensure data quality.  The RSS documents contain the specific instructions a federal agency will need to submit data.
 
 The RSS includes three files that the agencies will submit to Treasury’s Broker:
@@ -48,9 +47,13 @@ Download the [RSS v1.1]({{site.baseurl}}/assets/docs/DAIMS_RSS_v1.1.xlsx)
 
 ## Interface Definition Document (IDD)
 The Interface Definition Document (IDD) provides an overview of the award specific data elements and explains how the data will be reported or collected. Some data elements will be pulled from government-wide intermediary systems for procurement data, recipient attributes and sub award information.  The IDD also includes data elements submitted by agency systems for financial assistance awards.
+
 The IDD features the elements related to:
 
-- File D1 – Award and Awardee Attributes (Procurement)- File D2 – Award and Awardee Attributes (Financial Assistance)- File E – Additional Awardee Attributes- File F – Sub-award Attributes
+- File D1 – Award and Awardee Attributes (Procurement)
+- File D2 – Award and Awardee Attributes (Financial Assistance)
+- File E – Additional Awardee Attributes
+- File F – Sub-award Attributes
 
 Download the [IDD v1.1 (Updated 9/27/2017)]({{site.baseurl}}/assets/docs/DAIMS_IDD_v1.1.xlsx)
 
@@ -64,13 +67,20 @@ The [terse labels]({{site.baseurl}}/assets/docs/DAIMS_Agency_Label_To_Terse_Labe
 The diagrams are visual representations of how the different data elements are related. They show the groupings of elements and attributes.
 
 <div class="list-group" style="width:50%;">  
-  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_A_v1.1.pdf" target="_blank" class="list-group-item">File A – Appropriations Account Detail v1.1</a>  
-  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_B_v1.1.pdf" target="_blank" class="list-group-item">File B – Object Class and Program Activity Detail v1.1</a>  
-  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_C_v1.1.pdf" target="_blank" class="list-group-item">File C – Award and Financial Detail v1.1</a>  
-  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D1_v1.1.pdf" target="_blank" class="list-group-item">File D1 – Award and Awardee Attributes (Procurement) v1.1</a>  
-  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D2_v1.1.pdf" target="_blank" class="list-group-item">File D2 – Award and Awardee Attributes (Financial Assistance) v1.1</a>  
-  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_E_v1.1.pdf" target="_blank" class="list-group-item">File E – Additional Awardee Attributes v1.1</a>  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_A_v1.1.pdf" target="_blank" class="list-group-item">File A – Appropriations Account Detail v1.1</a>
+  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_B_v1.1.pdf" target="_blank" class="list-group-item">File B – Object Class and Program Activity Detail v1.1</a>
+  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_C_v1.1.pdf" target="_blank" class="list-group-item">File C – Award and Financial Detail v1.1</a>
+  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D1_v1.1.pdf" target="_blank" class="list-group-item">File D1 – Award and Awardee Attributes (Procurement) v1.1</a>
+  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D2_v1.1.pdf" target="_blank" class="list-group-item">File D2 – Award and Awardee Attributes (Financial Assistance) v1.1</a>
+  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_E_v1.1.pdf" target="_blank" class="list-group-item">File E – Additional Awardee Attributes v1.1</a>
+  
   <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_F_v1.1.pdf" target="_blank" class="list-group-item">File F – Sub-award Attributes v1.1</a></div>
+  
 
 ## Online Data Dictionary
 The [Data Dictionary]({{ site.baseurl }}/data-dictionary/){:target="_blank"} is a comprehensive list of data elements with definitions and some associated metadata.
