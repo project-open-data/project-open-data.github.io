@@ -326,9 +326,9 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                                 return d === centered;
                               });
 
-                            g.selectAll("path.coc")
+                            /*g.selectAll("path.coc")
                               .on("mouseover", tip.show)
-                              .on("mouseout", tip.hide);
+                              .on("mouseout", tip.hide);*/
 
                             g.transition()
                               .duration(750)
@@ -1005,7 +1005,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .on("click", clicked)
                     .style("fill", getColor)
                     .on("mouseover", function(d) {
-                      console.log("d: ", d)
+                      //console.log("d: ", d)
                       tip.show(d);
                       BarChart(d);
                       createCoCTable(d);
@@ -1095,82 +1095,76 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   	}
 									}
 
-                  function clicked(d) {
-                    var x, y, k;
+									function clicked(d) {
+										var x, y, k;
 
-                    ////console.log("In panel 2 clicked, d: ", d);
+										//console.log("Panel 2 clicked, d: ",d);
 
-                    for (var i = 0; i < states.length; i++) {
-                      if (d.properties.STUSAB == states[i].Abbrv) {
-                        for (var h = 0; h < json.features.length; h++) {
-                          if (states[i].State == json.features[h].properties.NAME) {
-                            var n = json.features[h]
-                            ////console.log("clicked n: ",n);
-                            if (n && centered !== n) {
-                              var centroid = path.centroid(n)
-                              x = centroid[0]
-                              y = centroid[1]
+										for (var i = 0; i < states.length; i++) {
+											if (d.properties.STUSAB == states[i].Abbrv) {
+												for (var h = 0; h < json.features.length; h++) {
+													if (states[i].State == json.features[h].properties.NAME) {
+														var n = json.features[h]
+														//console.log("clicked n: ",n);
+														if (n && centered !== n) {
+															var centroid = path.centroid(n)
+															x = centroid[0]
+															y = centroid[1]
 
-                              ////console.log("d: ",d.properties.NAME);
-                              if (n.properties.NAME === "Florida") {
-                                k = 5.0
-                              } else if (n.properties.NAME === "Michigan") {
-                                k = 5.5
-                              } else if (n.properties.NAME === "Idaho") {
-                                k = 3.25
-                              } else if (n.properties.NAME === "Alaska") {
-                                k = 5.0
-                              } else if (n.properties.NAME === "Hawaii") {
-                                k = 7.0
-                              } else if (n.properties.CENSUSAREA <= 15000) {
-                                k = 11.0
-                              } else if (n.properties.CENSUSAREA > 15000 && n.properties.CENSUSAREA <= 30000) {
-                                k = 9.0
-                              } else if (n.properties.CENSUSAREA > 30000 && n.properties.CENSUSAREA <= 50000) {
-                                k = 8.0
-                              } else if (n.properties.CENSUSAREA > 50000 && n.properties.CENSUSAREA <= 70000) {
-                                k = 6.5
-                              } else if (n.properties.CENSUSAREA > 70000 && n.properties.CENSUSAREA <= 90000) {
-                                k = 6.0
-                              } else if (n.properties.CENSUSAREA > 90000 && n.properties.CENSUSAREA <= 110000) {
-                                k = 5.0
-                              } else if (n.properties.CENSUSAREA > 110000 && n.properties.CENSUSAREA <= 130000) {
-                                k = 4.0
-                              } else if (n.properties.CENSUSAREA > 130000 && n.properties.CENSUSAREA <= 150000) {
-                                k = 3.5
-                              } else {
-                                k = 2.75
-                              };
-                              centered = n;
+															//console.log("d: ",n.properties.NAME);
+															if (n.properties.NAME === "Florida") {
+																k = 5.0
+															} else if (n.properties.NAME === "Michigan") {
+																k = 5.5
+															} else if (n.properties.NAME === "Idaho") {
+																k = 3.25
+															} else if (n.properties.NAME === "Alaska") {
+																k = 5.0
+															} else if (n.properties.NAME === "Hawaii") {
+																k = 7.0
+															} else if (n.properties.CENSUSAREA <= 15000) {
+																k = 11.0
+															} else if (n.properties.CENSUSAREA > 15000 && n.properties.CENSUSAREA <= 30000) {
+																k = 9.0
+															} else if (n.properties.CENSUSAREA > 30000 && n.properties.CENSUSAREA <= 50000) {
+																k = 8.0
+															} else if (n.properties.CENSUSAREA > 50000 && n.properties.CENSUSAREA <= 70000) {
+																k = 6.5
+															} else if (n.properties.CENSUSAREA > 70000 && n.properties.CENSUSAREA <= 90000) {
+																k = 6.0
+															} else if (n.properties.CENSUSAREA > 90000 && n.properties.CENSUSAREA <= 110000) {
+																k = 5.0
+															} else if (n.properties.CENSUSAREA > 110000 && n.properties.CENSUSAREA <= 130000) {
+																k = 4.0
+															} else if (n.properties.CENSUSAREA > 130000 && n.properties.CENSUSAREA <= 150000) {
+																k = 3.5
+															} else {
+																k = 2.75
+															};
+															centered = n;
 
-                            } else {
-                              x = map_width / 1.35;
-                              y = map_height / 1.1;
-                              k = 1;
-                              centered = null;
+														} else {
+															x = map_width / 1.35;
+															y = map_height / 1.1;
+															k = 1;
+															centered = null;
 
-                            }
-                            g.select("path")
-                              .on("mouseover", function(d) {
-                                tip.show(d);
-                                BarChart(d);
-                              })
-                              .on("mouseout", tip.hide);
+														}
 
-                            g.selectAll("path")
-                              .classed("active", centered && function(d) {
-                                return d === centered;
-                              });
+														g.selectAll("path")
+															.classed("active", centered && function(d) {
+																return d === centered;
+															});
 
-                            g.transition()
-                              .duration(750)
-                              .attr("transform", "translate(" + map_width / 1.35 + "," + map_height / 1.1 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-                              .style("stroke-width", .15 / k + "px");
-                          }
-                        }
-                      }
-                    }
-                  }
+														g.transition()
+															.duration(750)
+															.attr("transform", "translate(" + map_width / 1.35 + "," + map_height / 1.1 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+															.style("stroke-width", .15 / k + "px");
+													}
+												}
+											}
+										}
+									}
 
                   function getColor(d) {
                     for (var i = 0; i < map_data.length; i++) {
@@ -1378,10 +1372,10 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
 									for (var i = 0; i < 9; i++) {
 
-										var g = legend.append("div")
+										var l = legend.append("div")
 											.attr("id", "p2_legend_key");
 
-										var key = g.append("div")
+										var key = l.append("div")
 											.attr("id", "p2_key")
 											.style("position", "relative")
 											.append("svg")
@@ -1397,7 +1391,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 											});
 
 
-										g.append("div")
+										l.append("div")
 											.attr("id", "p2_key_value")
 											.style("position", "relative")
 											.style("color", "blue")
