@@ -64,12 +64,12 @@ title: DATA Act Information Model Schema Data Dictionary v1.2
   </thead>
   {% for element in site.data.elementsv1_2%}
   <tr>
-    <td>{{ element.Grouping }}</td>
+    <td>{{ element.File }}</td>
     <td>{{ element.DataElementLabel }}</td>
     <!--<td><a href="#C{{ forloop.index | plus:1 }}">{{ element.DAIMSSemanticLabel }}</a></td>-->
     <td>{{ element.Definition }}</td>
     <td>{{ element.Use }}</td>
-    <td>{{element.DataCatagory}}</td>
+    <td>{{element.Grouping}}</td>
   </tr>
   {% endfor %}
 </table>
