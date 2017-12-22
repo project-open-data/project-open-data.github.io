@@ -34,7 +34,7 @@ The Information Flow provides an overview of the sources of the data included in
 
 The RSS provides details on what data needs to be submitted by an agency. The RSS contains prescriptive guidance to report appropriations account, object class, program activity, and award financial data from an agency's financial system(s). The award financial data contains instructions to link the data between the financial systems and the award systems using the award identification number. In addition, the RSS now contains the details of the Financial Assistance Broker Submission (FABS) file. The File FABS contains the information for an agency’s submission of its financial assistance award and awardee data. The RSS also includes information about optional/required data, field length, and other metadata to ensure data quality. The RSS documents contain the specific instructions a federal agency will need to submit data.
 
-The RSS includes three files that the agencies will submit to Treasury’s Broker:
+The RSS includes four files that the agencies will submit to Treasury’s Broker:
 - File A – Appropriations Account Detail
 - File B – Object Class and Program Activity Detail
 - File C – Award Financial Detail
