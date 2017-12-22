@@ -218,10 +218,10 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                   for (var i = 0; i < 18; i++) {
 
-                    var g = legend.append("div")
+                    var z = legend.append("div")
                       .attr("id", "legend_key");
 
-                    var key = g.append("div")
+                    var key = z.append("div")
                       .attr("id", "key")
                       .style("position", "relative")
                       .append("svg")
@@ -237,7 +237,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       });
 
 
-                    g.append("div")
+                    z.append("div")
                       .attr("id", "key_value")
                       .style("position", "relative")
                       .style("color", "blue")
@@ -873,7 +873,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     x_width = 470,
                     barHeight = 18,
                     barPadding = 5,
-                    bar, scale, xAxis, labelWidth = 0;
+                    bar, scale, p2_xAxis, labelWidth = 0;
 
                   max = d3.max(initial_bar, function(d) {
                     return d.fed_funding;
@@ -926,7 +926,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .domain([0, max])
                     .range([0, x_width - labelWidth]);
 
-                  xAxis = d3.svg.axis()
+                  p2_xAxis = d3.svg.axis()
                     //.orient("bottom")
                     .scale(scale)
                     .tickSize(-p2_matrix_svg[0][0].attributes[1].nodeValue + axisMargin)
@@ -949,7 +949,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                   p2_matrix_svg.insert("g", ":first-child")
                     .attr("class", "axisHorizontal")
                     .attr("transform", "translate(" + labelWidth + "," + 255 + ")")
-                    .call(xAxis)
+                    .call(p2_xAxis)
                     .selectAll("text")
                     .attr("y", 10)
                     .attr("x", 0)
@@ -976,21 +976,21 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .scale([575]); // scale things down so see entire US ---1455
 
                   // Define path generator
-                  var path = d3.geo.path() // path generator that will convert GeoJSON to SVG paths
+                  var p2_path = d3.geo.path() // path generator that will convert GeoJSON to SVG paths
                     .projection(projection); // tell path generator to use albersUsa projection
 
                   var centered = null;
 
                   ////console.log("Map_Data: ",map_data)
 
-                  var g = p2_map_svg.append("g");
+                  var m = p2_map_svg.append("g");
 
                   //var OnMouseOver = "BarChart; tip.show"
 
-                  g.selectAll("path")
+                  m.selectAll("p2_path")
                     .data(us.features)
                     .enter().append("path")
-                    .attr("d", path)
+                    .attr("d", p2_path)
                     .attr("class", "counties_mini")
                     .attr("data-coc", function(d) {
                       return d.properties.coc_number;
@@ -1001,7 +1001,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     .attr("data-name", function(d) {
                       return d.properties.name;
                     })
-                    .attr("d", path)
+                    .attr("d", p2_path)
                     .on("click", clicked)
                     .style("fill", getColor)
                     .on("mouseover", function(d) {
@@ -1107,7 +1107,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 														var n = json.features[h]
 														//console.log("clicked n: ",n);
 														if (n && centered !== n) {
-															var centroid = path.centroid(n)
+															var centroid = p2_path.centroid(n)
 															x = centroid[0]
 															y = centroid[1]
 
@@ -1151,12 +1151,12 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
 														}
 
-														g.selectAll("path")
+														m.selectAll("p2_path")
 															.classed("active", centered && function(d) {
 																return d === centered;
 															});
 
-														g.transition()
+														m.transition()
 															.duration(750)
 															.attr("transform", "translate(" + map_width / 1.35 + "," + map_height / 1.1 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
 															.style("stroke-width", .15 / k + "px");
@@ -1238,7 +1238,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       x_width = 470,
                       barHeight = 18,
                       barPadding = 5,
-                      bar, scale, xAxis, labelWidth = 0;
+                      bar, scale, p2_xAxis, labelWidth = 0;
 
                     max = d3.max(initial_bar, function(d) {
                       return d.fed_funding;
@@ -1291,7 +1291,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       .domain([0, max])
                       .range([0, x_width - labelWidth]);
 
-                    xAxis = d3.svg.axis()
+                    p2_xAxis = d3.svg.axis()
                       //.orient("bottom")
                       .scale(scale)
                       .tickSize(-p2_matrix_svg[0][0].attributes[1].nodeValue + axisMargin)
@@ -1314,7 +1314,7 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                     p2_matrix_svg.insert("g", ":first-child")
                       .attr("class", "axisHorizontal")
                       .attr("transform", "translate(" + labelWidth + "," + 255 + ")")
-                      .call(xAxis)
+                      .call(p2_xAxis)
                       .selectAll("text")
                       .attr("y", 10)
                       .attr("x", 0)
