@@ -60,6 +60,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       d3.select('svg_1').remove()
                       d3.select('#p2_right').remove()
 											d3.select('#p2_left').remove()
+											d3.select('#p2_legend').remove()
+											d3.select('#p2_legend_title').remove()
                       GenMap()
                       GenPanelTwo()
                       //GenScatter();
@@ -72,6 +74,8 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       d3.select('svg_1').remove()
 											d3.select('#p2_right').remove()
 											d3.select('#p2_left').remove()
+											d3.select('#p2_legend').remove()
+											d3.select('#p2_legend_title').remove()
                       GenTable()
                       GenPanelTwo()
                       //GenScatter()

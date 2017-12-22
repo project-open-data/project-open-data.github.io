@@ -568,7 +568,7 @@
     float:left;
     height: 50px;
     width: 53px;
-    margin: -25px -7px 0 9px;
+    margin: 20px -7px 0 9px;
   }
 
   #p2_key{
@@ -592,9 +592,14 @@
   .p2_legend_title{
     position: relative;
     left: 20px;
+    height:1px;
   }
 
   #p2_key_value > p{
     font-size: 1.2rem;
+  }
+
+  #p2_legend_title > div > h5{
+    height:1px;
   }
 }
