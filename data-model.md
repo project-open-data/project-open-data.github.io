@@ -7,10 +7,14 @@ title: Data Model
 page: data-model
 redirect_from: "/data-exchange-standard/"
 ---
-# The Latest_December 22, 2017_: Treasury released the DATA Act Information Model Schema (DAIMS) v1.2. DAIMS v1.2 is a minor update of the schema and will be implemented with the submission of fiscal year 2018 quarter 3 data. Find out more at the [DAIMS v1.2]({{site.baseurl}}/DAIMS-v1.2/).
+# The Latest
+_December 22, 2017_: Treasury released the DATA Act Information Model Schema (DAIMS) v1.2. DAIMS v1.2 is a minor update of the schema and will be implemented with the submission of fiscal year 2018 quarter 3 data. Find out more at the [DAIMS v1.2]({{site.baseurl}}/DAIMS-v1.2/).
+
 # DATA Act Information Model Schema v1.1
 _Released June 30, 2017_ – A core requirement of the DATA Act is the development of government-wide data standards to ensure the reporting of reliable, consistent federal spending data for public use. Office of Management and Budget (OMB) and Treasury finalized the data definition standards and Treasury used the data definition standards to develop the initial draft of the DATA Act data exchange standard, or Schema, in May 2015. Treasury collected public input and feedback from federal agencies and implemented an agile development methodology to create the DATA Act Information Model Schema (DAIMS) v1.0. DAIMS v1.1 is a minor update to transition financial assistance reporting to the DATA Act Broker, to better align with another federal government source system, and to provide clarifications for improved usability.
+
 DAIMS gives an overall view of the hundreds of distinct data elements used to tell the story of how federal dollars are spent. It includes artifacts that provide technical guidance for federal agencies about what data to report to Treasury including the authoritative sources of the data elements and the submission format. The DAIMS also provides clarity on how the public can better understand the inherent complexity of the data.
+
 ##### DAIMS includes: 
 - **Overview and Architecture** – provides an overview of the data standard and its architecture. 
 - **Information Flow** – provides an overview of the reporting timeframes and sources of the data included in the DAIMS across the federal enterprise. 
@@ -21,10 +25,13 @@ DAIMS gives an overall view of the hundreds of distinct data elements used to te
 - **DAIMS Diagrams** – display visual representations of how the data elements from the RSS and IDD fit together in context. 
 - **Online Data Dictionary** – contains a comprehensive list of data elements with definitions and some associated metadata. 
 - **XBRL Schema Files** – provide a machine-readable version of the data standards that include accounting-related and award-related content.
+
 ## Overview and Architecture
 The [DAIMS Overview]({{site.baseurl}}/assets/docs/DAIMS_Overview.pdf){:target="_blank"} describes the scope and value of the data standard. The [DAIMS Architecture]({{site.baseurl}}/assets/docs/DAIMS_Architecture.pdf) details the data standard conceptual model, specifications, and schema management. The DAIMS architecture is designed to meet the needs of the business users and technical systems. It serves as the foundation for the DAIMS data standard. It is extensible through domain, component, element, and metadata. Additional descriptive content on the DAIMS architecture will be released as necessary. Please submit any questions or feedback to [Community](https://usaspending-help.zendesk.com/hc/en-us/community/topics){:target="_blank"}.
+
 ## Information Flow
 The Information Flow provides an overview of the sources of the data included in the DAIMS and how the data will be submitted to the DATA Act Broker. Treasury will maintain the current cadence for reporting federal awards on a daily and twice-monthly basis and added the quarterly reporting of financial data in May 2017. This updated model shows how the data flows from the agency financial and awards systems to the public website.  
+
 <img width="800" src="{{ site.baseurl }}/assets/docs/DAIMS_Information_Flow_Diagram_v1.1.png" title="information flow diagram" />
 
 ## Reporting Submission Specification (RSS)
@@ -54,17 +61,16 @@ The [domain values]({{site.baseurl}}/assets/docs/DAIMS_Domain_Values_v1.1.xlsx) 
 The [terse labels]({{site.baseurl}}/assets/docs/DAIMS_Agency_Label_To_Terse_Label_v1.1.xlsx) provide shortened versions of data element names.
 
 ## DAIMS Diagrams
-
 The diagrams are visual representations of how the different data elements are related. They show the groupings of elements and attributes.
 
 <div class="list-group" style="width:50%;">  
-<a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_A_v1.1.pdf" target="_blank" class="list-group-item">File A – Appropriations Account Detail v1.1</a>  
-<a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_B_v1.1.pdf" target="_blank" class="list-group-item">File B – Object Class and Program Activity Detail v1.1</a>  
-<a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_C_v1.1.pdf" target="_blank" class="list-group-item">File C – Award and Financial Detail v1.1</a>  
-<a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D1_v1.1.pdf" target="_blank" class="list-group-item">File D1 – Award and Awardee Attributes (Procurement) v1.1</a>  
-<a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D2_v1.1.pdf" target="_blank" class="list-group-item">File D2 – Award and Awardee Attributes (Financial Assistance) v1.1</a>  
-<a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_E_v1.1.pdf" target="_blank" class="list-group-item">File E – Additional Awardee Attributes v1.1</a>  
-<a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_F_v1.1.pdf" target="_blank" class="list-group-item">File F – Sub-award Attributes v1.1</a></div>
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_A_v1.1.pdf" target="_blank" class="list-group-item">File A – Appropriations Account Detail v1.1</a>  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_B_v1.1.pdf" target="_blank" class="list-group-item">File B – Object Class and Program Activity Detail v1.1</a>  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_RSS_Diagram_File_C_v1.1.pdf" target="_blank" class="list-group-item">File C – Award and Financial Detail v1.1</a>  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D1_v1.1.pdf" target="_blank" class="list-group-item">File D1 – Award and Awardee Attributes (Procurement) v1.1</a>  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_D2_v1.1.pdf" target="_blank" class="list-group-item">File D2 – Award and Awardee Attributes (Financial Assistance) v1.1</a>  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_E_v1.1.pdf" target="_blank" class="list-group-item">File E – Additional Awardee Attributes v1.1</a>  
+  <a href="{{site.baseurl}}/assets/docs/DAIMS_IDD_Diagram_File_F_v1.1.pdf" target="_blank" class="list-group-item">File F – Sub-award Attributes v1.1</a></div>
 
 ## Online Data Dictionary
 The [Data Dictionary]({{ site.baseurl }}/data-dictionary/){:target="_blank"} is a comprehensive list of data elements with definitions and some associated metadata.
