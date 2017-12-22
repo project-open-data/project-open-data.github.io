@@ -6,9 +6,11 @@ filename: dictionary-v1.2.md
 title: DATA Act Information Model Schema Data Dictionary v1.2
 ---
 <div class="article-wrap">
-<h1> DATA Act Information Model Schema Data Dictionary v1.1 </h1>
-<p><i>Released December 22, 2017: </i>December 22, 2017: Treasury released the DATA Act Information Model Schema (DAIMS) v1.2. DAIMS v1.2 is a minor update of the schema and will be implemented with the submission of fiscal year 2018 quarter 3 data. Find out more information about DAIMS v1.2 beyond the Data Dictionary at [DAIMS v1.2]({{site.baseurl}}/DAIMS-v1.2/). </p>
-  
+<h1> DATA Act Information Model Schema Data Dictionary v1.2 </h1>
+<p>
+
+<i>Released December 22, 2017: </i>December 22, 2017: Treasury released the DATA Act Information Model Schema (DAIMS) v1.2. DAIMS v1.2 is a minor update of the schema and will be implemented with the submission of fiscal year 2018 quarter 3 data. Find out more information about DAIMS v1.2 beyond the Data Dictionary at [DAIMS v1.2]({{site.baseurl}}/DAIMS-v1.2/).
+</p>
 <h2 style="margin-top:50px">Background</h2>
 <p>The DATA Act Information Model Schema (DAIMS; DATA Act Schema) provides an overall view of the hundreds of distinct data elements used to tell the story of how federal dollars are spent. The purpose of the data dictionary is to provide assistance in understanding the data elements within the DATA Act Schema.</p>
 
@@ -31,7 +33,7 @@ title: DATA Act Information Model Schema Data Dictionary v1.2
 <p>
   <strong>Data Element Label</strong> &mdash; The name of an element in the DATA Act Schema.
 </p>
-<p>    
+<p>
   <strong>Definition</strong> &mdash; The business definition for the element.
 </p>
 <p>
@@ -41,7 +43,7 @@ title: DATA Act Information Model Schema Data Dictionary v1.2
   <li>Optional – Element may be included but is not required.</li>
   <li>Conditional per Validation Rule – Element may be needed based on a validation rule.</li>
   <li>Conditional per Award Type – Element may be needed based on the type of award.</li>
-  <li>Derived – Element content is obtained from the content of another element. For example, ZIP code is used to derive city and state.</li>        
+  <li>Derived – Element content is obtained from the content of another element. For example, ZIP code is used to derive city and state.</li>
   <li>Extracted – Element is pulled from another source.</li>
 </ul>
 </p>
