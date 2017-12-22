@@ -784,7 +784,6 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
 
                   d3.select("#container2").append("div").attr("id", "p2_left")
                   d3.select("#container2").append("div").attr("id", "p2_right")
-
                   d3.select("#p2_left").append("div").attr("id", "panel_map")
                   d3.select("#p2_left").append("div").attr("id", "panel_matrix")
                   d3.select("#p2_right").append("div").attr("id", "panel_coc")
@@ -1338,6 +1337,69 @@ d3.json('/data-lab-data/2017_CoC_Grantee_Areas_2.json', function(us) {
                       .style("text-anchor", "end")
                       .text("Homeless CFDA Programs");
                   }
+
+									d3.select("#container2").append("div").attr("id", "p2_legend_title")
+									d3.select("#container2").append("div").attr("id", "p2_legend")
+
+									var legend_title = d3.select("#p2_legend_title")
+										.attr("width", info_width + margin.left + margin.right)
+										.attr("height", 20);
+
+									var legend = d3.select("#p2_legend")
+										.attr("width", info_width + margin.left + margin.right)
+										.attr("height", info_height + margin.top + margin.bottom);
+
+									var legend_title = d3.select("#p2_legend_title")
+										.append("div")
+										.attr("class", "p2_legend_title")
+										.attr("height", "15px")
+										.attr("width", map_width + margin.left + margin.right)
+										.html("<h5>CFDA Service Category</h5>")
+										.style("text-anchor", "center");
+
+									var legend = d3.select("#p2_legend")
+										.append("div")
+										.attr("width", map_width + margin.left + margin.right)
+										.attr("height", "100px")
+										.attr("padding", "50px 0 0 50px");
+
+									var color = ["#7B4C66","#C98845","#695C7C","#297B84","#4A8D5B","#759043",
+										"#A08E39","#4A6C87","#278673"
+										]
+
+									var legend_key_values = ["Housing","Housing & Education","Services","Health",
+										"Support Services","Housing & Services","Health & Housing","Education & Services",
+										"Housing & Research"
+										];
+
+									for (var i = 0; i < 9; i++) {
+
+										var g = legend.append("div")
+											.attr("id", "p2_legend_key");
+
+										var key = g.append("div")
+											.attr("id", "p2_key")
+											.style("position", "relative")
+											.append("svg")
+											.attr("height", "40px")
+											.attr("width", "53px")
+											.append("rect")
+											.attr("x", 10)
+											.attr("y", 10)
+											.attr("height", 30)
+											.attr("width", 30)
+											.style("fill", function(d) {
+												return color[i];
+											});
+
+
+										g.append("div")
+											.attr("id", "p2_key_value")
+											.style("position", "relative")
+											.style("color", "blue")
+											.html("<p>" + legend_key_values[i] + "</p>");
+									}
+
                 } // end of GenPanelTwo
 
                 function GenScatter() {

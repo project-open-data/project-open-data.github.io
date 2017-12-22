@@ -30,7 +30,7 @@
     background-color: inherit;
     font-family: inherit;
     width: 1024px;
-    height: 615px;
+    height: 800px;
     overflow: visible;
   }
 
@@ -274,14 +274,14 @@
   #p2_left {
     float: left;
     position: relative;
-    width: 470px;
+    width: 512px;
     height: 600px;
   }
 
   #p2_right {
     float: right;
     position: relative;
-    width: 470px;
+    width: 512px;
     height: 600px;
   }
 
@@ -308,7 +308,7 @@
     overflow: visible;
     background-color: inherit;
     min-height: 255px;
-    margin-left: -65px;
+    margin-left: 10px;
     margin-top: -25px;
   }
 
@@ -318,7 +318,7 @@
     overflow: visible;
     background-color: inherit;
     min-height: 255px;
-    margin-left: -50px;
+    margin-left: 10px;
   }
 
   .panel_title {
@@ -551,5 +551,50 @@
   .axisHorizontal .tick line {
     stroke-width: 1;
     stroke: rgba(0, 0, 0, 0.2);
+  }
+
+  #p2_legend{
+    position: relative;
+    min-width: 470.48648648648657px;
+  }
+
+  #p2_legend_title{
+    position: relative;
+    min-width: 470.48648648648657px;
+  }
+
+  #p2_legend_key{
+    position: relative;
+    float:left;
+    height: 50px;
+    width: 53px;
+    margin: -25px -7px 0 9px;
+  }
+
+  #p2_key{
+    position: relative;
+  }
+
+  #p2_key_value{
+    position: relative;
+    height: 10px;
+    width: 150px;
+    margin: 47px 3px 3px -105px;
+    text-align: right;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -sand-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .p2_legend_title{
+    position: relative;
+    left: 20px;
+  }
+
+  #p2_key_value > p{
+    font-size: 1.2rem;
   }
 }
