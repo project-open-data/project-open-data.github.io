@@ -1,0 +1,605 @@
+.homeless-analysis {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #FFFFFF;
+
+  & p.subheading {
+    font-size: 1.75rem;
+    color: #525252;
+    font-style: italic;
+  }
+
+  & div.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #funding-map {
+    height: 100px;
+  }
+
+  #container {
+    position: relative;
+    background-color: inherit;
+    font-family: inherit;
+    width: 1024px;
+    height: 800px;
+  }
+
+  #container2{
+    position: relative;
+    background-color: inherit;
+    font-family: inherit;
+    width: 1024px;
+    height: 760px;
+    overflow: visible;
+  }
+
+  #viz_container {
+    position: relative;
+    height: 600px;
+    width: 950px;
+    background-color: rgba(243,246,255,0);
+    overflow: visible;
+  }
+
+  #map_container {
+    position: relative;
+    overflow: visible;
+    background-color: #ddd;
+  }
+
+  #table_container {
+    position: relative;
+    overflow: auto;
+    height: 575px;
+    width: 950px;
+  }
+
+  #legend {
+    position: relative;
+    height: 100px;
+    width: 955px;
+    margin-top: -25px;
+  }
+
+  .counties {
+    stroke: #FFF;
+    stroke-width: 0.25px;
+  }
+
+  .counties_mini {
+    stroke: #FFF;
+    stroke-width: 0.15px;
+  }
+
+  .legend_title {
+    position: relative;
+  }
+
+  .legend_title > h5 {
+    width: 950px;
+    text-align: center;
+    color: #4F4F4F;
+    font-weight: 500;
+  }
+
+  .tick {
+    font-size: 16px;
+    fill: #4F4F4F;
+    font-weight: 500;
+  }
+
+  .control {
+    font-family: inherit;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 800px;
+    overflow: hidden;
+  }
+
+  .control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .control_indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+    border: 0 solid #000000;
+  }
+
+  .control-radio .control_indicator {
+    border-radius: 50%;
+  }
+
+  .control input:focus ~ .control_indicator,
+  .control:hover input ~ .control_indicator {
+    background: #cccccc;
+  }
+
+  .control input:checked ~ .control_indicator {
+    background: #2aa1c0;
+  }
+
+  .control input:checked:focus ~ .control_indicator,
+  .control:hover input:not([disabled]):checked ~ .control_indicator {
+    background: #0e6647;
+  }
+
+  .control input:disabled ~ .control_indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+
+  .control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+  }
+
+  .control input:checked ~ .control_indicator:after {
+    display: block;
+  }
+
+  .control-radio .control_indicator:after {
+    left: 7px;
+    top: 7px;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #ffffff;
+  }
+
+  .control-radio input:disabled ~ .control_indicator:after {
+    background: #7b7b7b;
+  }
+
+  .SearchBar {
+    display: inline;
+    position: relative;
+    left: 1%;
+  }
+
+  .SearchBar input {
+    position: relative;
+    left: 2%;
+  }
+
+  #tab {
+    top: 85px;
+    left: 20px;
+    border-collapse: collapse;
+    //height:72px;
+    margin-bottom: 0;
+  }
+
+  #tab a:link,
+  #tab a:visited {
+    text-decoration: none;
+  }
+
+  #tab a:hover,
+  a:active {
+    text-decoration: underline;
+  }
+
+  #tab,
+  #tab > tbody > tr > td,
+  #tab > tbody > tr > th {
+    border: 1px solid black;
+  }
+
+  #tab > tbody > tr > td,
+  #tab > tbody > tr > th {
+    padding: 5px;
+    text-align: center;
+    height: 20px;
+  }
+
+  #tab > thead > tr > th {
+    background-color: #1C2C46;
+    color: #D3D2D8;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  #tab > tbody > tr > td {
+    background-color: #cccccc;
+  }
+
+  #tab > tbody > tr:hover td {
+    background-color: #edf8b1;
+  }
+
+  #scatter {
+    position: relative;
+    float: left;
+  }
+
+  #panel {
+    margin-top: 125px;
+    margin-left: 15px;
+    position: relative;
+    float: left;
+    height: 550px;
+    width: 309px;
+  }
+
+  #panel h2 {
+    font-size: 2em;
+    font-family: inherit;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color: #666666;
+  }
+
+  #panel p {
+    font-size: 1.2em;
+    font-family: inherit;
+    margin-top: 15px;
+    padding: 0;
+  }
+
+  .axis line,
+  .axis path {
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.1);
+    shape-rendering: crispEdges;
+  }
+
+  .axisLine {
+    fill: none;
+    shape-rendering: crispEdges;
+    stroke: rgba(0, 0, 0, 0.8);
+    stroke-width: 2px;
+  }
+
+  .dot {
+    fill-opacity: 0.5;
+  }
+
+  #p2_left {
+    float: left;
+    position: relative;
+    width: 512px;
+    height: 600px;
+  }
+
+  #p2_right {
+    float: right;
+    position: relative;
+    width: 512px;
+    height: 600px;
+  }
+
+  #panel_matrix {
+    position: relative;
+    float: left;
+    overflow: visible;
+  }
+
+  #panel_map {
+    margin-top: 5px;
+    position: relative;
+    overflow: visible;
+    background-color: inherit;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #414b57;
+    background-color: #ddd;
+  }
+
+  #panel_info {
+    position: relative;
+    margin-top: 5px;
+    overflow: visible;
+    background-color: inherit;
+    min-height: 255px;
+    margin-left: 10px;
+    margin-top: -25px;
+  }
+
+  #panel_coc {
+    position: relative;
+    margin-top: 5px;
+    overflow: visible;
+    background-color: inherit;
+    min-height: 255px;
+    margin-left: 10px;
+  }
+
+  .panel_title {
+    font-size: 2em;
+    font-style: inherit;
+    font-weight: lighter;
+    margin: -7px 0 20px;
+    padding: 0;
+    color: #0071BC;
+    line-height: 30px;
+  }
+
+  .panel_desc {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    /*text-transform: capitalize;
+    font-variant:small-caps;*/
+    color: #555555;
+  }
+
+  .panel_text {
+    font-style: inherit;
+    font-size: 1.5em;
+    //margin-top: -3px;
+    //text-transform: capitalize;
+    /*font-variant:small-caps;*/
+    color: #555555;
+  }
+
+  #cfda_info > table{
+    min-width: 100%
+  }
+
+  #cfda_info > table > tbody > tr > td.val {
+    font-size: 1em;
+    color: #555555;
+    font-weight: bolder;
+    min-width: 70px;
+    margin:5px 0px 0px 0px;
+  }
+
+  #cfda_info > table > tbody > tr > td.name {
+    font-size: 1em;
+    color: #555555;
+    text-align: left;
+    width:465px;
+    margin:5px 0px 0px 0px;
+  }
+  .head_val{
+    color: #555555;
+    font-size: 1.1em;
+    min-width: 70px;
+  }
+
+  .head_name{
+    color: #555555;
+    font-size: 1.1em;
+    width: 200px;
+  }
+
+  .icon {
+    position: relative;
+    margin: 0;
+  }
+
+  #cfda_info_header{
+    margin-bottom: 13px;
+  }
+
+  .background {
+    fill: #FFF;
+  }
+
+  .axis line,
+  .axis path {
+    fill: none;
+    stroke: #FFF;
+    shape-rendering: crispEdges;
+  }
+
+  #legend_key #key #key_value {
+    position: relative;
+  }
+
+  #legend_key {
+    height: 50px;
+    width: 53px;
+    margin: 0 -7px 0 -15px;
+    float: right;
+  }
+
+  #key {
+    height: 40px;
+    width: 53px;
+    margin: 3px 3px 0 0;
+  }
+
+  #key_value {
+    height: 10px;
+    width: 50px;
+    margin: 14px 3px 3px -14px;
+    text-align: right;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -sand-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #key_value > p {
+    font-size: 1.2rem;
+  }
+
+  .axisLine {
+    fill: none;
+    shape-rendering: crispEdges;
+    stroke: #FFF;
+    stroke-width: 2px;
+  }
+
+  .d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+    border-radius: 2px;
+    border-color: black;
+    border-width: 2px;
+    pointer-events: none;
+  }
+  .d3-tip b{
+    font-weight: bolder;
+    font-size: 1em;
+  }
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    background: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+    position: absolute;
+    pointer-events: none;
+  }
+  /* Northward tooltips */
+  .d3-tip.n:after {
+    content: "\25BC";
+    margin: -1px 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+  }
+  /* Eastward tooltips */
+  .d3-tip.e:after {
+    content: "\25C0";
+    margin: -4px 0 0;
+    top: 50%;
+    left: -8px;
+  }
+  /* Southward tooltips */
+  .d3-tip.s:after {
+    content: "\25B2";
+    margin: 0 0 1px;
+    top: -8px;
+    left: 0;
+    text-align: center;
+  }
+  /* Westward tooltips */
+  .d3-tip.w:after {
+    content: "\25B6";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+  }
+
+  #button_holder {
+    position: relative;
+    height: 100px;
+    width: 150px;
+    left: 345px;
+  }
+
+  .button {
+    border: 1px solid #0071bc;
+    background: #ffffff;
+    padding: 12.5px 25px;
+    border-radius: 1px;
+    color: #0071bc;
+    font-size: 15px;
+    font-family: inherit;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
+  .button:hover {
+    border-top-color: #0071bc;
+    background: #0071bc;
+    color: #ffffff;
+  }
+
+  .button:active {
+    border-top-color: #0071bc;
+    background: #0071bc;
+  }
+
+  .scatter rect {
+    fill: #ddd;
+    shape-rendering: crispEdges;
+  }
+
+  .text-stuff {
+    width: 1024px;
+    font-family: inherit;
+    font-size: 14;
+  }
+
+  .bar {
+    fill-opacity: 0.9;
+  }
+
+  .axisHorizontal path {
+    fill: none;
+  }
+
+  .axisHorizontal .tick line {
+    stroke-width: 1;
+    stroke: rgba(0, 0, 0, 0.2);
+  }
+
+  #p2_legend{
+    position: relative;
+    min-width: 470.48648648648657px;
+  }
+
+  #p2_legend_title{
+    position: relative;
+    min-width: 470.48648648648657px;
+  }
+
+  #p2_legend_key{
+    position: relative;
+    float:left;
+    height: 50px;
+    width: 53px;
+    margin: 20px -7px 0 3px;
+  }
+
+  #p2_key{
+    position: relative;
+  }
+
+  #p2_key_value{
+    position: relative;
+    height: 10px;
+    width: 150px;
+    margin: 45px 3px 3px -107px;
+    text-align: right;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -sand-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .p2_legend_title{
+    position: relative;
+    left: 20px;
+    height:1px;
+  }
+
+  #p2_key_value > p{
+    font-size: 1.2rem;
+  }
+
+  #p2_legend_title > div > h5{
+    height:1px;
+  }
+}

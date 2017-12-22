@@ -12,7 +12,7 @@ page: contract-sunburst
       <img src="{{site.baseurl}}/assets/img/BFS_DataLab_Alpha_icon.png" style="width: 50.5px; height: 19.5px; margin-top:3rem">
       <h2 style="margin-top:0; margin-bottom:10px">Government Contractors</h2>
       <p class="subheading">Explore federal agencies and their contractors</p>
-      <p>Ever wonder who’s getting federal contracts, and what agencies are awarding them? This data visualization tool allows you to see to whom federal contracts are being awarded in Q2 FY17 and what product or services they are being awarded for. Selecting each layer of this chart provides an additional level of detail, starting from major agency to any associated sub-agencies, and to the contractors that receive funding from the federal government.</p>
+      <p>Ever wonder who’s getting federal contracts, and what agencies are awarding them? This data visualization tool allows you to see to whom federal contracts are being awarded in Q3 FY17 and what product or services they are being awarded for. Selecting each layer of this chart provides an additional level of detail, starting from major agency to any associated sub-agencies, and to the contractors that receive funding from the federal government.</p>
     </div>
     <div class="col-md-4" style="padding-left:0">
       <div style="border-color:#d6d7d9; border-width: 1px; border-style: solid; padding:10px; margin-bottom:40px; margin-top:30px; height: 270px">
@@ -22,7 +22,7 @@ page: contract-sunburst
           <div style="left:65px;top:14px;width:70px;" class="legend_circleKeyLabel"><span style="left:75px;">Contractor</span></div>
           <div style="left:65px;top:25px;" class="legend_circleKeyLabel"><span style="left:75px;">Funding Subagency</span></div>
           <div style="left:65px;top:36px;" class="legend_circleKeyLabel"><span style="left:75px;">Funding Agency</span></div>
-          <div style="left:65px;top:65px;" class="legend_circleKeyLabel"><span style="left:75px;">2017 Q2 Total Contracts</span></div>
+          <div style="left:65px;top:65px;" class="legend_circleKeyLabel"><span style="left:75px;">2017 Q3 Total Contracts</span></div>
           <svg id="legend_scaleKey"></svg>
         </div>
       </div>
@@ -43,7 +43,7 @@ page: contract-sunburst
             <div style="left:65px;top:14px;width:70px;" class="legend_circleKeyLabel"><span style="left:75px;">Contractor</span></div>
             <div style="left:65px;top:25px;" class="legend_circleKeyLabel"><span style="left:75px;">Funding Subagency</span></div>
             <div style="left:65px;top:36px;" class="legend_circleKeyLabel"><span style="left:75px;">Funding Agency</span></div>
-            <div style="left:65px;top:65px;" class="legend_circleKeyLabel"><span style="left:75px;">2017 Q2 Total Contracts</span></div>
+            <div style="left:65px;top:65px;" class="legend_circleKeyLabel"><span style="left:75px;">2017 Q3 Total Contracts</span></div>
             <svg id="legend_scaleKey"></svg>
           </div>
         </div>
@@ -51,16 +51,18 @@ page: contract-sunburst
       </div>
     </div>-->
     </div>
+    <footer>
     <div class="row mt-0">
       <div style="min-width: 100%;">
         <h5 style="margin-bottom:1.3rem; margin-top:1.3rem">Notes</h5>
-        <p>1. Department of Defense data included in this visualization were reported by other agencies on behalf of DoD. DoD is currently preparing its first DATA Act submission of award-level financial details.<br/>2. The total amount represents the dollar value awarded during the period, including adjustments made by contract modifications. Downward adjustments in contract value are not depicted with icons in this alpha release, so icons may not always sum to the top level amount.</p>
+        <p>The total amount represents the dollar value awarded during the period, including adjustments made by contract modifications. Downward adjustments in contract value are not depicted with icons in this alpha release, so icons may not always sum to the top level amount.</p>
       </div>
       <div style="margin-top:30px">
         <h5 style="margin-bottom:1.3rem; margin-top:1.3rem">How this analysis was conducted</h5>
         <p>This analysis was conducted using agency contract award data reported to USAspending.gov, which is available to the public. Each reported contract includes “top tier agency,” “sub-tier agency,” and a “product and service code.” By summarizing the contract award data (available within the awards API endpoint within the DATA Act API) by each of these three attributes, a nested data file is created that drives the information in the data table above.</p>
       </div>
     </div>
+    </footer>
   </div>
 </div>
 <!-- d3 -->

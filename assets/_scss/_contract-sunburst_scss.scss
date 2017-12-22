@@ -4,6 +4,7 @@
 		color: #525252;
 		font-style:italic;
 	}
+	
  #sunburst > circle {
     fill: none;
     stroke: #000000;
@@ -136,7 +137,7 @@
     display: block;
     left: 45px;
     top: -8px;
-    width: 90px;
+    width: 120px;
     z-index: 100;
   }
   #legend_scaleKey {
@@ -168,6 +169,11 @@
   .val{
     font-size:1.3em;
     color:#205493;
+    font-weight: bolder;
+  }
+  .neg_val{
+    font-size:1.3em;
+    color:#AF002A;
     font-weight: bolder;
   }
   .name{

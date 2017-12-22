@@ -56,7 +56,7 @@ From that, we have developed a preliminary set of targeted user types, called â€
         <div class="cell">
             <img src="{{ site.baseurl }}/assets/img/user_personas/data_owner_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/data_owner_user_persona.pdf" target='_blank'><strong>Data Owner</strong></a>: The agency person responsible for the accuracy and completeness of the data</p>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Data_Owner_user_persona.pdf" target='_blank'><strong>Data Owner</strong></a>: The agency person responsible for the accuracy and completeness of the data</p>
     </div>
 </div>
 
@@ -65,14 +65,14 @@ From that, we have developed a preliminary set of targeted user types, called â€
         <div class="cell">
             <img src="{{ site.baseurl }}/assets/img/user_personas/agency_developer_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/agency_developer_user_persona.pdf" target='_blank'>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Agency_Developer_user_persona.pdf" target='_blank'>
 <strong>Agency Developer</strong></a>: The agency person or contractor with technical expertise to get the data into the USA Spending data store</p>
     </div>
     <div class="col-md-6 persona-block">
         <div class="cell">
            <img src="{{ site.baseurl }}/assets/img/user_personas/cfo_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/cfo_user_persona.pdf" target='_blank'>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/CFO_user_persona.pdf" target='_blank'>
 <strong>CFO</strong></a>: The CFO of an agency (or his/her staff), who is accountable for the agencyâ€™s overall performance, and who also may use USA Spending as a management tool</p>
     </div>
 </div>
@@ -82,14 +82,14 @@ From that, we have developed a preliminary set of targeted user types, called â€
         <div class="cell">
            <img src="{{ site.baseurl }}/assets/img/user_personas/omb_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{site.baseurl }}/assets/downloads/user_personas/budget_analyst_user_persona.jpg" target='_blank'>
+        <p><a href="{{site.baseurl }}/assets/downloads/user_personas/Budget_Analyst_user_persona.pdf" target='_blank'>
 <strong>Budget Analyst</strong></a>: Data reviewers with oversight across the government</p>
     </div>
     <div class="col-md-6 persona-block"> 
         <div class="cell">
            <img src="{{ site.baseurl }}/assets/img/user_personas/repurposer_mug.jpg" class="img-responsive img-circle">
         </div>
-        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/repurposer_user_persona.jpg" tartet='_blank'>
+        <p><a href="{{ site.baseurl }}/assets/downloads/user_personas/Repurposer_user_persona.pdf" target='_blank'>
 <strong>Repurposer</strong></a>: Technically savvy user who aggregates, translates, and/or resells data for their own purposes</p>
     </div>
 </div>
