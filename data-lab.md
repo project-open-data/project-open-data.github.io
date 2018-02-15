@@ -27,7 +27,7 @@ page: data-lab
         <div class="col-md-6">
           <div class="panel panel-default tall-col">
             <div class="panel-body" style= "min-height: 286.86px">
-              <a href="{{site.baseurl}}/data-lab/homeless-analysis/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_Homelessness.jpg" class="img-responsive" style="alighn:center">
+              <a href="{{site.baseurl}}/data-lab/homeless-analysis/"><img src="https://fedspendingtransparency.github.io/assets/img/BFS_DataLab_Image_Homelessness.jpg" class="img-responsive" style="alighn:center">
               <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Federal Spending on Homelessness</h5></a>
               <p class="subheading" style="padding-bottom: 10px">Explore federal occupations across the United States</p>
             </div>
