@@ -27,8 +27,8 @@ page: data-lab
         <div class="col-md-6">
           <div class="panel panel-default tall-col">
             <div class="panel-body" style= "min-height: 286.86px">
-              <a href="{{site.baseurl}}/data-lab/fedscope-tool/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_fedscope-tool.png" class="img-responsive" style="alighn:center">
-              <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Who works in Government?</h5></a>
+              <a href="{{site.baseurl}}/data-lab/homeless-analysis/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_Homelessness.jpg" class="img-responsive" style="alighn:center">
+              <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Federal Spending on Homelessness</h5></a>
               <p class="subheading" style="padding-bottom: 10px">Explore federal occupations across the United States</p>
             </div>
           </div>
@@ -37,9 +37,9 @@ page: data-lab
         <div class="col-md-6">
           <div class="panel panel-default tall-col">
             <div class="panel-body" style= "min-height: 286.86px">
-              <a href="{{site.baseurl}}/data-lab/contract-sunburst/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_budget-sankey.png" class="img-responsive">
-              <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Government Contractors</h5></a>
-              <p class="subheading">Explore federal agencies and their contractors</p>
+              <a href="{{site.baseurl}}/data-lab/fedscope-tool/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_fedscope-tool.png" class="img-responsive" style="alighn:center">
+              <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Who works in Government?</h5></a>
+              <p class="subheading" style="padding-bottom: 10px">Explore federal occupations across the United States</p>
             </div>
           </div>
         </div>
@@ -72,8 +72,31 @@ page: data-lab
       </div>
 
     </div>
-    <p style="text-align:center; margin-bottom:0">Please continue to check back, as new analyses are coming soon!</p>
+
+  <!--Third row of boxes-->
+  <div class="row">
+
+    <div class="col-md-6">
+      <div class="panel panel-default tall-col" style="margin-bottom:0">
+        <div class="panel-body" style= "min-height: 286.86px">
+          <a href="{{site.baseurl}}/data-lab/contract-sunburst/"><img src="{{ site.baseurl }}/assets/img/BFS_DataLab_Image_budget-sankey.png" class="img-responsive">
+          <h5 style="padding-bottom:10px; padding-top:10px; margin-bottom:0; text-align:center; color: #525252">Government Contractors</h5></a>
+          <p class="subheading">Explore federal agencies and their contractors</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="panel panel-default short-col" style="height: 286.86px; margin-bottom:0">
+        <div class="panel-body">
+            <h5 style="padding-bottom:10px; padding-top:70px; margin-bottom:0; text-align:center; color: #525252">Please continue to check back, as new analyses are coming soon!</h5>
+        </div>
+      </div>
+    </div>
+
   </div>
+</div>
+
   <!--narrow righthand column-->
   <div class="col-md-4" style="padding-left:40px; padding-top:15px; padding-right=10px; padding-bottom:0px">
     <div class="panel-container">
@@ -137,7 +160,7 @@ page: data-lab
             </div>
           </div>
         </div>
-        
+
     </div>
   </div>
 </div>
