@@ -7,10 +7,183 @@
     color: #525252;
     font-style: italic;
   }
+  & ul{
+    margin-bottom:25px;
 
+    &.li {
+      margin-bottom: 5px;
+      margin-top: 5px
+    }
+  }
+
+  .button {
+    background-color: #0071BC;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    cursor: pointer;
+}
+  .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #inherit;
+      margin-top: 10px;
+  }
+
+  /* Style the buttons inside the tab */
+  .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+      background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+      background-color: inherit;
+      border-bottom: solid 2px #0071BC;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+  }
+  .tab2 {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #inherit;
+      margin-top: 10px;
+  }
+
+  /* Style the buttons inside the tab */
+  .tab2 button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab2 button:hover {
+      background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+  .tab2 button.active {
+      background-color: inherit;
+      border-bottom: solid 2px #0071BC;
+  }
+
+  /* Style the tab content */
+  .tabcontent2 {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+  }
   & div.row {
     margin-left: 0;
     margin-right: 0;
+    margin-top:50px;
+  }
+  .modal {
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     padding-top: 100px; /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .modal-body{
+    max-width: 90%;
+  }
+  /* Modal Content */
+  .modal-content {
+     background-color: #fefefe ;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%;
+  }
+
+  /* The Close Button */
+  .close {
+     color: #aaaaaa ;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+  }
+
+  .close2 {
+     color: #aaaaaa ;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+  }
+
+  .close2:hover,
+  .close2:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+  }
+
+  .closeContact {
+     color: #aaaaaa ;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+  }
+
+  .closeContact:hover,
+  .closeContact:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+  }
+  & hr {
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: inset;
+      border-color: #ccc;
+      border-width: 0.5px;
   }
 
   #funding-map {
@@ -23,14 +196,41 @@
     font-family: inherit;
     width: 1024px;
     height: 800px;
+    margin-top: 65px;
   }
 
-  #container2{
+  #container2_1{
     position: relative;
     background-color: inherit;
     font-family: inherit;
-    width: 1024px;
-    height: 760px;
+    width: 500px;
+    min-height: 300px;
+    overflow: visible;
+  }
+
+  #container2_2{
+    position: relative;
+    background-color: inherit;
+    font-family: inherit;
+    height: 300px;
+    overflow: visible;
+  }
+
+  #container2_3{
+    position: relative;
+    background-color: inherit;
+    font-family: inherit;
+    min-height: 370px;
+    //max-width: 250px;
+    overflow: visible;
+    top:-40px;
+  }
+
+  #container2_4{
+    position: relative;
+    background-color: inherit;
+    font-family: inherit;
+    height: 415px;
     overflow: visible;
   }
 
@@ -45,7 +245,7 @@
   #map_container {
     position: relative;
     overflow: visible;
-    background-color: #ddd;
+    background-color: inherit;
   }
 
   #table_container {
@@ -67,7 +267,7 @@
     stroke-width: 0.25px;
   }
 
-  .counties_mini {
+  #counties_mini {
     stroke: #FFF;
     stroke-width: 0.15px;
   }
@@ -289,43 +489,58 @@
     position: relative;
     float: left;
     overflow: visible;
+    margin-top: -5px;
   }
 
   #panel_map {
-    margin-top: 5px;
+    margin-top: 0;
+    margin-bottom: 45px;
     position: relative;
     overflow: visible;
     background-color: inherit;
-    border-style: solid;
+    /*border-style: solid;
     border-width: 0.5px;
-    border-color: #414b57;
-    background-color: #ddd;
+    border-color: #414b57;*/
+    background-color: inherit;
+  }
+  #p2_4_legend{
+    height: 50px;
+    width: 100%;
+    padding-left:20px;
+  }
+  #p2_4_legend_title{
+    padding-bottom:10px;
   }
 
   #panel_info {
     position: relative;
     margin-top: 5px;
+    padding-top: 10px;
     overflow: visible;
     background-color: inherit;
     min-height: 255px;
     margin-left: 10px;
-    margin-top: -25px;
+    margin-top: 20px;
   }
 
+  #p2_quad3_title{
+    padding-top:35px;
+  }
   #panel_coc {
     position: relative;
-    margin-top: 5px;
+    //top:50px;
     overflow: visible;
     background-color: inherit;
+    max-width: 460px;
     min-height: 255px;
-    margin-left: 10px;
+    float:left;
   }
 
   .panel_title {
     font-size: 2em;
     font-style: inherit;
     font-weight: lighter;
-    margin: -7px 0 20px;
+    margin: 10px 0 0 0;
     padding: 0;
     color: #0071BC;
     line-height: 30px;
@@ -347,6 +562,15 @@
     //text-transform: capitalize;
     /*font-variant:small-caps;*/
     color: #555555;
+    width:400px;
+  }
+
+  .panel_text2{
+    font-style: inherit;
+    font-size: 1.5em;
+    color:#0071bc;
+    text-align: right;
+    width: 200px;
   }
 
   #cfda_info > table{
@@ -382,11 +606,12 @@
 
   .icon {
     position: relative;
-    margin: 0;
+    margin: 0 0 2px 0;
   }
 
   #cfda_info_header{
     margin-bottom: 13px;
+    margin-top:20px;
   }
 
   .background {
@@ -440,64 +665,43 @@
     stroke: #FFF;
     stroke-width: 2px;
   }
+ /*.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+}
 
-  .d3-tip {
-    line-height: 1;
-    font-weight: bold;
-    padding: 12px;
-    background: rgba(0, 0, 0, 0.8);
-    color: #FFF;
-    border-radius: 2px;
-    border-color: black;
-    border-width: 2px;
-    pointer-events: none;
-  }
-  .d3-tip b{
-    font-weight: bolder;
-    font-size: 1em;
-  }
-  /* Creates a small triangle extender for the tooltip */
-  .d3-tip:after {
-    box-sizing: border-box;
-    display: inline;
-    font-size: 10px;
-    width: 100%;
-    line-height: 1;
-    background: rgba(0, 0, 0, 0.8);
-    color: #FFF;
-    position: absolute;
-    pointer-events: none;
-  }
-  /* Northward tooltips */
-  .d3-tip.n:after {
-    content: "\25BC";
-    margin: -1px 0 0;
-    top: 100%;
-    left: 0;
-    text-align: center;
-  }
-  /* Eastward tooltips */
-  .d3-tip.e:after {
-    content: "\25C0";
-    margin: -4px 0 0;
-    top: 50%;
-    left: -8px;
-  }
-  /* Southward tooltips */
-  .d3-tip.s:after {
-    content: "\25B2";
-    margin: 0 0 1px;
-    top: -8px;
-    left: 0;
-    text-align: center;
-  }
-  /* Westward tooltips */
-  .d3-tip.w:after {
-    content: "\25B6";
-    margin: -4px 0 0 -1px;
-    top: 50%;
-    left: 100%;
-  }
+/* Creates a small triangle extender for the tooltip */
+/*.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Northward tooltips */
+/*.d3-tip.n:after {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+  content: "\25BC";
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}*/
 
   #button_holder {
     position: relative;
@@ -553,53 +757,85 @@
     stroke: rgba(0, 0, 0, 0.2);
   }
 
-  #p2_legend{
-    position: relative;
-    min-width: 470.48648648648657px;
+  .axisHorizontal2 path {
+    fill: none;
   }
 
-  #p2_legend_title{
-    position: relative;
-    min-width: 470.48648648648657px;
+  .axisHorizontal2 .tick line {
+    stroke-width: 1;
+    stroke: rgba(0, 0, 0, 0.2);
+  }
+  #p2_2{
+    height: 330px;
+    margin-bottom:15px;
   }
 
-  #p2_legend_key{
+  #p2_2_legend{
     position: relative;
-    float:left;
+    height: 65px;
+    width: 750px;
+    margin-left: 10px;
+  }
+
+  #p2_2_legend_title{
+    position: relative;
+    height: 70px;
+    padding-top: 2em;
+  }
+
+  #p2_2_legend_key{
     height: 50px;
     width: 53px;
-    margin: 20px -7px 0 3px;
+    margin: -15px 0 -7px 0;
+    padding: 0 40px 0 40px;
+    float: left;
   }
 
-  #p2_key{
-    position: relative;
+  #p2_2_key{
+    height: 30px;
+    width: 53px;
+    margin: 0 0 3px 10px;
   }
 
-  #p2_key_value{
-    position: relative;
+  #p2_2_key_value{
     height: 10px;
-    width: 150px;
-    margin: 45px 3px 3px -107px;
+    width: 50px;
+    margin: 0 20px 3px 20;
     text-align: right;
-    -ms-transform: rotate(-45deg);
+    /*-ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     -sand-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    transform: rotate(-45deg);*/
   }
 
-  .p2_legend_title{
+  .p2_2_legend_title{
     position: relative;
+    top:10px;
     left: 20px;
     height:1px;
   }
 
-  #p2_key_value > p{
+  #p2_2_key_value p{
     font-size: 1.2rem;
+    line-height: 1.5rem;
   }
 
-  #p2_legend_title > div > h5{
+  #p2_2_legend_title > div > h5{
     height:1px;
   }
+
+  .p2_1_title{
+    position: relative;
+    text-align: center;
+    max-width: 465.48px;
+    min-height: 66px;
+  }
+
+  #myModalContact{
+    z-index: 99999;
+  }
+
+
 }
