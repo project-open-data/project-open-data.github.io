@@ -1,4 +1,4 @@
-<!---
+---
 published: true
 permalink: /data-lab/homeless-analysis/
 layout: visualization
@@ -8,17 +8,61 @@ page: homeless-analysis
 ---
 <img src="{{site.baseurl}}/assets/img/BFS_DataLab_Alpha_icon.png" style="width: 50.5px; height: 19.5px; margin-top:3rem">
 <h2 style="margin-bottom:1.3rem; margin-top:0">Federal Spending on Homelessness</h2>
-<p class="subheading">Subway tile poke VHS, marfa typewriter pinterest blog deep v taiyaki tacos williamsburg fanny pack.</p>
-<div class="row">
-	<div class="col-md-8" style="margin-left:0; padding-left:0; padding-right:30px">
-		<p>Small batch irony brunch taxidermy chartreuse vice mlkshk. Try-hard flannel art party meh tilde, lo-fi blue bottle semiotics keffiyeh coloring book meggings seitan. Brooklyn viral heirloom humblebrag PBR&B. Single-origin coffee migas pop-up, XOXO authentic pug deep v actually la croix truffaut everyday carry raw denim seitan godard vinyl. Banh mi YOLO cornhole austin. Narwhal pug gluten-free, la croix 8-bit thundercats listicle. Poke slow-carb cray, heirloom raw denim organic whatever vinyl schlitz. Edison bulb cronut cold-pressed listicle brunch. Quinoa enamel pin locavore messenger bag chillwave listicle post-ironic. Distillery banjo typewriter bespoke. Flannel sriracha schlitz franzen irony.</p>
+<p class="subheading">On a single night in 2016-549,928 people experienced homelessness in the United States.</p>
+<div class="row" style="margin-top:10px; margin-bottom: 0; text-style:">
+	<p>Multiple federal, state, and local programs offer support to people experiencing homelessness. Our visualizations
+		display federal financial data to show the breakdown of funding spent to address homelessness.</p>
+</div>
+<hr>
+<div class="row" style="margin-left: -15px; margin-right:-15px">
+
+	<div class="col-md-6">
+		<h5>Part 1: How individuals experiencing homelessness are counted</h5>
+		<p>People experiencing homelessness are counted once a year (in late January) by grantees who receive funding from HUD's Continuum of Care program.
+			This program is the largest federal program related to homelessness. It requires grantees to collect reliable data on the total number of people
+			experiencing homelessness who reside in . . . </p>
+			<button class="button" id="myBtn1">Read More</button>
 	</div>
-	<div class="col-md-4" style="padding-left:0">
-		<div style="border-color:#d6d7d9; border-width: 1px; border-style: solid; padding:10px; margin-bottom:40px">
-			<h6 style="margin-top:0; margin-bottom:5px">How to use this tool:</h6>
-			<p style="margin-bottom:0">Lo-fi deep v actually lumbersexual bicycle rights lomo scenester whatever +1 tbh portland.</p>
+
+	<div id="myModal1" class="modal">
+
+	  <!-- Modal content -->
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <span class="close">&times;</span>
+	      <h2>Part 1: How individuals experiencing homelessness are counted</h2>
+	    </div>
+	    <div class="modal-body">
+				<p>People experiencing homelessness are counted once a year (in late January) by grantees who receive funding from HUD's Continuum of Care program.
+					This program is the largest federal program related to homelessness. It requires grantees to collect reliable data on the total number of people
+					experiencing homelessness who reside in the grantee's geographic area.  </p>
+				<p>State and local governments create the Continuum of Care regions. They reflect how each community organizes itself and applies for funding from
+					HUD's Continuum of Care program. HUD encourages Continuum of Care grantees to use multiple approaches to complete their count, if necessary.
+					Grantees may use a census approach, a sampling approach, or a combination of the methods.</p>
+	  </div>
+	</div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="tab">
+		  <button class="tablinks" onclick="openTab(event, 'HowTo')" id="defaultOpen">How to Use</button>
+		  <button class="tablinks" onclick="openTab(event, 'Sources')"></button>
+		</div>
+
+		<div id="HowTo" class="tabcontent">
+  		<p>To zoom into the map below, double-click on a region. To re-orient the map, double-click on a new region. To zoom out, double-click on the
+				region last clicked on.</p>
+		</div>
+
+		<div id="Sources" class="tabcontent">
+		  <ul style="list-style-type: disc">
+				<li>HUD PIT Count</li>
+		  	<li>CFDA.gov</li>
+		  	<li>Grants data from beta.usaspending.gov</li>
+			</ul>
 		</div>
 	</div>
+
 </div>
 
 <div id="container" height="500px" width="1024px">
@@ -36,62 +80,139 @@ page: homeless-analysis
     </div>
   </div>
   <div class="text-stuff">
-    <h4>Some subheading...</h4>
-    <p>
-      Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br />
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </div>
-  <div id="container2" height="700px" width="1024px"></div>
-  <div class="text-stuff">
-    <h4>Some subheading...</h4>
-    <p>
-      Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br />
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </div>
-  <!-- <div id="container3"  height="700px" width="1024px">
-    <div id="scatter"></div>
-    <div id="panel">
-      <h2>Some Title...</h2>
-      <p>
-        Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.<br /><br />
-        <b>Use your mouse to zoom in and explore the visualization</b>
-      </p>
-    </div>
-  </div>
-  <div id="button_holder">
-    <input type="button" name="xAxis" class="button" value="Reset Graph">
-  </div>
-  <div class="text-stuff">
-    <h4>Some subheading...</h4>
-    <p>
-      Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br />
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </div> -->
+		<p> * White areas with no hover-over represent areas of the country that are not represented by a Continuum of Care area.<br>
+			** Since the shapefile used in the above visualization was created, several CoC's have merged with the balance of state CoC. These CoC's are: IN-500, LA-504, MA-518, and ME-502. We edited the shape file so that the hover over and color for these CoC's reflect the new information but the boundaries for the old CoC are still included in the map. </p>
+		<hr>
+		<div class="row" style="margin-left:-15px; margin-right:-15px">
+
+			<div class="col-md-6">
+				<h5>Part 2: Federal programs that address homelessness</h5>
+				<p>The Department of Housing and Urban Development plays a lead role in federal efforts to address homelessness, although multiple federal
+					agencies manage programs that provide services including education, employment, housing resources, and more.</p>
+				<p>Our analysis identified 33 federal programs that explicitly flagged . . .</p>
+					<button class="button" id="myBtn2">Read More</button>
+			</div>
+			<div id="myModal2" class="modal">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span class="close2">&times;</span>
+						<h2>Part 2: Federal programs that address homelessness</h2>
+					</div>
+					<div class="modal-body">
+						<p><b>The Department of Housing and Urban Development plays a lead role in federal efforts to address homelessness, although multiple federal
+							agencies manage programs that provide services including education, employment, housing resources, and more. </b></p>
+						<p>Our analysis identified 33 federal programs that explicitly flagged homeless individuals as beneficiaries. These included programs that
+							named homeless individuals as primary targets of services or as one of the program's target recipient groups.<sup>2</sup>  We found that programs targeting
+							homelessness focus either on all individuals experiencing homelessness, or on a subset, such as veterans or youth. These programs provide various
+							types of assistance, which we divided into six categories: housing, food, education, employment, health, and support services.</p>
+						<p>Federal funding is just one piece of the puzzle - states, municipalities, and other organizations play a large role in providing funding to address
+							homelessness. While we did not conduct a comprehensive analysis of the relationship between federal, state, local, and private funding sources for
+							programs that alleviate homelessness across the country, numerous examples show that federal funding works as part of a larger network of support.</p>
+						<p>For example, the city of New York spent $1.6 billion on homelessness programs in 2017, compared with about $250 million from federal programs (including those where homeless individuals are one of several beneficiaries).</p>
+						<p>The city of San Francisco spent $275 million on similar programs in 2017, compared to the $63 million they received in federal funding.<sup>3</sup></p>
+						<p>And, to cite an example of private funding, the Church of Latter Day Saints has given $42 million (over the last ten years) to build housing in Salt Lake City.</p>
+				</div>
+			</div>
+		</div>
 
 
-<!---
-<div class="row">
-  <p>Bespoke blue bottle occupy irony cloud bread, YOLO four loko banjo. Forage prism beard everyday carry typewriter jean shorts. Echo park kale chips pinterest schlitz aesthetic, af iPhone fanny pack cloud bread. 90's copper mug hexagon, etsy aesthetic green juice synth health goth marfa chambray jean shorts pour-over. Echo park tofu sartorial distillery direct trade knausgaard, paleo irony. Pitchfork post-ironic snackwave squid. Chartreuse tattooed snackwave godard you probably haven't heard of them knausgaard, twee put a bird on it. Forage salvia pabst, try-hard flannel single-origin coffee whatever seitan viral pug +1 typewriter next level flexitarian unicorn. Letterpress wayfarers farm-to-table vaporware VHS twee leggings slow-carb paleo intelligentsia ugh drinking vinegar photo booth. Bushwick pickled vice coloring book, glossier marfa everyday carry photo booth offal woke. Church-key photo booth vice, poke knausgaard edison bulb farm-to-table you probably haven't heard of them green juice iPhone. Tofu meh fam edison bulb, lumbersexual pop-up jean shorts flexitarian whatever pickled iceland godard keytar fanny pack. Mlkshk post-ironic cloud bread poutine gastropub small batch brunch. Af williamsburg kale chips photo booth.</p>
+			<div class="col-md-6">
+				<div class="tab2">
+				  <button class="tablinks2" onclick="openTab2(event, 'HowTo2')" id="defaultOpen2">How to Use</button>
+				  <button class="tablinks2" onclick="openTab2(event, 'Sources2')"></button>
+				</div>
+
+				<div id="HowTo2" class="tabcontent2">
+		  		<p>To zoom into the map below, double-click on a region. To re-orient the map, double-click on a new region. To zoom out, double-click on the region last clicked on.</p>
+					<p style="margin-bottom:5px">To select a different CoC area and update the charts, single-click a different region. Single-click the bars on the charts to visit a website describing each program in depth.</p>
+				</div>
+
+				<div id="Sources2" class="tabcontent2">
+				  <ul style="list-style-type: disc">
+						<li>HUD PIT Count</li>
+				  	<li>CFDA.gov</li>
+				  	<li>Grants data from beta.usaspending.gov</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row flex" style="min-height:300px">
+		<h3 style="text-align: center; margin-bottom:10px"> Federal Spending on Homelessness by Region</h3>
+		<p style="font-style: italic; text-align: center">Federal grant awards by Continuum of Care Area</p>
+			<div class="col-md-6">
+				<div class="row flex" style="margin-top:0">
+					<div id="container2_1"></div>
+				</div>
+				<!--<button class="button" id="myBtnContact" style="margin: auto; top:-20px;left:170px; position:relative; z-index:99">CoC Contact</button>-->
+				<div class="row flex">
+					<div id="container2_3" style="margin-top:0px"></div>
+					<button class="button" id="myBtnContact" style="margin: auto; top:-20px;left:170px; position:relative; z-index:99">CoC Contact</button>
+				</div>
+				<div id="myModalContact" class="modal">
+					<div class="modal-content" id="modalContact">
+							<span class="closeContact">&times;</span>
+							<div class="modal-body" id="CoCcontact"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row flex" style="margin-top:0">
+					<div id="container2_2"></div>
+				</div>
+				<div class="row flex" style="margin-top:15px">
+					<div id="container2_4"></div>
+				</div>
+			</div>
+	</div>
+
+<div class="row" style="margin-top:20px">
+	<p>*This chart shows dollars awarded to the state government and any awards with in the state that could not be linked to a continuum of care due to data quality issues.</p>
+	<h5>Final Thoughts</h5>
+	<p>As these visualizations depict, thousands of people are homeless across the United States. We hope that this analysis show how federal funding impacts homelessness and can
+		serve as a useful tool for state and local governments, as well as private institutions, who are working to reduce homelessness. In addition, we chose to conduct this analysis
+		because it features data from across multiple federal agencies, which is all available in one dataset. Analysts and users who have ideas for other types of analyses, whether
+		featuring contracts or financial assistance across the federal government, can use the Data Lab's Analyst Guide for guidance and hints as they use the data.</p>
+
+	<h5>How we conducted this analysis</h5>
+  <p>We conducted this analysis using data from the following sources:</p>
+	<ul>
+		<li>Federal grant award data from <a href="https://www.usaspending.gov">USAspending.gov</a></li>
+		<li>Federal program descriptions from the <a href="https://www.cfda.gov/">Catalogue of Federal Domestic Assistance </a>(CFDA)</li>
+		<li>Point-in-Time (PIT) estimates of people experiencing homelessness from the Department of Housing and Urban Development's (HUD's) 2017 <a href="https://www.hudexchange.info/resources/documents/2007-2017-HIC-Counts-by-CoC.XLSX">Point-in-Time (PIT) Data</a></li>
+	</ul>
+	<p>To accurately determine the amount the federal government spends addressing homelessness, we reviewed federal program descriptions using the CFDA, looking for any mention of
+		keywords related to homelessness.</p>
+	<p>We developed a ranking system to assess whether individuals experiencing homelessness would directly benefit from these programs, and categorized these programs by the type
+		of service they provide.<sup>1</sup></p>
+	<p>For example, the Homeless Veterans Reintegration Program provides services to homeless veterans looking for jobs, which we classified as employment related. We presented
+		these programs to the U.S. Interagency Council on Homelessness, who recommended that we remove several programs where the preponderance of funds went to beneficiaries other
+		than individuals experiencing homelessness.</p>
+	<p>We used this dataset to identify all grant spending from USAspending.gov for the programs we determined to have a direct relation to homelessness. As part of our analysis,
+		we identified two categories of grant awards in USAspending.gov data that are relevant to our work: </p>
+	<ul>
+		<li>grant awards for a Continuum of Care area (an administrative region recognized by HUD) or were awarded to organizations within its geographic area;</li>
+		<li>grant awards that didn't have specific location data; and</li>
+		<li>grant awards that supported organizations across a state.</li>
+	</ul>
+	<p>To create our visualization, we mapped funding amounts for the programs that fell within a Continuum of Care area using mapping files provided by HUD. The data used in this
+		story was updated as of January 2018.</p>
 </div>
 
+<hr>
+<p><sup>1</sup><a href="https://github.com/fedspendingtransparency/datalab/tree/dev/assets/homelessness-documents"> https://github.com/fedspendingtransparency/datalab/tree/dev/assets/homelessness-documents</a></p>
+<p><sup>2</sup> As an example, we included a program managed by the Department of Health and Human Services called <i>Grants for New and Expanded Services under the Health Center Program</i>,
+	which provides funding for expanded and sustained national investment in health centers, even though people experiencing homelessness were one type of beneficiary listed, along with
+	migrant workers, public housing residents, and others. We did not include programs intended to address poverty or that provide resources for low-income individuals if homeless individuals
+	were not specifically mentioned as a type of beneficiary.</p>
+<p><sup>3</sup> Federal, state, and local fiscal years do not always align to the same time frame; the purpose here is to make a broad comparison.</p>
 <!-- d3 -->
-<!---
 <script src="{{site.baseurl}}/assets/js/vendor/d3.v3.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/vendor/spin.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/jquery-2.2.0.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/d3.tip.v0.6.3.js"></script>
 <script src="{{site.baseurl}}/assets/js/topojson.v1.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/homeless-format.js"></script>
 <script src="{{site.baseurl}}/assets/js/homeless.js"></script>
----!>
