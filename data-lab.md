@@ -6,6 +6,8 @@ filename: data-model.md
 title: Data Lab
 page: data-lab
 ---
+{% include datalab-banner.html %}
+
 <div class="alert alert-info clearfix" role="alert" style="margin-bottom:0; padding-top:5px; padding-bottom:5px">
     <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
     <p style="margin-top:0">The content provided on this site is undergoing continuous development, and may not match data currently displayed on beta.USAspending.gov or USAspending.gov. We are providing these visualizations to collect feedback and ideas from the public.</p>
