@@ -9,6 +9,7 @@ filename: data-hubs.md
 * [Economic Research Service](http://www.ers.usda.gov/data-products.aspx)
 * [Food and Nutrition Service](http://www.fns.usda.gov/data-and-statistics)
 * [Foreign Agricultural Service](http://www.fas.usda.gov/data)
+* [National Agricultural Library](https://data.nal.usda.gov/)
 * [National Agricultural Statistics Service](http://www.nass.usda.gov/Data_and_Statistics/)
 
 ### [Department of Commerce](http://www.commerce.gov/data)
@@ -90,6 +91,8 @@ filename: data-hubs.md
 * [National Renewable Energy Laboratoryn - The Open PV Project](https://openpv.nrel.gov/login.php?dest=data)
 
 ### [General Services Administration](http://www.gsa.gov/data)
+* [pulse.cio.gov](https://pulse.cio.gov/data/)
+* [analytics.usa.gov](https://analytics.usa.gov/data/)
 
 ### [National Archives and Records Administration](http://www.archives.gov/data)
 
@@ -110,7 +113,9 @@ filename: data-hubs.md
 ### [United States Agency for International Development](http://www.usaid.gov/data)
 
 ### Other Agencies
+* [Corporation for National and Community Service](https://data.nationalservice.gov/)
 * [Executive Office of the President - The White House](https://open.whitehouse.gov/)
+* [Export-Import Bank](https://data.exim.gov/)
 * [Federal Communications Commission](http://www.fcc.gov/data)
 * [Federal Elections Commission](http://www.fec.gov/data/)
   * *see also:* [Federal Elections Commission Disclosure Data](http://www.fec.gov/disclosure.shtml)
