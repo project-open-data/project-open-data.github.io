@@ -6,6 +6,11 @@ filename: data-model.md
 title: Data Lab
 page: data-lab
 ---
+
+<script>
+	window.location = "https://datalab.usaspending.gov/index.html";
+</script>
+
 {% include datalab-banner.html %}
 
 <div class="alert alert-info clearfix" role="alert" style="margin-bottom:0; padding-top:5px; padding-bottom:5px">
