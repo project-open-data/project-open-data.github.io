@@ -1,15 +1,15 @@
 {
   "@context": {
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "org": "http://www.w3.org/ns/org#",
-    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+    "org": "https://www.w3.org/ns/org#",
+    "vcard": "https://www.w3.org/2006/vcard/ns#",
     "foaf": "http://xmlns.com/foaf/0.1/",
-    "@vocab": "http://www.w3.org/ns/dcat#",
+    "@vocab": "https://www.w3.org/ns/dcat#",
     "dc": "http://purl.org/dc/terms/",
     "pod": "https://project-open-data.cio.gov/v1.1/schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skos": "https://www.w3.org/2004/02/skos/core#",
     "describedBy": {
-      "@id": "http://www.w3.org/2007/05/powder#describedby",
+      "@id": "https://www.w3.org/2007/05/powder#describedby",
       "@type": "@id"
     },
     "downloadURL": {
@@ -24,11 +24,11 @@
     "description": "dc:description",
     "issued": {
       "@id": "dc:issued",
-      "@type": "http://www.w3.org/2001/XMLSchema#date"
+      "@type": "https://www.w3.org/2001/XMLSchema#date"
     },
     "modified": {
       "@id": "dc:modified",
-      "@type": "http://www.w3.org/2001/XMLSchema#date"
+      "@type": "https://www.w3.org/2001/XMLSchema#date"
     },
     "language": "dc:language",
     "license": "dc:license",
