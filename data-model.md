@@ -97,5 +97,7 @@ A data standard contains both a human-readable version of the standard and a mac
 
 [Zipped Instance Documents with Data for Fiscal Year 2017 Quarter 4 (July to September 2017)](https://s3-us-gov-west-1.amazonaws.com/da-public-files/xbrl_files/data-act-xbrl-instance-Q4-2018-02-06.zip)
 
+[Zipped Instance Documents with Data for Fiscal Year 2018 Quarter 1 (October to December 2018)](https://s3-us-gov-west-1.amazonaws.com/da-public-files/xbrl_files/data-act-xbrl-instance-Q1-2018-04-16.zip)
+
 ## Data Definition Standards
 The Federal Funding Accountability and Transparency Act (FFATA) and DATA Act outline the required information for federal spending transparency reporting. These requirements were translated into core data definition standards that were standardized with feedback from the federal community and external stakeholders. The finalized definitions and background information for these elements are available on the [Data Elements Page]({{ site.baseurl }}/data-elements/){:target="_blank"}.
