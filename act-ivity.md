@@ -12,10 +12,7 @@ title: DATA Act-ivity
             {% for post in site.posts %}
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <cite>Posted on: {{ post.date | date: "%B %-d, %Y" }}</cite>
-            <p>{{ post.excerpt }}<span class='read-more'> <a href="{{ site.baseurl }}{{ post.url }}">...Read More</a></p>
+            <p>{{ post.excerpt }}<span class='read-more'> <a href="{{ site.baseurl }}{{ post.url }}">...Read More</a>
             {% endfor %}
-        </div>
-        <div class="col-md-4 blog-rail">
-        </div>
-    </div>
-</div>
+        
+     

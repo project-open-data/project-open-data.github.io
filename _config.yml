@@ -34,10 +34,10 @@ navigation:
    url: /about
  - title: Data Model
    url: /data-model
- - title: DAIMS v1.2
-   url: /DAIMS-v1.2
- # - title: Data Broker
- #   url: /data-broker
+ #- title: DAIMS v1.2
+ #  url: /DAIMS-v1.2
+ #- title: DAIMS Schema Files
+ #  url: /daims-schema-files
  - title: User-Centered Design
    url: /user-centered-design
  - title: Get Involved

@@ -120,9 +120,6 @@ The DATA Act Team developed a comprehensive plan for conducting recurring usabil
 
 Testing may occur in participant workspaces, in a website development environment, or anywhere real users will be accessing the site. It may be conducted in person or through remote testing technology.  We will test multiple devices, including desktops, laptops, and mobile devices.
 
-Initially, usability testing is focusing on Agency users to improve the data upload capability. Later, the focus will expand to “data consumers,” such as grant recipients, journalists, and interested citizens, and the [Open Beta site](https://openbeta.usaspending.gov/){:target="_blank"}. Issues identified during testing are addressed during subsequent cycles of design and development, viewable in our open [JIRA](https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all){:target="_blank"} environment.
-
-
-[Read the current usability test plan]({{ site.baseurl }}/assets/downloads/docs/USASpending_usability-test-plan.docx).
+Usability testing includes Agency users to improve the data upload capability and “data consumers” such as grant recipients, journalists, and interested citizens. Issues identified during testing are addressed during subsequent cycles of design and development, viewable in our open [JIRA](https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all){:target="_blank"} environment.
 
 Visit the [Get Involved]({{ site.baseurl }}/get-involved/) page for upcoming Sandbox testing dates for Agency users.

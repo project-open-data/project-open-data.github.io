@@ -18,7 +18,6 @@ The transparency efforts of FFATA were expanded with the enactment of the [Digit
 * Simplify reporting, streamline reporting requirements, and reduce compliance costs, while improving transparency;
 * Improve the quality of data submitted to [USAspending.gov](http://www.usaspending.gov){:target="_blank"} by holding agencies accountable.
 
-The expanded, linked data submitted by the agencies is currently being displayed on [Beta.USAspending.gov](https://beta.usaspending.gov/#/){:target="_blank"}.
 
 ## DATA Act Implementation
 
@@ -28,11 +27,6 @@ To assist agencies with implementation, OMB and Treasury created a playbook of e
 
 <img width="800" src="{{ site.baseurl }}/assets/img/playbook.png" title="agency implementation playbook summary" /> 
 
-#### Open Beta
-
-Instead of building the future USAspending.gov and getting reaction from users after the launch, Treasury has taken the innovative approach of releasing [OpenBeta.USAspending.gov](https://openbeta.usaspending.gov/){:target="_blank"}, a public beta site to show (rather than just tell about) progress as we build.  Open Beta exists to gather users’ recommendations and suggestions in real time on real functionality, and then utilize that feedback to evolve the site.  
-
-Everything you see on this Federal Spending Transparency website is contributing directly or indirectly toward something on Open Beta.  As more infrastructure is built out (data model, agency data submission, and data storage) more data and functions appear on Open Beta.
 
 #### Agile Development Methodology
 
@@ -57,7 +51,3 @@ To help make our user research digestible and actionable, we have developed a pr
 Finally, we test. We have developed a comprehensive plan for conducting recurring usability testing to help us identify potential design concerns. Initially, usability testing is focusing on agecy users. Later, the focus will expand to “data consumers,” including grant recipients, researchers/reporters, and interested citizens.
 
 Usability testing will continue in a regular cadence in sync with the development cycles of our Agile development environment.  More information on our user-centered design process can be found [here]({{ site.baseurl }}/user-centered-design/).
-
-#### FAQs
-
-For more information about the DATA Act and the implementation process, visit [the FAQs]({{site.baseurl}}/faq/).
