@@ -27,7 +27,6 @@ Department of Energy                            |                               
 Department of Health and Human Services         |                                                 | Mona Siddiqui
 Department of Health and Human Services         | Office of the Inspector General                 | Caryl Brzymialkiewicz
 Department of Homeland Security                 |                                                 |
-Department of Homeland Security                 | Federal Emergency Management Agency             | Scott Shoup
 Department of Housing and Urban Development     |                                                 |
 Department of Justice                           |                                                 |
 Department of Labor                             |                                                 |
