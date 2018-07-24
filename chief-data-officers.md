@@ -13,32 +13,35 @@ The Chief Data Officer and Chief Data Scientist are an emerging roles in US Fede
 
 
 {: .table .table-striped}
-CFO Act Agencies                                |  Agency / Bureau                            |  Chief Data Officer             
---------------                                  | --------------                              | --------------                  
-Department of Agriculture                       |                                             | Bobby Jones, Acting
-Department of Commerce                          |                                             | Ian Kalin
-Department of Defense                           |                                             |
-Department of Education                         |                                             |
-Department of Energy                            |                                             | 
-Department of Health and Human Services         |                                             |
-Department of Health and Human Services         | Centers for Medicare and Medicaid Services  | Niall Brennan
-Department of Health and Human Services         | Office of the Inspector General             | Caryl Brzymialkiewicz
-Department of Homeland Security                 |                                             |
-Department of Homeland Security                 | Federal Emergency Management Agency         | Scott Shoup
-Department of Housing and Urban Development     |                                             |
-Department of Justice                           |                                             |
-Department of Labor                             |                                             |
-Department of State                             |                                             |
-Department of the Interior                      |                                             |                
-Department of the Treasury                      |                                             |
-Department of Transportation                    |                                             | Daniel Morgan                  
-Department of Veterans Affairs                  |                                             |
-Environmental Protection Agency                 |                                             |
-General Services Administration                 |                                             | Kris Rowley
-National Aeronautics and Space Administration   |                                             |               
-National Science Foundation                     |                                             |
-Nuclear Regulatory Commission                   |                                             | Arthur Smith
-Office of Personnel Management                  |                                             |
-Small Business Administration                   |                                             |
-Social Security Administration                  |                                             |
-U.S. Agency for International Development       |                                             | Brandon Pustejovsky 
+CFO Act Agencies                                |  Agency / Bureau                                |  Chief Data Officer             
+--------------                                  | --------------                                  | --------------                  
+Consumer Financial Protection Agency            |                                                 | Linda Powell
+Department of Agriculture                       |                                                 | Bobby Jones, Acting
+Department of Commerce                          |                                                 | 
+Department of Commerce                          | National Oceanic and Atmospheric Administration | Ed Kearns
+Department of Commerce                          | U.S. Census Bureau                              | Zach Whitman
+Department of Defense                           |                                                 | Mark Krzysko
+Department of Defense                           | Air Force                                       | Kimberly Crider
+Department of Education                         |                                                 |
+Department of Energy                            |                                                 | 
+Department of Health and Human Services         |                                                 | Mona Siddiqui
+Department of Health and Human Services         | Office of the Inspector General                 | Caryl Brzymialkiewicz
+Department of Homeland Security                 |                                                 |
+Department of Homeland Security                 | Federal Emergency Management Agency             | Scott Shoup
+Department of Housing and Urban Development     |                                                 |
+Department of Justice                           |                                                 |
+Department of Labor                             |                                                 |
+Department of State                             |                                                 |
+Department of the Interior                      |                                                 |                
+Department of the Treasury                      |                                                 |
+Department of Transportation                    |                                                 | Daniel Morgan                  
+Department of Veterans Affairs                  |                                                 | Susan Sullivan
+Environmental Protection Agency                 |                                                 | Robin Thottungal
+General Services Administration                 |                                                 | Kris Rowley
+National Aeronautics and Space Administration   |                                                 |               
+National Science Foundation                     |                                                 |
+Nuclear Regulatory Commission                   |                                                 | Arthur Smith
+Office of Personnel Management                  |                                                 |
+Small Business Administration                   |                                                 |
+Social Security Administration                  |                                                 | Stephen Evangelista
+U.S. Agency for International Development       |                                                 | Brandon Pustejovsky 
