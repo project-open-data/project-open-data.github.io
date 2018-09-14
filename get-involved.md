@@ -48,6 +48,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                   <p><strong>More Resources:</strong></p>
                   <ul>
                      <li><a href="https://fiscal.treasury.gov/fsservices/gov/data-trans/data-trans-home.htm" target="_blank">Fiscal Service Transparency Site</a></li>
+                     <li><a href="https://community.max.gov/pages/viewpage.action?pageId=254050873" target="_blank">MAX Federal Spending Transparency Site</a></li>
                      <li><a href="https://community.max.gov/x/7YIZMg" target="_blank">Agency Reporting Resources</a></li>
                      <li><a href="https://community.max.gov/download/attachments/254050873/DATA_Act_PMO_Resource_Guide_update_April%2019%202018.pdf?version=1&modificationDate=1524163633688&api=v2" target="_blank">Data Act Resources Guide</a></li>
                      <li><a href="https://community.max.gov/x/TQJ1O" target="_blank">DATA Act Digests (Archive)</a></li>
