@@ -34,7 +34,7 @@ Department of State                             |                               
 Department of the Interior                      |                                                 |                
 Department of the Treasury                      |                                                 |
 Department of Transportation                    |                                                 | Daniel Morgan                  
-Department of Veterans Affairs                  |                                                 | 
+Department of Veterans Affairs                  |                                                 | Dan Tran
 Environmental Protection Agency                 |                                                 | Robin Thottungal
 General Services Administration                 |                                                 | Kris Rowley
 National Aeronautics and Space Administration   |                                                 |               
