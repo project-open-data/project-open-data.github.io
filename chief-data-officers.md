@@ -15,7 +15,7 @@ The Chief Data Officer and Chief Data Scientist are an emerging roles in US Fede
 {: .table .table-striped}
 CFO Act Agencies                                |  Agency / Bureau                                |  Chief Data Officer             
 --------------                                  | --------------                                  | --------------                  
-Consumer Financial Protection Agency            |                                                 | Linda Powell
+Consumer Financial Protection Bureau            |                                                 | Linda Powell
 Department of Agriculture                       |                                                 | Ted Kaouck
 Department of Commerce                          |                                                 | 
 Department of Commerce                          | National Oceanic and Atmospheric Administration | Ed Kearns
