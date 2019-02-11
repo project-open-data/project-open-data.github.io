@@ -79,7 +79,7 @@ page: homepage
                         <span class="glyphicon glyphicon-list-alt"></span>
                     </div>
                     <div class="media-body">
-                        <p>USAspending.gov relies on hundreds of distinct data elements to tell the story of how federal dollars are spent. The DATA Act Information Model Schema organizes these elements into a structure that further defines, groups, and relates them to each other. <a href="https://fiscal.treasury.gov/fsservices/gov/data-trans/dt-daims.htm">Learn about the data model</a>.</p>
+                        <p>USAspending.gov relies on hundreds of distinct data elements to tell the story of how federal dollars are spent. The DATA Act Information Model Schema organizes these elements into a structure that further defines, groups, and relates them to each other. <a href="https://fiscal.treasury.gov/data-transparency/DAIMS-current.html">Learn about the data model</a>.</p>
                     </div>
                 </div>
             </div>
