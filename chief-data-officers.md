@@ -15,12 +15,12 @@ The Chief Data Officer and Chief Data Scientist are an emerging roles in US Fede
 {: .table .table-striped}
 CFO Act Agencies                                |  Agency / Bureau                                |  Chief Data Officer             
 --------------                                  | --------------                                  | --------------                  
-Consumer Financial Protection Bureau            |                                                 | Linda Powell
+Consumer Financial Protection Bureau            |                                                 | 
 Department of Agriculture                       |                                                 | Ted Kaouck
 Department of Commerce                          |                                                 | 
 Department of Commerce                          | National Oceanic and Atmospheric Administration | Ed Kearns
 Department of Commerce                          | U.S. Census Bureau                              | Zach Whitman
-Department of Defense                           |                                                 | Mark Krzysko
+Department of Defense                           |                                                 | Michael Conlin 
 Department of Defense                           | Air Force                                       | Eileen M. Vidrine
 Department of Education                         |                                                 |
 Department of Energy                            |                                                 | 
