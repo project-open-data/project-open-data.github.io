@@ -1,10 +1,10 @@
-import sys
 import base64
+import gzip
 import json
 
 
 def generate_config(context):
-    catalog = json.loads(base64.b64decode(context.properties['data_catalog']))
+    catalog = json.loads(gzip.decompress(base64.b64decode(context.properties['data_catalog'])))
     print(catalog)
     resources = []
 
