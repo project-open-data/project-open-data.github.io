@@ -10,6 +10,8 @@ title: Project Company Data
 
 Data is a valuable resource and a strategic asset to a company, its partners, and the public.  Managing this data as an asset and making it available, discoverable, and usable not only promotes efficiency and effectiveness in business, but also has the potential to create economic opportunity and improve quality of life.
 
+This project is based on the work of [Project Open Data](https://project-open-data.cio.gov/).
+
 ----------------
 
 ## 2. Definitions
