@@ -12,3 +12,7 @@ This project constitutes a collaborative work ("open source"). You are encourage
 
 GPLv3, see [the license file](LICENSE) for additional information.
 
+## Acknowledgements
+
+This project is based on the work of [Project Open Data](https://project-open-data.cio.gov/)
+
