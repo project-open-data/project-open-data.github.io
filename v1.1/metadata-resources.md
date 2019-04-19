@@ -6,9 +6,9 @@ permalink: "/v1.1/metadata-resources/"
 filename: "metadata-resources.md"
 ---
 
-This section provides further background and resources to assist agencies in implementing the [Project Open Data Metadata Schema v1.1](../schema/).
+This section provides further background and resources to assist agencies in implementing the [Project Company Data Metadata Schema v1.1](../schema/).
 
-In addition to template and sample files we also produce Project Open Data Metadata schema in JSON schema format. [JSON schema](http://json-schema.org/) describes a JSON data format. It can be used to automatically validate Data.json files and to generate forms for creating JSON.
+In addition to template and sample files we also produce Project Company Data Metadata schema in JSON schema format. [JSON schema](http://json-schema.org/) describes a JSON data format. It can be used to automatically validate Data.json files and to generate forms for creating JSON.
 
 ### Terms and Abbreviations ###
 * **JSON** - [JavaScript Object Notation](http://json.org/)
@@ -22,15 +22,7 @@ In addition to template and sample files we also produce Project Open Data Metad
 
 * [1.1 Schema](../schema/catalog.json). The [Catalog](../schema/catalog.json) schema includes by reference the [Dataset](../schema/dataset.json), [Distribution](../schema/distribution.json), [Organization](../schema/organization.json), and [vCard](../schema/vcard.json) schemas. 
 
-### JSON-LD Context ###
-
-* [1.1 Schema](../schema/catalog.jsonld)
-
-
 ### Sample Data Files
 
 - [JSON - Minimum Requirements](../examples/catalog-sample.json)
 - [JSON - With Extended Fields](../examples/catalog-sample-extended.json)
-- [CSV - Minimum Requirements](../examples/catalog-sample.csv) *(limited to one distribution per dataset)*
-- [CSV - With Extended Fields](../examples/catalog-sample-extended.csv) *(limited to one distribution per dataset)*
-

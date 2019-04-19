@@ -39,7 +39,7 @@ Where optional fields are included in a catalog file but are unpopulated, they m
 
 When a record has an **accessURL** or **downloadURL**, they should be contained as objects within a **distribution**. Any object may be described by **title**, **description**, **format**, or **mediaType**, though when an object contains **downloadURL**, it must be accompanied by **mediaType**.  
 
-The Project Open Data schema is case sensitive. The schema uses a camel case convention where the first letter of some words within a field are capitalized (usually all words but the first one). While it may seem subtle which characters are uppercase and lowercase, it is necessary to follow the exact same casing as defined in the schema documented here.  For example: 
+The Project Company Data schema is case sensitive. The schema uses a camel case convention where the first letter of some words within a field are capitalized (usually all words but the first one). While it may seem subtle which characters are uppercase and lowercase, it is necessary to follow the exact same casing as defined in the schema documented here.  For example: 
 
 > Correct: `contactPoint`  
 > Incorrect: `ContactPoint`  

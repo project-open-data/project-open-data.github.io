@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://project-open-data.cio.gov/v1.1/schema/catalog.json#",
-  "title": "Project Open Data Catalog",
-  "description": "Validates an entire collection of Project Open Data metadata JSON objects. Agencies produce said collections in the form of Data.json files.",
+  "title": "Project Company Data Catalog",
+  "description": "Validates an entire collection of Project Company Data metadata JSON objects. Agencies produce said collections in the form of Data.json files.",
   "type": "object",
   "dependencies": {
     "@type": [

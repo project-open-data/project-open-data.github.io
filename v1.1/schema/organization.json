@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://project-open-data.cio.gov/v1.1/schema/organization.json#",
-  "title": "Project Open Data Organization",
+  "title": "Project Company Data Organization",
   "description": "A Dataset Publisher Organization as a foaf:Agent object",
   "type": "object",
   "required": [
