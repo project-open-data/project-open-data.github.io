@@ -1,9 +1,8 @@
 ---
-published: true
-permalink: /
-layout: hero
-filename: gcp-templates.md
+layout: default
 title: Project Company Data GCP Deployment Templates
+permalink: gcp-templates/
+filename: glossary.md
 ---
 
 ## 1. Google Cloud Platform Deployment 
