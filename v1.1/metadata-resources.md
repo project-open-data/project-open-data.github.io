@@ -6,12 +6,11 @@ permalink: "/v1.1/metadata-resources/"
 filename: "metadata-resources.md"
 ---
 
-This section provides further background and resources to assist agencies in implementing the [Project Open Data Metadata Schema v1.1](/v1.1/schema/).
+This section provides further background and resources to assist agencies in implementing the [Project Open Data Metadata Schema v1.1](../schema/).
 
 In addition to template and sample files we also produce Project Open Data Metadata schema in JSON schema format. [JSON schema](http://json-schema.org/) describes a JSON data format. It can be used to automatically validate Data.json files and to generate forms for creating JSON.
 
 ### Terms and Abbreviations ###
-* **POD** - [Project Open Data](/schema)
 * **JSON** - [JavaScript Object Notation](http://json.org/)
 * **DCAT** - [Data Catalog Vocabulary](http://www.w3.org/TR/vocab-dcat/)
 * **CKAN** - [CKAN software](http://ckan.org/)
@@ -21,7 +20,7 @@ In addition to template and sample files we also produce Project Open Data Metad
 
 ### JSON Schema Files ###
 
-* [1.1 Schema](/v1.1/schema/catalog.json) (Draft). The [Catalog](/v1.1/schema/catalog.json) schema includes by reference the [Dataset](/v1.1/schema/dataset.json), [Distribution](/v1.1/schema/distribution.json), [Organization](/v1.1/schema/organization.json), and [vCard](/v1.1/schema/vcard.json) schemas. 
+* [1.1 Schema](../schema/catalog.json) (Draft). The [Catalog](../schema/catalog.json) schema includes by reference the [Dataset](../schema/dataset.json), [Distribution](../schema/distribution.json), [Organization](../schema/organization.json), and [vCard](../schema/vcard.json) schemas. 
 
 ### JSON-LD Context ###
 
