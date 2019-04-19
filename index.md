@@ -28,7 +28,9 @@ This section is a list of definitions and principles used to guide the project.
 
 Implementation guidance for open data practices.
 
-3-1 [Documenting APIs](v1.1/api/) - The specific guidance for documenting APIs in the data catalogs.   
+3-1 [Documenting APIs](v1.1/api/) - The specific guidance for documenting APIs in the data catalogs.
+
+3-2 [Automated deployment to Google Cloud](gcp-templates/) - Automatically create Google Cloud resources from Project Open Data Schema.   
 
 ----------------
 

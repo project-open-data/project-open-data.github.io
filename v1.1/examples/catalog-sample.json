@@ -11,19 +11,10 @@
       "description": "This dataset provides national statistics on the production of widgets",
       "distribution": [
         {
-          "downloadURL": "https://data.agency.gov/datasets/widgets-statistics/widgets.csv",
-          "mediaType": "text/csv"
-        },
-        {
-          "downloadURL": "https://data.agency.gov/datasets/widgets-statistics/widgets-all.zip",
-          "mediaType": "application/zip"
-        },
-        {
-          "downloadURL": "http://www.agency.gov/feeds/widgets-all.json",
-          "mediaType": "application/json"
-        },
-        {
-          "accessURL": "https://data.agency.gov/api/widgets-statistics/"
+          "accessURL": "https://console.cloud.google.com/storage/browser/my-bucket",
+          "format": "blob-storage",
+          "mediaType": "text/csv",
+          "title": "my-bucket"
         }
       ],
       "identifier": "http://dx.doi.org/10.7927/H45X26V8",
@@ -86,7 +77,8 @@
       "distribution": [
         {
           "downloadURL": "https://data.agency.gov/datasets/widgets-modulator-ranges.csv",
-          "mediaType": "text/csv"
+          "mediaType": "text/csv",
+          "format": "exernal website"
         }
       ],
       "identifier": "http://dx.doi.org/10.7927/H49P2ZKM",
