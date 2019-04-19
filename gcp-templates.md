@@ -12,15 +12,17 @@ to deploy some types of dataset distribution formats using the GCP Deployment Ma
 (e.g. a blob storage) ready to receive the actual data.
  
 The deployment is done using a GCP Deployment Manager template (see [Creating a basic template](https://cloud.google.com/deployment-manager/docs/configuration/templates/create-basic-template))
-for more details. A basic example deploying the storage locations in a catalog:
+for more details. The template [deploy_data_catalog.py](gcp-templates/deploy_data_catalog.py) can be used to deploy Project Company Data Schemas.
+It will iterate all distributions in the specified catalog, returning a set of resources to be created by GCP Deployment Manager.
+A basic example deploying the storage locations in a catalog:
 ```bash
-$ gcloud deployment-manager deployments create my-bucket-test \ 
+$ gcloud deployment-manager deployments create my-catalog-deployment \ 
     --template https://vwt-digital.github.io/project-company-data.github.io/gcp-templates/deploy_data_catalog.py \
-    --properties data_catalog:$(base64 -w0 data_catalog.json)
+    --properties data_catalog:$(gzip -c data_catalog.json | base64 -w0)
 
 ```
-This example creates a GCP deployment named _my_bucket_test_ from the template hosted on the Project Company Data website.
-The data_catalog.json file is a local file containing the Project Company Data schema. It is base64 encoded and passes as a 
+This example creates a GCP deployment named _my-catalog-deployment_ from the template hosted on the Project Company Data website.
+The data_catalog.json file is a local file containing the Project Company Data [catalog](v1.1/schema/catalog.json). It is zipped and base64 encoded and then passed as a 
 property to the GCP deployment template.
 
 ## 2. Supported storage formats
