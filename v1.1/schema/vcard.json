@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://project-open-data.cio.gov/v1.1/schema/vcard.json#",
+  "id": "https://vwt-digital.github.io/project-company-data.github.io/v1.1/schema/vcard.json#",
   "title": "Project Company Data ContactPoint vCard",
   "description": "A Dataset ContactPoint as a vCard object",
   "type": "object",

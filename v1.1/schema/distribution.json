@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://project-open-data.cio.gov/v1.1/schema/distribution.json#",
+  "id": "https://vwt-digital.github.io/project-company-data.github.io/v1.1/schema/distribution.json#",
   "title": "Project Company Data Distribution",
   "description": "Validates an entire collection of common core metadata JSON objects. Agencies produce said collections in the form of Data.json files.",
   "type": "object",

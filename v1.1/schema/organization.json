@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://project-open-data.cio.gov/v1.1/schema/organization.json#",
+  "id": "https://vwt-digital.github.io/project-company-data.github.io/v1.1/schema/organization.json#",
   "title": "Project Company Data Organization",
   "description": "A Dataset Publisher Organization as a foaf:Agent object",
   "type": "object",

@@ -1,11 +1,9 @@
 {
-  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "conformsTo": "https://vwt-digital.github.io/project-company-data.github.io/v1.1/schema",
   "dataset": [
     {
       "accessLevel": "public",
-      "bureauCode": [
-        "018:10"
-      ],
+      "rights": "This dataset does not contain any confidential information and can therefore be release to public",
       "contactPoint": {
         "fn": "Jane Doe",
         "hasEmail": "mailto:jane.doe@agency.gov"
@@ -35,9 +33,6 @@
         "factory"
       ],
       "modified": "2011-11-19T12:00:00Z",
-      "programCode": [
-        "018:001"
-      ],
       "publisher": {
         "name": "Widget Services",
         "subOrganizationOf": {
@@ -54,9 +49,7 @@
     },
     {
       "accessLevel": "public",
-      "bureauCode": [
-        "018:10"
-      ],
+      "rights": "This dataset does not contain any confidential information and can therefore be release to public",
       "contactPoint": {
         "fn": "James Doe",
         "hasEmail": "mailto:james.doe@agency.gov"
@@ -68,9 +61,6 @@
         "modulation"
       ],
       "modified": "2011-11-19T12:00:00Z",
-      "programCode": [
-        "018:001"
-      ],
       "publisher": {
         "name": "Widget Modulation Program",
         "subOrganizationOf": {
@@ -87,9 +77,7 @@
     },
     {
       "accessLevel": "public",
-      "bureauCode": [
-        "018:10"
-      ],
+      "rights": "This dataset does not contain any confidential information and can therefore be release to public",
       "contactPoint": {
         "fn": "James Doe",
         "hasEmail": "mailto:james.doe@agency.gov"
@@ -107,9 +95,6 @@
         "modulation"
       ],
       "modified": "2011-11-19T12:00:00Z",
-      "programCode": [
-        "018:001"
-      ],
       "publisher": {
         "name": "Widget Modulation Program",
         "subOrganizationOf": {

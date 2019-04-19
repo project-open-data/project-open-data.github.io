@@ -8,10 +8,8 @@
         {
             "@type": "dcat:Dataset",
             "accessLevel": "public", 
+            "rights": "This dataset does not contain any confidential information and can therefore be release to public",
             "accrualPeriodicity": "R/P1Y", 
-            "bureauCode": [
-                "018:10"
-            ],
             "conformsTo": "http://www.agency.gov/widget-taxonomy/",
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -71,9 +69,6 @@
             "license": "http://creativecommons.org/publicdomain/zero/1.0/", 
             "modified": "2011-11-19T12:00:00Z", 
             "primaryITInvestmentUII": "021-006227212", 
-            "programCode": [
-                "018:001"
-            ], 
             "publisher": {
                 "@type": "org:Organization",
                 "name": "Widget Services", 
@@ -106,10 +101,8 @@
         {
             "@type": "dcat:Dataset",
             "accessLevel": "public", 
+            "rights": "This dataset does not contain any confidential information and can therefore be release to public",
             "accrualPeriodicity": "R/P1Y", 
-            "bureauCode": [
-                "018:10"
-            ], 
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "James Doe", 
@@ -129,9 +122,6 @@
             "license": "http://creativecommons.org/publicdomain/mark/1.0/", 
             "modified": "2011-11-19T12:00:00Z", 
             "primaryITInvestmentUII": "021-006227212", 
-            "programCode": [
-                "018:001"
-            ], 
             "publisher": {
                 "@type": "org:Organization",
                 "name": "Widget Modulation Program", 
@@ -164,10 +154,8 @@
         {
             "@type": "dcat:Dataset",
             "accessLevel": "public", 
+            "rights": "This dataset does not contain any confidential information and can therefore be release to public",
             "accrualPeriodicity": "R/P1Y", 
-            "bureauCode": [
-                "018:10"
-            ], 
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "James Doe", 
@@ -200,9 +188,6 @@
             "license": "http://creativecommons.org/publicdomain/mark/1.0/", 
             "modified": "2011-11-19T12:00:00Z", 
             "primaryITInvestmentUII": "021-006227212", 
-            "programCode": [
-                "018:001"
-            ], 
             "publisher": {
                 "@type": "org:Organization",
                 "name": "Widget Modulation Program", 

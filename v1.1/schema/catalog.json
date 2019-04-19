@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://project-open-data.cio.gov/v1.1/schema/catalog.json#",
+  "id": "https://vwt-digital.github.io/project-company-data.github.io/v1.1/schema/catalog.json#",
   "title": "Project Company Data Catalog",
   "description": "Validates an entire collection of Project Company Data metadata JSON objects. Agencies produce said collections in the form of Data.json files.",
   "type": "object",
