@@ -12,7 +12,8 @@
     "publisher",
     "contactPoint",
     "identifier",
-    "accessLevel"
+    "accessLevel",
+    "rights"
   ],
   "properties": {
     "@type": {
@@ -33,7 +34,7 @@
     },
     "rights": {
       "title": "Rights",
-      "description": "This may include information regarding access or restrictions based on privacy, security, or other policies. This should also provide an explanation for the selected \"accessLevel\" including instructions for how to access a restricted file, if applicable, or explanation for why a \"non-public\" or \"restricted public\" data assetis not \"public,\" if applicable. Text, 255 characters.",
+      "description": "This may include information regarding access or restrictions based on privacy, security, or other policies. This should also provide an explanation for the selected \"accessLevel\" including instructions for how to access a restricted file. Text, 255 characters.",
       "anyOf": [
         {
           "type": "string",

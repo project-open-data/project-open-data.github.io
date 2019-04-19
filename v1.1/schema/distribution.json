@@ -13,7 +13,7 @@
         }
       },
       "required": [
-        "mediaType"
+        "format"
       ]
     }
   },

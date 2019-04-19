@@ -81,7 +81,7 @@ Field                                                      | Label              
 [identifier](#identifier)                                  | Unique Identifier         | A unique identifier for the dataset or API as maintained within an Agency catalog or database. | Always                                                 
 [accessLevel](#accessLevel)                                | Public Access Level       | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public). | Always 
 [license](#license)                                        | License                   | The license or non-license (i.e. Public Domain) status with which the dataset or API has been published.  See [Open Licenses](/open-licenses/) for more information. | If-Applicable 
-[rights](#rights)                                          | Rights                    | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters. | If-Applicable 
+[rights](#rights)                                          | Rights                    | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters. | Always 
 [spatial](#spatial)                                        | Spatial                   | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place. | If-Applicable                        
 [temporal](#temporal)                                      | Temporal                  | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).  | If-Applicable                                  
 [distribution](#distribution)                              | Distribution              | A container for the array of Distribution objects. See [Dataset Distribution Fields](#dataset-distribution-fields) below for details. | If-Applicable
@@ -160,7 +160,7 @@ Additional details for each field are provided here broken down into sections fo
             * {: .field-optional}[describedBy](#distribution-describedBy)
             * {: .field-optional}[describedByType](#distribution-describedByType)
             * {: .field-optional}[description](#distribution-description)
-            * {: .field-optional}[format](#distribution-format)
+            * {: .field-required}[format](#distribution-format)
             * {: .field-required-if-applicable}[mediaType](#distribution-mediaType)
             * {: .field-optional}[title](#distribution-title)
         * {: .field-required}[identifier](#identifier)
@@ -176,7 +176,7 @@ Additional details for each field are provided here broken down into sections fo
             * {: .field-required}[name](#publisher-name)
             * {: .field-optional}[subOrganizationOf](#publisher-subOrganizationOf)
         * {: .field-optional}[references](#references)
-        * {: .field-required-if-applicable}[rights](#rights)
+        * {: .field-required}[rights](#rights)
         * {: .field-required-if-applicable}[spatial](#spatial)
         * {: .field-required-if-applicable}[temporal](#temporal)
         * {: .field-optional}[theme](#theme)
@@ -641,10 +641,10 @@ Dataset Fields {#Dataset}
 **Field [#](#rights){: .permalink}** | **rights**
 ----- | -----
 **Cardinality** | (0,1)
-**Required** | Yes, if `accessLevel` is "restricted public" or "non-public"
+**Required** | Yes
 **Accepted Values** | String
-**Usage Notes** | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. If the dataset can be made available through a website indirectly, use `accessURL` for the URL that provides such access. 
-**Example** | `{"rights":"This dataset contains Personally Identifiable Information and could not be released for public access."}`
+**Usage Notes** | This should include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel”. 
+**Example** | `{"rights":"This dataset contains Personally Identifiable Information and access is therefore restricted."}`
 
 
 {: .table .table-striped #spatial}
@@ -691,9 +691,9 @@ We sought to be platform-independent and to align as much as possible with exist
 
 To that end, our JSON key names are directly drawn from [DCAT](http://www.w3.org/TR/vocab-dcat/), with a few exceptions.
 
-We added the **accessLevel** field to help easily sort datasets into our three existing categories: public, restricted public, and non-public. This field means an agency can run a basic filter against its enterprise data catalog to generate a public-facing list of datasets that are, or *could one day be*, made publicly available (or, in the case of restricted data, available under certain conditions). This field also makes it easy for anyone to generate a list of datasets that *could* be made available but have not yet been released by filtering **accessLevel** to *public* and **accessURL** to *blank*.
+We added the **accessLevel** field to help easily sort datasets into our three existing categories: public, internal, restricted and confidential. This field means a comanpy can run a basic filter against its enterprise data catalog to generate a public-facing list of datasets that are, or *could one day be*, made publicly available (or, in the case of restricted data, available under certain conditions). This field also makes it easy for anyone to generate a list of datasets that *could* be made available but have not yet been released by filtering **accessLevel** to *public* and **accessURL** to *blank*.
 
-We added the **rights** field (formerly _accessLevelComment_) for data stewards to explain how to access restricted public datasets, and for agencies to have a place to record (even if only internally) the reason for not releasing a non-public dataset.
+We added the **rights** field for data stewards to explain how to access restricted public datasets, and for companies to have a place to record (even if only internally) the reason for the selected accessLevel.
 
 
 Additional Information
