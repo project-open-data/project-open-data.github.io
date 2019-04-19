@@ -1,4 +1,4 @@
-# Project Open Data within your company
+# Project Company Data
 
 ## Problem this Solves
 
