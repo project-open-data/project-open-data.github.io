@@ -103,7 +103,7 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 ----------------
 
-**For Developers: [View all appendices](http://github.com/project-open-data/) (and source)**
+**For Developers: [View all appendices](https://github.com/vwt-digital/project-company-data.github.io) (and source)**
 
 ----------------
 

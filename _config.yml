@@ -1,16 +1,16 @@
 #document settings
-title: Project Open Data
-desc: "Open Data Policy — Managing Information as an Asset"
-url: https://project-open-data.cio.gov
+title: Project Company Data
+desc: "Company Data — Managing Information as an Asset within your company"
+url: https://vwt-digital.github.io/project-company-data.github.io/
 
 #web analytics
-google_analytics: UA-42145528-3
-enable_dap_analytics: true
+#google_analytics: xxx
+#enable_dap_analytics: true
 
 #global settings, no need to change these
-root_url: https://project-open-data.cio.gov
-org_name: project-open-data
-repo_name: project-open-data.github.io
+root_url: https://vwt-digital.github.io/project-company-data.github.io/
+org_name: vwt-digital
+repo_name: project-company-data.github.io
 branch: master
 
 # default build settings for running locally, no need to edit
