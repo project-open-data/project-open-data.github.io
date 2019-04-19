@@ -18,7 +18,7 @@ This section is a list of definitions and principles used to guide the project.
 
 2-1 [Open Data Glossary](glossary/) - The glossary of open data terms.
 
-2-2 [Project Open Data Metadata Schema](/v1.1/schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.
+2-2 [Project Open Data Metadata Schema](v1.1/schema/) - The schema used to describe datasets, APIs, and published data at agency.gov/data.
 
 ----------------
 
@@ -26,7 +26,7 @@ This section is a list of definitions and principles used to guide the project.
 
 Implementation guidance for open data practices.
 
-3-1 [Documenting APIs](/v1.1/api/) - The specific guidance for documenting APIs in the data catalogs.   
+3-1 [Documenting APIs](v1.1/api/) - The specific guidance for documenting APIs in the data catalogs.   
 
 ----------------
 
