@@ -18,11 +18,11 @@ A basic example deploying the storage locations in a catalog:
 ```bash
 $ gcloud deployment-manager deployments create my-catalog-deployment \ 
     --template https://vwt-digital.github.io/project-company-data.github.io/gcp-templates/deploy_data_catalog.py \
-    --properties data_catalog:$(gzip -c data_catalog.json | base64 -w0)
+    --properties data_catalog:$(base64 -w0 data_catalog.json)
 
 ```
 This example creates a GCP deployment named _my-catalog-deployment_ from the template hosted on the Project Company Data website.
-The data_catalog.json file is a local file containing the Project Company Data [catalog](v1.1/schema/catalog.json). It is zipped and base64 encoded and then passed as a 
+The data_catalog.json file is a local file containing the Project Company Data [catalog](v1.1/schema/catalog.json). It is base64 encoded and then passed as a 
 property to the GCP deployment template.
 
 ## 2. Supported storage formats
