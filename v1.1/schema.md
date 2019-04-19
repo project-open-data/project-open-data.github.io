@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-title: Project Open Data Metadata Schema v1.1
+title: Project Company Data Metadata Schema v1.1
 permalink: /v1.1/schema/
 filename: schema.md
 id: schema v1.1

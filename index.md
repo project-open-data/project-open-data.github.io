@@ -3,7 +3,7 @@ published: true
 permalink: /
 layout: hero
 filename: index.md
-title: Project Open Data
+title: Project Company Data
 ---
 
 ## 1. Background
