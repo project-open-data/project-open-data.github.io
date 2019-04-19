@@ -469,7 +469,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | String
-**Usage Notes** | This should be a human-readable description of the file format of the dataset, that provides useful information that might not be apparent from `mediaType`.  Note that `API` should always be used to distinguish web APIs.  
+**Usage Notes** | This should be a human-readable description of the file format of the dataset, that provides useful information that might not be apparent from `mediaType`.  Note that `API` should always be used to distinguish web APIs. Furthermore, this value is used to determine the type of resource to deploy in when using [GCP templates](../../gcp-templates/).   
 **Example** | `{"format":"CSV"}`
 
 {: .table .table-striped .child-field #distribution-mediaType}
@@ -487,7 +487,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required**    | No
 **Accepted Values** | String
-**Usage Notes** | This should be a useful title for the distribution.  Acronyms should be avoided.
+**Usage Notes** | This should be a useful title for the distribution.  Acronyms should be avoided. This field is used to determine the name of the resource when using [GCP templates](../../gcp-templates/).
 **Example**     | `{"title":"listofvegetables.csv"}`
 
 
