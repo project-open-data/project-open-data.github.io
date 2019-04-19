@@ -5,8 +5,6 @@
   "description": "The metadata format for all federal open data. Validates a single JSON object entry (as opposed to entire Data.json catalog).",
   "type": "object",
   "required": [
-    "bureauCode",
-    "programCode",
     "title",
     "description",
     "keyword",
@@ -65,17 +63,6 @@
         }
       ]
     },
-    "bureauCode": {
-      "title": "Bureau Code",
-      "description": "Federal agencies, combined agency and bureau code from <a href=\"http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf\">OMB Circular A-11, Appendix C</a> in the format of <code>015:010</code>.",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "pattern": "[0-9]{3}:[0-9]{2}"
-      },
-      "minItems": 1,
-      "uniqueItems": true
-    },
     "contactPoint": {
       "$ref": "vcard.json"
     },
@@ -112,18 +99,6 @@
         {
           "type": "string",
           "format": "uri"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "dataQuality": {
-      "title": "Data Quality",
-      "description": "Whether the dataset meets the agency’s Information Quality Guidelines (true/false).",
-      "anyOf": [
-        {
-          "type": "boolean"
         },
         {
           "type": "null"
@@ -255,17 +230,6 @@
         }
       ]
     },
-    "programCode": {
-      "title": "Program Code",
-      "description": "Federal agencies, list the primary program related to this data asset, from the <a href=\"http://goals.performance.gov/sites/default/files/images/FederalProgramInventory_FY13_MachineReadable_091613.xls\">Federal Program Inventory</a>. Use the format of <code>015:001</code>",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "pattern": "[0-9]{3}:[0-9]{3}"
-      },
-      "minItems": 1,
-      "uniqueItems": true
-    },
     "publisher": {
       "$ref": "organization.json"
     },
@@ -290,19 +254,6 @@
     "spatial": {
       "title": "Spatial",
       "description": "The range of spatial applicability of a dataset. Could include a spatial region like a bounding box or a named place.",
-      "anyOf": [
-        {
-          "type": "string",
-          "minLength": 1
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "systemOfRecords": {
-      "title": "System of Records",
-      "description": "If the systems is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset.",
       "anyOf": [
         {
           "type": "string",

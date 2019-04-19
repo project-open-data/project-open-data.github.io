@@ -59,7 +59,7 @@ Field                           | Label                 | Definition    | Requir
 [@context](#context)            | Metadata Context      | URL or JSON object for the [JSON-LD Context](http://www.w3.org/TR/json-ld/#the-context) that defines the schema used. | No 
 [@id](#id)                      | Metadata Catalog ID   | IRI for the [JSON-LD Node Identifier](http://www.w3.org/TR/json-ld/#node-identifiers) of the Catalog. This should be the URL of the data.json file itself. | No 
 [@type](#type)                  | Metadata Type         | IRI for the [JSON-LD data type](http://www.w3.org/TR/json-ld/#specifying-the-type). This should be `dcat:Catalog` for the Catalog. | No 
-[conformsTo](#conformsTo)       | Schema Version        | URI that identifies the version of the Project Open Data schema being used. | Always 
+[conformsTo](#conformsTo)       | Schema Version        | URI that identifies the version of the Project Company Data schema being used. | Always 
 [describedBy](#describedBy)     | Data Dictionary       | URL for the [JSON Schema](http://json-schema.org/) file that defines the schema used.  | No
 [dataset](#dataset)             | Dataset               | A container for the array of Dataset objects. See [Dataset Fields](#Dataset) below for details.  | Always
 
@@ -80,8 +80,6 @@ Field                                                      | Label              
 [contactPoint](#contactPoint)                              | Contact Name and Email    | Contact person's name and email for the asset. | Always                                                                                                           
 [identifier](#identifier)                                  | Unique Identifier         | A unique identifier for the dataset or API as maintained within an Agency catalog or database. | Always                                                 
 [accessLevel](#accessLevel)                                | Public Access Level       | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public). | Always 
-[bureauCode](#bureauCode)<sup>[USG](#USG-note)</sup>       | Bureau Code               | Federal agencies, combined agency and bureau code from OMB Circular A-11, Appendix C ([PDF](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/a11_current_year/a11_2017/app_c.pdf), [CSV](/data/omb_bureau_codes.csv)) in the format of `015:11`. | Always  
-[programCode](#programCode)<sup>[USG](#USG-note)</sup>     | Program Code              | Federal agencies, list the primary program related to this data asset, from the [Federal Program Inventory](/data/FederalProgramInventory_FY13_MachineReadable_091613.csv). Use the format of `015:001`. | Always                                                                                                                       
 [license](#license)                                        | License                   | The license or non-license (i.e. Public Domain) status with which the dataset or API has been published.  See [Open Licenses](/open-licenses/) for more information. | If-Applicable 
 [rights](#rights)                                          | Rights                    | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters. | If-Applicable 
 [spatial](#spatial)                                        | Spatial                   | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place. | If-Applicable                        
@@ -89,16 +87,13 @@ Field                                                      | Label              
 [distribution](#distribution)                              | Distribution              | A container for the array of Distribution objects. See [Dataset Distribution Fields](#dataset-distribution-fields) below for details. | If-Applicable
 [accrualPeriodicity](#accrualPeriodicity)                  | Frequency                 | The frequency with which dataset is published.   | No                                                                                                  
 [conformsTo](#dataset-conformsTo)                          | Data Standard             | URI used to identify a standardized specification the dataset conforms to. | No
-[dataQuality](#dataQuality)<sup>[USG](#USG-note)</sup>     | Data Quality              | Whether the dataset meets the agency's Information Quality Guidelines (true/false). | No    
 [describedBy](#dataset-describedBy)                        | Data Dictionary           | URL to the data dictionary for the dataset.  Note that documentation other than a data dictionary can be referenced using Related Documents (`references`). | No              
 [describedByType](#dataset-describedByType)                | Data Dictionary Type      | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) also known as [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the dataset's Data Dictionary (`describedBy`). | No
 [isPartOf](#isPartOf)                                      | Collection                | The collection of which the dataset is a subset.  | No
 [issued](#issued)                                          | Release Date              | Date of formal issuance. | No                                                                                                                      
 [language](#language)                                      | Language                  | The language of the dataset. | No                                                                                                                  
-[landingPage](#landingPage)                                | Homepage URL              | This field is not intended for an agency's homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset. | No 
-[primaryITInvestmentUII](#primaryITInvestmentUII)<sup>[USG](#USG-note)</sup> | Primary IT Investment UII | For linking a dataset with an IT Unique Investment Identifier (UII). | No
+[landingPage](#landingPage)                                | Homepage URL              | This field is not intended for an company's homepage (e.g. www.mycompany.com), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset. | No 
 [references](#references)                                  | Related Documents         | Related documents such as technical information about a dataset, developer documentation, etc. | No                                                                                           
-[systemOfRecords](#systemOfRecords)<sup>[USG](#USG-note)</sup>        | System of Records         | If the system is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset. | No
 [theme](#theme)                                            | Category                  | Main thematic category of the dataset.  | No
 
 
@@ -128,7 +123,7 @@ Extending the Schema
 
 Further Metadata Field Guidance
 -------------------------------
-Additional details for each field are provided here broken down into sections for the overarching [Catalog](#Catalog), each [dataset](#dataset), and each dataset's [distribution](#distribution). Consult the [field mappings](v1.1/metadata-resources#field-mappings) to find the equivalent v1.0, DCAT, Schema.org, and CKAN fields.
+Additional details for each field are provided here broken down into sections for the overarching [Catalog](#Catalog), each [dataset](#dataset), and each dataset's [distribution](#distribution). 
 
 
 {: .schema-fields .requirements-key}
@@ -149,13 +144,11 @@ Additional details for each field are provided here broken down into sections fo
         * {: .field-optional}[@type](#dataset-type)
         * {: .field-required}[accessLevel](#accessLevel)
         * {: .field-optional}[accrualPeriodicity](#accrualPeriodicity)
-        * {: .field-required}[bureauCode](#bureauCode)
         * {: .field-optional}[conformsTo](#dataset-conformsTo)
         * {: .field-required}[contactPoint](#contactPoint)
             * {: .field-optional}[@type](#contactPoint-type)    
             * {: .field-required}[fn](#contactPoint-fn)
             * {: .field-required}[hasEmail](#contactPoint-hasEmail)
-        * {: .field-required-if-applicable}[dataQuality](#dataQuality)
         * {: .field-optional}[describedBy](#dataset-describedBy)
         * {: .field-optional}[describedByType](#dataset-describedByType)
         * {: .field-required}[description](#description)
@@ -178,8 +171,6 @@ Additional details for each field are provided here broken down into sections fo
         * {: .field-optional}[language](#language)
         * {: .field-required-if-applicable}[license](#license)
         * {: .field-required}[modified](#modified)
-        * {: .field-optional}[primaryITInvestmentUII](#primaryITInvestmentUII)
-        * {: .field-required}[programCode](#programCode)
         * {: .field-required}[publisher](#publisher)
             * {: .field-optional}[@type](#publisher-type) 
             * {: .field-required}[name](#publisher-name)
@@ -187,7 +178,6 @@ Additional details for each field are provided here broken down into sections fo
         * {: .field-optional}[references](#references)
         * {: .field-required-if-applicable}[rights](#rights)
         * {: .field-required-if-applicable}[spatial](#spatial)
-        * {: .field-optional}[systemOfRecords](#systemOfRecords)
         * {: .field-required-if-applicable}[temporal](#temporal)
         * {: .field-optional}[theme](#theme)
         * {: .field-required}[title](#title)
@@ -278,18 +268,8 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | No
 **Accepted Values** | ISO 8601 Repeating Duration (or `irregular`)
-**Usage Notes** | Must be an ISO 8601 repeating duration unless this is not possible because the accrual periodicity is completely irregular, in which case the value should simply be `irregular`.  The value should not include a start or end date but rather simply express the duration of time between data publishing.  For example, a dataset which is published on an annual basis would be `R/P1Y`; every three months would be `R/P3M`; weekly would be `R/P1W`; and daily would be `R/P1D`.  Further examples and documentation [can be found here](/iso8601_guidance#accrualperiodicity).  
+**Usage Notes** | Must be an ISO 8601 repeating duration unless this is not possible because the accrual periodicity is completely irregular, in which case the value should simply be `irregular`.  The value should not include a start or end date but rather simply express the duration of time between data publishing.  For example, a dataset which is published on an annual basis would be `R/P1Y`; every three months would be `R/P3M`; weekly would be `R/P1W`; and daily would be `R/P1D`.  Further examples and documentation [can be found here](../iso8601_guidance#accrualperiodicity).  
 **Example** |  `{"accrualPeriodicity":"R/P1Y"}`
-
-{: .table .table-striped #bureauCode}
-**Field [#](#bureauCode){: .permalink}** | **bureauCode**
------ | -----
-**Cardinality** | (0,n)
-**Required** | Yes, for United States Federal Government agencies
-**Accepted Values** | Array of Strings
-**Usage Notes** | Represent each bureau responsible for the dataset according to the codes found in OMB Circular A-11, Appendix C ([PDF](http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf), [CSV](/data/omb_bureau_codes.csv)). Start with the agency code, then a colon, then the bureau code.
-**Example** |  The Office of the Solicitor (86) at the Department of the Interior (010) would be: `{"bureauCode":["010:86"]}`.  If a second bureau was also responsible, the format like this: `{"bureauCode":["010:86","010:04"]}`.
-
 
 {: .table .table-striped #dataset-conformsTo}
 **Field [#](#dataset-conformsTo){: .permalink}** | **conformsTo**
@@ -344,15 +324,6 @@ Dataset Fields {#Dataset}
 **Accepted Values** | String
 **Usage Notes** | This should be formatted per vCard specifications (see example below) and included with `fn` as part of a record's `contactPoint` (see above example).    
 **Example** |  `{"hasEmail": "mailto:jane.doe@agency.gov"}`
-
-{: .table .table-striped #dataQuality}
-**Field [#](#dataQuality){: .permalink}** | **dataQuality**
------ | -----
-**Cardinality** | (0,1)
-**Required** | No
-**Accepted Values** | Must be a boolean value of `true` or `false` (not contained within quote marks)
-**Usage Notes** | Indicates whether a dataset conforms to the agency's information quality guidelines.
-**Example** |  `{"dataQuality":true}`
 
 {: .table .table-striped #dataset-describedBy}
 **Field [#](#dataset-describedBy){: .permalink}** | **describedBy**
@@ -444,7 +415,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is accessible indirectly, through means other than direct download.
 **Accepted Values** | String (URL)
-**Usage Notes** | This should be the URL for an indirect means of accessing the data, such as [API documentation](/v1.1/api/), a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data. When accessLevel is "restricted public" but the dataset is available online indirectly, this field should be the URL that provides indirect access. This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
+**Usage Notes** | This should be the URL for an indirect means of accessing the data, such as [API documentation](../api/), a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data. When accessLevel is "restricted public" but the dataset is available online indirectly, this field should be the URL that provides indirect access. This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
 **Example** |  `{"accessURL":"http://www.agency.gov/api/vegetables/"}`
 
 {: .table .table-striped .child-field #distribution-conformsTo}
@@ -601,15 +572,6 @@ Dataset Fields {#Dataset}
 **Usage Notes** | Use to link a given dataset with its related IT Unique Investment Identifier, which can often be found in Exhibit 53 documents.
 **Example** |  `{"primaryITInvestmentUII":"023-000000001"}`
 
-{: .table .table-striped #programCode}
-**Field [#](#programCode){: .permalink}** | **programCode**
------ | -----
-**Cardinality** | (0,n)
-**Required** | Yes, for United States Federal Government Agencies
-**Accepted Values** | Array of strings
-**Usage Notes** | Provide an array of programs related to this data asset, from the [Federal Program Inventory](/data/FederalProgramInventory_FY13_MachineReadable_091613.csv).
-**Example** |  `{"programCode":["015:001"]}` or if multiple programs, `{"programCode":["015:001","015:002"]}`
-
 {: .table .table-striped #publisher}
 **Field [#](#publisher){: .permalink}** | **publisher**
 ----- | -----
@@ -694,15 +656,6 @@ Dataset Fields {#Dataset}
 **Usage Notes** | This field should contain one of the following types of content: (1) a bounding coordinate box for the dataset represented in latitude / longitude pairs where the coordinates are specified in decimal degrees and in the order of: minimum longitude, minimum latitude, maximum longitude, maximum latitude; (2) a latitude / longitude pair (in decimal degrees) representing a point where the dataset is relevant; (3) a geographic feature expressed in [Geography Markup Language using the Simple Features Profile](http://www.ogcnetwork.net/gml-sf); or (4) a geographic feature from the [GeoNames database](http://www.geonames.org).
 **Example** |  `{"spatial":"Lincoln, Nebraska"}`
 
-{: .table .table-striped #systemOfRecords}
-**Field [#](#systemOfRecords){: .permalink}** | **systemOfRecords**
------ | -----
-**Cardinality** | (0,1)
-**Required** | No
-**Accepted Values** | String (URL)
-**Usage Notes** | This field should a URL to the System of Records Notice (SORN) that relates to the dataset, specifically from FederalRegister.gov.   
-**Example** |  `{"systemOfRecords":"https://www.federalregister.gov/articles/2002/04/08/02-7376/privacy-act-of-1974-publication-in-full-of-all-notices-of-systems-of-records-including-several-new#p-361"}`
-
 {: .table .table-striped #temporal}
 **Field [#](#temporal){: .permalink}** | **temporal**
 ----- | -----
@@ -732,16 +685,6 @@ Dataset Fields {#Dataset}
 
 
 
-Federal Government Fields {#USG-note}
-----------------------
-<sup>USG</sup> &mdash; Fields specific to the U.S. Federal Government have been denoted with the <sup>USG</sup> superscript. 
-The Project Open Data schema has been developed as part of a U.S Federal Government open data policy. However, every attempt 
-has been made to align the schema with existing international standards and to provide opportunities for re-use and interoperability 
-with state and local government as well as non-profits, academic institutions, and businesses. There are however some fields 
-that have been introduced specifically for use by the U.S. Federal Government and have special meaning in that context. These fields 
-are: **bureauCode**, **programCode**, **dataQuality**, **primaryITInvestmentUII**, and **systemOfRecords**. Non-federal data 
-publishers are encouraged to make use of this schema, but these fields should not be seen as required and may not be relevant for those entities. 
-
 Rationale for Metadata Nomenclature
 ----------------------
 We sought to be platform-independent and to align as much as possible with existing open standards.
@@ -752,17 +695,9 @@ We added the **accessLevel** field to help easily sort datasets into our three e
 
 We added the **rights** field (formerly _accessLevelComment_) for data stewards to explain how to access restricted public datasets, and for agencies to have a place to record (even if only internally) the reason for not releasing a non-public dataset.
 
-We added the **systemOfRecords** field for data stewards to optionally link to a relevant System of Records Notice URL. A System of Records is a group of any records under the control of any agency from which information is retrieved by the name of the individual or by some identifying number, symbol, or other identifier assigned to the individual.
-
-We added the **bureauCode** field to ensure every dataset is connected in a standard way with an agency bureau.
-
-We added the **programCode** field to ensure that when applicable, every dataset is connected in a standard way with an agency program office.
-
-We added the **dataQuality** to indicate whether or not the data meets an agency’s Information Quality Guidelines.
-
 
 Additional Information
 ----------------------
 
-* [Template and Sample Files (CSV and JSON format)](/v1.1/metadata-resources/)
+* [Template and Sample Files (CSV and JSON format)](../metadata-resources/)
 * [DCAT](http://www.w3.org/TR/vocab-dcat/)
