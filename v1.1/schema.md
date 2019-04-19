@@ -16,7 +16,7 @@ Standard Metadata Vocabulary
 ----------------------------
 Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource (NISO 2004, ISBN: 1-880124-62-9).  The challenge is to define and name standard metadata fields so that a data consumer has sufficient information to process and understand the described data. The more information that can be conveyed in a standardized regular format, the more valuable data becomes. Metadata can range from basic to advanced, from allowing one to discover the mere fact that a certain data asset exists and is about a general subject all the way to providing detailed information documenting the structure, processing history, quality, relationships, and other properties of a dataset. Making metadata machine readable greatly increases its utility, but requires more detailed standardization, defining not only field names, but also how information is encoded in the metadata fields.
 
-Establishing a common vocabulary is the key to communication. The **metadata schema** specified in this memorandum is based on [DCAT](http://www.w3.org/TR/vocab-dcat/), a hierarchical vocabulary specific to datasets. This specification defines three types of metadata elements: Required, Required-if (conditionally required), and Expanded fields.  These elements were selected to represent information that is most often looked for on the web. To assist users of other metadata standards, [field mappings](/v1.1/metadata-resources/#field-mappings) to equivalent elements in other standards are provided.  
+Establishing a common vocabulary is the key to communication. The **metadata schema** specified in this memorandum is based on [DCAT](http://www.w3.org/TR/vocab-dcat/), a hierarchical vocabulary specific to datasets. This specification defines three types of metadata elements: Required, Required-if (conditionally required), and Expanded fields.  
 
 What to Document -- Datasets and Web APIs
 -------------------------------------
@@ -25,7 +25,7 @@ A dataset is an identifiable collection of structured data objects unified by so
 
 A Web API (**A**pplication **P**rogramming **I**nterface) allows computer programs to dynamically query a dataset using the World Wide Web. For example, a dataset of [farmers markets](http://catalog.data.gov/dataset/farmers-markets-geographic-data) may be made available for download as a single file (e.g., a CSV), or may be made available to developers through a Web API, such that a computer program could use a ZIP Code to retrieve a list of farmers markets in the ZIP Code area.
 
-The catalog file for each agency should list all of the agency's datasets that can be made public, regardless of whether they are distributed by a file download or a Web API. Please also see the extended guidance on [documenting Web APIs in your data.json files](v1.1/api/).  
+The catalog file for each agency should list all of the agency's datasets that can be made public, regardless of whether they are distributed by a file download or a Web API. Please also see the extended guidance on [documenting Web APIs in your data.json files](../api/).  
 
 
 Metadata File Format --  JSON
@@ -46,7 +46,7 @@ The Project Open Data schema is case sensitive. The schema uses a camel case con
 > Incorrect: `contactpoint`  
 > incorrect: `CONTACTPOINT`  
 
-Links to downloadable examples of metadata files developed in this and other formats are in the [metadata resources](v1.1/metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
+Links to downloadable examples of metadata files developed in this and other formats are in the [metadata resources](../metadata-resources/).  Tools to help agencies produce and maintain their data inventories are [available on GitHub](http://www.github.com/project-open-data) and hosted at [Labs.Data.gov](http://labs.data.gov).
 
 
 Catalog Fields
