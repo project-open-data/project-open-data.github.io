@@ -24,5 +24,5 @@ In addition to template and sample files we also produce Project Company Data Me
 
 ### Sample Data Files
 
-- [JSON - Minimum Requirements](../examples/catalog-sample.json)
-- [JSON - With Extended Fields](../examples/catalog-sample-extended.json)
+- [JSON - Minimum Requirements](examples/catalog-sample.json)
+- [JSON - With Extended Fields](examples/catalog-sample-extended.json)
