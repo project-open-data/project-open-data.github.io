@@ -10,7 +10,7 @@ deployment_name="${1}"
 data_catalog="${2}"
 project_id="${3}"
 
-gcp_template=$(mktemp)
+gcp_template=$(mktemp XXXXXXXX.py)
 
 {
     echo "catalog = \\"
