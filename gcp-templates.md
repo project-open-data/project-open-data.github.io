@@ -25,6 +25,14 @@ This example creates a GCP deployment named _my-catalog-deployment_ from the tem
 The data_catalog.json file is a local file containing the Project Company Data [catalog](v1.1/schema/catalog.json). It is base64 encoded and then passed as a 
 property to the GCP deployment template.
 
+If temp file creation is possible in the deployment, then the [deploy_data_catalog.sh](gcp-templates/deploy_data_catalog.sh) shell script can be used. 
+This script requires three parameters: the name of the deployment, the filename of the file containing the catalog and the id of the project to deploy to.
+An example deploying a catalog using this shell script:
+```bash
+$ deploy_data_catalog.sh my-catalog-deployment data_catalog.json my-gcp-project
+```
+This will create a GCP deployment named _my-catalog-deployment_ deploying the distributions specified in the _data_catalog.json_ file in the GCP project _my-gcp-project_. 
+
 ## 2. Supported storage formats
 
 The format specified by the [format](schema/#distribution-format) member of the dataset. By setting the value of this member
