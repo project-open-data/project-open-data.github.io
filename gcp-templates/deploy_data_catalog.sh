@@ -10,12 +10,19 @@ deployment_name="${1}"
 data_catalog="${2}"
 project_id="${3}"
 
-gcp_template=$(mktemp XXXXXXXX.py)
+gcp_template=$(mktemp ${deployment_name}XXXXX.py)
 
 {
     echo "catalog = \\"
     cat ${data_catalog}
     cat <<EOF
+
+
+def find_topic(dataset):
+    for distribution in dataset['distribution']:
+        if distribution['format'] == 'topic':
+            return distribution['title']
+    return None
 
 
 def generate_config(context):
@@ -29,6 +36,29 @@ def generate_config(context):
                     {
                         'name': distribution['title'],
                         'type': 'storage.v1.bucket'
+                    }
+                )
+            if distribution['format'] == 'topic':
+                resources.append(
+                    {
+                        'name': distribution['title'],
+                        'type': 'pubsub.v1.topic',
+                        'properties': 
+                            {
+                                'topic': distribution['title']
+                            }
+                    }
+                )
+            if distribution['format'] == 'subscription':
+                resources.append(
+                    {
+                        'name': distribution['title'],
+                        'type': 'pubsub.v1.subscription',
+                        'properties': 
+                            {
+                                'topic': '\$(ref.'+find_topic(dataset)+'.name)',
+                                'subscription': distribution['title']
+                            }
                     }
                 )
 
