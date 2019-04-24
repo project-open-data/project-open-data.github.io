@@ -40,6 +40,8 @@ to one of the formats in the below table, the corresponding resource will be cre
 The following table also shows the storage formats that are supported by the GCP deploy_data_catalog template. 
 
 {: .table .table-striped}
-Format                                           | GCP resource
---------------                                   | --------------                                                                                                                      
-blob-storage                                     | Storage bucket
+Format                             | GCP resource
+--------------                     | --------------                                                                                                                      
+blob-storage                       | Storage bucket
+topic                              | Pubsub topic
+subscription                       | Pubsub subscription            
