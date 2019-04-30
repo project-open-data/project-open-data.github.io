@@ -17,12 +17,15 @@ def generate_config(context):
         for distribution in dataset['distribution']:
 
             if distribution['format'] == 'blob-storage':
-                resources.append(
-                    {
+                blob_def = {
                         'name': distribution['title'],
                         'type': 'storage.v1.bucket'
                     }
-                )
+                if 'deploymentZone' in distribution:
+                    blob_def['properties'] = {
+                        'zone': distribution['deploymentZone']
+                    }
+                resources.append(blob_def)
             if distribution['format'] == 'topic':
                 resources.append(
                     {
