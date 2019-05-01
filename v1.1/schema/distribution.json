@@ -57,6 +57,19 @@
         }
       ]
     },
+    "deploymentZone": {
+      "title": "deployment zone",
+      "description": "This specifies the compute zone where this distribution is deployed, used for GCP templates.",
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
     "accessURL": {
       "title": "Access URL",
       "description": "URL providing indirect access to a dataset",
