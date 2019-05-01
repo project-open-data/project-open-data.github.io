@@ -475,7 +475,7 @@ Dataset Fields {#Dataset}
 **Example** | `{"format":"CSV"}`
 
 {: .table .table-striped .child-field #distribution-deploymentZone}
-**Field [#](#distribution-deploymentZone){: .permalink}** | **distribution &rarr; format**
+**Field [#](#distribution-deploymentZone){: .permalink}** | **distribution &rarr; deploymentZone**
 ----- | -----
 **Cardinality** | (0,1)
 **Required** | No
