@@ -23,7 +23,7 @@ def generate_config(context):
                     }
                 if 'deploymentZone' in distribution:
                     blob_def['properties'] = {
-                        'zone': distribution['deploymentZone']
+                        'location': distribution['deploymentZone']
                     }
                 resources.append(blob_def)
             if distribution['format'] == 'topic':
