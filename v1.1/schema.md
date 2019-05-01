@@ -111,9 +111,10 @@ Field                                           | Label                 | Defini
 [describedByType](#distribution-describedByType)| Data Dictionary Type  | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `describedBy` URL. | No
 [description](#distribution-description)        | Description           | Human-readable description of the distribution. | No
 [downloadURL](#distribution-downloadURL)        | Download URL          | URL providing direct access to a downloadable file of a dataset. | If-Applicable
-[format](#distribution-format)                  | Format                | A human-readable description of the file format of a distribution. | No
+[format](#distribution-format)                  | Format                | A human-readable description of the file format of a distributioni, also used to determine type of resource for [GCP deployment](../gcp-templates). | No
+[deploymentZone](#distribution-deploymentZone)  | Deployment zone       | The compute zone where this distribution is deployed | No
 [mediaType](#distribution-mediaType)            | Media Type            | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `downloadURL`. | If-Applicable   
-[title](#distribution-title)                    | Title                 | Human-readable name of the distribution. | No
+[title](#distribution-title)                    | Title                 | Human-readable name of the distribution, also defines name of resource for [GCP deployment](../gcp-templates). | No
                                                                                                                       
 
 Extending the Schema
@@ -161,6 +162,7 @@ Additional details for each field are provided here broken down into sections fo
             * {: .field-optional}[describedByType](#distribution-describedByType)
             * {: .field-optional}[description](#distribution-description)
             * {: .field-required}[format](#distribution-format)
+            * {: .field-optional}[deploymentZone](#distribution-deploymentZone)
             * {: .field-required-if-applicable}[mediaType](#distribution-mediaType)
             * {: .field-optional}[title](#distribution-title)
         * {: .field-required}[identifier](#identifier)
@@ -471,6 +473,15 @@ Dataset Fields {#Dataset}
 **Accepted Values** | String
 **Usage Notes** | This should be a human-readable description of the file format of the dataset, that provides useful information that might not be apparent from `mediaType`.  Note that `API` should always be used to distinguish web APIs. Furthermore, this value is used to determine the type of resource to deploy in when using [GCP templates](../../gcp-templates/).   
 **Example** | `{"format":"CSV"}`
+
+{: .table .table-striped .child-field #distribution-deploymentZone}
+**Field [#](#distribution-deploymentZone){: .permalink}** | **distribution &rarr; format**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | String
+**Usage Notes** | This specifies the compute zone where this distribution is deployed, used for [GCP templates](../../gcp-templates/).   
+**Example** | `{"deploymentZone":"europe-west1"}`
 
 {: .table .table-striped .child-field #distribution-mediaType}
 **Field [#](#distribution-mediaType){: .permalink}** | **distribution &rarr; mediaType**
