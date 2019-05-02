@@ -54,8 +54,7 @@ Wireframes are GREAT tools for testing out designs because they take only minute
 
 Our next step involves you!
 
-We've posted our wireframes on the [Open Beta](https://openbeta.usaspending.gov/concepts) site for YOU to comment on.  Simply [click here](https://openbeta.usaspending.gov/concepts) to see the designs, tell us what you like and don't like, and we'll continue to iterate and update in response to your feedback.
-
+We show our wireframes to users and solicit comments and feedback. After garnering valuable feedback, we iterate on the design and carry out repeated test cycles to incorporate suggestions and quickly deliver improvements.
 
 ### Step 5:  Mock-ups and Build
 
@@ -63,7 +62,7 @@ Once we feel that we’ve received sufficient feedback on the wireframes, we'll 
 
 ### It all depends on you
 
-The bottom line is that we can only get it right if you participate in the process.  Visit [OpenBeta]( https://openbeta.usaspending.gov/concepts)  often to see our latest designs, and tell us what you think! If you want to schedule an in-person testing session, please [contact us]( mailto:datapmo@fiscal.treasury.gov).
+The bottom line is that we can only get it right if you participate in the process.  Visit the new [USAspending.gov]( https://www.usaspending.gov/) to see the new site design, and tell us what you think! If you want to schedule an in-person testing session, please [contact us]( mailto:datapmo@fiscal.treasury.gov).
 
 
 
