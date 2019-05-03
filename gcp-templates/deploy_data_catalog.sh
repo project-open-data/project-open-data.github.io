@@ -10,7 +10,7 @@ deployment_name="${1}"
 data_catalog="${2}"
 project_id="${3}"
 
-gcp_template=$(mktemp ${deployment_name}XXXXX.py)
+gcp_template=$(mktemp ${deployment_name}-XXXXX.py)
 
 {
     echo "catalog = \\"
@@ -69,5 +69,16 @@ def generate_config(context):
 EOF
 } > ${gcp_template}
 
-gcloud deployment-manager deployments create ${deployment_name} --template=${gcp_template} --project=${project_id}
+# Check if deployment exists
+gcloud deployment-manager deployments describe ${deployment_name} --project=${project_id} >/dev/null 2>&1
+result=$?
+
+if [ ${result} -ne 0 ]
+then
+    # Create if deployment does not yet exist
+    gcloud deployment-manager deployments create ${deployment_name} --template=${gcp_template} --project=${project_id}
+else
+    # Update if deployment exists already
+    gcloud deployment-manager deployments update ${deployment_name} --template=${gcp_template} --project=${project_id}
+fi
 
