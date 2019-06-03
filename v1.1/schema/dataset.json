@@ -24,12 +24,13 @@
       ]
     },
     "accessLevel": {
-      "description": "The degree to which this dataset could be made publicly-available, regardless of whether it has been made available. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public)",
+      "description": "The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), internal (Data asset is or could be made available internally only), restricted (Data asset is available under certain use restrictions), or confidential (Data asset contains confidential data and is only available to specific people)",
       "title": "Public Access Level",
       "enum": [
         "public",
-        "restricted public",
-        "non-public"
+        "internal",
+        "restricted",
+        "confidential"
       ]
     },
     "rights": {

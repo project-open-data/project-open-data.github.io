@@ -79,9 +79,9 @@ Field                                                      | Label              
 [publisher](#publisher)                                    | Publisher                 | The publishing entity and optionally their parent organization(s). | Always                                                                                                                     
 [contactPoint](#contactPoint)                              | Contact Name and Email    | Contact person's name and email for the asset. | Always                                                                                                           
 [identifier](#identifier)                                  | Unique Identifier         | A unique identifier for the dataset or API as maintained within an Agency catalog or database. | Always                                                 
-[accessLevel](#accessLevel)                                | Public Access Level       | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), restricted public (Data asset is available under certain use restrictions), or non-public (Data asset is not available to members of the public). | Always 
+[accessLevel](#accessLevel)                                | Public Access Level       | The degree to which this dataset **could** be made publicly-available, *regardless of whether it has been made available*. Choices: public (Data asset is or could be made publicly available to all without restrictions), internal (Data asset is or could be made available internally only), restricted (Data asset is available under certain use restrictions), or confidential (Data asset contains confidential data and is only available to specific people). | Always 
 [license](#license)                                        | License                   | The license or non-license (i.e. Public Domain) status with which the dataset or API has been published.  See [Open Licenses](/open-licenses/) for more information. | If-Applicable 
-[rights](#rights)                                          | Rights                    | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters. | Always 
+[rights](#rights)                                          | Rights                    | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable. Text, 255 characters. | Always 
 [spatial](#spatial)                                        | Spatial                   | The range of spatial applicability of a dataset.  Could include a spatial region like a bounding box or a named place. | If-Applicable                        
 [temporal](#temporal)                                      | Temporal                  | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).  | If-Applicable                                  
 [distribution](#distribution)                              | Distribution              | A container for the array of Distribution objects. See [Dataset Distribution Fields](#dataset-distribution-fields) below for details. | If-Applicable
@@ -260,8 +260,8 @@ Dataset Fields {#Dataset}
 ----- | -----
 **Cardinality** | (1,1)
 **Required** | Yes, always
-**Accepted Values** | Must be one of the following: "public", "restricted public", "non-public"
-**Usage Notes** | This field refers to the degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. A *restricted public* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *non-public* dataset is one that could never be made available to the public for privacy, security, or other reasons as determined by your agency.
+**Accepted Values** | Must be one of the following: "public", "internal", "restricted", "confidential"
+**Usage Notes** | This field refers to the degree to which this dataset *could be made available* to the public, regardless of whether it is currently available to the public. For example, if a member of the public can walk into your agency and obtain a dataset, that entry is **public** even if there are no files online. An internal dataset could be made available to anyone working in the company. A *restricted* dataset is one only available under certain conditions or to certain audiences (such as researchers who sign a waiver). A *confidential* dataset is one that can only be made available to specific people.
 **Example** | `{"accessLevel":"public"}`
 
 {: .table .table-striped #accrualPeriodicity}
@@ -417,7 +417,7 @@ Dataset Fields {#Dataset}
 **Cardinality** | (0,1)
 **Required** | Yes, if the file is accessible indirectly, through means other than direct download.
 **Accepted Values** | String (URL)
-**Usage Notes** | This should be the URL for an indirect means of accessing the data, such as [API documentation](../api/), a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data. When accessLevel is "restricted public" but the dataset is available online indirectly, this field should be the URL that provides indirect access. This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
+**Usage Notes** | This should be the URL for an indirect means of accessing the data, such as [API documentation](../api/), a 'wizard' or other graphical interface which is used to generate a download, feed, or a request form for the data. When accessLevel is "restricted" but the dataset is available online indirectly, this field should be the URL that provides indirect access. This should not be a **direct** download URL.  It is usually assumed that accessURL is an HTML webpage.  
 **Example** |  `{"accessURL":"http://www.agency.gov/api/vegetables/"}`
 
 {: .table .table-striped .child-field #distribution-conformsTo}
@@ -704,7 +704,7 @@ To that end, our JSON key names are directly drawn from [DCAT](http://www.w3.org
 
 We added the **accessLevel** field to help easily sort datasets into our three existing categories: public, internal, restricted and confidential. This field means a comanpy can run a basic filter against its enterprise data catalog to generate a public-facing list of datasets that are, or *could one day be*, made publicly available (or, in the case of restricted data, available under certain conditions). This field also makes it easy for anyone to generate a list of datasets that *could* be made available but have not yet been released by filtering **accessLevel** to *public* and **accessURL** to *blank*.
 
-We added the **rights** field for data stewards to explain how to access restricted public datasets, and for companies to have a place to record (even if only internally) the reason for the selected accessLevel.
+We added the **rights** field for data stewards to explain how to access restricted datasets, and for companies to have a place to record (even if only internally) the reason for the selected accessLevel.
 
 
 Additional Information
