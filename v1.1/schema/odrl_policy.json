@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://vwt-digital.github.io/project-company-data.github.io/v1.1/schema/odrl_policy.json#",
+  "title": "Project Company Data ODRL Policy",
+  "description": "The metadata format for all company data. Validates a single JSON object entry (as opposed to entire Data.json catalog).",
+  "type": "object",
+  "required": [
+    "uid",
+    "permission"
+  ],
+  "properties": {
+    "permission": {
+      "description": "List of rules specifying permissions on the dataset.",
+      "title": "Permission",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+            "target",
+            "assignee",
+            "action"
+        ],
+        "properties": {
+            "target": {
+                "description": "Specifies the target of this permission rule, refer to a distribution of the dataset containing this policy.",
+                "type": "string"
+            },
+            "assignee": {
+                "description": "Specifies the assignee of this permission rule, should be a unique identifier of a person or group.",
+                "type": "string"
+            },
+            "action": {
+                "description": "Specifies the action allowed by this permission rule.",
+                "type": "string"
+            }
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    },
+    "uid": {
+      "title": "URI of this policy",
+      "description": "A unique URI to identify this policy.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    }
+  }
+}

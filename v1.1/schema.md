@@ -95,7 +95,7 @@ Field                                                      | Label              
 [landingPage](#landingPage)                                | Homepage URL              | This field is not intended for an company's homepage (e.g. www.mycompany.com), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset. | No 
 [references](#references)                                  | Related Documents         | Related documents such as technical information about a dataset, developer documentation, etc. | No                                                                                           
 [theme](#theme)                                            | Category                  | Main thematic category of the dataset.  | No
-
+[odrlPolicy](@odrlPolicy)                                  | Digital rights policy     | Specifies additional access rights on the dataset that are not covered by the default accessLevel permissions  | No
 
 Dataset Distribution Fields
 -------------------------------------------
@@ -116,6 +116,19 @@ Field                                           | Label                 | Defini
 [mediaType](#distribution-mediaType)            | Media Type            | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `downloadURL`. | If-Applicable   
 [title](#distribution-title)                    | Title                 | Human-readable name of the distribution, also defines name of resource for [GCP deployment](../gcp-templates). | No
                                                                                                                       
+
+odlrPolicy Fields
+-------------------------------------------
+Within a dataset, **odrlPolicy** is used to specify additional permissions on the dataset that are not covered by the default permissions implied from [accessLevel](#accessLevel). The additional permissions are expressed using the Open Digital Rights Language (ODRL) Information Model](https://www.w3.org/TR/odrl-model/).
+
+{: .table .table-striped}
+Field                                           | Label                 | Definition     | Required
+--------------                                  | --------------        | -------------- | --------------                                                                                                                      
+[uid](#odrlPolicy-uid)                     | URI of this policy         | URI of this ODRL policy, see [Policy class](https://www.w3.org/TR/odrl-model/#policy) | Yes
+[permission](#odrlPolicy-permission)       | List of permissions        | List of permission rules in this policy | Yes
+[permission.target](#odrlPolicy-permission-target)  | Target            | The target object that this permission is about | Yes
+[permission.assignee](#odrlPolicy-permission-assignee) | Assignee       | Identifies who is assigned to perform the action on the target | Yes
+[permission.action](#odrlPolicy-permission-action)  | Action            | Action that is allowed on the target by this rule | Yes
 
 Extending the Schema
 ------------------------------------------
@@ -574,6 +587,42 @@ Dataset Fields {#Dataset}
 **Usage Notes** | Dates should be [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) of highest resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant to this dataset. If there is a need to reflect that the dataset is continually updated, ISO 8601 formatting can account for this [with repeating intervals](http://en.wikipedia.org/wiki/ISO_8601#Time_intervals). For instance, `R/P1D` for daily, `R/P2W` for every two weeks, and `R/PT5M` for every five minutes.
 +**Example** | `{"modified":"2012-01-15"}` or `{"modified":"R/P1D"}`
 
+{: .table .table-striped #odrlPolicy-permission}
+**Field [#](#odrlPolicy-permission){: .permalink}** | **odrlPolicy &rarr; permission**
+-----           | -----
+**Cardinality** | (1,n)
+**Required**    | Yes, always
+**Accepted Values** | List
+**Usage Notes** | Specify permissions that are referring to distributions in this dataset. See [Permission class](https://www.w3.org/TR/odrl-vocab/#permissions)
+**Example**     | `{"permission": [{"target": "http://link.to.document", "assignee": "me@mycompany.com", "action": "write"}]}
+
+{: .table .table-striped #odrlPolicy-permission-target}
+**Field [#](#odrlPolicy-permission-target){: .permalink}** | **odrlPolicy &rarr; permission &rarr; target**
+-----           | -----
+**Cardinality** | (1,1)
+**Required**    | Yes, always
+**Accepted Values** | String
+**Usage Notes** | Specifies the target of this permission rule, refer to a distribution of the dataset containing this policy. See [Target](https://www.w3.org/TR/odrl-vocab/#term-target).
+**Example**     | `{"target": "http://link.to.document"}
+
+{: .table .table-striped #odrlPolicy-permission-assignee}
+**Field [#](#odrlPolicy-permission-assignee){: .permalink}** | **odrlPolicy &rarr; permission &rarr; assignee**
+-----           | -----
+**Cardinality** | (1,1)
+**Required**    | Yes, always
+**Accepted Values** | String
+**Usage Notes** | Specifies the assignee of this permission rule, should be a unique identifier of a person or group. See [Assignee](https://www.w3.org/TR/odrl-vocab/#term-assignee).
+**Example**     | `{"assignee": "me@mycompany.com"}
+
+{: .table .table-striped #odrlPolicy-permission-action}
+**Field [#](#odrlPolicy-permission-action){: .permalink}** | **odrlPolicy &rarr; permission &rarr; action**
+-----           | -----
+**Cardinality** | (1,1)
+**Required**    | Yes, always
+**Accepted Values** | String
+**Usage Notes** | Specifies the action allowed by this permission rule, should be an instance of [Action class](https://www.w3.org/TR/odrl-vocab/#term-Action)
+**Example**     | `{"assignee": "me@mycompany.com"}
+
 {: .table .table-striped #primaryITInvestmentUII}
 **Field [#](#primaryITInvestmentUII){: .permalink}** | **primaryITInvestmentUII**
 ----- | -----
@@ -694,6 +743,14 @@ Dataset Fields {#Dataset}
 **Usage Notes** | Acronyms should be avoided.
 **Example**     | `{"title":"Types of Vegetables"}`
 
+{: .table .table-striped #odrlPolicy-uid}
+**Field [#](#odrlPolicy-uid){: .permalink}** | **odrlPolicy &rarr; uid**
+-----           | -----
+**Cardinality** | (1,1)
+**Required**    | Yes, always
+**Accepted Values** | String
+**Usage Notes** | URI of this policy, see [Unique identifier](https://www.w3.org/TR/odrl-vocab/#term-uid).
+**Example**     | `{"uid":"my-company-policies:100"}`
 
 
 Rationale for Metadata Nomenclature

@@ -9,7 +9,7 @@ filename: glossary.md
 
 The Google Cloud Platform (GCP) provides the Deployment Manager to deploy resources to the platform. The Project Company Data schema can be used
 to deploy some types of dataset distribution formats using the GCP Deployment Manager. This will result in empty dataset distribution storage location,
-(e.g. a blob storage) ready to receive the actual data.
+(e.g. a blob storage) ready to receive the actual data. The access permissions will be set as specified in the dataset (see below for more information).
  
 The deployment is done using a GCP Deployment Manager template (see [Creating a basic template](https://cloud.google.com/deployment-manager/docs/configuration/templates/create-basic-template))
 for more details. The template [deploy_data_catalog.py](gcp-templates/deploy_data_catalog.py) can be used to deploy Project Company Data Schemas.
@@ -45,3 +45,40 @@ Format                             | GCP resource
 blob-storage                       | Storage bucket
 topic                              | Pubsub topic
 subscription                       | Pubsub subscription            
+
+## 3. Access permissions
+
+On deployment of a dataset, the access permissions will be set according to the accessLevel specified by the dataset.
+
+{: .table .table-striped}
+accessLevel             | Resulting permissions
+-----------------       | -------------------------
+
+public                  | Public read, default write, extended with permissions from the odrlPolicy
+internal                | Default permissions, extended with permissions from the odrlPolicy
+restricted              | Same as internal
+confidential            | For blob-storage only permissions specified in the odrlPolicy, for other formats same as internal
+
+Additional permissions can be set using the odrlPolicy field of the dataset. The GCP deployment will set permissions for each distribution according to the accessLevel, as specified above. Additional policies will be added per distribution as specified in the odrlPolicy permission rules. The table below specifies what is specified by the fields of the odrlPolicy permission.
+
+{: .table .table-striped}
+Field                      | Usage
+-----------------          | -------------------------
+
+uid                        | A unique identifier of the policy in the dataset
+permission                 | A list of permission rules to be applied by this policy
+permission &rarr; target   | The title of the distribution to which this rule applies
+permission &rarr; assignee | The account to assign the permission to, use the identification as specified in the [Google Cloud IAM Policy](https://cloud.google.com/iam/docs/overview#iam_policy)
+permission &rarr; action   | The action that is permitted to the assignee on the target, an instance of [Action class](https://www.w3.org/TR/odrl-vocab/#term-Action). See table below for supported actions.
+
+The action that is allowed on the target determines the GCP role assigned to the assignee. Supported actions in GCP deployment are specified in the table below.
+
+{: .table .table-striped}
+Format                  | read                        | write                        | modify
+-----------------       | -------------------------   | ---------------------        | --------------------------
+
+blob-storage            | roles/storage.legacyBucketReader, roles/storage.legacyObjectReader |  roles/storage.legacyBucketWriter, roles/storage.legacyObjectOwner | roles/storage.legacyBucketOwner, roles/storage.legacyObjectOwner
+topic                   | roles/pubsub.subscriber     | roles/pubsub.publisher       | roles/pubsub.editor
+subscription            | roles/pubsub.subscriber     | n/a                          | n/a
+
+Please note that the permissions will be provisioned on the target itself. Additional permissions might be inherited from the project's IAM (e.g. someone having Project Editor role will be able to publish on all topics).

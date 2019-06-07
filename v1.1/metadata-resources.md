@@ -20,7 +20,7 @@ In addition to template and sample files we also produce Project Company Data Me
 
 ### JSON Schema Files ###
 
-* [1.1 Schema](../schema/catalog.json). The [Catalog](../schema/catalog.json) schema includes by reference the [Dataset](../schema/dataset.json), [Distribution](../schema/distribution.json), [Organization](../schema/organization.json), and [vCard](../schema/vcard.json) schemas. 
+* [1.1 Schema](../schema/catalog.json). The [Catalog](../schema/catalog.json) schema includes by reference the [Dataset](../schema/dataset.json), [Distribution](../schema/distribution.json), [ODRL Policy](../schema/odrl_policy.json), [Organization](../schema/organization.json), and [vCard](../schema/vcard.json) schemas. 
 
 ### Sample Data Files
 

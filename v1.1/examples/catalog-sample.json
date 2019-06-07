@@ -2,8 +2,8 @@
   "conformsTo": "https://vwt-digital.github.io/project-company-data.github.io/v1.1/schema",
   "dataset": [
     {
-      "accessLevel": "public",
-      "rights": "This dataset does not contain any confidential information and can therefore be release to public",
+      "accessLevel": "internal",
+      "rights": "This dataset contains company information and should therefore be internal",
       "contactPoint": {
         "fn": "Jane Doe",
         "hasEmail": "mailto:jane.doe@agency.gov"
@@ -36,7 +36,25 @@
           }
         }
       },
-      "title": "U.S. Widget Manufacturing Statistics"
+      "title": "U.S. Widget Manufacturing Statistics",
+      "odrlPolicy": {
+          "uid": "http://dx.doi.org/10.7927/H45X26V8",
+          "permission": [{
+              "target": "my-bucket",
+              "action": "read",
+              "assignee": "everyone@mycompany.org"
+          },
+          {
+              "target": "my-bucket",
+              "action": "write",
+              "assignee": "collegue@mycompany.org"
+          },
+          {
+              "target": "my-bucket",
+              "action": "modify",
+              "assignee": "me@mycompany.org"
+          }]
+      }
     },
     {
       "accessLevel": "public",
