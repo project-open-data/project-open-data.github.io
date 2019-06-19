@@ -1,6 +1,7 @@
 import base64
 import json
 
+
 def find_topic(dataset):
     for distribution in dataset['distribution']:
         if distribution['format'] == 'topic':
@@ -177,7 +178,7 @@ def gather_permissions(access_level, resource_title, resource_format, project_id
 
     if bindings is not None:
         for binding in bindings:
-            binding['members'] = [member.format(project_id = project_id) for member in binding['members']]
+            binding['members'] = [member.format(project_id=project_id) for member in binding['members']]
 
         return bindings
     else:
@@ -236,11 +237,21 @@ def generate_config(context):
                             'subscription': distribution['title']
                         }
                 }
-
-
+            if distribution['format'] == 'mysql-instance':
+                resource_to_append = {
+                    'name': distribution['title'],
+                    'type': 'gcp-types/sqladmin-v1beta4:instances',
+                    'properties': distribution['deploymentProperties']
+                }
+            if distribution['format'] == 'mysql-db':
+                resource_to_append = {
+                    'name': distribution['title'],
+                    'type': 'gcp-types/sqladmin-v1beta4:databases',
+                    'properties': distribution['deploymentProperties']
+                }
             if resource_to_append:
                 if 'accessLevel' in dataset:
-                    append_gcp_policy(resource_to_append, distribution['title'], distribution['format'], dataset['accessLevel'], 
+                    append_gcp_policy(resource_to_append, distribution['title'], distribution['format'], dataset['accessLevel'],
                                       context.env['project'], dataset.get('odrlPolicy'))
                 resources.append(resource_to_append)
 
