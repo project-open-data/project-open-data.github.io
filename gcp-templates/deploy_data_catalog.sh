@@ -262,7 +262,10 @@ def generate_config(context):
                 resource_to_append = {
                     'name': distribution['title'],
                     'type': 'gcp-types/sqladmin-v1beta4:databases',
-                    'properties': distribution['deploymentProperties']
+                    'properties': distribution['deploymentProperties'],
+                    'metadata': {
+                        'dependsOn': [distribution['deploymentProperties']['instance']]
+                    }
                 }
 
             if resource_to_append:
