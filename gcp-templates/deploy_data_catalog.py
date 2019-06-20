@@ -237,6 +237,9 @@ def generate_config(context):
                             'subscription': distribution['title']
                         }
                 }
+                if 'deploymentProperties' in distribution:
+                    for k, v in distribution['deploymentProperties']:
+                        resource_to_append['properties'][k] = v
             if distribution['format'] == 'mysql-instance':
                 resource_to_append = {
                     'name': distribution['title'],
