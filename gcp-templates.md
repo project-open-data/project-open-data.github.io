@@ -41,10 +41,12 @@ The following table also shows the storage formats that are supported by the GCP
 
 {: .table .table-striped}
 Format                             | GCP resource
---------------                     | --------------                                                                                                                      
+--------------                     | --------------
 blob-storage                       | Storage bucket
 topic                              | Pubsub topic
-subscription                       | Pubsub subscription            
+subscription                       | Pubsub subscription
+mysql-instance                     | GCP SQL MySQL instance
+mysql-db                           | GCP SQL MySQL database
 
 ## 3. Access permissions
 
@@ -53,7 +55,6 @@ On deployment of a dataset, the access permissions will be set according to the 
 {: .table .table-striped}
 accessLevel             | Resulting permissions
 -----------------       | -------------------------
-
 public                  | Public read, default write, extended with permissions from the odrlPolicy
 internal                | Default permissions, extended with permissions from the odrlPolicy
 restricted              | Same as internal
@@ -64,7 +65,6 @@ Additional permissions can be set using the odrlPolicy field of the dataset. The
 {: .table .table-striped}
 Field                      | Usage
 -----------------          | -------------------------
-
 uid                        | A unique identifier of the policy in the dataset
 permission                 | A list of permission rules to be applied by this policy
 permission &rarr; target   | The title of the distribution to which this rule applies
@@ -76,7 +76,6 @@ The action that is allowed on the target determines the GCP role assigned to the
 {: .table .table-striped}
 Format                  | read                        | write                        | modify
 -----------------       | -------------------------   | ---------------------        | --------------------------
-
 blob-storage            | roles/storage.legacyBucketReader, roles/storage.legacyObjectReader |  roles/storage.legacyBucketWriter, roles/storage.legacyObjectOwner | roles/storage.legacyBucketOwner, roles/storage.legacyObjectOwner
 topic                   | roles/pubsub.subscriber     | roles/pubsub.publisher       | roles/pubsub.editor
 subscription            | roles/pubsub.subscriber     | n/a                          | n/a

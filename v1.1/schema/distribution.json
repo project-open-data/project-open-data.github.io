@@ -70,6 +70,19 @@
         }
       ]
     },
+    "deploymentProperties": {
+      "title": "deployment properties",
+      "description": "Additional platform specific properties to specify deployment details (e.g. instance details like sizing and location on a database)",
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
     "accessURL": {
       "title": "Access URL",
       "description": "URL providing indirect access to a dataset",

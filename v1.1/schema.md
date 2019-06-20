@@ -113,6 +113,7 @@ Field                                           | Label                 | Defini
 [downloadURL](#distribution-downloadURL)        | Download URL          | URL providing direct access to a downloadable file of a dataset. | If-Applicable
 [format](#distribution-format)                  | Format                | A human-readable description of the file format of a distributioni, also used to determine type of resource for [GCP deployment](../gcp-templates). | No
 [deploymentZone](#distribution-deploymentZone)  | Deployment zone       | The compute zone where this distribution is deployed | No
+[deploymentProperties](#distribution-deploymentProperties)  | Deployment properties       | Additional platform specific properties to specify deployment details (e.g. instance details like sizing and location on a database) | No
 [mediaType](#distribution-mediaType)            | Media Type            | The machine-readable file format ([IANA Media Type](http://www.iana.org/assignments/media-types) or [MIME Type](http://en.wikipedia.org/wiki/Internet_media_type)) of the distribution's `downloadURL`. | If-Applicable   
 [title](#distribution-title)                    | Title                 | Human-readable name of the distribution, also defines name of resource for [GCP deployment](../gcp-templates). | No
                                                                                                                       
@@ -176,6 +177,7 @@ Additional details for each field are provided here broken down into sections fo
             * {: .field-optional}[description](#distribution-description)
             * {: .field-required}[format](#distribution-format)
             * {: .field-optional}[deploymentZone](#distribution-deploymentZone)
+            * {: .field-optional}[deploymentProperties](#distribution-deploymentProperties)
             * {: .field-required-if-applicable}[mediaType](#distribution-mediaType)
             * {: .field-optional}[title](#distribution-title)
         * {: .field-required}[identifier](#identifier)
@@ -495,6 +497,15 @@ Dataset Fields {#Dataset}
 **Accepted Values** | String
 **Usage Notes** | This specifies the compute zone where this distribution is deployed, used for [GCP templates](../../gcp-templates/).   
 **Example** | `{"deploymentZone":"europe-west1"}`
+
+{: .table .table-striped .child-field #distribution-deploymentProperties}
+**Field [#](#distribution-deploymentProperties){: .permalink}** | **distribution &rarr; deploymentProperties**
+----- | -----
+**Cardinality** | (0,1)
+**Required** | No
+**Accepted Values** | Object
+**Usage Notes** | Additional platform specific properties to specify deployment details (e.g. instance details like sizing and location on a database).
+**Example** | `{"deploymentZone":{"location":"europe-west1","tier":"db-f1-micro"}}`
 
 {: .table .table-striped .child-field #distribution-mediaType}
 **Field [#](#distribution-mediaType){: .permalink}** | **distribution &rarr; mediaType**
