@@ -344,7 +344,7 @@ Maintaining communication with the community that is created from an open data e
 Federal agency staff dedicated to implementing the Open Data Policy requirements as reported to the Office of Management and Budget. *See this [list of Agency Points of Contact](points-of-contact/).*
 
 #### Chief Data Officers  
-Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. *See this [growing list of federal Chief Data Officers](chief-data-officers/).*
+Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products.
 
 **Goal:** To engage sister agencies in open data community events. 
 
