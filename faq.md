@@ -29,12 +29,13 @@ This project constitutes a collaborative work ("open source"). Federal employees
 
 #### Easy
 
-1. Click the "Improve this content" button in the top right corner of any page.
-2. Make changes as you would normally.
-3. Click "Submit."
-4. Your change should appear, once approved.
-
 *Note: You will need to [create a free GitHub account](https://github.com/signup/free) if you do not already have one.*
+
+1. Click the "Edit this Page" button in the top right corner of any page.
+2. If prompted, follow the instructions to "Fork this repository and propose changes."
+3. Make changes as you would normally.
+4. Fill out the form at the bottom of the page to "Propose file change" and then follow the instructions to submit a pull request.
+5. Your change should appear, once approved.
 
 #### Advanced
 
@@ -90,6 +91,11 @@ In 2012, OMB established PortfolioStat accountability sessions to engage directl
 ### Does PDF meet the “machine readable and open format” requirement?
 
 While ISO 32000 is an open standard, the Portable Document Format (PDF) does not achieve the same level of openness as CSV, XML, JSON, and other generic formats.
+
+### What are other data best practices that are suggested by internet standards bodies?  
+
+* W3 [Data on the Web Best Practices](https://www.w3.org/TR/dwbp/)
+
 
 ## Metadata
 

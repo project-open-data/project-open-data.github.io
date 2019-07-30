@@ -48,8 +48,6 @@ Implementation guidance for open data practices.
 
 3-6 [Frequently Asked Questions](/faq/) - A growing list of common questions and answers to facilitate adoption of open data projects.
 
-3-7 [Open Data Cross Priority (CAP) Goal](http://goals.performance.gov/opendata) - Information on the development of the Open Data CAP goal as required in the [Open Data Executive Order](https://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government-).
-
 ----------------
 
 ## 4. Tools
@@ -74,9 +72,11 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-8 [Esri Geoportal Server](https://github.com/Esri/geoportal-server/) - Open source catalog supporting ISO/FGDC/DC/... metadata with mapping to DCAT to support agency.gov/data.json listings in addition to providing [OGC CSW](http://www.opengeospatial.org/standards/cat), [OAI-PMH](http://www.openarchives.org/pmh/) and [OpenSearch](http://www.opensearch.org). Supports automated harvesting from other open catalog sources.
 
-4-9 [GeoNode](http://geonode.org/) - An open source spatial data infrastructure (SDI) that enables federal agencies and other organizations to publish open geographic data in [standard open formats](http://geonode.readthedocs.org/en/latest/tutorials/devel/api/ogc.html).  GeoNode uses [pycsw](http://pycsw.org/) to publish [standard ISO metadata](https://www.fgdc.gov/metadata/geospatial-metadata-standards) and to support search/harvest functionality, including automated harvesting from CKAN.  Users can easily visualize data online or download data via the web user interface or programmatically.
+4-9 [pycsw](http://pycsw.org) - Lightweight and flexible open source catalog supporting ISO/FGDC/DC/DIF providing discovery via [OGC CSW](http://www.opengeospatial.org/standards/cat), [OpenSearch](http://www.opensearch.org)/[OGC Geo and Time Extensions](http://www.opengeospatial.org/standards/opensearchgeo), [OAI-PMH](http://www.openarchives.org/pmh/), [SRU](http://www.loc.gov/standards/sru/).  Supports automated harvesting of remote metadata, WAFs and OGC Web Services.
 
-4-10 [US Open Data Institute's Let Me Get That Data For You](http://lmgtdfy.usopendata.org/) - A simple search interface that shows you what public machine-readable data is already live on your website. This tool is useful for ensuring your Public Data Listing is complete. 
+4-10 [GeoNode](http://geonode.org/) - An open source spatial data infrastructure (SDI) that enables federal agencies and other organizations to publish open geographic data in [standard open formats](http://geonode.readthedocs.org/en/latest/tutorials/devel/api/ogc.html).  GeoNode uses [pycsw](http://pycsw.org/) to publish [standard ISO metadata](https://www.fgdc.gov/metadata/geospatial-metadata-standards) and to support search/harvest functionality, including automated harvesting from CKAN.  Users can easily visualize data online or download data via the web user interface or programmatically.
+
+4-11 [US Open Data Institute's Let Me Get That Data For You](http://lmgtdfy.usopendata.org/) - A simple search interface that shows you what public machine-readable data is already live on your website. This tool is useful for ensuring your Public Data Listing is complete. 
 
 #### Converter Tools 
 
@@ -108,9 +108,11 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-22 [DataVizWiz](https://drupal.org/project/datavizwiz) - A [Drupal](http://drupal.org) module that provides a fast way to get data vizualizations online.
 
+4-23 [Tabula](http://tabula.technology/) - Tabula is a tool for liberating data tables locked inside PDF files. researchers use Tabula to turn PDF reports into Excel spreadsheets, CSVs, and JSON files for use in analysis and database applications.
+
 ----------------
 
-##5. Resources
+## 5. Resources
 
 This section contains programmatic tools, resources, and/or checklists to help programs determine open data requirements.
 
@@ -133,12 +135,17 @@ Resources to provide guidance and assistance for each aspect of creating and mai
 
 5-9 [Example Data Hubs](/data-hubs) - Collection of department, agency, and program data sites across the federal government.
 
-5-12 [Videos](/videos) - Online tutorials walking agencies through important aspects of the Open Data Policy.   
+5-10 [Videos](/videos) - Online tutorials walking agencies through important aspects of the Open Data Policy.   
 
+5-11 [CIO Council Open Data Prioritization Toolkit](https://cio.gov/cio-council-releases-open-data-prioritization-toolkit/) -  A toolkit to assist agencies with evaluating and prioritizing datasets for release consisting of [guidance](https://cio.gov/wp-content/uploads/filebase/cio_document_library/Open%20Data%20Prioritization%20Toolkit%20Summary.html) and [workbooks](https://cio.gov/wp-content/uploads/filebase/cio_document_library/Open%20Data%20Prioritization%20Toolkit_Workbook.xlsx) to help agencies evaluate datasets on the criteria of value, cost, and risk.
+
+5-12 [Example Public Engagement and Prioritization Schemes](prioritization/) - Collection of resources and tools about creating a process to engage with the public to help facilitate and prioritize data release for reference.
+
+5-12 CIO Council Chief Data Role Survey - Research on the data science and analytic teams across the Federal government, conducted in September 2015. (Download the [Response Data, xlsx](https://github.com/project-open-data/project-open-data.github.io/blob/9eee7b5a1a34ed416765acc0969f11e19566dc89/Chief%20Data%20Roles%20Survey%20Raw%20Data_092815.xlsx))
 
 ----------------
 
-##6. Case Studies
+## 6. Case Studies
 
 Case studies of novel or best practices from agencies who are leading in open data help others understand the challenges and opportunities for success.
 
@@ -166,11 +173,23 @@ Case studies of novel or best practices from agencies who are leading in open da
 
 ----------------
 
-##7. Open Data Engagement
+## 7. Open Data Engagement
 
-So you’re opening up government data and making it easier to find and use – to inspire new ideas, spur economic growth, and ultimately make your agency more effective in achieving its mission. But you realize that your agency can’t just supply data – it’s also about getting and acting upon feedback, and catalyzing use of the data from a wide variety of stakeholders.  A community event is a great way to hear ideas and feedback from passionate people, offer your expertise to people with thoughtful questions and evangelize your data assets. This document gives an overview of the main types of open data community events the U.S. Government holds.
+So you’re opening up government data and making it easier to find and use – to inspire new ideas, spur economic growth, and ultimately make your agency more effective in achieving its mission. But you realize that your agency can’t just supply data – it’s also about getting and acting upon feedback, and catalyzing use of the data from a wide variety of stakeholders.  
+
+## Open Data Online Engagement 
+
+In addition to comprehensive Enterprise Data Inventories and comprehensive metadata, there are many ways you can make your open data more discoverable and engage in a democratic diagloue online. 
+
+#### [Press Release Guidance](press/) 
+
+Include any relevant data in your Agency Press Releases as open data hyperlinked to Data.gov. 
+
+**Goal:** To communicate open by default is the new standard for government data and to engage with the community as soon as possible on timely relevant data that affects your agency mission. 
 
 ## Open Data Community Events 
+
+A community event is a great way to hear ideas and feedback from passionate people, offer your expertise to people with thoughtful questions and evangelize your data assets. This document gives an overview of the main types of open data community events the U.S. Government holds.
 
 #### Data Jam
 
@@ -189,9 +208,145 @@ An event where developers, designers, and strategists work in teams to solve pro
 
 **Goal:** To build relationships with the tech community and to see immediate tools and prototypes.
 
-#### See: [Open Data Community Event Templates and Instructions](engagement/)
+#### Event Guides
+ - [Open Data Community Event Templates and Instructions](engagement/)
+ - [How to add your open data event to Data.gov/Events](events/)
+
+## Open Data Engagement Guidance
+
+On any given month, there are multiple events listed on [Data.gov/events](https://www.data.gov/events/) in which federal agencies engage with the public, the private sector, non-profits, academia and others on open data issues. From the numerous open data events held by federal agencies in the last several years, there are a number of lessons learned and best practices in engaging with the public on open data and holding events.
+
+### Articulate the purpose of the event
+
+Agencies that have held open data events have found that emphasizing the purpose of the event is critical to success. It can be essential in gaining agency leadership support and approvals for the public engagement or event. 
+
+For example, the annual [USDA Open Data Summer Camp](https://www.data.gov/event/2018-usda-open-data-summer-camp/), aimed at high school students, is designed to increase awareness and understanding of the Department of Agriculture’s mission and activities. As members of America’s agricultural community age, it is important for USDA to connect with young people and inform them of agriculture’s role in the economy and American culture. USDA hopes this awareness will spur young people’s interest in agriculture as they reach higher education and the workforce.
+
+Other purposes of public participation in open data include:
+
+ - Expanding public awareness of agency mission or project
+ - Recruitment strategy for agency hiring
+
+ Agencies have also followed the practice of making sure that the purpose of the event is at the top of agendas and other written materials, stating the purpose verbally at the beginning of an event, having it visible on a screen during an event, and mentioning it throughout the planning process for open data events, including in internal meetings.
+
+### Confirm capability to hold events
+
+ The initial steps in planning an open data event generally pertain to determining the agency’s ability to hold the event. Factors to determine include
+
+Location - whether agency facilities for the type and size of event are available or another location is required
+
+Partners - whether the event needs to be co-sponsored with an outside organization for funding or other reasons, and what each partner may contribute to the event in terms of funding, donations in kind, staffing, etc.
+
+
+Leadership support - gaining agency leadership support for the event, and having the support of senior agency officials who can be the “champions” for the event 
+  - Getting leadership support may sometimes require presentation to multiple internal audiences to get approvals. 
+  - One method that can help gain leadership approval is if the advocacy for the event is from not just agency staff, but other partners such as industry or non-government organizations that support open data. 
+  - It is also important to keep the leadership informed throughout the development of the event, with regular updates on new commitments from participants for the event.
+
+
+Legal authorities - legal questions that can arise that require working with agency general counsel’s offices include:
+  - Legal authorities to hold the event or partner with outside organizations
+  - What agencies can and cannot do in interaction with industry participants
+  - Drafting necessary agreements such as Memoranda of Understanding with non-government co-sponsors
+  - Procurement issues in obtaining services such as outside space, event planners, audio/visual support, etc.
+
+
+Logistics issues - events in federal spaces raise issues such as:
+  - Security/clearance for non-federal attendees
+  - Rules regarding providing food or drinks at the event
+  - Web page for the event
+
+### Identify specific and measurable goals
+
+Agencies benefit from setting measurable goals for the public engagement or event. They contribute to the quality of the activity and can help in making comparisons to previous events.
+
+
+Examples of quantitative goals include:
+  - Number of participants 
+  - Diversity of participants (by role, agency, sector)
+  - Number of challenges identified
+  - Number of solutions developed
+
+
+Insight from goals include:
+  - Year over year growth in participants for annual events
+  - Number of solutions that received funding, created economic impact
+
+In some cases, it can be difficult to create quantitative goals from an open data event. If measurable, quantitative goals are not possible, event organizers should at least define tangible next steps from an event. They can include commitments to launch a pilot project or create a public-private partnership to do additional work on the subject matter of the open data event.    
+
+### Align goals with agency mission
+
+Aligning the goals for the open data event with the agency mission is an important factor in success, particularly with gaining agency leadership support for a public engagement or open data event.
+
+Examples of goals include:
+  - Contribution to an agency’s IT modernization
+  - Improve efficiency in data sharing with the public, other agencies
+  - Use of open data event to further a core mission of an agency, such as transportation safety or supporting education
+
+### Document roles and responsibilities for those involved in the initiative
+
+Agencies that have held events have found it a best practice to clearly document roles and responsibilities for those working on planning the event, especially for events that involve working with outside organizations as co-sponsors. Some agencies have used a detailed “tick tock” document with daily action items that show what each individual team member must complete.
+
+### Hold regular check-ins with those involved in the implementation
+
+Planning of most open data events begins with ad hoc meetings at the early stages, then monthly, weekly, or other intervals with increasing frequency as the date of the event nears.
+
+A best practice is to make sure that for each task or line of effort such as press, logistics, IT, etc., that there is a primary contact and also a backup for each line of effort.
+
+### Use multiple outlets to reach participants such as website, social media
+
+Many agencies have found it useful to develop a core set of materials for an event and then share with all the partners, so that each partner can disseminate through its own channels such as email lists, websites, and social media accounts
+
+Agencies have used a number of different methods to reach participants and publicize their open data events:
+
+ - Website. Agencies have used their own and partner organization websites to promote the events in news and event sections
+ - Social Media. Agencies have used their own and partner organization social media accounts to promote events
+ - Interagency meetings. Agencies have used interagency meetings, such as the open data working group meeting, to promote events, as well as interagency listservs and the [Data.gov/events](https://www.data.gov/events/) page
+
+Agencies have found it to be a best practice to make sure there is consistent design across print and digital materials promoting the events
+
+Agencies have also tried to be as inclusive as possible in the language for the event, to make sure that ideas are welcome not just from technologists, but from other types of participants, whether they work on the relevant policies or are from the communities affected by the subject matter of the event.
+
+Agencies and other organizations that have held open data events have dedicated resources to make sure to monitor support email addresses and social media accounts to respond to participant questions and requests. Typically, event organizers have created a central email address for questions/requests for assistance, and assigned a team of people with access to the email.
+
+### Motivate people to participate and address the interests of potential participants
+
+One way that agencies have used to ensure that the event meets the interest of participants is to get the participants to choose agenda topics. In some cases agencies have crowdsourced ideas for specific challenges to take on during the event. Where possible, open data event organizers have conducted brief surveys or interviews of potential participants to make sure that planning for the event stays focused on participant interests.
+
+### Assess data collected after the event to determine whether the initiative met its goals
+
+Agencies have collected data about the open data events to determine whether the event met the agency goals. Most often, agencies have conducted surveys of the participants to assess their satisfaction with the event. In instances where agencies partnered with outside organizations, agencies found it useful to have the partner take responsibility for surveying participants. Agencies have also examined media and social media coverage of the event and reported the results to agency leadership.
+
+Another best practice learned from those who have held multiple events is to do the feedback collection at the event itself, in person, on a physical card, with a few minutes set aside in the schedule for providing feedback, as it results in a much higher response rate than an online survey following the event.
+
+A best practice is to create a spreadsheet after the event, that shows the geographic region, industry sector of participants, the number of media mentions, social media analytics, number of online participants, and number of blog posts beyond those that were planned or requested by the event organizers.
+
+### Analyze the feedback from partners and participants and report publicly on achievements and lessons learned
+
+Agencies generally analyze the success of the event and the feedback they received from participants to record lessons learned. When possible, agencies create a final report of the event that can be shared publicly. In some cases, having a non-government partner taking the lead for publication of achievements and lessons learned has made it easier to quickly publish a report.
+
+Most agencies conduct internal post-event sessions to get perspective from those who organized the event to find what was successful and what could be changed in subsequent events and prepare internal documentation.
+
+In many cases agencies have worked on blog posts for publication on agency websites and partner websites to report on the achievements of the event, as well as disseminating links for additional information.
+
+### Acknowledge and reward efforts achievements of partners and participants
+
+The recognition of the achievements of participants is an important step at the conclusion of an event. For example, the annual USDA Open Data Summer Camp has a graduation ceremony for the student participants. The students get to present their projects and what they have learned about USDA open data to the audience. Graduates have had the opportunity to present in other settings as well, such as the interagency Open Data working group.
+
+### Seek ways to maintain communication with members of the community
+
+Maintaining communication with the community that is created from an open data event has been among the most challenging aspects of agency public engagement in open data. In most cases, the communication post event is concentrated in the blog posts, media coverage, and social media activity immediately following the event. The events that have been most successful in continuing communication with the community result in some type of clearly identified post event activity, such as a new website focused on the open data issue that was the topic of the event. A dedicated website for sharing new content or communication within the community, however, can succeed only with dedicated resources for maintaining the website and taking responsibility for keeping it current and maintaining the level of community communication. In other cases, identifying a tangible goal at the beginning of the open data event such as a subsequent pilot project or other next steps with commitments from participants to contribute on a specific effort after the open data event can ensure that the interaction from the open data event continues.
+
 
 ## Open Data Stakeholder Contacts
+
+#### Agency Open Data Policy Points of Contact
+Federal agency staff dedicated to implementing the Open Data Policy requirements as reported to the Office of Management and Budget. 
+
+#### Chief Data Officers  
+Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products.
+
+**Goal:** To engage sister agencies in open data community events. 
 
 #### FOIA Officers and Ombudsman
 Federal agency staff dedicated to handling Freedom of Information Act (FOIA) requests from industry and media. 
@@ -199,12 +354,13 @@ Federal agency staff dedicated to handling Freedom of Information Act (FOIA) req
 
 **Goal:** To monitor and measure the incoming demand for data and proactively release data in response to that signal.
 
-#### Chief Data Officers  
-Federal agency Chief Data Officers. The Chief Data Officer’s role is part data strategist and adviser, part steward for improving data quality, part evangelist for data sharing, part technologist, and part developer of new data products. *See this [growing list of federal Chief Data Officers](chiefdataofficers/).*
+#### Interagency Open Data Working Group
+A Federal Government working group open to all federal employees interested in open data. 
+*[Join the Interagency Open Data Working Group](working-group/)*
 
-**Goal:** To engage sister agencies in open data community events. 
+**Goal:** To discuss solutions to common pain points and share best practices and case studies across Federal agencies.
 
-#### Online Community
+#### Online Civil Society Community
 A website, social networking group and/or listserv where people who use open data congregate to offer feedback, tips, new uses or reuses, data requests or case studies.
 *Ex: Listservs for [NICAR](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/), [Code for America Brigade](https://groups.google.com/a/codeforamerica.org/forum/#!forum/brigade), [Sunlight Labs](https://groups.google.com/forum/#!forum/sunlightlabs), the Open Government Facebook and Google+ groups.*
 

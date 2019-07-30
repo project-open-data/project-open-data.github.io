@@ -20,16 +20,18 @@ For the purposes of implementing of the OMB Memorandum titled “Managing Inform
 System owners and data owners should, wherever possible, consider relevant international and US standards for data elements.  Standards bodies dealing with data include:
 
 #### International Standards
-[ISO](http://www.iso.org/iso/catalogue_ics) 
-[United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)](http://www.unece.org/cefact/about.html)
+* [ISO](http://www.iso.org/iso/catalogue_ics) 
+* [United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)](http://www.unece.org/cefact/about.html)
+* [W3C The World Wide Web Consortium](https://www.w3.org/)
+* [IETF The Internet Engineering Task Force](https://www.ietf.org/)
 
 #### US National Standards
-[American National Standards Institute (ANSI)](http://www.ansi.org/)
-[International Committee for Information Technology Standards (INCITS)](http://incits.org/)
+* [American National Standards Institute (ANSI)](http://www.ansi.org/)
+* [International Committee for Information Technology Standards (INCITS)](http://incits.org/)
 
 #### US Federal Government Standards
-[The Federal Geographic Data Committee (FGDC)](http://www.fgdc.gov/standards)
-[The National Information Exchange Model (NIEM)](https://www.niem.gov/Pages/default.aspx)
+* [The Federal Geographic Data Committee (FGDC)](http://www.fgdc.gov/standards)
+* [The National Information Exchange Model (NIEM)](https://www.niem.gov/Pages/default.aspx)
 
 
 This section of Project Open Data will be updated as guidance evolves.

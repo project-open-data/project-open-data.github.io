@@ -1,6 +1,6 @@
 # Contributing to Project Open Data
 
-*By contributing to this project, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). See the [license file](LICENSE) for additional information.*
+*By contributing to this project, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). See the [https://github.com/project-open-data/project-open-data.github.io/blob/master/LICENSE.md](LICENSE) for additional information.*
 
 ## How to Contribute
 
