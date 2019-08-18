@@ -90,6 +90,13 @@ This section is a list of ready-to-use solutions or tools that will help agencie
 
 4-15 [ESRI2Open](http://github.com/project-open-data/esri2open) - A tool which converts spatial and non-spatial data form ESRI only formats to the Open Data formats, CSV, JSON, or GeoJSON, making them more a part of the WWW ecology.
 
+4-16 [JSON to CSV Converter](http://freeconvertonline.co/) - Easy and fast way to convert large JSON dataset to CSV.
+
+4-17 [XML to JSON Converter](http://www.freeconvertonline.co/xmltojson) - Convert XML to JSON at ease.
+
+4-18 [XML to CSV Converter](http://www.freeconvertonline.co/xmltocsv) - Convert XML to CSV with few clicks
+
+
 #### Engagement Tools 
 
 4-16 [Kickstart](https://github.com/project-open-data/kickstart) - A WordPress plugin to help agencies kickstart their open data efforts by allowing citizens to browse existing datasets and vote for suggested priorities.
