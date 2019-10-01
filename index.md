@@ -350,7 +350,7 @@ Federal agency Chief Data Officers. The Chief Data Officer’s role is part data
 
 #### FOIA Officers and Ombudsman
 Federal agency staff dedicated to handling Freedom of Information Act (FOIA) requests from industry and media. 
-*[The Office of Government Information Services (OGIS)](https://ogis.archives.gov/) at the National Archives and FOIA staff at agencies.*
+*[The Office of Government Information Services (OGIS)](https://www.archives.gov/ogis) at the National Archives and FOIA staff at agencies.*
 
 **Goal:** To monitor and measure the incoming demand for data and proactively release data in response to that signal.
 
