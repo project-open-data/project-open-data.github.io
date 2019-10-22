@@ -19,7 +19,7 @@ exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile"
 markdown: kramdown
 relative_permalinks: false
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 sass:
