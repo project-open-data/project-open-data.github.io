@@ -172,7 +172,7 @@ JSON is required though there are several optional syntaxes that can also be use
 
 ### What are some of the ways that agencies can become more involved with Open Data?
 
-Having a contact point at the agency who can answer questions and receive comments about published data is extremely important to making your data more open and valuable to the public. This contact point can be centralized at the agency level, but it's extremely value to have someone close to the source of the data who understands it well enough to help the public take full advantage of it..
+Having a contact point at the agency who can answer questions and receive comments about published data is extremely important to making your data more open and valuable to the public. This contact point can be centralized at the agency level, but it's extremely valuable to have someone close to the source of the data who understands it well enough to help the public take full advantage of it.
 
 ## Scope 
 
