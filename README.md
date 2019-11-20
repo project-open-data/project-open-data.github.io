@@ -1,4 +1,23 @@
-# Project Open Data
+_[Resources.data.gov](https://resources.data.gov/) has replaced Project Open
+Data. We look forward to your continued support and
+[contributions](https://github.com/GSA/resources.data.gov)._
+
+On January 14, 2019, the [Foundations for Evidence-Based Policymaking
+Act](https://www.congress.gov/bill/115th-congress/house-bill/4174/text)
+("Evidence Act"), which includes the OPEN Government Data Act, was signed into
+law. The Evidence Act requires the Office of Management and Budget, the Office
+of Government Information Services, and the General Services Administration to
+develop and maintain an online repository
+([Resources.data.gov](https://resources.data.gov/)) of tools, best practices,
+and schema standards to facilitate the adoption of open data practices across
+the Federal Government.
+
+There is still work left to ensure this project is archived properly and
+DCAT-US schema development continues. Keep an eye on
+[Resouces.data.gov](https://resources.data.gov/) for updates.
+
+
+# Project Open Data (DCAT-US)
 
 [![Build Status](https://travis-ci.org/project-open-data/project-open-data.github.io.svg?branch=master)](https://travis-ci.org/project-open-data/project-open-data.github.io)
 
