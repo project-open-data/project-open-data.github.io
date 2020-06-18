@@ -45,17 +45,17 @@ Data elements related to amount are crucial to federal spending transparency and
 In response to the feedback posted, the data element names and definitions have been revised to show more clearly which data elements are cumulative, which are only procurement or financial assistance, and how they are related. Through this process, some of the data element names have been adjusted. ‘Funding Obligation Amount on Award’ has been renamed ‘Federal Action Obligation’ and ‘Funding Action Obligation’ has been renamed ‘Amount of Award.’ The final data elements and definitions are posted [here](https://max.gov/datastandards). In addition to these data elements, [obligations]({{ site.baseurl }}/whitepapers/obligation/) for awards will also be reported by agencies from agency financial systems. This data element was previously standardized in May of this year and the final standard is [here](https://max.gov/datastandards).  
 
 
-##Background
+## Background
 
 The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires reporting the amount of the award for each federal award.  This paper defines amounts that agencies are reporting for financial assistance awards (including grants, subgrants, loans, awards, cooperative agreements, and other forms of financial assistance) and contract awards (including contracts, subcontracts, purchase orders, task orders, and delivery orders).
 
-##Context
+## Context
 
 To meet FFATA requirements, agencies used two established data sources (further described below) to report awards to USAspending.gov.  Since the information for financial assistance awards and contract awards are different, USAspending.gov is set up to report financial assistance and contract information separately.  In addition, each established data source included more than one “amount” element, with the result that agencies have been reporting multiple “amount” elements to USAspending.gov.  
 
 Now, to clarify and standardize the award amount, this paper defines the “award amount” and how it relates to the other amounts reported.
 
-##Analysis of Current Definitions
+## Analysis of Current Definitions
 
 The original source for *financial assistance awards* was the Federal Assistance Award Data System (FAADS) maintained by the Census Bureau, Department of Commerce. FAADS included the following amount-related data elements.  
 
@@ -82,13 +82,13 @@ The original source for *contract awards* was the Federal Procurement Data Syste
 
 <b>Action Obligation</b> is the amount of the award that agencies report to USAspending.gov for contracts.
 
-##Considerations
+## Considerations
 
 1.  <b>Use of authoritative data.</b>  he FAR requires federal agencies to annually verify and validate data reported to the FPDS-NG.  Summary results of this validation and verification are made publicly available via USAspending.gov.  Award amounts for federal procurement awards will continue to use FPDS-NG as the authoritative source for public display of procurement obligations.  Data for financial assistance is currently submitted by agencies using the FFADS+ file format to the Award Submission Portal (ASP). Current reporting requirements are stipulated in M-15-12 and the ASP User Guide.  Treasury and OMB are working with agencies to develop the architecture for future reporting. Once the award identification number (Award ID) is carried in agency financial systems and there is a linkage between financial data and award data, further policy and business process determinations will need to be made about sourcing obligation amounts from agency financial systems. 
 
 2.  These definitions apply to reporting on federal awards that has taken place since enactment of FFATA.  OMB guidance issued in May 2015 directed agencies to include Award ID in agency financial systems as the way to associated award data and financial data without duplicating efforts or data.  As agencies implement these changes in FY 2017, a further review of the definition and standard for award amounts may be required.    
 
-##Final Definitions for Transparency Reporting
+## Final Definitions for Transparency Reporting
 <table class='table-bordered'>
   <thead>
     <tr>
@@ -132,10 +132,10 @@ The original source for *contract awards* was the Federal Procurement Data Syste
   </tr>
 </table>
 
-##References
+## References
 
 Federal Assistance Award Data System (FAADS) Users’ Guide for Federal Fiscal Year 2010, revised August 2011. Amount-related fields are on page 10.
-[http://media.nara.gov/electronic-records/rg-029/faads/guide2010.pdf](http://media.nara.gov/electronic-records/rg-029/faads/guide2010.pdf)
+[https://catalog.archives.gov/OpaAPI/media/6113175/content/electronic-records/rg-029/faads/guide2010.pdf](https://catalog.archives.gov/OpaAPI/media/6113175/content/electronic-records/rg-029/faads/guide2010.pdf)
 
 GSA Federal Procurement Data System-Next Generation (FPDS-NG) Data Element Dictionary, Version 1.4.3, February 27, 2015. Elements 3A, 3B, and 3C, pages 40-43.
 [https://www.fpds.gov/downloads/Version_1.4.3_specs/FPDSNG_DataDictionary_V1.4.3.pdf](https://www.fpds.gov/downloads/Version_1.4.3_specs/FPDSNG_DataDictionary_V1.4.3.pdf )
