@@ -17,11 +17,11 @@ page: data-Elements
 The elements on these lists have been discussed by members of the federal community as part of the DATA Act.
 At the current time, these lists are exhaustive. That said, the federal community is aware of agencies’ and the larger community’s needs and may add and standardize new elements to improve transparency reporting moving forward.
 
-The data elements are grouped by category; each short list represents a different category. In addition, each element will have it's own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who posted responses to these papers and provided input on these data elements.
+The data elements are grouped by category; each short list represents a different category. In addition, each element will have its own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who posted responses to these papers and provided input on these data elements.
 
 Data standards for these data elements have all been finalized. The final data element names and definitions are located [here](https://max.gov/datastandards).
 
-If you’d like to propose an entirely new element, please create a new issue according to our [contribution guidelines]({{ site.baseurl }}/feedback/). Please click _Get Updates_ above to receive emails as we update other pages on this site. 
+Please click _Get Involved_ above to receive emails as we update other pages on this site. 
 
 
 
