@@ -73,5 +73,5 @@ There were no concerns or recommended alternatives for the NAICS Code and NAICS 
 
 ## References
 
-[Federal Acquisition Regulation Part 19, Small Business Programs.](http://acquisition.gov/far/current/html/FARTOCP19.html)  
+[Federal Acquisition Regulation Part 19, Small Business Programs.](https://www.acquisition.gov/content/part-19-small-business-programs)  
 [U.S. Census Bureau site with NAICS codes.](http://www.census.gov/eos/www/naics/)

@@ -93,9 +93,9 @@ b. The definitions for Budget Authority Appropriated and Other Budgetary Resourc
 
 ## References
 
-[OMB Circular A-11](http://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc/):
+[OMB Circular A-11](https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf):
 
-* Section 20, Terms and Concepts. See pages 3-8 for definitions.
+* Section 20, Terms and Concepts. See pages 2-11 of Section 20 for definitions.
 * Appendix F, Format of SF132, SF133, Schedule P, and SBR.
 
 [Treasury Financial Manual supplement United States Government Standard General Ledger, Part 2 Fiscal 2015 Reporting, Section V: Crosswalks to Standard External Reports for Fiscal 2015 Reporting, page V-89 and following for the USSGL accounts that are used in each line of SF 133, Report on Budget Execution and Budgetary Resources.](http://tfm.fiscal.treasury.gov/v1/supplements/ussgl/ussgl_part_2.html#Part 5)

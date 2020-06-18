@@ -40,16 +40,16 @@ Thank you for contributing your feedback on this data element—your input and i
   </tr>
 </table>
 
-##Background
+## Background
 
 The Federal Funding Accountability and Transparency Act (FFATA), 2006, established requirements for Federal agencies to report Federal award actions to a central, publicly accessible website (USAspending.gov) and identified data that must be reported. FFATA was amended in 2008 to require additional data reporting. FFATA was further amended in 2014 by the Digital Accountability and Transparency Act (DATA) to, among other items, require summary financial data be reported by Federal agencies in addition to federal award data.
 Section 2(b)(1) of FFATA requires that the location of the entity receiving the award, including the city, state, congressional district, and country, be included when reporting Federal award actions.  
 
-##Context
+## Context
 
 Accurate and timely identification of responsible Federal award partners is essential to ensuring the integrity of the Federal awarding processes.  The entity’s address and congressional district complements this information, allows for additional specification related to the entity, and provides taxpayers a better understanding as to where their tax dollars are being spent. The address references that of the entity’s principal place of business, which may be different from the place of activity.
 
-##Analysis of Current Definitions
+## Analysis of Current Definitions
 
 _Delineation of states in the United States._  The only existing definitions in the Federal Acquisition Regulations (FAR) or in 2 CFR related to address are those defining what consists of the “United States.”  In both cases, the primary description is that it includes the 50 states and the District of Columbia.  2 CFR 25.350 also specifically includes the Commonwealths of Puerto Rico and Northern Mariana Islands; Guam, American Samoa, and the U.S. Virgin Islands.  It also considers “a territory or possession of the United States” inclusive of the definition.  In most cases in the FAR, the five above named territories and commonwealths are specifically included, as well as “minor outlying islands,” either specifically named or named as this group.   The recommendation is to standardize this practice of the commonwealths, territories, and minor outlying islands being considered “states” for reporting purposes, rather than separate countries.
 
@@ -72,7 +72,7 @@ Address for area without ZIP+4 code.  It is current procurement and financial as
 
 _Congressional district._ A congressional district is the geographic region that elects a single representative to the House of Representatives.  The congressional district is derived using a commercial mapping tool based on the ZIP+4 code provided, either when contract actions are reported to FPDS-NG or at the time financial assistance awards are submitted.  The recommendation is to include the congressional district in SAM so that SAM can supply it to procurement and financial assistance awards.  The boundaries of a congressional district may change based on decennial census, legislation, or court order.  The current procurement practice is that the congressional district does not change during the life of the award unless the physical address is updated by contract modification.  The current financial assistance practice is to determine the congressional district each time an action is reported.  It remains to be determined whether the procurement and financial assistance practices can be standardized regarding whether the congressional district remains the same throughout the life of the award or is updated at specific times during the life of the award.
 
-##Recommended Definitions for Transparency Reporting
+## Recommended Definitions for Transparency Reporting
 
 <table class='table-bordered'>
   <thead>
@@ -123,7 +123,7 @@ _Congressional district._ A congressional district is the geographic region that
   </tr>
 </table>
 
-##References
+## References
 
 2 CFR 25.350 definition of State.  [http://www.ecfr.gov/cgi-bin/text-idx?SID=9e74120ca775d5d22ca2dd183297440b&mc=true&node=se2.1.25_1350&rgn=div8](http://www.ecfr.gov/cgi-bin/text-idx?SID=9e74120ca775d5d22ca2dd183297440b&mc=true&node=se2.1.25_1350&rgn=div8)
 
@@ -133,4 +133,4 @@ United States Postal Service Publication 28, Postal Addressing Standards.  [http
 
 National Institute of Standards and Technology (NIST) Federal Information Processing Standards (FIPS) – Withdrawn FIPS publications and replacement standards for withdrawn FIPS on geographic codes.  [http://www.nist.gov/itl/fips.cfm](http://www.nist.gov/itl/fips.cfm)
 
-International Committee for Information Technology Standards (INCITS) list of adopted standards.  [http://incits.org/dotAsset/20089da0-bb02-427e-9bb0-5f34129821d3.pdf.](http://incits.org/dotAsset/20089da0-bb02-427e-9bb0-5f34129821d3.pdf)  INCITS 38 is available for purchase from the American National Standards Institute - [ANSI](http://webstore.ansi.org/default.aspx) or through the INCITS store via [Techstreet](http://www.techstreet.com/incits).
+International Committee for Information Technology Standards (INCITS) list of adopted standards.  [https://standards.incits.org/apps/group_public/projects.php?end_in_year=&page=1](https://standards.incits.org/apps/group_public/projects.php?end_in_year=&page=1)  INCITS 38 is available for purchase from the American National Standards Institute - [ANSI](http://webstore.ansi.org/default.aspx) or through the INCITS store via [Techstreet](http://www.techstreet.com/incits).

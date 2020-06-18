@@ -52,7 +52,7 @@ To clarify, for award level DATA Act reporting, agencies will report both the ag
 The Funding Agency information is not currently reported to USAspending.gov for federal financial assistance, but it is for procurement. Currently, the predominant Treasury Account Symbol (TAS) is used to show additional agency information. In the future, Funding Agency and Awarding Agency data elements will be reported to USAspending.gov for both federal financial assistance and federal procurement.  
 
 
-##Background
+## Background
 
 The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that each federal award include information on the federal funding agency.  This paper provides the definition of the federal funding agency name and federal funding agency code.
 
@@ -63,11 +63,11 @@ In federal contracting, sometimes one organization serves as the contracting off
 This practice also applies to financial assistance awards.
 
 
-##Context
+## Context
 
 Agencies used two established data sources (further described below) to report awards to USAspending.gov.  There were several federal organization-related fields in the established data sources which agencies have been reporting.  
 
-##Analysis of Current Definitions
+## Analysis of Current Definitions
 
 The original source for contract awards was the Federal Procurement Data System – Next Generation (FPDS-NG).  FPDS-NG includes the following agency-related data element definitions.
 
@@ -89,7 +89,7 @@ In the past, financial assistance awards only reported one organization; they di
 
 In the future, the federal communities will examine the potential to provide additional detail on funding sources, beyond the source of the preponderance of funding.  
 
-##Final Definitions for Transparency Reporting
+## Final Definitions for Transparency Reporting
 
 <table class='table-bordered'>
   <thead>
@@ -118,7 +118,7 @@ In the future, the federal communities will examine the potential to provide add
 
 <sup>1</sup>The National Institute of Standards and Technology (NIST) withdrew the Federal Information Processing Standards (FIPS) codes referenced above (FIPS 95-2, *Codes for the Identification of Federal and Federally Assisted Organizations*) in 2008.  A second publication, NIST Special Publication 800-87, Codes for Identification of Federal and Federally-Assisted Organizations, provides similar codes but has not been updated since 2008.  Organizations established after 2008 (such as the Consumer Financial Protection Bureau) are not in SP 800-87.  The FIPS 95-2 and SP 800-87 codes provided the basis of the FPDS-NG table of agency codes, which is updated by GSA and so includes new agencies.
 
-##References
+## References
 
 Federal Acquisition Regulation (FAR) Subpart 2.1 – Definitions, includes the definition of assisted acquisition.
 [https://www.acquisition.gov/?q=browsefar](https://www.acquisition.gov/?q=browsefar)

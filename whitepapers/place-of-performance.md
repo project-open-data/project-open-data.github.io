@@ -53,19 +53,19 @@ Through the feedback posted on GitHub, OMB and Treasury received several ideas f
 The change described in this paper is a change to agency business processes rather than a change to data collected from awardees and recipients. Therefore, this standardization will not change how awardees and recipients report location data to the Federal Government. 
 
 
-##Background
+## Background
 
 The Federal Funding Accountability and Transparency Act of 2006 (FFATA) requires that primary location of performance under the award (including the city, State, congressional district, and Country) be included when reporting federal award actions.  Accurate identification of the primary location of performance of Federal awards is essential because it provides taxpayers with a better understanding of where Federally-funded work is being accomplished, and where tax dollars are being used.
 
 While the identification of a primary performance location is, in theory, a simple prospect, it is important to determine what type of identification that will be provided, the source of the information, and associated business rules that address identifiable peculiarities.
 
-##Context
+## Context
 
 The only existing definitions related to identifying a location or an address in the Federal Acquisition Regulations (FAR) or in 2 CFR related to address are those defining what consists as the “United States”.  In both cases, the primary description is that it includes the 50 states and the District of Columbia.  2 CFR 25.350 also specifically includes the Commonwealths of Puerto Rico and Northern Mariana Islands; Guam, American Samoa, and the U.S. Virgin Islands.  It also considers “a territory or possession of the United States” inclusive in the definition.  In most cases in the FAR, the five above named territories and commonwealths are specifically included; as well as “minor outlying islands”, either specifically named or named as this group.   The recommendation of this paper is to standardize the reporting of entity addresses located in the commonwealths and territories and associated states using USPS assigned state codes in the State data element and the International Organization for Standardization (ISO) country code for the United States in the Country data element; rather than use the individual ISO country codes for each.  Entity addresses located in the minor outlying islands would be reported using the assigned ISO country code for U.S. Minor Outlying Islands in the Country data element.
 
 Although not defined in the FAR or 2 CFR specifically, the place of performance has been captured in contracting reporting instructions for many years as the location of the principal plant or place of business where the supply items will be manufactured; where finished products will be taken from inventory; or, for services, the principal location where the service will be performed.  Alternately, for grants, the equivalent would be the address of the awardee or subawardee or the location(s) at which the project or program supported by the award will be carried out.
 
-##Analysis of Current Definitions
+## Analysis of Current Definitions
 
 For procurement, unless the place of performance is specified by the Federal Government, or awardees are required by specific terms and conditions of the award to specify their performance location(s), prime awardees are not required to identify the primary place of performance, and are free to actually “perform” on the award wherever they choose.  In these cases, government users have historically used the prime awardee’s own location (as registered in their System for Award Management (SAM) record in the physical address data fields). 
 
@@ -81,7 +81,7 @@ Many financial assistance awards are issued by the Federal Government to awardee
 
 This paper recommends that a future activity of the Award Committee for E-Government (ACE) be the examination of the potential to provide address data elements in terms of the Area of Benefit that resulted from the federal award to USAspending in lieu of or in addition to the primary place of performance data identified in this paper.  While more applicable to financial assistance awards in terms of identifying where the public benefited from the grant, this may also have applicability to procurement awards.
 
-##Unique Address Considerations
+## Unique Address Considerations
 
 * Certain places of performance located within the United States geographical area do not have physical addresses specific enough to comply with the data elements discussed herein (example:  performance on Indian reservations, national parks, military bases, or remote government-owned lands that do not have assigned zip+4 codes).  In these cases, it has been custom to use the nearest detailed physical address with a city, state, and zip+4 code (example:  tribal council building used for mail delivery) as the location identified for the place of performance when reporting.  The recommendation of this paper is to continue this practice and document it in reporting instructions.
 
@@ -92,7 +92,7 @@ This paper recommends that a future activity of the Award Committee for E-Govern
 * In the future, the Federal award communities will examine the potential to provide additional location information about awards that improves transparency of award spending. 
 
 
-##Final Definitions for Transparency Reporting
+## Final Definitions for Transparency Reporting
 <table class='table-bordered'>
   <thead>
     <tr>
@@ -118,10 +118,10 @@ This paper recommends that a future activity of the Award Committee for E-Govern
   </tr>
 </table>
 
-##References
+## References
 
 Federal Acquisition Regulation 4.606, Reporting Data, section (a) (3).
-[https://www.acquisition.gov/?q=/browse/far/4](https://www.acquisition.gov/?q=/browse/far/4)
+[https://www.acquisition.gov/content/4606-reporting-data](https://www.acquisition.gov/content/4606-reporting-data)
 
 Procedures, Guidance, and Information (PGI) 204.606, Reporting Data, section (xi), FPDS Entry – Principal Place of Performance Section. [http://www.acq.osd.mil/dpap/dars/pgi/pgi_htm/PGI204_6.htm.](http://www.acq.osd.mil/dpap/dars/pgi/pgi_htm/PGI204_6.htm)
 

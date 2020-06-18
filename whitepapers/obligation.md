@@ -57,6 +57,6 @@ The Treasury Department publishes a cross walk showing all Standard General Ledg
 
 ## References
 
-[OMB Circular A-11, Section 20, Terms and Concepts and Appendix F, Format of SF132, SF133, Schedule P, and SBR.](http://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc/)
+[OMB Circular A-11, Section 20, Terms and Concepts and Appendix F, Format of SF132, SF133, Schedule P, and SBR.](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/a11_current_year/app_f.pdf)
 
-[Treasury Financial Manual supplement United States Government Standard General Ledger, Part 2 Fiscal 2015 Reporting, Section V: Crosswalks to Standard External Reports for Fiscal 2015 Reporting. Page v-123, Line 2190, Obligations Incurred.](http://tfm.fiscal.treasury.gov/v1/supplements/ussgl/ussgl_part_2/sec5/sec5_sf133_2015.pdf)
+[Treasury Financial Manual supplement United States Government Standard General Ledger, Part 2 Fiscal 2021 Reporting, Section V: Crosswalks to Standard External Reports for Fiscal 2021 Reporting.](https://tfm.fiscal.treasury.gov/v1/supplements/ussgl/ussgl_part_2/sec5_cover_2021.html)

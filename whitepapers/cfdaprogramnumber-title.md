@@ -115,5 +115,5 @@ Title 2 Code of Federal Regulations (CFR) §200.77:
 
 Circular A-133:
 
-[https://www.whitehouse.gov/sites/default/files/omb/assets/omb/circulars/a133/a133.pdf](https://www.whitehouse.gov/sites/default/files/omb/assets/omb/circulars/a133/a133.pdf)
+[https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A133/a133.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A133/a133.pdf)
 

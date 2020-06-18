@@ -436,7 +436,7 @@ The FAADS field where a user can designate aggregate reporting is Record Type.  
 
 Federal Acquisition Regulation 4.606(a)(3), Reporting Data.
 
-[https://www.acquisition.gov/?q=/browse/far/4](https://www.acquisition.gov/?q=/browse/far/4)
+[https://www.acquisition.gov/content/4606-reporting-data](https://www.acquisition.gov/content/4606-reporting-data)
 
 Procedures, Guidance, and Information (PGI) 204.606, Reporting Data, section (1)(iii), Express Reporting.
 
@@ -448,14 +448,12 @@ GSA Federal Procurement Data System-Next Generation (FPDS-NG) Data Element Dicti
 
 U.S. Department of the Treasury, Award Submission Portal User Guide (July 2015).  
 
-[https://submissions.usaspending.gov/content/documents/UserGuide.pdf](https://submissions.usaspending.gov/content/documents/UserGuide.pdf)
-
 Federal Procurement Data System – Next Generation Grants Data Dictionary, Version 1.0, January 10, 2013. Elements 2A Type of Action on page 6, and 2F Record Type on page 8.
 
 [https://www.fpds.gov/downloads/FAADS/Grants_Data_Dictionary_(Draft).pdf](<https://www.fpds.gov/downloads/FAADS/Grants_Data_Dictionary_(Draft).pdf>)
 
 Federal Acquisition Regulation Part 16 identifies contract types.
 
-[https://www.acquisition.gov/?q=/browse/far/16](https://www.acquisition.gov/?q=/browse/far/16)
+[https://www.acquisition.gov/content/part-16-types-contracts](https://www.acquisition.gov/content/part-16-types-contracts)
 
 

@@ -40,13 +40,13 @@ Thank you for contributing your feedback on this data element—your input and i
   </tr>
 </table>
 
-##Background
+## Background
 
 The Federal Funding Accountability and Transparency Act (FFATA), 2006, established requirements for federal agencies to report federal award actions to a central, publicly accessible website (USAspending.gov) and identified data that must be reported. FFATA was amended in 2008 to require additional data reporting. FFATA was further amended in 2014 by the Digital Accountability and Transparency Act (DATA) to, among other items, require summary financial data be reported by federal agencies in addition to federal award data.
 
 Section 2(b)(1) of FFATA requires that an award title descriptive of the purpose of each funding action be included when reporting federal award actions.  FFATA itself is silent on the need to report any award identifiers (e.g., contract number, financial assistance number).  However, the Office of Management and Budget (OMB) issued memorandum M-08-04, dated November 9, 2007, which instructed agencies that contract data (including contract identifiers) would be taken from the information reported by them to the Federal Procurement Data System – Next Generation (FPDS-NG); and that the Federal Award Identifier Number (FAIN) would be submitted by agencies for financial assistance awards.  USAspending.gov then implemented use of these identifiers as the keys for identifying “awards” in the system; it uses the identifiers to group multiple actions against an award for the public to view.  As such, OMB determined that although FFATA was silent, award identifiers are required for transparency reporting.
 
-##Context
+## Context
 
 Award identifiers are common in both the federal procurement and financial assistance processes.  They are used to distinguish individual contracts or grants, and to group individual actions under one contract or grant.  “Actions” include the initial award and subsequent modifications.
 
@@ -58,7 +58,7 @@ If an award is a delivery order or task order under a parent contract (e.g., ind
 
 The award identifier is included on all reported subcontracts and subawards.
 
-##Analysis of Current Definitions
+## Analysis of Current Definitions
 
 Although referenced in the FAR and 2 CFR several times, no specific definitions in the regulations exist for award identifiers.  For the FFATA data standardization effort, the following definitions are proposed for both procurement and financial assistance as basic elements of award identification:
 
@@ -72,7 +72,7 @@ Although referenced in the FAR and 2 CFR several times, no specific definitions 
 
 Long term implementation of the DATA Act is expected to require expenditures and/or outlays be tracked to individual awards.  In order to accomplish this, financial systems will need to record the award identifiers.  This consideration does not change the recommended definitions here.
 
-##Recommended Definitions for Transparency Reporting
+## Recommended Definitions for Transparency Reporting
 
 <table class='table-bordered'>
   <thead>
@@ -99,12 +99,12 @@ Long term implementation of the DATA Act is expected to require expenditures and
   </tr>
 </table>
 
-##References
+## References
 
-OMB Memorandum M-08-04, “OMB Guidance on Data Submission under the Federal Funding Accountability and Transparency Act (Transparency Act),” November 9, 2007.  [https://www.whitehouse.gov/omb/memoranda_2008](https://www.whitehouse.gov/omb/memoranda_2008)
+OMB Memorandum M-08-04, “OMB Guidance on Data Submission under the Federal Funding Accountability and Transparency Act (Transparency Act),” November 9, 2007.  [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2008/m08-04.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2008/m08-04.pdf)
 
 Federal Acquisition Regulation Part 4.16 identifies contract actions that require identifiers.  [https://www.acquisition.gov/sites/default/files/current/far/html/Subpart%204_16.html#wp1075529](https://www.acquisition.gov/sites/default/files/current/far/html/Subpart%204_16.html#wp1075529)
 
 2 CFR Part 200.210 requires a unique Federal Award Identification Number (FAIN) be included in each federal award.[http://www.ecfr.gov/cgi-bin/text-idx?SID=66ce6d089a6de97f797463856fb205de&mc=true&node=pt2.1.200&rgn=div5#se2.1.200_1210](http://www.ecfr.gov/cgi-bin/text-idx?SID=66ce6d089a6de97f797463856fb205de&mc=true&node=pt2.1.200&rgn=div5#se2.1.200_1210)
 
-OMB Memorandum (unnumbered), “Improving Data Quality for USAspending.gov,” June 12, 2013.[https://www.whitehouse.gov/sites/default/files/omb/financial/memos/improving-data-quality-for-usaspending-gov.pdf](https://www.whitehouse.gov/sites/default/files/omb/financial/memos/improving-data-quality-for-usaspending-gov.pdf)
+OMB Memorandum (unnumbered), “Improving Data Quality for USAspending.gov,” June 12, 2013.[https://obamawhitehouse.archives.gov/sites/default/files/omb/financial/memos/improving-data-quality-for-usaspending-gov.pdf](https://obamawhitehouse.archives.gov/sites/default/files/omb/financial/memos/improving-data-quality-for-usaspending-gov.pdf)

@@ -62,4 +62,4 @@ Each grouping includes detailed object classes.  For instance, Personnel Compens
 
 ## References
 
-[OMB Circular A-11, Section 83, Object Classification (MAX Schedule O). ](https://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/s83.pdf)
+[OMB Circular A-11, Section 83, Object Classification (MAX Schedule O). ](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/a11_current_year/a11_2017/s83.pdf)

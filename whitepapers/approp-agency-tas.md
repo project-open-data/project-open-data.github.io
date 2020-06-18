@@ -60,9 +60,9 @@ The government has several kinds of accounts.  These include appropriations acco
 
 ### Appropriations Account, Treasury Appropriation Fund Symbol, and Treasury Account Symbol
 
-An appropriations account is represented by the Treasury Appropriation Fund Symbol (TAFS):  Per [OMB Circular A-11 Section 20](https://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/s20.pdf), “…TAFS refers to the separate Treasury accounts for each appropriation title based on the availability of the resources in the account. The TAFS is a combination of federal account symbol and availability code (e.g., annual, multi-year, or no-year).”  TAFS and appropriations accounts are exactly the same.
+An appropriations account is represented by the Treasury Appropriation Fund Symbol (TAFS):  Per [OMB Circular A-11 Section 20](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/a11_current_year/s20.pdf), “…TAFS refers to the separate Treasury accounts for each appropriation title based on the availability of the resources in the account. The TAFS is a combination of federal account symbol and availability code (e.g., annual, multi-year, or no-year).”  TAFS and appropriations accounts are exactly the same.
 
-[OMB Circular A-11 Section 20](https://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/s20.pdf) also defines Treasury Account Symbol (TAS):  “The account identification code assigned by the Department of the Treasury to individual appropriation, receipt, or other fund accounts.  All financial transactions of the federal government are classified by TAS for reporting to the Department of the Treasury and the Office of Management and Budget.”  The TAS includes an additional component – sub-account – that is not part of the appropriations account or TAFS.
+[OMB Circular A-11 Section 20](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/a11_current_year/s20.pdf) also defines Treasury Account Symbol (TAS):  “The account identification code assigned by the Department of the Treasury to individual appropriation, receipt, or other fund accounts.  All financial transactions of the federal government are classified by TAS for reporting to the Department of the Treasury and the Office of Management and Budget.”  The TAS includes an additional component – sub-account – that is not part of the appropriations account or TAFS.
 
 The table below shows the component pieces of TAFS and TAS:
 
@@ -123,9 +123,9 @@ At a minimum, the agency identifier, availability type code, and main account co
 
 ### Agency
 
-[OMB Circular A-11 Section 20](https://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/s20.pdf) defines agency as “a department or establishment of the Government.”
+[OMB Circular A-11 Section 20](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/a11_current_year/s20.pdf) defines agency as “a department or establishment of the Government.”
 
-The agency identifier used for financial reporting is a 3-character code published in [OMB Circular A-11 Appendix C, Listing of OMB Agency / Bureau and Treasury Codes](https://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf), in the column labeled _CGAC Agency Code_.
+The agency identifier used for financial reporting is a 3-character code published in [OMB Circular A-11 Appendix C, Listing of OMB Agency / Bureau and Treasury Codes](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/a11_current_year/a11_2017/app_c.pdf), in the column labeled _CGAC Agency Code_.
 
 There are other agency identifiers used by other communities.  The Treasury CGAC Code will be used in DATA Act reporting for two reasons.
 
@@ -164,6 +164,6 @@ OMB Circular A-11 Appendix C is the authoritative source for a list of agency id
 
 ## References
 
-[OMB Circular A-11, Section 20, Terms and Concepts for definition of agency and TAS.](https://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/s20.pdf)
+[OMB Circular A-11, Section 20, Terms and Concepts for definition of agency and TAS.](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/a11_current_year/s20.pdf)
 
-[Treasury Federal Account Symbols and Titles:  The FAST Book.](http://www.fiscal.treasury.gov/fsreports/ref/fastBook/fastbook_home.htm)
+[Treasury Federal Account Symbols and Titles:  The FAST Book.](https://www.fiscal.treasury.gov/reference-guidance/fast-book/#:~:text=Federal%20Account%20Symbols%20and%20Titles,the%20Department%20of%20the%20Treasury)

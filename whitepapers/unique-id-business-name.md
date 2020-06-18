@@ -121,8 +121,8 @@ For the data standardization effort, there are no changes recommended at this ti
 ## References
 
 OMB Memorandum M-08-04, OMB Guidance on Data Submission under the Federal Funding Accountability and Transparency Act (Transparency Act), which established use of the DUNS&#174; number as the unique identifier for transparency reporting.  
-[https://www.whitehouse.gov/sites/default/files/omb/assets/omb/memoranda/fy2008/m08-04.pdf](https://www.whitehouse.gov/sites/default/files/omb/assets/omb/memoranda/fy2008/m08-04.pdf)
+[https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2008/m08-04.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2008/m08-04.pdf)
 
 Federal Acquisition Regulation  
- [https://acquisition.gov/far/loadmainre.html](https://acquisition.gov/far/loadmainre.html)  
+ [https://www.acquisition.gov/browse/index/far](https://www.acquisition.gov/browse/index/far)  
  Subparts 2.1, 4.6, 4.11, 4.17, 4.18, 9.4, 12.3, 19.7,

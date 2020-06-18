@@ -55,7 +55,7 @@ title: Sub Tier Agency
 The data elements in this paper will provide additional transparency into organizational structures of federal agencies and how this structure relates to federal award spending. During the three week feedback period, 2 individuals and organizations contributed through the GitHub issues [here](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/70) and [here](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io/issues/75), and OMB and Treasury received feedback from the Government Accountability Office (GAO).This input commended the efforts to provide additional information and raised a concern about this information only being for the predominant funding or awarding organizational unit. As we move through implementation, these are issues we will continue to address through updated to the schema, ongoing policy discussions, and potential further clarification. After reviewing this feedback, no changes to the below paper or definitions were deemed necessary. The final data element definitions can be found [here](https://max.gov/datastandards).
 
 
-##Background
+## Background
 
 This paper addresses the set of data elements that identify a sub tier agency or “level 2” within a federal department or independent agency, and an office or “level n.”  The focus is in two key areas for transparency and data-driven decision making, (1) the ability to identify from where the funds on an award originate and (2) the ability to identify what organization awarded those funds.
 
@@ -65,7 +65,7 @@ There are no explicit requirements for publicly reporting obligations or expendi
 
 In federal contracting, the organization awarding a contract can be different from the organization(s) providing the funds.  Federal Acquisition Regulation defines “assisted acquisition” as a type of interagency acquisition where a servicing agency performs acquisition activities on a requesting agency’s behalf, such as awarding and administering a contract, task order, or delivery order.  In this paper, the servicing organization that is performing the acquisition activities is referred to as the “awarding” organization, and the organization that has the requirement and provides the predominance of the funding is referred to as the “funding” organization.  If there is only one organization involved, the “awarding” elements are the same as the “funding” elements.  Similar arrangements can also occur in federal financial assistance. For some financial assistance awards, there may be multiple “funding” and “awarding” organizations. This paper recommends that agencies report the predominant “funding” and “awarding” organizations for federal awards. 
 
-##Context
+## Context
 
 Data reported for federal awards come from two established data sources and are made available on USASpending.gov (further described below).  There are several federal organization-related fields in these established data sources.   
 Analysis of Current Definitions
@@ -108,7 +108,7 @@ Recommended Business Process
 
 <sup>1</sup>The National Institute of Standards and Technology (NIST) withdrew the Federal Information Processing Standards (FIPS) codes referenced above (FIPS 95-2, Codes for the Identification of Federal and Federally Assisted Organizations) in 2008.  A second publication, NIST Special Publication 800-87, Codes for Identification of Federal and Federally-Assisted Organizations, provides similar codes but has not been updated since 2008.  Organizations established after 2008 (such as the Consumer Financial Protection Bureau) are not in SP 800-87.  The FIPS 95-2 and SP 800-87 codes provided the basis of the FPDS-NG table of agency codes, which is updated by GSA and so includes new agencies.
 
-##Final Definitions for Transparency Reporting
+## Final Definitions for Transparency Reporting
 <table class='table-bordered'>
   <thead>
     <tr>
@@ -151,7 +151,7 @@ Recommended Business Process
 </table>
 
 
-##References
+## References
 
 Federal Acquisition Regulation (FAR) Subpart 2.1 - Definitions includes the definition of assisted acquisition.
 
@@ -167,7 +167,7 @@ GSA maintains a table of agency codes and office codes for FPDS-NG.
 
 Federal Assistance Award Data System (FAADS) Users’ Guide for Federal Fiscal Year 2010, revised August 2011.  Federal organization fields #13 on page 9 and #31 on page 12.
 
-[http://media.nara.gov/electronic-records/rg-029/faads/guide2010.pdf](http://media.nara.gov/electronic-records/rg-029/faads/guide2010.pdf)
+[https://catalog.archives.gov/OpaAPI/media/6113175/content/electronic-records/rg-029/faads/guide2010.pdf](https://catalog.archives.gov/OpaAPI/media/6113175/content/electronic-records/rg-029/faads/guide2010.pdf)
 
 Federal Procurement Data System – Next Generation Grants Data Dictionary, Version 1.0, January 10, 2013.  Elements 5A and 5B on pages 12-13.
 
