@@ -9,12 +9,13 @@
   <meta name="description" content="{{ site.desc }}">
   <meta name="viewport" content="width=device-width">
 
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>Redirecting to {{ page.redir_to | default: site.redir_to }}</title>
 
   <link rel="shortcut icon" href="/favicon.ico"/>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <link rel="canonical" href="{{ page.redir_to | default: site.redir_to }}"/>
+  <meta http-equiv="refresh" content="30; url={{ page.redir_to | default: site.redir_to }}" />
 
   {% capture edit_url %}https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}{% endcapture %}
 
