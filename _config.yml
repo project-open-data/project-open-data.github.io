@@ -3,6 +3,9 @@ title: Project Open Data
 desc: "Open Data Policy — Managing Information as an Asset"
 url: https://project-open-data.cio.gov
 
+#this site is replaced by resources.data.gov
+redir_to: https://resources.data.gov/
+
 #web analytics
 google_analytics: UA-42145528-3
 enable_dap_analytics: true
@@ -18,9 +21,6 @@ pymgemnts: true
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
 markdown: kramdown
 relative_permalinks: false
-
-plugins:
-  - jekyll-redirect-from
 
 sass:
     sass_dir: assets/_sass

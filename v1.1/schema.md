@@ -2,6 +2,7 @@
 published: true
 layout: default
 title: Project Open Data Metadata Schema v1.1
+redir_to: https://resources.data.gov/resources/dcat-us/
 permalink: /v1.1/schema/
 filename: schema.md
 id: schema v1.1
