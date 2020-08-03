@@ -51,7 +51,7 @@
     "primaryITInvestmentUII": "pod:primaryITInvestmentUII",
     "programCode": "pod:programCode",
     "fn": "vcard:fn",
-    "hasEmail": "vcard:email",
+    "hasEmail": "vcard:hasEmail",
     "name": "skos:prefLabel",
     "subOrganizationOf": "org:subOrganizationOf"
   }
