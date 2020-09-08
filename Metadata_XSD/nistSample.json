@@ -1,0 +1,116 @@
+
+    {
+    
+		"@type":"dcat:Catalog" ,
+		"@context":"https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+	
+		"@id":"http://www.agency.gov/data.json",
+	 "conformsTo":"https://project-open-data.cio.gov/v1.1/schema", "describedBy":"https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "dataset":[
+    
+    {
+     "title":"NIST Chem-BLAST Gateway for PDB - SRD 155", "description":"Chemical Block Layered Alignment of Substructure or Chem-BLAST uses a method for finding chemical compounds within a large collection. In this method, all chemical compounds are annotated in terms of standard chemical structural fragments. These fragments are then organized into a data tree based on their chemical substructures. Search engines have been developed to use this data tree. These search engines use the Chem-BLAST technique to search on the fragments and look for their chemical structural neighbors. The technique was originally developed in the context of the HIV Structural database to enable a query on inhibitors of HIV protease. (See http://xpdb.nist.gov/hivsdb/hivsdb.html.) Recently the method has been significantly improved to extend to the ligands found in the Protein Data Bank (PDB). (See http://xpdb.nist.gov/chemblast/pdb.html.) The method establishes a tree-like relationship between the rings found in three-letter codes that denote ligands of the structures found in the PDB. Semantic Web relations are established between the structural scaffolds of the ligands and organizes them in an XML database utilizing the Webâ??s Resource Description Framework (RDF). An Adobe Flex-based interface is used to present this information on the Web. Plans are under way to extend this work to non-ring type scaffolds as well. Chem-BLAST has also been extended to structures in PubChem. http://xpdb.nist.gov/chemblast/pdb.pl which includes several non-ring standard reused groups such as sulfates. Efforts are under way to use the underlying principles of Chem-BLAST to enable query on non-structural data, such as cell image data http://xpdb.nist.gov/cell/image.pl.",
+    "contactPoint":{
+    
+		"@type":"vcard:Contact" , "fn":"NIST Standard Reference Data",
+    "hasEmail":"mailto:data@nist.gov"
+  
+    },
+  
+    "keyword":[
+    
+    "Cell-image-data" ,
+    "Chem-BLAST" ,
+    "Enabling-scientific-linked-data-by-automation" ,
+    "Federated-terms-building" ,
+    "Global-data-integration-challenge-solutions" ,
+    "Infrastructure-for-semantic-terminology" ,
+    "Latin-like-root-terminology-for-science" ,
+    "Machine-friendly-vocabulary" ,
+    "On-demand-ontology-nuggets" ,
+    "PDB-ligands" ,
+    "PubChem-structures" ,
+    "Re-used-nuggets-of-ontology" ,
+    "Re-used-scalable-terminology" ,
+    "Re-used-use-case-friendly-terminology" ,
+    "Rule-based-linking-of-data" ,
+    "Rule-based-structural-data-graphs" ,
+    "Rule-based-vocabulary-building" ,
+    "Sanskrit-like-root-terminology-for-science" ,
+    "Structural-resource-for-drug-design" ,
+    "Thermodynamic-data" 
+    ],
+   "modified":"2003",
+    "publisher":{
+    
+		"@type":"org:Organization" , "name":"National Institute of Standards and Technology"
+    },
+   "accessLevel":"public", "identifier":"EBC9DB05EDEF5B0EE043065706812DF86",
+    "bureauCode":[
+    "006:55"
+    ],
+  
+    "programCode":[
+    "006:045"
+    ],
+   "describedBy":"http://xpdb.nist.gov/pdb_chem_blast/help.html", "landingPage":"http://www.ceramics.nist.gov/srd/scd/scdquery.htm",  "language":[
+    
+    "en-US" 
+    ], "license":"http://www.nist.gov/data/license.cf","theme":[
+    
+    "materials science" 
+    ],
+		"@type":"dcat:Dataset" 
+    },
+    {
+     "title":"NIST Atlas of the Spectrum of a Platinum/Neon Hollow-Cathode Lamp in the Region 1130-4330 Å - SRD 112", "description":"The Atlas provides lists of spectral lines with wavelengths, intensities, and energy level classifications, as well as graphical tracings of the observed spectrum of a platinum hollow-cathode lamp containing neon carrier gas. The spectrum was recorded photographically and photoelectrically with a 10.7 m normal-incidence vacuum spectrograph. Wavelengths and intensities were determined for about 5600 lines in the region 1130 Å to 4330 Å.",
+    "contactPoint":{
+    
+		"@type":"vcard:Contact" , "fn":"NIST Standard Reference Data",
+    "hasEmail":"mailto:data@nist.gov"
+  
+    },
+  
+    "keyword":[
+    
+    "Atomic" ,
+    "Pt" ,
+    "UV" ,
+    "atlas" ,
+    "calibration" ,
+    "hollow cathode lamp" ,
+    "intensities" ,
+    "platinum" ,
+    "spectrograph" ,
+    "spectroscopy" ,
+    "spectrum" ,
+    "ultraviolet" ,
+    "wavelength" 
+    ],
+   "modified":"2003-07",
+    "publisher":{
+    
+		"@type":"org:Organization" , "name":"National Institute of Standards and Technology"
+    },
+   "accessLevel":"public", "identifier":"FDB5909746675200E043065706813E54111",
+    "bureauCode":[
+    "006:55"
+    ],
+  
+    "programCode":[
+    "006:045"
+    ],
+   "landingPage":"http://www.nist.gov/pml/data/platinum/index.cfm",  "language":[
+    
+    "en-US" 
+    ], "license":"http://www.nist.gov/data/license.cfm",
+    "references":[
+    
+    "http://nvlpubs.nist.gov/nistpubs/jres/097/1/V97-1.pdf",
+    "http://dx.doi.org/10.6028/jres.097.002"
+    ],
+		"@type":"dcat:Dataset" 
+    }
+    ]
+    }
+  

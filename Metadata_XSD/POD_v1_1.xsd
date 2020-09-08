@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!-- targetNamespace (w3/DC/POD/NIST_XM) declaration?-->
+    <xs:element name="catalog">
+        <xs:annotation>
+            <xs:documentation> Top element of a EDI catalog. This wrapper element is for XML [and
+                JSON] implementation only and is not defined in the Project Open Data standard.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="type" fixed="dcat:Catalog" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation> Label: Metadata Type This attribute contains an IRI for the
+                            JSON-LD data type. This should be dcat:Catalog for the Catalog.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element ref="context" minOccurs="0"/>
+                <xs:element ref="id" minOccurs="0"/>
+                <xs:element name="conformsTo" type="xs:anyURI"
+                    fixed="https://project-open-data.cio.gov/v1.1/schema">
+                    <xs:annotation>
+                        <xs:documentation> Label: Schema Version The field contains the URI that
+                            identifies the version of the Project Open Data schema being used.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="describedBy" type="xs:anyURI"
+                    fixed="https://project-open-data.cio.gov/v1.1/schema/catalog.json" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation> Label: Data Dictionary The field contains URL for the
+                            JSON Schema file that defines the schema used. </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element ref="dataset" maxOccurs="unbounded"/>
+                
+            </xs:sequence>
+            
+            
+        </xs:complexType>
+    </xs:element>
+  <!-- do we want to add something like "if accessLevel is "restricted public" or "non-public" then the <rights> element should
+    be used to explain why"-->
+    <xs:element name="accessLevel">
+        <xs:annotation>
+            <xs:documentation>Label: Public Access Level / This field refers to the degree to which
+                this dataset could be made available to the public, regardless of whether it is
+                currently available to the public. For example, if a member of the public can walk
+                into your agency and obtain a dataset, that entry is public even if there are no
+                files online. A restricted public dataset is one only available under certain
+                conditions or to certain audiences (such as researchers who sign a waiver). A
+                non-public dataset is one that could never be made available to the public for
+                privacy, security, or other reasons as determined by your agency.</xs:documentation>
+            <xs:documentation>Must be one of the following: “public”, “restricted public”,
+                “non-public” </xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="public"/>
+                <xs:enumeration value="restricted public"/>
+                <xs:enumeration value="non-public"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="accessURL" type="xs:anyURI">
+        <xs:annotation>
+            <xs:documentation>Label: Access URL/ URL providing indirect access to a dataset, for
+                example via API or a graphical interface.</xs:documentation>
+            <xs:documentation>This should be the URL for an indirect means of accessing the data,
+                such as API documentation, a ‘wizard’ or other graphical interface which is used to
+                generate a download, feed, or a request form for the data. When accessLevel is
+                “restricted public” but the dataset is available online indirectly, this field
+                should be the URL that provides indirect access. This should not be a direct
+                download URL. It is usually assumed that accessURL is an HTML
+                webpage.</xs:documentation>
+            <xs:documentation>Required if the file is accessible indirectly, through means other
+                than direct download.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="accrualPeriodicty">
+        <xs:annotation>
+            <xs:documentation>Label: Frequency / The frequency with which dataset is
+                published.</xs:documentation>
+            <xs:documentation>Accepted values: ISO 8601 Repeating Duration (or
+                irregular)</xs:documentation>
+            <xs:documentation>Must be an ISO 8601 repeating duration unless this is not possible
+                because the accrual periodicity is completely irregular, in which case the value
+                should simply be irregular. The value should not include a start or end date but
+                rather simply express the duration of time between data publishing. For example, a
+                dataset which is updated on an annual basis would be R/P1Y; every three months would
+                be R/P3M; weekly would be R/P1W; and daily would be R/P1D. Further examples and
+                documenation can be found here
+                [https://project-open-data.cio.gov/iso8601_guidance#accrualperiodicity].</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration id="Decennial" value="R/P10Y"/>
+                <xs:enumeration id="Quadrennial" value="R/P4Y"/>
+                <xs:enumeration id="Annual" value="R/P1Y"/>
+                <xs:enumeration id="Bimonthly_Every_two_months" value="R/P2M"/>
+                <xs:enumeration id="Bimonthly_Twice_a_month" value="R/P0.5M"/>
+                <xs:enumeration id="Semiweekly" value="R/P3.5D"/>
+                <xs:enumeration id="Daily" value="R/P1D"/>
+                <xs:enumeration id="Biweekly_Every_two_weeks" value="R/P2W"/>
+                <xs:enumeration id="Biweekly_Twice_a_week" value="R/P0.5W"/>
+                <xs:enumeration id="Semiannual" value="R/P6M"/>
+                <xs:enumeration id="Biennial" value="R/P2Y"/>
+                <xs:enumeration id="Triennial" value="R/P3Y"/>
+                <xs:enumeration id="Three_times_a_week" value="R/P0.33W"/>
+                <xs:enumeration id="Three_times_a_month" value="R/P0.33M"/>
+                <xs:enumeration id="Continuously_updated" value="R/PT1S"/>
+                <xs:enumeration id="Monthly" value="R/P1M"/>
+                <xs:enumeration id="Quarterly" value="R/P3M"/>
+                <xs:enumeration id="Semimonthly" value="R/P0.5M"/>
+                <xs:enumeration id="Three_times_a_year" value="R/P4M"/>
+                <xs:enumeration id="Weekly" value="R/P1W"/>
+                <xs:enumeration id="Irregular" value="Irregular"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="bureauCode" type="bCode">
+        <xs:annotation>
+            <xs:documentation>Label: Bureau Code / Represent each bureau responsible for the dataset
+                according to the codes found in OMB Circular A-11, Appendix C (PDF, CSV). Start with
+                the agency code, then a colon, then the bureau code.</xs:documentation>
+            <xs:documentation>Ex: The Office of the Solicitor (86) at the Department of the Interior
+                (010) would be: "010:86". If a second bureau was also responsible, the format like
+                this: "010:86","010:04".</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+  <xs:simpleType name="bCode">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{3}:[0-9]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+    <xs:element name="conformsTo" type="xs:anyURI">
+        <xs:annotation>
+            <xs:documentation>Label: Data Standard / URI used to identify a standardized
+                specification the dataset and/or distribution conforms to.</xs:documentation>
+            <xs:documentation>This is used to identify a standardized specification the
+                dataset/distribution conforms to. If this is a technical specification associated
+                with a particular serialization of a distribution, this should be specified with
+                conformsTo at the distribution level. It’s recommended that this be a URI that
+                serves as a unique identifier for the standard. The URI may or may not also be a URL
+                that provides documentation of the specification.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="contactPoint">
+        <xs:annotation>
+            <xs:documentation>Label: Contact Point This is a container for two fields that together
+                make up the contact information for the dataset. contactPoint should always contain
+                both the person’s appropriately formatted full name (fn) and email
+                (hasEmail).</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="fn"/>
+                <xs:element ref="hasEmail"/>
+                <xs:element name="type" fixed="vcard:Contact" minOccurs="0"/>
+            </xs:all> 
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="dataset">
+        <xs:annotation>
+            <xs:documentation>Label:Dataset A container element for the array of Dataset objects.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Required Fields -->
+
+                <xs:element ref="title"/>
+                <xs:element ref="description"/>
+                <xs:element ref="contactPoint"/>
+                <xs:element ref="keyword" maxOccurs="unbounded"/>
+                <xs:element ref="modified"/>
+                <xs:element ref="publisher"/>
+                <xs:element ref="accessLevel"/>
+                <xs:element ref="identifier"/>
+                <xs:element ref="bureauCode" maxOccurs="unbounded"/>
+                <xs:element ref="programCode" maxOccurs="unbounded"/>
+
+                <!-- Optional Fields -->
+
+                <xs:element ref="accrualPeriodicty" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="conformsTo" minOccurs="0"/>
+                <xs:element ref="describedBy" minOccurs="0"/>
+                <xs:element ref="dataQuality" minOccurs="0"/>
+                <xs:element ref="distribution" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="issued" minOccurs="0"/>
+                <xs:element ref="landingPage" minOccurs="0"/>
+                <xs:element ref="language" minOccurs="0"/>
+                <xs:element ref="license" minOccurs="0"/>
+                <xs:element ref="primaryITInvestmentUII" minOccurs="0"/>
+                <xs:element ref="references" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="rights" minOccurs="0"/>
+                <xs:element ref="spatial" minOccurs="0"/>
+                <xs:element ref="systemOfRecords" minOccurs="0"/>
+                <xs:element ref="temporal" minOccurs="0"/>
+                <xs:element ref="theme" minOccurs="0"/>
+                <xs:element name="type" type="xs:string" fixed="dcat:Dataset" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Label: Metadata Type / IRI for the JSON-LD data type. This
+                            should be dcat:Dataset for each Dataset.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+            
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="describedBy" type="xs:anyURI">
+        <!-- Does this 'dual' description make sense? -->
+        <xs:annotation>
+            <xs:documentation>Label: Data Dictionary / URL to the data dictionary for the dataset or
+                distribution of dataset found at downloadURL. Note that documentation other than a
+                data dictionary can be referenced using Related Documents
+                (references).</xs:documentation>
+            <xs:documentation>This is used to specify a data dictionary or schema that defines
+                fields or column headings in the dataset or distribution of dataset found at
+                downloadURL. If this is a machine readable file, it’s recommended to be specified
+                with describedBy at the distribution level along with the associated
+                describedByType. At the dataset level it’s assumed to be a human readable HTML
+                webpage or PDF document. Documentation that is not specifically a data dictionary
+                belongs in “references”</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="describedByType" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>Label: Data Dictionary Type / The machine-readable file format (IANA
+                Media Type [http://www.iana.org/assignments/media-types/media-types.xhtml] or MIME
+                Type [http://en.wikipedia.org/wiki/Internet_media_type]) of the distribution’s
+                describedBy URL. This is especially important if describedBy is a machine readable
+                file.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="dataQuality" type="xs:boolean">
+        <!-- Not sure if type="xs:boolean" is what we need, but... -->
+        <xs:annotation>
+            <xs:documentation>Label: Data Quality / Indicates whether the dataset meets the agency’s
+                Information Quality Guidelines (true/false).</xs:documentation>
+            <xs:documentation>Must be a boolean value of true or false (not contained within quote
+                marks)</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="description" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>Label: Description / Human-readable description (e.g., an abstract)
+                with sufficient detail to enable a user to quickly understand whether the asset or
+                distribution is of interest.</xs:documentation>
+            <xs:documentation>This should be human-readable and understandable to an average
+                person.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="distribution">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="accessURL" minOccurs="0"/>
+                <xs:element ref="conformsTo" minOccurs="0"/>
+                <xs:element ref="describedBy" minOccurs="0"/>
+                <xs:element ref="describedByType" minOccurs="0"/>
+                <xs:element ref="description" minOccurs="0"/>
+                <xs:element ref="downloadURL" minOccurs="0"/>
+                <xs:element ref="format" minOccurs="0"/>
+                <xs:element ref="mediaType" minOccurs="0"/>
+                <xs:element ref="title" minOccurs="0"/>
+                <xs:element name="type" fixed="dcat:Distribution" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Label: Metadata Type / IRI for the JSON-LD data type. This
+                            should be dcat:Distribution for each Distribution.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:all>
+            
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="downloadURL" type="xs:anyURI">
+        <xs:annotation>
+            <xs:documentation>Label: Download URL / URL providing direct access to a downloadable
+                file of a dataset.</xs:documentation>
+            <xs:documentation>This must be the direct download URL. Other means of accessing the
+                dataset should be expressed using accessURL. This should always be accompanied by
+                mediaType.</xs:documentation>
+            <xs:documentation>Required if the fie is available for public
+                download.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="fn" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>This should include included with hasEmail as part of a record’s
+                contactPoint (see above example).</xs:documentation>
+            <xs:documentation>Enter name Firstname LastName <!--? is this what we actually want? -->
+            </xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="format" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>Label: Format / A human-readable description of the file format of a
+                distribution.</xs:documentation>
+            <xs:documentation>This should be a human-readable description of the file format of the
+                dataset, that provides useful information that might not be apparent from mediaType.
+                Note that API should always be used to distinguish web APIs.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="hasEmail" type="email">
+        <xs:annotation>
+            <xs:documentation>This should be formatted per vCard specifications (see example below)
+                and included with fn as part of a record’s contactPoint .</xs:documentation>
+        </xs:annotation>
+       
+    </xs:element>
+  <xs:simpleType name="email">
+    <xs:restriction base="xs:string">
+      <!-- removed ^ and $ and added a-z in all the strings - xml is case sensitive, this matters -->
+      <xs:pattern value="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}"/>
+    </xs:restriction>
+  </xs:simpleType>
+    <xs:element name="identifier" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>Label: Unique Identifier A unique identifier for the dataset or API as
+                maintained within an Agency catalog or database.</xs:documentation>
+            <xs:documentation>This field allows third parties to maintain a consistent record for
+                datasets even if title or URLs are updated. Agencies may integrate an existing
+                system for maintaining unique identifiers. Each identifier must be unique across the
+                agency’s catalog and remain fixed. It is highly recommended that a URI (preferably
+                an HTTP URL) be used to provide a globally unique identifier. Identifier URLs should
+                be designed and maintained to persist indefinitely regardless of whether the URL of
+                the resource itself changes.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="issued" type="date">
+
+        <xs:annotation>
+            <xs:documentation>Label: Release Date / Date of formal issuance.</xs:documentation>
+            <xs:documentation>Accepted Values: ISO 8601 Date</xs:documentation>
+            <xs:documentation>Dates should be ISO 8601 [http://en.wikipedia.org/wiki/ISO_8601] of
+                least resolution. In other words, as much of YYYY-MM-DDThh:mm:ss.sTZD as is relevant
+                to this dataset.</xs:documentation>
+        </xs:annotation>
+       <!-- <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern
+                    value="^([0-9]{4})|^([0-9]{4})-(1[0-2]|0[1-9])|^([0-9]{4})-?(1[0-2]|0[1-9])-?(3[01]|0[1-9]|[12][0-9])$"
+                />
+            </xs:restriction>
+
+        </xs:simpleType>-->
+    </xs:element>
+    <xs:element name="keyword">
+        <xs:annotation>
+            <xs:documentation>Label: Tags Tags (or keywords) help users discover your dataset;
+                please include terms that would be used by technical and non-technical
+                users.</xs:documentation>
+            <xs:documentation><!--Surround each keyword with quotes. Separate keywords with commas.-->
+                Avoid duplicate keywords in the same record. </xs:documentation>
+        </xs:annotation>
+      <xs:complexType>
+       <xs:sequence> <xs:element ref="item" maxOccurs="unbounded"/></xs:sequence>
+      </xs:complexType>
+    </xs:element>
+  <xs:element name="item" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>The item elment holds content that would be individual strings in "an arrary of strings" in a json
+      document.  This is a convenience for the XML format. </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+    <xs:element name="landingPage" type="xs:anyURI">
+        <xs:annotation>
+            <xs:documentation>Label: Homepage URL / This field is not intended for an agency’s
+                homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or
+                landing page that users can be directed to for all resources tied to the
+                dataset.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:element name="language">
+        <xs:annotation>
+            <xs:documentation>Label: Language / The language of the dataset.</xs:documentation>
+            <xs:documentation>This should adhere to the RFC 5646
+                [http://tools.ietf.org/html/rfc5646standard]. This language subtag lookup provides a
+                good tool for checking and verifying language codes. A language tag is comprised of
+                either one or two parts, the language subtag (such as en for English, sp for
+                Spanish, wo for Wolof) and the regional subtag (such as US for United States, GB for
+                Great Britain, MX for Mexico), separated by a hyphen. Regional subtags should only
+                be provided when needed to distinguish a language tag from another one (such as
+                American vs. British English). </xs:documentation>
+            <!--<xs:documentation>Use one language per tag.</xs:documentation>-->
+        </xs:annotation>
+      <xs:complexType>
+        <xs:sequence> <xs:element ref="item" maxOccurs="unbounded"/></xs:sequence>
+      </xs:complexType>
+    </xs:element>
+    <xs:element name="license" type="xs:anyURI">
+        <xs:annotation>
+            <xs:documentation>Label: License / The license or non-license (i.e. Public Domain)
+                status with which the dataset or API has been published. See Open Licenses
+                [https://project-open-data.cio.gov/open-licenses/] for more information. Required if
+                applicable.</xs:documentation>
+            <xs:documentation>See list of license-free declarations and licenses.
+                [https://project-open-data.cio.gov/license-examples/]</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="mediaType" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>Label: Media Type / The machine-readable file format (IANA Media Type
+                [http://www.iana.org/assignments/media-types/media-types.xhtml] or MIME Type
+                [http://en.wikipedia.org/wiki/Internet_media_type]) of the distribution’s
+                downloadURL.</xs:documentation>
+            <xs:documentation>This must describe the exact files available at downloadURL using a
+                media type (IANA Media Type also known as MIME Type). For common Microsoft Office
+                files, see Office Open XML MIME types
+                [http://blogs.msdn.com/b/vsofficedeveloper/archive/2008/05/08/office-2007-open-xml-mime-types.aspx].</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="modified" type="date">
+        <xs:annotation>
+            <xs:documentation> Label: Last Update Most recent date on which the dataset was changed,
+                updated or modified. </xs:documentation>
+            <xs:documentation>Dates should be ISO 8601 of highest resolution. In other words, as
+                much of YYYY-MM-DD as is relevant to this dataset. If this file is brand-new, enter
+                the issued date here as well. If there is a need to reflect that the dataset is
+                continually updated, ISO 8601 formatting can account for this with repeating
+                intervals. For instance, R/P1D for daily, R/P2W for every two weeks, and R/PT5M for
+                every five minutes.</xs:documentation>
+        </xs:annotation>
+        </xs:element>
+        <xs:simpleType name="date">
+            <xs:restriction base="xs:string">
+              <!--<xs:pattern value="(\d{4})(-\d{2})?(-\d{2})?"/>-->
+              <xs:pattern value="[0-9]{4}|([0-9]{4})-(1[0-2]|0[1-9])|([0-9]{4})-?(1[0-2]|0[1-9])-?(3[01]|0[1-9]|[12][0-9])"/>
+              
+<!--                <xs:pattern
+                    value="([0-9]{4})|^([0-9]{4})\-(1[0-2]|0[1-9])|^([0-9]{4})\-?(1[0-2]|0[1-9])\-?(3[01]|0[1-9]|[12][0-9])"
+                />-->
+            </xs:restriction>
+        </xs:simpleType>
+
+    <xs:element name="name" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>The plaintext name of the entity publishing this
+                dataset.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="primaryITInvestmentUII" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>Label: Primary IT Investment UII / For linking a dataset with an IT
+                Unique Investment Identifier (UII).</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="programCode" type="pCode">
+        <xs:annotation>
+            <xs:documentation>Provide an array of programs related to this data asset, from the
+                Federal Program Inventory.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+  <xs:simpleType name="pCode">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{3}:[0-9]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+    <xs:element name="references">
+        <xs:annotation>
+            <xs:documentation>Label: Related Documents / Related documents such as technical
+                information about a dataset, developer documentation, etc.</xs:documentation>
+            <xs:documentation>Enclose each URL within each own tag.
+               </xs:documentation>
+        </xs:annotation>
+      <xs:complexType><xs:sequence><xs:element ref="url" maxOccurs="unbounded"></xs:element></xs:sequence></xs:complexType>
+    </xs:element>
+  <xs:element name="url"  type="xs:anyURI">
+    <xs:annotation>
+      <xs:documentation>The item url holds content that would be individual url strings in "an arrary of strings" in a json
+        document.  This is a convenience for the XML format. </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+    <xs:element name="publisher" type="org">
+        <xs:annotation>
+            <xs:documentation>Label: Publisher This is a container for a publisher object which
+                groups together the fields: name and subOrganization. The subOrganization field can
+                also contain a publisher object which allows one to describe an organization’s
+                hierarchy. Where greater specificity is desired, include as many levels of publisher
+                as is useful, in ascending order, using the below format.</xs:documentation>
+        </xs:annotation>
+       
+    </xs:element>
+  <xs:complexType name="org"> <!-- created the type 'org' which is used by publisher and subOrganizationOf -->
+    <xs:all>
+      <xs:element ref="name"/>
+      <xs:element ref="subOrganizationOf" minOccurs="0"/>
+        <xs:element name="type" fixed="org:Organization" type="xs:string" minOccurs="0">
+            <xs:annotation>
+                <xs:documentation>The metadata type as defined by JSON-LD data types. This
+                    should be org:Organization for each publisher</xs:documentation>
+            </xs:annotation>
+        </xs:element>
+    </xs:all>
+    
+  </xs:complexType>
+    <xs:element name="rights" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>label: Rights / This may include information regarding access or
+                restrictions based on privacy, security, or other policies. This should also serve
+                as an explanation for the selected “accessLevel” including instructions for how to
+                access a restricted file, if applicable, or explanation for why a “non-public” or
+                “restricted public” data asset is not “public,” if applicable. Text, 255
+                characters.</xs:documentation>
+            <xs:documentation>Required if accessLevel is "restricted public" or
+                "non-public"</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="spatial" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>Label: Spatial / The range of spatial applicability of a dataset.
+                Could include a spatial region like a bounding box or a named
+                place.</xs:documentation>
+            <xs:documentation>This field should contain one of the following types of content: (1) a
+                bounding coordinate box for the dataset represented in latitude / longitude pairs
+                where the coordinates are specified in decimal degrees and in the order of: minimum
+                longitude, minimum latitude, maximum longitude, maximum latitude; (2) a latitude /
+                longitude pair (in decimal degrees) representing a point where the dataset is
+                relevant; (3) a geographic feature expressed in Geography Markup Language using the
+                Simple Features Profile [http://www.ogcnetwork.net/gml-sf]; or (4) a geographic
+                feature from the GeoNames database [http://www.geonames.org/].</xs:documentation>
+            <xs:documentation>Required if dataset is spacial.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="subOrganizationOf" type="org">
+        <xs:annotation>
+            <xs:documentation>A parent organizational entity described using the same publisher
+                object fields.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="systemOfRecords" type="xs:anyURI">
+        <xs:annotation>
+            <xs:documentation>Label: System of Records / If the system is designated as a system of
+                records under the Privacy Act of 1974, provide the URL to the System of Records
+                Notice (SORN) related to this dataset.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="temporal" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>Label: Temporal / The range of temporal applicability of a dataset
+                (i.e., a start and end date of applicability for the data).</xs:documentation>
+            <xs:documentation>Accepted values: ISO 8601 Date</xs:documentation>
+            <xs:documentation>This field should contain an interval of time defined by start and end
+                dates. Dates should be formatted as pairs of {start datetime/end datetime} in the
+                ISO 8601 format [http://en.wikipedia.org/wiki/ISO_8601]. ISO 8601 specifies that
+                datetimes can be formatted in a number of ways, including a simple four-digit year
+                (eg. 2013) to a much more specific YYYY-MM-DDTHH:MM:SSZ, where the T specifies a
+                seperator between the date and time and time is expressed in 24 hour notation in the
+                UTC (Zulu) time zone. (e.g., 2011-02-14T12:00:00Z/2013-07-04T19:34:00Z). Use a
+                solidus (“/”) to separate start and end times. If there is a need to reflect that
+                the dataset is continually updated, ISO 8601 formatting can account for this with
+                repeating intervals [http://en.wikipedia.org/wiki/ISO_8601#Time_intervals]. For
+                instance, updated monthly starting in January 2010 and continuing through the
+                present would be represented as: R/2010-01/P1M. Updated every 5 minutes beginning on
+                February 15, 2010 would be represented as: R/2010-02-15/PT5M.</xs:documentation>
+            <xs:documentation>Required if applicable.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="theme">
+        <xs:annotation>
+            <xs:documentation>Label: Category / Main thematic category of the
+                dataset.</xs:documentation>
+            <xs:documentation>Separate multiple categories with a comma.</xs:documentation>
+        </xs:annotation>
+      <xs:complexType>
+        <xs:sequence> <xs:element ref="item" maxOccurs="unbounded"/></xs:sequence>
+      </xs:complexType>
+    </xs:element>
+    <xs:element name="title" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>Label: Title Human-readable name of the asset or distribution. Should
+                be in plain English and include sufficient detail to facilitate search and
+                discovery.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="context" type="xs:string">
+        <xs:annotation>
+            <xs:documentation> Label: Metadata Context This attribute contains the URL or JSON
+                object for the JSON-LD Context that defines the schema used. </xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:element name="id" type="xs:string">
+        <xs:annotation>
+            <xs:documentation> Label: Metadata Catalog ID The attributed contains the IRI for the
+                JSON-LD Node Identifier of the Catalog. This should be the URL of the data.json file
+                itself.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+</xs:schema>
