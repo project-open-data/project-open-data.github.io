@@ -7,21 +7,18 @@ title: Data Elements
 page: data-Elements
 ---
 
-# Federal Spending Data Elements
+# Standardized Federal Spending Data Elements
 
-**The lists on this page contain two types of federal spending data elements:**
+**The lists on this page contain two types of standardized federal spending data elements:**
 
-1. Existing Federal Funding Accountability and Transparency Act (FFATA) data elements, which are currently featured on USAspending.gov
-2. Data elements that represent the original 57 elements from the initial release.
+1. Data elements that were collected under the Federal Funding Accountability and Transparency Act (FFATA) and featured on USAspending.gov prior to the revisions to FFATA in the DATA Act of 2014.
+2. Data elements that were added based on the requirements of the DATA Act of 2014 and that have been featured on USAspending since it relaunched in 2017 pursuant to DATA Act requirements.
 
-The elements on these lists have been discussed by members of the federal community as part of the DATA Act.
-At the current time, these lists are exhaustive. That said, the federal community is aware of agencies’ and the larger community’s needs and may add and standardize new elements to improve transparency reporting moving forward.
+The elements listed represent the original consensus the federal community reached during the original DATA Act implementation. Additional data elements will continue to be added to improve transparency reporting. For the current data model element list visit [Data Transparency](https://fiscal.treasury.gov/data-transparency/DAIMS-current.html).  
 
-The data elements are grouped by category; each short list represents a different category. In addition, each element will have its own GitHub issue, which is where you can see the input posted during the public input period. Thank you to all who posted responses to these papers and provided input on these data elements.
+The data elements are grouped by category; each short list represents a different category. There is a white paper associated with each element linked to in the Data Element Name column, along with a separate link to the relevant GitHub issue in the Provide Feedback column. The latter contains input on the white papers posted during the initial public comment period. Thank you to all who posted responses to these papers and provided input on these data elements.
 
-Data standards for these data elements have all been finalized. The final data element names and definitions are located [here](https://max.gov/datastandards).
-
-Please click _Get Involved_ above to receive emails as we update other pages on this site. 
+The finalized original 57 data element names and definitions are located [here](https://max.gov/datastandards). As of late 2021, OMB has stated that they no longer plan to update the list, though this could change in the future.
 
 
 
