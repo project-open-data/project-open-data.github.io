@@ -18,7 +18,7 @@ The elements listed represent the original consensus the federal community reach
 
 The data elements are grouped by category; each short list represents a different category. There is a white paper associated with each element linked to in the Data Element Name column, along with a separate link to the relevant GitHub issue in the Provide Feedback column. The latter contains input on the white papers posted during the initial public comment period. Thank you to all who posted responses to these papers and provided input on these data elements.
 
-The finalized original 57 data element names and definitions are located [here](https://max.gov/datastandards). As of late 2021, OMB has stated that they no longer plan to update the list, though this could change in the future.
+The finalized original 57 data element concepts and definitions are located [here](https://max.gov/datastandards). As of late 2021, OMB has stated that they no longer plan to update the list, though this could change in the future.
 
 
 
