@@ -8,7 +8,7 @@ page: data-lab
 ---
 
 <script>
-	window.location = "https://datalab.usaspending.gov/index.html";
+	window.location = "[https://datalab.usaspending.gov/index.html](https://fiscaldata.treasury.gov/)";
 </script>
 
 {% include datalab-banner.html %}
