@@ -36,7 +36,7 @@ page: homepage
                             <span class="glyphicon glyphicon-cloud-upload"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="https://fiscal.treasury.gov/fsservices/gov/data-trans/data-trans-home.htm" title="Fiscal Service Data Transparency Site" target='_blank'>Fiscal Service Data Transparency Site</a>: The Bureau of the Fiscal Service (Fiscal Service) delivers on Treasury’s strategic goal to increase access to and use of federal financial data in order to strengthen government-wide decision-making and accountability through data transparency. </p>
+                            <p><a href="https://fiscal.treasury.gov/data-transparency/" title="Fiscal Service Data Transparency Site" target='_blank'>Fiscal Service Data Transparency Site</a>: The Bureau of the Fiscal Service (Fiscal Service) delivers on Treasury’s strategic goal to increase access to and use of federal financial data in order to strengthen government-wide decision-making and accountability through data transparency. </p>
                             
                         </div>
                     </div>
@@ -56,7 +56,7 @@ page: homepage
                         <div class="media-body">
                             <p><a href="https://usaspending.gov/" title="USA Spending">USA Spending</a>: The official source for spending data for the U.S. Government. Its mission is to show the American public what the federal government spends every year and how it spends the money.  
                             </p>
-                            <p><a href="https://datalab.usaspending.gov/" title="USA Spending Data Lab">USA Spending Data Lab</a>:  A platform to increase public understanding of government spending using interactive data visualizations and analyses – because <b>Data + Use = Value</b>.  
+                            <p><a href="https://fiscaldata.treasury.gov/" title="Fiscal Data">Fiscal Data</a>: Fiscal Data is your one-stop shop for federal financial data. The Department of the Treasury and the Bureau of the Fiscal Service created Fiscal Data to consolidate federal financial data into one easy-to-use website.   
                             </p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ page: homepage
                         <span class="glyphicon glyphicon-list-alt"></span>
                     </div>
                     <div class="media-body">
-                        <p>USAspending.gov relies on hundreds of distinct data elements to tell the story of how federal dollars are spent. The DATA Act Information Model Schema organizes these elements into a structure that further defines, groups, and relates them to each other. <a href="https://fiscal.treasury.gov/data-transparency/DAIMS-current.html">Learn about the data model</a>.</p>
+                        <p>USAspending.gov relies on hundreds of distinct data elements to tell the story of how federal dollars are spent. The DATA Act Information Model Schema organizes these elements into a structure that further defines, groups, and relates them to each other. <a href="https://fiscal.treasury.gov/data-transparency/GSDM-current.html">Learn about the data model</a>.</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ page: homepage
                         <span class="usability-icon"></span>
                     </div>
                     <div class="media-body">
-                        <p>User research, testing, and design iteration will support all parts of the DATA Act implementation. Learn about our user-centered process <a href="{{ site.baseurl }}/user-centered-design/">here</a>.</p>
+                        <p>User research, testing, and design iteration that supported all parts of the DATA Act implementation. Learn about our user-centered process <a href="{{ site.baseurl }}/user-centered-design/">here</a>.</p>
                     </div>
                 </div>
             </div>
