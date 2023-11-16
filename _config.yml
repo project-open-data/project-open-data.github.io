@@ -42,8 +42,8 @@ navigation:
    url: /user-centered-design
  - title: Get Involved
    url: "/get-involved"
- - title: DATA Act-ivity
-   url: "/act-ivity" 
+ #- title: DATA Act-ivity
+ #  url: "/act-ivity" 
  - title: Fiscal Data
    url: "/data-lab"
 
