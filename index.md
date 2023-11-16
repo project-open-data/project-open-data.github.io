@@ -12,7 +12,7 @@ page: homepage
     <div class="col-md-8">
         <h2 class="mt-0">About Federal Spending Transparency</h2>
 
-        <p>In May 2014, President Obama signed the Digital Accountability and Transparency Act of 2014 (DATA Act) (P.L. 113-101) into law. Once implemented, the DATA Act will make federal spending data more accessible, searchable, and reliable. It will not only make it easier to understand how the federal government spends taxpayer dollars but will also serve as a tool for better oversight, data-centric decision-making, and innovation both inside and outside of government. The U.S. Department of the Treasury and the Office of Management and Budget are leading the government-wide implementation of the DATA Act.</p>
+        <p>In May 2014, President Obama signed the Digital Accountability and Transparency Act of 2014 (DATA Act) (P.L. 113-101) into law. The DATA Act made federal spending data more accessible, searchable, and reliable. It not only made it easier to understand how the federal government spends taxpayer dollars but also served as a tool for better oversight, data-centric decision-making, and innovation both inside and outside of government. The U.S. Department of the Treasury and the Office of Management and Budget are lead the governmentwide implementation of the DATA Act.</p>
 
         <p>This collaboration space is designed to openly share our <em><strong>process</strong></em> for meeting the data transparency requirements of the DATA Act. Our sister site — <a href="https://usaspending.gov/#/">USAspending.gov</a> — is where you will find the <em><strong>results</strong></em> of this work:  data you can search, view, and download. We invite you - the public - to interact with our site and share your feedback and questions on our <a href="https://onevoicecrm.my.site.com/usaspending/s/"> Community Page</a>!</p>
 
@@ -36,7 +36,7 @@ page: homepage
                             <span class="glyphicon glyphicon-cloud-upload"></span>
                         </div>
                         <div class="media-body">
-                            <p><a href="https://fiscal.treasury.gov/data-transparency/" title="Fiscal Service Data Transparency Site" target='_blank'>Fiscal Service Data Transparency Site</a>: The Bureau of the Fiscal Service (Fiscal Service) delivers on Treasury’s strategic goal to increase access to and use of federal financial data in order to strengthen government-wide decision-making and accountability through data transparency. </p>
+                            <p><a href="https://fiscal.treasury.gov/data-transparency/" title="Fiscal Service Data Transparency Site" target='_blank'>Fiscal Service Data Transparency Site</a>: The Bureau of the Fiscal Service (Fiscal Service) delivers on Treasury’s strategic goal to increase access to and use of federal financial data in order to strengthen governmentwide decision-making and accountability through data transparency. </p>
                             
                         </div>
                     </div>
