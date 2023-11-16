@@ -25,8 +25,7 @@ Thank you for helping us improve government data. Below are ways you can stay up
                   <p><strong>Governmentwide Spending Data Model</strong> -- The Governmentwide Spending Data Model (GSDM), formerly the DATA Act information Model Schema (DAIMS), organizes all the data elements into a structure that defines, groups, and relates them to one another. <a href="https://fiscal.treasury.gov/data-transparency/GSDM-current.html">See GSDM Documentation</a>.</p>
                   <p><strong>DATA Act JIRA site</strong> -- JIRA is a software development tool that our team uses to plan, track, and close out tasks ("user stories") in an Agile environment. <a href="https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=software" target="_blank">See all the past, current, and proposed tasks for our various workstreams</a>.</p>
                   <p><strong>DATA Act GitHub repositories</strong> -- <a href="https://github.com/fedspendingtransparency" target="_blank">See the code</a> for all the technology we are building to make federal spending more transparent.</p>
-                  
-                  <p><strong>Community Page</strong> -- Have a question or comment on something else? Visit our <a href="https://onevoicecrm.my.site.com/usaspending/s/"> Community Page</a> to share your feedback or share your questions.</p>
+                  <p><strong>Community Page</strong> -- Have a question or comment on something else? Visit our <a href="https://onevoicecrm.my.site.com/usaspending/s/"> Community Page</a> to share your feedback or share your questions.</p>
                </div>
             </div>
          </div>
