@@ -9,7 +9,7 @@ title: User-Centered Design
 
 # User-Centered Design
 
-The Data Transparency team strives to gain a better understanding of those who will be using the USAspending.gov site and those responsible for uploading data to it.
+The Data Transparency Team strives to gain a better understanding of those who will be using the USAspending.gov site and those responsible for uploading data to it.
 
 <!-- this is a test comment -->
 
@@ -24,7 +24,7 @@ Below are some specific examples of our work.  For more about the user-centered 
 
 ## Learn (User Research)
 
-Through meetings, workshops, analytics, and user interviews, the Data Transparency team works to learn about users’ needs, including what they want from the data, their technical environments (e.g., browsers, other software used), and their “pain points” with the current system. 
+Through meetings, workshops, analytics, and user interviews, the Data Transparency Team works to learn about users’ needs, including what they want from the data, their technical environments (e.g., browsers, other software used), and their “pain points” with the current system. 
 
 From that, we have developed a set of targeted user types, called “Personas.” Personas are visual encapsulations of research findings that inform the design process. **They capture real user perceptions, experiences, and quotations, which we draw on to build better software.** Photos and personal details, however, are merely representative to help make them more real and relatable.
 
