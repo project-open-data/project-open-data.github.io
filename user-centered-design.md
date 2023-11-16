@@ -9,7 +9,7 @@ title: User-Centered Design
 
 # User-Centered Design
 
-The Data Transparency team strives to gain a better understanding of those who will be using the new USAspending.gov site and those responsible for uploading data to it.
+The Data Transparency team strives to gain a better understanding of those who will be using the USAspending.gov site and those responsible for uploading data to it.
 
 <!-- this is a test comment -->
 
