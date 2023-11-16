@@ -30,23 +30,23 @@ To assist agencies with implementation, OMB and Treasury created a playbook of e
 
 #### Agile Development Methodology
 
-The DATA Act team is using an Agile development/scrum methodology to build, assess, and iterate the project throughout the development lifecycle. Agile is a software development methodology characterized by short build-cycles, an emphasis on working software, and responsiveness to evolving requirements and solutions.
+The Data Transparency team uses an Agile development/scrum methodology to build, assess, and iterate the project throughout the development lifecycle. Agile is a software development methodology characterized by short build-cycles, an emphasis on working software, and responsiveness to evolving requirements and solutions.
 
 We work in two-week sprints with each sprint focused on completing discrete, time-boxed tasks with clear acceptance criteria. At the end of the sprint, the team participates in an evaluation and review of the work accomplished and then plans for the tasks (“user stories” or “issues”) for the next sprint.
 
-This two-week cadence will continue throughout the development lifecycle.
+This two-week cadence continues throughout the lifecycle.
 
-In addition, the team participates in a stand-up call every morning to review the previous day’s work and to report any challenges, questions, or blockers so they can be addressed and resolved quickly.
+In addition, the team participates in a stand-up meetings to review the previous work and to report any challenges, questions, or blockers so they can be addressed and resolved quickly.
 
 The Agile/scrum process is open and transparent: stakeholders can follow the progress of the tasks in the development and publication work streams on our [JIRA](https://federal-spending-transparency.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&selectedProjectType=all){:target="_blank"} site.
 
-Operating in the spirit of transparency, we are using GitHub repositories for all our code. This external communication platform allows both internal and external stakeholders to monitor the progress of the DATA Act implementation processes. To provide feedback on the code, please file an issue on the relevant GitHub repository. You can find a list of all repositories [here](https://github.com/fedspendingtransparency){:target="_blank"}.
+Operating in the spirit of transparency, we use GitHub repositories for all our code. This external communication platform allows both internal and external stakeholders to monitor the progress of the Data Transparency efforts. To provide feedback on the code, please file an issue on the relevant GitHub repository. You can find a list of all repositories [here](https://github.com/fedspendingtransparency){:target="_blank"}.
 
 #### User-Centered Design Process
 
-The DATA Act team strives to have a deep understanding of who will be using the new USAspending.gov site and its related data upload features. This understanding is built on town-hall meetings, workshops, and user interviews reaching the public, industry, and federal agencies. Our aim is to understand the users’ context when using these products, their motivations, requirements, and goals. This understanding constantly evolves and informs the development process.
+The Data Transparency Team strives to have a deep understanding of who will be using the USAspending.gov site and its related data upload features. This understanding is built on town-hall meetings, workshops, and user interviews reaching the public, industry, and federal agencies. Our aim is to understand the users’ context when using these products, their motivations, requirements, and goals. This understanding constantly evolves and informs the development process.
 
-To help make our user research digestible and actionable, we have developed a preliminary set of “Personas”: snapshots of user types that capture and organize information that can inform design decisions. Examples of our latest personas can be found on the User-Centered Design page. As more research is conducted and designs are tested, they will evolve and become more accurate.
+To help make our user research digestible and actionable, we developed a set of “Personas”: snapshots of user types that capture and organize information that can inform design decisions. Examples of our latest personas can be found on the User-Centered Design page. As more research is conducted and designs are tested, they will evolve and become more accurate.
 
 Finally, we test. We have developed a comprehensive plan for conducting recurring usability testing to help us identify potential design concerns. Initially, usability testing is focusing on agecy users. Later, the focus will expand to “data consumers,” including grant recipients, researchers/reporters, and interested citizens.
 
