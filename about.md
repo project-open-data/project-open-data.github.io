@@ -48,6 +48,6 @@ The Data Transparency Team strives to have a deep understanding of who will be u
 
 To help make our user research digestible and actionable, we developed a set of “Personas”: snapshots of user types that capture and organize information that can inform design decisions. Examples of our latest personas can be found on the User-Centered Design page. As more research is conducted and designs are tested, they will evolve and become more accurate.
 
-Finally, we test. We have developed a comprehensive plan for conducting recurring usability testing to help us identify potential design concerns. Initially, usability testing is focusing on agecy users. Later, the focus will expand to “data consumers,” including grant recipients, researchers/reporters, and interested citizens.
+Finally, we test. We have developed a comprehensive plan for conducting recurring usability testing to help us identify potential design concerns. Initially, usability testing focused on agency users. Later, the focus expanded to “data consumers,” including grant recipients, researchers/reporters, and interested citizens.
 
 Usability testing will continue in a regular cadence in sync with the development cycles of our Agile development environment.  More information on our user-centered design process can be found [here]({{ site.baseurl }}/user-centered-design/).
